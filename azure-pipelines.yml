@@ -10,19 +10,16 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-
 - task: DotNetCoreInstaller@0
   displayName: 'Install .net core 3.0 (preview)'
   inputs:
     version: '3.0.100-preview6-012264'
-
 - task: DotNetCoreCLI@3
   displayName: Build
   inputs:  
     command: 'build'
     projects: |
       CityOfHeroesPlanner.sln
-
 - task: DotNetCoreCLI@3
   inputs:
     command: 'test'
