@@ -10,17 +10,21 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- task: DotNetCoreCLI@2
+
+- task: DotNetCoreInstaller@0
+  displayName: 'Install .net core 3.0 (preview)'
+  inputs:
+    version: '3.0.100-preview6-012264'
+
+- task: DotNetCoreCLI@3
   displayName: Build
   inputs:  
     command: 'build'
     projects: |
       CityOfHeroesPlanner.sln
-- task: VSTest@2
+
+- task: DotNetCoreCLI@3
   inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      **\*test*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**
-    searchFolder: '$(System.DefaultWorkingDirectory)'
+    command: 'test'
+    projects: |
+      **/*test*.csproj
