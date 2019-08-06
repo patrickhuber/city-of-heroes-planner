@@ -5,14 +5,13 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
-
 stages:
 - stage: Build
   displayName: Build
   jobs:
   - job: BuildJob
+    pool:
+      vmImage: 'ubuntu-latest'
     steps:
 
     - task: DotNetCoreInstaller@0
@@ -43,6 +42,8 @@ stages:
   condition: succeeded('Deploy')
   jobs:
   - job: DeployJob
+    pool:
+      vmImage: 'ubuntu-latest'
     steps:
 
     - task: AzureRmWebAppDeployment@4
