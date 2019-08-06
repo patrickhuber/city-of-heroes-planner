@@ -8,25 +8,46 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: DotNetCoreInstaller@0
-  displayName: 'Install .net core 3.0 (preview)'
-  inputs:
-    version: '3.0.100-preview6-012264'
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    steps:
 
-- task: DotNetCoreCLI@2
-  displayName: Build
-  inputs:  
-    command: 'build'
-    projects: |
-      **/*.sln
+    - task: DotNetCoreInstaller@0
+      displayName: 'Install .net core 3.0 (preview)'
+      inputs:
+        version: '3.0.100-preview6-012264'
 
-# uncomment to display all output files
-#- powershell: dir -Recurse
-  
-- task: DotNetCoreCLI@2
-  displayName: Test
-  inputs:
-    command: 'test'
-    projects: |
-      **/*Tests*.csproj
+    - task: DotNetCoreCLI@2
+      displayName: Build
+      inputs:  
+        command: 'build'
+          projects: |
+           **/*.sln
+
+    # uncomment to display all output files
+    #- powershell: dir -Recurse
+      
+    - task: DotNetCoreCLI@2
+      displayName: Test
+      inputs:
+        command: 'test'
+        projects: |
+          **/*Tests*.csproj
+
+- stage: Deploy
+  jobs:
+  - job: DeployJob
+    steps:
+
+    - task: AzureRmWebAppDeployment@4
+      inputs:
+        ConnectionType: 'AzureRM'
+        azureSubscription: 'city-of-heroes-planner - Azure'
+        appType: 'webApp'
+        WebAppName: 'city-of-heroes-planner'
+        deployToSlotOrASE: true
+        ResourceGroupName: 'coh'
+        SlotName: 'production'
+        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
