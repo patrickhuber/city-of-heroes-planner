@@ -20,8 +20,10 @@ steps:
   inputs:  
     command: 'build'
     projects: |
-      CityOfHeroesPlanner.sln
+      **/*.sln
 
+- powershell: dir -Recurse
+  
 - task: DotNetCoreCLI@2
   displayName: Test
   inputs:
