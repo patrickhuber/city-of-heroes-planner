@@ -22,11 +22,12 @@ steps:
     projects: |
       **/*.sln
 
-- powershell: dir -Recurse
+# uncomment to display all output files
+#- powershell: dir -Recurse
   
 - task: DotNetCoreCLI@2
   displayName: Test
   inputs:
     command: 'test'
     projects: |
-      **/*test*.csproj
+      **/*Tests*.csproj
