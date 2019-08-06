@@ -30,9 +30,3 @@ steps:
     command: 'test'
     projects: |
       **/*Tests*.csproj
-
-# Starter pipeline
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'XUnit'
-    testResultsFiles: '**/*.trx'
