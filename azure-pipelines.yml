@@ -37,9 +37,11 @@ stages:
           **/*Tests*.csproj
 
     - task: DotNetCoreCLI@2
+      displayName: Publish
       inputs:
         command: 'publish'
         publishWebProjects: true
+        zipAfterPublish: true
 
 - stage: Deploy
   displayName: Deploy
