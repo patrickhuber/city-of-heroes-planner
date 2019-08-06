@@ -37,6 +37,7 @@ stages:
           **/*Tests*.csproj
 
 - stage: Deploy
+  dependsOn: ["Build"]
   jobs:
   - job: DeployJob
     steps:
