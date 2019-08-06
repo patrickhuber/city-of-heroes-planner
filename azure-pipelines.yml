@@ -51,8 +51,9 @@ stages:
   - job: DeployJob
     pool:
       vmImage: 'ubuntu-latest'
-    steps:
-
+    steps:    
+    # uncomment to display all output files
+    - powershell: dir -Recurse
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
