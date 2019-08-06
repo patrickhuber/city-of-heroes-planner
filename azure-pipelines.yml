@@ -39,7 +39,7 @@ stages:
 - stage: Deploy
   displayName: Deploy
   dependsOn: Build
-  condition: succeeded('Deploy')
+  condition: succeeded('Build')
   jobs:
   - job: DeployJob
     pool:
