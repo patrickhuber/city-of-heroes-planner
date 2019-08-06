@@ -23,8 +23,8 @@ stages:
       displayName: Build
       inputs:  
         command: 'build'
-          projects: |
-           **/*.sln
+        projects: |
+          **/*.sln
 
     # uncomment to display all output files
     #- powershell: dir -Recurse
