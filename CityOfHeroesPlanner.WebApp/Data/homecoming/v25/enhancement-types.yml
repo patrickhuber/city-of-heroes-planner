@@ -1,0 +1,88 @@
+- id: defense
+  name: Defense
+- id: resistence
+  name: Resistence
+- id: pets
+  name: Pets
+- id: snipe
+  name: Snipe
+- id: heal
+  name: Heal
+- id: rangedst
+  name: Ranged Single Target
+- id: rangedaoe
+  name: Ranged AOE
+- id: meleest
+  name: Melee Single Target
+- id: resistence
+  name: Resistence
+- id: immob
+  name: Immobilize
+- id: stun
+  name: Stun
+- id: hold
+  name: Hold
+- id: slow
+  name: Slow
+- id: sleep
+  name: sleep
+- id: fear
+  name: Fear
+- id: confuse
+  name: confuse
+- id: flight
+  name: flight
+- id: jump
+  name: jump
+- id: teleport
+  name: Teleport
+- id: defdebuff
+  name: Defense Debuff
+- id: endmod
+  name: Endurance Modification
+- id: knockback
+  name: knockback
+- id: taunt
+  name: Taunt
+- id: tohit
+  name: ToHit Buff
+- id: tohitdeb
+  name: ToHit Debuff
+- id: petrech
+  name: Recharge Intensive Pets
+- id: travel
+  name: Universal Travel
+- id: accheal
+  name: Accurate Healing
+- id: accdefdeb
+  name: Accurate Defense Debuff
+- id: acctohitdeb
+  name: Accurate ToHit Debuff
+- id: aracnos
+  name: Soldiers of Arachnos
+- id: blaster
+  name: Blaster
+- id: brute
+  name: Brute
+- id: controller
+  name: Controller
+- id: corruptor
+  name: Corruptor
+- id: defender  
+  name: Defender
+- id: dominator
+  name: Dominator  
+- id: kheldian
+  name: Kheldian
+- id: mastermind
+  name: Mastermind
+- id: scrapper
+  name: Scrapper
+- id: stalker
+  name: Stalker
+- id: tanker
+  name: Tanker
+- id: sentinal
+  name: Sentinal
+- id: universaldamage
+  name: Universal Damage

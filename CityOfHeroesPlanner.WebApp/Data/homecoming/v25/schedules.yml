@@ -1,0 +1,8 @@
+﻿- name: a
+  value: 0.333
+- name: b
+  value: 0.2
+- name: c
+  value: 0.4
+- name: d
+  value: 0.6

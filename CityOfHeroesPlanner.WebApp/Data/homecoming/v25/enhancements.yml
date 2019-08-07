@@ -1,0 +1,49 @@
+﻿- name: Accuracy/Damage
+  shortname: Acc_Dmg
+  alias: crafted_kinetic_combat_a
+  set: enhancement-sets/kntcmb
+  effects:
+  - effect:
+      link: enhancement-effects/damage
+    modifier:  
+      link: effect-modifiers/2effectio
+    schedule:  
+      link: schedules/a
+  - link: enhancement-effects/accuracy
+    modifier:  
+      link: effect-modifiers/2effectio
+    schedule:  
+      link: schedules/a
+- name: Damage/Endurance
+  shortname: Dmg/EndRdx
+  alias: crafted_kinetic_combat_b
+  set: enhancement-sets/kntcmb
+  effects:
+  - effect:
+      link: enhancement-effects/endurancediscount
+    modifier:  
+      link: effect-modifiers/2effectio
+    schedule:  
+      link: schedules/a
+  - link: enhancement-effects/damage
+    modifier: 
+      link: effect-modifiers/2effectio
+    schedule: 
+      link: schedules/a
+- name: Damage/Recharge
+  shortname: Dmg/Rchg
+  alias: crafted_kinetic_combat_c
+  set: enhancement-sets/kntcmb
+  effects:
+  - effect:
+      link: enhancement-effects/damage
+    modifier:  
+      link: effect-modifiers/2effectio
+    schedule:  
+      link: schedules/a
+  - effect:
+      link: enhancement-effects/rechargetime
+    modifier:  
+      link: effect-modifiers/2effectio
+    schedule:  
+      link: schedules/a
