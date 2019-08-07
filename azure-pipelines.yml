@@ -65,7 +65,7 @@ stages:
       artifact: WebApp
 
     # uncomment to display all output files
-    - powershell: dir -Recurse
+    #- powershell: dir -Recurse
 
     - task: AzureRmWebAppDeployment@4
       inputs:
@@ -73,7 +73,5 @@ stages:
         azureSubscription: 'city-of-heroes-planner - Azure'
         appType: 'webApp'
         WebAppName: 'city-of-heroes-planner'
-        deployToSlotOrASE: true
         ResourceGroupName: 'coh'
-        SlotName: 'production'
         packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
