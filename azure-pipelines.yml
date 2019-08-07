@@ -43,7 +43,7 @@ stages:
         publishWebProjects: true
         zipAfterPublish: true
 
-    - publish: $(System.DefaultWorkingDirectory)/**/*.zip
+    - publish: '**/*.zip'
       artifact: WebApp
       displayName: UploadArtifacts
 
