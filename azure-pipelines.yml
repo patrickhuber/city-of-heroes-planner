@@ -37,11 +37,15 @@ stages:
           **/*Tests*.csproj
 
     - task: DotNetCoreCLI@2
-      displayName: Publish
+      displayName: Package
       inputs:
         command: 'publish'
         publishWebProjects: true
         zipAfterPublish: true
+
+    - publish: $(System.DefaultWorkingDirectory)/**/*.zip
+      artifact: WebApp
+      displayName: UploadArtifacts
 
 - stage: Deploy
   displayName: Deploy
@@ -52,8 +56,14 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:    
+
+    - download: current
+      displayName: DownloadArtifacts
+      artifact: WebApp
+
     # uncomment to display all output files
     - powershell: dir -Recurse
+
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
