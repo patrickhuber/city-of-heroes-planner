@@ -44,7 +44,6 @@ stages:
       inputs:
         command: 'publish'
         publishWebProjects: true
-        zipAfterPublish: true
         arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
 
     - publish: $(Build.ArtifactStagingDirectory)
@@ -77,4 +76,4 @@ stages:
         deployToSlotOrASE: true
         ResourceGroupName: 'coh'
         SlotName: 'production'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
