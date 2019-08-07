@@ -42,8 +42,9 @@ stages:
         command: 'publish'
         publishWebProjects: true
         zipAfterPublish: true
+        outputDir: $(Build.ArtifactStagingDirectory)
 
-    - publish: '**/*.zip'
+    - publish: $(Build.ArtifactStagingDirectory)
       artifact: WebApp
       displayName: UploadArtifacts
 
