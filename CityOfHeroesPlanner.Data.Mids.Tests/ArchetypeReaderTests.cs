@@ -11,70 +11,68 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
         [Fact]
         public void CanReadArchetype()
         {
-            using (var memoryStream = new MemoryStream())
+
+            var archetype = new Archetype
             {
-                var archetype = new Archetype {
-                    DisplayName = "test",
-                    HitPoints = 100,
-                    HitPointsMax = 1000f,
-                    DescriptionLong = "hello world",
-                    ResistenceMax = 90f,
-                    Origins = new string[] { "mutation", "science" },
-                    ClassType = 1,
-                    Column = 1234,
-                    ClassName = "test",
-                    DescriptionShort = "test",
-                    PrimaryGroup = "test",
-                    SecondaryGroup = "test2",
-                    Playable = true,
-                    RechargeMax = 2000f,
-                    DamageMax = 600f,
-                    RecoveryMax = 1000f,
-                    RegenerationMax = 1000f,
-                    RecoveryBase = 100f,
-                    RegenerationBase = 100f,
-                    ThreatBase = 100f,
-                    PerceptionBase = 100f
-                };
-                                
-                using (var binaryWriter = new BinaryWriter(memoryStream, Encoding.Default, true))
+                DisplayName = "test",
+                HitPoints = 100,
+                HitPointsMax = 1000f,
+                DescriptionLong = "hello world",
+                ResistenceMax = 90f,
+                Origins = new string[] { "mutation", "science" },
+                ClassType = 1,
+                Column = 1234,
+                ClassName = "test",
+                DescriptionShort = "test",
+                PrimaryGroup = "test",
+                SecondaryGroup = "test2",
+                Playable = true,
+                RechargeMax = 2000f,
+                DamageMax = 600f,
+                RecoveryMax = 1000f,
+                RegenerationMax = 1000f,
+                RecoveryBase = 100f,
+                RegenerationBase = 100f,
+                ThreatBase = 100f,
+                PerceptionBase = 100f
+            };
+
+            new ReaderTest(
+                setup: (writer) => 
                 {
-                    binaryWriter.Write(archetype.DisplayName);
-                    binaryWriter.Write(archetype.HitPoints);
-                    binaryWriter.Write(archetype.HitPointsMax);
-                    binaryWriter.Write(archetype.DescriptionLong);
-                    binaryWriter.Write(archetype.ResistenceMax);
-                    binaryWriter.Write(archetype.Origins.Length - 1);
-                    foreach(var origin in archetype.Origins)
+                    writer.Write(archetype.DisplayName);
+                    writer.Write(archetype.HitPoints);
+                    writer.Write(archetype.HitPointsMax);
+                    writer.Write(archetype.DescriptionLong);
+                    writer.Write(archetype.ResistenceMax);
+                    writer.Write(archetype.Origins.Length - 1);
+                    foreach (var origin in archetype.Origins)
                     {
-                        binaryWriter.Write(origin);
+                        writer.Write(origin);
                     }
-                    binaryWriter.Write(archetype.ClassName);
-                    binaryWriter.Write(archetype.ClassType);
-                    binaryWriter.Write(archetype.Column);
-                    binaryWriter.Write(archetype.DescriptionShort);
-                    binaryWriter.Write(archetype.PrimaryGroup);
-                    binaryWriter.Write(archetype.SecondaryGroup);
-                    binaryWriter.Write(archetype.Playable);
-                    binaryWriter.Write(archetype.RechargeMax);
-                    binaryWriter.Write(archetype.DamageMax);
-                    binaryWriter.Write(archetype.RecoveryMax);
-                    binaryWriter.Write(archetype.RegenerationMax);
-                    binaryWriter.Write(archetype.RecoveryBase);
-                    binaryWriter.Write(archetype.RegenerationBase);
-                    binaryWriter.Write(archetype.ThreatBase);
-                    binaryWriter.Write(archetype.PerceptionBase);
-                }
-
-                memoryStream.Seek(0, SeekOrigin.Begin);
-
-                using (var binaryReader = new BinaryReader(memoryStream, Encoding.Default, true))
+                    writer.Write(archetype.ClassName);
+                    writer.Write(archetype.ClassType);
+                    writer.Write(archetype.Column);
+                    writer.Write(archetype.DescriptionShort);
+                    writer.Write(archetype.PrimaryGroup);
+                    writer.Write(archetype.SecondaryGroup);
+                    writer.Write(archetype.Playable);
+                    writer.Write(archetype.RechargeMax);
+                    writer.Write(archetype.DamageMax);
+                    writer.Write(archetype.RecoveryMax);
+                    writer.Write(archetype.RegenerationMax);
+                    writer.Write(archetype.RecoveryBase);
+                    writer.Write(archetype.RegenerationBase);
+                    writer.Write(archetype.ThreatBase);
+                    writer.Write(archetype.PerceptionBase);
+                }, 
+                test: (reader) => 
                 {
-                    var archetypeReader = new ArchetypeReader(binaryReader);
+                    var archetypeReader = new ArchetypeReader(reader);
                     var record = archetypeReader.Read();
                     Assert.Equal(archetype, record);
                 }
-            }
+            ).Run();
         }
     }
 }

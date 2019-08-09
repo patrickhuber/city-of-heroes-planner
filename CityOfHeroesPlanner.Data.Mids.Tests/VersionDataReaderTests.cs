@@ -11,30 +11,25 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
         [Fact]
         public void CanReadVersionData()
         {
-            using (var memoryStream = new MemoryStream())
-            {                
-                var revision = 1234;
-                var revisionDate = new DateTime(2019, 04, 20);
-                var file = "test.csv";
+            var versionData = new VersionData
+            {
+                Revision = 1234,
+                RevisionDate = new DateTime(2019, 04, 20),
+                SourceFile = "test.csv"
+            };
 
-                using (var binaryWriter = new BinaryWriter(memoryStream, Encoding.Default, true))
-                {                    
-                    binaryWriter.Write(revision);
-                    binaryWriter.Write(revisionDate.ToBinary());
-                    binaryWriter.Write(file);                    
-                }
-
-                memoryStream.Seek(0, SeekOrigin.Begin);
-
-                using (var binaryReader = new BinaryReader(memoryStream, Encoding.Default, true))
+            new ReaderTest(
+                (writer) => 
                 {
-                    var reader = new VersionDataReader(binaryReader);
-                    var header = reader.Read();                    
-                    Assert.Equal(revision, header.Revision);
-                    Assert.Equal(revisionDate, header.RevisionDate);
-                    Assert.Equal(file, header.SourceFile);
-                }
-            }
+                    var versionDataWriter = new VersionDataWriter(writer);
+                    versionDataWriter.Write(versionData);
+                },
+                (reader) => 
+                {
+                    var versionDataReader = new VersionDataReader(reader);
+                    var header = versionDataReader.Read();
+                    Assert.Equal(versionData, header);
+                }).Run();
         }
     }
 }
