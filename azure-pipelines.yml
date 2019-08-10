@@ -73,4 +73,4 @@ stages:
         azureSubscription: '$(AzureSubscription)'
         appType: 'webApp'
         WebAppName: 'city-of-heroes'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
