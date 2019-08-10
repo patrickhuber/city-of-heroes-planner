@@ -66,3 +66,11 @@ stages:
 
     # uncomment to display all output files
     #- powershell: dir -Recurse
+
+    - task: AzureRmWebAppDeployment@4
+      inputs:
+        ConnectionType: 'AzureRM'
+        azureSubscription: '$(AzureSubscription)'
+        appType: 'webApp'
+        WebAppName: 'city-of-heroes'
+        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
