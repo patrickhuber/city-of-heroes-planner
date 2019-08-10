@@ -6,7 +6,7 @@ using System.Text;
 namespace CityOfHeroesPlanner.Data.Mids
 {
     public class Power
-    {        
+    {
         public int Index { get; set; }
         public string FullName { get; set; }
         public string GroupName { get; set; }
@@ -14,6 +14,7 @@ namespace CityOfHeroesPlanner.Data.Mids
         public string Name { get; set; }
         public string Display { get; set; }
         public int Available { get; set; }
+        public Requirement Requirement {get;set;}
         public int ModesRequired { get; set; }
         public int ModesDisallowed { get; set; }
         public int PowerType { get; set; }
@@ -31,20 +32,20 @@ namespace CityOfHeroesPlanner.Data.Mids
         public float InterruptTime { get; set; }
         public float CastTime { get; set; }
         public float RechargeTime { get; set; }
-        public float ActivePeriod { get; set; }
+        public float ActivatePeriod { get; set; }
         public int EffectArea { get; set; }
         public float Radius { get; set; }
-        public int Arch { get; set; }
+        public int Arc { get; set; }
         public int MaxTargets { get; set; }
         public string MaxBoosts { get; set; }
-        public int CastFlag { get; set; }
+        public int CastFlags { get; set; }
         public int ArtificalIntelligenceReport { get; set; }
         public int NumberOfCharges { get; set; }
         public int UsageTime { get; set; }
         public int LifeTime { get; set; }
         public int LifeTimeInGame { get; set; }
         public int NumberAllowed { get; set; }
-        public int DoNotSave { get; set; }
+        public bool DoNotSave { get; set; }
         public string[] BoostsAllowed { get; set; }
         public bool CastThroughHold { get; set; }
         public bool IgnoreStrength { get; set; }
@@ -54,8 +55,8 @@ namespace CityOfHeroesPlanner.Data.Mids
         public bool ClickBuff { get; set; }
         public bool AlwaysToggle { get; set; }
         public int Level { get; set; }
-        public bool AlwaysFrontLoading { get; set; }
-        public bool VariableEnbled { get; set; }
+        public bool AllowFrontLoading { get; set; }
+        public bool VariableEnabled { get; set; }
         public string VariableName { get; set; }
         public int VariableMin { get; set; }
         public int VariableMax { get; set; }
@@ -68,7 +69,7 @@ namespace CityOfHeroesPlanner.Data.Mids
         public bool MutuallyExclusiveIgnore { get; set; }
         public bool AbsorbSummonEffects { get; set; }
         public bool AbsorbSummonAttributes { get; set; }
-        public bool ShowSummaryAnyway { get; set; }
+        public bool ShowSummonAnyway { get; set; }
         public bool NeverAutoUpdate { get; set; }
         public bool NeverAutoUpdateRequirements { get; set; }
         public bool IncludeFlag { get; set; }
@@ -105,13 +106,13 @@ namespace CityOfHeroesPlanner.Data.Mids
                    InterruptTime == power.InterruptTime &&
                    CastTime == power.CastTime &&
                    RechargeTime == power.RechargeTime &&
-                   ActivePeriod == power.ActivePeriod &&
+                   ActivatePeriod == power.ActivatePeriod &&
                    EffectArea == power.EffectArea &&
                    Radius == power.Radius &&
-                   Arch == power.Arch &&
+                   Arc == power.Arc &&
                    MaxTargets == power.MaxTargets &&
                    MaxBoosts == power.MaxBoosts &&
-                   CastFlag == power.CastFlag &&
+                   CastFlags == power.CastFlags &&
                    ArtificalIntelligenceReport == power.ArtificalIntelligenceReport &&
                    NumberOfCharges == power.NumberOfCharges &&
                    UsageTime == power.UsageTime &&
@@ -126,8 +127,8 @@ namespace CityOfHeroesPlanner.Data.Mids
                    ClickBuff == power.ClickBuff &&
                    AlwaysToggle == power.AlwaysToggle &&
                    Level == power.Level &&
-                   AlwaysFrontLoading == power.AlwaysFrontLoading &&
-                   VariableEnbled == power.VariableEnbled &&
+                   AllowFrontLoading == power.AllowFrontLoading &&
+                   VariableEnabled == power.VariableEnabled &&
                    VariableName == power.VariableName &&
                    VariableMin == power.VariableMin &&
                    VariableMax == power.VariableMax &&
@@ -137,7 +138,7 @@ namespace CityOfHeroesPlanner.Data.Mids
                    MutuallyExclusiveIgnore == power.MutuallyExclusiveIgnore &&
                    AbsorbSummonEffects == power.AbsorbSummonEffects &&
                    AbsorbSummonAttributes == power.AbsorbSummonAttributes &&
-                   ShowSummaryAnyway == power.ShowSummaryAnyway &&
+                   ShowSummonAnyway == power.ShowSummonAnyway &&
                    NeverAutoUpdate == power.NeverAutoUpdate &&
                    NeverAutoUpdateRequirements == power.NeverAutoUpdateRequirements &&
                    IncludeFlag == power.IncludeFlag &&
@@ -152,7 +153,8 @@ namespace CityOfHeroesPlanner.Data.Mids
                    Equal(SubPowers, power.SubPowers) &&
                    Equal(IgnoreEnhancements, power.IgnoreEnhancements) &&
                    Equal(IgnoreBuffs, power.IgnoreBuffs) &&
-                   Equal(Effects, power.Effects);
+                   Equal(Effects, power.Effects) &&
+                   Requirement.Equals(power.Requirement);
         }
 
         private static bool Equal<T>(T[] first, T[] second)
@@ -201,13 +203,13 @@ namespace CityOfHeroesPlanner.Data.Mids
             hashCode = hashCode * -1521134295 + InterruptTime.GetHashCode();
             hashCode = hashCode * -1521134295 + CastTime.GetHashCode();
             hashCode = hashCode * -1521134295 + RechargeTime.GetHashCode();
-            hashCode = hashCode * -1521134295 + ActivePeriod.GetHashCode();
+            hashCode = hashCode * -1521134295 + ActivatePeriod.GetHashCode();
             hashCode = hashCode * -1521134295 + EffectArea.GetHashCode();
             hashCode = hashCode * -1521134295 + Radius.GetHashCode();
-            hashCode = hashCode * -1521134295 + Arch.GetHashCode();
+            hashCode = hashCode * -1521134295 + Arc.GetHashCode();
             hashCode = hashCode * -1521134295 + MaxTargets.GetHashCode();
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(MaxBoosts);
-            hashCode = hashCode * -1521134295 + CastFlag.GetHashCode();
+            hashCode = hashCode * -1521134295 + CastFlags.GetHashCode();
             hashCode = hashCode * -1521134295 + ArtificalIntelligenceReport.GetHashCode();
             hashCode = hashCode * -1521134295 + NumberOfCharges.GetHashCode();
             hashCode = hashCode * -1521134295 + UsageTime.GetHashCode();
@@ -224,8 +226,8 @@ namespace CityOfHeroesPlanner.Data.Mids
             hashCode = hashCode * -1521134295 + ClickBuff.GetHashCode();
             hashCode = hashCode * -1521134295 + AlwaysToggle.GetHashCode();
             hashCode = hashCode * -1521134295 + Level.GetHashCode();
-            hashCode = hashCode * -1521134295 + AlwaysFrontLoading.GetHashCode();
-            hashCode = hashCode * -1521134295 + VariableEnbled.GetHashCode();
+            hashCode = hashCode * -1521134295 + AllowFrontLoading.GetHashCode();
+            hashCode = hashCode * -1521134295 + VariableEnabled.GetHashCode();
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(VariableName);
             hashCode = hashCode * -1521134295 + VariableMin.GetHashCode();
             hashCode = hashCode * -1521134295 + VariableMax.GetHashCode();
@@ -238,7 +240,7 @@ namespace CityOfHeroesPlanner.Data.Mids
             hashCode = hashCode * -1521134295 + MutuallyExclusiveIgnore.GetHashCode();
             hashCode = hashCode * -1521134295 + AbsorbSummonEffects.GetHashCode();
             hashCode = hashCode * -1521134295 + AbsorbSummonAttributes.GetHashCode();
-            hashCode = hashCode * -1521134295 + ShowSummaryAnyway.GetHashCode();
+            hashCode = hashCode * -1521134295 + ShowSummonAnyway.GetHashCode();
             hashCode = hashCode * -1521134295 + NeverAutoUpdate.GetHashCode();
             hashCode = hashCode * -1521134295 + NeverAutoUpdateRequirements.GetHashCode();
             hashCode = hashCode * -1521134295 + IncludeFlag.GetHashCode();

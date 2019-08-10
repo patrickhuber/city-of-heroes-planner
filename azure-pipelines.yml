@@ -70,8 +70,8 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'city-of-heroes-planner - Azure'
+        azureSubscription: 'city-of-heroes - Azure'
         appType: 'webApp'
-        WebAppName: 'city-of-heroes-planner'
+        WebAppName: 'city-of-heroes'
         ResourceGroupName: 'coh'
         packageForLinux: '$(Pipeline.Workspace)/**/*.zip'

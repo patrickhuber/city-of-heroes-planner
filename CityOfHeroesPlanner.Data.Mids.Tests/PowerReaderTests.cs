@@ -40,20 +40,20 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
                     InterruptTime = .2f,
                     CastTime = .2f,
                     RechargeTime = 120f,
-                    ActivePeriod = 10f,
+                    ActivatePeriod = 10f,
                     EffectArea = index++,
                     Radius = 15f,
-                    Arch = 30,
+                    Arc = 30,
                     MaxTargets = 10,
                     MaxBoosts = "MaxBoosts",
-                    CastFlag =index++,
+                    CastFlags =index++,
                     ArtificalIntelligenceReport = index++,
                     NumberOfCharges = index++,
                     UsageTime = index++,
                     LifeTime = index++,
                     LifeTimeInGame = index++,
                     NumberAllowed = index++,
-                    DoNotSave = index++,
+                    DoNotSave = true,
                     BoostsAllowed = new string[] { },
                     CastThroughHold = false,
                     IgnoreStrength = false,                    
@@ -63,8 +63,8 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
                     ClickBuff = true,
                     AlwaysToggle = false,
                     Level = 20,
-                    AlwaysFrontLoading = true,
-                    VariableEnbled = false,
+                    AllowFrontLoading = true,
+                    VariableEnabled = false,
                     VariableName = "VariableName",
                     VariableMin = 10,
                     VariableMax = 20,
@@ -77,11 +77,21 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
                     MutuallyExclusiveIgnore = false,
                     AbsorbSummonEffects = true,
                     AbsorbSummonAttributes = false,
+                    Requirement = new Requirement
+                    {
+                        ClassNames = new string[] { },
+                        ClassNamesNot = new string[] { },
+                        PowerIDs = new string[][] { },
+                        PowerIDsNot = new string[][] { },
+                    },
+                    Effects = new Effect[] { },
+                    ForcedClass = "ForcedClass",
                 };
                 new ReaderTest(
                     setup: (writer) => 
                     {
-
+                        var powerWriter = new PowerWriter(writer);
+                        powerWriter.Write(power);
                     }, 
                     test: (reader) => 
                     {
