@@ -1,0 +1,12 @@
+display_name: Pain Domination
+archetype: 11
+set_type: 2
+image_name: PainDom.png
+full_name: Mastermind_Buff.Pain_Domination
+set_name: Pain_Domination
+description: Pain Domination gives a character the ability to manipulate, nullify and amplify pain.  Ultimately this grants the user powerful healing, buffing and debuffing powers.  It's healing output is unmatched!
+sub_name: Pain Domination
+class_type: Class_Mastermind
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

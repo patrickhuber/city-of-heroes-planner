@@ -1,0 +1,12 @@
+display_name: Widow Teamwork
+archetype: 14
+set_type: 2
+image_name: i12_Sec_Nightwidow.png
+full_name: Teamwork.Widow_Teamwork
+set_name: Widow_Teamwork
+description: Night Widows receive advanced Teamwork Training, couple with advanced defensive techniques of their own.
+sub_name: Widow Teamwork
+class_type: Class_Arachnos_Widow
+trunk_set: Teamwork.Teamwork
+link_secondary: ''
+mutually_exclusive_groups: []

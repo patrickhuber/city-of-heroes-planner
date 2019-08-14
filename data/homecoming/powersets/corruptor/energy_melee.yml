@@ -1,0 +1,12 @@
+display_name: Energy Melee
+archetype: 12
+set_type: 1
+image_name: EnergyMeleeStalker.png
+full_name: Stalker_Melee.Energy_Melee
+set_name: Energy_Melee
+description: You can use Energy Melee to power your blows with pure energy. These focused power attacks often Disorient opponents. Like all Stalker primary attack powers, Energy Melee attacks can land a Critical Hit for double damage, if you are properly Hidden or if your target is Slept or Held.
+sub_name: Energy Melee
+class_type: Class_Stalker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

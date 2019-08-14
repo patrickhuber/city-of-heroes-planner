@@ -1,0 +1,12 @@
+display_name: Storm Summoning
+archetype: 9
+set_type: 2
+image_name: StormSummon.png
+full_name: Corruptor_Buff.Storm_Summoning
+set_name: Storm_Summoning
+description: You can command the forces of nature! Storm Summoning allows you to control wind and weather to aid your allies and wreak havoc on your foes.
+sub_name: Storm Summoning
+class_type: Class_Corruptor
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

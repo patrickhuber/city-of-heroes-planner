@@ -1,0 +1,11 @@
+display_name: Electricity Manipulation
+set_type: 2
+image_name: ElectricityManipulation.png
+full_name: Blaster_Support.Electricity_Manipulation
+set_name: Electricity_Manipulation
+description: Electricity Manipulation empowers you with various electrical melee attack and support powers. Electricity Manipulation powers can drain foes' Endurance and temporarily halt their Endurance recovery.  Some powers return a portion of drained Endurance to you.
+sub_name: Electricity Manipulation
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

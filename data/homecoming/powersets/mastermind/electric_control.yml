@@ -1,0 +1,12 @@
+display_name: Electric Control
+archetype: 10
+set_type: 1
+image_name: ElectricControl.png
+full_name: Dominator_Control.Electric_Control
+set_name: Electric_Control
+description: Electricity leaps and sparks at your command.  You can use raw electrical power to paralyze, knockdown and drain the endurance of foes.
+sub_name: Electric Control
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Cold Domination
+archetype: 1
+set_type: 2
+image_name: ColdDomination.png
+full_name: Controller_Buff.Cold_Domination
+set_name: Cold_Domination
+description: Cold Domination powers allow you to manipulate cold and ice to protect your allies and weaken your enemies.
+sub_name: Cold Domination
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

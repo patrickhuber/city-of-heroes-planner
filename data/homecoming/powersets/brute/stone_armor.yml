@@ -1,0 +1,14 @@
+display_name: Stone Armor
+archetype: 8
+set_type: 2
+image_name: StoneArmor.png
+full_name: Brute_Defense.Stone_Armor
+set_name: Stone_Armor
+description: You can transform your skin into various forms of rock and stone. Stone Armor is one of the only Brute Defensive Power Sets that offers defense to Psionics. Stone Armor offers amazing Defense, but a few Stone Armors are mutually exclusive to each other. Some Armors, although offering superior defense, also slow you down due to its enormous bulk.
+sub_name: Stone Armor
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups:
+- id: 2595
+  name: Brute_Melee.Claws

@@ -1,0 +1,11 @@
+display_name: Energy Manipulation
+set_type: 2
+image_name: EnergyManipulation.png
+full_name: Blaster_Support.Energy_Manipulation
+set_name: Energy_Manipulation
+description: Energy Manipulation allows you to channel energy to deliver deadly blows. These powers also help you focus your power to increase your own abilities.
+sub_name: Energy Manipulation
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

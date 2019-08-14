@@ -1,0 +1,12 @@
+display_name: Trick Arrow
+archetype: 1
+set_type: 2
+image_name: TrickArrow.png
+full_name: Controller_Buff.Trick_Arrow
+set_name: Trick_Arrow
+description: Trick Arrows are tipped with an odd variety of payloads, which if used strategically, can dramatically alter a battle site.
+sub_name: Trick Arrow
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

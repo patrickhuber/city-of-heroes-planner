@@ -1,0 +1,12 @@
+display_name: Traps
+archetype: 2
+set_type: 1
+image_name: Traps.png
+full_name: Defender_Buff.Traps
+set_name: Traps
+description: Traps are devices and gadgets you construct to cripple your foes. By using them strategically, you can gain a great tactical advantage. Traps include ambush devises, as well as gadgets that can be constructed to aid you and your allies.
+sub_name: Traps
+class_type: Class_Defender
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

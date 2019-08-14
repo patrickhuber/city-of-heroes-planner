@@ -1,0 +1,12 @@
+display_name: Super Strength
+archetype: 8
+set_type: 1
+image_name: SuperStrength.png
+full_name: Brute_Melee.Super_Strength
+set_name: Super_Strength
+description: Super Strength gives you combat powers derived from your super-human physical strength. Super Strength powers tend to knock foes back.
+sub_name: Super Strength
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

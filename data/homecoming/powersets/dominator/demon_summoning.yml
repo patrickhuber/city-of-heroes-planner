@@ -1,0 +1,12 @@
+display_name: Demon Summoning
+archetype: 11
+set_type: 1
+image_name: DemonSummoning.png
+full_name: Mastermind_Summon.Demon_Summoning
+set_name: Demon_Summoning
+description: Conjure demons from the depths of the netherworld and beyond.  These demonic servitors wield hellfire and serve you through some dark compact.  You are capable of summoning a variety of different infernal minions each with its own strengths and weaknesses.
+sub_name: Demon Summoning
+class_type: Class_Mastermind
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

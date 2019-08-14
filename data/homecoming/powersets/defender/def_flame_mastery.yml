@@ -1,0 +1,12 @@
+display_name: Flame Mastery
+archetype: 2
+set_type: 3
+image_name: FireMastery.png
+full_name: Epic.Def_Flame_Mastery
+set_name: Def_Flame_Mastery
+description: You have Mastery over Fire and Flame to control your foes and to add some much needed armor and defense.
+sub_name: ''
+class_type: Class_Defender
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

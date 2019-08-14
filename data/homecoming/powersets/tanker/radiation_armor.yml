@@ -1,0 +1,12 @@
+display_name: Radiation Armor
+archetype: 4
+set_type: 1
+image_name: RadiationArmor.png
+full_name: Tanker_Defense.Radiation_Armor
+set_name: Radiation_Armor
+description: Radiation emanates from your body which harms foes, but empowers and shields yourself. You can use this energy to absorb damage, heal from your wounds and debilitate nearby foes.
+sub_name: Radiation Armor
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Kinetics
+archetype: 2
+set_type: 1
+image_name: Kinetics.png
+full_name: Defender_Buff.Kinetics
+set_name: Kinetics
+description: You are a master at manipulating and transferring Kinetic energy. You can manipulate the potential energy found in objects to aid your allies or weaken your foes.
+sub_name: Kinetics
+class_type: Class_Defender
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

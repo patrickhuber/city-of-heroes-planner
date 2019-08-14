@@ -1,0 +1,11 @@
+display_name: Assault Rifle
+set_type: 1
+image_name: AssaultRifle.png
+full_name: Blaster_Ranged.Assault_Rifle
+set_name: Assault_Rifle
+description: The Assault Rifle is a state-of-the-art piece of hardware. It is equipped to handle an impressive arsenal of munitions and firing modes. The Assault Rifle is also equipped with the latest in targeting technology, and is a very accurate weapon.
+sub_name: Assault Rifle
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

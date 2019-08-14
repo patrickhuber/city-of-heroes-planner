@@ -1,0 +1,12 @@
+display_name: Fiery Aura
+archetype: 8
+set_type: 2
+image_name: FireMastery2.png
+full_name: Brute_Defense.Fiery_Aura
+set_name: Fiery_Aura
+description: You can engulf yourself in protective flames.  Fiery Aura offers superior resistance to Fire damage, but weak resistance to Cold damage and no protection to Knockback. Fiery Aura is the most offensive of the Brute's defensive Power Sets, offering some damage output.
+sub_name: Fiery Aura
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Regeneration
+archetype: 4
+set_type: 1
+image_name: Regeneration.png
+full_name: Tanker_Defense.Regeneration
+set_name: Regeneration
+description: Regeneration lets you regenerate more quickly from damage and effects. Regeneration offers almost no actual damage resistance, but your Hit Point Regeneration can become so incredibly fast, that your wounds heal almost instantly.  Those who possess this power set have little downtime.
+sub_name: ''
+class_type: ''
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

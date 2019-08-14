@@ -1,0 +1,12 @@
+display_name: Icy Assault
+archetype: 10
+set_type: 2
+image_name: IceAssault.png
+full_name: Dominator_Assault.Icy_Assault
+set_name: Icy_Assault
+description: Ice Assault allows the player to use Cold-based attacks. Conjure up frozen melee weapons or hurl deadly shards of Ice. Icy powers are known for their ability to slow an opponent.
+sub_name: Icy Assault
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

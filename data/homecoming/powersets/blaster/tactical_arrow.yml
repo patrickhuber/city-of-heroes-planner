@@ -1,0 +1,11 @@
+display_name: Tactical Arrow
+set_type: 2
+image_name: TrickArrow.png
+full_name: Blaster_Support.Tactical_Arrow
+set_name: Tactical_Arrow
+description: Gain an advantage in combat with a combination of training techniques that boost your accuracy and movement skils in addition of Tactical Arrows tipped with a variety of payloads, which if used strategically, can dramatically alter a battle site.
+sub_name: Tactical Arrow
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Force Field
+archetype: 1
+set_type: 2
+image_name: ForceField.png
+full_name: Controller_Buff.Force_Field
+set_name: Force_Field
+description: The Force Field powers give you the ability to create shells of energy that protect yourself and your allies from various forms of damage and harm.  Force Fields do not reduce damage, but reduced your allies chance of getting hit in the first place.
+sub_name: Force Field
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

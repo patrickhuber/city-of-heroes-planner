@@ -1,0 +1,12 @@
+display_name: Martial Arts
+archetype: 4
+set_type: 2
+image_name: MartialArtsHero.png
+full_name: Tanker_Melee.Martial_Arts
+set_name: Martial_Arts
+description: A compilation of various fighting techniques from around the world, Martial Arts makes you a master in the art of hand to hand combat. Martial Artists tend to be very accurate with their strikes.
+sub_name: Martial Arts
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Thermal Radiation
+archetype: 9
+set_type: 2
+image_name: ThermalRadiation.png
+full_name: Corruptor_Buff.Thermal_Radiation
+set_name: Thermal_Radiation
+description: You have the ability to control heat and Thermal Radiation.  This allows you to protect allies from harm, heal them or increase their abilities.  You can also weaken your enemies.
+sub_name: Thermal Radiation
+class_type: Class_Corruptor
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

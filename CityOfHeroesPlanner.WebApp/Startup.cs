@@ -1,3 +1,6 @@
+using GraphQL.Server;
+using GraphQL.Server.Ui.Playground;
+using GraphQL.Types;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -47,6 +50,9 @@ namespace CityOfHeroesPlanner.WebApp
                 endpoints.MapBlazorHub();
                 endpoints.MapFallbackToPage("/_Host");
             });
+
+            app.UseGraphQL<ISchema>("/graphql");
+            app.UseGraphQLPlayground(new GraphQLPlaygroundOptions { });
         }
     }
 }

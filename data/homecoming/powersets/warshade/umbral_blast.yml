@@ -1,0 +1,12 @@
+display_name: Umbral Blast
+archetype: 6
+set_type: 1
+image_name: UmbralBlast.png
+full_name: Warshade_Offensive.Umbral_Blast
+set_name: Umbral_Blast
+description: Masters of the void, Warshades can manipulate dark energy, gravity and matter to blast and dominate their foes.  The gravimetric nature of most Umbral Blast powers often slows the targets attack and movement speed.
+sub_name: Umbral Blast
+class_type: Class_Warshade
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

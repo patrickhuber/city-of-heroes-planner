@@ -1,0 +1,12 @@
+display_name: Necromancy
+archetype: 11
+set_type: 1
+image_name: Necromancy.png
+full_name: Mastermind_Summon.Necromancy
+set_name: Necromancy
+description: Command the forces of Death. Necromancy allows you to summon undead henchmen to do your bidding. Some Necromancy powers can even grant your undead henchmen additional powers. Most Undead Henchmen generally have good resistances to Cold, Negative Energy, and Psionic damage as well as Sleep, Fear and Disorient. Undead Henchman cannot be resurrected.
+sub_name: Necromancy
+class_type: Class_Mastermind
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Dark Blast
+archetype: 9
+set_type: 1
+image_name: DarkBlast.png
+full_name: Corruptor_Ranged.Dark_Blast
+set_name: Dark_Blast
+description: Dark Blast summons the powers of the Netherworld to defeat your foes. The draining effects of most of these powers can reduce your target's chance to hit.
+sub_name: Dark Blast
+class_type: Class_Corruptor
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Earth Assault
+archetype: 10
+set_type: 2
+image_name: StoneMastery.png
+full_name: Dominator_Assault.Earth_Assault
+set_name: Earth_Assault
+description: With Earth Assault, you can damage foes with the very ground they walk upon.  You can conjure stone weapons, hurl boulders, and even cause magma to erupt from the ground.
+sub_name: Earth Assault
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

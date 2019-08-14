@@ -1,0 +1,12 @@
+display_name: Ice Melee
+archetype: 4
+set_type: 2
+image_name: IceMelee.png
+full_name: Tanker_Melee.Ice_Melee
+set_name: Ice_Melee
+description: Ice Melee allows the player to use Cold-based attacks, and even conjure up frozen melee weapons. Ice Melee powers are known for their ability to slow an opponent.
+sub_name: Ice Melee
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

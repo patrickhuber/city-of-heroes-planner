@@ -1,0 +1,12 @@
+display_name: Ice Blast
+archetype: 9
+set_type: 1
+image_name: IceBlast.png
+full_name: Corruptor_Ranged.Ice_Blast
+set_name: Ice_Blast
+description: Ice Blast allows you to use the power of ice against your foes, with a tendency to Slow their attacks and movement.
+sub_name: Ice Blast
+class_type: Class_Corruptor
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

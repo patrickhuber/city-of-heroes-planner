@@ -1,0 +1,12 @@
+display_name: Bane Spider Soldier
+archetype: 13
+set_type: 1
+image_name: i12_Pri_Bane.png
+full_name: Arachnos_Soldiers.Bane_Spider_Soldier
+set_name: Bane_Spider_Soldier
+description: Bane Spiders are the commandos of the Arachnos organization, providing excellent stealth and offensive capabilities.
+sub_name: Bane Spider Soldier
+class_type: Class_Arachnos_Soldier
+trunk_set: Arachnos_Soldiers.Arachnos_Soldier
+link_secondary: Training_Gadgets.Bane_Spider_Training
+mutually_exclusive_groups: []

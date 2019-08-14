@@ -1,0 +1,12 @@
+display_name: Darkness Affinity
+archetype: 1
+set_type: 2
+image_name: DarknessAffinity.png
+full_name: Controller_Buff.Darkness_Affinity
+set_name: Darkness_Affinity
+description: Focus the dark power of the Netherworld to weaken your foes and aid your allies. Darkness Affinity focuses on draining your opponent.
+sub_name: Darkness Affinity
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

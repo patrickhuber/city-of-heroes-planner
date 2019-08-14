@@ -1,0 +1,12 @@
+display_name: War Mace
+archetype: 8
+set_type: 1
+image_name: WarMace.png
+full_name: Brute_Melee.War_Mace
+set_name: War_Mace
+description: You can wield a Medieval Mace and master a variety of powerful Smashing attacks. Attack speeds are good, and the weight of the Mace has good Disorienting capabilities. The sheer weight of this weapon give it a bonus to hit.
+sub_name: War Mace
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

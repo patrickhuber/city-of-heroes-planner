@@ -1,0 +1,26 @@
+display_name: Dominator
+hit_points: 1017
+hit_points_max: 1606.344970703125
+description_long: As a Dominator, you control a devastating combination of control and assault powers. A Dominator can freeze foes in place, render them unconscious, or cause them to flee in terror. Dominators can also smite their foes with a selection of single-target melee and ranged attacks, with devastating effectiveness. Additionally, each time a Dominator attacks, he comes closer to unleashing his true sadistic power of Domination. With so much emphasis on diverse offensive powers, Dominators lack in defenses and work best with teammates who can provide protection.
+resistence_max: 0.75
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 3
+column: 11
+class_name: Class_Dominator
+description_short: Controls foes and blow them away.
+primary_group: Dominator_CONTROL
+secondary_group: Dominator_Assault
+playable: true
+recharge_max: 5
+damage_max: 4
+recovery_max: 7.5
+regeneration_max: 20
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 1
+perception_base: 1153

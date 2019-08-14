@@ -1,0 +1,12 @@
+display_name: Fire Mastery
+archetype: 7
+set_type: 3
+image_name: FieryMelee.png
+full_name: Epic.Sentinel_Fire_Mastery
+set_name: Sentinel_Fire_Mastery
+description: You have Mastery over Fire and Flame to blast your foes and control your foes.
+sub_name: Fire Mastery
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

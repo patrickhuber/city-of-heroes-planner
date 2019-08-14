@@ -1,0 +1,12 @@
+display_name: Ice Armor
+archetype: 8
+set_type: 2
+image_name: IceArmor.png
+full_name: Brute_Defense.Ice_Armor
+set_name: Ice_Armor
+description: You can dramatically reduce your core body temperature to form various armors of ice around yourself. You can protect yourself from many different damage types, and you gain exceptional resistance to Cold based attacks. However, this set offers little protection to Fire based powers and no protection against Psionics.
+sub_name: Ice Armor
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

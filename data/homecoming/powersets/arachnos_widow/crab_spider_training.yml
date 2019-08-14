@@ -1,0 +1,12 @@
+display_name: Crab Spider Training
+archetype: 13
+set_type: 2
+image_name: i12_Sec_Crab.png
+full_name: Training_Gadgets.Crab_Spider_Training
+set_name: Crab_Spider_Training
+description: Crab Spiders are heavy infantry in the Arachnos Organization, with a wide array of ranged and melee combat skills.
+sub_name: Crab Spider Training
+class_type: Class_Arachnos_Soldier
+trunk_set: Training_Gadgets.Training_and_Gadgets
+link_secondary: ''
+mutually_exclusive_groups: []

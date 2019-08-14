@@ -1,0 +1,12 @@
+display_name: Fiery Aura
+archetype: 12
+set_type: 2
+image_name: FireMastery2.png
+full_name: Stalker_Defense.Fiery_Aura
+set_name: Fiery_Aura
+description: Through intense heat and fire, you can absorb many kinds of damage.  Fiery Aura offers superior resistance to Fire damage, but weak resistance to Cold damage and no protection to Knockback. Fiery Aura is an offensive oriented Power Set, offering some damage output.
+sub_name: Fiery Aura
+class_type: Class_Stalker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

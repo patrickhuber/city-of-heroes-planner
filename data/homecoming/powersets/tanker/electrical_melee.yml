@@ -1,0 +1,12 @@
+display_name: Electrical Melee
+archetype: 4
+set_type: 2
+image_name: ElectricMelee.png
+full_name: Tanker_Melee.Electrical_Melee
+set_name: Electrical_Melee
+description: Electricity surges through your body and you can channel this electricity through your fists. Electrical Melee allows you to pummel your foes with various melee attack powers while jolting them with a powerful electric current.  Electric Melee powers can drain foes' Endurance and temporarily halt their Endurance recovery.  Some powers may even return a portion of drained Endurance back to you.
+sub_name: Electrical Melee
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

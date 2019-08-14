@@ -1,0 +1,12 @@
+display_name: Broad Sword
+archetype: 8
+set_type: 1
+image_name: BroadSword.png
+full_name: Brute_Melee.Broad_Sword
+set_name: Broad_Sword
+description: Wield a Broad Sword and master a variety of powerful Lethal attacks. Slower than a Katana, the Broad Sword's weight strikes with more force and damage. The Broadsword can reduce an enemy's Defense, allowing other attacks to hit more reliably. The Broad Sword is a powerful melee weapon that has a bonus to Accuracy.
+sub_name: Broad Sword
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

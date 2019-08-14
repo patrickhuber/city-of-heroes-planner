@@ -1,0 +1,11 @@
+display_name: Fire Manipulation
+set_type: 2
+image_name: FireManipulation.png
+full_name: Blaster_Support.Fire_Manipulation
+set_name: Fire_Manipulation
+description: Fire Manipulation lets you surround yourself with various manifestations of fire and flames, assaulting and burning nearby foes. Fire Manipulation powers tend to set foes ablaze for added damage over time.
+sub_name: Fire Manipulation
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

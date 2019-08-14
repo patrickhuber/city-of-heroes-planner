@@ -1,0 +1,12 @@
+display_name: Fortunata Training
+archetype: 14
+set_type: 1
+image_name: i12_Pri_Fortunata.png
+full_name: Widow_Training.Fortunata_Training
+set_name: Fortunata_Training
+description: Fortunata's have a wide array of extremely potent psychic attacks and controls.
+sub_name: Fortunata Training
+class_type: Class_Arachnos_Widow
+trunk_set: Widow_Training.Widow_Training
+link_secondary: Teamwork.Fortunata_Teamwork
+mutually_exclusive_groups: []

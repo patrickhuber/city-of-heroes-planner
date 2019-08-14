@@ -1,0 +1,12 @@
+display_name: Earth Control
+archetype: 10
+set_type: 1
+image_name: EarthControl.png
+full_name: Dominator_Control.Earth_Control
+set_name: Earth_Control
+description: You can control the forces of the Earth. You can manipulate earth and stone to defeat your foes. The crushing force of many Earth Powers can reduce a target's Defense. Being of the Earth, many of these powers need to be performed while on the ground.
+sub_name: Earth Control
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

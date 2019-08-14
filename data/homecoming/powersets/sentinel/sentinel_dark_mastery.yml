@@ -1,0 +1,12 @@
+display_name: Dark Mastery
+archetype: 7
+set_type: 3
+image_name: DarkMastery.png
+full_name: Epic.Sentinel_Dark_Mastery
+set_name: Sentinel_Dark_Mastery
+description: You have Mastery over Darkness to control and blast your foes.
+sub_name: Dark Mastery
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

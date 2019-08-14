@@ -1,0 +1,11 @@
+display_name: Radiation Blast
+set_type: 1
+image_name: RadiationBlast.png
+full_name: Blaster_Ranged.Radiation_Blast
+set_name: Radiation_Blast
+description: Blast your foes with lethal radiation. Radiation Blast powers can bypass normal defenses, and lower your targets' overall Defense.
+sub_name: Radiation Blast
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

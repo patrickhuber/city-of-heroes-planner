@@ -1,0 +1,12 @@
+display_name: Fortunata Teamwork
+archetype: 14
+set_type: 2
+image_name: i12_Sec_Fortunata.png
+full_name: Teamwork.Fortunata_Teamwork
+set_name: Fortunata_Teamwork
+description: Fortunata's receive advanced Teamwork Training, couple with advanced defensive techniques of their own.
+sub_name: Fortunata Teamwork
+class_type: Class_Arachnos_Widow
+trunk_set: Teamwork.Teamwork
+link_secondary: ''
+mutually_exclusive_groups: []

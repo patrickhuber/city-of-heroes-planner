@@ -1,0 +1,11 @@
+display_name: Darkness Manipulation
+set_type: 2
+image_name: DarkMelee.png
+full_name: Blaster_Support.Darkness_Manipulation
+set_name: Darkness_Manipulation
+description: Assail your foes with powers drawn from the abyss.  Darkness Manipulation offers powers that can both control and heavily damage their targets while reducing their chance to hit.
+sub_name: Darkness Manipulation
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Stone Melee
+archetype: 8
+set_type: 1
+image_name: StoneMelee.png
+full_name: Brute_Melee.Stone_Melee
+set_name: Stone_Melee
+description: You can use the powers of earth and stone to do battle with your foes. Stone Melee allows you to strike with fists of stone, summon earthen weapons, and even quake the very ground itself.
+sub_name: Stone Melee
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

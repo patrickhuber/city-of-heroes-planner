@@ -1,0 +1,12 @@
+display_name: Archery
+archetype: 9
+set_type: 1
+image_name: Archery.png
+full_name: Corruptor_Ranged.Archery
+set_name: Archery
+description: The ancient art of Archery allows you to use a Bow and Arrow to great effect.  This power set has an inherent bonus to Accuracy.
+sub_name: Archery
+class_type: Class_Corruptor
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

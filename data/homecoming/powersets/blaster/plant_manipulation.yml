@@ -1,0 +1,11 @@
+display_name: Plant Manipulation
+set_type: 2
+image_name: NatureAffinity.png
+full_name: Blaster_Support.Plant_Manipulation
+set_name: Plant_Manipulation
+description: You can call forth and control the power of plants and flora to manipulate your foes, inflict damage and protect yourself. Animate and control vines, roots and spores to entrap, attack with deadly thorns and empower your attacks with powerful toxins.
+sub_name: Plant Manipulation
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Illusion Control
+archetype: 1
+set_type: 1
+image_name: IllusionControl.png
+full_name: Controller_Control.Illusion_Control
+set_name: Illusion_Control
+description: You can manipulate light and sound to manifest all sorts of Illusions, aiding your allies as well as deceiving your foes.
+sub_name: Illusion Control
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

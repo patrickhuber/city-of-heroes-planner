@@ -1,0 +1,12 @@
+display_name: Thugs
+archetype: 11
+set_type: 1
+image_name: Thugs.png
+full_name: Mastermind_Summon.Thugs
+set_name: Thugs
+description: Street-wise and extremely loyal to the right leader, Thugs make the perfect Henchmen for a manipulative Mastermind. The Rogue Isle are a perfect breeding ground for Thugs, and 'street-cred' can go a long way. Thugs are no stranger to urban warfare, and they are quite proficient with various weapons. Most Thugs aren't particularly resistant to any damage type, but their Lieutenants possess good Leadership skills to harden all your Henchmen.
+sub_name: Thugs
+class_type: Class_Mastermind
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

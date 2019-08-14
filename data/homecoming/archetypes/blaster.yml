@@ -1,0 +1,25 @@
+display_name: Blaster
+hit_points: 1205
+hit_points_max: 1847.300048828125
+description_long: The Blaster is an offensive juggernaut. This hero can deal a ton of damage from a distance. But the Blaster must be careful, because he's somewhat fragile compared to other heroes. The Blaster can't stand toe to toe with most opponents at melee for long. His best defense is a great offense!
+resistence_max: 0.75
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 1
+class_name: Class_Blaster
+description_short: Superior ranged attacks and tactical support.
+primary_group: Blaster_Ranged
+secondary_group: Blaster_Support
+playable: true
+recharge_max: 5
+damage_max: 5
+recovery_max: 5
+regeneration_max: 20
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 1
+perception_base: 1153

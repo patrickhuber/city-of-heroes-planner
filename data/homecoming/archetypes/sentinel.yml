@@ -1,0 +1,26 @@
+display_name: Sentinel
+hit_points: 1205
+hit_points_max: 2088.300048828125
+description_long: The Sentinel is a powerful ranged combatant with moderate protective powers and protection against control powers.
+resistence_max: 0.75
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 1
+column: 7
+class_name: Class_Sentinel
+description_short: Superior ranged attacks and good defense.
+primary_group: Sentinel_Ranged
+secondary_group: Sentinel_Defense
+playable: true
+recharge_max: 5
+damage_max: 5
+recovery_max: 5
+regeneration_max: 20
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 2
+perception_base: 1153

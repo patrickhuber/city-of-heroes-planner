@@ -1,0 +1,11 @@
+display_name: Ninja Training
+set_type: 2
+image_name: i12_Pri_Bane.png
+full_name: Blaster_Support.Ninja_Training
+set_name: Ninja_Training
+description: You compliment your abilities with training in the secret art of the Ninja. You have mastered valuable ninja tools, poisons and weapons, including the deadly Ninja Blade. You also mastered the harmonic powers of Kuji-In Toh, allowing you to regenerate and recover endurance at an accelerated rate.
+sub_name: Ninja Training
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

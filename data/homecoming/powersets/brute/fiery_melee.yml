@@ -1,0 +1,12 @@
+display_name: Fiery Melee
+archetype: 8
+set_type: 1
+image_name: FieryMelee.png
+full_name: Brute_Melee.Fiery_Melee
+set_name: Fiery_Melee
+description: Fiery Melee allows you to attack with fire, and even conjure up flaming melee weapons. Fiery Melee powers tend to set foes ablaze for added Damage Over Time.
+sub_name: Fiery Melee
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

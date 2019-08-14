@@ -1,0 +1,26 @@
+display_name: Defender
+hit_points: 1017
+hit_points_max: 1606.344970703125
+description_long: The Defender tends to help his allies, and attack his foes, from a distance. The Defender excels at powers that assist friends, but can also hinder his enemies. The Defender is able to attack at quite a range, however, the Defender is not built for hand to hand. He might be able to dodge a few attacks, but the Defender won't last for long.
+resistence_max: 0.75
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 1
+column: 2
+class_name: Class_Defender
+description_short: Helps other Heroes and weakens Foes. Good ranged attacks.
+primary_group: Defender_Buff
+secondary_group: Defender_Ranged
+playable: true
+recharge_max: 5
+damage_max: 4
+recovery_max: 6.25
+regeneration_max: 20
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 1
+perception_base: 1153

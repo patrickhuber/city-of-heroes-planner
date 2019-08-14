@@ -1,0 +1,12 @@
+display_name: Dark Melee
+archetype: 8
+set_type: 1
+image_name: DarkMelee.png
+full_name: Brute_Melee.Dark_Melee
+set_name: Dark_Melee
+description: Dark Melee allows you to focus the powers of the Netherworld to defeat your foes. The draining effects of most of these powers can reduce the target's Accuracy.
+sub_name: Dark Melee
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

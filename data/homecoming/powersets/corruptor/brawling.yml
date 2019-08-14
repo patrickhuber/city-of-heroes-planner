@@ -1,0 +1,12 @@
+display_name: Street Justice
+archetype: 12
+set_type: 1
+image_name: StreetJustice.png
+full_name: Stalker_Melee.Brawling
+set_name: Brawling
+description: "Street Justice delivers punishing bone crushing attacks that weaken, disable or otherwise hinder their foes. This melee power set has no singular form of secondary effect. Instead, it has many ways to cripple enemies. Street Justice's attack powers come in two categories: Combo Builders and Finishers. Combo Builders add to your Combo Level and thus empower any Finishers you use. See individual powers for how they're improved by Combo Level.  Combo Building powers can provide up to 3 levels of benefits. Build up to the third level before executing a Finisher for maximum effectiveness."
+sub_name: Street Justice
+class_type: Class_Stalker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

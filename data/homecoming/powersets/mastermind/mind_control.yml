@@ -1,0 +1,12 @@
+display_name: Mind Control
+archetype: 10
+set_type: 1
+image_name: MindControl.png
+full_name: Dominator_Control.Mind_Control
+set_name: Mind_Control
+description: You can manipulate and control your opponent's mind. Since Mental powers directly affect the mind, most tend to be very accurate, and thus very useful against higher level foes. Few foes can resist Psionic powers, but creatures without minds, like machines and robots, are resistant to many of the effects.
+sub_name: Mind Control
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

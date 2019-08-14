@@ -1,0 +1,11 @@
+display_name: Ice Manipulation
+set_type: 2
+image_name: IceManipulation.png
+full_name: Blaster_Support.Ice_Manipulation
+set_name: Ice_Manipulation
+description: Ice Manipulation lets you surround yourself with various manifestations of ice and cold, assaulting and freezing nearby foes. Ice Manipulation powers are known to Slow opponents.
+sub_name: Ice Manipulation
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

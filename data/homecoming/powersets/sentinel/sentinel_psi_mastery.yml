@@ -1,0 +1,12 @@
+display_name: Psionic Mastery
+archetype: 7
+set_type: 3
+image_name: PsychicBlast.png
+full_name: Epic.Sentinel_Psi_Mastery
+set_name: Sentinel_Psi_Mastery
+description: You have advanced Mastery over your Psionic abilitiies and are able to control your foes and aid your allies with them.
+sub_name: ''
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

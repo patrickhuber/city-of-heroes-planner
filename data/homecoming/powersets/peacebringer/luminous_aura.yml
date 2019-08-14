@@ -1,0 +1,12 @@
+display_name: Luminous Aura
+archetype: 5
+set_type: 2
+image_name: LuminousAura.png
+full_name: Peacebringer_Defensive.Luminous_Aura
+set_name: Luminous_Aura
+description: Peacebringers can generate Luminous Aura to grant themselves incredible defensive capabilities.
+sub_name: Luminous Aura
+class_type: Class_Peacebringer
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

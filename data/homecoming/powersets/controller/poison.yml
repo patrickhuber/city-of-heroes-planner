@@ -1,0 +1,12 @@
+display_name: Poison
+archetype: 1
+set_type: 2
+image_name: Poison.png
+full_name: Controller_Buff.Poison
+set_name: Poison
+description: You are a master of Poison and can concoct a variety of venoms and toxins allowing you to weaken your enemies.  When used correctly, some Poisons can even be used to aid your allies.
+sub_name: Poison
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

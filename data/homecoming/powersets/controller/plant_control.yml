@@ -1,0 +1,12 @@
+display_name: Plant Control
+archetype: 1
+set_type: 1
+image_name: PlantControl.png
+full_name: Controller_Control.Plant_Control
+set_name: Plant_Control
+description: You can call forth and control the power of plants and flora to control your foes. Animate and control vines, roots and spores to entrap, entwine and utterly dominate your foes.  Many Plant Control powers are only effective if the target is near the ground.
+sub_name: Plant Control
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

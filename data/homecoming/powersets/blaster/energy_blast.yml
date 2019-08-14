@@ -1,0 +1,11 @@
+display_name: Energy Blast
+set_type: 1
+image_name: EnergyBlast.png
+full_name: Blaster_Ranged.Energy_Blast
+set_name: Energy_Blast
+description: Energy Blast allows you to hurl bolts of energy at your foes, and can often send them flying with Knockback.
+sub_name: Energy Blast
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

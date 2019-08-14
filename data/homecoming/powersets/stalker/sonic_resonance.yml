@@ -1,0 +1,12 @@
+display_name: Sonic Resonance
+archetype: 9
+set_type: 2
+image_name: SonicResonance.png
+full_name: Corruptor_Buff.Sonic_Resonance
+set_name: Sonic_Resonance
+description: You have the ability to control sound in several fashions.  You can create semi-solid barriers, set up waves which weaken or strengthen a target, as well as creating soothing sounds which act to counteract any negative effects which may exist on your friends.
+sub_name: Sonic Resonance
+class_type: Class_Corruptor
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

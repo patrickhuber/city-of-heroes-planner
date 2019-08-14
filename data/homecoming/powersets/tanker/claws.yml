@@ -1,0 +1,12 @@
+display_name: Claws
+archetype: 4
+set_type: 2
+image_name: ClawsHero.png
+full_name: Tanker_Melee.Claws
+set_name: Claws
+description: Claws are bones or blades that extend from your hands and cause Lethal damage. The lightweight, natural feel of claws gives this power set a reduced Endurance cost and faster attack rate than other Brute melee sets.
+sub_name: Claws
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

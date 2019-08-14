@@ -1,0 +1,12 @@
+display_name: Gravity Control
+archetype: 1
+set_type: 1
+image_name: GravityControl.png
+full_name: Controller_Control.Gravity_Control
+set_name: Gravity_Control
+description: This power set allows you to manipulate the forces of gravity to control your foes. Enemies have little defense against Gravity powers.
+sub_name: Gravity Control
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

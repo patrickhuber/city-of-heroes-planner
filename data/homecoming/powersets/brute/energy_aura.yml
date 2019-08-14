@@ -1,0 +1,12 @@
+display_name: Energy Aura
+archetype: 8
+set_type: 2
+image_name: EnergyAura.png
+full_name: Brute_Defense.Energy_Aura
+set_name: Energy_Aura
+description: You can surround yourself in powerful defensive Energy Auras that can deflect your foes' attacks. Like other defensive powers, Energy Auras do not reduce the damage you take, but rather reduce your chance of getting hit by deflecting your foes' attacks.  Energy Auras offer good defense to most attack types, but offer superior defense to Energy based attacks.  However, Energy Aura offers no defense to Psionic attacks.
+sub_name: Energy Aura
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

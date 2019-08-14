@@ -13,7 +13,7 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
         {            
             using (var memoryStream = new MemoryStream())
             {
-                var powerset = new Powerset
+                var powerset = new PowerSet
                 {
                     DisplayName = "test",
                     Archetype = 123,
@@ -53,7 +53,7 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
 
                 using (var binaryReader = new BinaryReader(memoryStream, Encoding.Default, true))
                 {
-                    var powersetReader = new PowersetReader(binaryReader);
+                    var powersetReader = new PowerSetReader(binaryReader);
                     var record = powersetReader.Read();
                     Assert.Equal(powerset, record);
                 }

@@ -1,0 +1,12 @@
+display_name: Electric Armor
+archetype: 3
+set_type: 2
+image_name: ElectricArmor.png
+full_name: Scrapper_Defense.Electric_Armor
+set_name: Electric_Armor
+description: Your entire body is basically a powerful capacitor.  You can store and release massive amounts of electricity that can absorb damage directed at you. Electric Armor offers better than average resistance to just about all types of damage, including Psionic, but has no defense boosting powers or resistance to Toxic.  Electric Armor also offers superior resistance to Energy damage and Endurance Drain.
+sub_name: Electric Armor
+class_type: Class_Scrapper
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

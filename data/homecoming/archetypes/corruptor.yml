@@ -1,0 +1,26 @@
+display_name: Corruptor
+hit_points: 1071
+hit_points_max: 1606.344970703125
+description_long: Corruptors twist the forces of the universe to do their bidding. As a corruptor, you might strike your foes down with blasts of fire, entomb them in ice, infect them with radiation, or curse them with pure darkness. As your foes are weakened, your (scourge) ability kicks in, increasing your damage to an enemy as their hit points drop. You can even impart a portion of your twisted power to your allies to protect them from harm, heal them, or increase the damage they deal. This wide array of abilities comes at a price. Your defenses aren't strong, and you can quickly attract the ire of your enemies if you aren't careful.
+resistence_max: 0.75
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 3
+column: 12
+class_name: Class_Corruptor
+description_short: Blast and weaken your enemies
+primary_group: Corruptor_Ranged
+secondary_group: Corruptor_BUFF
+playable: true
+recharge_max: 5
+damage_max: 5
+recovery_max: 5
+regeneration_max: 20
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 1
+perception_base: 1153

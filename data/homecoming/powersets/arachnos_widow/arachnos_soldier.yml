@@ -1,0 +1,12 @@
+display_name: Arachnos Soldier
+archetype: 13
+set_type: 1
+image_name: i12_Pri_Soldier.png
+full_name: Arachnos_Soldiers.Arachnos_Soldier
+set_name: Arachnos_Soldier
+description: Character with Arachnos Soldier training begin their careers as Wolf Spiders. Wolf Spider characters have a strong mix of Melee and Ranged attacks and strong protective powers available via their power armor.  Beginning at level 24, the player has to choose whether he will progress down the ""Crab Spider"" or ""Bane Spider"" path.  Crab Spiders gain access to the ""backpack"" and the powerful claw/cone attacks it provides, while the Bane Spider track provides stealth and a stronger focus on melee.
+sub_name: Arachnos Soldiers
+class_type: Class_Arachnos_Soldier
+trunk_set: ''
+link_secondary: Training_Gadgets.Training_and_Gadgets
+mutually_exclusive_groups: []

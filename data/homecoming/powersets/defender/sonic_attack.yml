@@ -1,0 +1,12 @@
+display_name: Sonic Attack
+archetype: 2
+set_type: 2
+image_name: SonicAttack.png
+full_name: Defender_Ranged.Sonic_Attack
+set_name: Sonic_Attack
+description: Sonic Attack lets you use the power of sound waves to damage and weaken your foes.
+sub_name: Sonic Attack
+class_type: Class_Defender
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

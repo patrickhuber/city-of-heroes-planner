@@ -1,0 +1,12 @@
+display_name: Fire Control
+archetype: 1
+set_type: 1
+image_name: FireControl.png
+full_name: Controller_Control.Fire_Control
+set_name: Fire_Control
+description: You can control the essence of fire to entrap, scorch, and manipulate your foes with smoke and flame.
+sub_name: Fire Control
+class_type: Class_Controller
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

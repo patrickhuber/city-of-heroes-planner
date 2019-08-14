@@ -1,0 +1,12 @@
+display_name: Battle Axe
+archetype: 3
+set_type: 1
+image_name: BattleAxe.png
+full_name: Scrapper_Melee.Battle_Axe
+set_name: Battle_Axe
+description: You can wield a Battle Axe and master a variety of powerful Lethal attacks. Battle Axe is a slow but powerful weapon that has a tendency to send foes flying.  This massive weapon has a bonus to hit.
+sub_name: Battle Axe
+class_type: Class_Scrapper
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Super Strength
+archetype: 4
+set_type: 2
+image_name: SuperStrength.png
+full_name: Tanker_Melee.Super_Strength
+set_name: Super_Strength
+description: Super Strength gives you combat powers derived from your super-human physical strength. Super Strength powers tend to knock foes back.
+sub_name: Super Strength
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

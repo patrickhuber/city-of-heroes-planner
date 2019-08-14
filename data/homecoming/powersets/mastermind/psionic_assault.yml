@@ -1,0 +1,12 @@
+display_name: Psionic Assault
+archetype: 10
+set_type: 2
+image_name: PsionicAssault.png
+full_name: Dominator_Assault.Psionic_Assault
+set_name: Psionic_Assault
+description: Blast your enemies with an array of offensive Psionic powers. Few living beings can resist  their  effects. Creatures without minds, however, like machines and robots, are much more resistant.
+sub_name: Psionic Assault
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

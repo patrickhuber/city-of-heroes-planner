@@ -1,0 +1,26 @@
+display_name: Brute
+hit_points: 1499
+hit_points_max: 3212.68994140625
+description_long: Brutes live to fight, and as a Brute you revel in hand-to-hand combat. With strong offensive power sets to inflict pain and impressive defenses to take it, you're the best there is in a straight fight. Protracted battles only makes you mad, and the madder you get, the more damaging your attacks become. You do lack ranged attacks, which could leave you vulnerable to hit and run tactics without some allies to cover you.
+resistence_max: 0.89999997615814209
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 3
+column: 8
+class_name: Class_Brute
+description_short: Excellent melee, good defense.  Rage
+primary_group: Brute_Melee
+secondary_group: Brute_DEFENSE
+playable: true
+recharge_max: 5
+damage_max: 7.75
+recovery_max: 5
+regeneration_max: 25
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 4
+perception_base: 1153

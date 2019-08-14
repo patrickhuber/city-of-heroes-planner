@@ -1,0 +1,12 @@
+display_name: Mercenaries
+archetype: 11
+set_type: 1
+image_name: Mercenaries.png
+full_name: Mastermind_Summon.Mercenaries
+set_name: Mercenaries
+description: Despite their reputations, Mercenaries are extremely loyal and dedicated soldiers.  They are the best at what they do, and they always follow orders, exactly what a Mastermind needs.  Mercenaries typically use conventional weapons and all Mercenaries have body armor that gives them resistance to smashing and lethal damage and their training makes them resistant to Confusion and Placate
+sub_name: Mercenaries
+class_type: Class_Mastermind
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

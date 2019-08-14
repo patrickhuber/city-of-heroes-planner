@@ -1,0 +1,12 @@
+display_name: Psionic Melee
+archetype: 12
+set_type: 1
+image_name: PsiMeleeVillain.png
+full_name: Stalker_Melee.Psionic_Melee
+set_name: Psionic_Melee
+description: You are able to strike at foes with psychic projections including deadly psi blades. Psionic Melee provides excellent crowd control by dominating the minds of its victims. Your psionic damaging attacks have a chance to grant you Insight into your enemies. While you have Insight, your psionic damage powers cause additional psionic damage over time and your Boggle and Psi Blade Sweep powers become more potent.
+sub_name: Psionic Melee
+class_type: Class_Stalker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

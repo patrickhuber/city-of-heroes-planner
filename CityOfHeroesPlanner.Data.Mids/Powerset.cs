@@ -2,7 +2,7 @@
 
 namespace CityOfHeroesPlanner.Data.Mids
 {
-    public class Powerset
+    public class PowerSet
     {
         public string DisplayName { get; set; }
         public int Archetype { get; set; }
@@ -21,7 +21,7 @@ namespace CityOfHeroesPlanner.Data.Mids
         {
             if (obj == null)
                 return false;
-            if (!(obj is Powerset powerset))            
+            if (!(obj is PowerSet powerset))            
                 return false;
 
             var fieldsEqual = DisplayName == powerset.DisplayName &&

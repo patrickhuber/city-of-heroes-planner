@@ -1,0 +1,12 @@
+display_name: Training and Gadgets
+archetype: 13
+set_type: 2
+image_name: i12_Sec_Soldier.png
+full_name: Training_Gadgets.Training_and_Gadgets
+set_name: Training_and_Gadgets
+description: Those who enter the Soldier training program are given crash courses in Teamwork, Tactical Analysis and Coordination of Assets.
+sub_name: Training and Gadgets
+class_type: Class_Arachnos_Soldier
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

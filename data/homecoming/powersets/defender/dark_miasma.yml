@@ -1,0 +1,12 @@
+display_name: Dark Miasma
+archetype: 2
+set_type: 1
+image_name: DarkMiasma.png
+full_name: Defender_Buff.Dark_Miasma
+set_name: Dark_Miasma
+description: Focus the dark power of the Netherworld to weaken your foes.  Dark Miasma focuses on draining your opponent.
+sub_name: Dark Miasma
+class_type: Class_Defender
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

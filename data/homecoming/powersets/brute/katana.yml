@@ -1,0 +1,12 @@
+display_name: Katana
+archetype: 8
+set_type: 1
+image_name: Katana.png
+full_name: Brute_Melee.Katana
+set_name: Katana
+description: Wield a Katana and master a variety of powerful Lethal attacks. A quick and elegant weapon, the Katana is faster than a Broad Sword, and can reduce an enemy's Defense. The Katana is a fine blade that always has a bonus to Accuracy.
+sub_name: Katana
+class_type: Class_Brute
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

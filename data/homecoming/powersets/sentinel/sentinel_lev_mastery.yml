@@ -1,0 +1,12 @@
+display_name: Leviathan Mastery
+archetype: 7
+set_type: 3
+image_name: PatronDMGBuff.png
+full_name: Epic.Sentinel_Lev_Mastery
+set_name: Sentinel_Lev_Mastery
+description: Captain Mako has granted you access to the power of the Leviathan. The Leviathan is an ancient gargantuan entity who slumbers under Sharkhead Isle. Worshiped by the Coralax, the Leviathan has given Captain Mako many abilities and now he has taught you to harness its power.
+sub_name: ''
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Wind Control
+archetype: 10
+set_type: 1
+image_name: Windcontrol.png
+full_name: Dominator_Control.Wind_Control
+set_name: Wind_Control
+description: Through manipulation of pressure, you are able to channel the force of wind to bind, weaken and crush your opponents.
+sub_name: Wind Control
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

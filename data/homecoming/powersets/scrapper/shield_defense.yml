@@ -1,0 +1,24 @@
+display_name: Shield Defense
+archetype: 3
+set_type: 2
+image_name: ShieldDef.png
+full_name: Scrapper_Defense.Shield_Defense
+set_name: Shield_Defense
+description: Your mastery over the shield protects you from all forms of attacks in the form of defense as well as some moderate damage resistance to most types of damage.  Your training with the shield enables you to protect your nearby allies boosting their defenses.
+sub_name: Shield Defense
+class_type: Class_Scrapper
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups:
+- id: 3308
+  name: Scrapper_Melee.Claws
+- id: 3310
+  name: Scrapper_Melee.Dual_Blades
+- id: 3314
+  name: Scrapper_Melee.Katana
+- id: 3320
+  name: Scrapper_Melee.Quills
+- id: 3321
+  name: Scrapper_Melee.Staff_Fighting
+- id: 3323
+  name: Scrapper_Melee.Titan_Weapons

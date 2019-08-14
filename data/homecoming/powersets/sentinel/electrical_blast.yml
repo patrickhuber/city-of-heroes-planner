@@ -1,0 +1,12 @@
+display_name: Electrical Blast
+archetype: 7
+set_type: 1
+image_name: ElecBlast.png
+full_name: Sentinel_Ranged.Electrical_Blast
+set_name: Electrical_Blast
+description: Electrical Blast endows you with ranged electrical attack powers. Electrical powers can drain foes' Endurance and can often temporarily halt their Endurance recovery. This can be quite effective against higher level foes and Bosses. Some Electrical Blast powers can even sometimes transfer this Endurance back to you.
+sub_name: Electrical Blast
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

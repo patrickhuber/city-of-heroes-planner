@@ -1,0 +1,12 @@
+display_name: Teamwork
+archetype: 14
+set_type: 2
+image_name: i12_Sec_Widow.png
+full_name: Teamwork.Teamwork
+set_name: Teamwork
+description: Those who enter the Widow training program are given crash courses in Teamwork, Tactical Analysis and Coordination of Assets.
+sub_name: Teamwork
+class_type: Class_Arachnos_Widow
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

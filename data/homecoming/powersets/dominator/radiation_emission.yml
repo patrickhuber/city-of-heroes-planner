@@ -1,0 +1,12 @@
+display_name: Radiation Emission
+archetype: 11
+set_type: 2
+image_name: RadiationEmission.png
+full_name: Mastermind_Buff.Radiation_Emission
+set_name: Radiation_Emission
+description: Radiation Emission powers allow you to manipulate atomic particles and waves to protect your allies and weaken your enemies.
+sub_name: Radiation Emission
+class_type: Class_Mastermind
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

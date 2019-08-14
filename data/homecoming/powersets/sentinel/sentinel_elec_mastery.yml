@@ -1,0 +1,12 @@
+display_name: Electricity Mastery
+archetype: 7
+set_type: 3
+image_name: ElectricMelee.png
+full_name: Epic.Sentinel_Elec_Mastery
+set_name: Sentinel_Elec_Mastery
+description: You have advanced Mastery over Electricity and are able to control your foews and aid your allies with it.
+sub_name: ''
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

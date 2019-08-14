@@ -1,0 +1,12 @@
+display_name: Umbral Aura
+archetype: 6
+set_type: 2
+image_name: UmbralAura.png
+full_name: Warshade_Defensive.Umbral_Aura
+set_name: Umbral_Aura
+description: Warshades can generate Dark Fields to give themselves incredible defensive capabilities.
+sub_name: Warshades Defensive
+class_type: Class_Warshade
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

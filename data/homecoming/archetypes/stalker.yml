@@ -1,0 +1,26 @@
+display_name: Stalker
+hit_points: 1204
+hit_points_max: 2088.25
+description_long: Skill can divert clumsy raw power, and precisely applied force can solve many problems. As a Stalker, this is the core of your specialty. You do your best work when attacking from ambush, and can even hide in plain sight to escape foes. Deadly attacks and good defenses make you a dangerous combatant and assassin, but you can be overwhelmed if you're not careful.
+resistence_max: 0.75
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 3
+column: 9
+class_name: Class_Stalker
+description_short: Excellent Melee, guile and stealth.
+primary_group: Stalker_Melee
+secondary_group: Stalker_Defense
+playable: true
+recharge_max: 5
+damage_max: 5
+recovery_max: 5
+regeneration_max: 30
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 2
+perception_base: 1153

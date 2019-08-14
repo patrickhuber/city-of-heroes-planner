@@ -1,0 +1,12 @@
+display_name: Regeneration
+archetype: 7
+set_type: 2
+image_name: Regeneration.png
+full_name: Sentinel_Defense.Regeneration
+set_name: Regeneration
+description: Regeneration lets you regenerate more quickly from damage and effects. Regeneration offers almost no actual damage resistance, but your Hit Point Regeneration can become so incredibly fast, that your wounds heal almost instantly.  Those who possess this power set have little downtime.
+sub_name: Regeneration
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

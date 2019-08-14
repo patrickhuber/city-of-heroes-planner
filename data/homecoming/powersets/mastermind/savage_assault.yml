@@ -1,0 +1,12 @@
+display_name: Savage Assault
+archetype: 10
+set_type: 2
+image_name: SavageMelee.png
+full_name: Dominator_Assault.Savage_Assault
+set_name: Savage_Assault
+description: Wall of text!
+sub_name: ''
+class_type: Class_Dominator
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

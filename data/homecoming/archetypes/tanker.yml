@@ -1,0 +1,26 @@
+display_name: Tanker
+hit_points: 1874
+hit_points_max: 3534
+description_long: The Tanker can take it and dish it out all at once. The Tanker primarily can absorb vast amounts of damage, and hold his own in a fist fight. But the Tanker lacks any long range punch. The Tanker would prefer just to charge straight ahead anyway.
+resistence_max: 0.89999997615814209
+origins:
+- Magic
+- Mutation
+- Natural
+- Science
+- Technology
+class_type: 1
+column: 4
+class_name: Class_Tanker
+description_short: Excellent defense, good melee.
+primary_group: Tanker_Defense
+secondary_group: Tanker_Melee
+playable: true
+recharge_max: 5
+damage_max: 4
+recovery_max: 5
+regeneration_max: 25
+recovery_base: 1
+regeneration_base: 0.25
+threat_base: 4
+perception_base: 1153

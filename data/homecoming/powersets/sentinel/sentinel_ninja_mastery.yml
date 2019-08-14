@@ -1,0 +1,12 @@
+display_name: Ninja Tool Mastery
+archetype: 7
+set_type: 3
+image_name: NinjaBlade.png
+full_name: Epic.Sentinel_Ninja_Mastery
+set_name: Sentinel_Ninja_Mastery
+description: A Ninja is a master of many tools and weapons, from the deadly Ninja Blade to deadly Tashibish, in addition to various poisons.
+sub_name: Ninja Tool Mastery
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

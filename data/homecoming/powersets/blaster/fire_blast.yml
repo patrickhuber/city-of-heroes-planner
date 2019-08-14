@@ -1,0 +1,11 @@
+display_name: Fire Blast
+set_type: 1
+image_name: FireBlast.png
+full_name: Blaster_Ranged.Fire_Blast
+set_name: Fire_Blast
+description: Fire Blast allows you to blast fire at foes, with a tendency to set them ablaze for added damage over time.
+sub_name: Fire Blast
+class_type: Class_Blaster
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

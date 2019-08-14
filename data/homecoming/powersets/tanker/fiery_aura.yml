@@ -1,0 +1,12 @@
+display_name: Fiery Aura
+archetype: 4
+set_type: 1
+image_name: FireMastery2.png
+full_name: Tanker_Defense.Fiery_Aura
+set_name: Fiery_Aura
+description: Through intense heat and fire, you can absorb many kinds of damage.  Fiery Aura offers superior resistance to Fire damage, but weak resistance to Cold damage and no protection to Knockback. Fiery Aura is the most offensive of the Tanker's defensive Power Sets, offering some damage output.
+sub_name: Fiery Aura
+class_type: Class_Tanker
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []

@@ -1,0 +1,12 @@
+display_name: Mace Mastery
+archetype: 7
+set_type: 3
+image_name: PatronShield.png
+full_name: Epic.Sentinel_Mace_Mastery
+set_name: Sentinel_Mace_Mastery
+description: Black Scorpion has granted you access to the advanced technology of the Nullifier Mace. The signature weapon of the Bane Spider Commandos, it is not a typical clumsy mace. The Bane Mace is capable of firing a variety of energy projectiles and grenades.  It can even be modified to summon and command some or Black Scorpion's RV technologies.
+sub_name: ''
+class_type: Class_Sentinel
+trunk_set: ''
+link_secondary: ''
+mutually_exclusive_groups: []
