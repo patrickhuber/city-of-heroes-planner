@@ -62,7 +62,7 @@ namespace CityOfHeroesPlanner.MidsExporter
         {
             var archetypeFolder = Path.Combine(outputPath, "archetypes");
             var powersetFolder = Path.Combine(outputPath, "powersets");
-            var playableArchetypes = new Dictionary<int, Archetype>();
+            var playableArchetypes = new Dictionary<string, Archetype>();
 
             var serializer = new SerializerBuilder()
                 .WithNamingConvention(new UnderscoredNamingConvention())
@@ -78,7 +78,7 @@ namespace CityOfHeroesPlanner.MidsExporter
             {
                 if (!archetype.Playable)
                     return;
-                playableArchetypes.Add(archetype.Column, archetype);
+                playableArchetypes.Add(archetype.ClassName, archetype);
                                 
                 var fileName = archetype.ClassName.ToLower().Replace("class_", "") + ".yml";
                 var filePath = Path.Combine(archetypeFolder, fileName);
@@ -99,9 +99,15 @@ namespace CityOfHeroesPlanner.MidsExporter
                     Directory.CreateDirectory(powersetFolder);
             };
 
-            databaseReader.OnPowersetRead += (powerset) => 
-            {                
-                if (!playableArchetypes.TryGetValue(powerset.Archetype, out Archetype archetype))
+            databaseReader.OnPowersetRead += (powerset) =>
+            {
+                // special case tanker regeneration
+                if (powerset.ClassType == string.Empty)                
+                    foreach (var searchArchetype in playableArchetypes.Values)
+                        if (searchArchetype.Column == powerset.Archetype)
+                            powerset.ClassType = searchArchetype.ClassName;                
+
+                if (!playableArchetypes.TryGetValue(powerset.ClassType, out Archetype archetype))
                     return;
 
                 var archetypeName = archetype.ClassName.ToLower().Replace("class_", "");
