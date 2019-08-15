@@ -13,12 +13,14 @@ namespace CityOfHeroesPlanner.MidsExporter
         static void Main(string[] args)
         {
             var username = Environment.UserName;
+            // hard coding for now, obviously this will need to be accepted as a parameter
             var path = @$"C:\Users\{username}\AppData\Roaming\Pine's Hero Designer\Data";
 
             var options = new ExportOptions
             {
-                Issue12DatabasePath = path + @"\i12.mhd",
-                OutputPath = Environment.CurrentDirectory + "/../../../../data/homecoming",
+                Issue12DatabasePath = Path.Combine(path, "i12.mhd"),
+                // needs to be dynamic
+                OutputPath = Environment.CurrentDirectory + "\\..\\..\\..\\..\\data\\homecoming",
             };
             Export(options);
         }
@@ -62,6 +64,7 @@ namespace CityOfHeroesPlanner.MidsExporter
         {
             var archetypeFolder = Path.Combine(outputPath, "archetypes");
             var powersetFolder = Path.Combine(outputPath, "powersets");
+            var powersFolder = Path.Combine(outputPath, "powers");
             var playableArchetypes = new Dictionary<string, Archetype>();
 
             var serializer = new SerializerBuilder()
@@ -93,15 +96,16 @@ namespace CityOfHeroesPlanner.MidsExporter
                 }
             };
 
-            databaseReader.OnPowersetHeaderRead += (header) => 
+            databaseReader.OnPowerSetHeaderRead += (header) => 
             {
                 if (!Directory.Exists(powersetFolder))
                     Directory.CreateDirectory(powersetFolder);
             };
 
-            databaseReader.OnPowersetRead += (powerset) =>
+            databaseReader.OnPowerSetRead += (powerset) =>
             {
                 // special case tanker regeneration
+                // TODO: move to a strategy
                 if (powerset.ClassType == string.Empty)                
                     foreach (var searchArchetype in playableArchetypes.Values)
                         if (searchArchetype.Column == powerset.Archetype)
@@ -124,6 +128,40 @@ namespace CityOfHeroesPlanner.MidsExporter
                     using (var writer = new StreamWriter(file))
                     {
                         serializer.Serialize(writer, powerset);
+                    }
+                }
+            };
+
+            databaseReader.OnPowersHeaderRead += (header) => 
+            {
+                if (!Directory.Exists(powersFolder))
+                    Directory.CreateDirectory(powersFolder);
+            };
+
+            databaseReader.OnPowerRead += (power) => 
+            {
+                if (string.IsNullOrWhiteSpace(power.GroupName) 
+                || string.IsNullOrWhiteSpace(power.SetName) 
+                || string.IsNullOrWhiteSpace(power.Name))
+                    return;
+
+                var groupsFolder = Path.Combine(powersFolder, power.GroupName);
+                if (!Directory.Exists(groupsFolder))
+                    Directory.CreateDirectory(groupsFolder);
+
+                var powerSetFolder = Path.Combine(groupsFolder, power.SetName);
+                if (!Directory.Exists(powersetFolder))
+                    Directory.CreateDirectory(powersetFolder);
+
+                var powerFile = Path.Combine(powersetFolder, power.Name) + ".yml";
+                if (File.Exists(powerFile))
+                    File.Delete(powerFile);
+
+                using (var file = File.Create(powerFile))
+                {
+                    using (var writer = new StreamWriter(file))
+                    {
+                        serializer.Serialize(writer, power);
                     }
                 }
             };

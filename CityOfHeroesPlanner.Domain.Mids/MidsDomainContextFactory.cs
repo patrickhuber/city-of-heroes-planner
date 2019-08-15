@@ -34,7 +34,7 @@ namespace CityOfHeroesPlanner.Domain.Mids
                 };
                 context.Archetypes.Add(domainArchetype);
             };
-            _reader.OnPowersetRead += (powerset) => 
+            _reader.OnPowerSetRead += (powerset) => 
             {
 
             };
