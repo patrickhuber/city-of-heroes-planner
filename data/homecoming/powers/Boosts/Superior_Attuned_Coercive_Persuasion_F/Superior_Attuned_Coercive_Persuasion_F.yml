@@ -1,0 +1,62 @@
+index: 8461
+full_name: Boosts.Superior_Attuned_Coercive_Persuasion_F.Superior_Attuned_Coercive_Persuasion_F
+group_name: Boosts
+set_name: Superior_Attuned_Coercive_Persuasion_F
+name: Superior_Attuned_Coercive_Persuasion_F
+display: 'Coercive Persuasion: Contagious Confusion'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- Confuse_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Chance for Confusion
+description_long: UNIQUE -- No more than 1 enhancement of this type may be slotted by a character.  Gives a chance of causing confusion.  This effect will trigger roughly 4.5 times per minute.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+boost_use_player_level: true
+effects:
+- power_full_name: Boosts.Superior_Attuned_Coercive_Persuasion_F.Superior_Attuned_Coercive_Persuasion_F
+  unique_i_d: 1
+  effect_type: 12
+  summon: Set_Bonus.Set_Bonus.Contagious_Confusion
+  ticks: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 10
+  aspect: 2
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Set_Bonus.Set_Bonus.Contagious_Confusion
+  effect_id: Boost
+  override: ''
+  procs_per_minute: 4.5

@@ -1,0 +1,70 @@
+index: 3451
+full_name: Corruptor_Buff.Trick_Arrow.Oil_Slick_Arrow
+group_name: Corruptor_Buff
+set_name: Trick_Arrow
+name: Oil_Slick_Arrow
+display: Oil Slick Arrow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 70
+endurance_cost: 15.600000381469727
+cast_time: 1.1599999666213989
+recharge_time: 180
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged (Location AoE), Knockdown, -Speed, -DEF, +Special
+description_long: 'On impact, this arrow creates an oil slick that Slows foes in the area and may cause them to slip and fall. The oil slick is very flammable and may burst into flames if fire is used near it.  Recharge: Long'
+set_types:
+- 3
+- 13
+- 21
+- 36
+- 44
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Trick_Arrow.Oil_Slick_Arrow
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_OilSlickOil
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

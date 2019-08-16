@@ -1,0 +1,86 @@
+index: 10654
+full_name: Pool.Force_of_Will.Stomp
+group_name: Pool
+set_name: Force_of_Will
+name: Stomp
+display: Stomp
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Force_of_Will.Mighty_Leap
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 1615938
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 11.699999809265137
+cast_time: 2.0999999046325684
+recharge_time: 60
+effect_area: 2
+radius: 10
+max_targets: 10
+max_boosts: 6
+cast_flags: 3
+number_allowed: 1
+boosts_allowed: []
+description_short: PBAoE Melee, Foe Knockdown
+description_long: 'You stomp your foot on the ground with tremendous force, shattering the earth beneath and knocking nearby foes off of their feet. Recharge: Long'
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Pool.Force_of_Will.Stomp
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  near_ground: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Force_of_Will.Stomp
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  near_ground: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

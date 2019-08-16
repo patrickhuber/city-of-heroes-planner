@@ -1,0 +1,80 @@
+index: 2737
+full_name: Temporary_Powers.Temporary_Powers.Flashbang_Grenades
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Flashbang_Grenades
+display: Flashbang Grenades
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1.2000000476837158
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 18.979999542236328
+cast_time: 1.3700000047683716
+recharge_time: 16
+effect_area: 2
+radius: 15
+max_targets: 10
+max_boosts: ''
+number_of_charges: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged (Targeted AoE), Foe -To Hit, -DEF
+description_long: These military issue non-lethal grenades explode with a concussive force that leaves all affected targets very vulnerable. Their Accuracy and Defense will be severely reduced. You have 6 grenades.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Flashbang_Grenades
+  unique_i_d: 1
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Flashbang_Grenades
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''

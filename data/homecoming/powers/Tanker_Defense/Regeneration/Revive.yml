@@ -1,0 +1,39 @@
+index: 10549
+full_name: Tanker_Defense.Regeneration.Revive
+group_name: Tanker_Defense
+set_name: Regeneration
+name: Revive
+display: Revive
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 1.5
+recharge_time: 300
+effect_area: 1
+max_boosts: ''
+cast_flags: 4
+number_allowed: 1
+boosts_allowed:
+- Heal_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: Self Rez
+description_long: 'Should you fall in battle, you can Revive yourself from the brink of death. You will revive with most of your Hit Points and half your Endurance and be protected from XP Debt for 90 seconds.  You will also have 15 seconds of immunity to most damage.  Recharge: Very Long'
+set_types: []
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

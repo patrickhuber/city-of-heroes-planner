@@ -1,0 +1,62 @@
+index: 1568
+full_name: Pets.DarkFaerie.Power_Bolt
+group_name: Pets
+set_name: DarkFaerie
+name: Power_Bolt
+display: Power Bolt
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 30
+endurance_cost: 20.799999237060547
+cast_time: 1
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+description_short: Ranged, Minor DMG(Negative)
+description_long: "A long range blast of dark energy. Deals moderate Negative Energy damage and reduces the target's chance to hit. Damage: Moderate, Recharge: Fast"
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.DarkFaerie.Power_Bolt
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

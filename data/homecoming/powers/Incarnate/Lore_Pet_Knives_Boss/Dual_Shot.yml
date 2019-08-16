@@ -1,0 +1,262 @@
+index: 9490
+full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+group_name: Incarnate
+set_name: Lore_Pet_Knives_Boss
+name: Dual_Shot
+display: Dual Shot
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+cast_time: 1.6699999570846558
+recharge_time: 6
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Ranged, Moderate DMG(Lethal), Minor DoT (Toxic), Knockdown (Foe), -DMG(Foe,All)
+description_long: You fire a round from each of your pistols. The ammunition used contains a special toxin which causes additional toxic damage to the target and reduces their damage. There is also a chance the target may be knocked down.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.2000000476837158
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 6
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 5.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  resistible: true
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Boss.Dual_Shot
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''

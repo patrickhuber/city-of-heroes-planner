@@ -1,0 +1,74 @@
+index: 200
+full_name: Brute_Defense.Stone_Armor.Stone_Skin
+group_name: Brute_Defense
+set_name: Stone_Armor
+name: Stone_Skin
+display: Stone Skin
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Res_Damage_Boost
+ignore_strength: true
+description_short: 'Auto: Self +Res(Lethal, smashing)'
+description_long: Your tough skin is naturally resistant to Smashing and Lethal damage. This power is always on and costs no Endurance.
+set_types:
+- 8
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Brute_Defense.Stone_Armor.Stone_Skin
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Res_DMG
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_DMG
+  override: ''
+- power_full_name: Brute_Defense.Stone_Armor.Stone_Skin
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Res_DMG
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_DMG
+  override: ''

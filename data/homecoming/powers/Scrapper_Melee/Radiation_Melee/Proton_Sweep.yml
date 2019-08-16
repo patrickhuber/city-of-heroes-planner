@@ -1,0 +1,272 @@
+index: 10038
+full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+group_name: Scrapper_Melee
+set_name: Radiation_Melee
+name: Proton_Sweep
+display: Proton Sweep
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 129
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 8.5279998779296875
+cast_time: 1.6699999570846558
+recharge_time: 8
+effect_area: 3
+radius: 7
+arc: 74
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: Melee Cone, Moderate DoT(Energy/Toxic), Foe -Def, Special
+description_long: "You release a cloud of deadly radioactive particles in front of you inflicting Moderate Energy and Toxic damage over a short time as well as reducing the targets' defense. Affected enemies have a moderate chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radiation Melee powers cause a small burst of damage to foes near the target. Damage: Moderate, Recharge: Moderate"
+set_types:
+- 4
+- 21
+- 30
+- 41
+- 44
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.089369997382164001
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.26811999082565308
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.11811999976634979
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.35436999797821045
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 5
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8899799585342407
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: PlayerCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 7
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.4299999475479126
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: MLCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.4299999475479126
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: BossCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 8
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.2000000476837158
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 9
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  base_probability: 0.20999999344348907
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  effect_id: Contaminated
+  override: ''
+- power_full_name: Scrapper_Melee.Radiation_Melee.Proton_Sweep
+  unique_i_d: 10
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.16087000072002411
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''

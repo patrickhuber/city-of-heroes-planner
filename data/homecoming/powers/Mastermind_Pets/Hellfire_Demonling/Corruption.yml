@@ -1,0 +1,237 @@
+index: 4228
+full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+group_name: Mastermind_Pets
+set_name: Hellfire_Demonling
+name: Corruption
+display: Corruption
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 66
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.5
+cast_time: 1
+recharge_time: 4
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: Ranged, Minor DMG(Fire), Foe Minor DoT (Toxic), -Res
+description_long: "You fire a bolt of hellfire corrupting your victim's very living essence dealing minor toxic damage as well as reducing their damage resistance for a short time. Damage: Minor Recharge: Very Fast"
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.70999997854232788
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.15000000596046448
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 9
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling.Corruption
+  unique_i_d: 10
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

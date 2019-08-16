@@ -1,0 +1,323 @@
+index: 5236
+full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+group_name: Blaster_Support
+set_name: Darkness_Manipulation
+name: Shadow_Maul
+display: Shadow Maul
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 265
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 13.520000457763672
+cast_time: 3.0699999332427979
+recharge_time: 14
+effect_area: 3
+radius: 7
+arc: 45
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Melee (Cone), Superior DoT(Smash/Negative), Foe -To Hit
+description_long: "You wrap your entire arms with Negative Energy channeled from the Netherworlds, then perform a series of blows that deal a lot of damage over a short period of time to multiple targets in front of you. These blows cloud your target's vision, lowering his chance to hit for a short time. Damage: High(DoT), Recharge: Moderate"
+set_types:
+- 4
+- 26
+- 31
+- 33
+- 44
+level: 10
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.32499998807907104
+  magnitude: 1
+  duration: 2
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.32499998807907104
+  magnitude: 1
+  duration: 2
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.47784000635147095
+  magnitude: 1
+  duration: 2
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.47784000635147095
+  magnitude: 1
+  duration: 2
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 5
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Shadow_Maul
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.16300000250339508
+  magnitude: 1
+  duration: 10.569999694824219
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''

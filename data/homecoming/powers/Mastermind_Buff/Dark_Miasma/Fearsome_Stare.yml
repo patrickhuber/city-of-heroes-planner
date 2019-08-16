@@ -1,0 +1,136 @@
+index: 1114
+full_name: Mastermind_Buff.Dark_Miasma.Fearsome_Stare
+group_name: Mastermind_Buff
+set_name: Dark_Miasma
+name: Fearsome_Stare
+display: Fearsome Stare
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 256
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 10.659999847412109
+cast_time: 2.0299999713897705
+recharge_time: 40
+effect_area: 3
+radius: 70
+arc: 30
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Fear_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Foe Fear, -To Hit
+description_long: 'Instills tremendous Fear within a cone area in front of you, causing all affected targets to tremble in Terror uncontrollably, attacking only when attacked and even then with a reduced chance to hit.  Recharge: Slow'
+set_types:
+- 15
+- 26
+- 31
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Buff.Dark_Miasma.Fearsome_Stare
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Mastermind_Buff.Dark_Miasma.Fearsome_Stare
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Mastermind_Buff.Dark_Miasma.Fearsome_Stare
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 10
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Mastermind_Buff.Dark_Miasma.Fearsome_Stare
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''

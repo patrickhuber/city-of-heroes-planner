@@ -1,0 +1,46 @@
+index: 3258
+full_name: Inherent.Inherent.MxD_Accolades_Villain
+group_name: Inherent
+set_name: Inherent
+name: MxD_Accolades_Villain
+display: Villain Accolades
+requirement:
+  class_names:
+  - Class_Brute
+  - Class_Corruptor
+  - Class_Dominator
+  - Class_Mastermind
+  - Class_Stalker
+  - Class_Arachnos_Soldier
+  - Class_Arachnos_Widow
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 2
+group_memberships: []
+target_line_of_sight: true
+cast_time: 1.715999960899353
+max_boosts: ''
+boosts_allowed: []
+description_short: Ctrl+Shift+Click to Select Accolades
+description_long: ''
+set_types: []
+level: 1
+variable_name: ''
+sub_powers:
+- Temporary_Powers.Accolades.Born_In_Battle
+- Temporary_Powers.Accolades.Demonic_Aura
+- Temporary_Powers.Accolades.Force_of_Nature
+- Temporary_Powers.Accolades.High_Pain_Threshold
+- Temporary_Powers.Accolades.Invader
+- Temporary_Powers.Accolades.Marshall
+- Temporary_Powers.Accolades.Megalomaniac
+- Temporary_Powers.Accolades.Portable_Workbench
+- Temporary_Powers.Accolades.RIWE_Accolade_Power
+- Temporary_Powers.Accolades.Stolen_Immobilizer_Ray
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+mutually_exclusive_ignore: true
+forced_class: ''
+effects: []

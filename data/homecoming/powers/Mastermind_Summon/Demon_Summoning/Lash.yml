@@ -1,0 +1,305 @@
+index: 4250
+full_name: Mastermind_Summon.Demon_Summoning.Lash
+group_name: Mastermind_Summon
+set_name: Demon_Summoning
+name: Lash
+display: Lash
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 65
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 20
+endurance_cost: 10.659999847412109
+cast_time: 1.7999999523162842
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: Close, High DMG(Fire), Foe -Res, Knockdown, Minor DoT(Toxic)
+description_long: "You channel unholy energies into your whip and Lash out at your foe dealing high fire damage causing toxic damage over time. Lash has longer range than most melee attacks will reduce the target's damage resistance and also has a chance to knockdown your target. Damage: High, Recharge: Moderate"
+set_types:
+- 1
+- 23
+- 44
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0640000104904175
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20999999344348907
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 9
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 10
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  duration: 6
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 11
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.40000000596046448
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 12
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.40000000596046448
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Lash
+  unique_i_d: 13
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.987839937210083
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

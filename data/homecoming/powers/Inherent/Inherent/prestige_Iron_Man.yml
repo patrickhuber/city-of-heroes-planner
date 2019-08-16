@@ -1,0 +1,68 @@
+index: 1077
+full_name: Inherent.Inherent.prestige_Iron_Man
+group_name: Inherent
+set_name: Inherent
+name: prestige_Iron_Man
+display: Iron Man
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: +Max HP, +Max END
+description_long: You are a true Iron Man.  You persistence and stamina have resulted in your Max Hit Points and Max Endurance increasing by 10%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.prestige_Iron_Man
+  unique_i_d: 1
+  effect_type: 14
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10.75
+  aspect: 1
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Iron_Man
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 10.75
+  aspect: 1
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

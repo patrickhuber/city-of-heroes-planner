@@ -1,0 +1,60 @@
+index: 9608
+full_name: Pets.Wind_Control_Vortex.Hail_of_Debris
+group_name: Pets
+set_name: Wind_Control_Vortex
+name: Hail_of_Debris
+display: Hail of Debris
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 28
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 26.799999237060547
+cast_time: 2
+recharge_time: 30
+effect_area: 1
+max_boosts: 6
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Summon
+description_long: You release a debris cloud that descends upon a targeted foe. This foe, and all those in the affected area, suffer smashing damage as long as they remain within the debris column. Additionally, these targets suffer reduced chance to hit, resistance to damage and movement speed. Flying targets are knocked to the ground and unable to fly. You are only able to use this if the Pressure level of your creator is 3 or less.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.Wind_Control_Vortex.Hail_of_Debris
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_WindControl_HailOfDebris
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 12
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

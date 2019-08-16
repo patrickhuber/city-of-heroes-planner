@@ -1,0 +1,323 @@
+index: 10350
+full_name: Pool.Experimentation.Experimental_Injection
+group_name: Pool
+set_name: Experimentation
+name: Experimental_Injection
+display: Experimental Injection
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 66
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 60
+endurance_cost: 10.399999618530273
+cast_time: 1.2000000476837158
+recharge_time: 180
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Range_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: Short Ranged, Ally +Regeneration, +Recovery, +Res(Status)
+description_long: 'You inject an ally with a compound that greatly boosts their regeneration, recovery and resistance to status effects for a short time. Recharge: Long'
+set_types:
+- 9
+- 22
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 7
+  effect_type: 20
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 60
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 8
+  effect_type: 20
+  mezmorize_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 60
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 9
+  effect_type: 20
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 60
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 10
+  effect_type: 20
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 60
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 11
+  effect_type: 20
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 60
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 12
+  effect_type: 20
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 60
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 13
+  effect_type: 27
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Experimentation.Experimental_Injection
+  unique_i_d: 14
+  effect_type: 26
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

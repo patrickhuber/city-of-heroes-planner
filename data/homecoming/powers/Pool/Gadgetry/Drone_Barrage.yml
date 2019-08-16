@@ -1,0 +1,50 @@
+index: 10363
+full_name: Pool.Gadgetry.Drone_Barrage
+group_name: Pool
+set_name: Gadgetry
+name: Drone_Barrage
+display: Drone Barrage
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Gadgetry.Nano_Net
+    - Pool.Gadgetry.Blaster_Drone
+  - - Pool.Gadgetry.Nano_Net
+    - Pool.Gadgetry.Jetpack
+  - - Pool.Gadgetry.Blaster_Drone
+    - Pool.Gadgetry.Jetpack
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 138
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 5.1999998092651367
+cast_time: 1
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+cast_through_hold: true
+description_short: Ranged Cone, Moderate DMG(Energy), Foe -Regen
+description_long: You fire off a barrage of energy blasts from an advanced energy drone dealing Moderate energy damage to foes in long cone in front of you. Drone Barrage requires you to have two other powers from the Gadgetry power pool.
+set_types: []
+level: 14
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

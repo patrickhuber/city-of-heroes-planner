@@ -1,0 +1,118 @@
+index: 2881
+full_name: Temporary_Powers.Temporary_Powers.Psionic_Activator
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Psionic_Activator
+display: Psionic Activator
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 6.5
+cast_time: 3.1700000762939453
+recharge_time: 8
+effect_area: 1
+max_boosts: 0
+number_of_charges: 20
+number_allowed: 1
+boosts_allowed: []
+description_short: Stun
+description_long: This high-tech device was given to you by Psimon Omega. When used on victims of Rikti experimentation it activates their latent psychic powers but causing them to fly into a blind rage and attack your nearest enemy. This device has 20 charges.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Psionic_Activator
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 6
+  magnitude: 5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Stun
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Psionic_Activator
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  ticks: 6
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 5.1999998092651367
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Psionic_Activator
+  unique_i_d: 3
+  effect_type: 38
+  summon: NPC_Pets_Pet_Rikti_Conscript
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Psionic_Activator
+  unique_i_d: 4
+  effect_type: 43
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

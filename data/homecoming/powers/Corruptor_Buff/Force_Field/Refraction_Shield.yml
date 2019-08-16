@@ -1,0 +1,173 @@
+index: 9968
+full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+group_name: Corruptor_Buff
+set_name: Force_Field
+name: Refraction_Shield
+display: Detention Field
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.3999999761581421
+attack_types: 2
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 10.399999618530273
+cast_time: 2.0699999332427979
+recharge_time: 60
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Foe Capture (Special)
+description_long: 'Encases a targeted foe in a Detention Force Field. The captured target cannot be harmed, is Immobilized, and cannot attack or aid their allies. The target can, however, use powers on themselves. Recharge: Slow'
+set_types: []
+level: 16
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Refraction_Shield
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

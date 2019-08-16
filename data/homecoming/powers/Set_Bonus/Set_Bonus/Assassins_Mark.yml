@@ -1,0 +1,57 @@
+index: 8981
+full_name: Set_Bonus.Set_Bonus.Assassins_Mark
+group_name: Set_Bonus
+set_name: Set_Bonus
+name: Assassins_Mark
+display: Assassin's Mark
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 5
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+ignore_strength: true
+description_short: Recharges Build Up
+description_long: Your attacks have a 4% chance to recharge Build Up.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark
+  unique_i_d: 1
+  effect_type: 12
+  summon: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  base_probability: 0.039999999105930328
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  effect_id: Ones
+  override: ''

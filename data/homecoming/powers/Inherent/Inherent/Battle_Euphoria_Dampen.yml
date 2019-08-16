@@ -1,0 +1,130 @@
+index: 4517
+full_name: Inherent.Inherent.Battle_Euphoria_Dampen
+group_name: Inherent
+set_name: Inherent
+name: Battle_Euphoria_Dampen
+display: Battle Euphoria Dampen
+requirement:
+  class_names: []
+  class_names_not:
+  - Class_Blaster
+  - Class_Controller
+  - Class_Defender
+  - Class_Scrapper
+  - Class_Tanker
+  - Class_Peacebringer
+  - Class_Warshade
+  - Class_Brute
+  - Class_Corruptor
+  - Class_Dominator
+  - Class_Mastermind
+  - Class_Stalker
+  - Class_Arachnos_Soldier
+  - Class_Arachnos_Widow
+  - Class_Boss_Henchman
+  - Class_Lt_Henchman
+  - Class_Minion_Henchman
+  - Class_Minion_Pets
+  - Class_Boss_Archvillain
+  - Class_Boss_Archvillain_Flying
+  - Class_Boss_Elite
+  - Class_Boss_EliteTurret
+  - Class_Boss_Grunt
+  - Class_Boss_Guard
+  - Class_Boss_Hamidon
+  - Class_Boss_HeavyPet
+  - Class_Boss_HugeDevice
+  - Class_Boss_Mito
+  - Class_Boss_Monster
+  - Class_Boss_Monster_Flying
+  - Class_Boss_Rularuu
+  - Class_Boss_RularuuFM
+  - Class_Boss_Shield
+  - Class_Boss_Signature_Pets
+  - Class_Boss_Turret
+  - Class_Lt_Grunt
+  - Class_Lt_LongRangeDrone
+  - Class_Lt_Sniper
+  - Class_Lt_Turret
+  - Class_Minion_Fire
+  - Class_Minion_Grunt
+  - Class_Minion_Henchman
+  - Class_Minion_Monument
+  - Class_Minion_OilSlickTarget
+  - Class_Minion_Practice
+  - Class_Minion_Small
+  - Class_Minion_Small_Agressive
+  - Class_Minion_Swarm
+  - Class_Minion_Turret
+  - Class_Minion_UnkillableNPC
+  - Class_Signature_Pets
+  - Class_Boss_Reichsman
+  - Class_Minion_PraetorianSmall
+  - Class_Minion_PraetorianGrunt
+  - Class_Lt_PraetorianGrunt
+  - Class_Boss_PraetorianGrunt
+  - Class_Boss_PraetorianElite
+  - Class_Boss_PraetorianArchvillain
+  - Class_Boss_RularuuCoP
+  power_i_ds:
+  - - $ARCHETYPE
+    - '@CLASS_RESCUED_DEVOURED'
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 1
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Self +DMG, Special
+description_long: While engaged in combat, Devoured become filled with endorphins and adrenaline, fueling their attacks and combat lust. Each time they attack or are attacked, they gain a bonus to attack damage.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.Battle_Euphoria_Dampen
+  unique_i_d: 1
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -0.75
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Battle_Euphoria_Dampen
+  unique_i_d: 2
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -1.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

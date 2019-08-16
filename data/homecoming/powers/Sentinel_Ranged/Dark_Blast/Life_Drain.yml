@@ -1,0 +1,133 @@
+index: 10201
+full_name: Sentinel_Ranged.Dark_Blast.Life_Drain
+group_name: Sentinel_Ranged
+set_name: Dark_Blast
+name: Life_Drain
+display: Life Drain
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 8.5299997329711914
+cast_time: 1.9299999475479126
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, High DMG(Negative), Target -To Hit, Self +HP
+description_long: 'You can tap the power of the Netherworld to steal some life from a target foe and reduce their chance to hit. Some of that stolen life is transferred to you in the form of Hit Points. Damage: High, Recharge: Moderate'
+set_types:
+- 0
+- 2
+- 9
+- 26
+- 29
+- 31
+- 44
+level: 26
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Sentinel_Ranged.Dark_Blast.Life_Drain
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Sentinel_Ranged.Dark_Blast.Life_Drain
+  unique_i_d: 2
+  effect_type: 13
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''
+- power_full_name: Sentinel_Ranged.Dark_Blast.Life_Drain
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.6919999122619629
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Sentinel_Ranged.Dark_Blast.Life_Drain
+  unique_i_d: 4
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''

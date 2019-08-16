@@ -1,0 +1,228 @@
+index: 9885
+full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+group_name: Blaster_Support
+set_name: Tactical_Arrow
+name: Glue_Arrow
+display: Glue Arrow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 7.8000001907348633
+cast_time: 1.1599999666213989
+recharge_time: 45
+effect_area: 1
+max_boosts: 6
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged (Targeted AoE), Foe -Speed, -Recharge
+description_long: 'This arrow carries a cartridge of intensely sticky glue, which explodes on impact. The glue slows the movement and attack rates of any foes in the area. Recharge: Very Slow'
+set_types:
+- 3
+- 13
+- 33
+- 44
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_StickyArrow_Blaster
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Glue_Arrow
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.024000000208616257
+  magnitude: 1
+  duration: 8.6599998474121094
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''

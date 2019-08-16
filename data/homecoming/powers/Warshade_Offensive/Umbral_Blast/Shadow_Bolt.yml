@@ -1,0 +1,150 @@
+index: 3201
+full_name: Warshade_Offensive.Umbral_Blast.Shadow_Bolt
+group_name: Warshade_Offensive
+set_name: Umbral_Blast
+name: Shadow_Bolt
+display: Shadow Bolt
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1572866
+accuracy: 1
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 3.119999885559082
+cast_time: 1
+recharge_time: 1.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged, Minor DMG(Negative), Foe -Recharge, -SPD
+description_long: "A very quick, but low damage attack that can lower your target's attack rate and movement speed. Damage: Minor, Recharge: Very Fast"
+set_types:
+- 2
+- 13
+- 39
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Warshade_Offensive.Umbral_Blast.Shadow_Bolt
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.60000002384185791
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Warshade_Offensive.Umbral_Blast.Shadow_Bolt
+  unique_i_d: 2
+  effect_type: 9
+  effect_modifiers: 32
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 4
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Warshade_Offensive.Umbral_Blast.Shadow_Bolt
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.3919999599456787
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Warshade_Offensive.Umbral_Blast.Shadow_Bolt
+  unique_i_d: 4
+  effect_type: 9
+  effect_modifiers: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 4
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Warshade_Offensive.Umbral_Blast.Shadow_Bolt
+  unique_i_d: 5
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 4
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''

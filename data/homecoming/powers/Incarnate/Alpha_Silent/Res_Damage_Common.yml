@@ -1,0 +1,337 @@
+index: 5913
+full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+group_name: Incarnate
+set_name: Alpha_Silent
+name: Res_Damage_Common
+display: Res Damage Common
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+power_type: 5
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed:
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Res_Damage_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Enhances Damage Resistance
+description_long: Enhances the damage resistance of a power by {Boost.Attrib.Smashing.Scale}%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Smashing
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.16670000553131104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 14
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 15
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: Incarnate.Alpha_Silent.Res_Damage_Common
+  unique_i_d: 16
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.033300001174211502
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  ignore_enhancement_diversification: true
+  override: ''

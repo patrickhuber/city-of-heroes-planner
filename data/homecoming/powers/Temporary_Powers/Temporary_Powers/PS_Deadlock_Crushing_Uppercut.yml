@@ -1,0 +1,149 @@
+index: 9768
+full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Crushing_Uppercut
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: PS_Deadlock_Crushing_Uppercut
+display: Crushing Uppercut
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1.2000000476837158
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 13
+endurance_cost: 5
+cast_time: 2.1700000762939453
+recharge_time: 25
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee, Extreme DMG (Smash), Foe Knock Up, Disorient, Finisher
+description_long: 'You perform a jaw breaking Crushing Uppercut on your target inflicting Extreme Smashing damage and knocking them into the air.  Crushing Uppercut will leave the target disoriented for a short time. Crushing Uppercut is a Finisher and will set your Combo Level to 0. It will deal additional damage and have a longer disorient duration dependent upon the current Combo Level. At Combo Level 3, Crushing Uppercut will have its disorient effect upgraded to a Hold effect. Damage: Extreme, Recharge: Slow'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Crushing_Uppercut
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 3.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Crushing_Uppercut
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 8
+  magnitude: 3
+  duration: 0.5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Stun
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Crushing_Uppercut
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 4
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 3
+  duration: 0.5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Crushing_Uppercut
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.25
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 12
+  magnitude: 3
+  duration: 0.5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Crushing_Uppercut
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''

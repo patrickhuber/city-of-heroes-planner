@@ -1,0 +1,192 @@
+index: 357
+full_name: Controller_Buff.Storm_Summoning.Hurricane
+group_name: Controller_Buff
+set_name: Storm_Summoning
+name: Hurricane
+display: Hurricane
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.16249999403953552
+cast_time: 2.0299999713897705
+recharge_time: 10
+activate_period: 0.25
+effect_area: 2
+radius: 25
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: 'Toggle: PBAoE, Foe -Range, -To Hit, Repel, Knockback'
+description_long: 'You can summon a Hurricane. The wind and rain from this massive storm reduce the range and chance to hit of nearby foes. The massive winds of this storm continuously force foes away from you. Recharge: Slow'
+set_types:
+- 23
+- 26
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 1
+  effect_type: 9
+  effect_modifiers: 24
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -0.60000002384185791
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 1.0499999523162842
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  ticks: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Controller_Buff.Storm_Summoning.Hurricane
+  unique_i_d: 7
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,279 @@
+index: 6153
+full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+group_name: Inherent
+set_name: Inherent
+name: Alt_Cheetah_Travel_Power
+display: Cheetah Travel Power
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1615872
+power_type: 2
+accuracy: 1
+group_memberships:
+- Flying_Group
+- Leap_Group
+- LeapRoot_Group
+- Speed_Group
+- SpeedRoot_Group
+- Sprint_Group
+- SprintRoot_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.0097500002011656761
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Toggle: Self +Run Speed, +Jump'
+description_long: You transform into a cheetah granting you greatly increased movement speed and a slight increase to jump height.  However, while this power is active you will be unable to activate most powers.  Additionally this power will deactivate most powers upon activation.
+set_types: []
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 1
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 0.18000000715255737
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Leap
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Leap
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 2
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 3
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 4
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 5
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 1.3999999761581421
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 6
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.18000000715255737
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Leap
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Leap
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 7
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.43999999761581421
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 8
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 9
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 10
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 1.3999999761581421
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 11
+  effect_type: 33
+  summon: ''
+  ticks: 1
+  base_probability: 1
+  suppression: 7
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Alt_Cheetah_Travel_Power
+  unique_i_d: 12
+  effect_type: 34
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 12
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

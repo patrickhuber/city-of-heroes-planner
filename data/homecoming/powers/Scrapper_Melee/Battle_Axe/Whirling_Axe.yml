@@ -1,0 +1,217 @@
+index: 5651
+full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+group_name: Scrapper_Melee
+set_name: Battle_Axe
+name: Whirling_Axe
+display: Whirling Axe
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 13
+cast_time: 2.6700000762939453
+recharge_time: 14
+effect_area: 2
+radius: 8
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: PBAoE Melee, Moderate DMG(Lethal), Foe Knockdown
+description_long: 'You spin your Battle Axe in a huge arc, attacking all nearby foes. This attack deals moderate damage to any foe it hits, and can knock them down. Damage: Moderate, Recharge: Slow'
+set_types:
+- 4
+- 23
+- 41
+- 44
+level: 18
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8551700115203857
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.44999998807907104
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 5
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8551700115203857
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: PlayerCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 7
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: MLCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Battle_Axe.Whirling_Axe
+  unique_i_d: 8
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: BossCrit
+  override: ''

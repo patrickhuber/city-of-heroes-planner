@@ -1,0 +1,147 @@
+index: 622
+full_name: Defender_Buff.Kinetics.Transfusion
+group_name: Defender_Buff
+set_name: Kinetics
+name: Transfusion
+display: Transfusion
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 2
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 7.8000001907348633
+cast_time: 1.1699999570846558
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Range_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: Ranged, Foe -End, -Regen, Team Heal
+description_long: "Transfusion drains an enemy of some Endurance and reduces the target's Regeneration rate, and transfers that energy, in the form of Hit Points, to all allies near the affected foe. You can use Transfusion to heal yourself as well as your allies. Recharge: Moderate"
+set_types:
+- 9
+- 22
+- 29
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Defender_Buff.Kinetics.Transfusion
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Transfusion
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Kinetics.Transfusion
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.11999999731779099
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Kinetics.Transfusion
+  unique_i_d: 3
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -3.3299999237060547
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Defender_Buff.Kinetics.Transfusion
+  unique_i_d: 4
+  effect_type: 27
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Kinetics.Transfusion
+  unique_i_d: 5
+  effect_type: 27
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -11.5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''

@@ -1,0 +1,118 @@
+index: 5584
+full_name: Mastermind_Buff.Sonic_Resonance.Sonic_Haven
+group_name: Mastermind_Buff
+set_name: Sonic_Resonance
+name: Sonic_Haven
+display: Sonic Haven
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 80
+endurance_cost: 7.8000001907348633
+cast_time: 1.3300000429153442
+recharge_time: 2
+effect_area: 2
+radius: 30
+max_targets: 255
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: Ranged, Ally +Res(Fire, Cold, Energy, Negative Energy)
+description_long: 'This shield dramatically reduces the damage an ally takes from Fire, Cold, Energy, and Negative Energy attacks for a limited time. You cannot stack multiple Sonic Havens on the same target, however the shield can be improved by another ally using the same power. Can also be used in conjunction with your Sonic Barrier. You cannot use this power on yourself.  Recharge: Very Fast'
+set_types:
+- 8
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Buff.Sonic_Resonance.Sonic_Haven
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 240
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Buff.Sonic_Resonance.Sonic_Haven
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 240
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Buff.Sonic_Resonance.Sonic_Haven
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 240
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Buff.Sonic_Resonance.Sonic_Haven
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 240
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

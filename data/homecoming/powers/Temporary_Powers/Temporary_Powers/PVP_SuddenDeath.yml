@@ -1,0 +1,54 @@
+index: 4061
+full_name: Temporary_Powers.Temporary_Powers.PVP_SuddenDeath
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: PVP_SuddenDeath
+display: PVP SuddenDeath
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+activate_period: 6
+effect_area: 1
+max_boosts: ''
+life_time_in_game: 180
+number_allowed: 10
+boosts_allowed: []
+ignore_strength: true
+description_short: 'Auto: Self -MaxHealth'
+description_long: Once sudden Death begins, your Max Health slowly deteriorates until you are defeated.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.PVP_SuddenDeath
+  unique_i_d: 1
+  effect_type: 14
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 180
+  attrib_type: 2
+  aspect: 1
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: Max.kHitPoints source> -0.1 * 75 -
+  reward: ''
+  effect_id: Ones
+  override: ''

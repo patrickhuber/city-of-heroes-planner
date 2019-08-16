@@ -1,0 +1,120 @@
+index: 9790
+full_name: Temporary_Powers.Temporary_Powers.KR_Focused_Burst
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: KR_Focused_Burst
+display: Focused Burst
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.7199997901916504
+cast_time: 2.2000000476837158
+recharge_time: 5
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged, Moderate DoT (Lethal), Chance for Knockdown (Foe)
+description_long: You fire a focused burst from your submachine gun, causing lethal damage over time and potentially knocking the target down.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.KR_Focused_Burst
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.34999999403953552
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.KR_Focused_Burst
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  delayed_time: 0.15000000596046448
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.34999999403953552
+  magnitude: 1
+  duration: 0.5
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.KR_Focused_Burst
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.KR_Focused_Burst
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  suppression: 32
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

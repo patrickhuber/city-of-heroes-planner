@@ -1,0 +1,214 @@
+index: 8882
+full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+group_name: Incarnate
+set_name: Hybrid
+name: Control_Radial_Embodiment
+display: Control Radial Embodiment
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+recharge_time: 120
+activate_period: 10
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+cast_through_hold: true
+ignore_strength: true
+description_short: 'Toggle: Chance for Fear, Chance for Immobilize, Chance for Stun (Special)'
+description_long: 'Toggle: Adds a Chance for Fear  and a Chance for Immobilize to most damaging powers.  This ability gives a 70% chance for its effects to occur on each hit.  If your target is already Immobilized and Feared, you have an additional 100% chance to stun that target.  Equipping this Hybrid power grants a passive boost to Status Resistance at all times.'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 1
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Control_Fear
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Fear
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 2
+  effect_type: 30
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Fear
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 3
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Control_Immobilize
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Immobilize
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 4
+  effect_type: 30
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Immobilize
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 5
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Control_Stun
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Stun
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 6
+  effect_type: 30
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Stun
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 7
+  effect_type: 45
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 0.69999998807907104
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HybridCC
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 8
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Lockout
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Lockout
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 9
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Control_Boost_Very_Rare
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Boost_Very_Rare
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Control_Radial_Embodiment
+  unique_i_d: 10
+  effect_type: 30
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Control_Boost_Very_Rare
+  effect_id: Ones
+  override: ''

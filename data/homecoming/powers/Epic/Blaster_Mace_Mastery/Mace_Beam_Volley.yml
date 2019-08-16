@@ -1,0 +1,180 @@
+index: 4348
+full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+group_name: Epic
+set_name: Blaster_Mace_Mastery
+name: Mace_Beam_Volley
+display: Mace Beam Volley
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Blaster_Mace_Mastery.Web_Envelope
+    - ''
+  - - Epic.Blaster_Mace_Mastery.Scorpion_Shield
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1.0499999523162842
+attack_types: 140
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 50
+endurance_cost: 18.979999542236328
+cast_time: 2
+recharge_time: 32
+effect_area: 3
+radius: 50
+arc: 35
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Moderate DMG(Smashing/Energy), Foe Knockback
+description_long: 'Fires a volley of multiple kinetic energy blasts from your Nullifier Mace. These blast spread out in a wide cone and are powerful enough to knock down some foes. You must be level 41 and have Web Envelope or Scorpion Shield before selecting this power.  Damage: Moderate, Recharge: Long'
+set_types:
+- 3
+- 23
+- 44
+level: 41
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.91491001844406128
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.91491001844406128
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Epic.Blaster_Mace_Mastery.Mace_Beam_Volley
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''

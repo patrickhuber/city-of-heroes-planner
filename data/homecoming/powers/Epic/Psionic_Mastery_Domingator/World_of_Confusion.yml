@@ -1,0 +1,116 @@
+index: 4389
+full_name: Epic.Psionic_Mastery_Domingator.World_of_Confusion
+group_name: Epic
+set_name: Psionic_Mastery_Domingator
+name: World_of_Confusion
+display: World of Confusion
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Psionic_Mastery_Domingator.Link_Minds
+    - ''
+  - - Epic.Psionic_Mastery_Domingator.Indomitable_Will
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+attack_types: 512
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.64999997615814209
+cast_time: 1.6699999570846558
+recharge_time: 15
+activate_period: 4
+effect_area: 2
+radius: 8
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Confuse_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: PBAoE, Minor DoT(Psionic), Foe Confuse'
+description_long: 'This toggle power allows you to cause psionic damage and cause confusion within a group of foes, creating chaos. The chance of confusing an enemy is lower than then chance of damaging them, and it may take multiple hits to affect stronger opponents. All affected foes within the area will turn and attack each other, ignoring all heroes. You will not receive any Experience Points for foes defeated by Confused enemies. You must be level 41 and have Link Minds or Indomitable Will before selecting this power. Recharge: Moderate'
+set_types:
+- 4
+- 16
+level: 41
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Psionic_Mastery_Domingator.World_of_Confusion
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.World_of_Confusion
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.World_of_Confusion
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.11999999731779099
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

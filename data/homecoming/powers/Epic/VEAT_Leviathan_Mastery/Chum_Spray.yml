@@ -1,0 +1,139 @@
+index: 1009
+full_name: Epic.VEAT_Leviathan_Mastery.Chum_Spray
+group_name: Epic
+set_name: VEAT_Leviathan_Mastery
+name: Chum_Spray
+display: Bile Spray
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.VEAT_Leviathan_Mastery.Spirit_Shark
+    - ''
+  - - Epic.VEAT_Leviathan_Mastery.School_of_Sharks
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 18.979999542236328
+cast_time: 2.6700000762939453
+recharge_time: 32
+effect_area: 3
+radius: 60
+arc: 30
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Moderate DoT(Toxic)
+description_long: 'Sharks will eat anything, so their stomach acid must be powerful indeed. You can regurgitate this acid and spew a corrosive spray of bile at a foe. Affected foes in the cone area will take toxic damage over time. You must be level 41 and have Spirit Shark or School of Sharks before selecting this power. Damage: Moderate(DoT), Recharge: Long'
+set_types:
+- 3
+- 44
+level: 41
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.VEAT_Leviathan_Mastery.Chum_Spray
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.69999998807907104
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.VEAT_Leviathan_Mastery.Chum_Spray
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 4.25
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.VEAT_Leviathan_Mastery.Chum_Spray
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.78833997249603271
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.VEAT_Leviathan_Mastery.Chum_Spray
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.10510999709367752
+  magnitude: 1
+  duration: 4.25
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

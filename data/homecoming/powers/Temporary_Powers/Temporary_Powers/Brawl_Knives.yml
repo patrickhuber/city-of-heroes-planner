@@ -1,0 +1,125 @@
+index: 2677
+full_name: Temporary_Powers.Temporary_Powers.Brawl_Knives
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Brawl_Knives
+display: Throwing Knives
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1.2000000476837158
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 45
+endurance_cost: 2.0799999237060547
+cast_time: 1
+recharge_time: 4
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged Minor DMG(Lethal), +Minor DoT(Lethal)
+description_long: "With your natural origin you have to rely on your cunning and skill. You've acquired these throwing knives as part of your personal arsenal. You can throw these knives at a very short range, and deal minor Lethal damage to your target, but a nasty wound will do additional Damage over Time. This power receives a damage bonus that decreases as you level up.  At around level 15 you stop benefiting from this power's damage bonus altogether. Damage: Minor (DoT), Recharge: Fast"
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Knives
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Knives
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  delayed_time: 0.5
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.039999999105930328
+  magnitude: 1
+  duration: 4.25
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Knives
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  attrib_type: 2
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 15 level source> - .07 * .3 + @StdResult *
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Knives
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  delayed_time: 0.5
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 4.25
+  attrib_type: 2
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 15 level source> - .07 * .3 + .13 * @StdResult *
+  reward: ''
+  effect_id: Damage
+  override: ''

@@ -1,0 +1,121 @@
+index: 10602
+full_name: Inherent.Inherent.Scrutiny_Meter
+group_name: Inherent
+set_name: Inherent
+name: Scrutiny_Meter
+display: Scrutiny
+requirement:
+  class_names:
+  - Class_Sentinel
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 0.25
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: -Def
+description_long: Sentinels are always on the lookout for vulnerabilities in their foes' defenses. By sharing this strategic information with their teammates, any enemy that a Sentinel focuses attacks on will be easier to hit and will suffer an additional 10% damage from incoming attacks. Multiple Sentinels can work together to make this effect stronger. Occasionally, the Sentinel may find an extreme vulnerability in a target that can be exploited to deliver up to 30% additional damage against it for a limited time. Only one such extreme vulnerability may be exploited at a time.
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.Scrutiny_Meter
+  unique_i_d: 1
+  effect_type: 18
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: kRage source> .01 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Scrutiny_Meter
+  unique_i_d: 2
+  effect_type: 18
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Scrutiny_Meter
+  unique_i_d: 3
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -0.20000000298023224
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: RageDecay
+  override: ''
+- power_full_name: Inherent.Inherent.Scrutiny_Meter
+  unique_i_d: 4
+  effect_type: 34
+  summon: ''
+  ticks: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 32
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Scrutiny_Meter
+  unique_i_d: 5
+  effect_type: 78
+  summon: ''
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

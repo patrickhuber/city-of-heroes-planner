@@ -1,0 +1,56 @@
+index: 6296
+full_name: Temporary_Powers.Temporary_Powers.I22_MissionReward_TsooSummon
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: I22_MissionReward_TsooSummon
+display: 'Summon: Tsoo Sorcerer'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 9.75
+cast_time: 2.0299999713897705
+recharge_time: 240
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Summon: Tsoo Sorcerer'
+description_long: When confronting Sun Xiong, you chose to spare him, gaining both his gratitude and his respect. For these actions, you have earned the right to call upon a Tsoo Sorcerer to assist you in battle. This summoning can only be completed five times, and the Sorcerer will only assist you for three minutes. You must be combat level 15 and above to be able to use this summon, and if you drop below this level, a summoned Sorcerer will depart.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.I22_MissionReward_TsooSummon
+  unique_i_d: 1
+  effect_type: 38
+  summon: Tsoo_CoV_Sorcerer_SpanPet
+  delayed_time: 1.5
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

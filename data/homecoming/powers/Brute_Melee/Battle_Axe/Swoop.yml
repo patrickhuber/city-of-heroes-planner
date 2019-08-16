@@ -1,0 +1,219 @@
+index: 230
+full_name: Brute_Melee.Battle_Axe.Swoop
+group_name: Brute_Melee
+set_name: Battle_Axe
+name: Swoop
+display: Swoop
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 11.855999946594238
+cast_time: 1.8300000429153442
+recharge_time: 12
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+- Taunt_Boost
+description_short: Melee, Superior DMG(Lethal), Foe Knockup
+description_long: 'A Swoop of your Battle Axe deals a superior amount of damage, and can send your target flying upwards. Damage: Superior, Recharge: Slow'
+set_types:
+- 1
+- 23
+- 24
+- 34
+- 44
+level: 8
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.2799999713897705
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 0.69999998807907104
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.9228000640869141
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 0.69999998807907104
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 14
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 7
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Battle_Axe.Swoop
+  unique_i_d: 8
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.0260000228881836
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''

@@ -1,0 +1,54 @@
+index: 1656
+full_name: Pets.Lost_Cure_Counter.Lost_Cured
+group_name: Pets
+set_name: Lost_Cure_Counter
+name: Lost_Cured
+display: Lost Cured
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+group_memberships: []
+entities_affected: 134217728
+entities_auto_hit: 134217728
+target: 1
+target_line_of_sight: true
+effect_area: 6
+max_boosts: 6
+cast_flags: 4
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Knockback_Boost
+description_short: AoE Lethal/Fire, Knockback
+description_long: All foes that pass near this Trip Mine will get blown to smithereens.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Lost_Cure_Counter.Lost_Cured
+  unique_i_d: 1
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Cured_Counter
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Cured_Counter
+  effect_id: Ones
+  override: ''

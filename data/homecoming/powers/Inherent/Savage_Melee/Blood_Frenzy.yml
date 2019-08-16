@@ -1,0 +1,90 @@
+index: 10085
+full_name: Inherent.Savage_Melee.Blood_Frenzy
+group_name: Inherent
+set_name: Savage_Melee
+name: Blood_Frenzy
+display: Blood Frenzy
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Brute_Melee.Savage_Melee.Maiming_Slash
+    - ''
+  - - Brute_Melee.Savage_Melee.Savage_Strike
+    - ''
+  - - Scrapper_Melee.Savage_Melee.Maiming_Slash
+    - ''
+  - - Scrapper_Melee.Savage_Melee.Savage_Strike
+    - ''
+  - - Stalker_Melee.Savage_Melee.Maiming_Slash
+    - ''
+  - - Stalker_Melee.Savage_Melee.Savage_Strike
+    - ''
+  - - Tanker_Melee.Savage_Melee.Savage_Strike
+    - ''
+  power_i_ds_not: []
+power_type: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+effect_area: 1
+max_boosts: ''
+boosts_allowed: []
+description_short: Self, +DMG, +End Discount, +Special
+description_long: Each stack of Blood Frenzy grants you a small damage and endurance discount buff. It is also consumed by certain powers to empower them. Blood Frenzy stacks up to 5 times. Shred deals additional damage and has a chance to immediately recharge itself per stack of Blood Frenzy. Rending Flurry's damage is increased by each stack of Blood Frenzy, additionally if you have 5 stacks of Blood Frenzy this power's radius is increased. Blood Thirst's heal over time effect is increased with each stack of Blood Frenzy. Additionally, using Blood Thirst with 5 stacks of Blood Frenzy will cause the heal over time effect to heal for a longer duration. Hemorrhage's bleed effect is greatly increased by each stack of Blood Frenzy and executing this power with 5 stacks of Blood Frenzy will increase the duration of the damage over time effect. Using Shred, Rending Flurry, Blood Thirst or Hemorrhage with 5 stacks of Blood Frenzy will cause you to be Exhausted for 8 seconds. While Exhausted you cannot build stacks of Blood Frenzy.
+set_types: []
+click_buff: true
+level: 1
+variable_enabled: true
+variable_name: Stacks
+variable_max: 5
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+display_location: 6
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+show_summon_anyway: true
+never_auto_update: true
+never_auto_update_requirements: true
+include_flag: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: ''
+  effect_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  scale: 0.059999998658895493
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 25
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  scale: 0.039999999105930328
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

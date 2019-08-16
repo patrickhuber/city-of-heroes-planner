@@ -1,0 +1,139 @@
+index: 10589
+full_name: Epic.Sentinel_Dark_Mastery.Engulfing_Darkness
+group_name: Epic
+set_name: Sentinel_Dark_Mastery
+name: Engulfing_Darkness
+display: Engulfing Darkness
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Sentinel_Dark_Mastery.Netherworld_Tentacles
+    - ''
+  - - Epic.Sentinel_Dark_Mastery.Smite
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 260
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 21.059999465942383
+cast_time: 2
+recharge_time: 36
+effect_area: 2
+radius: 15
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: PBAoE, Moderate DMG(Negative), Foe -To Hit, Minor DoT(Negative)
+description_long: 'You release a burst of negative energy to foes around you dealing moderate Negative Energy damage, reducing their chance to hit and sapping their health over time.  Damage: Moderate, Recharge: Long'
+set_types:
+- 4
+- 26
+- 31
+- 44
+level: 41
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Epic.Sentinel_Dark_Mastery.Engulfing_Darkness
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Sentinel_Dark_Mastery.Engulfing_Darkness
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.4441100358963013
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Sentinel_Dark_Mastery.Engulfing_Darkness
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Sentinel_Dark_Mastery.Engulfing_Darkness
+  unique_i_d: 4
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''

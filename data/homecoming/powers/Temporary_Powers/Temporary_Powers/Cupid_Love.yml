@@ -1,0 +1,72 @@
+index: 6090
+full_name: Temporary_Powers.Temporary_Powers.Cupid_Love
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Cupid_Love
+display: Arrow of Romance
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 32768
+entities_auto_hit: 32768
+target: 32768
+target_line_of_sight: true
+range: 80
+endurance_cost: 5
+cast_time: 2
+recharge_time: 20
+effect_area: 1
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: Ally +Regen OR Foe Placate
+description_long: The Arrow of Romance can be used on friendly or hostile targets alike. If used on an Ally, it will increase their regeneration temporarily. If used on a Foe, it will cause them to be Placated.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Cupid_Love
+  unique_i_d: 1
+  effect_type: 53
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: Temporary_Powers.Temporary_Powers.Cupid_Love_Friend
+- power_full_name: Temporary_Powers.Temporary_Powers.Cupid_Love
+  unique_i_d: 2
+  effect_type: 53
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: Temporary_Powers.Temporary_Powers.Cupid_Love_Foe

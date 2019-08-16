@@ -1,0 +1,135 @@
+index: 982
+full_name: Epic.Psychic_Mastery.Telekinesis
+group_name: Epic
+set_name: Psychic_Mastery
+name: Telekinesis
+display: Telekinesis
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Psychic_Mastery.Dominate
+    - Epic.Psychic_Mastery.Mass_Hypnosis
+  - - Epic.Psychic_Mastery.Dominate
+    - Epic.Psychic_Mastery.Mind_Over_Body
+  - - Epic.Psychic_Mastery.Dominate
+    - Epic.Psychic_Mastery.World_of_Confusion
+  - - Epic.Psychic_Mastery.Mass_Hypnosis
+    - Epic.Psychic_Mastery.Mind_Over_Body
+  - - Epic.Psychic_Mastery.Mass_Hypnosis
+    - Epic.Psychic_Mastery.World_of_Confusion
+  power_i_ds_not: []
+modes_disallowed: 74
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 50
+endurance_cost: 1.9500000476837158
+cast_time: 1.1299999952316284
+recharge_time: 60
+activate_period: 0.5
+effect_area: 2
+radius: 10
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: 'Toggle: Ranged (Targeted AoE), Foe Hold, Repel'
+description_long: 'Lifts a foe, and any nearby foes, off the ground and repels them.  The targets are helpless, unable to take action, and will continue to hover away, picking up any passing targets, as long as you keep this power active. Keeping up this level of concentration costs a lot of Endurance. You must be level 44 and have two other Psychic Mastery powers before selecting this power. Recharge: Slow'
+set_types: []
+level: 44
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Psychic_Mastery.Telekinesis
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.75
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Epic.Psychic_Mastery.Telekinesis
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Psychic_Mastery.Telekinesis
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  suppression: 1024
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.75
+  magnitude: 1.5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Epic.Psychic_Mastery.Telekinesis
+  unique_i_d: 4
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.KillTk
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.KillTk
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,79 @@
+index: 1649
+full_name: Pets.Longbow_Heavy.Tear_Gas
+group_name: Pets
+set_name: Longbow_Heavy
+name: Tear_Gas
+display: Tear Gas
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 9.1000003814697266
+cast_time: 2.6700000762939453
+recharge_time: 16
+activate_period: 0.5
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: Hold
+description_long: The Tear Gas has left you choking and helpless.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Longbow_Heavy.Tear_Gas
+  unique_i_d: 1
+  effect_type: 38
+  summon: ParagonPolice_Heracles_TearGas
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Longbow_Heavy.Tear_Gas
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

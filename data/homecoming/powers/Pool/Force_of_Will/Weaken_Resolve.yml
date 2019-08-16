@@ -1,0 +1,237 @@
+index: 10355
+full_name: Pool.Force_of_Will.Weaken_Resolve
+group_name: Pool
+set_name: Force_of_Will
+name: Weaken_Resolve
+display: Weaken Resolve
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 66
+accuracy: 1
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 7.8000001907348633
+cast_time: 2
+recharge_time: 30
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Buff_ToHit_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Foe -Resist, -Defense, Self +To Hit
+description_long: 'You overwhelm your foe with sheer strength of will, reducing their defense and damage resistance, while boosting your own chance to hit! Recharge: Long'
+set_types:
+- 21
+- 30
+click_buff: true
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 9
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Pool.Force_of_Will.Weaken_Resolve
+  unique_i_d: 10
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.5
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Buff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_ToHit
+  override: ''

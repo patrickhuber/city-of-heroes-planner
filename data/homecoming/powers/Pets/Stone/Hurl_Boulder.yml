@@ -1,0 +1,105 @@
+index: 1722
+full_name: Pets.Stone.Hurl_Boulder
+group_name: Pets
+set_name: Stone
+name: Hurl_Boulder
+display: Hurl Boulder
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 10
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 9.3599996566772461
+cast_time: 3.8299999237060547
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+cast_flags: 1
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+description_short: Ranged, High DMG(Smash), Foe Knockback
+description_long: 'You are able to tear up a chunk of ground beneath your feet and Hurl it at an enemy. This attack is close ranged, deals moderate damage, and can knock foes back. Damage: High, Recharge: Moderate'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.Stone.Hurl_Boulder
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Stone.Hurl_Boulder
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Stone.Hurl_Boulder
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 13.199999809265137
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

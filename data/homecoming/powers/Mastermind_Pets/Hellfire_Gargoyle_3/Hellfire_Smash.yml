@@ -1,0 +1,150 @@
+index: 4242
+full_name: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+group_name: Mastermind_Pets
+set_name: Hellfire_Gargoyle_3
+name: Hellfire_Smash
+display: Hellfire Smash
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 8.5279998779296875
+cast_time: 1.5
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+description_short: Melee, High DMG(Smash/Toxic) Foe Knockdown
+description_long: 'A slow but devastating attack.  Hellfire clobbers your foes with a massive 2 handed fiery smash that leaves your foe set on fire. Damage: High, Recharge: Moderate'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+sort_override: true
+effects:
+- power_full_name: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.40000000596046448
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.69999998807907104
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.40000000596046448
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.69999998807907104
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''

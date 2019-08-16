@@ -1,0 +1,169 @@
+index: 9359
+full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+group_name: Dominator_Assault
+set_name: Martial_Assault
+name: Shuriken_Throw
+display: Shuriken Throw
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 5.1999998092651367
+cast_time: 1
+recharge_time: 4
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Minor DMG(Lethal)
+description_long: 'You impale your foe with a thrown shuriken, dealing moderate Lethal damage.  Damage: Moderate, Recharge: Fast'
+set_types:
+- 2
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.60000002384185791
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.47040000557899475
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.40000000596046448
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.31360000371932983
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Martial_Assault.Shuriken_Throw
+  unique_i_d: 6
+  effect_type: 48
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,68 @@
+index: 790
+full_name: Dominator_Assault.Thorny_Assault.Thorntrops
+group_name: Dominator_Assault
+set_name: Thorny_Assault
+name: Thorntrops
+display: Thorntrops
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 25
+endurance_cost: 7.8000001907348633
+cast_time: 1.6299999952316284
+recharge_time: 45
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged (Location AoE), Minor DoT(Lethal), Foe -Speed
+description_long: 'You fling dozens of Thorns into the ground at a targeted location.  The small Thorns pepper the ground over a large area. Any enemy that pass over the Thorntrops will be forced to move at a slower rate. They will also take some trivial Lethal damage over time. Damage: Minor(DoT), Recharge: Slow'
+set_types:
+- 3
+- 13
+- 44
+level: 28
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Dominator_Assault.Thorny_Assault.Thorntrops
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Thorntrops
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 45
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

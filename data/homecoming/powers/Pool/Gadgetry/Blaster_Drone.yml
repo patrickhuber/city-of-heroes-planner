@@ -1,0 +1,44 @@
+index: 10361
+full_name: Pool.Gadgetry.Blaster_Drone
+group_name: Pool
+set_name: Gadgetry
+name: Blaster_Drone
+display: Blaster Drone
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 138
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 5.1999998092651367
+cast_time: 1
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+cast_through_hold: true
+description_short: Ranged, Moderate DMG(Energy), Foe -Regen
+description_long: You fire a series of blasts from a sophisticated energy drone. Wrist Blaster deals Moderate energy damage and will reduce the target's regeneration rate for a short time.
+set_types: []
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

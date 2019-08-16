@@ -1,0 +1,61 @@
+index: 1320
+full_name: Mastermind_Pets.Thug_Arsonist.Brawl
+group_name: Mastermind_Pets
+set_name: Thug_Arsonist
+name: Brawl
+display: Brawl
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 4.3680000305175781
+cast_time: 0.67000001668930054
+recharge_time: 16
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: Melee, Minor DMG(Smash)
+description_long: When all else fails, you have only your two fists to depend on.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Thug_Arsonist.Brawl
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.8399999737739563
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

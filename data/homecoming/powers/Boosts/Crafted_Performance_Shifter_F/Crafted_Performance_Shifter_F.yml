@@ -1,0 +1,59 @@
+index: 7807
+full_name: Boosts.Crafted_Performance_Shifter_F.Crafted_Performance_Shifter_F
+group_name: Boosts
+set_name: Crafted_Performance_Shifter_F
+name: Crafted_Performance_Shifter_F
+display: 'Performance Shifter: Chance for +Endurance'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Recovery_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Chance for +Endurance
+description_long: Gives a minor chance of granting the powers target a small infusion of endurance.  This effect will trigger roughly 1.5 times per minute.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Boosts.Crafted_Performance_Shifter_F.Crafted_Performance_Shifter_F
+  unique_i_d: 1
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  to_who: 3
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+  procs_per_minute: 1.5

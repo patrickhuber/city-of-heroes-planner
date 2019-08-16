@@ -1,0 +1,278 @@
+index: 107
+full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+group_name: Blaster_Support
+set_name: Electricity_Manipulation
+name: Power_Sink
+display: Power Sink
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 13
+cast_time: 2.0299999713897705
+recharge_time: 60
+effect_area: 2
+radius: 12
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: PBAoE, Self +End, Foe -End
+description_long: 'Power Sink leeches energy directly from the bodies of all nearby foes, draining their Endurance. Each foe you draw energy from increases your Endurance. If there are no foes within range, you will not gain any Endurance. Recharge: Long'
+set_types:
+- 22
+click_buff: true
+level: 35
+variable_enabled: true
+variable_name: Foes
+variable_min: 1
+variable_max: 10
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 1
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.34999999403953552
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -10
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 3
+  effect_type: 26
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 4
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 4
+  effect_type: 7
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Electricity_Manipulation.Power_Sink
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.048000000417232513
+  magnitude: 1
+  duration: 9.5299997329711914
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''

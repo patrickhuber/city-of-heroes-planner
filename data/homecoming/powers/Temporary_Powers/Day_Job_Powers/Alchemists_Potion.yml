@@ -1,0 +1,57 @@
+index: 4749
+full_name: Temporary_Powers.Day_Job_Powers.Alchemists_Potion
+group_name: Temporary_Powers
+set_name: Day_Job_Powers
+name: Alchemists_Potion
+display: Vitalize
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 80
+endurance_cost: 13
+cast_time: 2.2699999809265137
+recharge_time: 20
+effect_area: 1
+max_boosts: ''
+number_of_charges: 20
+number_allowed: 1
+boosts_allowed: []
+description_short: Ally Heal
+description_long: "Your knowledge of both medicine and magic has taught you how to heal your allies.  Use this power on an ally to recover a portion of their health.  Additional charges of Vitalize can be gained by logging out in a Hospital or the Midnighter's Club.  Recharge: Long."
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Day_Job_Powers.Alchemists_Potion
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Heal
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Heal
+  override: ''

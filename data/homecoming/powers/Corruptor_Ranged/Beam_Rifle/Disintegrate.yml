@@ -1,0 +1,208 @@
+index: 5308
+full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+group_name: Corruptor_Ranged
+set_name: Beam_Rifle
+name: Disintegrate
+display: Disintegrate
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.1000000238418579
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 10.192000389099121
+cast_time: 1.8999999761581421
+recharge_time: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, High DoT(Energy), Foe -Regen, Special
+description_long: "You fire a stream of energy at your foe which causes them to slowly disintegrate and suffer High Energy damage over time. Even after the damage over time effect wears off the target will have their regeneration rate reduced and suffer from the Disintegration effect for an additional period of time. Using Beam Rifle powers on targets affected by Disintegrate will inflict additional effects. Additionally if Single Shot, Charged Shot, Lancer Shot and Penetrating Ray are used on a target suffering from Disintegrating, they have a chance to cause this effect to spread to up 3 nearby targets that aren't already suffering from Disintegrating. Targets affected by this Disintegrate Spread will also suffer some Minor Energy damage over time. Damage: High, Recharge: Long"
+set_types:
+- 2
+- 36
+- 44
+click_buff: true
+level: 6
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.21600000560283661
+  magnitude: 1
+  duration: 10.5
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.31690001487731934
+  magnitude: 1
+  duration: 10.5
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.1559998989105225
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.2316598892211914
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 5
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -1.5
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 6
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -6
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 7
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Beam_Rifle.Disintegrate
+  unique_i_d: 8
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Beam_Rifle_Debuff
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Beam_Rifle_Debuff
+  effect_id: Ones
+  override: ''

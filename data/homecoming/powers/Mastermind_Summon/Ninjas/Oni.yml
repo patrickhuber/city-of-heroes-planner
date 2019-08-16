@@ -1,0 +1,68 @@
+index: 1463
+full_name: Mastermind_Summon.Ninjas.Oni
+group_name: Mastermind_Summon
+set_name: Ninjas
+name: Oni
+display: Oni
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 19.5
+cast_time: 2.0299999713897705
+recharge_time: 120
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Hold_Boost
+- Immobilized_Boost
+- Knockback_Boost
+description_short: Summon Oni
+description_long: 'Summons an ancient and powerful Oni.  An Oni is a powerful human-like demon warrior.  The Oni is a formidable creature who possesses the skill of a warrior and the powers of wind and fire. You may only have 1 Oni under your control at any given time.  If you attempt to summon another Oni, the power will fail. Recharge: Very Long'
+set_types:
+- 6
+- 10
+- 23
+- 27
+- 40
+- 44
+level: 26
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Ninjas.Oni
+  unique_i_d: 1
+  effect_type: 38
+  summon: MastermindPets_Oni
+  delayed_time: 1
+  base_probability: 1
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

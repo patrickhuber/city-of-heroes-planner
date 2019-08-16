@@ -1,0 +1,100 @@
+index: 9774
+full_name: Temporary_Powers.Temporary_Powers.PPD_Grenade_Launcher
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: PPD_Grenade_Launcher
+display: PPD Grenade Launcher
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 28
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 7
+cast_time: 1.8700000047683716
+recharge_time: 60
+effect_area: 2
+radius: 15
+max_targets: 16
+max_boosts: 0
+life_time: 72000
+number_allowed: 1
+boosts_allowed: []
+description_short: Targeted AoE Lethal/Smash, Knockback
+description_long: You picked up this Grenade Launcher during a prison break at the Zig.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.PPD_Grenade_Launcher
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Tempdamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Tempdamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PPD_Grenade_Launcher
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.69999998807907104
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Tempdamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Tempdamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PPD_Grenade_Launcher
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.25
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''

@@ -1,0 +1,60 @@
+index: 2685
+full_name: Temporary_Powers.Temporary_Powers.Clockwork_Immobilizer_MkI
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Clockwork_Immobilizer_MkI
+display: Clockwork Immobilizer MkI
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 5
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 9.75
+cast_time: 1.8700000047683716
+recharge_time: 100
+effect_area: 1
+max_boosts: ''
+number_of_charges: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged, Clockwork Hold
+description_long: This device was invented by Positron, specifically to interfere with the signals the Clockwork King uses to animate his minions. This is the prototype model, and has only one shot.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Clockwork_Immobilizer_MkI
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 10
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''

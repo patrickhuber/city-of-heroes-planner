@@ -1,0 +1,42 @@
+index: 10543
+full_name: Tanker_Defense.Regeneration.Reconstruction
+group_name: Tanker_Defense
+set_name: Regeneration
+name: Reconstruction
+display: Reconstruction
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 10.399999618530273
+cast_time: 0.73000001907348633
+recharge_time: 60
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: Self Heal, Res(Toxic)
+description_long: 'Through perfect control of your body, you can concentrate for a few moments and heal yourself. The effects of Reconstruction also leaves you resistant to Toxic damage for a while. Recharge: Long'
+set_types: []
+click_buff: true
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

@@ -1,0 +1,194 @@
+index: 5301
+full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+group_name: Corruptor_Buff
+set_name: Time_Manipulation
+name: Time_Stop
+display: Time Stop
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 8.8400001525878906
+cast_time: 2.1700000762939453
+recharge_time: 16
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Hold_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged Hold, Foe -Regen, -Heal
+description_long: "You trap your target within the flow of time causing them to be held helpless.  Even those resistant to the effects of Time Stop's hold will still have their regeneration rate and healing effects reduced for a brief period.  Targets affected by Time Crawl will suffer from a more powerful hold, however its benefits are brief.  Recharge: Long"
+set_types:
+- 10
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 8
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 20
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  special_case: 20
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 5
+  effect_type: 9
+  effect_modifiers: 13
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.25
+  magnitude: 1
+  duration: 20
+  aspect: 3
+  modifier_table: Ranged_Stun
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 6
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Time_Manipulation.Time_Stop
+  unique_i_d: 7
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

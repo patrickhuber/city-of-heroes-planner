@@ -1,0 +1,36 @@
+index: 8986
+full_name: Temporary_Powers.Replacement_Powers.Sorcery_Translocation
+group_name: Temporary_Powers
+set_name: Replacement_Powers
+name: Sorcery_Translocation
+display: Translocation
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1615938
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 16384
+target_line_of_sight: true
+range: 300
+endurance_cost: 13
+cast_time: 2
+effect_area: 4
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: Click, Self Teleport
+description_long: 'Clicking on this power and then selecting a location will cause the caster to vanish and reappear at their target location. Recharge: Very Fast'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

@@ -1,0 +1,295 @@
+index: 5866
+full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+group_name: Brute_Melee
+set_name: Titan_Weapons
+name: Defensive_Sweep
+display: Defensive Sweep
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not:
+  - - '!brute_defense.shield_defense'
+    - ''
+modes_disallowed: 2
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 10
+endurance_cost: 5.3559999465942383
+cast_time: 2.2000000476837158
+recharge_time: 4
+effect_area: 3
+radius: 10
+arc: 120
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Buff_Defense_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Taunt_Boost
+description_short: Melee(Cone), Light DMG(Smashing), Self +DEF(Melee, Smash)
+description_long: 'You take a defensive stance and strike your opponents.  Successfully executing this attack will cause light smashing damage to nearby foes, while giving you increased defense against their melee and smashing attacks. Damage: Light, Recharge: Fast'
+set_types:
+- 4
+- 7
+- 24
+- 34
+- 44
+click_buff: true
+level: 1
+variable_enabled: true
+variable_name: Stacking
+variable_min: 1
+variable_max: 5
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 1
+  effect_type: 53
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 25
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: Villain_Pets.Titan_Weapons_Brute.Defensive_Sweep_Fast
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 2
+  effect_type: 53
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: Villain_Pets.Titan_Weapons_Brute.Defensive_Sweep_Slow
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.72899997234344482
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 4
+  effect_type: 5
+  damage_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1.5
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 5
+  effect_type: 5
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1.5
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.0287799835205078
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.32804998755455017
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 8
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 9
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 14
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 10
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 11
+  effect_type: 34
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 95
+  duration: 5
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Titan_Weapons.Defensive_Sweep
+  unique_i_d: 12
+  effect_type: 52
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 5
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

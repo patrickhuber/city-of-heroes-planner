@@ -1,0 +1,52 @@
+index: 5720
+full_name: Temporary_Powers.Temporary_Powers.Temporal_Selection_Buff
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Temporal_Selection_Buff
+display: Accelerated
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 50000
+effect_area: 1
+max_boosts: ''
+number_of_charges: 1123024896
+usage_time: 120
+number_allowed: 1
+boosts_allowed: []
+description_short: Temporal Selection Buff
+description_long: Around you, the world flows in slow motion.  Your every movement is accelerated, as if you're moving more quickly through time.  While this effect is in play you will receive additional healing from Temporal Mending and Chrono Shift.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Temporal_Selection_Buff
+  unique_i_d: 1
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

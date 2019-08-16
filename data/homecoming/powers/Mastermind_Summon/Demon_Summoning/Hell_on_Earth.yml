@@ -1,0 +1,388 @@
+index: 4254
+full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+group_name: Mastermind_Summon
+set_name: Demon_Summoning
+name: Hell_on_Earth
+display: Hell on Earth
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 65536
+entities_auto_hit: 65536
+target: 65536
+target_line_of_sight: true
+range: 60
+endurance_cost: 16.25
+cast_time: 4.0300002098083496
+recharge_time: 600
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Buff_ToHit_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Pet +Dmg, +To Hit, Summon Living Hellfire
+description_long: "A dark blessing is placed upon a selected Demon henchman which will increase its damage and chance to hit for 90 seconds. While this is in effect living hellfire may spawn every 15 seconds at the affected Demon henchman's location. The creatures summoned will have a very weak tie to the material plane and will return to Abyss after a short time. Recharge: Very Long"
+set_types:
+- 6
+- 27
+- 40
+- 44
+level: 18
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 1
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Buff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_ToHit
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 10
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 1
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 11
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 10
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 12
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 20
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 13
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 30
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 14
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 40
+  base_probability: 0.94999998807907104
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 15
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 50
+  base_probability: 0.89999997615814209
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 16
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 60
+  base_probability: 0.85000002384185791
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 17
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 70
+  base_probability: 0.80000001192092896
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 18
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 80
+  base_probability: 0.75
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''
+- power_full_name: Mastermind_Summon.Demon_Summoning.Hell_on_Earth
+  unique_i_d: 19
+  effect_type: 38
+  summon: Pets_Living_Hellfire
+  delayed_time: 90
+  base_probability: 0.69999998807907104
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Levelminus2
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus2
+  override: ''

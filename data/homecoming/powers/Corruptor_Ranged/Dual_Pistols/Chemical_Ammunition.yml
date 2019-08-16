@@ -1,0 +1,263 @@
+index: 4509
+full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+group_name: Corruptor_Ranged
+set_name: Dual_Pistols
+name: Chemical_Ammunition
+display: Chemical Ammunition
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Corruptor_Ranged.Dual_Pistols.Swap_Ammo
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships:
+- Ammo_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 0.62999999523162842
+recharge_time: 4
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Toggle: Ammo Change (Toxic), Special'
+description_long: While this toggle is active you will be equipped with 'Chemical Rounds.'  Most of your Dual Pistol attacks will have their secondary damage converted to toxic damage and inflict a minor damage debuff effect on the target.  In order to earn this power, you must purchase the Swap Ammo power.
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+display_location: 6
+mutually_exclusive_auto: true
+include_flag: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 1
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ToxicDamage
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 2
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.5
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HailofBulletsFire
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 3
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.5
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HailofBulletsCold
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 4
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.5
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HailofBulletsToxic
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 5
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.5
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HailofBulletsLethal
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 6
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.40000000596046448
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HailofBulletsEndKnockback
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 7
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Lethal
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 8
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.80000001192092896
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: FireDamageDoT
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 9
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.10000000149011612
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: LethalKB10
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 10
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.25
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: LethalKB25
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 11
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.5
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: LethalKB50
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 12
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.69999998807907104
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: LethalKB70
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Ranged.Dual_Pistols.Chemical_Ammunition
+  unique_i_d: 13
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -0.05000000074505806
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: HailofBulletsKnockdown
+  effect_id: Ones
+  override: ''

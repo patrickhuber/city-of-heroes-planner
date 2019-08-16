@@ -1,0 +1,80 @@
+index: 4677
+full_name: Incarnate.Lore_Pet_Warworks_LT.Plasma_Rifle_Burst
+group_name: Incarnate
+set_name: Lore_Pet_Warworks_LT
+name: Plasma_Rifle_Burst
+display: Plasma Rifle Burst
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+cast_time: 1.3300000429153442
+recharge_time: 4
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Ranged, High DMG(Energy), Foe -Regen
+description_long: The Warworks plasma weapons deal energy damage as well as reduce their target's regeneration rate.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Lore_Pet_Warworks_LT.Plasma_Rifle_Burst
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 1.5
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Warworks_LT.Plasma_Rifle_Burst
+  unique_i_d: 2
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -0.5
+  magnitude: 1
+  duration: 5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

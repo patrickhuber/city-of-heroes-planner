@@ -1,0 +1,298 @@
+index: 3273
+full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+group_name: Inherent
+set_name: Inherent
+name: prestige_Permanent_SelfDestruction
+display: Self Destruction
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Inherent.Inherent.prestige_Permanent_SelfDestruction
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 74
+group_memberships:
+- Rock_Armor_Group
+entities_affected: 2049
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 10.659999847412109
+cast_time: 10
+recharge_time: 3600
+activate_period: 15
+effect_area: 2
+radius: 40
+max_targets: 16
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: PBAoE, Extreme DMG(Smashing/Fire), Foe KB, Self Kill
+description_long: 'You explode!  In doing so, you create a massive explosion which deals extreme damage to all foes in a large radius.  Damage: Extreme, Recharge: Very Long'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  delayed_time: 10
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 3
+  scale: 2.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 10
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 3
+  scale: 2.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  delayed_time: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 12
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 9
+  summon: ''
+  delayed_time: 10.125
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 30
+  magnitude: 1
+  duration: 0.5
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 5
+  effect_type: 77
+  summon: ''
+  ticks: 2
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 6
+  effect_type: 77
+  summon: ''
+  delayed_time: 1
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 7
+  effect_type: 77
+  summon: ''
+  delayed_time: 2
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 8
+  effect_type: 77
+  summon: ''
+  delayed_time: 3
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 9
+  effect_type: 77
+  summon: ''
+  delayed_time: 4
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 10
+  effect_type: 77
+  summon: ''
+  delayed_time: 5
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 11
+  effect_type: 77
+  summon: ''
+  delayed_time: 6
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 12
+  effect_type: 77
+  summon: ''
+  delayed_time: 7
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 13
+  effect_type: 77
+  summon: ''
+  delayed_time: 8
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Permanent_SelfDestruction
+  unique_i_d: 14
+  effect_type: 42
+  summon: ''
+  delayed_time: 9
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 3
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

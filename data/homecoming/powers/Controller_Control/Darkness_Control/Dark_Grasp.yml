@@ -1,0 +1,223 @@
+index: 6122
+full_name: Controller_Control.Darkness_Control.Dark_Grasp
+group_name: Controller_Control
+set_name: Darkness_Control
+name: Dark_Grasp
+display: Dark Grasp
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 8.5279998779296875
+cast_time: 1.6699999570846558
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Hold_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Moderate DMG(Negative), Foe Hold, -To Hit
+description_long: "You cause your target's shadow to wholly envelop them, leaving them held and rendered helpless while suffering from moderate negative energy damage. Even if the target is powerful enough to resist the power's hold effect they will have their chance to hit reduced. Damage: Moderate, Recharge: Moderate"
+set_types:
+- 2
+- 10
+- 26
+- 31
+- 35
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 12
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 6
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 4
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3.1672499179840088
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 10
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 10
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.5836199522018433
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Darkness_Control.Dark_Grasp
+  unique_i_d: 8
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''

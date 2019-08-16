@@ -1,0 +1,220 @@
+index: 10376
+full_name: Dominator_Control.Wind_Control.Keening_Winds
+group_name: Dominator_Control
+set_name: Wind_Control
+name: Keening_Winds
+display: Keening Winds
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 0.80000001192092896
+attack_types: 12
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 13
+cast_time: 1.6699999570846558
+recharge_time: 120
+effect_area: 2
+radius: 15
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Confuse_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: Ranged (Targeted AoE), Confuse(Foe), EndDrain(Foe), +End(Self)
+description_long: 'You create a sphere of variable speed winds that generate strong friction within the turbulence of the air. This creates odd echoes and sounds that confuse foes caught within the burst. The loss of confidence your foes suffer due their confusion causes them to lose endurance over a few seconds, while you gain endurance due to a boost in confidence you enjoy from seeing your foes struggle. This power builds Pressure. Damage: None, Recharge: Long'
+set_types:
+- 16
+- 22
+- 38
+level: 18
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 4096
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 2
+  player_versus_mode: 1
+  to_who: 1
+  scale: 22.5
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 4096
+  buffable: true
+  special_case: 2
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 5
+  effect_type: 7
+  summon: ''
+  delayed_time: 0.30000001192092896
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.039999999105930328
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 6
+  effect_type: 7
+  summon: ''
+  delayed_time: 0.30000001192092896
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -2.5
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 7
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Dominator_Control.Wind_Control.Keening_Winds
+  unique_i_d: 8
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Wind_Control_Pressure
+  stacking: 1
+  base_probability: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Wind_Control_Pressure
+  effect_id: Ones
+  override: ''

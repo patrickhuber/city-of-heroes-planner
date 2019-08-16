@@ -1,0 +1,116 @@
+index: 2931
+full_name: Temporary_Powers.Temporary_Powers.Soul_Trap
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Soul_Trap
+display: Soul Trap
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 10.659999847412109
+cast_time: 2.1700000762939453
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_of_charges: 10
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged, Moderate DMG(Energy), -End, Special vs. undead
+description_long: This spherical device can drain the soul away from the living, and tear apart the souls of the undead.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Soul_Trap
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Soul_Trap
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 3.2799999713897705
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Soul_Trap
+  unique_i_d: 3
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -0.11999999731779099
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Soul_Trap
+  unique_i_d: 4
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -0.52999997138977051
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

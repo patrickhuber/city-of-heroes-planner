@@ -1,0 +1,37 @@
+index: 5082
+full_name: Incarnate.Interface_Silent.To_Hit_Extra_Debuff
+group_name: Incarnate
+set_name: Interface_Silent
+name: To_Hit_Extra_Debuff
+display: Diamagnetic Interface
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+life_time_in_game: 8
+number_allowed: 2
+boosts_allowed: []
+ignore_strength: true
+description_short: -To Hit
+description_long: Your To Hit has been reduced by a Diamagnetic Interface proc.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

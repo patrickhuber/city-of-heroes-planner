@@ -1,0 +1,117 @@
+index: 1323
+full_name: Mastermind_Pets.Thug_Arsonist_2.Spit_Fire
+group_name: Mastermind_Pets
+set_name: Thug_Arsonist_2
+name: Spit_Fire
+display: Spit Fire
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 15.184000015258789
+cast_time: 2.8299999237060547
+recharge_time: 16
+effect_area: 3
+radius: 40
+arc: 30
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: Close (Cone), Moderate DoT(Fire)
+description_long: 'The arsonist can breath or Spit Fire by spaying alcohol from his mouth and igniting it with his lighter. Spit Fire burns all foes within its narrow cone. Very accurate and very deadly at medium range. Damage: Moderate(DoT), Recharge: Slow'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+sort_override: true
+effects:
+- power_full_name: Mastermind_Pets.Thug_Arsonist_2.Spit_Fire
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.58499997854232788
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Arsonist_2.Spit_Fire
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.58499997854232788
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Arsonist_2.Spit_Fire
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  special_case: 3
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.58499997854232788
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

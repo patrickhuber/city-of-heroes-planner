@@ -1,0 +1,84 @@
+index: 1792
+full_name: Pets.Zombie.Zombie_Vomit
+group_name: Pets
+set_name: Zombie
+name: Zombie_Vomit
+display: Zombie Vomit
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 8
+cast_time: 2.6700000762939453
+recharge_time: 12
+effect_area: 2
+radius: 5
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: DoT(Toxic)
+description_long: The Cadaver vomits a corrosive acid that deals Toxic damage over time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.Zombie.Zombie_Vomit
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Zombie.Zombie_Vomit
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 1
+  ticks: 6
+  stacking: 1
+  base_probability: 0.89999997615814209
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.05000000074505806
+  magnitude: 1
+  duration: 5.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

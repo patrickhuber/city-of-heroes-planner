@@ -1,0 +1,395 @@
+index: 118
+full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+group_name: Blaster_Support
+set_name: Fire_Manipulation
+name: Ring_of_Fire
+display: Ring of Fire
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 66
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 50
+endurance_cost: 7.8000001907348633
+cast_time: 1.1699999570846558
+recharge_time: 6
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Immobilized_Boost
+- Range_Boost
+- Recharge_Boost
+cast_through_hold: true
+description_short: Ranged, Moderate DoT(Fire), Foe Immobilize
+description_long: 'Immobilizes your target in a Ring of Fire. Deals some damage over time. Useful for keeping villains at bay. Damage: Moderate(DoT), Recharge: Medium'
+set_types:
+- 2
+- 12
+- 33
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 7
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.2199999988079071
+  magnitude: 1
+  duration: 9.1999998092651367
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 7
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.29899001121520996
+  magnitude: 1
+  duration: 9.1999998092651367
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 5
+  effect_type: 20
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 100
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 6
+  effect_type: 20
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 100
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 7
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: -100
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 8
+  effect_type: 19
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: -100
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 14
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 15
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 16
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.076999999582767487
+  magnitude: 1
+  duration: 8.6700000762939453
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Ring_of_Fire
+  unique_i_d: 17
+  effect_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: -1.6000000238418579
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

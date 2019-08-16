@@ -1,0 +1,168 @@
+index: 834
+full_name: Dominator_Control.Mind_Control.Telekinesis
+group_name: Dominator_Control
+set_name: Mind_Control
+name: Telekinesis
+display: Telekinesis
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 50
+endurance_cost: 1.559999942779541
+cast_time: 1.1299999952316284
+recharge_time: 60
+activate_period: 0.5
+effect_area: 2
+radius: 10
+max_targets: 5
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: 'Toggle: Ranged (Targeted AoE), Foe Hold, Repel'
+description_long: 'Lifts a foe, and any nearby foes, off the ground and repels them.  The targets are helpless, unable to take action, and will continue to hover away, picking up any passing targets, as long as you keep this power active. Keeping up this level of concentration costs a lot of Endurance. Recharge: Slow'
+set_types: []
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Dominator_Control.Mind_Control.Telekinesis
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.75
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Dominator_Control.Mind_Control.Telekinesis
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Mind_Control.Telekinesis
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  suppression: 1024
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.75
+  magnitude: 1.5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Mind_Control.Telekinesis
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 2
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.75
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Dominator_Control.Mind_Control.Telekinesis
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  special_case: 2
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Mind_Control.Telekinesis
+  unique_i_d: 6
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.KillTk
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.KillTk
+  effect_id: Ones
+  override: ''

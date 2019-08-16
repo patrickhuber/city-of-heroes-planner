@@ -1,0 +1,110 @@
+index: 722
+full_name: Defender_Ranged.Radiation_Blast.X-Ray_Beam
+group_name: Defender_Ranged
+set_name: Radiation_Blast
+name: X-Ray_Beam
+display: X-Ray Beam
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.1000000238418579
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 5.1999998092651367
+cast_time: 1.6699999570846558
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Moderate DMG(Energy), Foe -DEF
+description_long: "You can emit a beam of X-Ray energy from your eyes, dealing moderate Energy damage. This attack can bypass some defenses and can reduce the target's Defense. Damage: Moderate, Recharge: Fast"
+set_types:
+- 2
+- 21
+- 30
+- 37
+- 44
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Defender_Ranged.Radiation_Blast.X-Ray_Beam
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Defender_Ranged.Radiation_Blast.X-Ray_Beam
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 6
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Defender_Ranged.Radiation_Blast.X-Ray_Beam
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.6982800960540771
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

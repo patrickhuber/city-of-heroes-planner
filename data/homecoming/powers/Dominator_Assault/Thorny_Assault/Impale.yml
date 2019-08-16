@@ -1,0 +1,301 @@
+index: 787
+full_name: Dominator_Assault.Thorny_Assault.Impale
+group_name: Dominator_Assault
+set_name: Thorny_Assault
+name: Impale
+display: Impale
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 8.5279998779296875
+cast_time: 2.4300000667572021
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Immobilized_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged, Moderate DMG(Lethal), DoT(Toxic), Immobilize, -DEF, -SPD, -Fly, -Jump
+description_long: 'You can throw a small cluster of large Thorns at a targeted foe. These Thorns carry a large amount of the toxin. In addition to dealing Toxic damage, a successful attack can slow a target, preventing Running, Jumping or Flying.  Most foes will likely be completely Immobilized, unable to run. Damage: Moderate, Recharge: Moderate'
+set_types:
+- 2
+- 12
+- 13
+- 21
+- 30
+- 38
+- 44
+level: 10
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3.3894000053405762
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 5
+  effect_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -1.6000000238418579
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 6
+  effect_type: 32
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 7
+  effect_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 8
+  effect_type: 9
+  effect_modifiers: 16
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 15
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 9
+  effect_type: 17
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 10
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  ticks: 7
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 6.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 11
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Dominator_Assault.Thorny_Assault.Impale
+  unique_i_d: 12
+  effect_type: 48
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

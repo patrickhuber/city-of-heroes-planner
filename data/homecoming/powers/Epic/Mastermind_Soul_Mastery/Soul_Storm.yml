@@ -1,0 +1,147 @@
+index: 962
+full_name: Epic.Mastermind_Soul_Mastery.Soul_Storm
+group_name: Epic
+set_name: Mastermind_Soul_Mastery
+name: Soul_Storm
+display: Soul Storm
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Mastermind_Soul_Mastery.Night_Fall
+    - Epic.Mastermind_Soul_Mastery.Dark_Embrace
+  - - Epic.Mastermind_Soul_Mastery.Night_Fall
+    - Epic.Mastermind_Soul_Mastery.Oppressive_Gloom
+  - - Epic.Mastermind_Soul_Mastery.Night_Fall
+    - Epic.Mastermind_Soul_Mastery.Soul_Tentacles
+  - - Epic.Mastermind_Soul_Mastery.Dark_Embrace
+    - Epic.Mastermind_Soul_Mastery.Oppressive_Gloom
+  - - Epic.Mastermind_Soul_Mastery.Dark_Embrace
+    - Epic.Mastermind_Soul_Mastery.Soul_Tentacles
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 10.659999847412109
+cast_time: 2.1700000762939453
+recharge_time: 32
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Hold_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Moderate DoT(Negative), Foe Hold
+description_long: 'Like Ghost Widow, you can summon the souls of your victims to do your bidding.  Soul Storm enraptures a single target Holding them while their life-force is drained from their body. You must be level 44 and have two other Soul Mastery Powers before selecting this power. Recharge: Slow'
+set_types:
+- 2
+- 10
+- 44
+level: 44
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Storm
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 10
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Storm
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Storm
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 11
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.36875000596046448
+  magnitude: 1
+  duration: 10
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Storm
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 11
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

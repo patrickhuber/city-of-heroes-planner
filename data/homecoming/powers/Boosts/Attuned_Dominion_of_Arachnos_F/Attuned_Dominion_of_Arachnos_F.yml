@@ -1,0 +1,247 @@
+index: 6559
+full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+group_name: Boosts
+set_name: Attuned_Dominion_of_Arachnos_F
+name: Attuned_Dominion_of_Arachnos_F
+display: 'Dominion of Arachnos: Recharge/Chance for -Dmg and Terrorize'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Increases Attack Rate, Chance for -DMG and Terrorize
+description_long: UNIQUE -- No more than 1 enhancement of this type may be slotted by a character.  Gives the slotted power a chance to Terrorize the target and reduce their damage for 10 seconds and reduces recharge time by {Boost.Attrib.Recharge.Scale}%.  This effect will trigger roughly 4 times per minute.  This enhancement can only be slotted by Soldiers of Arachnos and may be slotted into any Arachnos Soldier or Arachnos Widow damage power.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+boost_use_player_level: true
+effects:
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  resistible: true
+  to_who: 3
+  scale: -0.10000000149011612
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 9
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  resistible: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: 10
+  magnitude: 2
+  duration: -1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Terrorize
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 10
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  suppression: 31
+  resistible: true
+  player_versus_mode: 2
+  to_who: 3
+  scale: 7.5
+  magnitude: 2
+  duration: -1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Terrorize
+  override: ''
+  procs_per_minute: 4
+- power_full_name: Boosts.Attuned_Dominion_of_Arachnos_F.Attuned_Dominion_of_Arachnos_F
+  unique_i_d: 11
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.4375
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Recharge
+  override: ''

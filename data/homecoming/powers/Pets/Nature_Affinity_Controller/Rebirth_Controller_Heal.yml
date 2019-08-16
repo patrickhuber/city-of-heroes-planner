@@ -1,0 +1,101 @@
+index: 9109
+full_name: Pets.Nature_Affinity_Controller.Rebirth_Controller_Heal
+group_name: Pets
+set_name: Nature_Affinity_Controller
+name: Rebirth_Controller_Heal
+display: Rebirth
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 45
+endurance_cost: 13
+cast_time: 3
+recharge_time: 180
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Range_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: Ranged, Ally Rez, +Heal Over Time, Special, +3 Bloom
+description_long: 'Rebirth can either greatly heal a conscious ally for a large amount of health over time or it can revive a fallen ally with a large amount of health and endurance and cause them to recover health over time.  This power also grants 3 stacks of Bloom.  Recharge: Very Long'
+set_types:
+- 9
+- 22
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.Nature_Affinity_Controller.Rebirth_Controller_Heal
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  ticks: 11
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.90908998250961304
+  magnitude: 1
+  duration: 60.099998474121094
+  aspect: 2
+  modifier_table: Ranged_Heal
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Heal
+  override: ''
+- power_full_name: Pets.Nature_Affinity_Controller.Rebirth_Controller_Heal
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  ticks: 11
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.090910002589225769
+  magnitude: 1
+  duration: 60.099998474121094
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Nature_Affinity_Controller.Rebirth_Controller_Heal
+  unique_i_d: 3
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Bloom
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Bloom
+  effect_id: Ones
+  override: ''

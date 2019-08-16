@@ -1,0 +1,117 @@
+index: 5508
+full_name: Incarnate.Lore_Pet_Elementals_LT.Lightning_Bolt
+group_name: Incarnate
+set_name: Lore_Pet_Elementals_LT
+name: Lightning_Bolt
+display: Lightning Bolt
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+cast_time: 1.6699999570846558
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Ranged, High DMG(Energy), Foe -End
+description_long: 'You can send a large blast of electrical energy at a foe, dealing heavy damage and draining some Endurance. Some of this Endurance may transfer back to you. Lightning Bolt deals more damage than Charged Bolts, but recharges more slowly. Damage: High, Recharge: Moderate'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Incarnate.Lore_Pet_Elementals_LT.Lightning_Bolt
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Elementals_LT.Lightning_Bolt
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Elementals_LT.Lightning_Bolt
+  unique_i_d: 3
+  effect_type: 26
+  summon: ''
+  base_probability: 0.30000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -0.25
+  magnitude: 1
+  duration: 4
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Elementals_LT.Lightning_Bolt
+  unique_i_d: 4
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  buffable: true
+  to_who: 2
+  scale: 4.2649998664855957
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

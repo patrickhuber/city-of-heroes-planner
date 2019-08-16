@@ -1,0 +1,183 @@
+index: 4193
+full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+group_name: Mastermind_Pets
+set_name: Cold_Demonling_2
+name: Ice_Blast
+display: Ice Blast
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 42
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 8.5279998779296875
+cast_time: 1
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Slow_Boost
+description_short: Ranged, Moderate DMG(Cold/Smash), Foe -Recharge, -SPD
+description_long: 'Ice Blast hurls shards of ice at foes and Slows their attacks and movement for a time. Slower recharge than Ice Bolt, but more damage. Damage: Moderate, Recharge: Moderate'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+sort_override: true
+effects:
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 3
+  effect_type: 9
+  effect_modifiers: 16
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 4
+  effect_type: 17
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 5
+  effect_type: 32
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 6
+  effect_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  unique_i_d: 7
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''

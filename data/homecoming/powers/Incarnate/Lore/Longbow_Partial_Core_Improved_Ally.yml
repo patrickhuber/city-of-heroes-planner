@@ -1,0 +1,113 @@
+index: 5391
+full_name: Incarnate.Lore.Longbow_Partial_Core_Improved_Ally
+group_name: Incarnate
+set_name: Lore
+name: Longbow_Partial_Core_Improved_Ally
+display: Longbow Partial Core Improved Ally
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 20
+cast_time: 3.1700000762939453
+recharge_time: 900
+effect_area: 4
+max_boosts: 0
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Summon Longbow Boss & Support Essences
+description_long: Draws forth the essences of a vanquished Longbow Cataphract and Warden from the Well of the Furies to serve you for 5 minutes.<br><br>This power also applies an Incarnate Shift. (An Incarnate Shift is a Level Shift which only activates while participating in an Incarnate Trial.)
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Lore.Longbow_Partial_Core_Improved_Ally
+  unique_i_d: 1
+  effect_type: 38
+  summon: IncarnatePets_Lore_Longbow_Boss
+  delayed_time: 2
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 300
+  aspect: 4
+  modifier_table: Ranged_Levelminus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus
+  override: ''
+- power_full_name: Incarnate.Lore.Longbow_Partial_Core_Improved_Ally
+  unique_i_d: 2
+  effect_type: 38
+  summon: IncarnatePets_Lore_Longbow_Support
+  delayed_time: 3
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 300
+  aspect: 4
+  modifier_table: Ranged_Levelminus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus
+  override: ''
+- power_full_name: Incarnate.Lore.Longbow_Partial_Core_Improved_Ally
+  unique_i_d: 3
+  effect_type: 12
+  summon: Incarnate.Lore_Silent.Level_Shift
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Lore_Silent.Level_Shift
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore.Longbow_Partial_Core_Improved_Ally
+  unique_i_d: 4
+  effect_type: 30
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Lore_Silent.Level_Shift
+  effect_id: Ones
+  override: ''

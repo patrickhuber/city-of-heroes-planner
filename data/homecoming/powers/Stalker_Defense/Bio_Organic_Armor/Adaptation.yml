@@ -1,0 +1,53 @@
+index: 9194
+full_name: Stalker_Defense.Bio_Organic_Armor.Adaptation
+group_name: Stalker_Defense
+set_name: Bio_Organic_Armor
+name: Adaptation
+display: Adaptation
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 99999
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: Gain Efficient, Defensive and Offensive Adaptations
+description_long: 'By purchasing this power you gain access to three mutually exclusive toggle powers: Efficient Adaptation, Defensive Adaptation and Offensive Adaptation. If Defensive Adaptation is active you gain improved damage resistance from Hardened Carapace and Genetic Corruption, additional defense from Environmental Modification, and increased Maximum HP from Environmental Modification and Boundless Energy. If Offensive Adaptation is active you gain bonus damage from Hardened Carapace, additional To Hit from Environmental Modification, empowered debuff effects from DNA Siphon, and Parasitic Aura and increased sleep chance from Genetic Corruption.    While Efficient Adaptation is active Hardened Carapace will provide a moderate endurance discount, Boundless Energy has increased Regeneration and Recovery, Genetic Corruption grants additional regeneration, DNA Siphon grants additional regeneration and recovery for each defeated target and Parasitic Aura grants additional regeneration and recovery for each nearby target.'
+set_types: []
+level: 16
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Stalker_Defense.Bio_Organic_Armor.Adaptation
+  unique_i_d: 1
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 999999
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

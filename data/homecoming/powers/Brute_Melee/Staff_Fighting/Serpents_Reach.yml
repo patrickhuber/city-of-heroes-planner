@@ -1,0 +1,460 @@
+index: 8662
+full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+group_name: Brute_Melee
+set_name: Staff_Fighting
+name: Serpents_Reach
+display: Serpent's Reach
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 9.3599996566772461
+cast_time: 1.7699999809265137
+recharge_time: 9
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+- Taunt_Boost
+description_short: Ranged, High Dmg(Smash), Foe Knockdown
+description_long: 'You fully extend your staff and release a burst of energy to lash out at a distant target and deal High Smashing damage with a good chance to knock your target down.  While a form is active, this power will build one level of Perfection.  Damage: High, Recharge: Long'
+set_types:
+- 2
+- 23
+- 24
+- 34
+- 44
+level: 18
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+never_auto_update: true
+forced_class: ''
+effects:
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.7036900520324707
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.81000000238418579
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.80000001192092896
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 14
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 7
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 8
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 9
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  special_case: 27
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 10
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  special_case: 28
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 11
+  effect_type: 30
+  summon: ''
+  special_case: 28
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 12
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  special_case: 29
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 13
+  effect_type: 30
+  summon: ''
+  special_case: 29
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 14
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  special_case: 31
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 15
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  special_case: 32
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 16
+  effect_type: 30
+  summon: ''
+  special_case: 32
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 17
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
+  special_case: 33
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 18
+  effect_type: 30
+  summon: ''
+  special_case: 33
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 19
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  special_case: 35
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 20
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  special_case: 36
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 21
+  effect_type: 30
+  summon: ''
+  special_case: 36
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 22
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
+  special_case: 37
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Serpents_Reach
+  unique_i_d: 23
+  effect_type: 30
+  summon: ''
+  special_case: 37
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  effect_id: PerfectionofSoul
+  override: ''

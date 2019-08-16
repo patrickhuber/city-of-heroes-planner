@@ -1,0 +1,181 @@
+index: 2971
+full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: V_Shivan_Smash
+display: Shivan Smash
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_required: 131072
+accuracy: 1.2000000476837158
+attack_types: 145
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 8.5799999237060547
+cast_time: 1.5
+recharge_time: 6
+effect_area: 1
+max_boosts: ''
+life_time_in_game: 3600
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee, Heavy DMG(Lehtal/Energy), Foe -DEF, -Fly, Disorient
+description_long: Shivan Radioactive Smash is powerful melee attack that can often Disorient or Knock Down opponents. Radioactive Smash can also bring down fliers, and reduce their defense. This temp power is only accessible while in Shivan form.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 4
+  effect_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -1.6000000238418579
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 5
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Smash
+  unique_i_d: 7
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 8
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Stun
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''

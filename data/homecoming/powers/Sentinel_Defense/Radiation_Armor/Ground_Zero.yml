@@ -1,0 +1,156 @@
+index: 10478
+full_name: Sentinel_Defense.Radiation_Armor.Ground_Zero
+group_name: Sentinel_Defense
+set_name: Radiation_Armor
+name: Ground_Zero
+display: Ground Zero
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 132
+group_memberships: []
+entities_affected: 2560
+entities_auto_hit: 512
+target: 1
+target_line_of_sight: true
+endurance_cost: 13
+cast_time: 3
+recharge_time: 90
+effect_area: 2
+radius: 15
+max_targets: 30
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+description_short: PBAoE, Foe Moderate DMG(Energy), Moderate DoT(Toxic), -DEF(All), Ally +HP, +Heal over time
+description_long: 'You release a mixture of radiation into the area.  Nearby foes will be barraged with harmful radiation and will suffer Moderate Energy damage immediately, followed by moderate toxic damage over time.  Affected foes will also have their defense reduced.  Nearby allies will be healed for a moderate amount and will recover health over time.  This power can affect a total of 30 targets.  This includes both friends and foes.  Ground Zero has no effect on the caster, only nearby allies and enemies.  Damage: Moderate, Moderate DoT, Recharge: Very Long'
+set_types:
+- 4
+- 9
+- 29
+- 30
+- 44
+click_buff: true
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+skip_max: true
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Sentinel_Defense.Radiation_Armor.Ground_Zero
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Sentinel_Defense.Radiation_Armor.Ground_Zero
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 1
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 9.1000003814697266
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Sentinel_Defense.Radiation_Armor.Ground_Zero
+  unique_i_d: 3
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Sentinel_Defense.Radiation_Armor.Ground_Zero
+  unique_i_d: 4
+  effect_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''
+- power_full_name: Sentinel_Defense.Radiation_Armor.Ground_Zero
+  unique_i_d: 5
+  effect_type: 13
+  summon: ''
+  delayed_time: 1
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.05000000074505806
+  magnitude: 1
+  duration: 9.1000003814697266
+  aspect: 2
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''

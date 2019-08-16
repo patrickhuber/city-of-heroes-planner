@@ -1,0 +1,87 @@
+index: 450
+full_name: Corruptor_Buff.Cold_Domination.Heat_Loss
+group_name: Corruptor_Buff
+set_name: Cold_Domination
+name: Heat_Loss
+display: Heat Loss
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 15.600000381469727
+cast_time: 2.1700000762939453
+recharge_time: 360
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Recovery_Boost
+- Slow_Boost
+description_short: Ranged (Foe AoE), Foe -RES, -END, Slow; Team +END, +Recovery
+description_long: 'Heat Loss drains the heat from your enemies and transfers that energy to your allies in the form of Endurance. All foes near the selected target may experience a Heat Loss, which will drain their Endurance, Slow them, and reduce their Damage Resistance. Allies near the target are granted Endurance and a boost to their Recovery. Some Endurance and Recovery will also be transferred directly to you and any allies near you. Recharge: Long'
+set_types:
+- 13
+- 22
+click_buff: true
+level: 38
+variable_enabled: true
+variable_name: Foes Hit
+variable_min: 1
+variable_max: 10
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Cold_Domination.Heat_Loss
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_HeatLossDebuff
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 2
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Cold_Domination.Heat_Loss
+  unique_i_d: 2
+  effect_type: 38
+  summon: Pets_HeatLossBuff
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 2
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

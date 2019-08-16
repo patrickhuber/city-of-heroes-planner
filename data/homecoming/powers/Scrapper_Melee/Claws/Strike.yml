@@ -1,0 +1,173 @@
+index: 1897
+full_name: Scrapper_Melee.Claws.Strike
+group_name: Scrapper_Melee
+set_name: Claws
+name: Strike
+display: Strike
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not:
+  - - '!scrapper_defense.shield_defense'
+    - ''
+modes_disallowed: 2
+accuracy: 1
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 4.1599998474121094
+cast_time: 1.1699999570846558
+recharge_time: 3.2000000476837158
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Melee, Moderate DMG(Lethal)
+description_long: 'You perform a deadly Strike with your claws. This is a basic attack that deals a moderate amount of lethal damage. Damage: Moderate, Recharge: Fast'
+set_types:
+- 1
+- 41
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Scrapper_Melee.Claws.Strike
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0800000429153442
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Claws.Strike
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.7079800367355347
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Melee.Claws.Strike
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 5
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.7079800367355347
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: PlayerCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Claws.Strike
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 7
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0800000429153442
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: MLCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Claws.Strike
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0800000429153442
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: BossCrit
+  override: ''
+- power_full_name: Scrapper_Melee.Claws.Strike
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.48600000143051147
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''

@@ -1,0 +1,185 @@
+index: 1811
+full_name: Pool.Leadership.Tactics
+group_name: Pool
+set_name: Leadership
+name: Tactics
+display: Tactics
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Leadership.Defense
+    - ''
+  - - Pool.Leadership.Assault
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 66
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 9
+entities_auto_hit: 9
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.77999997138977051
+cast_time: 3.6700000762939453
+recharge_time: 15
+activate_period: 2
+effect_area: 2
+radius: 60
+max_targets: 255
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- Buff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: PBAoE, Team +To Hit, Res(Confuse, Fear), +Perception'
+description_long: While this power is active, your chance to hit and that of all your nearby teammates is increased. Your advanced Tactics also protect you and your team from Confuse and Fear effects, as well as your Perception so you can detect Stealthy foes.  Purchasing Tactics requires the user to be level 14 and possess Maneuvers or Assault.
+set_types:
+- 25
+level: 14
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 1
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Buff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_ToHit
+  override: ''
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 2
+  effect_type: 28
+  effect_modifiers: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 3
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 2
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 4
+  effect_type: 20
+  mezmorize_type: 1
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: 1.75
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: -15
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 6
+  effect_type: 20
+  mezmorize_type: 1
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  player_versus_mode: 2
+  to_who: 3
+  scale: 3.25
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Pool.Leadership.Tactics
+  unique_i_d: 7
+  effect_type: 20
+  mezmorize_type: 12
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.75
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''

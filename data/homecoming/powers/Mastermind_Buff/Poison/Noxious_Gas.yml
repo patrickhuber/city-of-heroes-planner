@@ -1,0 +1,58 @@
+index: 1135
+full_name: Mastermind_Buff.Poison.Noxious_Gas
+group_name: Mastermind_Buff
+set_name: Poison
+name: Noxious_Gas
+display: Noxious Gas
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 65536
+entities_auto_hit: 65536
+target: 65536
+target_line_of_sight: true
+range: 30
+endurance_cost: 22.75
+cast_time: 2.0699999332427979
+recharge_time: 300
+effect_area: 1
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Infect Henchman); Foe -RES, -DEF, -To Hit, -Res, +Special
+description_long: 'You can infect one of your Henchmen, surrounding him with a Noxious Gas.  All foes near the infected Henchmen will be overcome with the Noxious Gas.  Their Defense, chance to hit, Damage and Damage resistance will all be reduced.  Additionally, there is a chance than any affected humanoid enemy will become violently ill.  Even the mightiest foe will stop dead in their tracks, and left helpless as they empty the contents of their stomach. Recharge: Very Slow'
+set_types: []
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+never_auto_update: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Buff.Poison.Noxious_Gas
+  unique_i_d: 1
+  effect_type: 12
+  summon: Villain_Pets.Noxious_Gas.Noxious_Gas
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Villain_Pets.Noxious_Gas.Noxious_Gas
+  effect_id: Ones
+  override: ''

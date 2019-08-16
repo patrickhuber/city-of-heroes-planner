@@ -1,0 +1,304 @@
+index: 5232
+full_name: Blaster_Ranged.Dark_Blast.Blackstar
+group_name: Blaster_Ranged
+set_name: Dark_Blast
+name: Blackstar
+display: Blackstar
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.3999999761581421
+attack_types: 268
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 27.731599807739258
+cast_time: 3
+recharge_time: 145
+effect_area: 2
+radius: 25
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: PBAoE, Extreme DMG(Negative/Smash), Foe -To Hit
+description_long: "You can unleash a devastating blast of Negative Energy around yourself, dealing massive Negative Energy and Smashing damage and severely reducing affected foes' chance to hit.  Damage: Extreme, Recharge: Very Long"
+set_types:
+- 4
+- 26
+- 31
+- 33
+- 44
+level: 32
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.57062000036239624
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.1585299968719482
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 5
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Ranged.Dark_Blast.Blackstar
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.041999999433755875
+  magnitude: 1
+  duration: 10.5
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

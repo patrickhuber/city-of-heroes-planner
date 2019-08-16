@@ -1,0 +1,86 @@
+index: 1824
+full_name: Pool.Medicine.Resuscitate
+group_name: Pool
+set_name: Medicine
+name: Resuscitate
+display: Resuscitate
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Medicine.Aid_Other
+    - Pool.Medicine.Stimulant
+  - - Pool.Medicine.Aid_Other
+    - Pool.Medicine.Aid_Self
+  - - Pool.Medicine.Stimulant
+    - Pool.Medicine.Aid_Self
+  power_i_ds_not: []
+modes_disallowed: 66
+accuracy: 1
+group_memberships: []
+entities_affected: 67108864
+entities_auto_hit: 67108864
+target: 67108864
+target_line_of_sight: true
+range: 15
+endurance_cost: 32.5
+interrupt_time: 4
+cast_time: 7.3299999237060547
+recharge_time: 180
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Interrupt_Boost
+- Recharge_Boost
+description_short: Close, Resurrect(Ally)
+description_long: You revive a fallen ally, restoring health, but not endurance, completely. The target will also be protected from incurring any XP Debt for 15 seconds. This power is interruptible. You must be at least level 14 and have two other Medicine Powers before selecting Resuscitate.
+set_types:
+- 9
+level: 14
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Pool.Medicine.Resuscitate
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 0.5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Medicine.Resuscitate
+  unique_i_d: 2
+  effect_type: 42
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

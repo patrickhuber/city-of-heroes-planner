@@ -1,0 +1,56 @@
+index: 4065
+full_name: Temporary_Powers.Temporary_Powers.Dimensional_Grounding_Ray
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Dimensional_Grounding_Ray
+display: Dimensional Grounding Ray
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.5
+cast_time: 3.5
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_of_charges: 10
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Foe: Special'
+description_long: On most creatures this ray would be harmless, however blasting an entity which is drawing its power from an alternate dimension will have its power source severed.  This should be the perfect tool to weaken Reichsman.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Dimensional_Grounding_Ray
+  unique_i_d: 1
+  effect_type: 34
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 67
+  duration: 9999
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

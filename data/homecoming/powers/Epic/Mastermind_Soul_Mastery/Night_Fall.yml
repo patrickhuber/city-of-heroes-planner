@@ -1,0 +1,119 @@
+index: 959
+full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
+group_name: Epic
+set_name: Mastermind_Soul_Mastery
+name: Night_Fall
+display: Night Fall
+requirement:
+  class_names:
+  - Class_Blaster
+  - Class_Mastermind
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+attack_types: 260
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 16.379999160766602
+cast_time: 2
+recharge_time: 20
+effect_area: 3
+radius: 60
+arc: 20
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Moderate DMG(Negative), Foe -ACC
+description_long: 'Unleashes a cone shaped burst of particles from the Netherworld. All targets within the modest range of this power take Negative Energy damage and have a reduced Accuracy. Damage: Moderate(DoT), Recharge: Slow'
+set_types:
+- 3
+- 26
+- 31
+- 44
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 2.7999999523162842
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.15568999946117401
+  magnitude: 1
+  duration: 2.7999999523162842
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

@@ -1,0 +1,228 @@
+index: 1365
+full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+group_name: Mastermind_Pets
+set_name: Thug_Lt
+name: Maneuvers
+display: Maneuvers
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 513
+entities_auto_hit: 513
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 2
+radius: 30
+max_targets: 255
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Buff_Defense_Boost
+description_short: +DEF(All)
+description_long: This Thugs Defense to all attacks is improved due to good leadership in Maneuvers from your Lieutenant.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 1
+  effect_type: 5
+  damage_type: 10
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 2
+  effect_type: 5
+  damage_type: 11
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 3
+  effect_type: 5
+  damage_type: 12
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 4
+  effect_type: 5
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 5
+  effect_type: 5
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 6
+  effect_type: 5
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 7
+  effect_type: 5
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 8
+  effect_type: 5
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 9
+  effect_type: 5
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Lt.Maneuvers
+  unique_i_d: 10
+  effect_type: 5
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.034000001847743988
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Ranged_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''

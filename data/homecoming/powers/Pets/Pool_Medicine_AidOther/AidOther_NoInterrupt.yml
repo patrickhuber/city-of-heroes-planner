@@ -1,0 +1,61 @@
+index: 9599
+full_name: Pets.Pool_Medicine_AidOther.AidOther_NoInterrupt
+group_name: Pets
+set_name: Pool_Medicine_AidOther
+name: AidOther_NoInterrupt
+display: Aid Other
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 66
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 25
+endurance_cost: 6.5
+cast_time: 2.9300000667572021
+recharge_time: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+description_short: Close, Heal(Ally)
+description_long: You heal a single targeted ally. This power is interruptible unless you have also trained Field Medic, in which case it is not interruptible.
+set_types:
+- 9
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Pool_Medicine_AidOther.AidOther_NoInterrupt
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.9600000381469727
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Heal
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Heal
+  override: ''

@@ -1,0 +1,259 @@
+index: 4388
+full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+group_name: Epic
+set_name: Psionic_Mastery_Domingator
+name: Mind_Over_Body
+display: Mind Over Body
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Psionic_Mastery_Domingator.Link_Minds
+    - ''
+  - - Epic.Psionic_Mastery_Domingator.Indomitable_Will
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 74
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.16249999403953552
+cast_time: 0.67000001668930054
+recharge_time: 2
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: 'Toggle: Self +Res(Smash, Lethal, Psionics)'
+description_long: 'When you toggle on this power, you empower your Mind Over Body to become highly resistant to Smashing, Lethal and Psionic damage. You must be level 41 and have Link Minds or Indomitable Will before selecting this power. Recharge: Fast'
+set_types:
+- 8
+level: 41
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 9
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 10
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Psionic_Mastery_Domingator.Mind_Over_Body
+  unique_i_d: 11
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2.75
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

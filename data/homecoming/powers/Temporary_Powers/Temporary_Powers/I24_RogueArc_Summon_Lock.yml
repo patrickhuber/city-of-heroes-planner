@@ -1,0 +1,53 @@
+index: 9780
+full_name: Temporary_Powers.Temporary_Powers.I24_RogueArc_Summon_Lock
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: I24_RogueArc_Summon_Lock
+display: Hammers of Justice Lock
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 99999
+effect_area: 1
+max_boosts: 0
+artifical_intelligence_report: 1
+life_time_in_game: 300
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: 'Hammers of Justice Summon: Lock'
+description_long: You have already called on a member of the Hammers of Justice to assist you and cannot call upon another until your current ally departs.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.I24_RogueArc_Summon_Lock
+  unique_i_d: 1
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 999999
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

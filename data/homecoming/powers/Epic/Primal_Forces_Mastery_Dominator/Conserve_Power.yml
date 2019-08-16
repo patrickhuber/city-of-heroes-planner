@@ -1,0 +1,59 @@
+index: 4382
+full_name: Epic.Primal_Forces_Mastery_Dominator.Conserve_Power
+group_name: Epic
+set_name: Primal_Forces_Mastery_Dominator
+name: Conserve_Power
+display: Conserve Power
+requirement:
+  class_names:
+  - Class_Dominator
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 9.75
+cast_time: 1.1699999570846558
+recharge_time: 600
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Self Endurance Discount
+description_long: 'You can focus for a moment to conserve your Endurance. After activating this power, you expend less Endurance on all other powers for a while. Recharge: Very Long'
+set_types: []
+click_buff: true
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Primal_Forces_Mastery_Dominator.Conserve_Power
+  unique_i_d: 1
+  effect_type: 9
+  effect_modifiers: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 90
+  aspect: 3
+  modifier_table: Melee_Stun
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''

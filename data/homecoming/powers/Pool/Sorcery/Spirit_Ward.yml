@@ -1,0 +1,230 @@
+index: 9617
+full_name: Pool.Sorcery.Spirit_Ward
+group_name: Pool
+set_name: Sorcery
+name: Spirit_Ward
+display: Spirit Ward
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 66
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 80
+endurance_cost: 7.8000001907348633
+cast_time: 2
+recharge_time: 60
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+description_short: Ally, +Absorb over time
+description_long: 'You encompass an ally in a mystical Spirit Ward, which causes them to gain a small amount of damage absorption every few seconds for a short time.  Recharge: Long'
+set_types:
+- 9
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 1
+  effect_type: 66
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 2
+  effect_type: 66
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 3
+  attrib_type: 2
+  aspect: 1
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: Max.kHitPoints target> 0.1 * @Strength *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 3
+  effect_type: 66
+  summon: ''
+  delayed_time: 3
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 4
+  effect_type: 66
+  summon: ''
+  delayed_time: 3
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 3
+  attrib_type: 2
+  aspect: 1
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: Max.kHitPoints target> 0.1 * @Strength *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 5
+  effect_type: 66
+  summon: ''
+  delayed_time: 6
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 6
+  effect_type: 66
+  summon: ''
+  delayed_time: 6
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 3
+  attrib_type: 2
+  aspect: 1
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: Max.kHitPoints target> 0.1 * @Strength *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 7
+  effect_type: 66
+  summon: ''
+  delayed_time: 9
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 8
+  effect_type: 66
+  summon: ''
+  delayed_time: 9
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 3
+  attrib_type: 2
+  aspect: 1
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: Max.kHitPoints target> 0.1 * @Strength *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 9
+  effect_type: 66
+  summon: ''
+  delayed_time: 12
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Sorcery.Spirit_Ward
+  unique_i_d: 10
+  effect_type: 66
+  summon: ''
+  delayed_time: 12
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 3
+  attrib_type: 2
+  aspect: 1
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: Max.kHitPoints target> 0.1 * @Strength *
+  reward: ''
+  effect_id: Ones
+  override: ''

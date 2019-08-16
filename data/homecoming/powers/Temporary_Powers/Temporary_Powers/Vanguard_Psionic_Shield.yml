@@ -1,0 +1,74 @@
+index: 2954
+full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psionic_Shield
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Vanguard_Psionic_Shield
+display: Vanguard Psionic Shield
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.45500001311302185
+cast_time: 0.73000001907348633
+recharge_time: 5
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+usage_time: 1800
+number_allowed: 1
+boosts_allowed: []
+description_short: Minor Psionic Resistance
+description_long: You gain moderate defense against Psionic attacks and are slightly resistant to Psionic damage while this power is active.  It last for up to 30 minutes of usage time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psionic_Shield
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psionic_Shield
+  unique_i_d: 2
+  effect_type: 5
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.15000000596046448
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,147 @@
+index: 1719
+full_name: Pets.StickyArrow.StickyArrow
+group_name: Pets
+set_name: StickyArrow
+name: StickyArrow
+display: StickyArrow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+activate_period: 1
+effect_area: 2
+radius: 25
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Slow_Boost
+description_short: -Speed, -Recharge
+description_long: You have been covered in glue and all your actions are slowed.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.StickyArrow.StickyArrow
+  unique_i_d: 1
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.89999997615814209
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Melee_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Pets.StickyArrow.StickyArrow
+  unique_i_d: 2
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 500
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Melee_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Pets.StickyArrow.StickyArrow
+  unique_i_d: 3
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 30
+  aspect: 1
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Pets.StickyArrow.StickyArrow
+  unique_i_d: 4
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.StickyArrow.StickyArrow
+  unique_i_d: 5
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -0.20000000298023224
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.StickyArrow.StickyArrow
+  unique_i_d: 6
+  effect_type: 10
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -10
+  magnitude: 1
+  duration: 0.5
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

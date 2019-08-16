@@ -1,0 +1,273 @@
+index: 5335
+full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+group_name: Defender_Buff
+set_name: Time_Manipulation
+name: Temporal_Selection
+display: Temporal Selection
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 80
+endurance_cost: 10.399999618530273
+cast_time: 2.2699999809265137
+recharge_time: 120
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ally +Damage, +Recharge, +Regeneration
+description_long: 'You distort time around an ally, selecting a period of time where their abilities are at their highest.  Their damage, attack rate and regeneration rates are dramatically increased for a brief period.  This power places the Accelerated effect on the target.  While this is in effect, the target has any healing and healing over time effects from Temporal Mending or Chrono Shift significantly increased.  Recharge: Very Long'
+set_types:
+- 9
+click_buff: true
+level: 6
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 1
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 120
+  aspect: 3
+  modifier_table: Ranged_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 10
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  duration: 120
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 11
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 120
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 12
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 120
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Defender_Buff.Time_Manipulation.Temporal_Selection
+  unique_i_d: 13
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Temporal_Selection_Buff
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Temporal_Selection_Buff
+  effect_id: Ones
+  override: ''

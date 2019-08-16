@@ -1,0 +1,80 @@
+index: 4533
+full_name: Temporary_Powers.Temporary_Powers.ZE_Katana
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: ZE_Katana
+display: Flashing Steel
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 13.779999732971191
+cast_time: 1.2300000190734863
+recharge_time: 10
+effect_area: 3
+radius: 7
+arc: 90
+max_targets: 6
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee (Cone), Superior DMG(Lethal), Foe -DEF(All)
+description_long: These Syndicate blades were animated by their Telekineticists to strike on behalf of the wielder, even if they have no skill with the blade. They were confiscated from the Syndicate Takedown in Imperial City. Eventually, though, the animated effect will expire.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.ZE_Katana
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5700000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.ZE_Katana
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 5
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

@@ -1,0 +1,219 @@
+index: 2381
+full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+group_name: Stalker_Defense
+set_name: Ninjitsu
+name: Danger_Sense
+display: Danger Sense
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.18199999630451202
+cast_time: 0.82999998331069946
+recharge_time: 4
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Buff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: Self +DEF(Ranged, AoE), +Perception, Res(DeBuff DEF)'
+description_long: 'You become more evasive against ranged and area attacks while you have Danger Sense activated. This will increase your Defense versus ranged and Area of Effect attacks as long as it is active. Your Danger Sense also allow you to perceive stealthy foes and resist Defense DeBuffs. Recharge: Fast'
+set_types:
+- 7
+always_toggle: true
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 1
+  effect_type: 5
+  damage_type: 11
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 1.8500000238418579
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 2
+  effect_type: 5
+  damage_type: 12
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 1.8500000238418579
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 3
+  effect_type: 5
+  damage_type: 11
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 1.8500000238418579
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 4
+  effect_type: 5
+  damage_type: 12
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 1.8500000238418579
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 5
+  effect_type: 44
+  damage_type: 11
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 0.75
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 6
+  effect_type: 44
+  damage_type: 12
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 0.75
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 7
+  effect_type: 28
+  effect_modifiers: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 8
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Defense.Ninjitsu.Danger_Sense
+  unique_i_d: 9
+  effect_type: 28
+  effect_modifiers: 5
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 2
+  scale: 0.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''

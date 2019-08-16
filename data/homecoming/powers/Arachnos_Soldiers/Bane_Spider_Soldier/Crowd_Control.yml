@@ -1,0 +1,201 @@
+index: 17
+full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+group_name: Arachnos_Soldiers
+set_name: Bane_Spider_Soldier
+name: Crowd_Control
+display: Crowd Control
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 15.184000015258789
+cast_time: 2
+recharge_time: 16
+effect_area: 3
+radius: 7
+arc: 180
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: Melee (Cone), High DMG(Smash), Minor DoT(Toxic), Foe Knockback
+description_long: 'You swing your mace in a wide arc in front of you. This attack strikes all foes within melee range, deals them serious damage and minor Toxic damage over time, and knocks them down.  NOTE: This power may deal critical damage if used after a successful Placate or while the user is hidden with the Bane Spider Cloaking Device.  Damage: High Recharge: Moderate'
+set_types:
+- 4
+- 23
+- 32
+- 44
+level: 32
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.6100000143051147
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.7430399656295776
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  special_case: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.1626100540161133
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.67000001668930054
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 4.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Crowd_Control
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  special_case: 1
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0733300447463989
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

@@ -1,0 +1,81 @@
+index: 5490
+full_name: Incarnate.Lore_Pet_Cimeroran_Boss.Hack
+group_name: Incarnate
+set_name: Lore_Pet_Cimeroran_Boss
+name: Hack
+display: Hack
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 5
+cast_time: 1.3300000429153442
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Melee, High Dam(Lethal), Foe -DEF
+description_long: "You Hack your opponent for a high amount of damage. This attack can reduce a target's Defense, making him easier to hit. Damage: High, Recharge: Moderate"
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Lore_Pet_Cimeroran_Boss.Hack
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.2999999523162842
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Cimeroran_Boss.Hack
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 0.99800002574920654
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

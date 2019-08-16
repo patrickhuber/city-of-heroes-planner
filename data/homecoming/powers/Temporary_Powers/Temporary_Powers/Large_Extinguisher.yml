@@ -1,0 +1,54 @@
+index: 2811
+full_name: Temporary_Powers.Temporary_Powers.Large_Extinguisher
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Large_Extinguisher
+display: Large Extinguisher
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1.2000000476837158
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+cast_time: 3.3299999237060547
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_of_charges: 9
+number_allowed: 1
+boosts_allowed: []
+description_short: Fire Extinguisher (Special)
+description_long: The Fire Fighter 4000 has a longer range than the 3000, Positron's earlier model. It also puts out flames faster. Unfortunately, it only has 9 charges.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Large_Extinguisher
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -0.34000000357627869
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

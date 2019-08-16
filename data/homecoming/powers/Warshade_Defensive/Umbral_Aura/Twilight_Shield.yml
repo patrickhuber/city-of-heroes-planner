@@ -1,0 +1,122 @@
+index: 3194
+full_name: Warshade_Defensive.Umbral_Aura.Twilight_Shield
+group_name: Warshade_Defensive
+set_name: Umbral_Aura
+name: Twilight_Shield
+display: Twilight Shield
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1572866
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.12999999523162842
+cast_time: 0.73000001907348633
+recharge_time: 2
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: 'Toggle: Self +Res(Energy, Negative)'
+description_long: 'When you toggle on Twilight Shield, you become highly resistant to Energy and Negative Energy damage. Recharge: Fast'
+set_types:
+- 8
+always_toggle: true
+level: 16
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Warshade_Defensive.Umbral_Aura.Twilight_Shield
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Warshade_Defensive.Umbral_Aura.Twilight_Shield
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Warshade_Defensive.Umbral_Aura.Twilight_Shield
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Warshade_Defensive.Umbral_Aura.Twilight_Shield
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

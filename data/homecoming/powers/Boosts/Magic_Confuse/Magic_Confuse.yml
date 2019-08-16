@@ -1,0 +1,56 @@
+index: 8216
+full_name: Boosts.Magic_Confuse.Magic_Confuse
+group_name: Boosts
+set_name: Magic_Confuse
+name: Magic_Confuse
+display: Perplexity of Hermes (Confuse)
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Confuse_Boost
+- Magic_Boost
+description_short: Enhances Confuse Duration
+description_long: The Entity of Travel, Hermes, can grant you the ability to extend the duration of your Confusion powers, by forcing a target to mentally fold a road-map correctly. Increases confuse duration by {Boost.Attrib.Confuse.Scale}%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Boosts.Magic_Confuse.Magic_Confuse
+  unique_i_d: 1
+  effect_type: 9
+  mezmorize_type: 1
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.33329999446868896
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Confuse
+  override: ''

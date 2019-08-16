@@ -1,0 +1,141 @@
+index: 9484
+full_name: Incarnate.Lore_Pet_Banished_LT.Frigid_Slice
+group_name: Incarnate
+set_name: Lore_Pet_Banished_LT
+name: Frigid_Slice
+display: Frigid Slice
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 289
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 5
+cast_time: 1.5
+recharge_time: 6
+effect_area: 3
+radius: 10
+arc: 45
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Melee (Cone), Moderate DMG (Cold/Negative Energy), -RES(Foe, Cold/Negative Energy), Fear(Foe)
+description_long: You jump in the air, slashing at your target repeatedly with icy claws as you fall to the ground. As the death energy courses through the body, it causes cold and negative energy damage. Additionally, the target's defense against cold and negative energy attacks is reduced. This attack has a chance to terrify your target.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Lore_Pet_Banished_LT.Frigid_Slice
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.44999998807907104
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Banished_LT.Frigid_Slice
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Banished_LT.Frigid_Slice
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  base_probability: 0.5
+  suppression: 16
+  resistible: true
+  to_who: 1
+  scale: 3
+  magnitude: 4
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Banished_LT.Frigid_Slice
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 7
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Banished_LT.Frigid_Slice
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  duration: 7
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

@@ -1,0 +1,52 @@
+index: 6210
+full_name: Mastermind_Pets.Lioness_3.PM_Claw_Swipe
+group_name: Mastermind_Pets
+set_name: Lioness_3
+name: PM_Claw_Swipe
+display: Pack Mentality Granter
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 134217728
+entities_auto_hit: 134217728
+target: 1
+target_line_of_sight: true
+effect_area: 2
+radius: 30
+max_targets: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: Grants Pack Mentality
+description_long: This power has a chance to grant a charge of Pack Mentality.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Lioness_3.PM_Claw_Swipe
+  unique_i_d: 1
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Pack_Mentality
+  stacking: 1
+  base_probability: 0.44789999723434448
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Pack_Mentality
+  effect_id: Ones
+  override: ''

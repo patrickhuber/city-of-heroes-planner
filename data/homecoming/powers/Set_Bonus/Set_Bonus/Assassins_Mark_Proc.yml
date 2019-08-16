@@ -1,0 +1,325 @@
+index: 8983
+full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+group_name: Set_Bonus
+set_name: Set_Bonus
+name: Assassins_Mark_Proc
+display: Assassin's Mark
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 0
+life_time: 1
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Recharges Build Up
+description_long: Assassin's Mark causes Build Up to be recharged!
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 1
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Broad_Sword.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 2
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Claws.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 3
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Dark_Melee.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 4
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Dual_Blades.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 5
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Electrical_Melee.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 6
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Energy_Melee.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 7
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Fiery_Melee.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 8
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Ice_Melee.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 9
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Kinetic_Attack.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 10
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Martial_Arts.Focus_Chi
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 11
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Ninja_Sword.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 12
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Psionic_Melee.Concentration
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 13
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Spines.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 14
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Brawling.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 15
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Staff_Fighting.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 16
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Savage_Melee.Build_Up
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Assassins_Mark_Proc
+  unique_i_d: 17
+  effect_type: 59
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Stalker_Melee.Radiation_Melee.Build_Up
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,58 @@
+index: 1744
+full_name: Pets.TestBurn.Burn
+group_name: Pets
+set_name: TestBurn
+name: Burn
+display: Burn
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+activate_period: 0.20000000298023224
+effect_area: 2
+radius: 8
+max_targets: 5
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+description_short: Burn
+description_long: All foes that pass through these flames will be burned.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.TestBurn.Burn
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.039999999105930328
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

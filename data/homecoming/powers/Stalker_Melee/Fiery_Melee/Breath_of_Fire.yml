@@ -1,0 +1,175 @@
+index: 10110
+full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+group_name: Stalker_Melee
+set_name: Fiery_Melee
+name: Breath_of_Fire
+display: Breath of Fire
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 15
+endurance_cost: 10.192000389099121
+cast_time: 2.6700000762939453
+recharge_time: 10
+effect_area: 3
+radius: 15
+arc: 30
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Close (Cone) Moderate DoT(Fire)
+description_long: 'This allows you to spew forth fire from your mouth, burning all foes within its narrow cone. This is a very accurate attack that can deal good damage at a close range. Damage: Moderate(DoT), Recharge: Slow'
+set_types:
+- 3
+- 42
+- 44
+level: 18
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 2
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.68000000715255737
+  magnitude: 1
+  duration: 0.60000002384185791
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 1.6000000238418579
+  aspect: 2
+  modifier_table: Melee_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.94006997346878052
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0800000429153442
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  special_case: 9
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.0800000429153442
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Breath_of_Fire
+  unique_i_d: 6
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
+  effect_id: Ones
+  override: ''

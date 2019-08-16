@@ -1,0 +1,173 @@
+index: 10468
+full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+group_name: Dominator_Assault
+set_name: Radioactive_Assault
+name: Electron_Haze
+display: Electron Haze
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 15.184000015258789
+cast_time: 2.369999885559082
+recharge_time: 16
+effect_area: 3
+radius: 40
+arc: 30
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Close, Moderate Cone DMG(Energy), Foe -DEF, Knockback
+description_long: "A short range conical blast of free electrons. This attack can bypass some of a target's defenses and reduce the target's Defense. It can also knock some targets down. Affected enemies have a small chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: Moderate, Recharge: Slow"
+set_types:
+- 3
+- 21
+- 23
+- 30
+- 44
+level: 10
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.3500000238418579
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.25
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.25
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.75
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Electron_Haze
+  unique_i_d: 6
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  base_probability: 0.34000000357627869
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  effect_id: Contaminated
+  override: ''

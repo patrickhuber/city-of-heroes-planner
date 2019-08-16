@@ -1,0 +1,243 @@
+index: 6339
+full_name: Villain_Pets.Shade.Resistance
+group_name: Villain_Pets
+set_name: Shade
+name: Resistance
+display: Resistance
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 0.5
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Resistance
+description_long: Shades take less damage from Negative Energy attacks, can jump quite high, and can travel quickly.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 4
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 5
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 6
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 25
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Control
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Control
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 7
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 25
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Friction
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Friction
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 8
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 10.300000190734863
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 9
+  effect_type: 10
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 10
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Control
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Control
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 11
+  effect_type: 11
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_SpeedFlying
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedFlying
+  override: ''
+- power_full_name: Villain_Pets.Shade.Resistance
+  unique_i_d: 12
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Friction
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Friction
+  override: ''

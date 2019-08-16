@@ -1,0 +1,41 @@
+index: 4614
+full_name: Incarnate.Genesis.Nothing
+group_name: Incarnate
+set_name: Genesis
+name: Nothing
+display: Nothing
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 65
+endurance_cost: 20
+cast_time: 2.1700000762939453
+recharge_time: 120
+effect_area: 3
+radius: 65
+arc: 79
+max_targets: 16
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: Nothing
+description_long: Nothing
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects: []

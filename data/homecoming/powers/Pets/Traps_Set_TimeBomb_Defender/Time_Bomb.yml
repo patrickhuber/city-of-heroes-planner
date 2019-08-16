@@ -1,0 +1,114 @@
+index: 3555
+full_name: Pets.Traps_Set_TimeBomb_Defender.Time_Bomb
+group_name: Pets
+set_name: Traps_Set_TimeBomb_Defender
+name: Time_Bomb
+display: Time Bomb
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 2.1700000762939453
+activate_period: 1000
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Knockback_Boost
+description_short: 'Place Bomb: PBAoE, Extreme DMG(Lethal/Fire), Foe Knockback'
+description_long: Your Henchman has placed a Time Bomb on the ground. The resulting massive explosion will devastate all nearby foes and send them flying, but will likely take your Henchman with it. The Time Bomb is small, and almost impossible to detect. However, it is fragile and may be set off by an enemy's explosion. Even if destroyed, the Bomb will still detonate.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Traps_Set_TimeBomb_Defender.Time_Bomb
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Traps_TimeBomb_Defender
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''
+- power_full_name: Pets.Traps_Set_TimeBomb_Defender.Time_Bomb
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 16
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1000
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Traps_Set_TimeBomb_Defender.Time_Bomb
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  delayed_time: 2.125
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 4
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Traps_Set_TimeBomb_Defender.Time_Bomb
+  unique_i_d: 4
+  effect_type: 43
+  summon: ''
+  delayed_time: 2.25
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

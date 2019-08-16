@@ -1,0 +1,61 @@
+index: 2697
+full_name: Temporary_Powers.Temporary_Powers.Coral_Shards
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Coral_Shards
+display: Coral Shards
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 20
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 10.659999847412109
+cast_time: 1.7000000476837158
+recharge_time: 8
+effect_area: 3
+radius: 40
+arc: 20
+max_targets: 16
+max_boosts: ''
+life_time_in_game: 259200
+number_allowed: 1
+boosts_allowed: []
+description_short: Cone Lethal, Knockback
+description_long: These shards of living coral are taken from the Eye of the Leviathan, a gargantuan creature in the Temple of the Waters. These magical coral shards can be hurled at your enemies with devastating effect. You can use the coral shards for 3 days before the magic fades from them.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Coral_Shards
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.81999999284744263
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

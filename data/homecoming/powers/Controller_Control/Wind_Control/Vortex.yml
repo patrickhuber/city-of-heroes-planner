@@ -1,0 +1,70 @@
+index: 10387
+full_name: Controller_Control.Wind_Control.Vortex
+group_name: Controller_Control
+set_name: Wind_Control
+name: Vortex
+display: Vortex
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 20.799999237060547
+cast_time: 1.8700000047683716
+recharge_time: 240
+effect_area: 4
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+- Stunned_Boost
+description_short: Summon Vortex
+description_long: 'You can create a true Vortex cloud to assist you in battle. This Vortex will build Pressure along with you as you use your powers. This will allow its attacks to have a chance, proportional to current pressure, for critical damage. However, at higher pressures, the Vortex will be unable to use some of its powers. The Manipulation of Pressure on this pet through the use of Vacuum upon it will grant you the Clear Skies buff. Both this power and Vacuum are required to automatically unlock Clear Skies. Recharge: Very Long'
+set_types:
+- 6
+- 11
+- 13
+- 26
+- 27
+- 31
+- 44
+level: 32
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Controller_Control.Wind_Control.Vortex
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_WindControl_Vortex
+  base_probability: 1
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

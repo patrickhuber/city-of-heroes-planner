@@ -1,0 +1,173 @@
+index: 238
+full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+group_name: Brute_Melee
+set_name: Dark_Melee
+name: Touch_of_Fear
+display: Touch of Fear
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 257
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 8.5279998779296875
+cast_time: 1.1699999570846558
+recharge_time: 8
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Fear_Boost
+- Recharge_Boost
+- Taunt_Boost
+description_short: Melee Fear, Foe -To Hit
+description_long: 'The Netherworld is one scary place, and with but a touch, you can give your enemy a glimpse into this dark world. This will cause them to helplessly tremble in Fear. Foes in this state of panic have their chance to hit reduced. Recharge: Moderate'
+set_types:
+- 15
+- 24
+- 26
+- 31
+level: 6
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 0.30000001192092896
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 7
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+  unique_i_d: 4
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+  unique_i_d: 5
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Dark_Melee.Touch_of_Fear
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.48708000779151917
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''

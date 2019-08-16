@@ -1,0 +1,61 @@
+index: 411
+full_name: Controller_Control.Ice_Control.Ice_Slick
+group_name: Controller_Control
+set_name: Ice_Control
+name: Ice_Slick
+display: Ice Slick
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 10.399999618530273
+cast_time: 3.0999999046325684
+recharge_time: 90
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Target (Location AoE), Foe Knockdown, -SPD
+description_long: 'You can create a large patch of ice at a targeted area, causing all foes that pass through it to lose their footing. Those caught in the Ice Slick are dramatically slowed, tend to fall down and will be unable to jump. Recharge: Slow'
+set_types: []
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Control.Ice_Control.Ice_Slick
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_IceSlick
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

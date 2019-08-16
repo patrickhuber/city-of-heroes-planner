@@ -1,0 +1,171 @@
+index: 10104
+full_name: Stalker_Melee.Fiery_Melee.Scorch
+group_name: Stalker_Melee
+set_name: Fiery_Melee
+name: Scorch
+display: Scorch
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 65
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 4.3680000305175781
+cast_time: 1
+recharge_time: 3
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Melee, Minor DMG(Fire)
+description_long: 'This power engulfs your hands in flames, and can ignite the target of your Scorching attack. Once on fire, the target will suffer damage over time. Damage: Minor, Recharge: Fast'
+set_types:
+- 1
+- 42
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Stalker_Melee.Fiery_Melee.Scorch
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.8399999737739563
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Scorch
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.2375600337982178
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Scorch
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 0.5
+  ticks: 3
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 1.1000000238418579
+  aspect: 2
+  modifier_table: Melee_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Scorch
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.8399999737739563
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Scorch
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 9
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.8399999737739563
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Fiery_Melee.Scorch
+  unique_i_d: 6
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
+  base_probability: 0.64999997615814209
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
+  effect_id: Ones
+  override: ''

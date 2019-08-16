@@ -1,0 +1,95 @@
+index: 2684
+full_name: Temporary_Powers.Temporary_Powers.Clockwork_Connection
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Clockwork_Connection
+display: Clockwork Connection
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+cast_time: 3.0999999046325684
+recharge_time: 240
+effect_area: 4
+max_boosts: ''
+cast_flags: 1
+number_of_charges: 3
+number_allowed: 1
+boosts_allowed: []
+description_short: Summon Gears
+description_long: Penelope's strange connection to the clockwork is enough for them to help you, but only to help her. Call on them, and these Clockwork will come to your aid up to three times.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Clockwork_Connection
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Summoned_Gears
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 240
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Clockwork_Connection
+  unique_i_d: 2
+  effect_type: 38
+  summon: Pets_Summoned_Gears
+  delayed_time: 1
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 240
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Clockwork_Connection
+  unique_i_d: 3
+  effect_type: 38
+  summon: Pets_Summoned_Gears
+  delayed_time: 1.5
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 240
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

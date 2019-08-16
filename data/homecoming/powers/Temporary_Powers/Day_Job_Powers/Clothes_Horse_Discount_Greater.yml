@@ -1,0 +1,36 @@
+index: 4733
+full_name: Temporary_Powers.Day_Job_Powers.Clothes_Horse_Discount_Greater
+group_name: Temporary_Powers
+set_name: Day_Job_Powers
+name: Clothes_Horse_Discount_Greater
+display: Prestigious Fashion Designer
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+life_time_in_game: 7200
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Auto: Tailor Fee Discount'
+description_long: Due to your connections with the Tailor you will receive tailor discount coupons that will reduce the cost of a single tailor transaction by 25%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

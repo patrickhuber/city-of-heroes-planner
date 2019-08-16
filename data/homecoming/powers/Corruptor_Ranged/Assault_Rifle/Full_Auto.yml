@@ -1,0 +1,162 @@
+index: 522
+full_name: Corruptor_Ranged.Assault_Rifle.Full_Auto
+group_name: Corruptor_Ranged
+set_name: Assault_Rifle
+name: Full_Auto
+display: Full Auto
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.3500000238418579
+attack_types: 20
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 15.600000381469727
+cast_time: 4
+recharge_time: 60
+effect_area: 3
+radius: 80
+arc: 20
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Superior DMG(Lethal), +Special
+description_long: "Opens up your assault rifle on Full Auto to lay down a massive spray of bullets at your target. Although very slow to reload, damage from this attack is massive, shredding all targets within the narrow cone of effect. There's a chance you may land a lucky shot for extra damage. Damage: Superior(DoT), Recharge: Slow"
+set_types:
+- 3
+- 36
+- 44
+level: 32
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Ranged.Assault_Rifle.Full_Auto
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 17
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.43930000066757202
+  magnitude: 1
+  duration: 3.2999999523162842
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Assault_Rifle.Full_Auto
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  delayed_time: 3.2999999523162842
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Assault_Rifle.Full_Auto
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 17
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.16200000047683716
+  magnitude: 1
+  duration: 3.2999999523162842
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Assault_Rifle.Full_Auto
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 17
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.16200000047683716
+  magnitude: 1
+  duration: 3.2999999523162842
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Assault_Rifle.Full_Auto
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 17
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.43930000066757202
+  magnitude: 1
+  duration: 3.2999999523162842
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

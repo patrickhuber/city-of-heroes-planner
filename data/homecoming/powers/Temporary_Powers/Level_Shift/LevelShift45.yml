@@ -1,0 +1,35 @@
+index: 4805
+full_name: Temporary_Powers.Level_Shift.LevelShift45
+group_name: Temporary_Powers
+set_name: Level_Shift
+name: LevelShift45
+display: Level Shift +45
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Level Difference +45
+description_long: This power shifts your Combat Level when compared to the Combat Level of the enemies you are fighting.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

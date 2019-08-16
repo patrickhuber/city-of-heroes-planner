@@ -1,0 +1,102 @@
+index: 1578
+full_name: Pets.Decoy.Hurl
+group_name: Pets
+set_name: Decoy
+name: Hurl
+display: Hurl
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+cast_time: 2.5
+recharge_time: 12
+effect_area: 1
+max_boosts: 6
+cast_flags: 1
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+description_short: Ranged Taunt
+description_long: The Decoy can pick up and throw nearby objects, or even a piece of concrete flooring. Can knock foes back.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.Decoy.Hurl
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Decoy.Hurl
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  delayed_time: 5
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.69999998807907104
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Decoy.Hurl
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Ranged_InherentTaunt
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''

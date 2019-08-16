@@ -1,0 +1,168 @@
+index: 415
+full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+group_name: Controller_Control
+set_name: Illusion_Control
+name: Spectral_Wounds
+display: Spectral Wounds
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.1000000238418579
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.8639998435974121
+cast_time: 1.0700000524520874
+recharge_time: 6
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, High DMG(Psionic), +Special
+description_long: 'Spectral Wounds convinces the target that they have taken severe damage. The illusion is so convincing that the victim can fall from the Spectral Wounds. However, the damage is not real, and if the victim survives long enough, the illusion will fade and some of the wounds will heal. Damage: High(Illusionary), Recharge: Moderate'
+set_types:
+- 2
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 9
+  summon: ''
+  delayed_time: 10
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.63999998569488525
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 10
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.3289101123809814
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  special_case: 10
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.1644500494003296
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Controller_Control.Illusion_Control.Spectral_Wounds
+  unique_i_d: 6
+  effect_type: 32
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  magnitude: 1
+  duration: 10
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

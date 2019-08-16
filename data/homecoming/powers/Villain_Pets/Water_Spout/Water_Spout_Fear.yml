@@ -1,0 +1,54 @@
+index: 3188
+full_name: Villain_Pets.Water_Spout.Water_Spout_Fear
+group_name: Villain_Pets
+set_name: Water_Spout
+name: Water_Spout_Fear
+display: Water Spout Fear
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1.3999999761581421
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+activate_period: 5
+effect_area: 2
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: DoT(Smashin), -DEF, Disorient
+description_long: The Water Spout winds buffet you, dealing smashing Damage over Time, reducing your defense, and Disorients you.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Water_Spout.Water_Spout_Fear
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 16
+  summon: ''
+  stacking: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 10
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,77 @@
+index: 1106
+full_name: Inherent.Inherent.prestige_Pocket_D_VIP_Pass
+group_name: Inherent
+set_name: Inherent
+name: prestige_Pocket_D_VIP_Pass
+display: Pocket D VIP Pass
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - POCKETDVIP
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 3586
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 13
+interrupt_time: 15
+cast_time: 17
+recharge_time: 1800
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Teleport to Pocket D
+description_long: You've been given a VIP Pass to Pocket D.  It will allow you to access Pocket D from anywhere.  It is usable once every 30 minutes.
+set_types: []
+level: 3
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.prestige_Pocket_D_VIP_Pass
+  unique_i_d: 1
+  effect_type: 41
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  magnitude: 1
+  duration: 1.5
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.prestige_Pocket_D_VIP_Pass
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 14
+  summon: ''
+  delayed_time: 1.1699999570846558
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

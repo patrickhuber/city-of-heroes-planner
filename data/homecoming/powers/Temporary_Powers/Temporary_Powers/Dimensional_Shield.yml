@@ -1,0 +1,89 @@
+index: 2707
+full_name: Temporary_Powers.Temporary_Powers.Dimensional_Shield
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Dimensional_Shield
+display: Dimensional Shield
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+usage_time: 10800
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Auto: Self -Recovery, -End'
+description_long: This device ties directly into your biological energy to protect you against the hazardous environment in the vortex. Because it is powered by your own vitals, it completely drains your Endurance. However, the Dimensional Shield will replenish your Hit Points more rapidly than normal.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Dimensional_Shield
+  unique_i_d: 1
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Dimensional_Shield
+  unique_i_d: 2
+  effect_type: 26
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: -1000
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Dimensional_Shield
+  unique_i_d: 3
+  effect_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

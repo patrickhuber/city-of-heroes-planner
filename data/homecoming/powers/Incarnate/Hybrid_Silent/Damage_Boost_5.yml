@@ -1,0 +1,198 @@
+index: 8916
+full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+group_name: Incarnate
+set_name: Hybrid_Silent
+name: Damage_Boost_5
+display: Damage Boost 5
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 0
+life_time: 30
+number_allowed: 3
+boosts_allowed:
+- Damage_Boost
+ignore_strength: true
+description_short: Assault Genome
+description_long: Assault Genome
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid_Silent.Damage_Boost_5
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

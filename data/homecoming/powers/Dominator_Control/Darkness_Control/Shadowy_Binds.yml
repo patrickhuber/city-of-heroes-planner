@@ -1,0 +1,307 @@
+index: 6139
+full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+group_name: Dominator_Control
+set_name: Darkness_Control
+name: Shadowy_Binds
+display: Shadowy Binds
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 7.8000001907348633
+cast_time: 1.2000000476837158
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Immobilized_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Moderate DoT(Negative), Foe Immobilize, -To Hit, -Fly
+description_long: "You take control of your victim's shadow causing it to entangle and bind its owner thus leaving them immobilized and suffering from negative energy damage over time and reducing their chance to hit.  Immobilized foes cannot move but can still attack. Damage: Moderate, Recharge: Fast"
+set_types:
+- 2
+- 12
+- 26
+- 31
+- 38
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 9.1999998092651367
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.3919999897480011
+  magnitude: 1
+  duration: 9.1999998092651367
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 4
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 5
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 2
+  player_versus_mode: 1
+  to_who: 1
+  scale: 22.5
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  near_ground: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  special_case: 2
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  near_ground: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 7
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 8
+  effect_type: 20
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 100
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 9
+  effect_type: 20
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 100
+  magnitude: 1
+  duration: 15
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 10
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: -100
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 11
+  effect_type: 19
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: -100
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Darkness_Control.Shadowy_Binds
+  unique_i_d: 12
+  effect_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: -1.6000000238418579
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

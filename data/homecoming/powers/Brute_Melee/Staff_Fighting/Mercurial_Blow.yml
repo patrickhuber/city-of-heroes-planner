@@ -1,0 +1,442 @@
+index: 8653
+full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+group_name: Brute_Melee
+set_name: Staff_Fighting
+name: Mercurial_Blow
+display: Mercurial Blow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not:
+  - - '!brute_defense.shield_defense'
+    - ''
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 9
+endurance_cost: 4.3680000305175781
+cast_time: 1
+recharge_time: 3
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Taunt_Boost
+description_short: Melee, Light DMG(Smash), Foe -Def
+description_long: "You strike your foe with a lightning fast blow from  your staff dealing Light Smashing damage.  The attack is so unexpected  that the target's defenses are reduced slightly for a short time.  While a form is active, this power will build one level of Perfection.    Damage: Light, Recharge: Fast"
+set_types:
+- 1
+- 21
+- 24
+- 30
+- 34
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+never_auto_update: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.8399999737739563
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.6500799655914307
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 3
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.37799999117851257
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: FieryEmbrace
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 14
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1
+  magnitude: 4
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Melee_InherentTaunt
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: InherentTaunt
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 7
+  effect_type: 48
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 8
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  special_case: 27
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 9
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  special_case: 28
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 10
+  effect_type: 30
+  summon: ''
+  special_case: 28
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 11
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  special_case: 29
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 12
+  effect_type: 30
+  summon: ''
+  special_case: 29
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  effect_id: PerfectionofBody
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 13
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  special_case: 31
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 14
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  special_case: 32
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 15
+  effect_type: 30
+  summon: ''
+  special_case: 32
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 16
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
+  special_case: 33
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 17
+  effect_type: 30
+  summon: ''
+  special_case: 33
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  effect_id: PerfectionofMind
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 18
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  special_case: 35
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 19
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  special_case: 36
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 20
+  effect_type: 30
+  summon: ''
+  special_case: 36
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 21
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
+  special_case: 37
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
+  effect_id: PerfectionofSoul
+  override: ''
+- power_full_name: Brute_Melee.Staff_Fighting.Mercurial_Blow
+  unique_i_d: 22
+  effect_type: 30
+  summon: ''
+  special_case: 37
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  effect_id: PerfectionofSoul
+  override: ''

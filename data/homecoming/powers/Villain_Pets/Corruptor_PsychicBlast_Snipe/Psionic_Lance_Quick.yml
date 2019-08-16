@@ -1,0 +1,152 @@
+index: 9805
+full_name: Villain_Pets.Corruptor_PsychicBlast_Snipe.Psionic_Lance_Quick
+group_name: Villain_Pets
+set_name: Corruptor_PsychicBlast_Snipe
+name: Psionic_Lance_Quick
+display: Psionic Lance
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1.2000000476837158
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 175
+endurance_cost: 14.35200023651123
+cast_time: 1
+recharge_time: 12
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Sniper, Superior DMG(Psionic), Target -Recharge
+description_long: "This extremely long range Psionic attack has a bonus to Accuracy, and can Slow a target's attack rate. This is a sniper attack, but due to your high chance to hit, it is not interruptible. Damage: Extreme, Recharge: Slow"
+set_types:
+- 2
+- 5
+- 36
+- 44
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Villain_Pets.Corruptor_PsychicBlast_Snipe.Psionic_Lance_Quick
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.7599999904632568
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Corruptor_PsychicBlast_Snipe.Psionic_Lance_Quick
+  unique_i_d: 2
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.15000000596046448
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Villain_Pets.Corruptor_PsychicBlast_Snipe.Psionic_Lance_Quick
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8394299745559692
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Corruptor_PsychicBlast_Snipe.Psionic_Lance_Quick
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.7599999904632568
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Corruptor_PsychicBlast_Snipe.Psionic_Lance_Quick
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8394299745559692
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

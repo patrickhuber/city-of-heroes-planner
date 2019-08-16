@@ -1,0 +1,56 @@
+index: 4686
+full_name: Temporary_Powers.Art_Test.Melee
+group_name: Temporary_Powers
+set_name: Art_Test
+name: Melee
+display: Melee
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - ACCESSLEVEL
+    - SOURCE>
+  power_i_ds_not: []
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+cast_time: 1.2000000476837158
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee
+description_long: Use to test a Click Single Targeted Melee attack, buff or debuff without a continuing f/x.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Temporary_Powers.Art_Test.Melee
+  unique_i_d: 1
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

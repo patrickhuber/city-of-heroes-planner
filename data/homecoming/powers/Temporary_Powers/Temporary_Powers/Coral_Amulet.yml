@@ -1,0 +1,56 @@
+index: 2695
+full_name: Temporary_Powers.Temporary_Powers.Coral_Amulet
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Coral_Amulet
+display: Coral Amulet
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 6.5
+cast_time: 2.1700000762939453
+recharge_time: 3000
+effect_area: 4
+max_boosts: ''
+life_time_in_game: 259200
+number_allowed: 1
+boosts_allowed: []
+description_short: Summon Coralax Guardian
+description_long: This amulet of living coral is formed from a piece of the Eye of the Leviathan, a gargantuan creature in the Temple of the Waters. This coral amulet can be used to summon coral guardians to fight for you.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Coral_Amulet
+  unique_i_d: 1
+  effect_type: 38
+  summon: Coralax_Coral_Guardian_Lt
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 240
+  aspect: 4
+  modifier_table: Melee_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

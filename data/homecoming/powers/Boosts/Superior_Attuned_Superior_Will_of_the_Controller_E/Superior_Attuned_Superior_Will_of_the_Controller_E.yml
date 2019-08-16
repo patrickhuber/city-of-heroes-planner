@@ -1,0 +1,216 @@
+index: 8562
+full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+group_name: Boosts
+set_name: Superior_Attuned_Superior_Will_of_the_Controller_E
+name: Superior_Attuned_Superior_Will_of_the_Controller_E
+display: 'Superior Will of the Controller: Accuracy/Control Duration/Endurance/Recharge'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Confuse_Boost
+- Fear_Boost
+- Hold_Boost
+- Immobilized_Boost
+- Immobilized_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Sleep_Boost
+- Stunned_Boost
+- Technology_Boost
+description_short: Enhances Accuracy and Control Duration, Increases Attack Rate, and Reduces Endurance Cost
+description_long: 'UNIQUE -- No more than 1 enhancement of this type may be slotted by a character.  Enhances the accuracy of a power by {Boost.Attrib.Accuracy.Scale}%, enhances the hold duration of a power by {Boost.Attrib.Hold.Scale}%, the hold duration by {Boost.Attrib.Stun.Scale}%, the immobilization duration by {Boost.Attrib.Immobilize.Scale}%, the sleep duration by {Boost.Attrib.Sleep.Scale}%, the fear duration by {Boost.Attrib.Terrorized.Scale}% and the confuse duration by {Boost.Attrib.Confused.Scale}%, reduces endurance cost by {Boost.Attrib.Endurance.Scale}% and reduces recharge time by {Boost.Attrib.Recharge.Scale}%.   This enhancement can only be slotted by Controllers and may be slotted into most control powers and requires the user to be level 50. '
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+boost_use_player_level: true
+effects:
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 1
+  effect_type: 9
+  mezmorize_type: 2
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Hold
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 2
+  effect_type: 9
+  mezmorize_type: 10
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 3
+  effect_type: 9
+  mezmorize_type: 3
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 4
+  effect_type: 9
+  mezmorize_type: 9
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Sleep
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 5
+  effect_type: 9
+  mezmorize_type: 1
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Confused
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 6
+  effect_type: 9
+  mezmorize_type: 12
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Terrorized
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 7
+  effect_type: 9
+  effect_modifiers: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Accuracy
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 8
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Recharge
+  override: ''
+- power_full_name: Boosts.Superior_Attuned_Superior_Will_of_the_Controller_E.Superior_Attuned_Superior_Will_of_the_Controller_E
+  unique_i_d: 9
+  effect_type: 9
+  effect_modifiers: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.54689997434616089
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Endurance
+  override: ''

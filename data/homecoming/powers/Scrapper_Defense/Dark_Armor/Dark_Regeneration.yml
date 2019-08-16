@@ -1,0 +1,91 @@
+index: 1837
+full_name: Scrapper_Defense.Dark_Armor.Dark_Regeneration
+group_name: Scrapper_Defense
+set_name: Dark_Armor
+name: Dark_Regeneration
+display: Dark Regeneration
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 260
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 33.799999237060547
+cast_time: 1.1699999570846558
+recharge_time: 30
+effect_area: 2
+radius: 20
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+description_short: PBAoE Minor DMG(Negative), Self +HP
+description_long: 'You can tap the dark essence of the Netherworld to drain a small amount of life from all enemies nearby, thus healing yourself. The more foes affected, the more you will be healed. Damage: Minor, Recharge: Slow'
+set_types:
+- 4
+- 9
+- 29
+- 41
+- 44
+level: 16
+variable_enabled: true
+variable_name: Foes Hit
+variable_min: 1
+variable_max: 10
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Scrapper_Defense.Dark_Armor.Dark_Regeneration
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Scrapper_Defense.Dark_Armor.Dark_Regeneration
+  unique_i_d: 2
+  effect_type: 13
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 3
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''

@@ -1,0 +1,78 @@
+index: 1799
+full_name: Pool.Fitness.Health
+group_name: Pool
+set_name: Fitness
+name: Health
+display: Health
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Fitness.Quick
+    - ''
+  - - Pool.Fitness.Hurdle
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 66
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Heal_Boost
+description_short: 'Auto: Self +Regeneration, Res(Sleep)'
+description_long: You heal slightly faster than a normal person. Your improved Health also grants you resistance to Sleep. This ability is always on and does not cost any Endurance. You must be at least level 14 and have Swift or Hurdle before selecting Health.
+set_types:
+- 9
+level: 14
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+mutually_exclusive_ignore: true
+forced_class: ''
+effects:
+- power_full_name: Pool.Fitness.Health
+  unique_i_d: 1
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.40000000596046448
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Fitness.Health
+  unique_i_d: 2
+  effect_type: 20
+  mezmorize_type: 9
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 1.75
+  magnitude: 1
+  duration: 10.25
+  modifier_table: Melee_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''

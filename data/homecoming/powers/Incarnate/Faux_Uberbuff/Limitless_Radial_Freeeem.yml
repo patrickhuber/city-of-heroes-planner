@@ -1,0 +1,35 @@
+index: 4612
+full_name: Incarnate.Faux_Uberbuff.Limitless_Radial_Freeeem
+group_name: Incarnate
+set_name: Faux_Uberbuff
+name: Limitless_Radial_Freeeem
+display: Limitless Radial Freeeem
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Self +Everything (Special)
+description_long: The details of this ability are hazy, but from the perspective of this memory... you cannot even grasp the power it grants you.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects: []

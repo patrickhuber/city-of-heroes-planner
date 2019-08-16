@@ -1,0 +1,96 @@
+index: 9844
+full_name: Sentinel_Ranged.Fire_Blast.Fire_Breath
+group_name: Sentinel_Ranged
+set_name: Fire_Blast
+name: Fire_Breath
+display: Fire Breath
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 15.180000305175781
+cast_time: 2.6700000762939453
+recharge_time: 16
+effect_area: 3
+radius: 40
+arc: 30
+max_targets: 6
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Close (Cone), Moderate DoT(Fire)
+description_long: 'You can breathe forth a torrent of fire that burns all foes within its narrow cone. Very accurate and very deadly at medium range. Damage: Moderate(DoT), Recharge: Slow'
+set_types:
+- 0
+- 3
+- 44
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Sentinel_Ranged.Fire_Blast.Fire_Breath
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.58499997854232788
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Sentinel_Ranged.Fire_Blast.Fire_Breath
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.58399999141693115
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

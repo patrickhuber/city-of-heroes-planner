@@ -1,0 +1,59 @@
+index: 3120
+full_name: Villain_Pets.Mu_Guardian.Touch_of_the_Storm
+group_name: Villain_Pets
+set_name: Mu_Guardian
+name: Touch_of_the_Storm
+display: Touch of the Storm
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 80
+endurance_cost: 7.8000001907348633
+cast_time: 2.2699999809265137
+recharge_time: 20
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Heal_Boost
+description_short: Ally Heal
+description_long: Heal.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Mu_Guardian.Touch_of_the_Storm
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Heal
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Heal
+  override: ''

@@ -1,0 +1,41 @@
+index: 5994
+full_name: Incarnate.Interface_Silent.Degenerative_Radial_Flawless_Interface
+group_name: Incarnate
+set_name: Interface_Silent
+name: Degenerative_Radial_Flawless_Interface
+display: Degenerative Radial Flawless Interface
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+power_type: 5
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: 'Adds: -Res, Moderate DoT(Fire)'
+description_long: Adds a damage resistance debuff and moderate fire DoT effect to most damaging attacks. The DoT effect lasts longer than earlier versions of the ability.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

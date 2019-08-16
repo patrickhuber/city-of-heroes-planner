@@ -1,0 +1,39 @@
+index: 4650
+full_name: Incarnate.Lore_Pet_Clockwork_Boss.Particle_Burst
+group_name: Incarnate
+set_name: Lore_Pet_Clockwork_Boss
+name: Particle_Burst
+display: Particle Burst
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 36.119998931884766
+cast_time: 3.8299999237060547
+recharge_time: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: Ranged (Targeted AoE), Moderate DMG(Energy), Foe Minor DoT(Energy)
+description_long: Android Menders are capable of firing a blast from their shoulder mounted particle weapon.  Enemies struck by this attack will suffer energy damage and additional energy damage over time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

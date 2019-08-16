@@ -1,0 +1,125 @@
+index: 4221
+full_name: Mastermind_Pets.Fiery_Demonling.Super_Leap
+group_name: Mastermind_Pets
+set_name: Fiery_Demonling
+name: Super_Leap
+display: Super Leap
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+recharge_time: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Self Leap
+description_long: Demonlings can Super Leap
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Fiery_Demonling.Super_Leap
+  unique_i_d: 1
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Leap
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Leap
+  override: ''
+- power_full_name: Mastermind_Pets.Fiery_Demonling.Super_Leap
+  unique_i_d: 2
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Mastermind_Pets.Fiery_Demonling.Super_Leap
+  unique_i_d: 3
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Mastermind_Pets.Fiery_Demonling.Super_Leap
+  unique_i_d: 4
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Control
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Control
+  override: ''
+- power_full_name: Mastermind_Pets.Fiery_Demonling.Super_Leap
+  unique_i_d: 5
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Friction
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Friction
+  override: ''

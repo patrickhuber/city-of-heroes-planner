@@ -1,0 +1,188 @@
+index: 2803
+full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Invention_Ethereal
+display: Ethereal Shift
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1
+group_memberships:
+- Rest_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.32499998807907104
+cast_time: 1.1699999570846558
+recharge_time: 180
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_of_charges: 5
+number_allowed: 1
+boosts_allowed: []
+description_short: Self Intangible
+description_long: You can shift yourself into the Ethereal Plane. Although you do not become completely Invisible, you are translucent and hard to see. You are intangible, and cannot affect or be affected by those in normal space. Once activated, you will remain shifted for 30 seconds.  You cannot rest on the Ethereal Plane.  You may use this ability five times.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 1
+  effect_type: 41
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 0.80000001192092896
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 2
+  effect_type: 36
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 20
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 3
+  effect_type: 37
+  summon: ''
+  base_probability: 1
+  suppression: 448
+  buffable: true
+  to_who: 2
+  scale: 222
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 4
+  effect_type: 62
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 30
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 5
+  effect_type: 62
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 30
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 19
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 30
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 7
+  effect_type: 39
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Invention_Ethereal
+  unique_i_d: 8
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.NoPhase
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.NoPhase
+  effect_id: Ones
+  override: ''

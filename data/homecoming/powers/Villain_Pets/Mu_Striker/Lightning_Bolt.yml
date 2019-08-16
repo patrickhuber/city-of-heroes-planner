@@ -1,0 +1,121 @@
+index: 3126
+full_name: Villain_Pets.Mu_Striker.Lightning_Bolt
+group_name: Villain_Pets
+set_name: Mu_Striker
+name: Lightning_Bolt
+display: Lightning Bolt
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.5
+cast_time: 1
+recharge_time: 4
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recovery_Boost
+description_short: Ranged, Moderate DMG(Energy), Foe -End
+description_long: Your Endurance has been drained.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Mu_Striker.Lightning_Bolt
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Mu_Striker.Lightning_Bolt
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Villain_Pets.Mu_Striker.Lightning_Bolt
+  unique_i_d: 3
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -1.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Villain_Pets.Mu_Striker.Lightning_Bolt
+  unique_i_d: 4
+  effect_type: 26
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -0.5
+  magnitude: 1
+  duration: 4
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,34 @@
+index: 3323
+full_name: Inherent.Inherent.Phalanx_Fighting_Self_Buff
+group_name: Inherent
+set_name: Inherent
+name: Phalanx_Fighting_Self_Buff
+display: Phalanx Fighting Self Buff
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Null
+description_long: Null
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

@@ -1,0 +1,112 @@
+index: 4759
+full_name: Temporary_Powers.Day_Job_Powers.Master_Architect_Power
+group_name: Temporary_Powers
+set_name: Day_Job_Powers
+name: Master_Architect_Power
+display: Invigorate
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 1.5
+recharge_time: 600
+effect_area: 4
+max_boosts: 0
+cast_flags: 4
+number_of_charges: 30
+number_allowed: 1
+boosts_allowed: []
+description_short: Self Rez, Debt Protection
+description_long: Your college education combined with extensive knowledge of the Architect system has taught you how to work around virtual defeats.  You're able to shrug off the effects of simulated defeat once every 10 minutes while on Architect missions.  This will revive you with a small amount of hit points and no endurance, but you'll have 90 seconds of XP Debt Protection. Additional charges can be earned by logging out at Architect Entertainment or in a university.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Day_Job_Powers.Master_Architect_Power
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.5
+  aspect: 2
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''
+- power_full_name: Temporary_Powers.Day_Job_Powers.Master_Architect_Power
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 13
+  summon: ''
+  delayed_time: 0.25
+  base_probability: 1
+  to_who: 2
+  scale: 15
+  magnitude: 10
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Day_Job_Powers.Master_Architect_Power
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 4
+  magnitude: 50
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Day_Job_Powers.Master_Architect_Power
+  unique_i_d: 4
+  effect_type: 42
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 90
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

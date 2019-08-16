@@ -1,0 +1,204 @@
+index: 6791
+full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+group_name: Boosts
+set_name: Attuned_Maelstroms_Fury_A
+name: Attuned_Maelstroms_Fury_A
+display: "Maelstrom's Fury: Accuracy/Damage"
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Enhances Accuracy and Damage
+description_long: Enhances the damage of a power by {Boost.Attrib.Damage.Scale}% and accuracy by {Boost.Attrib.Accuracy.Scale}%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+boost_use_player_level: true
+effects:
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Boosts_33
+  override: ''
+- power_full_name: Boosts.Attuned_Maelstroms_Fury_A.Attuned_Maelstroms_Fury_A
+  unique_i_d: 9
+  effect_type: 9
+  effect_modifiers: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.625
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Boosts_33
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Accuracy
+  override: ''

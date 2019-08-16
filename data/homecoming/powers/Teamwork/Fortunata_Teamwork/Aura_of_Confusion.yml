@@ -1,0 +1,90 @@
+index: 2626
+full_name: Teamwork.Fortunata_Teamwork.Aura_of_Confusion
+group_name: Teamwork
+set_name: Fortunata_Teamwork
+name: Aura_of_Confusion
+display: Aura of Confusion
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 512
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 26
+cast_time: 1.6699999570846558
+recharge_time: 240
+effect_area: 2
+radius: 25
+max_targets: 16
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Confuse_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: PBAoE, Foe Confuse
+description_long: 'Aura of Confusion can cause chaos within a group of foes. All affected foes within the area will turn and attack each other, ignoring the user and their allies. If you confuse a foe before they noticed you, your presence will continue to go unnoticed. You will not receive any Experience Points for foes defeated entirely by confused enemies. Recharge: Very Long'
+set_types:
+- 16
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Teamwork.Fortunata_Teamwork.Aura_of_Confusion
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 20
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Teamwork.Fortunata_Teamwork.Aura_of_Confusion
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 4096
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

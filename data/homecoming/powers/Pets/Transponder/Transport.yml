@@ -1,0 +1,107 @@
+index: 1755
+full_name: Pets.Transponder.Transport
+group_name: Pets
+set_name: Transponder
+name: Transport
+display: Transport
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 45
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Summon
+description_long: Rikti soldiers can teleport through this Transponder to join their allies. The Transponder can be destroyed.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Transponder.Transport
+  unique_i_d: 1
+  effect_type: 38
+  summon: Rikti_Portal_Unarmored_Rikti_Conscript
+  delayed_time: 3
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Transponder.Transport
+  unique_i_d: 2
+  effect_type: 38
+  summon: Rikti_Portal_Unarmored_Rikti_Conscript
+  delayed_time: 4
+  stacking: 1
+  base_probability: 0.5
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Transponder.Transport
+  unique_i_d: 3
+  effect_type: 38
+  summon: Rikti_Portal_Monkey
+  delayed_time: 5
+  stacking: 1
+  base_probability: 0.20000000298023224
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pets.Transponder.Transport
+  unique_i_d: 4
+  effect_type: 38
+  summon: Rikti_Portal_Monkey
+  delayed_time: 6
+  stacking: 1
+  base_probability: 0.10000000149011612
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

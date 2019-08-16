@@ -1,0 +1,68 @@
+index: 1152
+full_name: Mastermind_Buff.Traps.Trip_Mine
+group_name: Mastermind_Buff
+set_name: Traps
+name: Trip_Mine
+display: Trip Mine
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 16.25
+interrupt_time: 4
+cast_time: 5
+recharge_time: 20
+effect_area: 1
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: 'Place Mine: PBAoE, Superior DMG(Lethal/Fire), Foe Knockback'
+description_long: "You can place a Trip Mine on the ground. Any foes that pass near the Trip Mine will cause it to explode, severely damaging all nearby foes and sending them flying. The Trip Mine is almost impossible to detect, but it is fragile and may be set off by an enemy's explosion. Even if destroyed, the Trip Mine will detonate. Setting a mine is delicate work, and if you are interrupted, you will fail. Damage: Superior, Recharge: Slow"
+set_types:
+- 4
+- 23
+- 44
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Buff.Traps.Trip_Mine
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Traps_Mine
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 260
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

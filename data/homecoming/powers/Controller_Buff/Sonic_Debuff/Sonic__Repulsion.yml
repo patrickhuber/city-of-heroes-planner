@@ -1,0 +1,121 @@
+index: 349
+full_name: Controller_Buff.Sonic_Debuff.Sonic__Repulsion
+group_name: Controller_Buff
+set_name: Sonic_Debuff
+name: Sonic__Repulsion
+display: Sonic  Repulsion
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 524288
+target: 524288
+target_line_of_sight: true
+range: 70
+endurance_cost: 0.51999998092651367
+cast_time: 2.3299999237060547
+recharge_time: 8
+activate_period: 0.5
+effect_area: 2
+radius: 10
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+description_short: 'Toggle: Ranged (Target Ally AoE), Foe Knockback'
+description_long: 'You create a powerful sonic resonance around an ally, repelling all foes nearby. You will lose endurance for each target repelled.  Recharge: Moderate'
+set_types:
+- 23
+level: 28
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Buff.Sonic_Debuff.Sonic__Repulsion
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 0.5
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Controller_Buff.Sonic_Debuff.Sonic__Repulsion
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  base_probability: 1
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 0.5
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Controller_Buff.Sonic_Debuff.Sonic__Repulsion
+  unique_i_d: 3
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Controller_Buff.Sonic_Debuff.Sonic__Repulsion
+  unique_i_d: 4
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  magnitude: 1
+  duration: 0.5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

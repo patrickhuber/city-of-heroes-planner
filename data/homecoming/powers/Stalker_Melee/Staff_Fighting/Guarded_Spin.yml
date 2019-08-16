@@ -1,0 +1,326 @@
+index: 8680
+full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+group_name: Stalker_Melee
+set_name: Staff_Fighting
+name: Guarded_Spin
+display: Guarded Spin
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 9
+endurance_cost: 8.5279998779296875
+cast_time: 1.8300000429153442
+recharge_time: 8
+effect_area: 3
+radius: 9
+arc: 90
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Buff_Defense_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Melee (Cone), Moderate DMG (Smash), Self +Def(Melee, Lethal)
+description_long: 'You spin your staff like a propeller in front of you  dealing Light Smashing damage to enemies in your frontal arc and deflecting any incoming attacks, thus boosting your Melee and Lethal defense briefly.  This power grants one stack of Perfection of Body. Damage: Moderate, Recharge: Moderate'
+set_types:
+- 4
+- 7
+- 42
+- 44
+click_buff: true
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+never_auto_update: true
+forced_class: ''
+effects:
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.23167000710964203
+  magnitude: 1
+  duration: 1.5
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.24930000305175781
+  magnitude: 1
+  duration: 1.5
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 3
+  effect_type: 5
+  damage_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1.5
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 4
+  effect_type: 5
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1.5
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  special_case: 9
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.0297999382019043
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  buffable: true
+  resistible: true
+  special_case: 4
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.0297999382019043
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.3899999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 8
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  special_case: 9
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.3899999856948853
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 9
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  base_probability: 1
+  special_case: 27
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 10
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  base_probability: 1
+  special_case: 28
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 11
+  effect_type: 30
+  summon: ''
+  base_probability: 1
+  special_case: 28
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 12
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  base_probability: 1
+  special_case: 29
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 13
+  effect_type: 30
+  summon: ''
+  base_probability: 1
+  special_case: 29
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Melee.Staff_Fighting.Guarded_Spin
+  unique_i_d: 14
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
+  base_probability: 0.89999997615814209
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
+  effect_id: Ones
+  override: ''

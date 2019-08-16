@@ -1,0 +1,131 @@
+index: 123
+full_name: Blaster_Support.Fire_Manipulation.Blazing_Aura
+group_name: Blaster_Support
+set_name: Fire_Manipulation
+name: Blazing_Aura
+display: Cauterizing Aura
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+attack_types: 68
+group_memberships: []
+entities_affected: 2049
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 2.0299999713897705
+recharge_time: 10
+activate_period: 2
+effect_area: 2
+radius: 8
+max_targets: 11
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Heal_Boost
+- Recharge_Boost
+- Recovery_Boost
+cast_through_hold: true
+description_short: 'Toggle: PBAoE, Minor DoT(Fire), Self +Heal Over Time, +Recovery'
+description_long: 'While active, you are surrounded by flames that continuously burn all foes that attempt to enter melee range.  In addition, you recover a small amount of health every few seconds. Damage: Minor(DoT), Recharge: Very Fast'
+set_types:
+- 4
+- 9
+- 22
+- 29
+- 33
+- 44
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Fire_Manipulation.Blazing_Aura
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: 0.20000000298023224
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Blazing_Aura
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 3
+  scale: 0.20000000298023224
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Blazing_Aura
+  unique_i_d: 3
+  effect_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 0.15000000596046448
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: HealSelf
+  override: ''
+- power_full_name: Blaster_Support.Fire_Manipulation.Blazing_Aura
+  unique_i_d: 4
+  effect_type: 26
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.5
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

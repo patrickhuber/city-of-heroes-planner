@@ -1,0 +1,54 @@
+index: 6096
+full_name: Temporary_Powers.Temporary_Powers.Cupid_Mission
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Cupid_Mission
+display: Cupid's Bow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 5
+cast_time: 2
+recharge_time: 20
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Foe +Love
+description_long: Cupid's Bow is ready and loaded. Versus the correct target at the appropriate time, it will restore their emotions and complete the ritual.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Cupid_Mission
+  unique_i_d: 1
+  effect_type: 58
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -0.99000000953674316
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: SetObjective(ScriptCupidBowHit)

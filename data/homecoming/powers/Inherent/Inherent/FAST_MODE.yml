@@ -1,0 +1,42 @@
+index: 6111
+full_name: Inherent.Inherent.FAST_MODE
+group_name: Inherent
+set_name: Inherent
+name: FAST_MODE
+display: Momentum
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Brute_Melee.Titan_Weapons.Defensive_Sweep
+    - ''
+  - - Brute_Melee.Titan_Weapons.Crushing_Blow
+    - ''
+  - - Scrapper_Melee.Titan_Weapons.Defensive_Sweep
+    - ''
+  - - Scrapper_Melee.Titan_Weapons.Crushing_Blow
+    - ''
+  - - Tanker_Melee.Titan_Weapons.Defensive_Sweep
+    - ''
+  power_i_ds_not: []
+group_memberships: []
+target_line_of_sight: true
+max_boosts: ''
+boosts_allowed: []
+description_short: +Momentum
+description_long: This power puts your character in the Fast Mode provided by Momentum.
+set_types: []
+click_buff: true
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+display_location: 6
+mutually_exclusive_auto: true
+never_auto_update: true
+never_auto_update_requirements: true
+include_flag: true
+forced_class: ''
+sort_override: true
+effects: []

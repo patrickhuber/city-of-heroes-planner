@@ -1,0 +1,41 @@
+index: 4580
+full_name: Incarnate.Alpha_Silent.Defense_Buff
+group_name: Incarnate
+set_name: Alpha_Silent
+name: Defense_Buff
+display: Defense Buff
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 5
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Buff_Defense_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Enhances Defense Buffs
+description_long: Increases defense buffs by {Boost.Attrib.Defense.Scale}%%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

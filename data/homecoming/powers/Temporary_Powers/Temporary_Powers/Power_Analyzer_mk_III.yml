@@ -1,0 +1,60 @@
+index: 2877
+full_name: Temporary_Powers.Temporary_Powers.Power_Analyzer_mk_III
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Power_Analyzer_mk_III
+display: Power Analyzer mk III
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 100
+endurance_cost: 6.5
+interrupt_time: 1
+cast_time: 3.9300000667572021
+recharge_time: 10
+effect_area: 1
+max_boosts: ''
+artifical_intelligence_report: 1
+number_of_charges: 20
+number_allowed: 1
+boosts_allowed: []
+description_short: Special
+description_long: The Power Analyzer mk III enables you to gain significant insight into the abilities, strengths and weakness of your foes.  It has 20 charges.  It will not function on PVP targets.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Power_Analyzer_mk_III
+  unique_i_d: 1
+  effect_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 54
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

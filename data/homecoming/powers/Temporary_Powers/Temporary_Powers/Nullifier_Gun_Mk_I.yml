@@ -1,0 +1,129 @@
+index: 2863
+full_name: Temporary_Powers.Temporary_Powers.Nullifier_Gun_Mk_I
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Nullifier_Gun_Mk_I
+display: Nullifier Gun Mk I
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1.2000000476837158
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.5
+cast_time: 3.5
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_of_charges: 5
+number_allowed: 1
+boosts_allowed: []
+description_short: Foe -End, -Rec, Detoggle
+description_long: This futuristic-looking rifle has energy readings on its side. It can be used to nullify superpowers for a short duration. It can be used 5 times before the energy pack is depleted.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Nullifier_Gun_Mk_I
+  unique_i_d: 1
+  effect_type: 7
+  summon: ''
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -85
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Nullifier_Gun_Mk_I
+  unique_i_d: 2
+  effect_type: 26
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -10
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Nullifier_Gun_Mk_I
+  unique_i_d: 3
+  effect_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 0.89999997615814209
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Nullifier_Gun_Mk_I
+  unique_i_d: 4
+  effect_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Nullifier_Gun_Mk_I
+  unique_i_d: 5
+  effect_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

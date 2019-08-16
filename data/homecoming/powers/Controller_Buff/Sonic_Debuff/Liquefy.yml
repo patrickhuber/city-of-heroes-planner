@@ -1,0 +1,91 @@
+index: 351
+full_name: Controller_Buff.Sonic_Debuff.Liquefy
+group_name: Controller_Buff
+set_name: Sonic_Debuff
+name: Liquefy
+display: Liquefy
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 23.399999618530273
+cast_time: 2.6700000762939453
+recharge_time: 300
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Hold_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Location AoE), Minor DMG(Smashing/Energy), Foe Hold, Knockdown, -To Hit, -DEF
+description_long: 'You unleash a barrage of sonic waves on the Earth itself, generating a powerful, localized earthquake. The impact of the sonic shockwave may Hold some foes and deal some minor damage. Most foes that pass through the location will fall down. The violent shaking also reduces their chance to hit and Defense. Recharge: Slow'
+set_types:
+- 3
+- 10
+- 21
+- 26
+- 30
+- 31
+- 44
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Buff.Sonic_Debuff.Liquefy
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Liquefy
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''
+- power_full_name: Controller_Buff.Sonic_Debuff.Liquefy
+  unique_i_d: 2
+  effect_type: 38
+  summon: Pets_ShockCont
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 3
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

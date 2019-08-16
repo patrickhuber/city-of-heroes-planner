@@ -1,0 +1,200 @@
+index: 2363
+full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+group_name: Stalker_Defense
+set_name: Electric_Armor
+name: Conductive_Shield
+display: Conductive Shield
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.12999999523162842
+cast_time: 0.67000001668930054
+recharge_time: 2
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: 'Toggle: Self +Res(Fire, Cold, Energy, Negative)'
+description_long: 'When you toggle on this power, you are surrounded in a Conductive Shield that will conduct many sorts of energy away from your body. Conductive Shield grants high resistant to Fire, Cold, and Energy damage, as well as good resistance to Negative Energy damage. Recharge: Fast'
+set_types:
+- 8
+always_toggle: true
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 3.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 3.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 3.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 3.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_DMG
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_DMG
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 3.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_DMG
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_DMG
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 3.5
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_DMG
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_DMG
+  override: ''
+- power_full_name: Stalker_Defense.Electric_Armor.Conductive_Shield
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_DMG
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_DMG
+  override: ''

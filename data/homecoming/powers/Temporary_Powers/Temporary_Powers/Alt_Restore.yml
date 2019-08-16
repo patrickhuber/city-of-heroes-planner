@@ -1,0 +1,75 @@
+index: 5757
+full_name: Temporary_Powers.Temporary_Powers.Alt_Restore
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Alt_Restore
+display: Restore
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1613826
+accuracy: 1
+group_memberships: []
+entities_affected: 67108864
+entities_auto_hit: 67108864
+target: 67108864
+target_line_of_sight: true
+range: 10
+endurance_cost: 19.5
+cast_time: 3.3299999237060547
+recharge_time: 60
+effect_area: 1
+max_boosts: 0
+number_of_charges: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: Close, Ally Rez
+description_long: 'This power is capable of reviving a defeated ally with a moderate amount of health.  The revived player will also receive debt protection for a short time.  Recharge: Very Long.'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Alt_Restore
+  unique_i_d: 1
+  effect_type: 13
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 0.5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Alt_Restore
+  unique_i_d: 2
+  effect_type: 42
+  summon: ''
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

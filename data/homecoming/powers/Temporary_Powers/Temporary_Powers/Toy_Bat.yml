@@ -1,0 +1,77 @@
+index: 2946
+full_name: Temporary_Powers.Temporary_Powers.Toy_Bat
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Toy_Bat
+display: Toy Bat
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 32768
+target: 32768
+target_line_of_sight: true
+range: 7
+endurance_cost: 3.25
+cast_time: 1.8300000429153442
+recharge_time: 3
+effect_area: 1
+max_boosts: 0
+number_of_charges: 99
+number_allowed: 1
+boosts_allowed: []
+description_short: Minor Smash DMG (Special)
+description_long: This bat is covered with a soft foam-like material cushioning its impact. The toy bat does Trivial damage to villains, but can also be used against allies for no damage. And lets face it, some of your 'friends' deserve it. It can be used up to 99 times before breaking.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Toy_Bat
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.36000001430511475
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Toy_Bat
+  unique_i_d: 2
+  effect_type: 32
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

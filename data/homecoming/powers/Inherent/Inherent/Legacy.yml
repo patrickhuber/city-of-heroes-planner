@@ -1,0 +1,35 @@
+index: 4505
+full_name: Inherent.Inherent.Legacy
+group_name: Inherent
+set_name: Inherent
+name: Legacy
+display: LEGACY BUILD
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Fitness.Quick
+    - ''
+  - - Pool.Fitness.Hurdle
+    - ''
+  - - Pool.Fitness.Health
+    - ''
+  - - Pool.Fitness.Stamina
+    - ''
+  power_i_ds_not: []
+group_memberships: []
+target_line_of_sight: true
+max_boosts: ''
+boosts_allowed: []
+description_short: ''
+description_long: ''
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+display_location: 20
+mutually_exclusive_auto: true
+include_flag: true
+forced_class: ''
+effects: []

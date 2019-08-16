@@ -1,0 +1,37 @@
+index: 10547
+full_name: Tanker_Defense.Regeneration.Resist_Disorientation
+group_name: Tanker_Defense
+set_name: Regeneration
+name: Resist_Disorientation
+display: Resilience
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Res_Damage_Boost
+ignore_strength: true
+description_short: 'Auto: Self +Res(Disorient, All DMG)'
+description_long: You are more Resilient. This power allows you to build up a resistance to Disorientation effects. You tend not to get Disoriented, and if you do, it wears off quickly. This resistance to Disorientation gets stronger as you go up in level. Resilience also grants some resistance to all types of damage. This power is always on.
+set_types: []
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

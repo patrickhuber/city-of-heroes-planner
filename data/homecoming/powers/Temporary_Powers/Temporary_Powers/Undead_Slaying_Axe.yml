@@ -1,0 +1,119 @@
+index: 2948
+full_name: Temporary_Powers.Temporary_Powers.Undead_Slaying_Axe
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Undead_Slaying_Axe
+display: Undead Slaying Axe
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 8.5799999237060547
+cast_time: 2.1700000762939453
+recharge_time: 6
+effect_area: 1
+max_boosts: 0
+number_of_charges: 75
+life_time_in_game: 10800
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee, Moderate DMG(Lethal), Bonus vs True Undead
+description_long: This massive weapon was specifically crafted by MAGI to slay the undead.  The Undead Slaying Axe can be used 75 times before MAGI will recall it magically.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Undead_Slaying_Axe
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Undead_Slaying_Axe
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Undead_Slaying_Axe
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Undead_Slaying_Axe
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 5
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: Class_Scrapper
+  i_d_class_name: 3
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

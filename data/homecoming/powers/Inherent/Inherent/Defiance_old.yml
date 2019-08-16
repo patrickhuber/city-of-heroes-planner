@@ -1,0 +1,273 @@
+index: 1042
+full_name: Inherent.Inherent.Defiance_old
+group_name: Inherent
+set_name: Inherent
+name: Defiance_old
+display: Defiance old
+requirement:
+  class_names: []
+  class_names_not:
+  - Class_Blaster
+  - Class_Controller
+  - Class_Defender
+  - Class_Scrapper
+  - Class_Tanker
+  - Class_Peacebringer
+  - Class_Warshade
+  - Class_Brute
+  - Class_Corruptor
+  - Class_Dominator
+  - Class_Mastermind
+  - Class_Stalker
+  - Class_Arachnos_Soldier
+  - Class_Arachnos_Widow
+  - Class_Boss_Henchman
+  - Class_Lt_Henchman
+  - Class_Minion_Henchman
+  - Class_Minion_Pets
+  - Class_Boss_Archvillain
+  - Class_Boss_Archvillain_Flying
+  - Class_Boss_Elite
+  - Class_Boss_EliteTurret
+  - Class_Boss_Grunt
+  - Class_Boss_Guard
+  - Class_Boss_Hamidon
+  - Class_Boss_HeavyPet
+  - Class_Boss_HugeDevice
+  - Class_Boss_Mito
+  - Class_Boss_Monster
+  - Class_Boss_Monster_Flying
+  - Class_Boss_Rularuu
+  - Class_Boss_RularuuFM
+  - Class_Boss_Shield
+  - Class_Boss_Signature_Pets
+  - Class_Boss_Turret
+  - Class_Lt_Grunt
+  - Class_Lt_LongRangeDrone
+  - Class_Lt_Sniper
+  - Class_Lt_Turret
+  - Class_Minion_Fire
+  - Class_Minion_Grunt
+  - Class_Minion_Henchman
+  - Class_Minion_Monument
+  - Class_Minion_OilSlickTarget
+  - Class_Minion_Practice
+  - Class_Minion_Small
+  - Class_Minion_Small_Agressive
+  - Class_Minion_Swarm
+  - Class_Minion_Turret
+  - Class_Minion_UnkillableNPC
+  - Class_Signature_Pets
+  - Class_Boss_Reichsman
+  - Class_Minion_PraetorianSmall
+  - Class_Minion_PraetorianGrunt
+  - Class_Lt_PraetorianGrunt
+  - Class_Boss_PraetorianGrunt
+  - Class_Boss_PraetorianElite
+  - Class_Boss_PraetorianArchvillain
+  - Class_Boss_RularuuCoP
+  power_i_ds:
+  - - $ARCHETYPE
+    - '@CLASS_BLASTEROLD'
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Self +DMG, +ACC, Special
+description_long: As a Blaster looses health, he begins to unleash his true power in a last ditch display of Defiance.  The less health he has, the more damage he deals and the more accurate his attacks become.
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 9
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.0125 *
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Inherent.Inherent.Defiance_old
+  unique_i_d: 10
+  effect_type: 18
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  duration: 0.75
+  attrib_type: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 2.0 45 kHitPoints% source> - 10 / pow 0.25 * 4 / 0.0 1.0 minmax
+  reward: ''
+  effect_id: Ones
+  override: ''

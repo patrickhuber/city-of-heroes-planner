@@ -20,7 +20,7 @@ namespace CityOfHeroesPlanner.Data.Mids
         private RecordHeader _powersetHeader;
         private int _powersetIndex;
 
-        private PowersHeader _powersHeader;
+        private PowerHeader _powerHeader;
         private PowerReader _powerReader;
         private int _powerIndex;
 
@@ -99,15 +99,15 @@ namespace CityOfHeroesPlanner.Data.Mids
                     return true;
 
                 case State.Powers:
-                    if (_powersHeader == null)
+                    if (_powerHeader == null)
                     {
-                        _powersHeader = new PowersHeaderReader(_reader).Read();
-                        OnPowersHeaderRead?.Invoke(_powersHeader);
+                        _powerHeader = new PowerHeaderReader(_reader).Read();
+                        OnPowersHeaderRead?.Invoke(_powerHeader);
                         _powerIndex = 0;
                         return true;
                     }
 
-                    if (_powersetHeader.Count < _powerIndex)
+                    if (_powerHeader.Count < _powerIndex)
                         return false;
 
                     if (_powerReader == null)
@@ -116,7 +116,7 @@ namespace CityOfHeroesPlanner.Data.Mids
                     var power = _powerReader.Read();
                     OnPowerRead?.Invoke(power);
                     _powerIndex++;
-                    if (_powerIndex > _powersHeader.Count)
+                    if (_powerIndex > _powerHeader.Count)
                         _state = State.Summons;
 
                     return true;
@@ -139,7 +139,7 @@ namespace CityOfHeroesPlanner.Data.Mids
         public event Action<PowerSet> OnPowerSetRead;
 
         // powers
-        public event Action<PowersHeader> OnPowersHeaderRead;
+        public event Action<PowerHeader> OnPowersHeaderRead;
         public event Action<Power> OnPowerRead;
     }
 }

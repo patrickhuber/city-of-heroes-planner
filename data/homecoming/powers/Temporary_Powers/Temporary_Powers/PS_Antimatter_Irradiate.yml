@@ -1,0 +1,80 @@
+index: 9759
+full_name: Temporary_Powers.Temporary_Powers.PS_Antimatter_Irradiate
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: PS_Antimatter_Irradiate
+display: Irradiate
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1.2999999523162842
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 5
+cast_time: 1.0700000524520874
+recharge_time: 10
+effect_area: 2
+radius: 20
+max_targets: 16
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: -DEF
+description_long: Anti-Matter can use his power armor to irradiate his enemies.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Antimatter_Irradiate
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  duration: 4.5999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Antimatter_Irradiate
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

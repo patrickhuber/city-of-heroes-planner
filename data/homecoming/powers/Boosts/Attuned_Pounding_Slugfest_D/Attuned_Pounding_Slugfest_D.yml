@@ -1,0 +1,87 @@
+index: 6905
+full_name: Boosts.Attuned_Pounding_Slugfest_D.Attuned_Pounding_Slugfest_D
+group_name: Boosts
+set_name: Attuned_Pounding_Slugfest_D
+name: Attuned_Pounding_Slugfest_D
+display: 'Pounding Slugfest: Disorient Bonus'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: Adds Disorient Chance
+description_long: Adds a minor chance to Disorient your foe.  This effect will trigger roughly 2.5 times per minute.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+boost_use_player_level: true
+effects:
+- power_full_name: Boosts.Attuned_Pounding_Slugfest_D.Attuned_Pounding_Slugfest_D
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: 8
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+  procs_per_minute: 2.5
+- power_full_name: Boosts.Attuned_Pounding_Slugfest_D.Attuned_Pounding_Slugfest_D
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  suppression: 31
+  resistible: true
+  player_versus_mode: 2
+  to_who: 3
+  scale: 5.3359999656677246
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+  procs_per_minute: 2.5

@@ -1,0 +1,194 @@
+index: 10700
+full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+group_name: Villain_Pets
+set_name: Dominator_RadioactiveAssault_Snipe
+name: Proton_Volley_Quick
+display: Proton Volley
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 175
+endurance_cost: 18.511999130249023
+cast_time: 1.3300000429153442
+recharge_time: 20
+effect_area: 2
+radius: 8
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Interrupt_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Sniper, Superior DMG(Energy), Foe -DEF
+description_long: "Hurls a volley of alpha particles over an extremely long range. Proton Volley can bypass some of a target's defenses and reduce the target's Defense. This is a sniper attack, and is best fired from a distance as it can be interrupted. If you have more than 97% To-Hit, this attack becomes instant-cast. Affected enemies have a small chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: Superior, Recharge: Slow"
+set_types:
+- 2
+- 5
+- 21
+- 30
+- 44
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.88999998569488525
+  magnitude: 1
+  duration: 1.6000000238418579
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 12
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.58799999952316284
+  magnitude: 1
+  duration: 1.6000000238418579
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 4
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  base_probability: 0.30000001192092896
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  effect_id: Contaminated
+  override: ''
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Radiation_Melee_Contamination_Hit
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.17800000309944153
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Contamination
+  override: ''
+- power_full_name: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.11760000139474869
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Contamination
+  override: ''

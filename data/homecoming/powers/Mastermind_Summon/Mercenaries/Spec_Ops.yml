@@ -1,0 +1,92 @@
+index: 1443
+full_name: Mastermind_Summon.Mercenaries.Spec_Ops
+group_name: Mastermind_Summon
+set_name: Mercenaries
+name: Spec_Ops
+display: Spec Ops
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 19.5
+cast_time: 2.0299999713897705
+recharge_time: 90
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Hold_Boost
+- Immobilized_Boost
+- Stunned_Boost
+description_short: Summon Spec Ops
+description_long: 'You can enlist one to two highly skilled Spec Ops Mercenary (depending on your level).  Spec Ops weapons are highly accurate and long ranged, and they are adept in many different tactical weapons. Like all Henchmen, Spec Ops can be equipped with even deadlier munitions. You may only have 2 Spec Ops under your control at any given time.  If you attempt to summon more Spec Ops, you can only replace the ones you have lost in battle.  If you already have two, the power will fail. Recharge: Very Long'
+set_types:
+- 6
+- 10
+- 11
+- 21
+- 26
+- 27
+- 30
+- 31
+- 40
+- 44
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Mercenaries.Spec_Ops
+  unique_i_d: 1
+  effect_type: 38
+  summon: MastermindPets_Spec_Ops
+  delayed_time: 2
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Levelminus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Spec_Ops
+  unique_i_d: 2
+  effect_type: 38
+  summon: MastermindPets_Spec_Ops
+  delayed_time: 3
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Levelminus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus
+  override: ''

@@ -1,0 +1,61 @@
+index: 9962
+full_name: Corruptor_Buff.Empathy.Regeneration_Aura
+group_name: Corruptor_Buff
+set_name: Empathy
+name: Regeneration_Aura
+display: Regeneration Aura
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 513
+entities_auto_hit: 513
+target: 1
+target_line_of_sight: true
+endurance_cost: 26
+cast_time: 2.0299999713897705
+recharge_time: 500
+effect_area: 2
+radius: 25
+max_targets: 255
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+description_short: PBAoE, Ally +Regeneration
+description_long: 'The Regeneration Aura dramatically increases the healing rate of all nearby heroes for a limited time. Emitting this Aura costs you a lot of Endurance, and it takes a long time to recharge. Recharge: Very Long'
+set_types:
+- 9
+click_buff: true
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Empathy.Regeneration_Aura
+  unique_i_d: 1
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 5
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,38 @@
+index: 10368
+full_name: Pool.Utility_Belt.Flying_Strike
+group_name: Pool
+set_name: Utility_Belt
+name: Flying_Strike
+display: Flying Strike
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Utility_Belt.Bolas
+    - Pool.Utility_Belt.Freerunning
+  - - Pool.Utility_Belt.Bolas
+    - Pool.Utility_Belt.Poisoned_Dagger
+  - - Pool.Utility_Belt.Bolas
+    - Pool.Utility_Belt.Flying_Strike
+  - - Pool.Utility_Belt.Freerunning
+    - Pool.Utility_Belt.Poisoned_Dagger
+  - - Pool.Utility_Belt.Freerunning
+    - Pool.Utility_Belt.Flying_Strike
+  - - Pool.Utility_Belt.Poisoned_Dagger
+    - Pool.Utility_Belt.Flying_Strike
+  power_i_ds_not: []
+group_memberships: []
+target_line_of_sight: true
+max_boosts: ''
+boosts_allowed: []
+description_short: Charge (Targeted AoE), High DMG(Smash), Foe Knockdown
+description_long: You charge at your distant foe causing High Smashing damage to your target and Minor Smashing damage to up to 5 nearby foes. Affected foes may be knocked off their feet. Flying Strike requires you to have two other powers from the Utility Belt power pool.
+set_types: []
+level: 14
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

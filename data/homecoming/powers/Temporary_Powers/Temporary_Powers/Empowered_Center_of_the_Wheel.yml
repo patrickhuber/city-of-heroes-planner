@@ -1,0 +1,124 @@
+index: 2723
+full_name: Temporary_Powers.Temporary_Powers.Empowered_Center_of_the_Wheel
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Empowered_Center_of_the_Wheel
+display: Empowered Center of the Wheel
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 81
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 8.5799999237060547
+cast_time: 1.6699999570846558
+recharge_time: 6
+effect_area: 1
+max_boosts: 0
+life_time_in_game: 5400
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee, Moderate DMG(Fire/Lethal)
+description_long: This metal rod has been empowered by the Banished Pantheon. While carrying it, you can summon a Sword of Flame.  It lasts for 90 minutes.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Empowered_Center_of_the_Wheel
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Empowered_Center_of_the_Wheel
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.81999999284744263
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Empowered_Center_of_the_Wheel
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Empowered_Center_of_the_Wheel
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 5
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: Class_Scrapper
+  i_d_class_name: 3
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

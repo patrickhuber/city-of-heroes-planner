@@ -1,0 +1,71 @@
+index: 3845
+full_name: Set_Bonus.PVP_Set_Bonus.Increased_Smashing_Lethal_Def_2
+group_name: Set_Bonus
+set_name: PVP_Set_Bonus
+name: Increased_Smashing_Lethal_Def_2
+display: Small Smashing and Lethal Defense Bonus (PVP)
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 5
+boosts_allowed: []
+ignore_strength: true
+description_short: +DEF
+description_long: Increases Smashing and Lethal defense by 0.95%. (PVP)
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Set_Bonus.PVP_Set_Bonus.Increased_Smashing_Lethal_Def_2
+  unique_i_d: 1
+  effect_type: 5
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.0094499997794628143
+  magnitude: 1
+  duration: 10.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.PVP_Set_Bonus.Increased_Smashing_Lethal_Def_2
+  unique_i_d: 2
+  effect_type: 5
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.0094499997794628143
+  magnitude: 1
+  duration: 10.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

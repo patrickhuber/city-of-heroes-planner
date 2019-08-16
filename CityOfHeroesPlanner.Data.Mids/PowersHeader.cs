@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CityOfHeroesPlanner.Data.Mids
 {
-    public class PowersHeader : RecordHeader
+    public class PowerHeader : RecordHeader
     {
         public VersionData LevelVersion { get; set; }
         public VersionData EffectVersion { get; set; }
@@ -12,7 +12,7 @@ namespace CityOfHeroesPlanner.Data.Mids
 
         public override bool Equals(object obj)
         {
-            return obj is PowersHeader header &&
+            return obj is PowerHeader header &&
                 Count == header.Count &&
                 Prefix.Equals(header.Prefix) &&
                 VersionData.Equals(header.VersionData) &&   

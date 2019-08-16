@@ -1,0 +1,59 @@
+index: 2668
+full_name: Temporary_Powers.Temporary_Powers.Arachnos_Mini-Blaster
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Arachnos_Mini-Blaster
+display: Arachnos Mini-Blaster
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 9.75
+cast_time: 2.0299999713897705
+recharge_time: 240
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_of_charges: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: Summon Arachnos Mini-Blaster
+description_long: You summon an Arachnos Mini-Blaster to fight along with you, once.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Arachnos_Mini-Blaster
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Arachnos_Heavy_Pet
+  delayed_time: 1.5
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

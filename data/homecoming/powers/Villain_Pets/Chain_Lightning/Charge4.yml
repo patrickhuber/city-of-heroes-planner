@@ -1,0 +1,58 @@
+index: 3039
+full_name: Villain_Pets.Chain_Lightning.Charge4
+group_name: Villain_Pets
+set_name: Chain_Lightning
+name: Charge4
+display: Charge
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 512
+target: 1
+target_line_of_sight: true
+activate_period: 100
+effect_area: 2
+radius: 10
+max_targets: 1
+max_boosts: ''
+life_time: 3
+number_allowed: 1
+boosts_allowed: []
+cast_through_hold: true
+description_short: Charged
+description_long: You still carry a charge leftover from the Chain Induction punch.  You may accidentally release this charge and zap a nearby ally.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Chain_Lightning.Charge4
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.69999998807907104
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

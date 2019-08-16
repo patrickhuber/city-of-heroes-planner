@@ -1,0 +1,81 @@
+index: 3131
+full_name: Villain_Pets.Night_Widow.Mental_Blast
+group_name: Villain_Pets
+set_name: Night_Widow
+name: Mental_Blast
+display: Mental Blast
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 514
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 8.5799999237060547
+cast_time: 1.6699999570846558
+recharge_time: 6
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: -Recharge
+description_long: The Mental Blast has slowed your Attack rate.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Night_Widow.Mental_Blast
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Night_Widow.Mental_Blast
+  unique_i_d: 2
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 6
+  aspect: 3
+  modifier_table: Ranged_Slow
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''

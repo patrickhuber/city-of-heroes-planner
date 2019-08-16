@@ -1,0 +1,176 @@
+index: 10758
+full_name: Epic.Corr_Flame_Mastery.Consume
+group_name: Epic
+set_name: Corr_Flame_Mastery
+name: Consume
+display: Consume
+requirement:
+  class_names:
+  - Class_Corruptor
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.64999997615814209
+cast_time: 3.8280000686645508
+recharge_time: 360
+effect_area: 2
+radius: 20
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: PBAoE, Minor DMG(Fire), Self +End
+description_long: 'You can drain body heat from all nearby foes in order to replenish your own Endurance. The more foes affected, the more Endurance is gained. Foes suffer minimal Fire damage. You must be level 47 and have two other Fire Mastery Powers before selecting this power. Damage: Minor, Recharge: Very Long'
+set_types:
+- 4
+- 22
+- 44
+click_buff: true
+level: 35
+variable_enabled: true
+variable_name: Foes Hit
+variable_min: 1
+variable_max: 10
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+never_auto_update: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Epic.Fire_Mastery.Consume
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.40000000596046448
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Fire_Mastery.Consume
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 20
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Fire_Mastery.Consume
+  unique_i_d: 3
+  effect_type: 26
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Melee_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Fire_Mastery.Consume
+  unique_i_d: 4
+  effect_type: 28
+  effect_modifiers: 7
+  summon: ''
+  delayed_time: 0.25
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.5
+  magnitude: 1
+  duration: 120
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Fire_Mastery.Consume
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 10
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.40000000596046448
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: class_controller
+  i_d_class_name: 1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Epic.Fire_Mastery.Consume
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 10
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.40000000596046448
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: class_controller
+  i_d_class_name: 1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

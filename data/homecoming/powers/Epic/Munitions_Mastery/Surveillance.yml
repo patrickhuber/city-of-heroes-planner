@@ -1,0 +1,228 @@
+index: 3313
+full_name: Epic.Munitions_Mastery.Surveillance
+group_name: Epic
+set_name: Munitions_Mastery
+name: Surveillance
+display: Surveillance
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.Munitions_Mastery.Body_Armor
+    - ''
+  - - Epic.Munitions_Mastery.Cryo_Freeze_Ray
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 10.659999847412109
+cast_time: 1.5
+recharge_time: 45
+effect_area: 1
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Ranged Foe -DEF, -RES (All)
+description_long: "When this power is activated, you focus your senses to analyze your target's defensive capabilities and discover their weaknesses.  By sharing your knowledge of the target's weaknesses with your team mates, you effectively reduce their defense and resistance to damage. Your Combat Attributes Window will also show the combat attributes of the target. You must be level 41 and have Body Armor or Cryo Freeze Ray before selecting this power. Recharge: Slow"
+set_types:
+- 21
+- 30
+level: 41
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 1
+  effect_type: 2
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 54
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 9
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Melee_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Epic.Munitions_Mastery.Surveillance
+  unique_i_d: 10
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

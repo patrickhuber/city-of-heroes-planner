@@ -1,0 +1,67 @@
+index: 5235
+full_name: Blaster_Support.Darkness_Manipulation.Death_Shroud
+group_name: Blaster_Support
+set_name: Darkness_Manipulation
+name: Death_Shroud
+display: Death Shroud
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+attack_types: 260
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 1.0399999618530273
+cast_time: 3.4700000286102295
+recharge_time: 4
+activate_period: 2
+effect_area: 2
+radius: 8
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: PBAoE Minor DoT(Negative)'
+description_long: 'You become a focus point for the Netherworld, allowing its Negative Energy to seep from your body. This will continuously damage all foes in melee range. Damage: Minor(DoT), Recharge: Fast'
+set_types:
+- 4
+- 33
+- 44
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Darkness_Manipulation.Death_Shroud
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20000000298023224
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

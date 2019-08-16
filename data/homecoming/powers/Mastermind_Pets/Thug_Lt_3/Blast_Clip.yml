@@ -1,0 +1,63 @@
+index: 1382
+full_name: Mastermind_Pets.Thug_Lt_3.Blast_Clip
+group_name: Mastermind_Pets
+set_name: Thug_Lt_3
+name: Blast_Clip
+display: Blast Clip
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 20
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 15.184000015258789
+cast_time: 2.5
+recharge_time: 20
+effect_area: 2
+radius: 15
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: Moderate DoT(Lethal)
+description_long: You are getting pelted by an exploding clip of ammo.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Thug_Lt_3.Blast_Clip
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.89999997615814209
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

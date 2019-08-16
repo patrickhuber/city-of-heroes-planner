@@ -1,0 +1,102 @@
+index: 9508
+full_name: Incarnate.Lore_Pet_Talons_Support_Attack.Exhausting_Song
+group_name: Incarnate
+set_name: Lore_Pet_Talons_Support_Attack
+name: Exhausting_Song
+display: Exhausting Song
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+cast_time: 1.6699999570846558
+recharge_time: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Ranged, Superior DMG (Energy), Moderate DoT (Lethal), Chance for Heal (Self)
+description_long: You create a song which exhausts your target, draining the very life out of their bodies. The target suffers energy damage, followed by lethal damage over time. There is a small chance this life energy is returned to you.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Incarnate.Lore_Pet_Talons_Support_Attack.Exhausting_Song
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.1000000238418579
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Talons_Support_Attack.Exhausting_Song
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  delayed_time: 0.5
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.15000000596046448
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Talons_Support_Attack.Exhausting_Song
+  unique_i_d: 3
+  effect_type: 13
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Heal
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Heal
+  override: ''

@@ -1,0 +1,51 @@
+index: 8967
+full_name: Inherent.Inherent.Primal_Energy_Meter
+group_name: Inherent
+set_name: Inherent
+name: Primal_Energy_Meter
+display: Primal Energy
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Primal Energy
+description_long: Many of the Primalist's Attacks will grant you Primal Energy.  This energy is spent to execute devastating attacks and debuffs as well as incredibly potent healing.  It's important to note that some powers require 10 Primal Energy to activate while others will scale with the amount you have.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.Primal_Energy_Meter
+  unique_i_d: 1
+  effect_type: 18
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  magnitude: 1
+  attrib_type: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: kRage source> .01 *
+  reward: ''
+  effect_id: Ones
+  override: ''

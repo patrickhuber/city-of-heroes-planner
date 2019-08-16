@@ -1,0 +1,127 @@
+index: 1155
+full_name: Mastermind_Buff.Trick_Arrow.Flash_Arrow
+group_name: Mastermind_Buff
+set_name: Trick_Arrow
+name: Flash_Arrow
+display: Flash Arrow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 9.75
+cast_time: 1
+recharge_time: 15
+effect_area: 2
+radius: 35
+max_targets: 16
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Ranged (Targeted AoE), Foe -Visibility, -To Hit
+description_long: 'This arrow explodes in a dazzling flash of light and sound. The targets are so blinded that they can hardly see a thing. Most foes will not be able to see past normal melee range, although some may have better perception. If the foes are attacked, they will be alerted to your presence, but will suffer a penalty to their chance to hit.  Recharge: Slow'
+set_types:
+- 26
+- 31
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Buff.Trick_Arrow.Flash_Arrow
+  unique_i_d: 1
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 1024
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.89999997615814209
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Buff.Trick_Arrow.Flash_Arrow
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Mastermind_Buff.Trick_Arrow.Flash_Arrow
+  unique_i_d: 3
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Mastermind_Buff.Trick_Arrow.Flash_Arrow
+  unique_i_d: 4
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 1024
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -0.89999997615814209
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

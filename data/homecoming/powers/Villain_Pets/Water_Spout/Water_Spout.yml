@@ -1,0 +1,151 @@
+index: 3184
+full_name: Villain_Pets.Water_Spout.Water_Spout
+group_name: Villain_Pets
+set_name: Water_Spout
+name: Water_Spout
+display: Water Spout
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1.2999999523162842
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+activate_period: 0.5
+effect_area: 2
+radius: 7
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Damage_Boost
+- Debuff_Defense_Boost
+- Knockback_Boost
+- Stunned_Boost
+description_short: DoT(Smashin), -DEF, Disorient
+description_long: The Water Spout winds buffet you, dealing smashing Damage over Time, reducing your defense, and Disorients you.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Villain_Pets.Water_Spout.Water_Spout
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 0.039999999105930328
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 0.30000001192092896
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Villain_Pets.Water_Spout.Water_Spout
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  delayed_time: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Water_Spout.Water_Spout
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  delayed_time: 2.5
+  base_probability: 0.039999999105930328
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 10
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Stun
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+- power_full_name: Villain_Pets.Water_Spout.Water_Spout
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  delayed_time: 2.5
+  base_probability: 0.039999999105930328
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Water_Spout.Water_Spout
+  unique_i_d: 5
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

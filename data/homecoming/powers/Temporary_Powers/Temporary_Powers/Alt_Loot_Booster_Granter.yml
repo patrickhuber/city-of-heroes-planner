@@ -1,0 +1,52 @@
+index: 5749
+full_name: Temporary_Powers.Temporary_Powers.Alt_Loot_Booster_Granter
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Alt_Loot_Booster_Granter
+display: Windfall
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 1.1699999570846558
+effect_area: 1
+max_boosts: 0
+number_of_charges: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: +Influence, Special
+description_long: 'Activating this power will increase your Influence gain by +25%.  Also, this power grants the user a greater chance at earning Medium and Large Inspirations, provided the user is either a VIP or has the appropriate Reward Level for these Inspirations to drop in the first place.  Additionally while this power is active, the user will have drop rates for Invention Salvage, Recipes, Very Rare Recipes, Rare Boss Recipes, Incarnate Shards (if level 50 w/ Alpha Slot unlocked) and Incarnate Threads (if level 50 and in an Incarnate Trial) increased by 50%.  NOTE: Salvage and Recipe drops require the player to either be VIP, have Reward Level 7 or own an Invention License.  Incarnate Shard and Incarnate Thread drops require the user to be a VIP subscriber.  These effects last for 1 hour.'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Alt_Loot_Booster_Granter
+  unique_i_d: 1
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Alt_Loot_Booster_Auto
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Alt_Loot_Booster_Auto
+  effect_id: Ones
+  override: ''

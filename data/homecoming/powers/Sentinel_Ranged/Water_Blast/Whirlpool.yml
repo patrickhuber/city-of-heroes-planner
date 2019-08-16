@@ -1,0 +1,88 @@
+index: 10273
+full_name: Sentinel_Ranged.Water_Blast.Whirlpool
+group_name: Sentinel_Ranged
+set_name: Water_Blast
+name: Whirlpool
+display: Whirlpool
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 2
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 15.600000381469727
+cast_time: 2.0299999713897705
+recharge_time: 60
+effect_area: 4
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged (Location AoE), High DoT(Cold), -Speed, -Defense, Self +Tidal Power
+description_long: "You create a violent whirlpool at the target location causing Cold damage over time, reducing the targets' speed and defense for a short time. Whirlpool grants 1 stack of Tidal Power. Damage: High(DoT), Recharge: Long"
+set_types:
+- 0
+- 3
+- 13
+- 21
+- 30
+- 44
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Sentinel_Ranged.Water_Blast.Whirlpool
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Whirlpool_Sentinel
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''
+- power_full_name: Sentinel_Ranged.Water_Blast.Whirlpool
+  unique_i_d: 2
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Tidal_Power
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Tidal_Power
+  effect_id: Ones
+  override: ''

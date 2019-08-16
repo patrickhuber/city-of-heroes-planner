@@ -1,0 +1,81 @@
+index: 3135
+full_name: Villain_Pets.Night_Widow.Smoke_Grenade
+group_name: Villain_Pets
+set_name: Night_Widow
+name: Smoke_Grenade
+display: Smoke Grenade
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 110
+endurance_cost: 9.75
+cast_time: 1.3700000047683716
+recharge_time: 120
+effect_area: 2
+radius: 15
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+description_short: -Perception, -To Hit
+description_long: Your visual range and chance to hit have been reduced by the Smoke Grenade.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Night_Widow.Smoke_Grenade
+  unique_i_d: 1
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 1024
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: -0.89999997615814209
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Villain_Pets.Night_Widow.Smoke_Grenade
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''

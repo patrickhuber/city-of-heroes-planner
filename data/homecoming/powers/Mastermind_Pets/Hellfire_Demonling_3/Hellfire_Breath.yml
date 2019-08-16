@@ -1,0 +1,243 @@
+index: 4232
+full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+group_name: Mastermind_Pets
+set_name: Hellfire_Demonling_3
+name: Hellfire_Breath
+display: Hellfire Breath
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 15.184000015258789
+cast_time: 2.6700000762939453
+recharge_time: 16
+effect_area: 3
+radius: 40
+arc: 30
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: Close (Cone), Moderate DoT(Fire)
+description_long: 'You can breathe forth a torrent of hellfire that burns all foes within its narrow cone. Very accurate and very deadly at medium range. Damage: Moderate(DoT), Recharge: Slow'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+sort_override: true
+effects:
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.25999999046325684
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.25999999046325684
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 9
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  unique_i_d: 10
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 5
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

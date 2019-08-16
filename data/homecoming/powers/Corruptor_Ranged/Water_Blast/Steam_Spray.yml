@@ -1,0 +1,200 @@
+index: 9074
+full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+group_name: Corruptor_Ranged
+set_name: Water_Blast
+name: Steam_Spray
+display: Steam Spray
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.2000000476837158
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 18.511999130249023
+cast_time: 2.5299999713897705
+recharge_time: 20
+effect_area: 3
+radius: 40
+arc: 50
+max_targets: 10
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), High DMG(Fire), Foe -Defense, Minor DoT(Fire), Self +Tidal Power
+description_long: "You spray scalding hot steam in a cone in front of you badly burning affected targets. Steam Spray causes Moderate Fire damage, Minor Fire damage over time and reduces the target's Defense slightly. Steam Spray grants 1 stack of Tidal Power. Damage: High, Recharge: Long"
+set_types:
+- 3
+- 21
+- 30
+- 36
+- 44
+level: 26
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 2
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.83499997854232788
+  magnitude: 1
+  duration: 0.60000002384185791
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 2
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.94150000810623169
+  magnitude: 1
+  duration: 0.60000002384185791
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.6699999570846558
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 3
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8830100297927856
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 0.85000002384185791
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 6
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 8
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Corruptor_Ranged.Water_Blast.Steam_Spray
+  unique_i_d: 7
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Tidal_Power
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Tidal_Power
+  effect_id: Ones
+  override: ''

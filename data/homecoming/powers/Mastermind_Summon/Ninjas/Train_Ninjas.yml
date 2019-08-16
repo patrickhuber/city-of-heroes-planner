@@ -1,0 +1,236 @@
+index: 1459
+full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+group_name: Mastermind_Summon
+set_name: Ninjas
+name: Train_Ninjas
+display: Train Ninjas
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 65536
+entities_auto_hit: 65536
+target: 65536
+target_line_of_sight: true
+range: 50
+endurance_cost: 22.75
+cast_time: 2.369999885559082
+recharge_time: 6
+effect_area: 2
+radius: 30
+max_targets: 16
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Train Ninja Henchman
+description_long: 'Train your Ninja Henchmen with more advanced techniques and weaponry.  This power permanently bestows new powers and abilities to all of your Ninja Henchman. The powers gained are unique and dependent upon the type of Ninja Henchman.  This power only works on your Ninja Henchmen and you can only Train your Ninja Henchmen once with this power. Recharge: Fast'
+set_types: []
+level: 6
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 1
+  effect_type: 12
+  summon: Mastermind_Pets.Genin_2.Snap_Shot
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Genin_2.Snap_Shot
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 2
+  effect_type: 12
+  summon: Mastermind_Pets.Genin_2.Storm_Kick
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Genin_2.Storm_Kick
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 3
+  effect_type: 12
+  summon: Mastermind_Pets.Genin_2.Train
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Genin_2.Train
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 4
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_2.Disembowel
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Jonin_2.Disembowel
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 5
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_2.Placate
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Jonin_2.Placate
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 6
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_2.Poison_Dart
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Jonin_2.Poison_Dart
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 7
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_2.Train
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Jonin_2.Train
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 8
+  effect_type: 12
+  summon: Mastermind_Pets.Oni_2.Fire_Sword_Hack
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Oni_2.Fire_Sword_Hack
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 9
+  effect_type: 12
+  summon: Mastermind_Pets.Oni_2.Ring_of_Fire
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Oni_2.Ring_of_Fire
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 10
+  effect_type: 12
+  summon: Mastermind_Pets.Oni_2.Fire_Breath
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Oni_2.Fire_Breath
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 11
+  effect_type: 12
+  summon: Mastermind_Pets.Oni_2.Train
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Mastermind_Pets.Oni_2.Train
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Train_Ninjas
+  unique_i_d: 12
+  effect_type: 78
+  summon: ''
+  stacking: 1
+  to_who: 1
+  scale: 100
+  magnitude: 1
+  duration: 5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

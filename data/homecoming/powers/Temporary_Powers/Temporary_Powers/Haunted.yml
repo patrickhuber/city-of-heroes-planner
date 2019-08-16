@@ -1,0 +1,76 @@
+index: 6280
+full_name: Temporary_Powers.Temporary_Powers.Haunted
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Haunted
+display: Haunted
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+effect_area: 2
+radius: 60
+max_targets: 16
+max_boosts: ''
+number_of_charges: 1114636288
+number_allowed: 1
+boosts_allowed: []
+description_short: Haunted
+description_long: You're haunted by Shades!  All nearby Shades will be attracted to you.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Haunted
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 11
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 60
+  magnitude: 10
+  attrib_type: 1
+  aspect: 2
+  modifier_table: Ranged_Taunt
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Taunt
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Haunted
+  unique_i_d: 2
+  effect_type: 30
+  summon: ''
+  delayed_time: 60
+  base_probability: 1
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Haunted
+  effect_id: Ones
+  override: ''

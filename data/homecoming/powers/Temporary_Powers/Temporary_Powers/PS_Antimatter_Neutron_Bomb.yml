@@ -1,0 +1,79 @@
+index: 9753
+full_name: Temporary_Powers.Temporary_Powers.PS_Antimatter_Neutron_Bomb
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: PS_Antimatter_Neutron_Bomb
+display: Neutron Bomb
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1.2999999523162842
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 5
+cast_time: 1.6699999570846558
+recharge_time: 6
+effect_area: 2
+radius: 20
+max_targets: 16
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+description_short: -DEF
+description_long: Anti-Matter can utilize his power armor to fire a burst of radiation.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Antimatter_Neutron_Bomb
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 8
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.PS_Antimatter_Neutron_Bomb
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 16
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

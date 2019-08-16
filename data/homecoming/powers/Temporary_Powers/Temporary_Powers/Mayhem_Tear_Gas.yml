@@ -1,0 +1,85 @@
+index: 2844
+full_name: Temporary_Powers.Temporary_Powers.Mayhem_Tear_Gas
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Mayhem_Tear_Gas
+display: Tear Gas
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1.2000000476837158
+attack_types: 516
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 18.979999542236328
+cast_time: 1.3700000047683716
+recharge_time: 16
+effect_area: 2
+radius: 15
+max_targets: 10
+max_boosts: ''
+number_of_charges: 12
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged (Targeted AoE), Foe Hold
+description_long: A Tear Gas Grenade leaves foes in the effected area choking and helpless. You have 12 grenades.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Tear_Gas
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 8
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Tear_Gas
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

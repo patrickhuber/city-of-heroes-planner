@@ -1,0 +1,63 @@
+index: 3446
+full_name: Corruptor_Buff.Trick_Arrow.Glue_Arrow
+group_name: Corruptor_Buff
+set_name: Trick_Arrow
+name: Glue_Arrow
+display: Glue Arrow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 7.8000001907348633
+cast_time: 1.1599999666213989
+recharge_time: 60
+effect_area: 1
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged (TargetedAoE), Foe -Speed, -Recharge
+description_long: 'This arrow carries a cartridge of intensely sticky glue, which explodes on impact. The glue Slows the movement and attack rates of any foes in the area. Recharge: Very Slow'
+set_types:
+- 13
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Trick_Arrow.Glue_Arrow
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_StickyArrow
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

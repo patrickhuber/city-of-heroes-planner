@@ -1,0 +1,76 @@
+index: 6219
+full_name: Mastermind_Summon.Beast_Mastery.Summon_Dire_Wolf
+group_name: Mastermind_Summon
+set_name: Beast_Mastery
+name: Summon_Dire_Wolf
+display: Summon Dire Wolf
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 19.5
+cast_time: 4.6700000762939453
+recharge_time: 120
+effect_area: 4
+max_boosts: 6
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Fear_Boost
+- Heal_Boost
+- Res_Damage_Boost
+- Slow_Boost
+- SpeedRunning_Boost
+description_short: Summon Dire Wolf
+description_long: 'You call upon the aid of the fabled Dire Wolf. It has powerful bite and breath attacks.  Unlike wolves and lions, the Dire Wolf has some limited ranged attacks. The Dire Wolf has good defense to Melee, Ranged and AoE attacks and good resistance to Cold damage. You may only have 1 Dire Wolf under your control at any given time. If you attempt to summon another Dire Wolf the power will fail.  Dire Wolf attacks have a chance to build a charge of Pack Mentality.  Pack Mentality is a Damage buff aura that radiates from the Mastermind and can stack up to 10 times.  Recharge: Very Long'
+set_types:
+- 6
+- 8
+- 9
+- 13
+- 15
+- 19
+- 21
+- 27
+- 30
+- 40
+- 44
+level: 26
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Beast_Mastery.Summon_Dire_Wolf
+  unique_i_d: 1
+  effect_type: 38
+  summon: MastermindPets_Dire_Wolf
+  delayed_time: 2
+  base_probability: 1
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

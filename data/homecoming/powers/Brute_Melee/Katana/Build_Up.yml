@@ -1,0 +1,212 @@
+index: 5263
+full_name: Brute_Melee.Katana.Build_Up
+group_name: Brute_Melee
+set_name: Katana
+name: Build_Up
+display: Build Up
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 5.1999998092651367
+cast_time: 1.1699999570846558
+recharge_time: 90
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Buff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Self +DMG, +To Hit
+description_long: 'Greatly increases the amount of damage you deal for a few seconds, as well as slightly increasing your chance to hit. Recharge: Long'
+set_types:
+- 25
+click_buff: true
+level: 6
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 1
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Buff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_ToHit
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''
+- power_full_name: Brute_Melee.Katana.Build_Up
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 8
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Buff_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Dmg
+  override: ''

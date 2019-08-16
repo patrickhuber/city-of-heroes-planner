@@ -5,18 +5,18 @@ using System.Text;
 
 namespace CityOfHeroesPlanner.Data.Mids
 {
-    public class PowersHeaderReader 
+    public class PowerHeaderReader 
     {
         private readonly BinaryReader _reader;
 
-        public PowersHeaderReader(BinaryReader reader)
+        public PowerHeaderReader(BinaryReader reader)
         {
             _reader = reader;
         }
 
-        public  PowersHeader Read()
+        public  PowerHeader Read()
         {            
-            var powersHeader = new PowersHeader();
+            var powersHeader = new PowerHeader();
             var versionDataReader = new VersionDataReader(_reader);
             powersHeader.Prefix = _reader.ReadString();
             powersHeader.VersionData = versionDataReader.Read();

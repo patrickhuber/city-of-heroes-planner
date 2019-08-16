@@ -1,0 +1,58 @@
+index: 4469
+full_name: Temporary_Powers.Temporary_Powers.Chain_Gun
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Chain_Gun
+display: Chain Gun
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+accuracy: 1.2000000476837158
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+cast_time: 6
+recharge_time: 16
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged Lethal, High Dam, +Acc
+description_long: Sprays a massive burst of lead at a target.  Lots of damage and a bonus to hit, but slow to reload.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Chain_Gun
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 21
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.20600000023841858
+  magnitude: 1
+  duration: 5.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

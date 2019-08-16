@@ -1,0 +1,83 @@
+index: 2824
+full_name: Temporary_Powers.Temporary_Powers.Mayhem_Electromagnetic_Grenades
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Mayhem_Electromagnetic_Grenades
+display: Electromagnetic Grenades
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 18.979999542236328
+cast_time: 1.3700000047683716
+recharge_time: 16
+effect_area: 2
+radius: 15
+max_targets: 16
+max_boosts: ''
+number_of_charges: 30
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged (Targeted AoE), Minor DMG(Energy)/Special vs. Robots
+description_long: These Electromagnetic Grenades, found in a Council base, generate a massive pulse of electromagnetic energy that is especially effective against robots.  You have 30 grenades.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Electromagnetic_Grenades
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Electromagnetic_Grenades
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 8
+  to_who: 1
+  scale: 1.6399999856948853
+  magnitude: 1
+  duration: 2
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

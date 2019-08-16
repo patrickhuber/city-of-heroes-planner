@@ -1,0 +1,199 @@
+index: 10320
+full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+group_name: Sentinel_Defense
+set_name: Ninjitsu
+name: Blinding_Powder
+display: Blinding Powder
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 25
+endurance_cost: 7.8000001907348633
+cast_time: 1.0700000524520874
+recharge_time: 120
+effect_area: 3
+radius: 25
+arc: 45
+max_targets: 10
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Confuse_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Foe -To Hit, Sleep, Confuse, -Perception
+description_long: 'You throw a handful of Blinding powder in a wide arc at your foes. Most foes will be blinded, and unable to see. Some affected targets may be overcome by the powder that they may start attacking their own allies. If you attack the blinded foes, they will be alerted to your presence, but will continue to suffer a penalty to their chance to hit.  Recharge: Very Long'
+set_types:
+- 16
+- 26
+- 31
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 9
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 10
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Sleep
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Sleep
+  override: ''
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 9
+  summon: ''
+  delayed_time: 0.25
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 3
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 20
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  base_probability: 0.5
+  suppression: 4096
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 6
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.89999997615814209
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Sentinel_Defense.Ninjitsu.Blinding_Powder
+  unique_i_d: 7
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 1024
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -0.89999997615814209
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

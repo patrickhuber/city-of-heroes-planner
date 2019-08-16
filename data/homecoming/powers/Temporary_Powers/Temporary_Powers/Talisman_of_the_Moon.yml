@@ -1,0 +1,84 @@
+index: 2938
+full_name: Temporary_Powers.Temporary_Powers.Talisman_of_the_Moon
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Talisman_of_the_Moon
+display: Talisman of the Moon
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 260
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 16.379999160766602
+cast_time: 2
+recharge_time: 10
+effect_area: 3
+radius: 60
+arc: 20
+max_targets: 10
+max_boosts: ''
+life_time_in_game: 3600
+number_allowed: 1
+boosts_allowed: []
+description_short: Cone, Moderate DMG(Negative Energy), Foe -To Hit
+description_long: Issued to you by the folks at MAGI, the Talisman of the Moon can invoke the cover of night to a cone area. All targets in the cone area take damage and have a reduced chance to hit. The Talisman of the Moon will last 1 for hour.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Talisman_of_the_Moon
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  ticks: 10
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10999999940395355
+  magnitude: 1
+  duration: 2.7999999523162842
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Talisman_of_the_Moon
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 0.99800002574920654
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_DeBuff_ToHit
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''

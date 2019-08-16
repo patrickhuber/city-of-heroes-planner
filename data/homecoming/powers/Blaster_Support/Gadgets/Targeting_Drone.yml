@@ -1,0 +1,134 @@
+index: 130
+full_name: Blaster_Support.Gadgets.Targeting_Drone
+group_name: Blaster_Support
+set_name: Gadgets
+name: Targeting_Drone
+display: Targeting Drone
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.15600000321865082
+cast_time: 1.1699999570846558
+recharge_time: 10
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Buff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: Self +To Hit, +Perception, Res(DeBuff To Hit)'
+description_long: 'When this device is activated, the small Targeting Drone hovers around your head and emits targeting laser sights. The lasers can dramatically improve your chance to hit and increase your perception, allowing you to better see stealthy foes. Targeting Drone also grants you resistance to powers that debuff your chance to hit. While in use, any sniper rifle shots you make will do additional damage. This is a toggle power and must be activated and deactivated manually. Like all toggle powers, the Targeting Drone costs endurance while active. Recharge: Slow'
+set_types:
+- 25
+level: 10
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Gadgets.Targeting_Drone
+  unique_i_d: 1
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.8500000238418579
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_ToHit
+  override: ''
+- power_full_name: Blaster_Support.Gadgets.Targeting_Drone
+  unique_i_d: 2
+  effect_type: 28
+  effect_modifiers: 40
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 3
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Blaster_Support.Gadgets.Targeting_Drone
+  unique_i_d: 3
+  effect_type: 28
+  effect_modifiers: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Gadgets.Targeting_Drone
+  unique_i_d: 4
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Gadgets.Targeting_Drone
+  unique_i_d: 5
+  effect_type: 34
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 2
+  scale: 1
+  magnitude: 40
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

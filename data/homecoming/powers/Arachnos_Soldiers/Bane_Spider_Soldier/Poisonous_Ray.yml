@@ -1,0 +1,90 @@
+index: 13
+full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Poisonous_Ray
+group_name: Arachnos_Soldiers
+set_name: Bane_Spider_Soldier
+name: Poisonous_Ray
+display: Poisonous Ray
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 2
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 9.3599996566772461
+cast_time: 2
+recharge_time: 9
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged,  Moderate DoT(Toxic), -DEF
+description_long: "You fire a Poisonous Ray from your mace causing damage over time as reducing the target's defense.  Damage: Moderate Recharge: Moderate"
+set_types:
+- 2
+- 21
+- 30
+- 32
+- 44
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Poisonous_Ray
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.40000000596046448
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Poisonous_Ray
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

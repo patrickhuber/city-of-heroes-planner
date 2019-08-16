@@ -1,0 +1,68 @@
+index: 1148
+full_name: Mastermind_Buff.Traps.Acid_Mortar
+group_name: Mastermind_Buff
+set_name: Traps
+name: Acid_Mortar
+display: Acid Mortar
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 16.25
+cast_time: 2.7699999809265137
+recharge_time: 90
+effect_area: 1
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Place Trap: Ranged (AoE), Minor DoT(Toxic), Foe -Res(All), -DEF'
+description_long: "You can place a small Mortar on the ground. If an enemy passes nearby, the Mortar will fire an Acid grenade at the target.  The grenade will explodes in a small shower of acid on impact. This acid eats through armor, causing minor damage over time. It reduces the target's Defense as well as their Damage Resistance.  The mortar will last up to 60 seconds and will fire up to 10 grenades. It can be destroyed by your foes. Damage: Minor(DoT), Recharge: Slow"
+set_types:
+- 3
+- 21
+- 30
+- 44
+level: 10
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Buff.Traps.Acid_Mortar
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Traps_Acid_Mortar
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

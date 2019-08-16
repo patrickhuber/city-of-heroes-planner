@@ -1,0 +1,50 @@
+index: 1724
+full_name: Pets.Stone.Stone_Mallet
+group_name: Pets
+set_name: Stone
+name: Stone_Mallet
+display: Stone Mallet
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pets.Stone.Stone_Fist
+    - Pets.Stone.Hurl_Boulder
+  - - Pets.Stone.Stone_Fist
+    - Pets.Stone.Resistance
+  - - Pets.Stone.Stone_Fist
+    - Pets.Stone.Seismic_Smash
+  - - Pets.Stone.Hurl_Boulder
+    - Pets.Stone.Resistance
+  - - Pets.Stone.Hurl_Boulder
+    - Pets.Stone.Seismic_Smash
+  - - Pets.Stone.Resistance
+    - Pets.Stone.Seismic_Smash
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 5
+cast_time: 2.9040000438690186
+recharge_time: 8
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Knockback_Boost
+description_short: Melee Smash, Knockback
+description_long: Animated Stone summons a Stone Mallet from the very Earth. Stone Mallet deals moderate damage and can knock foes down.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects: []

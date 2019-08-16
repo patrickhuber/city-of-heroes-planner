@@ -45,7 +45,22 @@ namespace CityOfHeroesPlanner.MidsExporter
                         if (archetype.Playable)
                             Console.WriteLine($"Name: {archetype.DisplayName}");
                     };
-
+                    databaseReader.OnPowerSetHeaderRead += (header) => 
+                    {
+                        Console.WriteLine($"PowerSets (Count: {header.Count})");
+                    };
+                    databaseReader.OnPowerSetRead += (powerSet) => 
+                    {
+                        Console.WriteLine($"Name: {powerSet.FullName}");
+                    };
+                    databaseReader.OnPowersHeaderRead += (header) =>
+                    {
+                        Console.WriteLine($"Powers (Count: {header.Count}");
+                    };
+                    databaseReader.OnPowerRead += (power) =>
+                    {
+                        Console.WriteLine($"Name: {power.FullName}");
+                    };
                     switch (options.Format)
                     {
                         case ExportFormat.Yaml:                            
@@ -145,15 +160,15 @@ namespace CityOfHeroesPlanner.MidsExporter
                 || string.IsNullOrWhiteSpace(power.Name))
                     return;
 
-                var groupsFolder = Path.Combine(powersFolder, power.GroupName);
-                if (!Directory.Exists(groupsFolder))
-                    Directory.CreateDirectory(groupsFolder);
+                var powerGroupsFolder = Path.Combine(powersFolder, power.GroupName);
+                if (!Directory.Exists(powerGroupsFolder))
+                    Directory.CreateDirectory(powerGroupsFolder);
 
-                var powerSetFolder = Path.Combine(groupsFolder, power.SetName);
-                if (!Directory.Exists(powersetFolder))
-                    Directory.CreateDirectory(powersetFolder);
+                var powerPowerSetFolder = Path.Combine(powerGroupsFolder, power.SetName);
+                if (!Directory.Exists(powerPowerSetFolder))
+                    Directory.CreateDirectory(powerPowerSetFolder);
 
-                var powerFile = Path.Combine(powersetFolder, power.Name) + ".yml";
+                var powerFile = Path.Combine(powerPowerSetFolder, power.Name) + ".yml";
                 if (File.Exists(powerFile))
                     File.Delete(powerFile);
 

@@ -1,0 +1,59 @@
+index: 2884
+full_name: Temporary_Powers.Temporary_Powers.Raid_Deploy_Pylon
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Raid_Deploy_Pylon
+display: Raid Deploy Pylon
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_required: 65536
+modes_disallowed: 514
+accuracy: 1
+group_memberships:
+- Hide_Group
+- Stealth_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+interrupt_time: 20
+cast_time: 20
+recharge_time: 30
+effect_area: 1
+max_boosts: ''
+cast_flags: 1
+number_of_charges: 2
+number_allowed: 1
+boosts_allowed: []
+description_short: Create Disruptor Pylon
+description_long: 'These devices create an instability in the inter-dimensional field. When several Pylons are operating at once you can redirect an Item of Power to your base.  You can build two of them, but there can only ever be one Pylon in a room at a time. Activating this power turns off all Stealth powers.  Recharge: Medium'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Raid_Deploy_Pylon
+  unique_i_d: 1
+  effect_type: 38
+  summon: Objects_Disruptor_Pylon_Nuke
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 1.25
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

@@ -1,0 +1,36 @@
+index: 2306
+full_name: Set_Bonus.Set_Bonus.Induced_Coma
+group_name: Set_Bonus
+set_name: Set_Bonus
+name: Induced_Coma
+display: 'Induced Coma: Chance for Recharge Slow'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 20
+effect_area: 1
+max_boosts: ''
+life_time: 20
+number_allowed: 5
+boosts_allowed: []
+ignore_strength: true
+description_short: Slow
+description_long: Your attack rate has been reduced.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

@@ -1,0 +1,141 @@
+index: 8712
+full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Summer_Event_Stealth
+display: Hacker's Stealth
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+group_memberships:
+- Hide_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 0.73000001907348633
+recharge_time: 30
+effect_area: 1
+max_boosts: 0
+life_time: 1800
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Toggle, Stealth (Self), +DEF(Self, All)
+description_long: As the Hacker, you are able to become practically invisible for a few seconds. Use this power sparingly, however, as you do not want the invisibility to fall off at an inopportune moment!
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+  unique_i_d: 1
+  effect_type: 36
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 150
+  magnitude: 1
+  duration: 12
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+  unique_i_d: 2
+  effect_type: 52
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 12
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+  unique_i_d: 3
+  effect_type: 37
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 500
+  magnitude: 1
+  duration: 12
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+  unique_i_d: 4
+  effect_type: 52
+  summon: ''
+  delayed_time: 12
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 12
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+  unique_i_d: 5
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.75
+  magnitude: 1
+  duration: 24
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Summer_Event_Stealth
+  unique_i_d: 6
+  effect_type: 41
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.15000000596046448
+  magnitude: 1
+  duration: 12
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

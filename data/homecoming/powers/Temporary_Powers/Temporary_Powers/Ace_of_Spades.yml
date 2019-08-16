@@ -1,0 +1,78 @@
+index: 3405
+full_name: Temporary_Powers.Temporary_Powers.Ace_of_Spades
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Ace_of_Spades
+display: Ace of Spades
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+power_type: 2
+accuracy: 1
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 2.5999999046325684
+cast_time: 1.6699999570846558
+recharge_time: 8
+activate_period: 2
+effect_area: 1
+max_boosts: ''
+usage_time: 900
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged, Foe -DEF, Self DoT
+description_long: You kept the Ace of Spades from the Dead Man's Deck as a memento. Its curse can severely reduce a target's Defense, at the cost of the owner's health. As the target's Defense is lowered, you will continue to lose Hit Points until you deactivate the card. The Ace of Spades can remain active for about 15 minutes before it is exhausted of its negative energy.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Ace_of_Spades
+  unique_i_d: 1
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Ace_of_Spades
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

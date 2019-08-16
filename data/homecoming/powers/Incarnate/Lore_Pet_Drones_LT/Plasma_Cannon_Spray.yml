@@ -1,0 +1,81 @@
+index: 5503
+full_name: Incarnate.Lore_Pet_Drones_LT.Plasma_Cannon_Spray
+group_name: Incarnate
+set_name: Lore_Pet_Drones_LT
+name: Plasma_Cannon_Spray
+display: Plasma Cannon Spray
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+cast_time: 3.5
+recharge_time: 8
+effect_area: 3
+radius: 60
+arc: 30
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Ranged Cone, Moderate DMG(Energy), Foe -Regen
+description_long: The Robotic Drones are equipped with plasma turrets capable of dealing energy damage.  Burns from these blasts reduce a target's regeneration rate for a short time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Lore_Pet_Drones_LT.Plasma_Cannon_Spray
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.0700000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Drones_LT.Plasma_Cannon_Spray
+  unique_i_d: 2
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -0.5
+  magnitude: 1
+  duration: 5
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

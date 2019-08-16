@@ -1,0 +1,60 @@
+index: 7490
+full_name: Boosts.Crafted_Force_Feedback_F.Crafted_Force_Feedback_F
+group_name: Boosts
+set_name: Crafted_Force_Feedback_F
+name: Crafted_Force_Feedback_F
+display: 'Force Feedback: Chance for +Recharge'
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Knockback_Boost
+- Magic_Boost
+- Mutation_Boost
+- Natural_Boost
+- Science_Boost
+- Technology_Boost
+description_short: +Recharge
+description_long: Gives a minor chance to boost the recharge time of all of your powers by 100% for 5 seconds.  This effect will trigger roughly 2 times per minute.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Boosts.Crafted_Force_Feedback_F.Crafted_Force_Feedback_F
+  unique_i_d: 1
+  effect_type: 12
+  summon: Set_Bonus.Set_Bonus.Force_Feedback
+  stacking: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 5
+  aspect: 2
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Set_Bonus.Set_Bonus.Force_Feedback
+  effect_id: Boost
+  override: ''
+  procs_per_minute: 2

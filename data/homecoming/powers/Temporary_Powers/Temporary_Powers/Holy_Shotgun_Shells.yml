@@ -1,0 +1,101 @@
+index: 2789
+full_name: Temporary_Powers.Temporary_Powers.Holy_Shotgun_Shells
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Holy_Shotgun_Shells
+display: Holy Shotgun Shells
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1.0499999523162842
+attack_types: 20
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 12.739999771118164
+cast_time: 1.8700000047683716
+recharge_time: 8
+effect_area: 3
+radius: 40
+arc: 30
+max_targets: 10
+max_boosts: ''
+number_of_charges: 75
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged (Cone), Moderate DMG(Lethal)/Special vs. Pantheon, Foe Knockback
+description_long: Tobias Hansen gave you these holy shotgun shells to aid you in your efforts against the Banished Pantheon. These blessed shotgun shells do extra damage to Undead villains.  Use them wisely, for you have only 75 shells.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Holy_Shotgun_Shells
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.9100000262260437
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Holy_Shotgun_Shells
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.5
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Holy_Shotgun_Shells
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

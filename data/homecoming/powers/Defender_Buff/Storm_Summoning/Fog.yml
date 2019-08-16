@@ -1,0 +1,73 @@
+index: 653
+full_name: Defender_Buff.Storm_Summoning.Fog
+group_name: Defender_Buff
+set_name: Storm_Summoning
+name: Fog
+display: Freezing Rain
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 2
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 18.200000762939453
+cast_time: 2.0299999713897705
+recharge_time: 60
+effect_area: 4
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Slow_Boost
+description_short: Ranged (Location AoE), Minor DoT(Cold), Foe -Speed, -Recharge, -DEF -Res
+description_long: 'Summons Freezing Rain at a targeted location. Freezing Rain deals minimal Cold damage to anything that passes through the storm. It also Slows the affected foes and severely reduces their Defense and resistance to damage. Many foes may even slip and fall trying to escape the storm. Damage: Minor(DoT), Recharge: Long'
+set_types:
+- 3
+- 13
+- 21
+- 30
+- 37
+- 44
+level: 8
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+skip_max: true
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Defender_Buff.Storm_Summoning.Fog
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_FreezingRain
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 15
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

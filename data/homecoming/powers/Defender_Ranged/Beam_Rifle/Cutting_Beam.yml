@@ -1,0 +1,165 @@
+index: 5343
+full_name: Defender_Ranged.Beam_Rifle.Cutting_Beam
+group_name: Defender_Ranged
+set_name: Beam_Rifle
+name: Cutting_Beam
+display: Cutting Beam
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 50
+endurance_cost: 10.192000389099121
+cast_time: 1.8999999761581421
+recharge_time: 10
+effect_area: 3
+radius: 50
+arc: 30
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Moderate DMG(Energy), Foe -Def(All), Special
+description_long: "You fire a constant stream of energy from your weapon and sweep it in a broad arc blasting all foes in a wide cone in front of you. Cutting beam deals Moderate Energy damage and reduces the targets' Defense. This power will cause Minor Energy damage over time if the target is suffering from the Disintegrating effect. Damage: Moderate, Recharge: Long"
+set_types:
+- 3
+- 21
+- 30
+- 37
+- 44
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Defender_Ranged.Beam_Rifle.Cutting_Beam
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.91900002956390381
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Defender_Ranged.Beam_Rifle.Cutting_Beam
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.3567700386047363
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Defender_Ranged.Beam_Rifle.Cutting_Beam
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 16
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10100000351667404
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Defender_Ranged.Beam_Rifle.Cutting_Beam
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  delayed_time: 1
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 16
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.14924000203609467
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Defender_Ranged.Beam_Rifle.Cutting_Beam
+  unique_i_d: 5
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

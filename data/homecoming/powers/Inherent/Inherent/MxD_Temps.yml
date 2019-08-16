@@ -1,0 +1,44 @@
+index: 3259
+full_name: Inherent.Inherent.MxD_Temps
+group_name: Inherent
+set_name: Inherent
+name: MxD_Temps
+display: Temp Powers
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 2
+group_memberships: []
+target_line_of_sight: true
+cast_time: 1.715999960899353
+max_boosts: ''
+boosts_allowed: []
+description_short: Ctrl+Shift+Click to Select Powers
+description_long: ''
+set_types: []
+level: 1
+variable_name: ''
+sub_powers:
+- Temporary_Powers.Day_Job_Powers.Combat_Shield
+- Temporary_Powers.Temporary_Powers.Arachnos_Power_Shield
+- Temporary_Powers.Temporary_Powers.Cryonite_Armor
+- Temporary_Powers.Temporary_Powers.GRHeroAlignmentPower
+- Temporary_Powers.Temporary_Powers.GRRogueAlignmentPower
+- Temporary_Powers.Temporary_Powers.GRVigilanteAlignmentPower
+- Temporary_Powers.Temporary_Powers.GRVillainAlignmentPower
+- Temporary_Powers.Temporary_Powers.Mayhem_Flight_Pack
+- Temporary_Powers.Temporary_Powers.Mayhem_Increase_Endurance
+- Temporary_Powers.Temporary_Powers.Mayhem_Increase_Health
+- Temporary_Powers.Temporary_Powers.Mayhem_Increase_Movement_Speed
+- Temporary_Powers.Temporary_Powers.Mayhem_Increase_Regeneration
+- Temporary_Powers.Temporary_Powers.Mayhem_Low-G_Pack
+- Temporary_Powers.Temporary_Powers.Mayhem_Store_Kinetic_Shield
+- Temporary_Powers.Temporary_Powers.Warburg_Biological
+- Temporary_Powers.Temporary_Powers.Wedding_Band
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

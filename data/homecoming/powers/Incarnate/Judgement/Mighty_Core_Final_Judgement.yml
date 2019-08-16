@@ -1,0 +1,86 @@
+index: 10599
+full_name: Incarnate.Judgement.Mighty_Core_Final_Judgement
+group_name: Incarnate
+set_name: Judgement
+name: Mighty_Core_Final_Judgement
+display: Mighty Core Final Judgement
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+accuracy: 1.2999999523162842
+attack_types: 12
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 20
+cast_time: 2.9300000667572021
+recharge_time: 90
+effect_area: 2
+radius: 50
+max_targets: 24
+max_boosts: 0
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Judgement_Boost
+- Range_Boost
+ignore_strength: true
+description_short: Wide PBAoE Extreme DMG(Smashing)
+description_long: 'Wide PBAoE Extreme DMG(Smashing). Recharge: Very Long. Has a chance to do additional damage to all foes.'
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Incarnate.Judgement.Mighty_Core_Final_Judgement
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Incarnate.Judgement.Mighty_Core_Final_Judgement
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

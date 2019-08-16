@@ -1,0 +1,107 @@
+index: 2375
+full_name: Stalker_Defense.Energy_Aura.Repulse
+group_name: Stalker_Defense
+set_name: Energy_Aura
+name: Repulse
+display: Disrupt
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.77999997138977051
+cast_time: 1.6699999570846558
+recharge_time: 8
+activate_period: 4
+effect_area: 2
+radius: 8
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Stunned_Boost
+description_short: 'Toggle: PBAoE, Foe Disorient'
+description_long: 'This Toggle power creates a field that periodically sends out waves of intense energy that overload nearby enemy senses leaving them briefly stunned.  Disrupt drains a small amount of endurance for each foe it attempts to stun.  Recharge: Slow'
+set_types:
+- 11
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Stalker_Defense.Energy_Aura.Repulse
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Stun
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Stun
+  override: ''
+- power_full_name: Stalker_Defense.Energy_Aura.Repulse
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Stalker_Defense.Energy_Aura.Repulse
+  unique_i_d: 3
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

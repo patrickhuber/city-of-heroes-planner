@@ -1,0 +1,125 @@
+index: 4341
+full_name: Dominator_Control.Electric_Control.Stunning_Aura
+group_name: Dominator_Control
+set_name: Electric_Control
+name: Stunning_Aura
+display: Conductive Aura
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+cast_time: 2.0299999713897705
+recharge_time: 15
+activate_period: 2
+effect_area: 2
+radius: 20
+max_targets: 8
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Heal_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: 'Toggle: PBAoE, Foe -End, Self +Rec, +Regen'
+description_long: 'While this power is active, the air around you becomes charged with electricity, leaping out and shocking foes that get too close.  Foes will lose some endurance, while you gain Recovery and Regeneration per target hit. Recharge: Slow'
+set_types:
+- 9
+- 22
+level: 8
+variable_enabled: true
+variable_name: ''
+variable_max: 8
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Dominator_Control.Electric_Control.Stunning_Aura
+  unique_i_d: 1
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Electric_Control.Stunning_Aura
+  unique_i_d: 2
+  effect_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: -5
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_EndDrain
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: EndDrain
+  override: ''
+- power_full_name: Dominator_Control.Electric_Control.Stunning_Aura
+  unique_i_d: 3
+  effect_type: 27
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.05000000074505806
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Control.Electric_Control.Stunning_Aura
+  unique_i_d: 4
+  effect_type: 26
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.03125
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

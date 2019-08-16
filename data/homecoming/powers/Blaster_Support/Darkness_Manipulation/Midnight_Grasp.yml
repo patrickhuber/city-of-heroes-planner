@@ -1,0 +1,365 @@
+index: 5241
+full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+group_name: Blaster_Support
+set_name: Darkness_Manipulation
+name: Midnight_Grasp
+display: Midnight Grasp
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 257
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 11.960000038146973
+cast_time: 2.0699999332427979
+recharge_time: 18
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Immobilized_Boost
+- Recharge_Boost
+description_short: Melee, Superior DMG(Negative), Foe Immobilize, -To Hit
+description_long: 'Mastery over the forces of the Netherworld allows you to create dark tentacles that can Immobilize a foe and continuously drain his life force. Damage: Superior(DoT), Recharge: Slow'
+set_types:
+- 1
+- 12
+- 26
+- 31
+- 33
+- 44
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.7400000095367432
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2.658750057220459
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  delayed_time: 0.5
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 15
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Immobilize
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Immobilize
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 6
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  delayed_time: 0.5
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 3.0999999046325684
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 14
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''
+- power_full_name: Blaster_Support.Darkness_Manipulation.Midnight_Grasp
+  unique_i_d: 15
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.13699999451637268
+  magnitude: 1
+  duration: 9.5699996948242188
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Defiance
+  override: ''

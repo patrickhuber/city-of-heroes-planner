@@ -1,0 +1,78 @@
+index: 4435
+full_name: Pets.Resistance_Rifle.Single_Shot
+group_name: Pets
+set_name: Resistance_Rifle
+name: Single_Shot
+display: Single Shot
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.0499999523162842
+attack_types: 18
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 80
+endurance_cost: 6.5
+cast_time: 1.8700000047683716
+recharge_time: 6
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged, Moderate DMG(Lethal), Foe -Def
+description_long: This customized rifle fires highly accurate large caliber solid ammunition sheathed in an energy field to punch through PPD force fields.
+set_types: []
+level: 10
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+effects:
+- power_full_name: Pets.Resistance_Rifle.Single_Shot
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.3200000524520874
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Resistance_Rifle.Single_Shot
+  unique_i_d: 2
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 9
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

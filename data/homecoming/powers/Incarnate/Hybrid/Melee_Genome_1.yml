@@ -1,0 +1,133 @@
+index: 8883
+full_name: Incarnate.Hybrid.Melee_Genome_1
+group_name: Incarnate
+set_name: Hybrid
+name: Melee_Genome_1
+display: Melee Genome
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 10
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 2049
+entities_auto_hit: 2049
+target: 1
+target_line_of_sight: true
+recharge_time: 120
+activate_period: 2
+effect_area: 2
+radius: 8
+max_targets: 5
+max_boosts: 0
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+cast_through_hold: true
+ignore_strength: true
+description_short: 'Toggle: Self +Regen'
+description_long: This power grants the user a stacking Regeneration buff for each enemy within an 8 foot radius.  The effect reaches its maximum strength at 4 enemies.  This power also grants some Regeneration with no enemies in range.  Equipping this Hybrid power grants a passive boost to Regeneration at all times.
+set_types: []
+level: 1
+variable_enabled: true
+variable_name: Enemies
+variable_max: 5
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Incarnate.Hybrid.Melee_Genome_1
+  unique_i_d: 1
+  effect_type: 27
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.097869999706745148
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Melee_Genome_1
+  unique_i_d: 2
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Lockout
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Lockout
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Melee_Genome_1
+  unique_i_d: 3
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.058499999344348907
+  magnitude: 1
+  duration: 2.0999999046325684
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Melee_Genome_1
+  unique_i_d: 4
+  effect_type: 12
+  summon: Incarnate.Hybrid_Silent.Melee_Boost_Common
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Melee_Boost_Common
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Hybrid.Melee_Genome_1
+  unique_i_d: 5
+  effect_type: 30
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Incarnate.Hybrid_Silent.Melee_Boost_Common
+  effect_id: Ones
+  override: ''

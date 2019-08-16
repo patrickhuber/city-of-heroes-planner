@@ -1,0 +1,231 @@
+index: 10466
+full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+group_name: Dominator_Assault
+set_name: Radioactive_Assault
+name: Contaminated_Strike
+display: Contaminated Strike
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 137
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 6.0320000648498535
+cast_time: 0.82999998331069946
+recharge_time: 5
+effect_area: 2
+radius: 8
+max_targets: 5
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: Melee, Light DMG(Energy/Smash), Foe -Def, Special
+description_long: 'You charge your fist with harmful radioactive particles and quickly strike your foe dealing Light Energy and Smashing damage as well as reducing their defense. Affected enemies have a small chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: Light, Recharge: Very Fast'
+set_types:
+- 1
+- 21
+- 30
+- 44
+level: 2
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.28999999165534973
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.87000000476837158
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.40999999642372131
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.2400000095367432
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 5
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.3899999856948853
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 6
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  base_probability: 0.17000000178813934
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
+  effect_id: Contaminated
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Radiation_Melee_Contamination_Hit
+  effect_id: Ones
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 8
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.23000000417232513
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Contamination
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Contaminated_Strike
+  unique_i_d: 9
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.33000001311302185
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Contamination
+  override: ''

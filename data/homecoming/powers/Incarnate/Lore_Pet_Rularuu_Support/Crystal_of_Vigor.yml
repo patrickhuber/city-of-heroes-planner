@@ -1,0 +1,193 @@
+index: 5562
+full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+group_name: Incarnate
+set_name: Lore_Pet_Rularuu_Support
+name: Crystal_of_Vigor
+display: Crystal of Vigor
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 1
+target_line_of_sight: true
+cast_time: 3.1700000762939453
+recharge_time: 240
+effect_area: 2
+radius: 35
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: PBAoE, Ally +DMG
+description_long: When a Brute minion is in peril, he can release the power in his crystal to give himself and all his nearby allies a buff to their damage.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Rularuu_Support.Crystal_of_Vigor
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

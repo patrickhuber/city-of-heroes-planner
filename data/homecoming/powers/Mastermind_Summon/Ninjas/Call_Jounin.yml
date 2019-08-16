@@ -1,0 +1,96 @@
+index: 1461
+full_name: Mastermind_Summon.Ninjas.Call_Jounin
+group_name: Mastermind_Summon
+set_name: Ninjas
+name: Call_Jounin
+display: Call Jounin
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 19.5
+cast_time: 1.7000000476837158
+recharge_time: 90
+effect_area: 4
+max_boosts: ''
+cast_flags: 2
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Confuse_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Sleep_Boost
+- Slow_Boost
+- SpeedRunning_Boost
+- Stunned_Boost
+description_short: Summon Jounin
+description_long: 'You can summon one to two highly skilled Jounin Ninja (depending on your level).  Jounin Ninja are master assassins and expert swordsmen. They possess superior reflexes and jumping skill. Like all Henchmen, Jounin can be trained in even deadlier Ninjitsu techniques and weapons. You may only have 2 Jounin under your control at any given time.  If you attempt to summon more Jounin, you can only replace the ones you have lost in battle.  If you already have two, the power will fail. Recharge: Very Long'
+set_types:
+- 6
+- 11
+- 16
+- 21
+- 23
+- 26
+- 27
+- 30
+- 31
+- 40
+- 44
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Ninjas.Call_Jounin
+  unique_i_d: 1
+  effect_type: 38
+  summon: MastermindPets_Jonin
+  delayed_time: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Levelminus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus
+  override: ''
+- power_full_name: Mastermind_Summon.Ninjas.Call_Jounin
+  unique_i_d: 2
+  effect_type: 38
+  summon: MastermindPets_Jonin
+  delayed_time: 2
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_Levelminus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Levelminus
+  override: ''

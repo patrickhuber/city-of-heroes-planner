@@ -1,0 +1,86 @@
+index: 4330
+full_name: Controller_Control.Electric_Control.Gremlins
+group_name: Controller_Control
+set_name: Electric_Control
+name: Gremlins
+display: Gremlins
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 2
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 26
+cast_time: 2.0299999713897705
+recharge_time: 240
+effect_area: 4
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: 'Summon Gremlins: Melee Minor DMG(Energy)'
+description_long: 'Mastery over electricity allows you to create almost sentient elementals of lightning.  These elementals are mischievous in nature, and enjoy creating havoc and interfering with electronic equipment or magical cantrips.  They also never work alone, where there is one Gremlin, there is often another nearby. Recharge: Very Long'
+set_types:
+- 6
+- 27
+- 44
+level: 32
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Control.Electric_Control.Gremlins
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Gremlin
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_LevelMinus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: LevelMinus
+  override: ''
+- power_full_name: Controller_Control.Electric_Control.Gremlins
+  unique_i_d: 2
+  effect_type: 38
+  summon: Pets_Gremlin
+  delayed_time: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 99999
+  aspect: 4
+  modifier_table: Ranged_LevelMinus
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: LevelMinus
+  override: ''

@@ -1,0 +1,55 @@
+index: 8582
+full_name: Boosts.Technology_Cone.Technology_Cone
+group_name: Boosts
+set_name: Technology_Cone
+name: Technology_Cone
+display: Benedict Tech Telescoping Eye (Range)
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Range_Boost
+- Technology_Boost
+description_short: Enhances Range
+description_long: This cybernetic eye uses built in sniper scope to increase the range of an attack. Increases range by {Boost.Attrib.Range.Scale}%.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Boosts.Technology_Cone.Technology_Cone
+  unique_i_d: 1
+  effect_type: 9
+  effect_modifiers: 24
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10.25
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Range
+  override: ''

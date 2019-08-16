@@ -1,0 +1,64 @@
+index: 1321
+full_name: Mastermind_Pets.Thug_Arsonist.Molotov_Cocktail
+group_name: Mastermind_Pets
+set_name: Thug_Arsonist
+name: Molotov_Cocktail
+display: Molotov Cocktail
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 68
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 70
+endurance_cost: 10.399999618530273
+cast_time: 1.3700000047683716
+recharge_time: 6
+effect_area: 2
+radius: 5
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+description_short: DoT(Fire)
+description_long: The Arsonist has set you on fire with his Molotov Cocktail!
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Pets.Thug_Arsonist.Molotov_Cocktail
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 16
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  duration: 7.75
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

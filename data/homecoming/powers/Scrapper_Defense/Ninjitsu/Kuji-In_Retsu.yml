@@ -1,0 +1,284 @@
+index: 10509
+full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+group_name: Scrapper_Defense
+set_name: Ninjitsu
+name: Kuji-In_Retsu
+display: Kuji-In Retsu
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 2.5999999046325684
+cast_time: 1.8300000429153442
+recharge_time: 1000
+activate_period: 0.5
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Buff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Recovery_Boost
+- SpeedRunning_Boost
+cast_through_hold: true
+description_short: Self +DEF, +SPD, +Recovery, Res(DeBuff DEF), +Special
+description_long: 'Kuji-In Retsu is the mastery of space and time. Focusing your power on Retsu enables you to control your own time to easily defeat your foes. Mastery of this power enables you to avoid almost any attack, be it ranged, melee, or area effect. Your running speed, jumping height and Endurance Recovery are also increased. Retsu also grants you high resistance to Defense DeBuffs. When Retsu wears off, you are left drained of all Endurance and unable to recover Endurance for a while. Recharge: Very Long'
+set_types:
+- 7
+- 19
+- 22
+- 28
+click_buff: true
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 1
+  effect_type: 5
+  damage_type: 10
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 6
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 2
+  effect_type: 5
+  damage_type: 11
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 6
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 3
+  effect_type: 26
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 4
+  effect_type: 5
+  damage_type: 12
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 6
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 5
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 6
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.5
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 7
+  effect_type: 28
+  effect_modifiers: 5
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 180
+  modifier_table: Melee_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 8
+  effect_type: 26
+  summon: ''
+  delayed_time: 180
+  base_probability: 1
+  to_who: 2
+  scale: -100
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: GlobalCrash
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 9
+  effect_type: 7
+  summon: ''
+  delayed_time: 180
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: GlobalCrash
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 10
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 11
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 180
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 12
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: PresenceHealHigh
+  effect_id: Ones
+  override: ''
+- power_full_name: Scrapper_Defense.Ninjitsu.Kuji-In_Retsu
+  unique_i_d: 13
+  effect_type: 45
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: PresenceHealLow
+  effect_id: Ones
+  override: ''

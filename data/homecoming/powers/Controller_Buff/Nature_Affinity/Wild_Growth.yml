@@ -1,0 +1,234 @@
+index: 9153
+full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+group_name: Controller_Buff
+set_name: Nature_Affinity
+name: Wild_Growth
+display: Wild Growth
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 513
+entities_auto_hit: 513
+target: 1
+target_line_of_sight: true
+endurance_cost: 15.600000381469727
+cast_time: 2.1700000762939453
+recharge_time: 225
+effect_area: 2
+radius: 25
+max_targets: 255
+max_boosts: 6
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: PBAoE, Team +Res(All), +Regen, +2 Bloom
+description_long: 'You channel the power of nature into your allies allowing them to more easily shrug off damage and causing their wounds to heal more quickly.  Wild Growth increases the damage resistance and boosts the regeneration rate of all affected allies.  This power also grants 2 stacks of Bloom.  Recharge: Very Long'
+set_types:
+- 8
+- 9
+click_buff: true
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 9
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Controller_Buff.Nature_Affinity.Wild_Growth
+  unique_i_d: 10
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.Bloom
+  stacking: 1
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.Bloom
+  effect_id: Ones
+  override: ''

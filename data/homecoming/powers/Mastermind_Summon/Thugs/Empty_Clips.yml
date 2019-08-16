@@ -1,0 +1,138 @@
+index: 1478
+full_name: Mastermind_Summon.Thugs.Empty_Clips
+group_name: Mastermind_Summon
+set_name: Thugs
+name: Empty_Clips
+display: Empty Clips
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.1000000238418579
+attack_types: 20
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 40
+endurance_cost: 18.979999542236328
+cast_time: 1.8300000429153442
+recharge_time: 8
+effect_area: 3
+radius: 40
+arc: 30
+max_targets: 10
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Cone), Moderate DMG(Lethal), Knockback
+description_long: 'You empty the clips of both your pistols in a arc of suppression fire. This attack can blast multiple foes in the affected cone area, and has a small chance of knocking some foes down. Damage: Moderate, Recharge: Moderate'
+set_types:
+- 3
+- 23
+- 44
+level: 8
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Mastermind_Summon.Thugs.Empty_Clips
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.26333001255989075
+  magnitude: 1
+  duration: 0.69999998807907104
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Summon.Thugs.Empty_Clips
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Mastermind_Summon.Thugs.Empty_Clips
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.46132001280784607
+  magnitude: 1
+  duration: 0.69999998807907104
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Summon.Thugs.Empty_Clips
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.10000000149011612
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.63999998569488525
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Knockback
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''

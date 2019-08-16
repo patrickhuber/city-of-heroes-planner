@@ -1,0 +1,96 @@
+index: 2842
+full_name: Temporary_Powers.Temporary_Powers.Mayhem_Store_Kinetic_Shield
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Mayhem_Store_Kinetic_Shield
+display: Kinetic Shield
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1614338
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.16249999403953552
+cast_time: 0.73000001907348633
+recharge_time: 4
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+usage_time: 1800
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Toggle: Self +DEF(Smashing, Lethal, Energy)'
+description_long: Kinetic Shield creates a harmonic Energy Aura that can deflect physical attacks.  Your Defense to Smashing and Lethal attacks is increased as weapons and powers like bullets, blades and punches tend to deflect off the shield.  The Energy based nature of Kinetic Shield also offers some minimal Defense to Energy attacks.  You may use this power for a total of 30 minutes usage time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Store_Kinetic_Shield
+  unique_i_d: 1
+  effect_type: 5
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Store_Kinetic_Shield
+  unique_i_d: 2
+  effect_type: 5
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Store_Kinetic_Shield
+  unique_i_d: 3
+  effect_type: 5
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.25
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Buff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Buff_Def
+  override: ''

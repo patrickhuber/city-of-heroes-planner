@@ -1,0 +1,55 @@
+index: 2537
+full_name: Tanker_Defense.Willpower.Quick_Recovery
+group_name: Tanker_Defense
+set_name: Willpower
+name: Quick_Recovery
+display: Quick Recovery
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Recovery_Boost
+description_short: 'Auto: Self +Recovery'
+description_long: You recover Endurance at a faster rate than normal. This power is always on.
+set_types:
+- 22
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Tanker_Defense.Willpower.Quick_Recovery
+  unique_i_d: 1
+  effect_type: 26
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

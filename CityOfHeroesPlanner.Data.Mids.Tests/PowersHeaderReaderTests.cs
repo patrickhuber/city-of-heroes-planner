@@ -11,7 +11,7 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
         [Fact]
         public void CanReadPowersHeader()
         {
-            var powersHeader = new PowersHeader
+            var powersHeader = new PowerHeader
             {
                 Prefix = RecordHeaderGroupPrefixes.Powers,
                 VersionData = new VersionData
@@ -53,7 +53,7 @@ namespace CityOfHeroesPlanner.Data.Mids.Tests
                 }, 
                 reader=> 
                 {
-                    var powersHeaderReader = new PowersHeaderReader(reader);
+                    var powersHeaderReader = new PowerHeaderReader(reader);
                     var headerRecord = powersHeaderReader.Read();
                     Assert.Equal(powersHeader, headerRecord);
                 }).Run();

@@ -1,0 +1,313 @@
+index: 645
+full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+group_name: Defender_Buff
+set_name: Sonic_Debuff
+name: Sonic_Dispersion
+display: Sonic Dispersion
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 513
+entities_auto_hit: 513
+target: 1
+target_line_of_sight: true
+endurance_cost: 1.0399999618530273
+cast_time: 2.0299999713897705
+recharge_time: 15
+activate_period: 2
+effect_area: 2
+radius: 25
+max_targets: 255
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: 'Toggle: PBAoE, Ally +Res(All DMG except Psionic, Hold, Immobilize, Disorient)'
+description_long: 'You create a large field of sonic waves, protecting all allies inside. The Sonic Dispersion gives all allies within increased Resistance against all damage except Psionic. The Sonic Bubble also protects allies from Immobilization, Disorient, and Hold effects. Recharge: Slow'
+set_types:
+- 8
+level: 12
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 1
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 9
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: -20
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 10
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: -20
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 11
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 3
+  scale: -20
+  magnitude: 1
+  duration: 2.25
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 12
+  effect_type: 20
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 3
+  scale: 2
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 13
+  effect_type: 20
+  mezmorize_type: 10
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 3
+  scale: 2
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Sonic_Dispersion
+  unique_i_d: 14
+  effect_type: 20
+  mezmorize_type: 3
+  summon: ''
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 3
+  scale: 2
+  magnitude: 1
+  duration: 2.25
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''

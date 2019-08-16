@@ -1,0 +1,55 @@
+index: 4186
+full_name: Inherent.Inherent.Secondary_Mutation
+group_name: Inherent
+set_name: Inherent
+name: Secondary_Mutation
+display: Secondary Mutation
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Inherent.Inherent.Secondary_Mutation
+    - ''
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 0.67000001668930054
+recharge_time: 1200
+effect_area: 1
+max_boosts: 0
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Special
+description_long: You acquire a secondary mutation.  This grants a random permanent buff for up to 20 minutes. No more than one Secondary Mutation can be in place at a time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Inherent.Inherent.Secondary_Mutation
+  unique_i_d: 1
+  effect_type: 31
+  summon: ''
+  base_probability: 1
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: SecondaryMutationTable
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,110 @@
+index: 5675
+full_name: Set_Bonus.Set_Bonus.Stalkers_Guile
+group_name: Set_Bonus
+set_name: Set_Bonus
+name: Stalkers_Guile
+display: Stalker's Guile
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 9999
+effect_area: 1
+max_boosts: 0
+life_time: 10
+number_allowed: 1
+boosts_allowed: []
+ignore_strength: true
+description_short: Chance to Hide
+description_long: Stalker's Guile gives the slotted power a 20% chance of putting you in a hidden state allowing for your next attack to land a critical hit.  It is important to note that this will effect will not Placate the target.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Set_Bonus.Set_Bonus.Stalkers_Guile
+  unique_i_d: 1
+  effect_type: 36
+  summon: ''
+  base_probability: 1
+  suppression: 1344
+  buffable: true
+  to_who: 2
+  scale: 150
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Stalkers_Guile
+  unique_i_d: 2
+  effect_type: 37
+  summon: ''
+  base_probability: 1
+  suppression: 1344
+  buffable: true
+  to_who: 2
+  scale: 380
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Stalkers_Guile
+  unique_i_d: 3
+  effect_type: 18
+  summon: ''
+  base_probability: 1
+  suppression: 1344
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Set_Bonus.Set_Bonus.Stalkers_Guile
+  unique_i_d: 4
+  effect_type: 41
+  summon: ''
+  base_probability: 1
+  suppression: 1344
+  to_who: 2
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 10.25
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,55 @@
+index: 5812
+full_name: Temporary_Powers.Temporary_Powers.Holiday_Instant_Snowstorm
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Holiday_Instant_Snowstorm
+display: Instant Snowstorm
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 513
+entities_auto_hit: 513
+target: 1
+target_line_of_sight: true
+endurance_cost: 20
+recharge_time: 60
+effect_area: 2
+radius: 60
+max_targets: 255
+max_boosts: ''
+artifical_intelligence_report: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: PBAoE Ally +Snow
+description_long: This Gamester present mystically summons a light snow to follow you and your friends around. It will affect all those in a 60 ft. radius for up to 10 minutes.<br><br>This effect is purely cosmetic and can be canceled.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Holiday_Instant_Snowstorm
+  unique_i_d: 1
+  effect_type: 77
+  summon: ''
+  base_probability: 1
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 600
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,38 @@
+index: 6284
+full_name: Temporary_Powers.Temporary_Powers.Evolution
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Evolution
+display: Evolution
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 1
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 600
+effect_area: 1
+max_boosts: ''
+life_time: 10
+number_allowed: 10
+boosts_allowed: []
+cast_through_hold: true
+ignore_strength: true
+description_short: 'Auto: Self +Res(All but Psi), +Regen'
+description_long: You will gain a stack of Evolution each time you are attacked if you own Heightened Metabolism and each time you hit an enemy if you own Aggressive Reaction.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

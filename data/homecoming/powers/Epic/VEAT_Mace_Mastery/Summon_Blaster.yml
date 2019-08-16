@@ -1,0 +1,75 @@
+index: 1014
+full_name: Epic.VEAT_Mace_Mastery.Summon_Blaster
+group_name: Epic
+set_name: VEAT_Mace_Mastery
+name: Summon_Blaster
+display: Summon Blaster
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Epic.VEAT_Mace_Mastery.Mace_Blast
+    - Epic.VEAT_Mace_Mastery.Web_Envelope
+  - - Epic.VEAT_Mace_Mastery.Mace_Blast
+    - Epic.VEAT_Mace_Mastery.Disruptor_Blast
+  - - Epic.VEAT_Mace_Mastery.Mace_Blast
+    - Epic.VEAT_Mace_Mastery.Focused_Accuracy
+  - - Epic.VEAT_Mace_Mastery.Web_Envelope
+    - Epic.VEAT_Mace_Mastery.Disruptor_Blast
+  - - Epic.VEAT_Mace_Mastery.Web_Envelope
+    - Epic.VEAT_Mace_Mastery.Focused_Accuracy
+  power_i_ds_not: []
+modes_disallowed: 74
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 60
+endurance_cost: 26
+cast_time: 3.0299999713897705
+recharge_time: 900
+effect_area: 4
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Immobilized_Boost
+- Knockback_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: 'Summon Arachnobot: Ranged Moderate DMG(Energy)'
+description_long: 'Black Scorpion has granted you an Arachnobot Blaster for you to command. Arachnobot Blasters were created by Arachnos Orb Weavers to take down particularly powerful super-powered threats. Your access to this Arachnobot is very limited. You can only summon it once every 15 minutes and it will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mace Mastery Powers before selecting this power. Recharge: Extremely Long'
+set_types:
+- 6
+- 23
+- 27
+- 44
+level: 44
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Epic.VEAT_Mace_Mastery.Summon_Blaster
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_Patron_Powers_Arachnobot_Blaster
+  base_probability: 1
+  to_who: 3
+  scale: -1
+  magnitude: 1
+  duration: 240
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,71 @@
+index: 5863
+full_name: Inherent.Inherent.COMBO_LEVEL_1
+group_name: Inherent
+set_name: Inherent
+name: COMBO_LEVEL_1
+display: Combo Level 1
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Brute_Melee.Brawling.Initial_Strike
+    - ''
+  - - Brute_Melee.Brawling.Heavy_Blow
+    - ''
+  - - Scrapper_Melee.Brawling.Initial_Strike
+    - ''
+  - - Scrapper_Melee.Brawling.Heavy_Blow
+    - ''
+  - - Stalker_Melee.Brawling.Initial_Strike
+    - ''
+  - - Stalker_Melee.Brawling.Heavy_Blow
+    - ''
+  - - Tanker_Melee.Brawling.Initial_Strike
+    - ''
+  - - Brute_Melee.Staff_Fighting.Mercurial_Blow
+    - ''
+  - - Brute_Melee.Staff_Fighting.Precise_Strike
+    - ''
+  - - Scrapper_Melee.Staff_Fighting.Mercurial_Blow
+    - ''
+  - - Scrapper_Melee.Staff_Fighting.Precise_Strike
+    - ''
+  - - Stalker_Melee.Staff_Fighting.Mercurial_Blow
+    - ''
+  - - Stalker_Melee.Staff_Fighting.Precise_Strike
+    - ''
+  - - Tanker_Melee.Staff_Fighting.Mercurial_Blow
+    - ''
+  - - Blaster_Ranged.Water_Blast.Aqua_Bolt
+    - ''
+  - - Blaster_Ranged.Water_Blast.Hydro_Blast
+    - ''
+  - - Defender_Ranged.Water_Blast.Aqua_Bolt
+    - ''
+  - - Corruptor_Ranged.Water_Blast.Aqua_Bolt
+    - ''
+  - - Corruptor_Ranged.Water_Blast.Hydro_Blast
+    - ''
+  power_i_ds_not: []
+group_memberships:
+- Combo_Group
+target_line_of_sight: true
+max_boosts: ''
+boosts_allowed: []
+description_short: ''
+description_long: ''
+set_types: []
+click_buff: true
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+display_location: 6
+mutually_exclusive_auto: true
+never_auto_update: true
+never_auto_update_requirements: true
+include_flag: true
+forced_class: ''
+sort_override: true
+effects: []

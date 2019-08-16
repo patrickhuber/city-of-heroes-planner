@@ -1,0 +1,43 @@
+index: 10550
+full_name: Tanker_Defense.Regeneration.Moment_of_Glory
+group_name: Tanker_Defense
+set_name: Regeneration
+name: Moment_of_Glory
+display: Moment of Glory
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 2.5999999046325684
+cast_time: 2.5699999332427979
+recharge_time: 240
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Buff_Defense_Boost
+- EnduranceDiscount_Boost
+- Recharge_Boost
+- Recovery_Boost
+- Res_Damage_Boost
+ignore_strength: true
+description_short: Self +Res(All DMG but Psionics, Knock Back, Repel, Stun, Hold, Sleep, Immobilize), +DEF(All DMG but Psionics), +Recovery
+description_long: 'When you activate this power, you gain Resistance and Defense to all damage types except Psionics, recover Endurance more quickly, and are highly resistant to Knock Back, Sleep, Disorient, Immobilization, and Hold effects. Recharge: Very Long'
+set_types: []
+click_buff: true
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

@@ -1,0 +1,210 @@
+index: 2973
+full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Warburg_Biological
+display: Biological Mutagens
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 513
+entities_auto_hit: 513
+target: 1
+target_line_of_sight: true
+endurance_cost: 19.5
+cast_time: 2.0299999713897705
+recharge_time: 5
+effect_area: 2
+radius: 60
+max_targets: 20
+max_boosts: ''
+number_of_charges: 1
+number_allowed: 1
+boosts_allowed: []
+description_short: PBAoE, Ally +Regeneration, +DMG
+description_long: This strike widely disperses beneficial mutagens. Friendly characters in the area of effect gain increase regeneration and damage abilities.  You may only use this ability once.
+set_types: []
+click_buff: true
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 1
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 2
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 3
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 5
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 1.5
+  magnitude: 1
+  duration: 300
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Warburg_Biological
+  unique_i_d: 9
+  effect_type: 27
+  summon: ''
+  delayed_time: 0.5
+  base_probability: 1
+  to_who: 3
+  scale: 4
+  magnitude: 1
+  duration: 300
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

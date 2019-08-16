@@ -1,0 +1,196 @@
+index: 1808
+full_name: Pool.Invisibility.Phase_Shift
+group_name: Pool
+set_name: Invisibility
+name: Phase_Shift
+display: Phase Shift
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds:
+  - - Pool.Invisibility.Stealth
+    - Pool.Invisibility.Grant_Invisibility
+  - - Pool.Invisibility.Stealth
+    - Pool.Invisibility.Invisibility
+  - - Pool.Invisibility.Grant_Invisibility
+    - Pool.Invisibility.Invisibility
+  power_i_ds_not: []
+modes_disallowed: 1090
+power_type: 2
+accuracy: 1
+group_memberships:
+- Rest_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.32499998807907104
+cast_time: 0.5
+recharge_time: 180
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: Self Intangible'
+description_long: You can Phase Shift to become out of sync with normal space. Although you do not become completely Invisible, you are translucent and hard to see. You are intangible, and cannot affect or be affected by those in normal space. Although this power is a toggle, you cannot remain Phase Shifted for more than 30 seconds, even if you still have Endurance. Cannot be used with Rest. You must be at least level 14 and have two other Concealment Powers before selecting Phase Shift.
+set_types: []
+level: 14
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 1
+  effect_type: 41
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 0.30000001192092896
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 2
+  effect_type: 36
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 20
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 3
+  effect_type: 37
+  summon: ''
+  base_probability: 1
+  suppression: 448
+  buffable: true
+  to_who: 2
+  scale: 222
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 4
+  effect_type: 62
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 0.75
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 5
+  effect_type: 62
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 0.75
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 19
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  buffable: true
+  to_who: 2
+  scale: 0.75
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 7
+  effect_type: 39
+  summon: ''
+  base_probability: 1
+  suppression: 256
+  to_who: 2
+  scale: -1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Invisibility.Phase_Shift
+  unique_i_d: 8
+  effect_type: 12
+  summon: Temporary_Powers.Temporary_Powers.NoPhase
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Temporary_Powers.Temporary_Powers.NoPhase
+  effect_id: Ones
+  override: ''

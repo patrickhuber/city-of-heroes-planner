@@ -1,0 +1,344 @@
+index: 647
+full_name: Defender_Buff.Sonic_Debuff.Clarity
+group_name: Defender_Buff
+set_name: Sonic_Debuff
+name: Clarity
+display: Clarity
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 512
+entities_auto_hit: 512
+target: 512
+target_line_of_sight: true
+range: 70
+endurance_cost: 5.1999998092651367
+cast_time: 1.5
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ally +Res(Disorient, Hold, Sleep, Immobilize, Terrorize, Confusion), +Perception
+description_long: "By bouncing a carefully pitched sound wave off an ally's ear drum, you can free them from any Disorient, Hold, Sleep, Confusion, Fear, or Immobilize effects, and leave them resistant to such effects for a good while. Protection will improve with multiple applications and as you advance in level. Clarity also provides your ally enhanced perception. Recharge: Fast"
+set_types: []
+level: 26
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 2
+  effect_type: 20
+  mezmorize_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 6
+  effect_type: 19
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 7
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: -30
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 8
+  effect_type: 20
+  mezmorize_type: 10
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 9
+  effect_type: 20
+  mezmorize_type: 9
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 8
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 10
+  effect_type: 20
+  mezmorize_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 11
+  effect_type: 20
+  mezmorize_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 12
+  effect_type: 20
+  mezmorize_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 13
+  effect_type: 20
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 3
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 14
+  effect_type: 28
+  effect_modifiers: 23
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 90
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Defender_Buff.Sonic_Debuff.Clarity
+  unique_i_d: 15
+  effect_type: 23
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 2.5
+  magnitude: 1
+  duration: 90
+  aspect: 4
+  modifier_table: Ranged_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''

@@ -1,0 +1,120 @@
+index: 2806
+full_name: Temporary_Powers.Temporary_Powers.Iron_Blade
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Iron_Blade
+display: Iron Blade
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1.0499999523162842
+attack_types: 17
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 6.5
+cast_time: 1.3700000047683716
+recharge_time: 4
+effect_area: 1
+max_boosts: 0
+life_time_in_game: 259200
+number_allowed: 1
+boosts_allowed: []
+description_short: Melee, Moderate DMG(Lethal), Foe -DEF
+description_long: According to Buck Salinger, it's a well known fact that Fey creatures such as the Fir Bolg, Red Caps and Tuatha fear iron more than any other substance. This iron blade you recovered may be of some use against them. You may carry it for 3 days before returning it to the village.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Iron_Blade
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Iron_Blade
+  unique_i_d: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Iron_Blade
+  unique_i_d: 3
+  effect_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 0.99800002574920654
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 6
+  aspect: 4
+  modifier_table: Melee_Debuff_Def
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Iron_Blade
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 0.05000000074505806
+  buffable: true
+  resistible: true
+  special_case: 5
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_TempDamage
+  u_i_d_class_name: Class_Scrapper
+  i_d_class_name: 3
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

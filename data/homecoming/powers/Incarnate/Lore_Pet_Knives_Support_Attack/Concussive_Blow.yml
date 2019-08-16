@@ -1,0 +1,315 @@
+index: 9498
+full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+group_name: Incarnate
+set_name: Lore_Pet_Knives_Support_Attack
+name: Concussive_Blow
+display: Concussive Blow
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+cast_time: 2.0999999046325684
+recharge_time: 20
+effect_area: 2
+radius: 20
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Incarnate_Lore_Boost
+description_short: Melee, Moderate DMG(Smashing), Minor DoT(Lethal), Chance for Stun(Foe), -ToHit(Foe), -Rech(Foe), -DMG(Foe,All)
+description_long: You strike the ground with tremendous force, causing a shockwave of energy that blasts foes around you. All targets nearby suffer smashing damage and minor lethal damage, and may also be knocked back. Additionally, some targets will suffer a minor concussion from the attack, reducing their chance to hit, attack speed and damage.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 13
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.64999997615814209
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 10
+  summon: ''
+  delayed_time: 2
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 4
+  magnitude: 4
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 4
+  effect_type: 40
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  buffable: true
+  to_who: 1
+  scale: 0.5
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_Debuff_ToHit
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_ToHit
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 5
+  effect_type: 9
+  effect_modifiers: 25
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 0.15000000596046448
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Slow
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Slow
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 6
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 7
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 8
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  delayed_time: 2
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 10
+  aspect: 3
+  modifier_table: Melee_Debuff_Dam
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''

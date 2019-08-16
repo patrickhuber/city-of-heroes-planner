@@ -1,0 +1,147 @@
+index: 9972
+full_name: Corruptor_Buff.Force_Field.Force_Bubble
+group_name: Corruptor_Buff
+set_name: Force_Field
+name: Force_Bubble
+display: Force Bubble
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 2048
+entities_auto_hit: 2048
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.17159999907016754
+cast_time: 1.0700000524520874
+recharge_time: 15
+activate_period: 0.25
+effect_area: 2
+radius: 50
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Recharge_Boost
+description_short: 'Toggle: PBAoE Foe Repel, Knockdown'
+description_long: 'Creates a large bubble which protects all allies inside. While active, this power keeps all foes at bay, protecting all allies inside from melee or short ranged attacks. More powerful foes may be able to penetrate the Force Bubble, but may slip and get knocked down and forced back if they try. Recharge: Slow'
+set_types: []
+level: 38
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Buff.Force_Field.Force_Bubble
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 10
+  magnitude: 1
+  duration: 0.25
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Force_Bubble
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 10
+  magnitude: 1
+  duration: 0.25
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Force_Bubble
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.0099999997764825821
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Force_Bubble
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 0.0099999997764825821
+  suppression: 32
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 0.10000000149011612
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Corruptor_Buff.Force_Field.Force_Bubble
+  unique_i_d: 5
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  aspect: 4
+  modifier_table: Ranged_Ones
+  requires_to_hit_check: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

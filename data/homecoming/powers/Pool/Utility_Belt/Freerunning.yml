@@ -1,0 +1,284 @@
+index: 10367
+full_name: Pool.Utility_Belt.Freerunning
+group_name: Pool
+set_name: Utility_Belt
+name: Freerunning
+display: Freerunning
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 1615938
+power_type: 2
+accuracy: 1
+group_memberships:
+- Leap_Group
+- LeapRoot_Group
+- Speed_Group
+- SpeedRoot_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.18199999630451202
+recharge_time: 4
+activate_period: 0.5
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Jump_Boost
+- Recharge_Boost
+- SpeedRunning_Boost
+description_short: 'Toggle: Self, +Jump, +Run Speed, +Special'
+description_long: "You are skilled at using your environment to your advantage to quickly traverse any obstacles that you come across. Freerunning grants you a considerable boost to both your jump height and run speed. While this power is active, you will also have access to the Athletics power which when clicked will boost this power's effects for a short time. Recharge: Moderate"
+set_types:
+- 18
+- 19
+- 28
+level: 4
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 1
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 0.25
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Leap
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Leap
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 2
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 0.55000001192092896
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 3
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 4
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 5
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 1
+  to_who: 2
+  scale: 0.40000000596046448
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 6
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.25
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Leap
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Leap
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 7
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.55000001192092896
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 8
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 9
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 10
+  effect_type: 32
+  summon: ''
+  base_probability: 1
+  suppression: 512
+  buffable: true
+  player_versus_mode: 2
+  to_who: 2
+  scale: 0.40000000596046448
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedRunning
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedRunning
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 11
+  effect_type: 76
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Pool.Utility_Belt.Freerunning
+  unique_i_d: 12
+  effect_type: 34
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 129
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

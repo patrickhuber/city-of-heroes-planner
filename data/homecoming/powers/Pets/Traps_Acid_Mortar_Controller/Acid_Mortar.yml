@@ -1,0 +1,226 @@
+index: 10638
+full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+group_name: Pets
+set_name: Traps_Acid_Mortar_Controller
+name: Acid_Mortar
+display: Acid Mortar
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 4
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 100
+recharge_time: 5.5
+effect_area: 2
+radius: 8
+max_targets: 16
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+description_short: -Res(All), -DEF, Minor DoT(Toxic)
+description_long: Your Damage Resistances and Defense have been weakened by the Acid Mortar.
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements:
+- 14
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  ticks: 21
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.00839999970048666
+  magnitude: 1
+  duration: 20
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 2
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 3
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 4
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 5
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 6
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 7
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 8
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 9
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: -2
+  magnitude: 1
+  duration: 20
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Traps_Acid_Mortar_Controller.Acid_Mortar
+  unique_i_d: 10
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 20
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''

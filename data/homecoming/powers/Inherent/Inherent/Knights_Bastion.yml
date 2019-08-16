@@ -1,0 +1,36 @@
+index: 9546
+full_name: Inherent.Inherent.Knights_Bastion
+group_name: Inherent
+set_name: Inherent
+name: Knights_Bastion
+display: Knight's Bastion
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 3.25
+cast_time: 1.1699999570846558
+recharge_time: 600
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed: []
+description_short: Self, +Absorption
+description_long: "You're able to call upon the power of the Frost Knight once every ten minutes to encase yourself in an icy shield that will absorb a moderate amount of damage before breaking.  Recharge: Very Long"
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects: []

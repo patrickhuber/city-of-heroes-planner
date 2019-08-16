@@ -1,0 +1,199 @@
+index: 9834
+full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+group_name: Villain_Pets
+set_name: Stalker_EpicSoulMastery_Snipe
+name: Moonbeam_Normal
+display: Moonbeam
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+accuracy: 1.2000000476837158
+attack_types: 258
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 150
+endurance_cost: 17.940000534057617
+interrupt_time: 6
+cast_time: 7.3299999237060547
+recharge_time: 24
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_ToHit_Boost
+- EnduranceDiscount_Boost
+- Interrupt_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Sniper, Superior DMG(Negative), Target -ACC
+description_long: "An extremely long range and accurate beam of Negative Energy that deals tremendous damage and reduces the target's Accuracy. This is a sniper attack, and like most sniper attacks, is best fired from a distance as it can be interrupted. Damage: Extreme, Recharge: Slow"
+set_types:
+- 2
+- 5
+- 26
+- 31
+- 44
+level: 35
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.2999999523162842
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.75
+  magnitude: 1
+  duration: 10
+  aspect: 4
+  modifier_table: Melee_DeBuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: DeBuff_ToHit
+  override: ''
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 3
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8591699600219727
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 4
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 9
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8591699600219727
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 5
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 0.20000000298023224
+  buffable: true
+  resistible: true
+  special_case: 4
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.8591699600219727
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.2999999523162842
+  magnitude: 1
+  attrib_type: 2
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Villain_Pets.Stalker_EpicSoulMastery_Snipe.Moonbeam_Normal
+  unique_i_d: 7
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 9
+  player_versus_mode: 1
+  to_who: 1
+  scale: 2.2999999523162842
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''

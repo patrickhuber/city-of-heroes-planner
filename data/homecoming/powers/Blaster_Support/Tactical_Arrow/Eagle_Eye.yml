@@ -1,0 +1,170 @@
+index: 9889
+full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+group_name: Blaster_Support
+set_name: Tactical_Arrow
+name: Eagle_Eye
+display: Eagle Eye
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+power_type: 2
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+cast_time: 1.1699999570846558
+recharge_time: 10
+activate_period: 0.5
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- EnduranceDiscount_Boost
+- Heal_Boost
+- Recharge_Boost
+- Recovery_Boost
+description_short: 'Toggle: Self +ACC, +Perception, Res(DeBuff To Hit), +Special, +Regeneration, +Recovery'
+description_long: 'You have developed an incredible eyesight. Your accuracy is dramatically improved and your perception increased allowing you to better see distant and stealthy foes. You have also become resistant to powers that debuff your accuracy or chance to hit. In addition to being more accurate, your training also allows you to regenerate health and recovery endurance at an accelerated rate while this power is active.  However, only half of this regeneration bonus is enhanceable.  Recharge: Slow'
+set_types:
+- 9
+- 22
+level: 20
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 1
+  effect_type: 28
+  effect_modifiers: 40
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 3
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 2
+  effect_type: 9
+  effect_modifiers: 1
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 3
+  scale: 0.20000000298023224
+  magnitude: 1
+  duration: 0.75
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 3
+  effect_type: 28
+  effect_modifiers: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 0.75
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 4
+  effect_type: 23
+  summon: ''
+  base_probability: 1
+  suppression: 7
+  buffable: true
+  to_who: 2
+  scale: 0.60000002384185791
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 5
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 1.125
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 6
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  to_who: 3
+  scale: 1.125
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Tactical_Arrow.Eagle_Eye
+  unique_i_d: 7
+  effect_type: 26
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 3
+  scale: 0.5
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

@@ -1,0 +1,88 @@
+index: 3461
+full_name: Corruptor_Ranged.Archery.Rain_of_Arrows
+group_name: Corruptor_Ranged
+set_name: Archery
+name: Rain_of_Arrows
+display: Rain of Arrows
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1.6000000238418579
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 8192
+target_line_of_sight: true
+range: 90
+endurance_cost: 20.799999237060547
+cast_time: 4
+recharge_time: 60
+effect_area: 4
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged (Location AoE), Extreme DoT(Lethal)
+description_long: 'You unleash a Rain of Arrows on a targeted location, damaging foes within a large area. Damage: Extreme (DoT), Recharge: Long'
+set_types:
+- 3
+- 36
+- 44
+level: 32
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+forced_class: ''
+effects:
+- power_full_name: Corruptor_Ranged.Archery.Rain_of_Arrows
+  unique_i_d: 1
+  effect_type: 38
+  summon: Pets_RainofArrows_Visual
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 3
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''
+- power_full_name: Corruptor_Ranged.Archery.Rain_of_Arrows
+  unique_i_d: 2
+  effect_type: 38
+  summon: Pets_RainofArrows_Corruptor
+  delayed_time: 1.7999999523162842
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 3
+  scale: 1
+  magnitude: 1
+  duration: 1
+  aspect: 4
+  modifier_table: Ranged_Level
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Level
+  override: ''

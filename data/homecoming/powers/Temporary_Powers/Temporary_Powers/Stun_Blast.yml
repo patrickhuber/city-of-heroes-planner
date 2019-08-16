@@ -1,0 +1,60 @@
+index: 2935
+full_name: Temporary_Powers.Temporary_Powers.Stun_Blast
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Stun_Blast
+display: Stun Blast
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 514
+accuracy: 1
+attack_types: 130
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 150
+endurance_cost: 6.5
+cast_time: 1.3300000429153442
+recharge_time: 4
+effect_area: 1
+max_boosts: ''
+life_time_in_game: 3600
+number_allowed: 1
+boosts_allowed: []
+description_short: Ranged, Moderate DMG(Energy)
+description_long: This non-lethal blast can knock someone out indefinitely, with little risk of permanent harm. Stun Blast will last for 1 hour.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Stun_Blast
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 1
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1
+  magnitude: 1
+  duration: 1
+  aspect: 2
+  modifier_table: Ranged_TempDamage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: TempDamage
+  override: ''

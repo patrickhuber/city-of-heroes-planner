@@ -1,0 +1,385 @@
+index: 9232
+full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+group_name: Blaster_Support
+set_name: Martial_Manipulation
+name: Ki_Push
+display: Ki Push
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 9
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 7
+endurance_cost: 5.1999998092651367
+cast_time: 0.82999998331069946
+recharge_time: 6
+effect_area: 1
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Knockback_Boost
+- Recharge_Boost
+cast_through_hold: true
+description_short: Melee, Moderate DMG(Smash), Foe Repel, KB
+description_long: 'You smash your foe with a burst of Ki Energy, sending them flying through the air in slow motion.  Damage: Moderate, Recharge: Fast'
+set_types:
+- 1
+- 23
+- 33
+- 44
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 0.80000001192092896
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 3
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 4
+  effect_type: 19
+  mezmorize_type: 2
+  summon: ''
+  base_probability: 1
+  suppression: 31
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  duration: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 5
+  effect_type: 19
+  mezmorize_type: 8
+  summon: ''
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 1
+  duration: 2
+  aspect: 4
+  modifier_table: Melee_Ones
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 6
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 1.5012999773025513
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 7
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  delayed_time: 2.0499999523162842
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 8
+  effect_type: 19
+  mezmorize_type: 4
+  summon: ''
+  delayed_time: 2.0499999523162842
+  stacking: 1
+  base_probability: 1
+  suppression: 32
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 4
+  magnitude: 1
+  aspect: 4
+  modifier_table: Melee_Knockback
+  cancel_on_miss: true
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Knockback
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 9
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 10
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 11
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 12
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 13
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 14
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 15
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Blaster_Support.Martial_Manipulation.Ki_Push
+  unique_i_d: 16
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  special_case: 11
+  to_who: 2
+  scale: 0.054999999701976776
+  magnitude: 1
+  duration: 8.3299999237060547
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

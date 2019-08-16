@@ -1,0 +1,112 @@
+index: 2817
+full_name: Temporary_Powers.Temporary_Powers.Low-G_Pack
+group_name: Temporary_Powers
+set_name: Temporary_Powers
+name: Low-G_Pack
+display: Low-G Pack
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_required: 1
+modes_disallowed: 1615874
+power_type: 2
+accuracy: 1
+group_memberships:
+- Leap_Group
+- LeapRoot_Group
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+endurance_cost: 0.22699999809265137
+activate_period: 0.5
+effect_area: 1
+max_boosts: ''
+usage_time: 120
+number_allowed: 1
+boosts_allowed: []
+description_short: 'Toggle: Self Long Jump'
+description_long: The Low-G Pack allows you to leap great distances and heights, easily jumping over buildings and from rooftop to rooftop! The Low-G Pack will burn out after 2 minutes of use. You can only carry 1 Low-G Pack at a time.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Temporary_Powers.Temporary_Powers.Low-G_Pack
+  unique_i_d: 1
+  effect_type: 16
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Leap
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Leap
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Low-G_Pack
+  unique_i_d: 2
+  effect_type: 17
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_SpeedJumping
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: SpeedJumping
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Low-G_Pack
+  unique_i_d: 3
+  effect_type: 21
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 10
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Temporary_Powers.Temporary_Powers.Low-G_Pack
+  unique_i_d: 4
+  effect_type: 22
+  summon: ''
+  base_probability: 1
+  buffable: true
+  to_who: 2
+  scale: 2
+  magnitude: 1
+  duration: 0.75
+  aspect: 4
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

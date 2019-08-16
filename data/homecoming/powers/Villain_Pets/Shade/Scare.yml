@@ -1,0 +1,87 @@
+index: 6340
+full_name: Villain_Pets.Shade.Scare
+group_name: Villain_Pets
+set_name: Shade
+name: Scare
+display: Scare
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+attack_types: 513
+group_memberships: []
+entities_affected: 2048
+target: 2048
+target_line_of_sight: true
+range: 60
+endurance_cost: 7.8000001907348633
+cast_time: 2.0299999713897705
+recharge_time: 6
+effect_area: 1
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- EnduranceDiscount_Boost
+- Fear_Boost
+- Range_Boost
+- Recharge_Boost
+description_short: Ranged, Foe Fear
+description_long: You entwine a single foe within their deepest fears and cause them to helplessly tremble for a brief while.
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: Villain_Pets.Shade.Scare
+  unique_i_d: 1
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  player_versus_mode: 1
+  to_who: 1
+  scale: 4
+  magnitude: 3
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
+- power_full_name: Villain_Pets.Shade.Scare
+  unique_i_d: 2
+  effect_type: 19
+  mezmorize_type: 12
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  suppression: 31
+  buffable: true
+  resistible: true
+  player_versus_mode: 2
+  to_who: 1
+  scale: 2
+  magnitude: 2
+  attrib_type: 1
+  aspect: 4
+  modifier_table: Melee_Fear
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Fear
+  override: ''
