@@ -1,0 +1,12 @@
+- name: Hero
+  value: 0
+- name: Rogue
+  value: 1
+- name: Vigilante
+  value: 2
+- name: Villain
+  value: 3
+- name: Loyalist
+  value: 4
+- name: Resistance
+  value: 5

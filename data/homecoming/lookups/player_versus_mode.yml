@@ -1,0 +1,6 @@
+- name: Any
+  value: 0
+- name: PvE
+  value: 1
+- name: PvP
+  value: 2

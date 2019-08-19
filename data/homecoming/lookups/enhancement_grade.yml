@@ -1,0 +1,8 @@
+- name: None
+  value: 0
+- name: TrainingO
+  value: 1
+- name: DualO
+  value: 2
+- name: SingleO
+  value: 3

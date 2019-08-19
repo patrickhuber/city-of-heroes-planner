@@ -1,0 +1,12 @@
+- name: Click
+  value: 0
+- name: Auto_
+  value: 1
+- name: Toggle
+  value: 2
+- name: Boost
+  value: 3
+- name: Inspiration
+  value: 4
+- name: GlobalBoost
+  value: 5

@@ -1,0 +1,4 @@
+- name: Pet
+  value: 0
+- name: Henchman
+  value: 1

@@ -1,0 +1,6 @@
+- name: Any 
+  value: 0
+- name: BuffOnly
+  value: 1
+- name: DebuffOnly
+  value: 2

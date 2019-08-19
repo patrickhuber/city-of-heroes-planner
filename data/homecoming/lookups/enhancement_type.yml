@@ -1,0 +1,10 @@
+- name: None
+  value: 0
+- name: Normal
+  value: 1
+- name: InventO
+  value: 2
+- name: SpecialO
+  value: 3
+- name: SetO
+  value: 4

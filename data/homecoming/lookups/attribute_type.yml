@@ -1,0 +1,6 @@
+- name: Magnitude
+  value: 0
+- name: Duration
+  value: 1
+- name: Expression
+  value: 2

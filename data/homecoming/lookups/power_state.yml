@@ -1,0 +1,8 @@
+- name: Disabled
+  value: 0
+- name: Empty
+  value: 1
+- name: Used
+  value: 2
+- name: Open
+  value: 3

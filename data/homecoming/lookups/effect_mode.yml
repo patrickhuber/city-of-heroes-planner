@@ -1,0 +1,8 @@
+- name: Enhancement
+  value: 0
+- name: FX
+  value: 1
+- name: PowerEnh
+  value: 2
+- name: PowerProc
+  value: 3

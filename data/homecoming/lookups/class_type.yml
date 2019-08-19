@@ -1,0 +1,14 @@
+- name: None
+  value: 0
+- name: Hero
+  value: 1
+- name: HeroEpic
+  value: 2
+- name: Villain
+  value: 3
+- name: VillainEpic
+  value: 4
+- name: Henchman
+  value: 5
+- name: Pet
+  value: 6

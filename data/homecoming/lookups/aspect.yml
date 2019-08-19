@@ -1,0 +1,10 @@
+- name: Res
+  value: 0
+- name: Max
+  value: 1
+- name: Abs
+  value: 2
+- name: Str
+  value: 3
+- name: Cur
+  value: 4

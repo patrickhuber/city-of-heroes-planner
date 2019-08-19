@@ -1,0 +1,16 @@
+- name: None
+  value: 0
+- name: Stealth
+  value: 1
+- name: ArchetypeA
+  value: 2
+- name: ArchetypeB
+  value: 3
+- name: ArchetypeC
+  value: 4
+- name: ArchetypeD
+  value: 5
+- name: ArchetypeE
+  value: 6
+- name: ArchetypeF
+  value: 7

@@ -1,0 +1,8 @@
+- name: Unspecified
+  value: 0
+- name: Target
+  value: 1
+- name: Self
+  value: 2
+- name: All
+  value: 3

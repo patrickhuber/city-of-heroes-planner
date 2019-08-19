@@ -1,0 +1,8 @@
+- name: None
+  value: 0
+- name: NearGround
+  value: 1
+- name: TargetNearGround
+  value: 2
+- name: CastableAfterDeath
+  value: 4

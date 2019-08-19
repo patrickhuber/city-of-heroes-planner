@@ -1,0 +1,6 @@
+- name: NoOverride
+  value: 0
+- name: TrueOverride
+  value: 1
+- name: FalseOverride
+  value: 2
