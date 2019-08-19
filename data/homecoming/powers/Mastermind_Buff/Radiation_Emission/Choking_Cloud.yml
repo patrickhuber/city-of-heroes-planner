@@ -1,4 +1,4 @@
-index: 10779
+index: 5688
 full_name: Mastermind_Buff.Radiation_Emission.Choking_Cloud
 group_name: Mastermind_Buff
 set_name: Radiation_Emission
@@ -34,7 +34,7 @@ description_short: 'Toggle: PBAoE, Foe Hold'
 description_long: 'While active, you generate toxic radioactive gas around yourself. Any nearby foes may be overcome by the gas, leaving them choking and helpless. Recharge: Long'
 set_types:
 - 10
-- 35
+- 40
 level: 28
 variable_name: ''
 sub_powers: []

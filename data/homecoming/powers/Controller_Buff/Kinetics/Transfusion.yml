@@ -50,7 +50,7 @@ effects:
 - power_full_name: Controller_Buff.Kinetics.Transfusion
   unique_i_d: 1
   effect_type: 38
-  summon: Pets_Transfusion_Controller
+  summon: Pets_Transfusion_Mastermind
   stacking: 1
   base_probability: 1
   to_who: 1
@@ -73,9 +73,8 @@ effects:
   base_probability: 1
   buffable: true
   resistible: true
-  player_versus_mode: 1
   to_who: 1
-  scale: -0.10000000149011612
+  scale: -0.10999999940395355
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones

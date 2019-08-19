@@ -53,3 +53,35 @@ effects:
   reward: ''
   effect_id: Ones
   override: ''
+- power_full_name: ''
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.0070000002160668373
+  magnitude: 0.0010999999940395355
+  aspect: 3
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Regeneration
+  ignore_enhancement_diversification: true
+  override: ''
+- power_full_name: ''
+  effect_class: 1
+  effect_type: 26
+  summon: ''
+  base_probability: 1
+  to_who: 2
+  scale: 0.016000000759959221
+  magnitude: 0.0010000000474974513
+  aspect: 3
+  modifier_table: Melee_HealSelf
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Recovery
+  override: ''

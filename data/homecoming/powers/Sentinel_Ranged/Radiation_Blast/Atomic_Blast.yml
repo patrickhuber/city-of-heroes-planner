@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: PBAoE, Extreme DMG(Energy/Smash), Foe Hold, -DEF
 description_long: 'This attack taps most of your stored energy to deal a devastating Atomic Blast which deals Extreme Energy and Smashing damage.  Any foes left standing will have their Defense greatly reduced and may be left helplessly choking on toxic vapors. Damage: Extreme, Recharge: Very Long'
 set_types:
-- 0
 - 4
 - 21
 - 30
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

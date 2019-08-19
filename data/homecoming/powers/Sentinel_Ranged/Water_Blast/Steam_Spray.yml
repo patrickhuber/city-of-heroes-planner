@@ -36,11 +36,11 @@ boosts_allowed:
 description_short: Ranged (Cone), High DMG(Fire), Foe -Defense, Minor DoT(Fire), Self +Tidal Power
 description_long: "You spray scalding hot steam in a cone in front of you badly burning affected targets. Steam Spray causes Moderate Fire damage, Minor Fire damage over time and reduces the target's Defense slightly. Steam Spray grants 1 stack of Tidal Power. Damage: High, Recharge: Long"
 set_types:
-- 0
 - 3
 - 21
 - 30
 - 44
+- 45
 level: 26
 variable_name: ''
 sub_powers: []

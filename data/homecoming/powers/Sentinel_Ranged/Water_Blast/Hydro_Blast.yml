@@ -34,11 +34,11 @@ boosts_allowed:
 description_short: Ranged, High DMG(Cold/Smash), Foe -Speed, Knockdown, Self +Tidal Power
 description_long: 'You briefly focus before releasing an intense blast of chilling water at your foe that causes High Cold and Smashing damage. Affected foes will have their movement speed reduced briefly and have a chance to be knocked down. Hydro Blast builds 1 Tidal Power. Damage: High, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 13
 - 23
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

@@ -34,11 +34,11 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Lethal/Special), Foe Knockback/Special
 description_long: "Dual Wield fires both pistols in rapid succession at its desired target.  This power is slower than Pistols, but deals more damage, and the target may get knocked back by the force of the impact. Damage: Moderate, Recharge: Fast  NOTE: Changing your ammo type with the 'Swap Ammo' power will change your secondary damage from lethal to cold, fire or toxic.  Additionally, changing your ammunition type will also change the secondary effect of this attack from Knockback to a minor attack speed and movement speed debuff if 'Cryo Ammo' is loaded, a minor damage over time effect if 'Incendiary Ammo' is loaded, or a -damage effect if 'Chemical Ammo' is loaded."
 set_types:
-- 0
 - 2
 - 13
 - 23
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

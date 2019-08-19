@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: Superior DMG(Energy), Foe Stun, Special
 description_long: "You charge up your Beam Rifle and deliver an incredibly focused ray of energy at a nearby foe that deals Superior Energy damage and will briefly stun the target. Lancer Shot will cause additional damage if the target is suffering from the Disintegrating effect. In addition, targets already affected by the Disintegrating effect have a chance to spread to 3 nearby targets. This Disintegrate Spread effect can only hit targets that aren't already affected by the Disintegration effect. Disintegrate Spread causes Minor Energy damage over time. Damage: Superior, Recharge: Slow"
 set_types:
-- 0
 - 2
 - 11
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

@@ -35,9 +35,9 @@ boosts_allowed:
 description_short: Ranged (Cone), Extreme DoT(Fire)
 description_long: 'Spews forth a cone of flames from underneath the barrel of your assault rifle, setting foes on fire. Very accurate and very deadly at medium range. Damage: Extreme(DoT) Recharge: Slow'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 18
 variable_name: ''
 sub_powers: []

@@ -34,7 +34,6 @@ description_short: PBAoE Melee, Moderate DMG(Lethal), DoT(Toxic) -DEF
 description_long: 'You can explode dozens of Thorns in all directions around you. These Thorns only travel a short distance, but they can deal moderate damage and poison any target close to you. Toxic damage from the thorns can reduce the Defense of affected foes. Damage: Moderate, Recharge: Slow'
 set_types:
 - 4
-- 21
 - 30
 - 33
 - 44

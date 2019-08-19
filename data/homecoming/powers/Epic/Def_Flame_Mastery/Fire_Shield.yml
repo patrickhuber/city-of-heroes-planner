@@ -9,9 +9,9 @@ requirement:
   - Class_Defender
   class_names_not: []
   power_i_ds:
-  - - Epic.Def_Flame_Mastery.Consume
+  - - Epic.Fire_Mastery.Fire_Blast
     - ''
-  - - Epic.Def_Flame_Mastery.Char
+  - - Epic.Fire_Mastery.Fire_Ball
     - ''
   power_i_ds_not: []
 modes_disallowed: 74
@@ -35,7 +35,7 @@ boosts_allowed:
 - Res_Damage_Boost
 ignore_strength: true
 description_short: 'Toggle: Self +Res(Fire, Lethal, Smash, Cold)'
-description_long: 'While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Consume or Char before selecting this power. Recharge: Very Fast'
+description_long: 'While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Fire Blast or Fire Ball before selecting this power. Recharge: Very Fast'
 set_types:
 - 8
 always_toggle: true

@@ -36,10 +36,10 @@ boosts_allowed:
 description_short: Ranged (Cone), Minor DMG(Energy), Foe Sleep
 description_long: 'You send forth a subsonic pulse which causes your foes to fall unconscious and take some minor damage. Your foes will remain unconscious for a good while, but will waken if disturbed. Damage: Minor, Recharge: Long'
 set_types:
-- 0
 - 3
 - 14
 - 44
+- 45
 level: 18
 variable_name: ''
 sub_powers: []

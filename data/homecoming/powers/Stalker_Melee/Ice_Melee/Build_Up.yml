@@ -31,7 +31,7 @@ description_long: 'Burmal lowers the temperature of your hands even further, mak
 set_types:
 - 25
 click_buff: true
-level: 8
+level: 12
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []

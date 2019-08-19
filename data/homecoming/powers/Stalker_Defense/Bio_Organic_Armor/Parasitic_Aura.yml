@@ -71,6 +71,8 @@ effects:
   effect_type: 26
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.090000003576278687
   magnitude: 1
@@ -107,6 +109,8 @@ effects:
   effect_type: 27
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.20000000298023224
   magnitude: 1
@@ -162,6 +166,8 @@ effects:
   effect_type: 66
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.029999999329447746
   magnitude: 1
@@ -178,6 +184,8 @@ effects:
   effect_type: 66
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1

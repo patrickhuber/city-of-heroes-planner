@@ -36,11 +36,11 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DMG(Lethal/Special), Knockback/Special
 description_long: "You fire your pistols faster than the human eye can follow, causing your bullet trajectory to arc, dealing moderate Lethal damage and possibly knocking your foes back.  Damage: Moderate, Recharge: Slow  NOTE: Changing your ammo type with the 'Swap Ammo' power will change your secondary damage from lethal to cold, fire or toxic.  Additionally, changing your ammunition type will also change the secondary effect of this attack from Knockback to a minor attack speed and movement speed debuff if 'Cryo Ammo' is loaded, a minor damage over time effect if 'Incendiary Ammo' is loaded, or a -damage effect if 'Chemical Ammo' is loaded."
 set_types:
-- 0
 - 3
 - 13
 - 23
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

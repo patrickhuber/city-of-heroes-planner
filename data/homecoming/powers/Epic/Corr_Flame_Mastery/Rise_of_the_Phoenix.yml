@@ -9,9 +9,9 @@ requirement:
   - Class_Corruptor
   class_names_not: []
   power_i_ds:
-  - - Epic.Corr_Flame_Mastery.Consume
+  - - Epic.Fire_Mastery_Dominator.Fire_Blast
     - ''
-  - - Epic.Corr_Flame_Mastery.Char
+  - - Epic.Fire_Mastery_Dominator.Fire_Ball
     - ''
   power_i_ds_not: []
 modes_disallowed: 74

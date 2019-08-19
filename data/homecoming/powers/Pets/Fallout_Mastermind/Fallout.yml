@@ -1,0 +1,396 @@
+index: 10762
+full_name: Pets.Fallout_Mastermind.Fallout
+group_name: Pets
+set_name: Fallout_Mastermind
+name: Fallout
+display: Fallout
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+power_type: 1
+accuracy: 2
+attack_types: 132
+group_memberships: []
+entities_affected: 2048
+target: 1
+target_line_of_sight: true
+recharge_time: 300
+activate_period: 300
+effect_area: 2
+radius: 30
+max_targets: 16
+max_boosts: ''
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- Debuff_Defense_Boost
+- Debuff_ToHit_Boost
+description_short: 'Post-Defeat: PBAoE, Extreme DMG(Energy), Debuff'
+description_long: 'After an ally falls in battle, you can activate this power to extract the energy from their body to deal a massive amount of Energy damage to any nearby foes. All affected foes are extremely weakened by the Fallout, and their chance to hit, Defense, Damage and Damage Resistance is severely reduced.  Damage: Extreme, Recharge: Very Long'
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: Class_Minion_Pets
+sort_override: true
+effects:
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 4.2300000190734863
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 2
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Debuff_ToHit
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_ToHit
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 3
+  effect_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 4
+  modifier_table: Ranged_Debuff_Def
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Def
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 1
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 4
+  effect_type: 4
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  resistible: true
+  to_who: 1
+  scale: 1.7999999523162842
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Ranged_Debuff_Dam
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Debuff_Dam
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 1
+  summon: ''
+  base_probability: 2
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 2
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 3
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 4
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 5
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 6
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 7
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''
+- power_full_name: Pets.Fallout_Controller.Fallout
+  unique_i_d: 12
+  effect_type: 29
+  damage_type: 8
+  summon: ''
+  base_probability: 0.019999999552965164
+  resistible: true
+  to_who: 1
+  scale: -3.75
+  magnitude: 1
+  duration: 31
+  modifier_table: Ranged_Res_Dmg
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Dmg
+  override: ''

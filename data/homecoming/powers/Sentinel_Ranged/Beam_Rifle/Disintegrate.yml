@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged, High DoT(Energy), Foe -Regen, Special
 description_long: "You fire a stream of energy at your foe which causes them to slowly disintegrate and suffer High Energy damage over time. Even after the damage over time effect wears off the target will have their regeneration rate reduced and suffer from the Disintegration effect for an additional period of time. Using Beam Rifle powers on targets affected by Disintegrate will inflict additional effects. Additionally if Single Shot, Charged Shot, Lancer Shot and Penetrating Ray are used on a target suffering from Disintegrating, they have a chance to cause this effect to spread to up 3 nearby targets that aren't already suffering from Disintegrating. Targets affected by this Disintegrate Spread will also suffer some Minor Energy damage over time. Damage: High, Recharge: Long"
 set_types:
-- 0
 - 2
 - 44
+- 45
 click_buff: true
 level: 6
 variable_name: ''

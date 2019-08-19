@@ -35,9 +35,9 @@ boosts_allowed:
 description_short: Close (Cone), Moderate DoT(Fire)
 description_long: 'You can breathe forth a torrent of fire that burns all foes within its narrow cone. Very accurate and very deadly at medium range. Damage: Moderate(DoT), Recharge: Slow'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

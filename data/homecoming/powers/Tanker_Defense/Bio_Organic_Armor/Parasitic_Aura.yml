@@ -47,7 +47,6 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-absorb_summon_effects: true
 forced_class: ''
 effects:
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Parasitic_Aura
@@ -74,6 +73,8 @@ effects:
   effect_type: 26
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.125
   magnitude: 1
@@ -110,6 +111,8 @@ effects:
   effect_type: 27
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -165,6 +168,8 @@ effects:
   effect_type: 66
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.032999999821186066
   magnitude: 1
@@ -181,6 +186,8 @@ effects:
   effect_type: 66
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1
@@ -359,7 +366,9 @@ effects:
   effect_type: 4
   damage_type: 1
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -377,7 +386,9 @@ effects:
   effect_type: 4
   damage_type: 2
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -395,7 +406,9 @@ effects:
   effect_type: 4
   damage_type: 3
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -413,7 +426,9 @@ effects:
   effect_type: 4
   damage_type: 4
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -431,7 +446,9 @@ effects:
   effect_type: 4
   damage_type: 5
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -449,7 +466,9 @@ effects:
   effect_type: 4
   damage_type: 6
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -467,7 +486,9 @@ effects:
   effect_type: 4
   damage_type: 7
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1
@@ -485,7 +506,9 @@ effects:
   effect_type: 4
   damage_type: 8
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 44
   to_who: 1
   scale: 2.5999999046325684
   magnitude: 1

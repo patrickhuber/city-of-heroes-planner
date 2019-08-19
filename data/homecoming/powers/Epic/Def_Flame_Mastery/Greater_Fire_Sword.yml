@@ -8,17 +8,7 @@ requirement:
   class_names:
   - Class_Defender
   class_names_not: []
-  power_i_ds:
-  - - Epic.Def_Flame_Mastery.Consume
-    - Epic.Def_Flame_Mastery.Char
-  - - Epic.Def_Flame_Mastery.Consume
-    - Epic.Def_Flame_Mastery.Fire_Shield
-  - - Epic.Def_Flame_Mastery.Consume
-    - Epic.Def_Flame_Mastery.Rise_of_the_Phoenix
-  - - Epic.Def_Flame_Mastery.Char
-    - Epic.Def_Flame_Mastery.Fire_Shield
-  - - Epic.Def_Flame_Mastery.Char
-    - Epic.Def_Flame_Mastery.Rise_of_the_Phoenix
+  power_i_ds: []
   power_i_ds_not: []
 modes_disallowed: 2
 accuracy: 1.2000000476837158
@@ -41,7 +31,7 @@ boosts_allowed:
 - Recharge_Boost
 - Taunt_Boost
 description_short: Melee, Superior DMG(Fire/Lethal)
-description_long: 'Your mastery of fire allows you to create an enhanced Sword of Fire that can set foes ablaze. Successful attacks from the Greater Fire Sword will ignite your target, dealing damage over time. You need 2 of the previous 4 powers to select this one. OK? Damage: Superior, Recharge: Slow'
+description_long: 'Your mastery of fire allows you to create an enhanced Sword of Fire that can set foes ablaze. Successful attacks from the Greater Fire Sword will ignite your target, dealing damage over time. Damage: Superior, Recharge: Slow'
 set_types:
 - 1
 - 24

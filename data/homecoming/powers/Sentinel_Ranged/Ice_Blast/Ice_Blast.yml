@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Cold/Smash), Foe -Recharge, -SPD
 description_long: 'Ice Blast hurls shards of ice at foes and Slows their attacks and movement for a time. Slower recharge than Ice Bolt, but more damage. Damage: Moderate, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 13
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

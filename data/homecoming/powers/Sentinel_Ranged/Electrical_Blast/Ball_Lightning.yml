@@ -35,10 +35,10 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DoT(Energy), Foe -End
 description_long: 'Hurls a highly charged ball of lightning that explodes on contact. Ball Lightning deals good damage in an area of effect, and drains some Endurance from each target it hits. Damage: Moderate(DoT), Recharge: Slow'
 set_types:
-- 0
 - 3
 - 22
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

@@ -1,4 +1,4 @@
-index: 10768
+index: 5647
 full_name: Mastermind_Buff.Kinetics.Siphon_Power
 group_name: Mastermind_Buff
 set_name: Kinetics
@@ -17,7 +17,7 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.399999618530273
+endurance_cost: 13
 cast_time: 1.9299999475479126
 recharge_time: 20
 effect_area: 1
@@ -54,7 +54,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -66,7 +66,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 2
+  unique_i_d: 1
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -74,7 +74,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -86,7 +86,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 3
+  unique_i_d: 1
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -94,7 +94,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -106,7 +106,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 4
+  unique_i_d: 1
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -114,7 +114,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -126,7 +126,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 5
+  unique_i_d: 1
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -134,7 +134,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -146,7 +146,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 6
+  unique_i_d: 1
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -154,7 +154,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -166,7 +166,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 7
+  unique_i_d: 1
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -174,7 +174,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -186,7 +186,7 @@ effects:
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
-  unique_i_d: 8
+  unique_i_d: 1
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -194,7 +194,7 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 1.5
   magnitude: 1
   duration: 30
   aspect: 3
@@ -208,7 +208,7 @@ effects:
 - power_full_name: Controller_Buff.Kinetics.Siphon_Power
   unique_i_d: 9
   effect_type: 38
-  summon: Pets_SiphonPower_Controller
+  summon: Pets_SiphonPower_Mastermind
   stacking: 1
   base_probability: 1
   to_who: 2

@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Cold), Foe Sleep
 description_long: 'Chilling Ray encases your foe in a frail block of ice, holding them helpless in place for a while. The block of ice will break if attacked.  Damage: Moderate, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 13
 - 14
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

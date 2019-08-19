@@ -35,7 +35,6 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Cold/Smash), Foe -Speed, -Defense, Light DoT(Cold), Self +Heal Over Time, +/- Tidal Power
 description_long: "You rapidly dehydrate your target, causing Moderate Cold and Smashing damage, reducing their movement speed and defense as well as causing a measure of Cold damage over time. You are then healed over time for a moderate amount of health.  Dehydrate grants 1 stack of Tidal Power if you have 2 or less.  Dehydrate will consume all stacks of Tidal Power if you have 3, but the power's heal over time effect is increased by 50%.  NOTE: This power will grant a regeneration buff in PvP zones instead of a heal over time.  Damage: Moderate, Light DoT, Recharge: Moderate"
 set_types:
-- 0
 - 2
 - 9
 - 13
@@ -43,6 +42,7 @@ set_types:
 - 29
 - 30
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

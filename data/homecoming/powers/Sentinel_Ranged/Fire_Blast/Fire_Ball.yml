@@ -34,9 +34,9 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DMG(Fire/Smash)
 description_long: 'Hurls an exploding Fireball that consumes a targeted foe, and all nearby enemies. Anyone in that explosion is burned and set ablaze. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

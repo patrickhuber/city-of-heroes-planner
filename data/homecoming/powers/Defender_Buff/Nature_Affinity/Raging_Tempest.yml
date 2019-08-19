@@ -21,7 +21,7 @@ target_line_of_sight: true
 endurance_cost: 4.1599998474121094
 cast_time: 2.0299999713897705
 recharge_time: 20
-activate_period: 2
+activate_period: 5
 effect_area: 2
 radius: 15
 max_targets: 16

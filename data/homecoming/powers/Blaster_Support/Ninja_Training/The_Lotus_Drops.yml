@@ -34,7 +34,6 @@ description_short: PBAoE Melee, Moderate DMG(Lethal), Foe -Def
 description_long: 'You perform The Lotus Drops maneuver, attacking all foes in melee range. This attack wounds your opponents, causing them to take moderate damage over time and reduces their Defense. Damage: Moderate, Recharge: Slow'
 set_types:
 - 4
-- 21
 - 30
 - 33
 - 44

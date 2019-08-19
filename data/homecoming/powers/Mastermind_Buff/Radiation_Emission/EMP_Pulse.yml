@@ -1,4 +1,4 @@
-index: 10784
+index: 5690
 full_name: Mastermind_Buff.Radiation_Emission.EMP_Pulse
 group_name: Mastermind_Buff
 set_name: Radiation_Emission
@@ -35,7 +35,7 @@ description_long: 'You can unleash a massive pulse of electromagnetic energy. Th
 set_types:
 - 10
 - 22
-- 35
+- 40
 level: 38
 variable_name: ''
 sub_powers: []

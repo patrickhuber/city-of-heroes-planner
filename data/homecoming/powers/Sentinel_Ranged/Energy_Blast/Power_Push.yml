@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: Ranged Minor DMG(Energy/Smash), Foe High Knockback
 description_long: 'This ranged attack deals little damage, but sends the target flying for a great distance. Damage: Minor, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 23
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

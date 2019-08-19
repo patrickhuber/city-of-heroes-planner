@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Lethal), Foe -DEF
 description_long: "Quickly fires a Burst of rounds at a single target at very long range. Damage is average, but the fire rate is fast. Can also reduce the target's defense. Damage: Moderate(DoT), Recharge: Fast"
 set_types:
-- 0
 - 2
 - 21
 - 30
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

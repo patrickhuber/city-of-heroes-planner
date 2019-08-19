@@ -1,4 +1,4 @@
-index: 10769
+index: 5648
 full_name: Mastermind_Buff.Kinetics.Repel
 group_name: Mastermind_Buff
 set_name: Kinetics
@@ -17,7 +17,7 @@ entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.38999998569488525
+endurance_cost: 0.81000000238418579
 cast_time: 1.0700000524520874
 recharge_time: 20
 activate_period: 0.5
@@ -52,7 +52,7 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 3
+  scale: 1.7309999465942383
   magnitude: 1
   duration: 0.5
   aspect: 4
@@ -92,7 +92,7 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3
+  scale: 1.7309999465942383
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback

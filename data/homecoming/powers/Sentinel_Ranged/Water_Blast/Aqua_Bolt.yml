@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Ranged, Light DMG(Cold/Smash), Foe -Def, Self +Tidal Power
 description_long: 'You strike your foe with a rapid blast of freezing cold water causing Light Cold and Smashing damage as well as reducing their defense. Aqua Bolt builds 1 Tidal Power. Damage: Light, Recharge: Very Fast'
 set_types:
-- 0
 - 2
 - 21
 - 30
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

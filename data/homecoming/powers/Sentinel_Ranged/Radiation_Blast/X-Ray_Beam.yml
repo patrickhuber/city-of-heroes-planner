@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Energy), Foe -DEF
 description_long: "You can emit a beam of X-Ray energy from your eyes, dealing moderate Energy damage. This attack can bypass some defenses and can reduce the target's Defense. Damage: Moderate, Recharge: Fast"
 set_types:
-- 0
 - 2
 - 21
 - 30
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

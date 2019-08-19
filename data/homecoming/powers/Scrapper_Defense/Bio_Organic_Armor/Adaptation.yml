@@ -98,8 +98,10 @@ effects:
   effect_type: 29
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 48
   to_who: 1
   scale: -1
   magnitude: 1
@@ -109,7 +111,7 @@ effects:
   i_d_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: OffensiveAdaptation
+  effect_id: NormalDebuff
   override: ''
 - power_full_name: Scrapper_Defense.Bio_Organic_Armor.Adaptation
   unique_i_d: 4
@@ -255,7 +257,9 @@ effects:
   unique_i_d: 11
   effect_type: 27
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 45
   to_who: 2
   scale: 0.30000001192092896
   magnitude: 1
@@ -273,7 +277,9 @@ effects:
   effect_type: 27
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 45
   to_who: 2
   scale: 0.059999998658895493
   magnitude: 1
@@ -290,7 +296,9 @@ effects:
   unique_i_d: 13
   effect_type: 26
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 45
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -308,7 +316,9 @@ effects:
   effect_type: 26
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 45
   to_who: 2
   scale: 0.029999999329447746
   magnitude: 1
@@ -326,8 +336,10 @@ effects:
   effect_type: 29
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -344,8 +356,10 @@ effects:
   effect_type: 29
   damage_type: 2
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -362,8 +376,10 @@ effects:
   effect_type: 29
   damage_type: 3
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -380,8 +396,10 @@ effects:
   effect_type: 29
   damage_type: 4
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -398,8 +416,10 @@ effects:
   effect_type: 29
   damage_type: 5
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -416,8 +436,10 @@ effects:
   effect_type: 29
   damage_type: 6
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -434,8 +456,10 @@ effects:
   effect_type: 29
   damage_type: 8
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -452,8 +476,10 @@ effects:
   effect_type: 29
   damage_type: 7
   summon: ''
+  base_probability: 1
   suppression: 7
   resistible: true
+  special_case: 46
   to_who: 1
   scale: -1.3300000429153442
   magnitude: 1
@@ -782,7 +808,9 @@ effects:
   effect_type: 29
   damage_type: 3
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.11249999701976776
   magnitude: 1
@@ -799,7 +827,9 @@ effects:
   effect_type: 29
   damage_type: 4
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.11249999701976776
   magnitude: 1
@@ -816,7 +846,9 @@ effects:
   effect_type: 29
   damage_type: 5
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.11249999701976776
   magnitude: 1
@@ -833,7 +865,9 @@ effects:
   effect_type: 29
   damage_type: 6
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.11249999701976776
   magnitude: 1
@@ -850,7 +884,9 @@ effects:
   effect_type: 29
   damage_type: 8
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.090000003576278687
   magnitude: 1
@@ -867,7 +903,9 @@ effects:
   effect_type: 29
   damage_type: 7
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -884,7 +922,9 @@ effects:
   effect_type: 29
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -901,7 +941,9 @@ effects:
   effect_type: 29
   damage_type: 2
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -919,7 +961,9 @@ effects:
   damage_type: 3
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.011400000192224979
   magnitude: 1
@@ -937,7 +981,9 @@ effects:
   damage_type: 4
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.011400000192224979
   magnitude: 1
@@ -955,7 +1001,9 @@ effects:
   damage_type: 5
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.011400000192224979
   magnitude: 1
@@ -973,7 +1021,9 @@ effects:
   damage_type: 6
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.011400000192224979
   magnitude: 1
@@ -991,7 +1041,9 @@ effects:
   damage_type: 8
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.008999999612569809
   magnitude: 1
@@ -1009,7 +1061,9 @@ effects:
   damage_type: 7
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.014999999664723873
   magnitude: 1
@@ -1027,7 +1081,9 @@ effects:
   damage_type: 1
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.014999999664723873
   magnitude: 1
@@ -1045,7 +1101,9 @@ effects:
   damage_type: 2
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.014999999664723873
   magnitude: 1
@@ -1062,7 +1120,9 @@ effects:
   effect_type: 5
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.375
   magnitude: 1
@@ -1080,7 +1140,9 @@ effects:
   effect_type: 5
   damage_type: 2
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.375
   magnitude: 1
@@ -1098,7 +1160,9 @@ effects:
   effect_type: 5
   damage_type: 3
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.2800000011920929
   magnitude: 1
@@ -1116,7 +1180,9 @@ effects:
   effect_type: 5
   damage_type: 4
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.2800000011920929
   magnitude: 1
@@ -1134,7 +1200,9 @@ effects:
   effect_type: 5
   damage_type: 5
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.2800000011920929
   magnitude: 1
@@ -1152,7 +1220,9 @@ effects:
   effect_type: 5
   damage_type: 6
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.2800000011920929
   magnitude: 1
@@ -1170,7 +1240,9 @@ effects:
   effect_type: 5
   damage_type: 8
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.20000000298023224
   magnitude: 1
@@ -1189,7 +1261,9 @@ effects:
   damage_type: 1
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.045000001788139343
   magnitude: 1
@@ -1208,7 +1282,9 @@ effects:
   damage_type: 2
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.045000001788139343
   magnitude: 1
@@ -1227,7 +1303,9 @@ effects:
   damage_type: 3
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.03359999880194664
   magnitude: 1
@@ -1246,7 +1324,9 @@ effects:
   damage_type: 4
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.03359999880194664
   magnitude: 1
@@ -1265,7 +1345,9 @@ effects:
   damage_type: 5
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.03359999880194664
   magnitude: 1
@@ -1284,7 +1366,9 @@ effects:
   damage_type: 6
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.03359999880194664
   magnitude: 1
@@ -1303,7 +1387,9 @@ effects:
   damage_type: 8
   summon: ''
   stacking: 1
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.024000000208616257
   magnitude: 1

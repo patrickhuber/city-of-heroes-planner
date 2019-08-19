@@ -1,4 +1,4 @@
-index: 10775
+index: 11654
 full_name: Mastermind_Buff.Kinetics.Kinetic_Transfer
 group_name: Mastermind_Buff
 set_name: Kinetics
@@ -17,7 +17,7 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 15.600000381469727
+endurance_cost: 19.5
 cast_time: 2.1700000762939453
 recharge_time: 60
 effect_area: 1
@@ -45,10 +45,10 @@ absorb_summon_effects: true
 absorb_summon_attributes: true
 forced_class: ''
 effects:
-- power_full_name: Controller_Buff.Kinetics.Kinetic_Transfer
+- power_full_name: ''
   unique_i_d: 1
   effect_type: 38
-  summon: Pets_KineticTransferDebuff_Controller
+  summon: Pets_KineticTransferDebuff_Mastermind
   stacking: 1
   base_probability: 1
   to_who: 1
@@ -63,10 +63,10 @@ effects:
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Controller_Buff.Kinetics.Kinetic_Transfer
+- power_full_name: ''
   unique_i_d: 2
   effect_type: 38
-  summon: Pets_KineticTransferBuffSelf_Controller
+  summon: Pets_KineticTransferBuff_Mastermind
   stacking: 1
   base_probability: 1
   to_who: 2

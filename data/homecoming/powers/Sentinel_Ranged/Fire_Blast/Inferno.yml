@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: PBAoE, Extreme DMG(Fire/Smash), Foe Moderate DoT(Fire)
 description_long: 'Unleashes a massive fiery explosion to devastate all nearby enemies and set them ablaze. Inferno deals Extreme Fire damage to all nearby foes and inflicts Moderate Fire damage over time.  Damage: Extreme, Recharge: Very Long'
 set_types:
-- 0
 - 4
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

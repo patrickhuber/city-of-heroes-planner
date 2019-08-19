@@ -36,11 +36,8 @@ description_short: Summon Ghost (Special)
 description_long: 'You can extract the soul from one of your defeated Undead Henchmen and summon its spectral essence to do your bidding.  The power of the soul is dependent upon the type of undead Henchman you extract it from, however it will always be one level lower than you. Unlike your other Henchman, the extracted Soul is only loosely bound to your control and will eventually move on to the next world. The Soul cannot gain new powers with Enchanted Undead or Dark Empowerment. Recharge: Very Long'
 set_types:
 - 6
-- 9
-- 10
 - 26
 - 27
-- 29
 - 40
 - 44
 level: 18

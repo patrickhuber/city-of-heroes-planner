@@ -34,11 +34,11 @@ boosts_allowed:
 description_short: Ranged, Extreme DMG(Lethal/Special), Foe Disorient/Special
 description_long: "Suppressive Fire allows the user to quickly stun their target for a short time and deal an extreme amount of Lethal damage. Damage: Extreme, Recharge: Moderate  NOTE: Changing your ammo type with the 'Swap Ammo' power will change your secondary damage from lethal to cold, fire or toxic.  Additionally, changing your ammunition type will also change the secondary effect of this attack from Disorient effect to a Hold effect if 'Cryo Ammo', 'Incendiary Ammo' or 'Chemical Ammo' are loaded."
 set_types:
-- 0
 - 2
 - 10
 - 11
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

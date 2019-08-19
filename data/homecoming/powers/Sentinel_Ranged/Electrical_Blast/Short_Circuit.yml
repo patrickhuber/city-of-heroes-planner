@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: PBAoE, Moderate DoT(Energy), Foe -End, -Recovery
 description_long: 'Releases a burst of electrical energy around you, shocking all nearby foes. This highly accurate discharge deals Moderate damage over time, drains a lot of Endurance from the targets and renders them unable to recover Endurance for quite a while. Additionally, Short Circuit deals extra damage to most robots and mechanical foes. Short Circuit is very effective when used with your other Endurance draining powers. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 4
 - 22
 - 44
+- 45
 level: 26
 variable_name: ''
 sub_powers: []

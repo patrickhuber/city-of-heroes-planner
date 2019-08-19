@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged, Minor DMG(Lethal)
 description_long: 'A quick attack that fires an arrow at your foe after only minimal aiming. Fast, but little damage. Damage: Minor, Recharge: Fast'
 set_types:
-- 0
 - 2
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

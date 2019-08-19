@@ -34,12 +34,12 @@ boosts_allowed:
 description_short: Ranged (Location AoE), High DoT(Cold), -Speed, -Defense, Self +Tidal Power
 description_long: "You create a violent whirlpool at the target location causing Cold damage over time, reducing the targets' speed and defense for a short time. Whirlpool grants 1 stack of Tidal Power. Damage: High(DoT), Recharge: Long"
 set_types:
-- 0
 - 3
 - 13
 - 21
 - 30
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

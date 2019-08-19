@@ -34,10 +34,10 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Extreme DMG(Energy), Foe -End, -Recovery
 description_long: 'You hurl a tremendously powerful bolt of lightning at a target, devastating all nearby foes. Thunderous Blast deals extreme Energy and Smashing damage and drains a lot of Endurance from nearby foes. Damage: Extreme, Recharge: Very Long'
 set_types:
-- 0
 - 3
 - 22
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

@@ -34,7 +34,6 @@ description_short: Melee, High DMG(Energy/Smash), Foe -Def, Knockdown, Special
 description_long: 'You channel a greater amount of radiation into your fists and deliver a hard hitting blow that deals Moderate Energy and Smashing damage to the target as well as reducing their Defense for a short time. The affected target will also be surround it in negatively charged particles. Damage: Moderate, Recharge: Fast'
 set_types:
 - 1
-- 21
 - 23
 - 30
 - 33

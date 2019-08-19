@@ -1,0 +1,79 @@
+index: 10763
+full_name: Pets.Savage_Assault_Feral_Charge.Feral_Charge
+group_name: Pets
+set_name: Savage_Assault_Feral_Charge
+name: Feral_Charge
+display: Feral Charge
+requirement:
+  class_names: []
+  class_names_not: []
+  power_i_ds: []
+  power_i_ds_not: []
+modes_disallowed: 2
+accuracy: 1
+group_memberships: []
+target: 16385
+target_line_of_sight: true
+range: 80
+cast_time: 1.1699999570846558
+activate_period: 100
+effect_area: 4
+max_boosts: 6
+number_allowed: 1
+boosts_allowed:
+- Accuracy_Boost
+- Damage_Boost
+- EnduranceDiscount_Boost
+- Range_Boost
+- Recharge_Boost
+- Taunt_Boost
+description_short: High DMG(Lethal), Foe Minor DoT(Lethal), +3 Blood Frenzy, Self Teleport
+description_long: 'You throw yourself at your target while slashing and tearing wildly dealing moderate lethal damage and it foes to suffer from additional minor lethal damage over time. The damage of this power can increase based on how far away you charge from,  with up to double damage dealt at its strongest. Feral Charge builds 1 stack of Blood Frenzy for every 20 ft in between your target and you, up to 3 stacks. Damage: High, Minor DoT, Recharge: Long'
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+sort_override: true
+effects:
+- power_full_name: ''
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  delayed_time: 1
+  ticks: 4
+  stacking: 1
+  base_probability: 0.80000001192092896
+  buffable: true
+  resistible: true
+  to_who: 1
+  duration: 3.0999999046325684
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 3
+  damage_type: 2
+  summon: Pets_Savage_Assault_Feral_Charge
+  delayed_time: 0.10000000149011612
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  attrib_type: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: Doublehit
+  effect_id: Ones
+  override: ''

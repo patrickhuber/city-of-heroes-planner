@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Superior DMG(Negative), Target -To Hit
 description_long: "An extremely focused beam of Negative Energy that deals tremendous damage and reduces the target's chance to hit. Damage: Very High, Recharge: Slow"
 set_types:
-- 0
 - 2
 - 26
 - 31
 - 44
+- 45
 level: 18
 variable_name: ''
 sub_powers: []

@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Moderate DMG(Energy), Foe -DEF
 description_long: "Hurls a volley of alpha particles at your target. Proton Volley can bypass some of a target's defenses and reduce the target's Defense. Damage: Moderate, Recharge: Slow"
 set_types:
-- 0
 - 2
 - 21
 - 30
 - 44
+- 45
 level: 18
 variable_name: ''
 sub_powers: []

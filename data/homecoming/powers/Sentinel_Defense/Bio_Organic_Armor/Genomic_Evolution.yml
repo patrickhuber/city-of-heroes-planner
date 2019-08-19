@@ -186,9 +186,12 @@ effects:
   effect_type: 9
   effect_modifiers: 24
   summon: ''
+  base_probability: 1
   buffable: true
   resistible: true
-  to_who: 2
+  special_case: 46
+  player_versus_mode: 1
+  to_who: 3
   scale: 0.15000000596046448
   magnitude: 1
   duration: 5.25
@@ -205,6 +208,8 @@ effects:
   unique_i_d: 10
   effect_type: 7
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.05000000074505806
   magnitude: 1
@@ -222,6 +227,8 @@ effects:
   effect_type: 29
   damage_type: 1
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.22499999403953552
   magnitude: 1
@@ -238,6 +245,8 @@ effects:
   effect_type: 29
   damage_type: 2
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.22499999403953552
   magnitude: 1
@@ -254,6 +263,8 @@ effects:
   effect_type: 29
   damage_type: 3
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -270,6 +281,8 @@ effects:
   effect_type: 29
   damage_type: 4
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -286,6 +299,8 @@ effects:
   effect_type: 29
   damage_type: 5
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -302,6 +317,8 @@ effects:
   effect_type: 29
   damage_type: 6
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -318,6 +335,8 @@ effects:
   effect_type: 29
   damage_type: 8
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.18000000715255737
   magnitude: 1
@@ -334,6 +353,8 @@ effects:
   effect_type: 29
   damage_type: 7
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.30000001192092896
   magnitude: 1

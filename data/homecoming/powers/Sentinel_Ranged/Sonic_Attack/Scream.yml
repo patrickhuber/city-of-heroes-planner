@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged, Moderate DoT(Smashing/Energy), -Res
 description_long: 'Your Scream can cause serious damage to a target, while weakening his resistance to further damage. Damage: Moderate(DoT), Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

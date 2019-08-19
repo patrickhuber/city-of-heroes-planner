@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged (Location AoE), Minor DoT(Fire), -SPD
 description_long: 'Summons a Rain of Fire over a targeted location, burning foes and reducing their movement speed within a large area. Damage: Minor(DoT), Recharge: Long'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 26
 variable_name: ''
 sub_powers: []

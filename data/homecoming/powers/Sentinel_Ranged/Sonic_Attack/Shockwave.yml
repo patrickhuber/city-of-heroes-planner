@@ -36,10 +36,10 @@ boosts_allowed:
 description_short: Ranged (Cone), Minor DMG(Smashing/Energy), Foe Knockback, -Res(All)
 description_long: 'You can call forth a tremendous Shockwave that can knock down foes and deal some Smashing damage in a wide cone area. Damage: Minor, Recharge: Moderate'
 set_types:
-- 0
 - 3
 - 23
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

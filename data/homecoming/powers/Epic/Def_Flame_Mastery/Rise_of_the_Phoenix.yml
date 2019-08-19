@@ -9,9 +9,9 @@ requirement:
   - Class_Defender
   class_names_not: []
   power_i_ds:
-  - - Epic.Def_Flame_Mastery.Consume
+  - - Epic.Fire_Mastery_Dominator.Fire_Blast
     - ''
-  - - Epic.Def_Flame_Mastery.Char
+  - - Epic.Fire_Mastery_Dominator.Fire_Ball
     - ''
   power_i_ds_not: []
 modes_disallowed: 74
@@ -34,7 +34,7 @@ boosts_allowed:
 - Recovery_Boost
 - Stunned_Boost
 description_short: Self Rez, Special
-description_long: 'If you are defeated, you can rise from the ashes. The fiery resurrection blasts nearby foes with an explosion and knocks them down. You will revive with about half of your Hit Points and Endurance. Rise of the Phoenix will actually leave you invulnerable for a brief time and protected from XP Debt for 20 seconds. You must be level 41 and have Consume or Char before selecting this power. Recharge: Very Long'
+description_long: 'If you are defeated, you can rise from the ashes. The fiery resurrection blasts nearby foes with an explosion and knocks them down. You will revive with about half of your Hit Points and Endurance. Rise of the Phoenix will actually leave you invulnerable for a brief time and protected from XP Debt for 20 seconds. You must be level 41 and have Rain of Fire or Fire Ball before selecting this power. Recharge: Very Long'
 set_types:
 - 4
 - 9

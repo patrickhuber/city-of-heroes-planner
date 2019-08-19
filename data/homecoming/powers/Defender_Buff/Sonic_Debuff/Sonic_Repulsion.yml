@@ -93,7 +93,7 @@ effects:
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: -1
+  scale: -2.5
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones

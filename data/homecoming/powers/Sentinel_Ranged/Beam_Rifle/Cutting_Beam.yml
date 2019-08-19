@@ -36,11 +36,11 @@ boosts_allowed:
 description_short: Ranged (Cone), Moderate DMG(Energy), Foe -Def(All), Special
 description_long: "You fire a constant stream of energy from your weapon and sweep it in a broad arc blasting all foes in a wide cone in front of you. Cutting beam deals Moderate Energy damage and reduces the targets' Defense. This power will cause Minor Energy damage over time if the target is suffering from the Disintegrating effect. Damage: Moderate, Recharge: Long"
 set_types:
-- 0
 - 3
 - 21
 - 30
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

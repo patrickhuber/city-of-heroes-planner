@@ -37,9 +37,7 @@ description_long: "Immobilizes a single target and deals some energy damage over
 set_types:
 - 2
 - 12
-- 21
 - 22
-- 30
 - 33
 - 44
 level: 1

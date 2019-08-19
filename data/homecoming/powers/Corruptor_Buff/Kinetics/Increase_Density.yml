@@ -209,7 +209,7 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: -8
+  scale: -9
   magnitude: 1
   duration: 60
   aspect: 4
@@ -229,7 +229,7 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: -8
+  scale: -9
   magnitude: 1
   duration: 60
   aspect: 4
@@ -249,7 +249,7 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: -8
+  scale: -9
   magnitude: 1
   duration: 60
   aspect: 4

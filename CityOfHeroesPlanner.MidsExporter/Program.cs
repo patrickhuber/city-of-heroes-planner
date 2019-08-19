@@ -1,4 +1,5 @@
 ﻿using CityOfHeroesPlanner.Data.Mids;
+using CommandLine;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,17 +13,12 @@ namespace CityOfHeroesPlanner.MidsExporter
     {
         static void Main(string[] args)
         {
-            var username = Environment.UserName;
-            // hard coding for now, obviously this will need to be accepted as a parameter
-            var path = @$"C:\Users\{username}\AppData\Roaming\Pine's Hero Designer\Data";
-
-            var options = new ExportOptions
+            Parser.Default.ParseArguments<ExportOptions>(args).WithParsed(o => 
             {
-                Issue12DatabasePath = Path.Combine(path, "i12.mhd"),
-                // needs to be dynamic
-                OutputPath = Environment.CurrentDirectory + "\\..\\..\\..\\..\\data\\homecoming",
-            };
-            Export(options);
+                o.Issue12DatabasePath = Path.Combine(o.DatabasePath, "i12.mhd");
+                o.EnhancementSetPath = Path.Combine(o.DatabasePath, "EnhDB.mhd");
+                Export(o);
+            });
         }
 
         private static void Export(ExportOptions options)
@@ -32,50 +28,52 @@ namespace CityOfHeroesPlanner.MidsExporter
                 using (var binaryReader = new BinaryReader(file, Encoding.Default, true))
                 {
                     var databaseReader = new DatabaseReader(binaryReader);
-                    databaseReader.OnIssue12HeaderRead += (header) =>
-                    {
-                        Console.WriteLine($"Database (Version: {header.Version}, Issue: {header.Issue})");
-                    };
-                    databaseReader.OnArchetypeHeaderRead += (header) =>
-                    {
-                        Console.WriteLine($"Archetypes (Count: {header.Count})");
-                    };
-                    databaseReader.OnArchetypeRead += (archetype) =>
-                    {
-                        if (archetype.Playable)
-                            Console.WriteLine($"Name: {archetype.DisplayName}");
-                    };
-                    databaseReader.OnPowerSetHeaderRead += (header) => 
-                    {
-                        Console.WriteLine($"PowerSets (Count: {header.Count})");
-                    };
-                    databaseReader.OnPowerSetRead += (powerSet) => 
-                    {
-                        Console.WriteLine($"Name: {powerSet.FullName}");
-                    };
-                    databaseReader.OnPowersHeaderRead += (header) =>
-                    {
-                        Console.WriteLine($"Powers (Count: {header.Count}");
-                    };
-                    databaseReader.OnPowerRead += (power) =>
-                    {
-                        Console.WriteLine($"Name: {power.FullName}");
-                    };
+                    RegisterConsoleEvents(databaseReader);
                     switch (options.Format)
                     {
-                        case ExportFormat.Yaml:                            
-                            ExportYaml(databaseReader, options.OutputPath);
+                        case ExportFormat.Yaml:
+                            RegisterYamlExport(databaseReader, options.OutputPath);
                             break;
                     }
-
-                    while (databaseReader.Read())
-                    {
-                    }
+                    while (databaseReader.Read()){}
                 }
             }            
         }
 
-        public static void ExportYaml(DatabaseReader databaseReader, string outputPath)
+        private static void RegisterConsoleEvents(DatabaseReader databaseReader)
+        {
+            databaseReader.OnIssue12HeaderRead += (header) =>
+            {
+                Console.WriteLine($"Database (Version: {header.Version}, Issue: {header.Issue})");
+            };
+            databaseReader.OnArchetypeHeaderRead += (header) =>
+            {
+                Console.WriteLine($"Archetypes (Count: {header.Count})");
+            };
+            databaseReader.OnArchetypeRead += (archetype) =>
+            {
+                if (archetype.Playable)
+                    Console.WriteLine($"Name: {archetype.DisplayName}");
+            };
+            databaseReader.OnPowerSetHeaderRead += (header) =>
+            {
+                Console.WriteLine($"PowerSets (Count: {header.Count})");
+            };
+            databaseReader.OnPowerSetRead += (powerSet) =>
+            {
+                Console.WriteLine($"Name: {powerSet.FullName}");
+            };
+            databaseReader.OnPowersHeaderRead += (header) =>
+            {
+                Console.WriteLine($"Powers (Count: {header.Count}");
+            };
+            databaseReader.OnPowerRead += (power) =>
+            {
+                Console.WriteLine($"Name: {power.FullName}");
+            };
+        }
+
+        public static void RegisterYamlExport(DatabaseReader databaseReader, string outputPath)
         {
             var archetypeFolder = Path.Combine(outputPath, "archetypes");
             var powersetFolder = Path.Combine(outputPath, "powersets");

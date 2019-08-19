@@ -33,7 +33,7 @@ boosts_allowed:
 - Recharge_Boost
 - Recovery_Boost
 - Taunt_Boost
-description_short: PBAoE, Minor DMG(Energy), Minor DoT(Toxic), Foe -Regen, Self +HP, +End, Res(-Regen)
+description_short: PBAoE, Minor DMG(Energy), Minor DoT(Toxic), Foe -Regen, Self +HP, +End
 description_long: 'You concentrate your energies to harness the healing powers of radiation to mend your wounds and rebuild your endurance. Each nearby foe will increase the health and endurance you recover. Affected foes will have their regeneration rates substantially reduced for a short time. Recharge: Very Long'
 set_types:
 - 4
@@ -47,7 +47,7 @@ level: 8
 variable_enabled: true
 variable_name: Foes Hit
 variable_min: 1
-variable_max: 10
+variable_max: 11
 sub_powers: []
 ignore_enhancements:
 - 13
@@ -169,40 +169,22 @@ effects:
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Radiation_Therapy
   unique_i_d: 7
-  effect_type: 28
+  effect_type: 27
   effect_modifiers: 27
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.75
-  magnitude: 1
+  scale: 1.621999979019165
+  magnitude: 0.20000000298023224
   duration: 60
-  modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Res_Boolean
-  override: ''
-- power_full_name: Tanker_Defense.Radiation_Armor.Radiation_Therapy
-  unique_i_d: 8
-  effect_type: 27
-  summon: ''
-  base_probability: 1
-  resistible: true
-  player_versus_mode: 1
-  to_who: 3
-  scale: -1.5
-  magnitude: 1
-  duration: 30
-  aspect: 4
+  aspect: 1
   modifier_table: Melee_Ones
   u_i_d_class_name: ''
   i_d_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Ones
+  effect_id: Regen
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Radiation_Therapy
   unique_i_d: 9
@@ -269,4 +251,22 @@ effects:
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  override: ''
+- power_full_name: ''
+  effect_type: 28
+  effect_modifiers: 27
+  summon: ''
+  base_probability: 1
+  resistible: true
+  player_versus_mode: 1
+  scale: -3.4679999351501465
+  magnitude: 1
+  duration: 30
+  aspect: 3
+  modifier_table: Melee_Res_Boolean
+  u_i_d_class_name: ''
+  i_d_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Res_Boolean
   override: ''

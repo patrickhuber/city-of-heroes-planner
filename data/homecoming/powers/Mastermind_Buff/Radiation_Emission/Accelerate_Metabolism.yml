@@ -1,4 +1,4 @@
-index: 10778
+index: 5684
 full_name: Mastermind_Buff.Radiation_Emission.Accelerate_Metabolism
 group_name: Mastermind_Buff
 set_name: Radiation_Emission
@@ -43,6 +43,7 @@ ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
 forced_class: ''
+sort_override: true
 effects:
 - power_full_name: Controller_Buff.Radiation_Emission.Accelerate_Metabolism
   unique_i_d: 1

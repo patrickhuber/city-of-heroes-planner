@@ -17,7 +17,7 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 4.3680000305175781
+endurance_cost: 4.369999885559082
 cast_time: 1
 recharge_time: 3
 effect_area: 1

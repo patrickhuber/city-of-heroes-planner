@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged, Heavy DMG(Smashing/Energy), Foe -Res(All)
 description_long: 'You blast your foe with a tremendous Shout, damaging them and reducing their Damage Resistance. Damage: High, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

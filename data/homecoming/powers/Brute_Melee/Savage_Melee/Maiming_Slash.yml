@@ -46,7 +46,6 @@ ignore_enhancements:
 ignore_buffs: []
 mutually_exclusive_auto: true
 forced_class: ''
-sort_override: true
 effects:
 - power_full_name: Brute_Melee.Savage_Melee.Maiming_Slash
   unique_i_d: 1

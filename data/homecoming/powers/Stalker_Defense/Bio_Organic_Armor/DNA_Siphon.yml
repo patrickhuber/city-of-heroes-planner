@@ -121,6 +121,8 @@ effects:
   summon: ''
   delayed_time: 0.25
   stacking: 1
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.375
   magnitude: 1
@@ -175,6 +177,8 @@ effects:
   effect_type: 27
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.059999998658895493
   magnitude: 1
@@ -211,6 +215,8 @@ effects:
   effect_type: 26
   summon: ''
   stacking: 1
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.09375
   magnitude: 1
@@ -229,6 +235,7 @@ effects:
   summon: ''
   base_probability: 1
   resistible: true
+  special_case: 46
   player_versus_mode: 1
   to_who: 1
   scale: -1
@@ -248,6 +255,7 @@ effects:
   summon: ''
   base_probability: 1
   resistible: true
+  special_case: 46
   player_versus_mode: 2
   to_who: 1
   scale: -2
@@ -265,7 +273,9 @@ effects:
   unique_i_d: 12
   effect_type: 27
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 46
   player_versus_mode: 1
   to_who: 1
   scale: -1.3300000429153442
@@ -283,7 +293,9 @@ effects:
   unique_i_d: 13
   effect_type: 27
   summon: ''
+  base_probability: 1
   resistible: true
+  special_case: 46
   player_versus_mode: 2
   to_who: 1
   scale: -2.6600000858306885

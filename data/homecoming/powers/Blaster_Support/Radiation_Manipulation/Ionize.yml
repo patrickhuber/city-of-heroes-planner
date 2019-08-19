@@ -10,6 +10,7 @@ requirement:
   power_i_ds: []
   power_i_ds_not: []
 modes_disallowed: 2
+power_type: 2
 accuracy: 1
 group_memberships: []
 entities_affected: 1

@@ -3,7 +3,7 @@ full_name: Epic.Charge_Mastery.EM_Pulse
 group_name: Epic
 set_name: Charge_Mastery
 name: EM_Pulse
-display: Electro-Static Discharge
+display: EM Pulse
 requirement:
   class_names: []
   class_names_not: []

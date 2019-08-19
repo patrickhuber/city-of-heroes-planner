@@ -34,11 +34,11 @@ boosts_allowed:
 description_short: Ranged, High DMG(Cold), Foe Hold
 description_long: 'This power can Hold your opponent frozen solid in a block of ice. The victim can be attacked and will remain frozen and helpless. After the ice thaws, the victim emerges chilled and Slowed.  Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 2
 - 10
 - 13
 - 44
+- 45
 level: 26
 variable_name: ''
 sub_powers: []

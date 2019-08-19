@@ -34,6 +34,7 @@ description_short: Self Heal
 description_long: 'Through perfect control of your body and energy, you can concentrate for a few moments and heal yourself. This power is only available while in White Dwarf Form. Recharge: Long'
 set_types:
 - 9
+- 39
 allow_front_loading: true
 variable_name: ''
 sub_powers: []

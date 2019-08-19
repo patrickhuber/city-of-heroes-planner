@@ -108,7 +108,9 @@ effects:
   effect_type: 29
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.75
   magnitude: 1
@@ -125,7 +127,9 @@ effects:
   effect_type: 29
   damage_type: 2
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.75
   magnitude: 1
@@ -142,7 +146,9 @@ effects:
   effect_type: 29
   damage_type: 7
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.75
   magnitude: 1
@@ -159,7 +165,9 @@ effects:
   effect_type: 4
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -177,7 +185,9 @@ effects:
   effect_type: 4
   damage_type: 2
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -195,7 +205,9 @@ effects:
   effect_type: 4
   damage_type: 3
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -213,7 +225,9 @@ effects:
   effect_type: 4
   damage_type: 4
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -231,7 +245,9 @@ effects:
   effect_type: 4
   damage_type: 5
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -249,7 +265,9 @@ effects:
   effect_type: 4
   damage_type: 6
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -267,7 +285,9 @@ effects:
   effect_type: 4
   damage_type: 7
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -285,7 +305,9 @@ effects:
   effect_type: 4
   damage_type: 8
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 46
   to_who: 2
   scale: 2.5
   magnitude: 1
@@ -303,7 +325,9 @@ effects:
   effect_type: 9
   effect_modifiers: 8
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 45
   to_who: 2
   scale: 0.25
   magnitude: 1

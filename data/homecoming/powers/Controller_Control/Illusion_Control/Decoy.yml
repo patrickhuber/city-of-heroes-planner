@@ -42,10 +42,9 @@ ignore_enhancements: []
 ignore_buffs:
 - 1
 - 2
+- 14
 - 20
 mutually_exclusive_auto: true
-absorb_summon_attributes: true
-show_summon_anyway: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Illusion_Control.Decoy

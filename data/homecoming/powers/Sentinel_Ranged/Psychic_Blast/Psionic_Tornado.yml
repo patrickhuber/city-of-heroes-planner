@@ -35,10 +35,10 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DoT(Psionic), Foe Knockback
 description_long: 'Unleashes a whirlwind of Psionic energy on a target, tossing nearby foes into the air. The Psionic Tornado damages foes and Slows their attack speed. Damage: Moderate(DoT), Recharge: Slow'
 set_types:
-- 0
 - 3
 - 23
 - 44
+- 45
 level: 18
 variable_name: ''
 sub_powers: []

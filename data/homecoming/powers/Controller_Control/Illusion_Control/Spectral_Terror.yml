@@ -33,8 +33,7 @@ description_short: 'Summon Terror: Ranged Fear'
 description_long: 'You can create an illusion of unspeakable Terror. The manifestation is so horrible that it caused most foes to tremble helplessly in terror. The Spectral Terror may also Terrify individual foes, causing them to run away in panic. Recharge: Slow'
 set_types:
 - 15
-- 25
-- 31
+- 26
 - 35
 level: 26
 variable_name: ''
@@ -43,7 +42,6 @@ ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
 absorb_summon_effects: true
-absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Illusion_Control.Spectral_Terror

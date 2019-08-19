@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: PBAoE, Extreme DMG(Energy/Smash), Foe Disorient, -Res(All)
 description_long: 'Your Dreadful Wail is so strong that most foes will be defeated by being subjected to it. Dreadful Wail deals Extreme Smashing and Energy damage to all nearby foes in addition to reducing their defense and disorienting them for a good while.  Damage: Extreme, Recharge: Very Long'
 set_types:
-- 0
 - 4
 - 11
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

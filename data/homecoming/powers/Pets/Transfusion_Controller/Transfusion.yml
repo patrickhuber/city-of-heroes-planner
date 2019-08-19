@@ -40,7 +40,7 @@ effects:
   unique_i_d: 1
   effect_type: 13
   summon: ''
-  ticks: 1
+  ticks: 2
   stacking: 1
   base_probability: 1
   buffable: true

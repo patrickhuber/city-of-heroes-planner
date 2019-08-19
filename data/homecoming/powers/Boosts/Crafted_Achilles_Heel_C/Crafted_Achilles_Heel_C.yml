@@ -39,139 +39,22 @@ mutually_exclusive_auto: true
 forced_class: ''
 sort_override: true
 effects:
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
+- power_full_name: ''
   unique_i_d: 1
   effect_type: 29
-  damage_type: 1
   summon: ''
+  base_probability: 0.20000000298023224
   resistible: true
-  to_who: 3
+  to_who: 1
   scale: -0.20000000298023224
-  duration: 10
+  magnitude: 1
+  aspect: 4
   modifier_table: Melee_Ones
+  cancel_on_miss: true
   u_i_d_class_name: ''
   i_d_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 2
-  effect_type: 29
-  damage_type: 2
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 3
-  effect_type: 29
-  damage_type: 3
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 4
-  effect_type: 29
-  damage_type: 4
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 5
-  effect_type: 29
-  damage_type: 5
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 6
-  effect_type: 29
-  damage_type: 6
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 7
-  effect_type: 29
-  damage_type: 7
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-  procs_per_minute: 3.5
-- power_full_name: Boosts.Crafted_Achilles_Heel_C.Crafted_Achilles_Heel_C
-  unique_i_d: 8
-  effect_type: 29
-  damage_type: 8
-  summon: ''
-  resistible: true
-  to_who: 3
-  scale: -0.20000000298023224
-  duration: 10
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
+  effect_id: Resist
   override: ''
   procs_per_minute: 3.5

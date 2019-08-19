@@ -36,12 +36,12 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Extreme DMG(Energy), Foe Minor DoT (Energy), -Def(All), Disorient, Special
 description_long: 'You overcharge your Beam Rifle and release a massive blast of energy at a group of distant foes causing Extreme Energy damage, causing Minor Energy damage over time, reducing the defense of all affected foes and potentially stunning affected foes. If Overcharge strikes a target suffering from the Disintegrating effect they will be affected by a longer stun. Damage: Extreme, Recharge: Very Long'
 set_types:
-- 0
 - 3
 - 11
 - 21
 - 30
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

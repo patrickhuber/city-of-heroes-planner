@@ -1,4 +1,4 @@
-index: 10771
+index: 5650
 full_name: Mastermind_Buff.Kinetics.Increase_Density
 group_name: Mastermind_Buff
 set_name: Kinetics
@@ -17,7 +17,7 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 70
-endurance_cost: 5.1999998092651367
+endurance_cost: 6.5
 cast_time: 2.0699999332427979
 recharge_time: 3
 effect_area: 2

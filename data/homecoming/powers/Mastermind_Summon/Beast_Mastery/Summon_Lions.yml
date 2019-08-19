@@ -49,6 +49,7 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
+absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Beast_Mastery.Summon_Lions

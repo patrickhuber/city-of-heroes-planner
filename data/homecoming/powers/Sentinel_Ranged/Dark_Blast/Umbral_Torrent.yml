@@ -37,12 +37,12 @@ boosts_allowed:
 description_short: Ranged (Cone), Moderate DMG(Smashing), Foe -To Hit, Knockback
 description_long: 'You summon a wave of mire that sweeps away foes within its arc. The attack deals Moderate Negative Energy damage and sends foes flying and reduces their chance to hit. Damage: Minor, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 23
 - 26
 - 31
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

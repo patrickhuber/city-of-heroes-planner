@@ -1,4 +1,4 @@
-index: 10783
+index: 5689
 full_name: Mastermind_Buff.Radiation_Emission.Fallout
 group_name: Mastermind_Buff
 set_name: Radiation_Emission
@@ -39,6 +39,7 @@ set_types:
 - 26
 - 30
 - 31
+- 40
 - 44
 level: 35
 variable_name: ''
@@ -53,7 +54,7 @@ effects:
 - power_full_name: Controller_Buff.Radiation_Emission.Fallout
   unique_i_d: 1
   effect_type: 38
-  summon: Pets_Fallout_Controller
+  summon: Pets_Fallout_Mastermind
   stacking: 1
   base_probability: 1
   to_who: 1

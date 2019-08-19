@@ -96,6 +96,8 @@ effects:
   effect_type: 9
   effect_modifiers: 32
   summon: ''
+  base_probability: 1
+  special_case: 46
   to_who: 2
   scale: 0.64999997615814209
   magnitude: 1
@@ -113,6 +115,8 @@ effects:
   effect_type: 9
   effect_modifiers: 11
   summon: ''
+  base_probability: 1
+  special_case: 46
   to_who: 2
   scale: 0.64999997615814209
   magnitude: 1
@@ -130,6 +134,8 @@ effects:
   effect_type: 28
   effect_modifiers: 32
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.64999997615814209
   magnitude: 1
@@ -146,6 +152,8 @@ effects:
   effect_type: 28
   effect_modifiers: 11
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.64999997615814209
   magnitude: 1
@@ -179,6 +187,8 @@ effects:
   effect_type: 9
   effect_modifiers: 32
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.32499998807907104
   magnitude: 1
@@ -196,6 +206,8 @@ effects:
   effect_type: 9
   effect_modifiers: 11
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.32499998807907104
   magnitude: 1
@@ -213,6 +225,8 @@ effects:
   effect_type: 28
   effect_modifiers: 32
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.32499998807907104
   magnitude: 1
@@ -229,6 +243,8 @@ effects:
   effect_type: 28
   effect_modifiers: 11
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.32499998807907104
   magnitude: 1

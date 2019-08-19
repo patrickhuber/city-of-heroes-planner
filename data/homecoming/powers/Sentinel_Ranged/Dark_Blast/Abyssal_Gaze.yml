@@ -34,12 +34,12 @@ boosts_allowed:
 description_short: Ranged, High DoT(Negative), Foe Hold, -To Hit
 description_long: "You gaze into your foe's eyes giving them a glimpse into the terrifying netherworld rendering them held, reducing their chance to hit and dealing High Negative Energy damage over the next couple of seconds. Damage: High Recharge: Slow"
 set_types:
-- 0
 - 2
 - 10
 - 26
 - 31
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

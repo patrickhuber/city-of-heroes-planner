@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Ranged, Moderate DMG(Negative), Foe -To Hit
 description_long: "A long range blast of dark energy. Deals moderate Negative Energy damage and reduces the target's chance to hit. Damage: Moderate, Recharge: Fast"
 set_types:
-- 0
 - 2
 - 26
 - 31
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

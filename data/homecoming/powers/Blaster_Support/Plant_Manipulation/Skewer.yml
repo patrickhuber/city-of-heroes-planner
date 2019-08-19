@@ -33,7 +33,6 @@ description_short: Melee, High DMG(Lethal), DoT(Toxic) -DEF
 description_long: 'You lunge forward with this melee attack and Skewer your foe with the large Thorn on your arm. Deals high damage and poisons your foe. Poison from the Thorns deals additional Toxic damage and can reduce your foes Defense. Damage: High, Recharge: Fast'
 set_types:
 - 1
-- 21
 - 30
 - 33
 - 44

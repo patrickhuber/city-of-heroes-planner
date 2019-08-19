@@ -34,7 +34,7 @@ variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 9
+display_location: 11
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
@@ -231,22 +231,5 @@ effects:
   i_d_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Ones
-  override: ''
-- power_full_name: ''
-  effect_type: 45
-  summon: ''
-  base_probability: 1
-  buffable: true
-  resistible: true
-  scale: 1
-  magnitude: 1
-  duration: 0.75
-  aspect: 3
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: DefensiveAdaptation
   effect_id: Ones
   override: ''

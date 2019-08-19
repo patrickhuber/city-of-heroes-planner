@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: PBAoE, Extreme DMG(Energy/Smash), Foe Knockback
 description_long: 'You can explode in a tremendous blast of energy, sending nearby foes flying. The Nova deals extreme Energy and Smashing damage to all nearby foes. Damage: Extreme, Recharge: Very Long'
 set_types:
-- 0
 - 4
 - 23
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

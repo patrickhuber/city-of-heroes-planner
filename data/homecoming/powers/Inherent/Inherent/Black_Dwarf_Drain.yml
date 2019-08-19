@@ -53,7 +53,6 @@ display_location: 13
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
-sort_override: true
 effects:
 - power_full_name: Inherent.Inherent.Black_Dwarf_Drain
   unique_i_d: 1

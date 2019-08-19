@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged, High DMG(Lethal)
 description_long: 'Though it takes longer to execute, your Aimed Shot deals greater damage than Snap Shot. Damage: High, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []
@@ -42,7 +42,6 @@ ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
 forced_class: ''
-sort_override: true
 effects:
 - power_full_name: Sentinel_Ranged.Archery.Aimed_Shot
   unique_i_d: 1

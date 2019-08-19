@@ -38,13 +38,13 @@ boosts_allowed:
 description_short: Ranged (Cone), Moderate DMG(Lethal/Special), Foe -Defense, Knockdown/Special
 description_long: "You empty the clips of both your pistols in an arc of suppression fire. This attack can blast multiple foes in the affected cone area, and has a small chance of knocking some foes down.  Affected targets will have their defense reduced slightly as well if Standard Ammo is equipped. Damage: Moderate, Recharge: Moderate  NOTE: Changing your ammo type with the 'Swap Ammo' power will change your secondary damage from lethal to cold, fire or toxic.  Additionally, changing your ammunition type will also change the secondary effect of this attack from Knockdown to a minor attack speed and movement speed debuff if 'Cryo Ammo' is loaded, a minor damage over time effect if 'Incendiary Ammo' is loaded, or a -damage effect if 'Chemical Ammo' is loaded."
 set_types:
-- 0
 - 3
 - 13
 - 21
 - 23
 - 30
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

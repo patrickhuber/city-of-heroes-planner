@@ -36,10 +36,10 @@ boosts_allowed:
 description_short: Ranged (Cone), Moderate DMG(Energy/Smash), Foe Knockback
 description_long: 'Energy Torrent unleashes a cone of powerful energy that can smash foes and possibly send them flying. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 23
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

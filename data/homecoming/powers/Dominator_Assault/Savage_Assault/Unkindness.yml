@@ -35,7 +35,7 @@ boosts_allowed:
 - Recharge_Boost
 - Slow_Boost
 description_short: Ranged (Cone), Moderate DoT(Lethal), Foe -Speed, -Defense, -Fly
-description_long: 'You command an unkindness of ravens to quickly assault and harass your foes. Your foes will suffer Moderate Lethal damage over time and have their speed and defense reduced. This power has a high chance at granting your pets a stack of Pack Mentality.  Damage: Moderate, Recharge: Slow'
+description_long: 'With a mighty roar, you command an unkindness of ravens to quickly assault and harass your foes. Your foes will suffer Moderate Lethal damage over time and have their speed and defense reduced. This power consules all stacks of Blood Frenzy and will deal slightly more damage per stack. Additionally, Unkindness has a 20% chance to immediately recharge itself for each stack of Blood Frenzy. Using this power with 5 stacks of Blood Frenzy causes you to become Exchasted for a short time While exhausted you cannot gain Blood Frenzy. Damage: Moderate, Minor DoT, Recharge: Slow'
 set_types:
 - 3
 - 13
@@ -210,7 +210,7 @@ effects:
   scale: -1.6000000238418579
   magnitude: 1
   duration: 10
-  aspect: 4
+  aspect: 1
   modifier_table: Ranged_Ones
   u_i_d_class_name: ''
   i_d_class_name: -1

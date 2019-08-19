@@ -36,10 +36,10 @@ boosts_allowed:
 description_short: Narrow Ranged (Cone), Superior DMG(Lethal/Special), Foes -Res(All)/Special
 description_long: "You fire your pistols with deadly precision in a very narrow cone, piercing up to three enemies.  Piercing Rounds deals Superior lethal damage and reduces targets' Damage Resistance for a short time. Damage: High Recharge: Long  NOTE: Changing your ammo type with the 'Swap Ammo' power will change your secondary damage from lethal to cold, fire or toxic.  Additionally, changing your ammunition type will also change the secondary effect of this attack from a resistance debuff to a minor attack speed and movement speed debuff if 'Cryo Ammo' is loaded, a minor damage over time effect if 'Incendiary Ammo' is loaded, or a -damage effect if 'Chemical Ammo' is loaded."
 set_types:
-- 0
 - 3
 - 13
 - 44
+- 45
 level: 26
 variable_name: ''
 sub_powers: []

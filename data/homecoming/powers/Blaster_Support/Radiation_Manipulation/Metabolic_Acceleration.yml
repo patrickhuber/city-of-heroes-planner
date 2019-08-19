@@ -31,7 +31,6 @@ description_short: 'Toggle: Self +Recharge, +Special, +Regeneration, +Recovery, 
 description_long: 'You cloak yourself in a field of radiation that increases the running speed, attack speed, Endurance recovery and Regeneration rate. However, only half of this regeneration bonus is enhanceable. Your metabolisms is increased so much that they become resistant to effects such as Sleep, Hold, Disorient, Immobilization and Endurance Drain. Recharge: Moderate'
 set_types:
 - 9
-- 21
 - 22
 level: 20
 variable_name: ''

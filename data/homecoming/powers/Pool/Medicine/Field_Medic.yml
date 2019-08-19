@@ -18,6 +18,8 @@ requirement:
     - Pool.Medicine.Aid_Self
   - - Pool.Medicine.Stimulant
     - Pool.Medicine.Resuscitate
+  - - Pool.Medicine.Aid_Self
+    - Pool.Medicine.Resuscitate
   power_i_ds_not: []
 modes_disallowed: 66
 power_type: 2

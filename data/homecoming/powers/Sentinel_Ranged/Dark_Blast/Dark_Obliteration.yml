@@ -35,11 +35,11 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DMG(Negative), Foe -ACC
 description_long: 'You hurl a large blast of negative energy that violently explodes on impact, exposing the dark power of the Netherworld to all foes near the target. Dark Obliteration can reduce the Accuracy of all affected targets. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 26
 - 31
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

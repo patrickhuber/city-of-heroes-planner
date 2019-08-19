@@ -36,10 +36,10 @@ boosts_allowed:
 description_short: Ranged (Cone), Moderate DMG(Lethal), Foe Knockback
 description_long: 'Good at close range. Fires a cone of Buckshot pellets and can knock some foes down. Damage: Moderate, Recharge: Moderate'
 set_types:
-- 0
 - 3
 - 23
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

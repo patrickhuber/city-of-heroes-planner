@@ -36,11 +36,11 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DMG(Cold/Smash), Foe -Speed, Knockdown, Self -Tidal Power
 description_long: "You cause water to violently explode from beneath your target's feet blasting all foes nearby with freezing cold water. Affected targets will suffer Moderate Cold and Smashing damage, have their movement speed reduced and may be knocked down by the force of the blast. Water Burst consumes all Tidal Power. It will deal additional cold damage and have a greater chance to knockdown for each stack of Tidal Power. If you have 3 stacks of Tidal Power Water Burst will have a 100% chance to knock the targets into the air. Damage: Moderate, Recharge: Slow"
 set_types:
-- 0
 - 3
 - 13
 - 23
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

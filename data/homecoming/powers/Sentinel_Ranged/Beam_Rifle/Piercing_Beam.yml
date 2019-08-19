@@ -35,9 +35,9 @@ boosts_allowed:
 description_short: Narrow Ranged (Cone), High DMG(Energy), Foes -Res, Special
 description_long: 'You release a supercharged beam in a narrow cone of energy that pierces through up to 3 enemies. Piercing Beam deals High Energy damage and briefly reduces their damage resistance. If a target struck by Piercing Beam is suffering from the Disintegrating effect it will immediately suffer additional damage. Damage: High, Recharge: Long'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 26
 variable_name: ''
 sub_powers: []

@@ -35,9 +35,9 @@ boosts_allowed:
 description_short: Ranged (Cone), Moderate DMG(Psionic), Foe -Recharge
 description_long: 'This howl of Psionic energy resonates in the minds of all foes within its conical area of effect, inflicting moderate damage. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 2
 variable_name: ''
 sub_powers: []

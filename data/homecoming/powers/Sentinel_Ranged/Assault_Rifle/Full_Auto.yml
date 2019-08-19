@@ -35,9 +35,9 @@ boosts_allowed:
 description_short: Ranged (Cone), Superior DMG(Lethal), +Special
 description_long: "Opens up your assault rifle on Full Auto to lay down a massive spray of bullets at your target. Although very slow to reload, damage from this attack is massive, shredding all targets within the narrow cone of effect. There's a chance you may land a lucky shot for extra damage. Damage: Superior(DoT), Recharge: Slow"
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

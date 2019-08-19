@@ -35,10 +35,10 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DMG(Lethal/Smash), Knockback
 description_long: 'Launches a Grenade at long range from beneath the barrel of your Assault Rifle. This explosion affects all within the blast radius, and can knock them back. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 23
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

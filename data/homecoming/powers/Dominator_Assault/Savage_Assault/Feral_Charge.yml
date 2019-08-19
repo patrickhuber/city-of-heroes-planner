@@ -30,10 +30,14 @@ boosts_allowed:
 - Range_Boost
 - Recharge_Boost
 - Taunt_Boost
-description_short: PBAoE, Superior DMG(Lethal), Foe Minor DoT(Lethal), +3 Blood Frenzy, Self Teleport
-description_long: 'You throw yourself at your distant foes while slashing and tearing wildly dealing superior lethal damage and causing your foes to suffer from additional minor lethal damage over time. Savage Leap build 3 stacks of Blood Frenzy. Damage: Superior, Minor DoT, Recharge: Long'
+description_short: High DMG(Lethal), Foe Minor DoT(Lethal), +Blood Frenzy, Self Teleport
+description_long: 'You throw yourself at your target while slashing and tearing wildly dealing moderate lethal damage and it foes to suffer from additional minor lethal damage over time. The damage of this power can increase based on how far away you charge from,  with up to double damage dealt at its strongest. Feral Charge builds 1 stack of Blood Frenzy for every 20 ft in between your target and you, up to 3 stacks. Damage: High, Minor DoT, Recharge: Long'
 set_types:
-- 1
+- 4
+- 20
+- 23
+- 28
+- 38
 - 44
 level: 38
 variable_name: ''
@@ -68,13 +72,13 @@ effects:
 - power_full_name: Dominator_Assault.Savage_Assault.Feral_Charge
   unique_i_d: 2
   effect_type: 38
-  summon: Pets_Savage_Melee_Savage_Leap
-  delayed_time: 0.625
+  summon: Pets_Savage_Assault_Feral_Charge
+  delayed_time: 1
   base_probability: 1
   to_who: 3
   scale: -1
   magnitude: 1
-  duration: 4
+  duration: 3.0999999046325684
   aspect: 4
   modifier_table: Melee_Ones
   u_i_d_class_name: ''

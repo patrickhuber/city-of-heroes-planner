@@ -34,11 +34,11 @@ boosts_allowed:
 description_short: Ranged, Extreme DMG(Energy), Foe Hold, -End
 description_long: 'Tesla Cage inflicts extreme damage and confines the target in an electrical prison. The target is overwhelmed by the electrical charge and is left helpless and can be attacked. The target is drained of some Endurance and some of that Endurance may be transferred back to you. Damage: Extreme, Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 10
 - 22
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

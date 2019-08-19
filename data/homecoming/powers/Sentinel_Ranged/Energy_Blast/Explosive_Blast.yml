@@ -35,10 +35,10 @@ boosts_allowed:
 description_short: Ranged (Targeted AoE), Moderate DMG(Smash/Energy), Foe Knockback
 description_long: 'You hurl a blast of charged energy that violently explodes on impact, damaging all foes near the target. Explosive Blast may knock targets backwards. Damage: Moderate, Recharge: Slow'
 set_types:
-- 0
 - 3
 - 23
 - 44
+- 45
 level: 18
 variable_name: ''
 sub_powers: []

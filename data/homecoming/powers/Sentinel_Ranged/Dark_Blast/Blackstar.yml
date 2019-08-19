@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: PBAoE, Extreme DMG(Negative/Smash), Foe -To Hit
 description_long: "You can unleash a devastating blast of Negative Energy around yourself, dealing massive Negative Energy and Smashing damage and severely reducing affected foes' chance to hit.  Damage: Extreme, Recharge: Very Long"
 set_types:
-- 0
 - 4
 - 26
 - 31
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

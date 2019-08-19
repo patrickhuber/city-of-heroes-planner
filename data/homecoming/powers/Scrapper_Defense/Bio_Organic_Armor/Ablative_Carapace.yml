@@ -79,7 +79,9 @@ effects:
   unique_i_d: 3
   effect_type: 66
   summon: ''
+  base_probability: 1
   buffable: true
+  special_case: 44
   to_who: 2
   scale: 0.090000003576278687
   magnitude: 1
@@ -95,7 +97,9 @@ effects:
   unique_i_d: 4
   effect_type: 66
   summon: ''
+  base_probability: 1
   buffable: true
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1
@@ -131,7 +135,9 @@ effects:
   unique_i_d: 6
   effect_type: 27
   summon: ''
+  base_probability: 1
   buffable: true
+  special_case: 45
   to_who: 2
   scale: 0.30000001192092896
   magnitude: 1

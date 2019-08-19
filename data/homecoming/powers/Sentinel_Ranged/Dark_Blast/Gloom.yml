@@ -33,11 +33,11 @@ boosts_allowed:
 description_short: Ranged, High DoT(Negative), Foe -To Hit
 description_long: 'Gloom slowly drains a target of life, while reducing their chance to hit. Slower than Dark Blast, but deals more damage over time. Damage: High(DoT), Recharge: Moderate'
 set_types:
-- 0
 - 2
 - 26
 - 31
 - 44
+- 45
 level: 1
 variable_name: ''
 sub_powers: []

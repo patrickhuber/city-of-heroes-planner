@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: Very High DMG(Energy), Foe -End
 description_long: 'A focused electrical blast that can be fired off at a quick speed with high Accuracy. Zapping Bolt drains Endurance. Damage: Very High, Recharge: Slow'
 set_types:
-- 0
 - 2
 - 22
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

@@ -10,15 +10,15 @@ class_type: Class_Scrapper
 trunk_set: ''
 link_secondary: ''
 mutually_exclusive_groups:
-- id: 3308
-  name: Scrapper_Melee.Claws
 - id: 3310
+  name: Scrapper_Melee.Claws
+- id: 3312
   name: Scrapper_Melee.Dual_Blades
-- id: 3314
+- id: 3316
   name: Scrapper_Melee.Katana
-- id: 3320
+- id: 3322
   name: Scrapper_Melee.Quills
-- id: 3321
-  name: Scrapper_Melee.Staff_Fighting
 - id: 3323
+  name: Scrapper_Melee.Staff_Fighting
+- id: 3325
   name: Scrapper_Melee.Titan_Weapons

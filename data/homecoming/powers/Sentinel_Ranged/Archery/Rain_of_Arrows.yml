@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged (Location AoE), Extreme DoT(Lethal)
 description_long: 'You unleash a Rain of Arrows on a targeted location, damaging foes within a large area. Damage: Extreme (DoT), Recharge: Long'
 set_types:
-- 0
 - 3
 - 44
+- 45
 level: 32
 variable_name: ''
 sub_powers: []

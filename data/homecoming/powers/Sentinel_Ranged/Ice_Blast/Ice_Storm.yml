@@ -33,10 +33,10 @@ boosts_allowed:
 description_short: Ranged (Location AoE), Minor DoT(Cold, Lethal), Foe -Recharge, -SPD
 description_long: 'Shred your foes with this Ice Storm. This power deals a lot of damage in a large area and can Slow all affected targets movement and attack speed. Damage: Minor(DoT), Recharge: Long'
 set_types:
-- 0
 - 3
 - 13
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

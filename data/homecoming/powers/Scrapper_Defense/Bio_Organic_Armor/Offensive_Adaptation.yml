@@ -34,11 +34,10 @@ variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 10
+display_location: 35
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
-sort_override: true
 effects:
 - power_full_name: Scrapper_Defense.Bio_Organic_Armor.Offensive_Adaptation
   unique_i_d: 1

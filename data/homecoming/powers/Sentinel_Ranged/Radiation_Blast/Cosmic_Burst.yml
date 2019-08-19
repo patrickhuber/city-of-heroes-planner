@@ -34,12 +34,12 @@ boosts_allowed:
 description_short: Extreme DMG(Energy), Foe Disorient, -DEF
 description_long: 'Cosmic Burst smashes the target with cosmic particles. The attack is devastating and can leave most targets Disoriented and with reduced Defense. Damage: Extreme, Recharge: Slow'
 set_types:
-- 0
 - 2
 - 11
 - 21
 - 30
 - 44
+- 45
 level: 6
 variable_name: ''
 sub_powers: []

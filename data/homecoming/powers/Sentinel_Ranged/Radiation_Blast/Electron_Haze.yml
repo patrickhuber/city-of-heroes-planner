@@ -37,12 +37,12 @@ boosts_allowed:
 description_short: Close, Moderate Cone DMG(Energy), Foe -DEF, Knockback
 description_long: "A short range conical blast of free electrons. This attack can bypass some of a target's defenses and reduce the target's Defense. It can also knock some targets down. Damage: Moderate, Recharge: Slow"
 set_types:
-- 0
 - 3
 - 21
 - 23
 - 30
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

@@ -76,6 +76,8 @@ effects:
   unique_i_d: 3
   effect_type: 14
   summon: ''
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.44999998807907104
   magnitude: 1
@@ -110,6 +112,8 @@ effects:
   unique_i_d: 5
   effect_type: 27
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.15000000596046448
   magnitude: 1
@@ -144,6 +148,8 @@ effects:
   unique_i_d: 7
   effect_type: 26
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.10000000149011612
   magnitude: 1

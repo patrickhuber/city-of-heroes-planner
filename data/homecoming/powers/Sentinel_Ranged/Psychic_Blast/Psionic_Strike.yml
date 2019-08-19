@@ -32,9 +32,9 @@ boosts_allowed:
 description_short: Ranged, High DMG(Psionic), Target -Recharge
 description_long: "This extremely accurate attack does moderate Psionic damage and can Slow a target's attack rate. Damage: High,  Recharge: Slow"
 set_types:
-- 0
 - 2
 - 44
+- 45
 level: 12
 variable_name: ''
 sub_powers: []

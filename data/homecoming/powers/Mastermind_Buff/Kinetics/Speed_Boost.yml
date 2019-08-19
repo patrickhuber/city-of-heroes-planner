@@ -1,4 +1,4 @@
-index: 10772
+index: 5651
 full_name: Mastermind_Buff.Kinetics.Speed_Boost
 group_name: Mastermind_Buff
 set_name: Kinetics
@@ -17,7 +17,7 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 50
-endurance_cost: 7.8000001907348633
+endurance_cost: 9.75
 cast_time: 1
 recharge_time: 2
 effect_area: 2

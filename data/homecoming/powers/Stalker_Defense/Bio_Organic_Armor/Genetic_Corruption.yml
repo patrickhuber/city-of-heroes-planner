@@ -52,6 +52,7 @@ effects:
   base_probability: 0.6600000262260437
   buffable: true
   resistible: true
+  special_case: 46
   player_versus_mode: 1
   to_who: 3
   scale: 6
@@ -75,6 +76,7 @@ effects:
   suppression: 31
   buffable: true
   resistible: true
+  special_case: 46
   player_versus_mode: 2
   to_who: 3
   scale: 2
@@ -95,7 +97,9 @@ effects:
   mezmorize_type: 9
   summon: ''
   base_probability: 0.85000002384185791
+  buffable: true
   resistible: true
+  special_case: 46
   player_versus_mode: 1
   to_who: 3
   scale: 6
@@ -117,7 +121,9 @@ effects:
   summon: ''
   base_probability: 0.85000002384185791
   suppression: 31
+  buffable: true
   resistible: true
+  special_case: 46
   player_versus_mode: 2
   to_who: 3
   scale: 2
@@ -136,6 +142,8 @@ effects:
   unique_i_d: 5
   effect_type: 27
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 0.30000001192092896
   magnitude: 1
@@ -153,7 +161,9 @@ effects:
   effect_type: 29
   damage_type: 1
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.75
   magnitude: 1
@@ -170,7 +180,9 @@ effects:
   effect_type: 29
   damage_type: 2
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.75
   magnitude: 1
@@ -187,7 +199,9 @@ effects:
   effect_type: 29
   damage_type: 7
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 0.75
   magnitude: 1
@@ -204,7 +218,9 @@ effects:
   effect_type: 29
   damage_type: 3
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1
@@ -221,7 +237,9 @@ effects:
   effect_type: 29
   damage_type: 4
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1
@@ -238,7 +256,9 @@ effects:
   effect_type: 29
   damage_type: 5
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1
@@ -252,10 +272,12 @@ effects:
   override: ''
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Genetic_Corruption
   unique_i_d: 12
-  effect_type: 14
+  effect_type: 29
   damage_type: 6
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1
@@ -272,7 +294,9 @@ effects:
   effect_type: 29
   damage_type: 8
   summon: ''
+  base_probability: 1
   suppression: 7
+  special_case: 44
   to_who: 2
   scale: 1
   magnitude: 1

@@ -47,7 +47,7 @@ effects:
   to_who: 1
   scale: 40
   magnitude: 1
-  duration: 1
+  duration: 2
   aspect: 2
   modifier_table: Melee_Ones
   u_i_d_class_name: ''

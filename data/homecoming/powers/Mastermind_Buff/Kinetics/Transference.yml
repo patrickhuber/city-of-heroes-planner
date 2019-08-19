@@ -1,4 +1,4 @@
-index: 10774
+index: 5653
 full_name: Mastermind_Buff.Kinetics.Transference
 group_name: Mastermind_Buff
 set_name: Kinetics
@@ -17,7 +17,7 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 2.5999999046325684
+endurance_cost: 3.25
 cast_time: 2.2699999809265137
 recharge_time: 30
 effect_area: 1
@@ -46,7 +46,7 @@ effects:
 - power_full_name: Controller_Buff.Kinetics.Transference
   unique_i_d: 1
   effect_type: 38
-  summon: Pets_Transference_Controller
+  summon: Pets_Transference_Mastermind
   stacking: 1
   base_probability: 1
   to_who: 1

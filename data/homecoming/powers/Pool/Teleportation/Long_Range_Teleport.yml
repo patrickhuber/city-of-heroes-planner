@@ -6,9 +6,7 @@ name: Long_Range_Teleport
 display: Long Range Teleport
 requirement:
   class_names: []
-  class_names_not:
-  - Class_Peacebringer
-  - Class_Warshade
+  class_names_not: []
   power_i_ds:
   - - Pool.Teleportation.Recall_Friend
     - Pool.Teleportation.Teleport_Foe

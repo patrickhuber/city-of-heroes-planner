@@ -84,6 +84,8 @@ effects:
   summon: ''
   delayed_time: 0.25
   stacking: 1
+  base_probability: 1
+  special_case: 44
   to_who: 2
   scale: 0.89999997615814209
   magnitude: 1
@@ -99,6 +101,8 @@ effects:
   unique_i_d: 4
   effect_type: 7
   summon: ''
+  base_probability: 1
+  special_case: 45
   to_who: 2
   scale: 7.5
   magnitude: 1
@@ -116,6 +120,7 @@ effects:
   effect_type: 28
   effect_modifiers: 23
   summon: ''
+  base_probability: 1
   to_who: 2
   scale: 0.60000002384185791
   magnitude: 1
@@ -131,6 +136,7 @@ effects:
   unique_i_d: 6
   effect_type: 23
   summon: ''
+  base_probability: 1
   to_who: 2
   scale: 0.60000002384185791
   magnitude: 1

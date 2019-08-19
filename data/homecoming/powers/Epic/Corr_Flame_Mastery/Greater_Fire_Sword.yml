@@ -8,17 +8,7 @@ requirement:
   class_names:
   - Class_Corruptor
   class_names_not: []
-  power_i_ds:
-  - - Epic.Corr_Flame_Mastery.Consume
-    - Epic.Corr_Flame_Mastery.Char
-  - - Epic.Corr_Flame_Mastery.Consume
-    - Epic.Corr_Flame_Mastery.Fire_Shield
-  - - Epic.Corr_Flame_Mastery.Consume
-    - Epic.Corr_Flame_Mastery.Rise_of_the_Phoenix
-  - - Epic.Corr_Flame_Mastery.Char
-    - Epic.Corr_Flame_Mastery.Fire_Shield
-  - - Epic.Corr_Flame_Mastery.Char
-    - Epic.Corr_Flame_Mastery.Rise_of_the_Phoenix
+  power_i_ds: []
   power_i_ds_not: []
 modes_disallowed: 2
 accuracy: 1.2000000476837158
