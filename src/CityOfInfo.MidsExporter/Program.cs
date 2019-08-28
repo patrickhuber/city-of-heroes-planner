@@ -23,7 +23,7 @@ namespace CityOfInfo.MidsExporter
 
         private static void Export(ExportOptions options)
         {
-            // ExportIssue12Database(options);
+            ExportIssue12Database(options);
             ExportEnhancementDatabase(options);
         }
 
