@@ -1,4 +1,4 @@
-# City of Heroes Planner
+# City of Heroes Info
 
 ## Status
 
@@ -6,5 +6,5 @@
 
 ## Description
 
-A responesive web based planner for city of heroes
+A set of data exports from the mids reborn planner. 
 

@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{21DF6911-6888-4ECA-B784-D20825E47A11}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-		azure-pipelines.yml = azure-pipelines.yml
-		LICENSE = LICENSE
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityOfInfo.Data.AzureTables", "CityOfInfo.Data.AzureTables\CityOfInfo.Data.AzureTables.csproj", "{FB16CD33-6D1B-460D-8076-41ED4B9AB766}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityOfInfo.Data.Mids", "CityOfInfo.Data.Mids\CityOfInfo.Data.Mids.csproj", "{D5523764-CAB0-4479-A0C9-B3BE90E67F19}"
