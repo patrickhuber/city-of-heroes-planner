@@ -1,0 +1,20 @@
+index: 586
+name: Stun
+short_name: Stun
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 126
+enhancement_set_name: Absolute_Amazement
+image: sAbsoluteAmazement.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 1
+unique_identifier: Crafted_Absolute_Amazement_A
+recipe: Absolute_Amazement_A
+superior: true

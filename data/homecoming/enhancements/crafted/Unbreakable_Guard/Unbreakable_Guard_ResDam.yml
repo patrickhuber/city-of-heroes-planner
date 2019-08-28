@@ -1,0 +1,19 @@
+index: 1012
+name: Resistance
+short_name: ResDam
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 175
+enhancement_set_name: Unbreakable_Guard
+image: UnbreakableGuard.png
+effect_chance: 1
+level_min: 19
+level_max: 49
+effects:
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Unbreakable_Guard_A
+recipe: Unbreakable_Guard_A

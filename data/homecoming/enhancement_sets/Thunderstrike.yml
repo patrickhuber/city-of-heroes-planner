@@ -1,0 +1,65 @@
+display_name: Thunderstrike
+short_name: Thn
+string_id: Thunderstrike
+description: ''
+set_type: 2
+image: sThunderstrike.png
+min_level: 29
+max_level: 49
+enhancements:
+- 157
+- 158
+- 159
+- 160
+- 161
+- 162
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7958
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8049
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7815
+    name: Set_Bonus.Set_Bonus.Accuracy_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8140
+    name: Set_Bonus.Set_Bonus.Increased_Move_3
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8196
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

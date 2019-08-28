@@ -1,0 +1,23 @@
+index: 954
+name: Endurance/Recharge
+short_name: EndRdx/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 165
+enhancement_set_name: Superior_Ascendency_of_the_Dominator
+image: SAO_Dominator1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 4
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Superior_Attuned_Superior_Ascendency_of_the_Dominator_C
+recipe: Alt
+superior: true

@@ -1,0 +1,25 @@
+index: 206
+name: Accuracy/Range/Recharge
+short_name: Acc/Rng/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 31
+enhancement_set_name: Extreme_Measures
+image: sExtremeMeasures.png
+effect_chance: 1
+level_min: 34
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 13
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Extreme_Measures_F
+recipe: Extreme_Measures_F

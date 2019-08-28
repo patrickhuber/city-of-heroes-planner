@@ -1,0 +1,65 @@
+display_name: Performance Shifter
+short_name: PrfShf
+string_id: Performance_Shifter
+description: ''
+set_type: 22
+image: sPerformanceSHift.png
+min_level: 20
+max_level: 49
+enhancements:
+- 658
+- 659
+- 660
+- 661
+- 662
+- 663
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8141
+    name: Set_Bonus.Set_Bonus.Increased_Move_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7959
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8029
+    name: Set_Bonus.Set_Bonus.Increased_Damage_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8008
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

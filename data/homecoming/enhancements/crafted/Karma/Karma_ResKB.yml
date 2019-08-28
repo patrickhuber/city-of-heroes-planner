@@ -1,0 +1,15 @@
+index: 248
+name: Knockback Protection
+short_name: ResKB
+description: Knockback Protection (Mag -4)
+type_id: 4
+class_ids: []
+enhancement_set_id: 39
+enhancement_set_name: Karma
+image: sKarma.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects: []
+unique_identifier: Crafted_Karma_C
+recipe: Karma_C

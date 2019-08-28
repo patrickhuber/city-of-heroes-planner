@@ -1,0 +1,30 @@
+index: 528
+name: Anti-Protons
+short_name: AntiP
+description: Enhances Defense & ToHit Debuffs, and Endurance Reduction
+type_id: 3
+sub_type_id: 2
+class_ids:
+- 5
+- 7
+- 25
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HYAntiProton.png
+effect_chance: 1
+level_max: 52
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.75
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.75
+unique_identifier: Hydra_DeBuff_Endurance_Discount
+recipe: ''

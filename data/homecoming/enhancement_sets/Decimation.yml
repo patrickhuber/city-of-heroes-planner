@@ -1,0 +1,65 @@
+display_name: Decimation
+short_name: Dcm
+string_id: Decimation
+description: ''
+set_type: 2
+image: sDecimation.png
+min_level: 24
+max_level: 39
+enhancements:
+- 151
+- 152
+- 153
+- 154
+- 155
+- 156
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7868
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8097
+    name: Set_Bonus.Set_Bonus.Increased_Health_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8036
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

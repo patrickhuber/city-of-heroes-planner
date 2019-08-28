@@ -1,0 +1,25 @@
+index: 888
+name: Accuracy/Damage/Recharge
+short_name: Acc/Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 154
+enhancement_set_name: Command_of_the_Mastermind
+image: AO_Mastermind1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 4
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Attuned_Command_of_the_Mastermind_C
+recipe: Alt

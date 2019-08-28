@@ -1,0 +1,44 @@
+display_name: Soaring
+short_name: Srn
+string_id: Soaring
+description: ''
+set_type: 17
+image: sSoaring.png
+min_level: 14
+max_level: 49
+enhancements:
+- 504
+- 505
+- 506
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7956
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

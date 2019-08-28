@@ -1,0 +1,21 @@
+index: 809
+name: Accuracy/Damage
+short_name: Acc/Dmg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 144
+enhancement_set_name: Gladiators_Javelin
+image: sGladiatorsJavelin.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Gladiators_Javelin_A
+recipe: Gladiators_Javelin_A

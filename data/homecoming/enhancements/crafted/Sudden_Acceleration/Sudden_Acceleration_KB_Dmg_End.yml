@@ -1,0 +1,25 @@
+index: 1248
+name: Knockback/Damage/Endurance
+short_name: KB/Dmg/End
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 214
+enhancement_set_name: Sudden_Acceleration
+image: IO_SuddenAcceleration.png
+effect_chance: 1
+level_min: 20
+level_max: 49
+effects:
+- i_d: 12
+  sub_i_d: 4
+  schedule: 3
+  multiplier: 0.5
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 5
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Sudden_Acceleration_C
+recipe: ''

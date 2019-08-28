@@ -1,0 +1,32 @@
+index: 58
+name: Membrane Exposure
+short_name: Membr
+description: Enhances Recharge, Defense & ToHit Buffs
+type_id: 3
+sub_type_id: 1
+class_ids:
+- 4
+- 17
+- 24
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HOMembrane.png
+effect_chance: 1
+level_max: 52
+buff_mode: 1
+effects:
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 1
+- buff_mode: 1
+  i_d: 3
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+- buff_mode: 1
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Hamidon_Buff_Recharge
+recipe: ''

@@ -1,0 +1,24 @@
+index: 450
+name: Accuracy/Sleep/Recharge
+short_name: Acc/Sleep/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 77
+enhancement_set_name: Lethargic_Repose
+image: sLethargicRepose.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Lethargic_Repose_E
+recipe: Lethargic_Repose_E

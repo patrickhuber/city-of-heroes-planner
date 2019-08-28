@@ -1,0 +1,25 @@
+index: 1016
+name: Resistance/Endurance/RechargeTime
+short_name: ResDam/EndRdx/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 175
+enhancement_set_name: Unbreakable_Guard
+image: UnbreakableGuard.png
+effect_chance: 1
+level_min: 19
+level_max: 49
+effects:
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.5
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Unbreakable_Guard_E
+recipe: Unbreakable_Guard_E

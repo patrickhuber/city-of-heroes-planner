@@ -1,0 +1,26 @@
+index: 582
+name: Accuracy/Hold/Recharge
+short_name: Acc/Hold/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 124
+enhancement_set_name: Unbreakable_Constraint
+image: sUnbreakableConstraint.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Unbreakable_Constraint_C
+recipe: Unbreakable_Constraint_C
+superior: true

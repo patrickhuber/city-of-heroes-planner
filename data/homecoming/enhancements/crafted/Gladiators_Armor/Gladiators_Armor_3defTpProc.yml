@@ -1,0 +1,16 @@
+index: 818
+name: TP Protection +3% Def (All)
+short_name: 3defTpProc
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 143
+enhancement_set_name: Gladiators_Armor
+image: sGladiatorsArmor.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+unique: true
+effects: []
+unique_identifier: Crafted_Gladiators_Armor_F
+recipe: Gladiators_Armor_F

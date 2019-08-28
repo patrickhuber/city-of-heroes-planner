@@ -1,0 +1,51 @@
+display_name: Unquestioning Loyalty
+short_name: UnqLyl
+string_id: Unquestioning_Loyalty
+description: ''
+set_type: 6
+image: sUnquestioningLoyalty.png
+min_level: 9
+max_level: 29
+enhancements:
+- 213
+- 214
+- 215
+- 216
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7892
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8033
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

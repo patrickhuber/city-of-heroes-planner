@@ -1,0 +1,65 @@
+display_name: Superior Winter's Bite
+short_name: SprWntBit
+string_id: Superior_Winters_Bite
+description: ''
+set_type: 2
+image: SEO_WintersBite.png
+min_level: 49
+max_level: 49
+enhancements:
+- 1192
+- 1193
+- 1194
+- 1195
+- 1196
+- 1197
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7898
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8298
+    name: Set_Bonus.Set_Bonus.Slow_Resist_5
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7962
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8053
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8067
+    name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

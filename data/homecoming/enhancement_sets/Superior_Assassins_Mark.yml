@@ -1,0 +1,65 @@
+display_name: Superior Assassin's Mark
+short_name: SprAssMar
+string_id: Superior_Assassins_Mark
+description: ''
+set_type: 42
+image: SAO_Stalker2.png
+min_level: 49
+max_level: 49
+enhancements:
+- 1144
+- 1145
+- 1146
+- 1147
+- 1148
+- 1149
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7962
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7819
+    name: Set_Bonus.Set_Bonus.Accuracy_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8011
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8032
+    name: Set_Bonus.Set_Bonus.Increased_Damage_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

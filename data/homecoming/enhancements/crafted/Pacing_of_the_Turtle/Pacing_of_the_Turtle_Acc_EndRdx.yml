@@ -1,0 +1,21 @@
+index: 431
+name: Accuracy/Endurance
+short_name: Acc/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 74
+enhancement_set_name: Pacing_of_the_Turtle
+image: sPacingOfTheTurtle.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Pacing_of_the_Turtle_C
+recipe: Pacing_of_the_Turtle_C

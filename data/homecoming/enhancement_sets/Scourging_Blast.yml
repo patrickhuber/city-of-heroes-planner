@@ -1,0 +1,65 @@
+display_name: Scourging Blast
+short_name: ScrBls
+string_id: Scourging_Blast
+description: ''
+set_type: 36
+image: AO_Corruptor2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1054
+- 1055
+- 1056
+- 1057
+- 1058
+- 1059
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8035
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7817
+    name: Set_Bonus.Set_Bonus.Accuracy_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7960
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8009
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

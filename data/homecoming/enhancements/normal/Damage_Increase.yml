@@ -1,0 +1,18 @@
+index: 3
+name: Damage Increase
+short_name: Dmg
+description: Increases the Damage done by a power.
+type_id: 1
+class_ids:
+- 3
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Damage.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Magic_Damage
+recipe: Ticket_Magic

@@ -1,0 +1,18 @@
+index: 622
+name: Taunt
+short_name: Taunt
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 110
+enhancement_set_name: Perfect_Zinger
+image: sPerfectZinger.png
+effect_chance: 1
+level_min: 20
+level_max: 52
+effects:
+- i_d: 12
+  sub_i_d: 11
+  multiplier: 1
+unique_identifier: Crafted_Perfect_Zinger_A
+recipe: Perfect_Zinger_A

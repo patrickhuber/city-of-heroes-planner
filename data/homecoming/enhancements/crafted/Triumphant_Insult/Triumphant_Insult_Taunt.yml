@@ -1,0 +1,18 @@
+index: 613
+name: Taunt
+short_name: Taunt
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 108
+enhancement_set_name: Triumphant_Insult
+image: sTriumphantInsult.png
+effect_chance: 1
+level_min: 9
+level_max: 19
+effects:
+- i_d: 12
+  sub_i_d: 11
+  multiplier: 1
+unique_identifier: Crafted_Triumphant_Insult_A
+recipe: Triumphant_Insult_A

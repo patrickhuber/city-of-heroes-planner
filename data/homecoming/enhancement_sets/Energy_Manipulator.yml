@@ -1,0 +1,44 @@
+display_name: Energy Manipulator
+short_name: EnrMnp
+string_id: Energy_Manipulator
+description: ''
+set_type: 22
+image: sEnergyManip.png
+min_level: 9
+max_level: 19
+enhancements:
+- 649
+- 650
+- 651
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7957
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7964
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

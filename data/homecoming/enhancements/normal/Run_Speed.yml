@@ -1,0 +1,18 @@
+index: 19
+name: Run Speed
+short_name: Run
+description: Increases the speed of a run power.
+type_id: 1
+class_ids:
+- 19
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Run.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 19
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Magic_Run
+recipe: Ticket_Magic

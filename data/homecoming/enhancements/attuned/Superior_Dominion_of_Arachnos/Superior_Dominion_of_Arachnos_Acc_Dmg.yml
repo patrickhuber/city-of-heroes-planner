@@ -1,0 +1,23 @@
+index: 916
+name: Accuracy/Damage
+short_name: Acc/Dmg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 159
+enhancement_set_name: Superior_Dominion_of_Arachnos
+image: SAO_Arachnos1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 2
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Superior_Attuned_Superior_Dominion_of_Arachnos_A
+recipe: Alt
+superior: true

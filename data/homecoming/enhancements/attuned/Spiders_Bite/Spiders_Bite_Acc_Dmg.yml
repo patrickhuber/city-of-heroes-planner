@@ -1,0 +1,21 @@
+index: 1126
+name: Accuracy/Damage
+short_name: Acc/Dmg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 194
+enhancement_set_name: Spiders_Bite
+image: AO_Arachnos2.png
+effect_chance: 1
+level_max: -1
+unique: true
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Attuned_Spiders_Bite_A
+recipe: Alt

@@ -1,0 +1,24 @@
+index: 755
+name: Endurance/Damage/Recharge
+short_name: EndRdx/Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 130
+enhancement_set_name: Expedient_Reinforcement
+image: ExpedientReinforcement.png
+effect_chance: 1
+level_min: 29
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Expedient_Reinforcement_E
+recipe: Expedient_Reinforcement_E

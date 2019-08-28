@@ -1,0 +1,21 @@
+index: 6
+name: Endurance Modification
+short_name: EndMod
+description: Enhances Endurance Drain or Recovery powers.
+type_id: 1
+class_ids:
+- 6
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: EndMod.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 5
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 16
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Magic_Recovery
+recipe: Ticket_Magic

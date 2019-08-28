@@ -1,0 +1,21 @@
+index: 518
+name: Endurance/RunSpeed
+short_name: EndRdx/RunSpd
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 91
+enhancement_set_name: Quickfoot
+image: sQuickfoot.png
+effect_chance: 1
+level_min: 14
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 19
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Quickfoot_C
+recipe: Quickfoot_C

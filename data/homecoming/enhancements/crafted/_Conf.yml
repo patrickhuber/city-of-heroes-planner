@@ -1,0 +1,19 @@
+index: 28
+name: Confuse Duration
+short_name: Conf
+description: Increasees the duration of a Confuse power.
+type_id: 2
+class_ids:
+- 2
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Confuse.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 1
+unique_identifier: Crafted_Confuse
+recipe: Invention_Confuse

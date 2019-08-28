@@ -1,0 +1,65 @@
+display_name: Blood Mandate
+short_name: BldMnd
+string_id: Blood_Mandate
+description: ''
+set_type: 6
+image: sBloodMandate.png
+min_level: 24
+max_level: 49
+enhancements:
+- 234
+- 235
+- 236
+- 237
+- 238
+- 239
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7957
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8062
+    name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7893
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8009
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8198
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

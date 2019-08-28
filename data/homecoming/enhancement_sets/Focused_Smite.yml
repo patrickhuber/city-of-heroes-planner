@@ -1,0 +1,58 @@
+display_name: Focused Smite
+short_name: FcsSmt
+string_id: Focused_Smite
+description: ''
+set_type: 1
+image: sFocusedSmite.png
+min_level: 24
+max_level: 39
+enhancements:
+- 85
+- 86
+- 87
+- 88
+- 89
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7892
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8332
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8034
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8139
+    name: Set_Bonus.Set_Bonus.Increased_Move_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

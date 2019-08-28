@@ -1,0 +1,24 @@
+index: 364
+name: Accuracy/Hold/Recharge
+short_name: Acc/Hold/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 61
+enhancement_set_name: Ghost_Widows_Embrace
+image: sGhostWidowsEmbrace.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Ghost_Widows_Embrace_E
+recipe: Ghost_Widows_Embrace_E

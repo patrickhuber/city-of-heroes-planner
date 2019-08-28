@@ -1,0 +1,44 @@
+display_name: Adrenal Adjustment
+short_name: AdrAdj
+string_id: Adrenal_Adjustment
+description: ''
+set_type: 22
+image: sAdrenalAdj.png
+min_level: 9
+max_level: 19
+enhancements:
+- 646
+- 647
+- 648
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7956
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8097
+    name: Set_Bonus.Set_Bonus.Increased_Health_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

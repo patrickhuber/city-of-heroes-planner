@@ -1,0 +1,67 @@
+display_name: Superior Scrapper's Strike
+short_name: SprScrStr
+string_id: Superior_Scrappers_Strike
+description: ''
+set_type: 41
+image: SAO_Scrapper1.png
+min_level: 49
+max_level: 49
+enhancements:
+- 970
+- 971
+- 972
+- 973
+- 974
+- 975
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8102
+    name: Set_Bonus.Set_Bonus.Increased_Health_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8123
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8032
+    name: Set_Bonus.Set_Bonus.Increased_Damage_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8264
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 5
+  alternate_string: ''
+  entities:
+  - id: 8257
+    name: Set_Bonus.Set_Bonus.Large_Critical_Hit_Bonus

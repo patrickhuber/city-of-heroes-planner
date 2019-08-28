@@ -1,0 +1,44 @@
+display_name: Explosive Strike
+short_name: ExpStr
+string_id: Explosive_Strike
+description: ''
+set_type: 23
+image: sExplosiveStrike.png
+min_level: 9
+max_level: 19
+enhancements:
+- 631
+- 632
+- 633
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8027
+    name: Set_Bonus.Set_Bonus.Increased_Damage_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8195
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

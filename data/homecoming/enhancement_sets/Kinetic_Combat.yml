@@ -1,0 +1,58 @@
+display_name: Kinetic Combat
+short_name: KntCmb
+string_id: Kinetic_Combat
+description: ''
+set_type: 1
+image: sKineticCombat.png
+min_level: 19
+max_level: 34
+enhancements:
+- 80
+- 81
+- 82
+- 83
+- 84
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7892
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8121
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8141
+    name: Set_Bonus.Set_Bonus.Increased_Move_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

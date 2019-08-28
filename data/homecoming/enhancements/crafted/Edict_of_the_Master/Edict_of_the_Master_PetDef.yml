@@ -1,0 +1,16 @@
+index: 233
+name: Defense Bonus
+short_name: PetDef
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 36
+enhancement_set_name: Edict_of_the_Master
+image: sEdictOfTheMaster.png
+effect_chance: 1
+level_min: 14
+level_max: 39
+unique: true
+effects: []
+unique_identifier: Crafted_Edict_of_the_Master_F
+recipe: Edict_of_the_Master_F

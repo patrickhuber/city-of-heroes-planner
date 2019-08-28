@@ -1,0 +1,23 @@
+index: 1216
+name: Accuracy/Hold
+short_name: Acc/Hold
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 209
+enhancement_set_name: Superior_Entomb
+image: SEO_Entomb.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.625
+unique_identifier: Superior_Attuned_Entomb_A
+recipe: Alt
+superior: true

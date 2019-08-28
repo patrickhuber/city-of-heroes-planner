@@ -1,0 +1,65 @@
+display_name: Siphon Insight
+short_name: SphIns
+string_id: Siphon_Insight
+description: ''
+set_type: 31
+image: SiphonInsight.png
+min_level: 29
+max_level: 49
+enhancements:
+- 775
+- 776
+- 777
+- 778
+- 779
+- 780
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8140
+    name: Set_Bonus.Set_Bonus.Increased_Move_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7958
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7816
+    name: Set_Bonus.Set_Bonus.Accuracy_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8121
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8009
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

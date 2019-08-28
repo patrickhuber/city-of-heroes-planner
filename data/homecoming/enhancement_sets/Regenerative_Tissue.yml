@@ -1,0 +1,58 @@
+display_name: Regenerative Tissue
+short_name: RgnTss
+string_id: Regenerative_Tissue
+description: ''
+set_type: 9
+image: sRegenerativeTissue.png
+min_level: 9
+max_level: 29
+enhancements:
+- 314
+- 315
+- 316
+- 317
+- 318
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8140
+    name: Set_Bonus.Set_Bonus.Increased_Move_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7937
+    name: Set_Bonus.Set_Bonus.Improved_Heal_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7951
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

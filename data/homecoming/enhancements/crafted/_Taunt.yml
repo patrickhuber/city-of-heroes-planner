@@ -1,0 +1,19 @@
+index: 49
+name: Taunt Duration
+short_name: Taunt
+description: Increases the duration a taunted target will stay on you.
+type_id: 2
+class_ids:
+- 23
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Taunt.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 12
+  sub_i_d: 11
+  multiplier: 1
+unique_identifier: Crafted_Taunt
+recipe: Invention_Taunt

@@ -1,0 +1,18 @@
+index: 523
+name: Endurance
+short_name: EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 93
+enhancement_set_name: Jaunt
+image: sJaunt.png
+effect_chance: 1
+level_min: 14
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Jaunt_B
+recipe: Jaunt_B

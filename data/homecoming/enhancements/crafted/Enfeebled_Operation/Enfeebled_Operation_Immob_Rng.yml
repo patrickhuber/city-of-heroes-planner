@@ -1,0 +1,22 @@
+index: 403
+name: Immobilize/Range
+short_name: Immob/Rng
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 69
+enhancement_set_name: Enfeebled_Operation
+image: sEnfeebledOperation.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.625
+- i_d: 13
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Enfeebled_Operation_D
+recipe: Enfeebled_Operation_D

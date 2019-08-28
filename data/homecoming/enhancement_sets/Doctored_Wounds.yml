@@ -1,0 +1,65 @@
+display_name: Doctored Wounds
+short_name: DctWnd
+string_id: Doctored_Wounds
+description: ''
+set_type: 9
+image: sDoctoredWounds.png
+min_level: 29
+max_level: 49
+enhancements:
+- 331
+- 332
+- 333
+- 334
+- 335
+- 336
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8258
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7892
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7937
+    name: Set_Bonus.Set_Bonus.Improved_Heal_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7951
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8335
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

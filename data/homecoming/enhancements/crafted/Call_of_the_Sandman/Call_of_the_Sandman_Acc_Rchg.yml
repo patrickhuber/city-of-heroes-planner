@@ -1,0 +1,21 @@
+index: 452
+name: Accuracy/Recharge
+short_name: Acc/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 78
+enhancement_set_name: Call_of_the_Sandman
+image: sCallOfTheSandman.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Call_of_the_Sandman_A
+recipe: Call_of_the_Sandman_A

@@ -1,0 +1,25 @@
+index: 852
+name: Accuracy/Damage/Recharge
+short_name: Acc/Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 148
+enhancement_set_name: Blasters_Wrath
+image: AO_Blaster1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 4
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Attuned_Blasters_Wrath_C
+recipe: Alt

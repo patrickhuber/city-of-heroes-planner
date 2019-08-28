@@ -1,0 +1,67 @@
+display_name: Expedient Reinforcement
+short_name: ExpRnf
+string_id: Expedient_Reinforcement
+description: ''
+set_type: 27
+image: ExpedientReinforcement.png
+min_level: 29
+max_level: 49
+enhancements:
+- 751
+- 752
+- 753
+- 754
+- 755
+- 756
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7868
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8030
+    name: Set_Bonus.Set_Bonus.Increased_Damage_5
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7966
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8197
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 5
+  alternate_string: ''
+  entities:
+  - id: 7877
+    name: Set_Bonus.Set_Bonus.Expedient_Reinforcement

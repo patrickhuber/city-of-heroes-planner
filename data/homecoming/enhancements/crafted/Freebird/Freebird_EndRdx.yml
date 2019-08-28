@@ -1,0 +1,18 @@
+index: 507
+name: Endurance
+short_name: EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 88
+enhancement_set_name: Freebird
+image: sFreeBird.png
+effect_chance: 1
+level_min: 14
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Freebird_A
+recipe: Freebird_A

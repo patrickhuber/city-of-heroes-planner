@@ -1,0 +1,25 @@
+index: 1146
+name: Accuracy/Damage/RechargeTime
+short_name: Acc/Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 197
+enhancement_set_name: Superior_Assassins_Mark
+image: SAO_Stalker2.png
+effect_chance: 1
+level_max: -1
+unique: true
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Superior_Attuned_Superior_Assassins_Mark_C
+recipe: Alt
+superior: true

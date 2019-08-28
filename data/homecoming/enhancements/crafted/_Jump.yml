@@ -1,0 +1,22 @@
+index: 40
+name: Jumping
+short_name: Jump
+description: Increases the distance of a jump power.
+type_id: 2
+class_ids:
+- 14
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Jump.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 10
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 11
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Jump
+recipe: Invention_Jump

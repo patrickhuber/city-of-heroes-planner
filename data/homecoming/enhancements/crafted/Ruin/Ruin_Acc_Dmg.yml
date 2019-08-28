@@ -1,0 +1,21 @@
+index: 146
+name: Accuracy/Damage
+short_name: Acc/Dmg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 21
+enhancement_set_name: Ruin
+image: sRuin.png
+effect_chance: 1
+level_min: 24
+level_max: 39
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Ruin_A
+recipe: Ruin_A

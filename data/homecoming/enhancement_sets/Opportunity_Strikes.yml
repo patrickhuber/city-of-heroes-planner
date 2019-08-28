@@ -1,0 +1,65 @@
+display_name: Opportunity Strikes
+short_name: OppStr
+string_id: Opportunity_Strikes
+description: ''
+set_type: 45
+image: AO_Sentinel2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1234
+- 1235
+- 1236
+- 1237
+- 1238
+- 1239
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8202
+    name: Set_Bonus.Set_Bonus.Increased_Range_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8036
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8030
+    name: Set_Bonus.Set_Bonus.Increased_Damage_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7953
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8051
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

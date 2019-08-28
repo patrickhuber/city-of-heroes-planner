@@ -1,0 +1,65 @@
+display_name: Stalker's Guile
+short_name: StlGl
+string_id: Stalkers_Guile
+description: ''
+set_type: 42
+image: AO_Stalker1.png
+min_level: 9
+max_level: 49
+enhancements:
+- 898
+- 899
+- 900
+- 901
+- 902
+- 903
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7815
+    name: Set_Bonus.Set_Bonus.Accuracy_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8119
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8029
+    name: Set_Bonus.Set_Bonus.Increased_Damage_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7954
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_6
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8263
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_6
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

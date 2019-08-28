@@ -1,0 +1,46 @@
+display_name: Blessing of the Zephyr
+short_name: BlsoftheZ
+string_id: Blessing_of_the_Zephyr
+description: ''
+set_type: 28
+image: Zephyr.png
+min_level: 9
+max_level: 49
+enhancements:
+- 730
+- 731
+- 732
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8194
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8006
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 2
+  alternate_string: ''
+  entities:
+  - id: 7829
+    name: Set_Bonus.Set_Bonus.Blessing_of_the_Zephyr
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

@@ -1,0 +1,58 @@
+display_name: Paralytic
+short_name: Prl
+string_id: Paralytic
+description: ''
+set_type: 10
+image: sParalytic.png
+min_level: 9
+max_level: 29
+enhancements:
+- 343
+- 344
+- 345
+- 346
+- 347
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7956
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7868
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8033
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_1
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7905
+    name: Set_Bonus.Set_Bonus.Hold_Dur_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

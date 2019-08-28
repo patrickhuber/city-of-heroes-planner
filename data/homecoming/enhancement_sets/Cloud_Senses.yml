@@ -1,0 +1,65 @@
+display_name: Cloud Senses
+short_name: CldSns
+string_id: Cloud_Senses
+description: ''
+set_type: 31
+image: CloudSenses.png
+min_level: 9
+max_level: 29
+enhancements:
+- 739
+- 740
+- 741
+- 742
+- 743
+- 744
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7869
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8036
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8141
+    name: Set_Bonus.Set_Bonus.Increased_Move_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8198
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

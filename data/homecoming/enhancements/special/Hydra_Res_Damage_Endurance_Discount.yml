@@ -1,0 +1,24 @@
+index: 530
+name: Electron Particles
+short_name: ElectP
+description: Enhances Damage Resistance and Endurance
+type_id: 3
+sub_type_id: 2
+class_ids:
+- 7
+- 18
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HYElectron.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 5
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.75
+unique_identifier: Hydra_Res_Damage_Endurance_Discount
+recipe: ''

@@ -1,0 +1,19 @@
+index: 29
+name: Damage Increase
+short_name: Dmg
+description: Increases the Damage done by a power.
+type_id: 2
+class_ids:
+- 3
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Damage.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Damage
+recipe: Invention_Damage

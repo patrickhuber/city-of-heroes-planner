@@ -1,0 +1,65 @@
+display_name: Brilliant Leadership
+short_name: BrlLdr
+string_id: Brilliant_Leadership
+description: ''
+set_type: 6
+image: sBrilliantLeadership.png
+min_level: 14
+max_level: 39
+enhancements:
+- 222
+- 223
+- 224
+- 225
+- 226
+- 227
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7963
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7834
+    name: Set_Bonus.Set_Bonus.Confuse_Dur_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8259
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8138
+    name: Set_Bonus.Set_Bonus.Increased_Move_1
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

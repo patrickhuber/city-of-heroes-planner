@@ -1,0 +1,24 @@
+index: 387
+name: Accuracy/Stun/Recharge
+short_name: Acc/Stun/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 66
+enhancement_set_name: Stupefy
+image: sStupefy.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Stupefy_E
+recipe: Stupefy_E

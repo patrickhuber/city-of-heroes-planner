@@ -1,0 +1,40 @@
+index: 873
+name: Recharge/Chance for Negative Energy Damage
+short_name: Rchg/Dmg%
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 151
+enhancement_set_name: Malice_of_the_Corruptor
+image: AO_Corruptor1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 7
+effects:
+- mode: 1
+  i_d: -1
+  sub_i_d: -1
+  multiplier: 1
+  effect: &o0
+    power_full_name: ''
+    effect_type: 3
+    damage_type: 6
+    summon: ''
+    base_probability: 0.15000000596046448
+    buffable: true
+    resistible: true
+    aspect: 3
+    modifier_table: Melee_Ones
+    u_i_d_class_name: ''
+    i_d_class_name: -1
+    magnitude_expression: ''
+    reward: ''
+    effect_id: Ones
+    override: ''
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.4375
+  effect: *o0
+unique_identifier: Attuned_Malice_of_the_Corruptor_F
+recipe: Alt

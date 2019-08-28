@@ -1,0 +1,23 @@
+index: 15
+name: Knockback Distance
+short_name: KBDist
+description: Increases the knockback and knockup distance.
+type_id: 1
+class_ids:
+- 15
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Knock.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 12
+  sub_i_d: 4
+  schedule: 3
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 5
+  schedule: 3
+  multiplier: 1
+unique_identifier: Magic_Knockback
+recipe: Ticket_Magic

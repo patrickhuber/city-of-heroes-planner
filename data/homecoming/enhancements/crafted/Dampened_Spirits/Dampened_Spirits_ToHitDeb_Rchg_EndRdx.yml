@@ -1,0 +1,26 @@
+index: 690
+name: To Hit Debuff/Recharge/Endurance
+short_name: ToHitDeb/Rchg/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 117
+enhancement_set_name: Dampened_Spirits
+image: sDampenedSpirits.png
+effect_chance: 1
+level_min: 20
+level_max: 52
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Dampened_Spirits_C
+recipe: Dampened_Spirits_C

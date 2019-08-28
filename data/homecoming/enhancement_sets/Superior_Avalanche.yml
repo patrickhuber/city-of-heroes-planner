@@ -1,0 +1,65 @@
+display_name: Superior Avalanche
+short_name: SprAvl
+string_id: Superior_Avalanche
+description: ''
+set_type: 4
+image: SEO_Avalanche.png
+min_level: 49
+max_level: 49
+enhancements:
+- 1180
+- 1181
+- 1182
+- 1183
+- 1184
+- 1185
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8298
+    name: Set_Bonus.Set_Bonus.Slow_Resist_5
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7898
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7962
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8137
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8067
+    name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

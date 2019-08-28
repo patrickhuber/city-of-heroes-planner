@@ -1,0 +1,75 @@
+display_name: Dominating Grasp
+short_name: DmnGrs
+string_id: Dominating_Grasp
+description: ''
+set_type: 38
+image: AO_Dominator2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1078
+- 1079
+- 1080
+- 1081
+- 1082
+- 1083
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7923
+    name: Set_Bonus.Set_Bonus.Immob_Dur_5
+  - id: 8284
+    name: Set_Bonus.Set_Bonus.Sleep_Dur_5
+  - id: 7882
+    name: Set_Bonus.Set_Bonus.Fear_Dur_5
+  - id: 7838
+    name: Set_Bonus.Set_Bonus.Confuse_Dur_5
+  - id: 7909
+    name: Set_Bonus.Set_Bonus.Hold_Dur_5
+  - id: 8309
+    name: Set_Bonus.Set_Bonus.Stun_Dur_5
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8263
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_6
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7960
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8051
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

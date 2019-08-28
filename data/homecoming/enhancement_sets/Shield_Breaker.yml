@@ -1,0 +1,65 @@
+display_name: Shield Breaker
+short_name: ShlBrk
+string_id: Shield_Breaker
+description: ''
+set_type: 30
+image: ShieldBreaker.png
+min_level: 9
+max_level: 29
+enhancements:
+- 769
+- 770
+- 771
+- 772
+- 773
+- 774
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7959
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8259
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8007
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7817
+    name: Set_Bonus.Set_Bonus.Accuracy_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8134
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

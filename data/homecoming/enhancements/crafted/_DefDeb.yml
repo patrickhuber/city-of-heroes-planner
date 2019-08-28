@@ -1,0 +1,21 @@
+index: 31
+name: Defense Debuff
+short_name: DefDeb
+description: Enhances the effectiveness of defense debuffs.
+type_id: 2
+class_ids:
+- 5
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: DefDebuff.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+buff_mode: 2
+effects:
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Defense_DeBuff
+recipe: Invention_Defense_DeBuff

@@ -1,0 +1,21 @@
+index: 1138
+name: Accuracy/Damage
+short_name: Acc/Dmg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 196
+enhancement_set_name: Assassins_Mark
+image: AO_Stalker2.png
+effect_chance: 1
+level_max: -1
+unique: true
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Attuned_Assassins_Mark_A
+recipe: Alt

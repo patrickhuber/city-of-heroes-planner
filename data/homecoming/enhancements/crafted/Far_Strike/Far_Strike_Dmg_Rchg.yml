@@ -1,0 +1,21 @@
+index: 125
+name: Damage/Recharge
+short_name: Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 15
+enhancement_set_name: Far_Strike
+image: sFarStrike.png
+effect_chance: 1
+level_min: 9
+level_max: 24
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Far_Strike_B
+recipe: Far_Strike_B

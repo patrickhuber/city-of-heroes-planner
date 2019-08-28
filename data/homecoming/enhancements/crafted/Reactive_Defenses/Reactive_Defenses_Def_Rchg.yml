@@ -1,0 +1,23 @@
+index: 1009
+name: Defense/RechargeTime
+short_name: Def/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 174
+enhancement_set_name: Reactive_Defenses
+image: ReactiveDefenses.png
+effect_chance: 1
+level_min: 19
+level_max: 49
+effects:
+- buff_mode: 1
+  i_d: 3
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Reactive_Defenses_D
+recipe: Reactive_Defenses_D

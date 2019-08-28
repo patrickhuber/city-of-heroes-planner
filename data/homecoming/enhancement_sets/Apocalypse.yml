@@ -1,0 +1,65 @@
+display_name: Apocalypse
+short_name: Apc
+string_id: Apocalypse
+description: ''
+set_type: 2
+image: sApocalypse.png
+min_level: 49
+max_level: 49
+enhancements:
+- 556
+- 557
+- 558
+- 559
+- 560
+- 561
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7969
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8102
+    name: Set_Bonus.Set_Bonus.Increased_Health_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8032
+    name: Set_Bonus.Set_Bonus.Increased_Damage_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8179
+    name: Set_Bonus.Set_Bonus.Increased_Psionic_Def_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

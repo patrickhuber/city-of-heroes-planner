@@ -1,0 +1,20 @@
+index: 694
+name: To Hit Debuff
+short_name: ToHitDeb
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 118
+enhancement_set_name: Dark_Watchers_Despair
+image: sDarkWatcher.png
+effect_chance: 1
+level_min: 20
+level_max: 52
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Dark_Watchers_Despair_A
+recipe: Dark_Watchers_Despair_A

@@ -1,0 +1,51 @@
+display_name: Triage
+short_name: Trg
+string_id: Triage
+description: ''
+set_type: 9
+image: sTriage.png
+min_level: 9
+max_level: 29
+enhancements:
+- 310
+- 311
+- 312
+- 313
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7963
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7935
+    name: Set_Bonus.Set_Bonus.Improved_Heal_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

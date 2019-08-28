@@ -1,0 +1,44 @@
+display_name: Bruising Blow
+short_name: BrsBlo
+string_id: Bruising_Blow
+description: ''
+set_type: 1
+image: sBruisingBlow.png
+min_level: 14
+max_level: 29
+enhancements:
+- 69
+- 70
+- 71
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7956
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

@@ -1,0 +1,65 @@
+display_name: Induced Coma
+short_name: IndCom
+string_id: Induced_Coma
+description: ''
+set_type: 14
+image: sInducedComa.png
+min_level: 9
+max_level: 29
+enhancements:
+- 440
+- 441
+- 442
+- 443
+- 444
+- 445
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8284
+    name: Set_Bonus.Set_Bonus.Sleep_Dur_5
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7966
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8139
+    name: Set_Bonus.Set_Bonus.Increased_Move_2
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8133
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

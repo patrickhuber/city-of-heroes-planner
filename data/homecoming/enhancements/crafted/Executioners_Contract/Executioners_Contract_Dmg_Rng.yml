@@ -1,0 +1,22 @@
+index: 198
+name: Damage/Range
+short_name: Dmg/Rng
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 30
+enhancement_set_name: Executioners_Contract
+image: sExecutionersContract.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 13
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Executioners_Contract_D
+recipe: Executioners_Contract_D

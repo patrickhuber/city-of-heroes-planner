@@ -1,0 +1,22 @@
+index: 51
+name: To Hit Debuff
+short_name: ToHitDeb
+description: Enhances the effectiveness of accuracy debuffs.
+type_id: 2
+class_ids:
+- 25
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: ToHitDebuff.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+buff_mode: 2
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_ToHit_DeBuff
+recipe: Invention_ToHit_DeBuff

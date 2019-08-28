@@ -1,0 +1,44 @@
+display_name: Bonesnap
+short_name: Bns
+string_id: Bonesnap
+description: ''
+set_type: 1
+image: sBoneSnap.png
+min_level: 9
+max_level: 24
+enhancements:
+- 63
+- 64
+- 65
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7892
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

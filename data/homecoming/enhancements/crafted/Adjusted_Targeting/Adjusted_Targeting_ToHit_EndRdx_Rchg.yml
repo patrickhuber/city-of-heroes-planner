@@ -1,0 +1,26 @@
+index: 672
+name: To Hit Buff/Endurance/Recharge
+short_name: ToHit/EndRdx/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 113
+enhancement_set_name: Adjusted_Targeting
+image: sAdjustedTargetting.png
+effect_chance: 1
+level_min: 20
+level_max: 52
+effects:
+- buff_mode: 1
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.5
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Adjusted_Targeting_C
+recipe: Adjusted_Targeting_C

@@ -1,0 +1,18 @@
+index: 610
+name: Taunt
+short_name: Taunt
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 107
+enhancement_set_name: Annoyance
+image: sAnnoyance.png
+effect_chance: 1
+level_min: 9
+level_max: 19
+effects:
+- i_d: 12
+  sub_i_d: 11
+  multiplier: 1
+unique_identifier: Crafted_Annoyance_A
+recipe: Annoyance_A

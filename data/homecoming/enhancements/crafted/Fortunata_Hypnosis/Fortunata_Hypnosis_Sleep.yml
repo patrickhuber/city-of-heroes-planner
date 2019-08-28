@@ -1,0 +1,20 @@
+index: 598
+name: Sleep
+short_name: Sleep
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 125
+enhancement_set_name: Fortunata_Hypnosis
+image: sFortunateHyp.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 1
+unique_identifier: Crafted_Fortunata_Hypnosis_A
+recipe: Fortunata_Hypnosis_A
+superior: true

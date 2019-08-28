@@ -1,0 +1,44 @@
+display_name: Triumphant Insult
+short_name: TrmIns
+string_id: Triumphant_Insult
+description: ''
+set_type: 24
+image: sTriumphantInsult.png
+min_level: 9
+max_level: 19
+enhancements:
+- 613
+- 614
+- 615
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7956
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8118
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

@@ -1,0 +1,15 @@
+index: 280
+name: Knockback Protection
+short_name: ResKB
+description: Knockback Protection (Mag -4)
+type_id: 4
+class_ids: []
+enhancement_set_id: 45
+enhancement_set_name: Steadfast_Protection
+image: sSteadfastProtection.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects: []
+unique_identifier: Crafted_Steadfast_Protection_C
+recipe: Steadfast_Protection_C

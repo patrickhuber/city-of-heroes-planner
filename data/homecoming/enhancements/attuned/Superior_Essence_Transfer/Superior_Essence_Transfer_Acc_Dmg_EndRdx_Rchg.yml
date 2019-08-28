@@ -1,0 +1,28 @@
+index: 1100
+name: Accuracy/Damage/Endurance/RechargeTime
+short_name: Acc/Dmg/EndRdx/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 189
+enhancement_set_name: Superior_Essence_Transfer
+image: SAO_Kheldian2.png
+effect_chance: 1
+level_max: -1
+unique: true
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.4375
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.4375
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.4375
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.4375
+unique_identifier: Superior_Attuned_Superior_Essence_Transfer_E
+recipe: Alt
+superior: true

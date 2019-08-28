@@ -1,0 +1,24 @@
+index: 662
+name: EndMod/Accuracy
+short_name: EndMod/Acc
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 102
+enhancement_set_name: Performance_Shifter
+image: sPerformanceSHift.png
+effect_chance: 1
+level_min: 20
+level_max: 52
+effects:
+- i_d: 5
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 16
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Performance_Shifter_E
+recipe: Performance_Shifter_E

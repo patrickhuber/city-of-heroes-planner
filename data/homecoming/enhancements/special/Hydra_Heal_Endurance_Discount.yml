@@ -1,0 +1,29 @@
+index: 535
+name: Positron Particles
+short_name: PosiP
+description: Enhances Healing and Endurance
+type_id: 3
+sub_type_id: 2
+class_ids:
+- 7
+- 10
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HYPositron.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 7
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 8
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 5
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 22
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Hydra_Heal_Endurance_Discount
+recipe: ''

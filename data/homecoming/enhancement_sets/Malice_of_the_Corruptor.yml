@@ -1,0 +1,65 @@
+display_name: Malice of the Corruptor
+short_name: MlcoftheC
+string_id: Malice_of_the_Corruptor
+description: ''
+set_type: 36
+image: AO_Corruptor1.png
+min_level: 9
+max_level: 49
+enhancements:
+- 868
+- 869
+- 870
+- 871
+- 872
+- 873
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8202
+    name: Set_Bonus.Set_Bonus.Increased_Range_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8030
+    name: Set_Bonus.Set_Bonus.Increased_Damage_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8198
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7954
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_6
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

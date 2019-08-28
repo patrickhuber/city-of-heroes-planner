@@ -1,0 +1,22 @@
+index: 299
+name: Resistance/Recharge
+short_name: ResDam/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 49
+enhancement_set_name: Titanium_Coating
+image: sTitaniumCoating.png
+effect_chance: 1
+level_min: 24
+level_max: 52
+effects:
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Titanium_Coating_B
+recipe: Titanium_Coating_B

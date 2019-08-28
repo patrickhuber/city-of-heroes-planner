@@ -1,0 +1,65 @@
+display_name: Reactive Armor
+short_name: RctArm
+string_id: Reactive_Armor
+description: ''
+set_type: 8
+image: sReactiveArmor.png
+min_level: 14
+max_level: 39
+enhancements:
+- 286
+- 287
+- 288
+- 289
+- 290
+- 291
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8258
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8047
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8117
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8005
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8335
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

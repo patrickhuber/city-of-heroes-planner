@@ -1,0 +1,44 @@
+display_name: Annoyance
+short_name: Ann
+string_id: Annoyance
+description: ''
+set_type: 24
+image: sAnnoyance.png
+min_level: 9
+max_level: 19
+enhancements:
+- 610
+- 611
+- 612
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7963
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8117
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

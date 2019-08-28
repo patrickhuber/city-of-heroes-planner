@@ -1,0 +1,44 @@
+display_name: Volley of Velocity
+short_name: VllofVlc
+string_id: Volley_of_Velocity
+description: ''
+set_type: 23
+image: sVolleyOfVelocity.png
+min_level: 9
+max_level: 19
+enhancements:
+- 628
+- 629
+- 630
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7964
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8097
+    name: Set_Bonus.Set_Bonus.Increased_Health_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

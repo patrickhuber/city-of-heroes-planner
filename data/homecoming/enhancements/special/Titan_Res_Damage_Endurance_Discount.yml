@@ -1,0 +1,24 @@
+index: 545
+name: Peridont Shard
+short_name: PerShard
+description: Enahnces Damage Resistance and Endurance
+type_id: 3
+sub_type_id: 3
+class_ids:
+- 7
+- 18
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: TNPeridont.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.75
+unique_identifier: Titan_Res_Damage_Endurance_Discount
+recipe: ''

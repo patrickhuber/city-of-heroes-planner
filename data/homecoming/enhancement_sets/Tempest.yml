@@ -1,0 +1,51 @@
+display_name: Tempest
+short_name: Tmp
+string_id: Tempest
+description: ''
+set_type: 2
+image: sTempest.png
+min_level: 14
+max_level: 29
+enhancements:
+- 133
+- 134
+- 135
+- 136
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7868
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8258
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8028
+    name: Set_Bonus.Set_Bonus.Increased_Damage_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

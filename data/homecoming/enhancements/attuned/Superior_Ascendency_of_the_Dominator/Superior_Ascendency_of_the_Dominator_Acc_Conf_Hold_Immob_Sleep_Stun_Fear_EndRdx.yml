@@ -1,0 +1,41 @@
+index: 955
+name: Accuracy/Confused/Hold/Immobilize/Sleep/Stun/Terrorized/Endurance
+short_name: Acc/Conf/Hold/Immob/Sleep/Stun/Fear/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 165
+enhancement_set_name: Superior_Ascendency_of_the_Dominator
+image: SAO_Dominator1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 5
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 0.5
+- i_d: 12
+  sub_i_d: 12
+  multiplier: 0.5
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Superior_Attuned_Superior_Ascendency_of_the_Dominator_D
+recipe: Alt
+superior: true

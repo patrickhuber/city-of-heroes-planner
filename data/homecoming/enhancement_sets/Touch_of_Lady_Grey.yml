@@ -1,0 +1,65 @@
+display_name: Touch of Lady Grey
+short_name: TchofLadG
+string_id: Touch_of_Lady_Grey
+description: ''
+set_type: 21
+image: sTouchofLadyGray.png
+min_level: 20
+max_level: 49
+enhancements:
+- 712
+- 713
+- 714
+- 715
+- 716
+- 717
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7959
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7965
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8028
+    name: Set_Bonus.Set_Bonus.Increased_Damage_3
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7817
+    name: Set_Bonus.Set_Bonus.Accuracy_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

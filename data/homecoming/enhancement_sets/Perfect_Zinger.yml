@@ -1,0 +1,65 @@
+display_name: Perfect Zinger
+short_name: PrfZng
+string_id: Perfect_Zinger
+description: ''
+set_type: 24
+image: sPerfectZinger.png
+min_level: 20
+max_level: 49
+enhancements:
+- 622
+- 623
+- 624
+- 625
+- 626
+- 627
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8333
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7966
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7951
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8029
+    name: Set_Bonus.Set_Bonus.Increased_Damage_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8120
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

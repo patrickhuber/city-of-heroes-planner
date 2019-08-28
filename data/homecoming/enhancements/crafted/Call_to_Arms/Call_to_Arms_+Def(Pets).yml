@@ -1,0 +1,16 @@
+index: 738
+name: Defense Bonus Aura for Pets
+short_name: +Def(Pets)
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 129
+enhancement_set_name: Call_to_Arms
+image: CallToArms.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+unique: true
+effects: []
+unique_identifier: Crafted_Call_to_Arms_F
+recipe: Call_to_Arms_F

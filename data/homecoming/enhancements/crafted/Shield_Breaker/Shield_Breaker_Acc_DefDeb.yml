@@ -1,0 +1,22 @@
+index: 770
+name: Accuracy/Defense Debuff
+short_name: Acc/DefDeb
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 135
+enhancement_set_name: Shield_Breaker
+image: ShieldBreaker.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Shield_Breaker_B
+recipe: Shield_Breaker_B

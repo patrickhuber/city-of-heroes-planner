@@ -1,0 +1,51 @@
+display_name: Smashing Haymaker
+short_name: SmsHym
+string_id: Smashing_Haymaker
+description: ''
+set_type: 1
+image: sSmashingHaymaker.png
+min_level: 19
+max_level: 34
+enhancements:
+- 76
+- 77
+- 78
+- 79
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7892
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8097
+    name: Set_Bonus.Set_Bonus.Increased_Health_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8118
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

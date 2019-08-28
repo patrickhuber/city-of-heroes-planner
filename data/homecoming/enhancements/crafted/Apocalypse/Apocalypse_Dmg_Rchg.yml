@@ -1,0 +1,23 @@
+index: 557
+name: Damage/Recharge
+short_name: Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 121
+enhancement_set_name: Apocalypse
+image: sApocalypse.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Apocalypse_B
+recipe: Apocalypse_B
+superior: true

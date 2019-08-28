@@ -1,0 +1,67 @@
+display_name: Reactive Defenses
+short_name: Rct
+string_id: Reactive_Defenses
+description: ''
+set_type: 7
+image: ReactiveDefenses.png
+min_level: 19
+max_level: 49
+enhancements:
+- 1006
+- 1007
+- 1008
+- 1009
+- 1010
+- 1011
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8258
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7894
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7865
+    name: Set_Bonus.Set_Bonus.Endurance_Discount_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7954
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_6
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 5
+  alternate_string: ''
+  entities:
+  - id: 8275
+    name: Set_Bonus.Set_Bonus.Reactive_Defenses

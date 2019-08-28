@@ -1,0 +1,23 @@
+index: 776
+name: Accuracy/ToHit Debuff
+short_name: Acc/ToHitDeb
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 138
+enhancement_set_name: Siphon_Insight
+image: SiphonInsight.png
+effect_chance: 1
+level_min: 29
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Siphon_Insight_B
+recipe: Siphon_Insight_B

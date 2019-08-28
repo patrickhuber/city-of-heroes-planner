@@ -1,0 +1,65 @@
+display_name: Superior Blaster's Wrath
+short_name: SprBlsWrt
+string_id: Superior_Blasters_Wrath
+description: ''
+set_type: 33
+image: SAO_Blaster1.png
+min_level: 49
+max_level: 49
+enhancements:
+- 922
+- 923
+- 924
+- 925
+- 926
+- 927
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7819
+    name: Set_Bonus.Set_Bonus.Accuracy_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8203
+    name: Set_Bonus.Set_Bonus.Increased_Range_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8032
+    name: Set_Bonus.Set_Bonus.Increased_Damage_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8200
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

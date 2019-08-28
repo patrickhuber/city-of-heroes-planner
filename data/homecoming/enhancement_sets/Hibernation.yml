@@ -1,0 +1,58 @@
+display_name: Hibernation
+short_name: Hbr
+string_id: Hibernation
+description: ''
+set_type: 14
+image: sHibernation.png
+min_level: 9
+max_level: 29
+enhancements:
+- 435
+- 436
+- 437
+- 438
+- 439
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8282
+    name: Set_Bonus.Set_Bonus.Sleep_Dur_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8259
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7949
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

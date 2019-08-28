@@ -1,0 +1,65 @@
+display_name: Avalanche
+short_name: Avl
+string_id: Avalanche
+description: ''
+set_type: 4
+image: EO_Avalanche.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1174
+- 1175
+- 1176
+- 1177
+- 1178
+- 1179
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8296
+    name: Set_Bonus.Set_Bonus.Slow_Resist_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7894
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7958
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8132
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_2
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8065
+    name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

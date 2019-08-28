@@ -1,0 +1,58 @@
+display_name: Kismet
+short_name: Ksm
+string_id: Kismet
+description: ''
+set_type: 7
+image: sKismet.png
+min_level: 9
+max_level: 29
+enhancements:
+- 249
+- 250
+- 251
+- 252
+- 253
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7957
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8259
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7964
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7950
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

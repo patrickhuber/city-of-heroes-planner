@@ -1,0 +1,65 @@
+display_name: Sentinel's Ward
+short_name: SntWar
+string_id: Sentinels_Ward
+description: ''
+set_type: 45
+image: AO_Sentinel1.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1222
+- 1223
+- 1224
+- 1225
+- 1226
+- 1227
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7815
+    name: Set_Bonus.Set_Bonus.Accuracy_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8202
+    name: Set_Bonus.Set_Bonus.Increased_Range_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8100
+    name: Set_Bonus.Set_Bonus.Increased_Health_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8134
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7954
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_6
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

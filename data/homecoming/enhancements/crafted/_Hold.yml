@@ -1,0 +1,19 @@
+index: 37
+name: Hold Duration
+short_name: Hold
+description: Increases the duration of a hold power.
+type_id: 2
+class_ids:
+- 11
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Hold.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 1
+unique_identifier: Crafted_Hold
+recipe: Invention_Hold

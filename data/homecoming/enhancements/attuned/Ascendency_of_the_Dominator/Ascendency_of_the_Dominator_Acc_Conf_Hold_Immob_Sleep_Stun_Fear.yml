@@ -1,0 +1,37 @@
+index: 880
+name: Accuracy/Confused/Hold/Immobilize/Sleep/Stun/Terrorized
+short_name: Acc/Conf/Hold/Immob/Sleep/Stun/Fear
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 153
+enhancement_set_name: Ascendency_of_the_Dominator
+image: AO_Dominator1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 2
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 12
+  multiplier: 0.625
+unique_identifier: Attuned_Ascendency_of_the_Dominator_A
+recipe: Alt

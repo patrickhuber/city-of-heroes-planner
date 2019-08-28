@@ -1,0 +1,65 @@
+display_name: Tempered Readiness
+short_name: TmpRdn
+string_id: Tempered_Readiness
+description: ''
+set_type: 13
+image: sTemperedReadiness.png
+min_level: 19
+max_level: 49
+enhancements:
+- 423
+- 424
+- 425
+- 426
+- 427
+- 428
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7957
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7978
+    name: Set_Bonus.Set_Bonus.Improved_Slow_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8033
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_1
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7950
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_2
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8195
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

@@ -1,0 +1,43 @@
+index: 531
+name: Gluon Particles
+short_name: GluonP
+description: Enhances Damage and Mez
+type_id: 3
+sub_type_id: 2
+class_ids:
+- 2
+- 3
+- 8
+- 11
+- 12
+- 20
+- 22
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HYGluon.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.75
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 0.75
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.75
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 0.75
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 0.75
+- i_d: 12
+  sub_i_d: 12
+  multiplier: 0.75
+unique_identifier: Hydra_Damage_Mez
+recipe: ''

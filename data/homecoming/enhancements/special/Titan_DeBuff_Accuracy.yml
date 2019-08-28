@@ -1,0 +1,30 @@
+index: 543
+name: Gypsum Shard
+short_name: GypShard
+description: Enhances ToHit & Defense Debuffs and Accuracy
+type_id: 3
+sub_type_id: 3
+class_ids:
+- 0
+- 5
+- 25
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: TNGypsum.png
+effect_chance: 1
+level_max: 52
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.75
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.75
+unique_identifier: Titan_DeBuff_Accuracy
+recipe: ''

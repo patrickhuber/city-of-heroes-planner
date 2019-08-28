@@ -1,0 +1,65 @@
+display_name: Essence Transfer
+short_name: EssTrn
+string_id: Essence_Transfer
+description: ''
+set_type: 39
+image: AO_Kheldian2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1090
+- 1091
+- 1092
+- 1093
+- 1094
+- 1095
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8197
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7967
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8135
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

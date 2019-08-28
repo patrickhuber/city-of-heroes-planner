@@ -1,0 +1,65 @@
+display_name: Kinetic Crash
+short_name: KntCrs
+string_id: Kinetic_Crash
+description: ''
+set_type: 23
+image: sKineticCrash.png
+min_level: 20
+max_level: 49
+enhancements:
+- 634
+- 635
+- 636
+- 637
+- 638
+- 639
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8139
+    name: Set_Bonus.Set_Bonus.Increased_Move_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8259
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8251
+    name: Set_Bonus.Set_Bonus.Knockback_Protection_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7964
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_2
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7953
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

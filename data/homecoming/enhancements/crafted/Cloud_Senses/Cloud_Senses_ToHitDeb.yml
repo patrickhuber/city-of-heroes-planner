@@ -1,0 +1,20 @@
+index: 739
+name: ToHit Debuff
+short_name: ToHitDeb
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 137
+enhancement_set_name: Cloud_Senses
+image: CloudSenses.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Cloud_Senses_A
+recipe: Cloud_Senses_A

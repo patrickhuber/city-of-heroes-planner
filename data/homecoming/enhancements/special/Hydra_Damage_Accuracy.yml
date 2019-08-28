@@ -1,0 +1,23 @@
+index: 533
+name: Neutrino Particles
+short_name: NeutP
+description: Enhances Accuracy and Damage
+type_id: 3
+sub_type_id: 2
+class_ids:
+- 0
+- 3
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HYNeutrino.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.75
+unique_identifier: Hydra_Damage_Accuracy
+recipe: ''

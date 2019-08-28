@@ -1,0 +1,65 @@
+display_name: Defiant Barrage
+short_name: DfnBrr
+string_id: Defiant_Barrage
+description: ''
+set_type: 33
+image: AO_Blaster2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1018
+- 1019
+- 1020
+- 1021
+- 1022
+- 1023
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8028
+    name: Set_Bonus.Set_Bonus.Increased_Damage_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8036
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8100
+    name: Set_Bonus.Set_Bonus.Increased_Health_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7953
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8051
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

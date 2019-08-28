@@ -1,0 +1,65 @@
+display_name: Unspeakable Terror
+short_name: UnsTrr
+string_id: Unspeakable_Terror
+description: ''
+set_type: 15
+image: sUnspeakableTerror.png
+min_level: 9
+max_level: 29
+enhancements:
+- 463
+- 464
+- 465
+- 466
+- 467
+- 468
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7880
+    name: Set_Bonus.Set_Bonus.Fear_Dur_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7870
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7958
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7951
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

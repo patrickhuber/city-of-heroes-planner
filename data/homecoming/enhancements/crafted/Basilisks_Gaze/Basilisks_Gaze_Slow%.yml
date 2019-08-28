@@ -1,0 +1,33 @@
+index: 729
+name: Chance for Recharge Slow
+short_name: Slow%
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 59
+enhancement_set_name: Basilisks_Gaze
+image: Basilisk.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- mode: 1
+  i_d: -1
+  sub_i_d: -1
+  multiplier: 1
+  effect:
+    power_full_name: ''
+    summon: ''
+    base_probability: 1
+    buffable: true
+    resistible: true
+    aspect: 3
+    modifier_table: Melee_Ones
+    u_i_d_class_name: ''
+    i_d_class_name: -1
+    magnitude_expression: ''
+    reward: ''
+    effect_id: Ones
+    override: ''
+unique_identifier: Crafted_Basilisks_Gaze_F
+recipe: Basilisks_Gaze_F

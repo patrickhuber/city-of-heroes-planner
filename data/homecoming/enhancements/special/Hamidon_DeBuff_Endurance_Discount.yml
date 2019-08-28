@@ -1,0 +1,31 @@
+index: 55
+name: Enzyme Exposure
+short_name: Enzym
+description: Enhances Defense Debuffs, ToHit Debuffs, and Endurance Reduction
+type_id: 3
+sub_type_id: 1
+class_ids:
+- 5
+- 7
+- 25
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HOEnzyme.png
+effect_chance: 1
+level_max: 52
+buff_mode: 2
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 1
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 1
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Hamidon_DeBuff_Endurance_Discount
+recipe: ''

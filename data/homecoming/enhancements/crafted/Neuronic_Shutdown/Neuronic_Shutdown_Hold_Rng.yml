@@ -1,0 +1,22 @@
+index: 351
+name: Hold/Range
+short_name: Hold/Rng
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 58
+enhancement_set_name: Neuronic_Shutdown
+image: sNeuronicShutdown.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.625
+- i_d: 13
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Neuronic_Shutdown_D
+recipe: Neuronic_Shutdown_D

@@ -1,0 +1,58 @@
+display_name: Curtail Speed
+short_name: CrtSpd
+string_id: Curtail_Speed
+description: ''
+set_type: 13
+image: sCurtailSpeed.png
+min_level: 9
+max_level: 29
+enhancements:
+- 412
+- 413
+- 414
+- 415
+- 416
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8258
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7979
+    name: Set_Bonus.Set_Bonus.Improved_Slow_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8117
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7949
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

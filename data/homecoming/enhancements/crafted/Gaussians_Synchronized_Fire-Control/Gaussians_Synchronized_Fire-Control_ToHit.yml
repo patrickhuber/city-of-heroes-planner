@@ -1,0 +1,20 @@
+index: 676
+name: To Hit Buff
+short_name: ToHit
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 114
+enhancement_set_name: Gaussians_Synchronized_Fire-Control
+image: sGaussianSF.png
+effect_chance: 1
+level_min: 20
+level_max: 52
+effects:
+- buff_mode: 1
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Gaussians_Synchronized_FireControl_A
+recipe: Gaussians_Synchronized_FireControl_A

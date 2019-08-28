@@ -1,0 +1,27 @@
+index: 335
+name: Heal
+short_name: Heal
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 55
+enhancement_set_name: Doctored_Wounds
+image: sDoctoredWounds.png
+effect_chance: 1
+level_min: 29
+level_max: 52
+effects:
+- i_d: 7
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 8
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 17
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 22
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Doctored_Wounds_E
+recipe: Doctored_Wounds_E

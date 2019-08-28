@@ -1,0 +1,44 @@
+display_name: Far Strike
+short_name: FarStr
+string_id: Far_Strike
+description: ''
+set_type: 2
+image: sFarStrike.png
+min_level: 9
+max_level: 24
+enhancements:
+- 124
+- 125
+- 126
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8332
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

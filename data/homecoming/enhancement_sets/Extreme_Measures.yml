@@ -1,0 +1,65 @@
+display_name: Extreme Measures
+short_name: ExtMsr
+string_id: Extreme_Measures
+description: ''
+set_type: 5
+image: sExtremeMeasures.png
+min_level: 34
+max_level: 49
+enhancements:
+- 201
+- 202
+- 203
+- 204
+- 205
+- 206
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7957
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8028
+    name: Set_Bonus.Set_Bonus.Increased_Damage_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8007
+    name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_3
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8133
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

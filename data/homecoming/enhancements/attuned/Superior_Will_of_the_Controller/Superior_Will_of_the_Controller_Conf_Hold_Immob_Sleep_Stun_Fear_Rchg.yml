@@ -1,0 +1,38 @@
+index: 935
+name: Confused/Hold/Immobilize/Sleep/Stun/Terrorized/Recharge
+short_name: Conf/Hold/Immob/Sleep/Stun/Fear/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 162
+enhancement_set_name: Superior_Will_of_the_Controller
+image: SAO_Controller1.png
+effect_chance: 1
+level_max: -1
+unique: true
+mutually_exclusive_id: 3
+effects:
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 12
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Superior_Attuned_Superior_Will_of_the_Controller_B
+recipe: Alt
+superior: true

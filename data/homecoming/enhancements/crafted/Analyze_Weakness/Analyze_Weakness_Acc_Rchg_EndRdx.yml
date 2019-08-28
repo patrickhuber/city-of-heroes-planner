@@ -1,0 +1,24 @@
+index: 722
+name: Accuracy/Endurance/Recharge
+short_name: Acc/Rchg/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 136
+enhancement_set_name: Analyze_Weakness
+image: AnalyzeWeakness.png
+effect_chance: 1
+level_min: 29
+level_max: 52
+effects:
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Analyze_Weakness_E
+recipe: Analyze_Weakness_E

@@ -1,0 +1,21 @@
+index: 25
+name: To Hit Debuff
+short_name: ToHitDeb
+description: Enhances the effectiveness of accuracy debuffs.
+type_id: 1
+class_ids:
+- 25
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: ToHitDebuff.png
+effect_chance: 1
+level_max: 52
+buff_mode: 2
+effects:
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Magic_ToHit_DeBuff
+recipe: Ticket_Magic_ToHit

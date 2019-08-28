@@ -1,0 +1,65 @@
+display_name: Armageddon
+short_name: Arm
+string_id: Armageddon
+description: ''
+set_type: 4
+image: sArmageddon.png
+min_level: 49
+max_level: 49
+enhancements:
+- 568
+- 569
+- 570
+- 571
+- 572
+- 573
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7962
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7898
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7819
+    name: Set_Bonus.Set_Bonus.Accuracy_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8338
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

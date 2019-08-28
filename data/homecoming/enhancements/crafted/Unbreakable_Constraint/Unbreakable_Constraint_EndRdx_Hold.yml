@@ -1,0 +1,23 @@
+index: 584
+name: Endurance/Hold
+short_name: EndRdx/Hold
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 124
+enhancement_set_name: Unbreakable_Constraint
+image: sUnbreakableConstraint.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 0.625
+unique_identifier: Crafted_Unbreakable_Constraint_E
+recipe: Unbreakable_Constraint_E
+superior: true

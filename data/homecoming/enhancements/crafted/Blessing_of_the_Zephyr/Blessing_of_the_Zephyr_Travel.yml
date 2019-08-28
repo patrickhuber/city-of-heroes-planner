@@ -1,0 +1,31 @@
+index: 730
+name: Run Speed, Jump, Flight Speed, Range
+short_name: Travel
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 133
+enhancement_set_name: Blessing_of_the_Zephyr
+image: Zephyr.png
+effect_chance: 1
+level_min: 9
+level_max: 52
+effects:
+- i_d: 19
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 10
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 11
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 6
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 13
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Blessing_of_the_Zephyr_A
+recipe: Blessing_of_the_Zephyr_A

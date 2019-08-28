@@ -1,0 +1,18 @@
+index: 7
+name: Endurance Reduction
+short_name: EndRdx
+description: Decreases the endurance cost of a power.
+type_id: 1
+class_ids:
+- 7
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: EndRdx.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Magic_Endurance_Discount
+recipe: Ticket_Magic_Endurance

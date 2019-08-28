@@ -1,0 +1,20 @@
+index: 1006
+name: Defense
+short_name: Def
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 174
+enhancement_set_name: Reactive_Defenses
+image: ReactiveDefenses.png
+effect_chance: 1
+level_min: 19
+level_max: 49
+effects:
+- buff_mode: 1
+  i_d: 3
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Reactive_Defenses_A
+recipe: Reactive_Defenses_A

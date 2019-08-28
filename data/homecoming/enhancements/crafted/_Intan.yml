@@ -1,0 +1,22 @@
+index: 39
+name: Intangibility Duration
+short_name: Intan
+description: Increases the duration of an intangibiltiy power.
+type_id: 2
+class_ids:
+- 13
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Intan.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 12
+  sub_i_d: 6
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 13
+  multiplier: 1
+unique_identifier: Crafted_Intangible
+recipe: Invention_Intangible

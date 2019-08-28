@@ -1,0 +1,47 @@
+index: 54
+name: Endoplasm Exposure
+short_name: Endo
+description: Enhances Accuracy & Mez
+type_id: 3
+sub_type_id: 1
+class_ids:
+- 0
+- 2
+- 8
+- 11
+- 12
+- 13
+- 20
+- 22
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HOEndoplasm.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 2
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 12
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 13
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 1
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 1
+unique_identifier: Hamidon_Accuracy_Mez
+recipe: ''

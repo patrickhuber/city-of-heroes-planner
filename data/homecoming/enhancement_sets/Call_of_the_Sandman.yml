@@ -1,0 +1,65 @@
+display_name: Call of the Sandman
+short_name: CaloftheS
+string_id: Call_of_the_Sandman
+description: ''
+set_type: 14
+image: sCallOfTheSandman.png
+min_level: 19
+max_level: 49
+enhancements:
+- 452
+- 453
+- 454
+- 455
+- 456
+- 457
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8283
+    name: Set_Bonus.Set_Bonus.Sleep_Dur_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8036
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

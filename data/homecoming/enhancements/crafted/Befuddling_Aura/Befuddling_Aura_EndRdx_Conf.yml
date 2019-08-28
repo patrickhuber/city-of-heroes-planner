@@ -1,0 +1,21 @@
+index: 482
+name: Endurance/Confused
+short_name: EndRdx/Conf
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 83
+enhancement_set_name: Befuddling_Aura
+image: sBefuddlingAUra.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Befuddling_Aura_B
+recipe: Befuddling_Aura_B

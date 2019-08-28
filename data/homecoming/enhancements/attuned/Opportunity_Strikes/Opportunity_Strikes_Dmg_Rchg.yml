@@ -1,0 +1,22 @@
+index: 1235
+name: Damage/RechargeTime
+short_name: Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 212
+enhancement_set_name: Opportunity_Strikes
+image: AO_Sentinel2.png
+effect_chance: 1
+level_min: 9
+level_max: 52
+unique: true
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Attuned_Opportunity_Strikes_B
+recipe: Alt

@@ -1,0 +1,32 @@
+index: 56
+name: Golgi Exposure
+short_name: Golgi
+description: Enhances Healing & Endurance
+type_id: 3
+sub_type_id: 1
+class_ids:
+- 7
+- 10
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HOGolgi.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 7
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 8
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 17
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 22
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Hamidon_Heal_Endurance_Discount
+recipe: ''

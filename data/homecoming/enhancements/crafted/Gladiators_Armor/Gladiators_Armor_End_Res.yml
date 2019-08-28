@@ -1,0 +1,22 @@
+index: 817
+name: End/Resist
+short_name: End/Res
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 143
+enhancement_set_name: Gladiators_Armor
+image: sGladiatorsArmor.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Gladiators_Armor_E
+recipe: Gladiators_Armor_E

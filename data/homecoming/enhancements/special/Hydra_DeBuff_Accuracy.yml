@@ -1,0 +1,30 @@
+index: 529
+name: Delta Particles
+short_name: DeltaP
+description: Enhances ToHit & Defense Debuffs, and Accuracy
+type_id: 3
+sub_type_id: 2
+class_ids:
+- 0
+- 5
+- 25
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: HYDelta.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.75
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 0.75
+- buff_mode: 2
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.75
+unique_identifier: Hydra_DeBuff_Accuracy
+recipe: ''

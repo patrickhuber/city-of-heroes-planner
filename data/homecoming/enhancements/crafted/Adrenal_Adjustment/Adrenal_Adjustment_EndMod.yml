@@ -1,0 +1,21 @@
+index: 646
+name: EndMod
+short_name: EndMod
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 99
+enhancement_set_name: Adrenal_Adjustment
+image: sAdrenalAdj.png
+effect_chance: 1
+level_min: 9
+level_max: 19
+effects:
+- i_d: 5
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 16
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Adrenal_Adjustment_A
+recipe: Adrenal_Adjustment_A

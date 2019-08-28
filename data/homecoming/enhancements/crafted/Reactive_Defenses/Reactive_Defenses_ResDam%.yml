@@ -1,0 +1,37 @@
+index: 1011
+name: Scaling Resist Damage
+short_name: ResDam%
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 174
+enhancement_set_name: Reactive_Defenses
+image: ReactiveDefenses.png
+effect_chance: 1
+level_min: 19
+level_max: 49
+unique: true
+effects:
+- mode: 1
+  i_d: -1
+  sub_i_d: -1
+  multiplier: 1
+  effect:
+    power_full_name: ''
+    effect_type: 29
+    summon: ''
+    base_probability: 1
+    variable_modified_override: true
+    scale: 0.029999999329447746
+    magnitude: 1
+    duration: 10.100000381469727
+    aspect: 3
+    modifier_table: Melee_Ones
+    u_i_d_class_name: ''
+    i_d_class_name: -1
+    magnitude_expression: ''
+    reward: ''
+    effect_id: Ones
+    override: ''
+unique_identifier: Crafted_Reactive_Defenses_F
+recipe: Reactive_Defenses_F

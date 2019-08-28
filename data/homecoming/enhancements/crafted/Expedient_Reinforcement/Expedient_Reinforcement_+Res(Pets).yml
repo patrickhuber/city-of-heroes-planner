@@ -1,0 +1,16 @@
+index: 756
+name: Resist Bonus Aura for Pets
+short_name: +Res(Pets)
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 130
+enhancement_set_name: Expedient_Reinforcement
+image: ExpedientReinforcement.png
+effect_chance: 1
+level_min: 29
+level_max: 52
+unique: true
+effects: []
+unique_identifier: Crafted_Expedient_Reinforcement_F
+recipe: Expedient_Reinforcement_F

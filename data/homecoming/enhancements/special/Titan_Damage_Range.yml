@@ -1,0 +1,24 @@
+index: 546
+name: Quartz Shard
+short_name: QuaShard
+description: Enhances Damage and Range
+type_id: 3
+sub_type_id: 3
+class_ids:
+- 3
+- 16
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: TNQuartz.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 13
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.75
+unique_identifier: Titan_Damage_Range
+recipe: ''

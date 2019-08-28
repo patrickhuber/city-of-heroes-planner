@@ -1,0 +1,65 @@
+display_name: Glimpse of the Abyss
+short_name: GlmoftheA
+string_id: Glimpse_of_the_Abyss
+description: ''
+set_type: 15
+image: sGlimpseOfTheAbyss.png
+min_level: 19
+max_level: 49
+enhancements:
+- 475
+- 476
+- 477
+- 478
+- 479
+- 480
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7881
+    name: Set_Bonus.Set_Bonus.Fear_Dur_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7816
+    name: Set_Bonus.Set_Bonus.Accuracy_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

@@ -1,0 +1,51 @@
+display_name: Pounding Slugfest
+short_name: PndSlg
+string_id: Pounding_Slugfest
+description: ''
+set_type: 1
+image: sPoundingSlugfest.png
+min_level: 14
+max_level: 29
+enhancements:
+- 72
+- 73
+- 74
+- 75
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7965
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8047
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8028
+    name: Set_Bonus.Set_Bonus.Increased_Damage_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

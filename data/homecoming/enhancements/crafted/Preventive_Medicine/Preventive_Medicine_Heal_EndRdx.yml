@@ -1,0 +1,30 @@
+index: 1001
+name: Heal/Endurance
+short_name: Heal/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 173
+enhancement_set_name: Preventive_Medicine
+image: PreventiveMedicine.png
+effect_chance: 1
+level_min: 19
+level_max: 49
+effects:
+- i_d: 7
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 8
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 17
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 22
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Preventive_Medicine_B
+recipe: Preventive_Medicine_B

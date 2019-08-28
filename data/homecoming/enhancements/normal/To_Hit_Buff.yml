@@ -1,0 +1,21 @@
+index: 24
+name: To Hit Buff
+short_name: ToHit
+description: Enhances the effectiveness of accuracy buffs.
+type_id: 1
+class_ids:
+- 24
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: ToHitBuff.png
+effect_chance: 1
+level_max: 52
+buff_mode: 1
+effects:
+- buff_mode: 1
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Magic_ToHit_Buff
+recipe: Ticket_Magic_ToHit

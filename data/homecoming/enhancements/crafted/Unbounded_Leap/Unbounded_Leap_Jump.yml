@@ -1,0 +1,21 @@
+index: 514
+name: Jumping
+short_name: Jump
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 90
+enhancement_set_name: Unbounded_Leap
+image: sUnboundedLeap.png
+effect_chance: 1
+level_min: 14
+level_max: 52
+effects:
+- i_d: 10
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 11
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Unbounded_Leap_B
+recipe: Unbounded_Leap_B

@@ -1,0 +1,44 @@
+index: 993
+name: Damage/Chance for Knockdown/Knockback to Knockdown
+short_name: Dam/KB
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 171
+enhancement_set_name: Overwhelming_Force
+image: UD_Overwhelming_Force.png
+effect_chance: 1
+level_max: 49
+unique: true
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 4
+  schedule: 3
+  multiplier: -1.2899999618530273
+- mode: 1
+  i_d: -1
+  sub_i_d: -1
+  multiplier: 1
+  effect:
+    power_full_name: ''
+    summon: ''
+    base_probability: 1
+    buffable: true
+    resistible: true
+    aspect: 3
+    modifier_table: Melee_Ones
+    u_i_d_class_name: ''
+    i_d_class_name: -1
+    magnitude_expression: ''
+    reward: ''
+    effect_id: Ones
+    override: ''
+- i_d: 12
+  sub_i_d: 5
+  schedule: 3
+  multiplier: -1.2899999618530273
+unique_identifier: Attuned_Overwhelming_Force_F
+recipe: Overwhelming_Force_F

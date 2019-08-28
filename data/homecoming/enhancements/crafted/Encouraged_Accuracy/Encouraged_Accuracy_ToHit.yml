@@ -1,0 +1,20 @@
+index: 664
+name: To Hit Buff
+short_name: ToHit
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 111
+enhancement_set_name: Encouraged_Accuracy
+image: sEncouragedAcc.png
+effect_chance: 1
+level_min: 9
+level_max: 19
+effects:
+- buff_mode: 1
+  i_d: 20
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Crafted_Encouraged_Accuracy_A
+recipe: Encouraged_Accuracy_A

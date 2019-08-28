@@ -1,0 +1,65 @@
+display_name: Superior Might of the Tanker
+short_name: SprMghoft
+string_id: Superior_Might_of_the_Tanker
+description: ''
+set_type: 43
+image: SAO_Tanker1.png
+min_level: 49
+max_level: 49
+enhancements:
+- 982
+- 983
+- 984
+- 985
+- 986
+- 987
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8032
+    name: Set_Bonus.Set_Bonus.Increased_Damage_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8102
+    name: Set_Bonus.Set_Bonus.Increased_Health_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8338
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8264
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

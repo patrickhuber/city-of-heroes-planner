@@ -1,0 +1,58 @@
+display_name: Stagger
+short_name: Stg
+string_id: Stagger
+description: ''
+set_type: 11
+image: sStagger.png
+min_level: 9
+max_level: 29
+enhancements:
+- 366
+- 367
+- 368
+- 369
+- 370
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8138
+    name: Set_Bonus.Set_Bonus.Increased_Move_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8061
+    name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8305
+    name: Set_Bonus.Set_Bonus.Stun_Dur_1
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7949
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

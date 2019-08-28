@@ -1,0 +1,18 @@
+index: 20
+name: Sleep Duration
+short_name: Sleep
+description: Increases the duration of a sleep power.
+type_id: 1
+class_ids:
+- 20
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Sleep.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 12
+  sub_i_d: 9
+  multiplier: 1
+unique_identifier: Magic_Sleep
+recipe: Ticket_Magic

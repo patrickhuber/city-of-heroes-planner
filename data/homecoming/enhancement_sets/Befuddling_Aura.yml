@@ -1,0 +1,58 @@
+display_name: Befuddling Aura
+short_name: BfdAur
+string_id: Befuddling_Aura
+description: ''
+set_type: 16
+image: sBefuddlingAUra.png
+min_level: 9
+max_level: 29
+enhancements:
+- 481
+- 482
+- 483
+- 484
+- 485
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7956
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7834
+    name: Set_Bonus.Set_Bonus.Confuse_Dur_1
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8333
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7949
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

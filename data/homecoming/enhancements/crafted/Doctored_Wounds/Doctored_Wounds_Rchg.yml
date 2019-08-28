@@ -1,0 +1,18 @@
+index: 336
+name: Recharge
+short_name: Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 55
+enhancement_set_name: Doctored_Wounds
+image: sDoctoredWounds.png
+effect_chance: 1
+level_min: 29
+level_max: 52
+effects:
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Doctored_Wounds_F
+recipe: Doctored_Wounds_F

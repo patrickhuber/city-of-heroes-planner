@@ -1,0 +1,22 @@
+index: 820
+name: Recharge/Resist
+short_name: RechRes
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 143
+enhancement_set_name: Gladiators_Armor
+image: sGladiatorsArmor.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 18
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Gladiators_Armor_D
+recipe: Gladiators_Armor_D

@@ -1,0 +1,21 @@
+index: 4
+name: Defense Buff
+short_name: DefBuff
+description: Enhances the effectiveness of defense buffs
+type_id: 1
+class_ids:
+- 4
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Defbuff.png
+effect_chance: 1
+level_max: 52
+buff_mode: 1
+effects:
+- buff_mode: 1
+  i_d: 3
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 1
+unique_identifier: Magic_Defense_Buff
+recipe: Ticket_Magic_Defense

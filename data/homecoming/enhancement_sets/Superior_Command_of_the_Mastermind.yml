@@ -1,0 +1,67 @@
+display_name: Superior Command of the Mastermind
+short_name: SprCmmoft
+string_id: Superior_Command_of_the_Mastermind
+description: ''
+set_type: 40
+image: SAO_Mastermind1.png
+min_level: 49
+max_level: 49
+enhancements:
+- 964
+- 965
+- 966
+- 967
+- 968
+- 969
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8032
+    name: Set_Bonus.Set_Bonus.Increased_Damage_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8102
+    name: Set_Bonus.Set_Bonus.Increased_Health_7
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8338
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8264
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 5
+  alternate_string: ''
+  entities:
+  - id: 8322
+    name: Set_Bonus.Set_Bonus.Superior_Command_of_the_Mastermind

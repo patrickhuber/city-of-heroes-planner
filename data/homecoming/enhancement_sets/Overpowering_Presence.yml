@@ -1,0 +1,75 @@
+display_name: Overpowering Presence
+short_name: OvrPrs
+string_id: Overpowering_Presence
+description: ''
+set_type: 35
+image: AO_Controller2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1042
+- 1043
+- 1044
+- 1045
+- 1046
+- 1047
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7921
+    name: Set_Bonus.Set_Bonus.Immob_Dur_3
+  - id: 8282
+    name: Set_Bonus.Set_Bonus.Sleep_Dur_3
+  - id: 7880
+    name: Set_Bonus.Set_Bonus.Fear_Dur_3
+  - id: 7836
+    name: Set_Bonus.Set_Bonus.Confuse_Dur_3
+  - id: 7907
+    name: Set_Bonus.Set_Bonus.Hold_Dur_3
+  - id: 8307
+    name: Set_Bonus.Set_Bonus.Stun_Dur_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8262
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7960
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8051
+    name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

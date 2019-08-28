@@ -1,0 +1,18 @@
+index: 23
+name: Taunt Duration
+short_name: Taunt
+description: Increases the duration a taunted target will stay on you.
+type_id: 1
+class_ids:
+- 23
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Taunt.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 12
+  sub_i_d: 11
+  multiplier: 1
+unique_identifier: Magic_Taunt
+recipe: Ticket_Magic

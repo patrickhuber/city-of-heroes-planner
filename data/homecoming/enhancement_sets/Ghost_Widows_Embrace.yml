@@ -1,0 +1,65 @@
+display_name: Ghost Widow's Embrace
+short_name: GhsWdwEmb
+string_id: Ghost_Widows_Embrace
+description: ''
+set_type: 10
+image: sGhostWidowsEmbrace.png
+min_level: 19
+max_level: 49
+enhancements:
+- 360
+- 361
+- 362
+- 363
+- 364
+- 365
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8141
+    name: Set_Bonus.Set_Bonus.Increased_Move_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8036
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7908
+    name: Set_Bonus.Set_Bonus.Hold_Dur_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

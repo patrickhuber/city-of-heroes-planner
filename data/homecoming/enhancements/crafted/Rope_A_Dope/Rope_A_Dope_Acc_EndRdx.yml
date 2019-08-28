@@ -1,0 +1,21 @@
+index: 379
+name: Accuracy/Endurance
+short_name: Acc/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 65
+enhancement_set_name: Rope_A_Dope
+image: sRopeADope.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Rope_A_Dope_C
+recipe: Rope_a_dope_C

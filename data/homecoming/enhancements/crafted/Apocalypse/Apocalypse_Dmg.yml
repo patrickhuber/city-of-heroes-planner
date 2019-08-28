@@ -1,0 +1,20 @@
+index: 556
+name: Damage
+short_name: Dmg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 121
+enhancement_set_name: Apocalypse
+image: sApocalypse.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Apocalypse_A
+recipe: Apocalypse_A
+superior: true

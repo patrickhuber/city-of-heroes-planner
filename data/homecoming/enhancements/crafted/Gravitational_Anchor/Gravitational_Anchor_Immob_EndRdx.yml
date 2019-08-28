@@ -1,0 +1,23 @@
+index: 596
+name: Immobilize/Endurance
+short_name: Immob/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 127
+enhancement_set_name: Gravitational_Anchor
+image: sGravAnchor.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.625
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Gravitational_Anchor_E
+recipe: Gravitational_Anchor_E
+superior: true

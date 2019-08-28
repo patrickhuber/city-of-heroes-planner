@@ -1,0 +1,65 @@
+display_name: Titanium Coating
+short_name: TtnCtn
+string_id: Titanium_Coating
+description: ''
+set_type: 8
+image: sTitaniumCoating.png
+min_level: 24
+max_level: 49
+enhancements:
+- 298
+- 299
+- 300
+- 301
+- 302
+- 303
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7868
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8260
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7966
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8133
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

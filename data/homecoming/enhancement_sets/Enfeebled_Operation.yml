@@ -1,0 +1,65 @@
+display_name: Enfeebled Operation
+short_name: EnfOpr
+string_id: Enfeebled_Operation
+description: ''
+set_type: 12
+image: sEnfeebledOperation.png
+min_level: 19
+max_level: 49
+enhancements:
+- 400
+- 401
+- 402
+- 403
+- 404
+- 405
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7920
+    name: Set_Bonus.Set_Bonus.Immob_Dur_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7869
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_2
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8119
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7950
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_2
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8134
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

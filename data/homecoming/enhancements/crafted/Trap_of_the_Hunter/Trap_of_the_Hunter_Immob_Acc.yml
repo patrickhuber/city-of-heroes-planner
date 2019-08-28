@@ -1,0 +1,21 @@
+index: 409
+name: Immobilize/Accuracy
+short_name: Immob/Acc
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 70
+enhancement_set_name: Trap_of_the_Hunter
+image: sTrapOfTheHunter.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 12
+  sub_i_d: 3
+  multiplier: 0.625
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Trap_of_the_Hunter_D
+recipe: Trap_of_the_Hunter_D

@@ -1,0 +1,23 @@
+index: 246
+name: Defense/Endurance
+short_name: Def/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 39
+enhancement_set_name: Karma
+image: sKarma.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- buff_mode: 1
+  i_d: 3
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Karma_A
+recipe: Karma_A

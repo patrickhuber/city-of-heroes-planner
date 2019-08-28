@@ -1,0 +1,24 @@
+index: 1177
+name: Accuracy/Damage/Recharge
+short_name: Acc/Dmg/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 206
+enhancement_set_name: Avalanche
+image: EO_Avalanche.png
+effect_chance: 1
+level_max: 52
+unique: true
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Attuned_Avalanche_D
+recipe: Alt

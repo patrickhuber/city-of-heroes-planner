@@ -1,0 +1,29 @@
+index: 47
+name: Slow
+short_name: Slow
+description: Increases the effectiveness of powers that slow.
+type_id: 2
+class_ids:
+- 21
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Slow.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+buff_mode: 2
+effects:
+- i_d: 6
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 11
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 19
+  sub_i_d: -1
+  multiplier: 1
+- i_d: 21
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Snare
+recipe: Invention_Snare

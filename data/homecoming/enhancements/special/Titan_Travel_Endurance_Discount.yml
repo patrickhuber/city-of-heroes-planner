@@ -1,0 +1,34 @@
+index: 547
+name: Selenite Shard
+short_name: SelShard
+description: Enahnces Movement and Endurance
+type_id: 3
+sub_type_id: 3
+class_ids:
+- 7
+- 9
+- 14
+- 19
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: TNSelenite.png
+effect_chance: 1
+level_max: 52
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 6
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 10
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 11
+  sub_i_d: -1
+  multiplier: 0.75
+- i_d: 19
+  sub_i_d: -1
+  multiplier: 0.75
+unique_identifier: Titan_Travel_Endurance_Discount
+recipe: ''

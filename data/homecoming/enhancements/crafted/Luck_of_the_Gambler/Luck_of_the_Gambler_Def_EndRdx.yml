@@ -1,0 +1,23 @@
+index: 272
+name: Defense/Endurance
+short_name: Def/EndRdx
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 44
+enhancement_set_name: Luck_of_the_Gambler
+image: sLuckOfTheGambler.png
+effect_chance: 1
+level_min: 24
+level_max: 52
+effects:
+- buff_mode: 1
+  i_d: 3
+  sub_i_d: -1
+  schedule: 1
+  multiplier: 0.625
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Luck_of_the_Gambler_A
+recipe: Luck_of_the_Gambler_A

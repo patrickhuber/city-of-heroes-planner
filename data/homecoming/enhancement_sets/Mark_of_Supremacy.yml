@@ -1,0 +1,71 @@
+display_name: Mark of Supremacy
+short_name: MarofSpr
+string_id: Mark_of_Supremacy
+description: ''
+set_type: 40
+image: AO_Mastermind2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1102
+- 1103
+- 1104
+- 1105
+- 1106
+- 1107
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7952
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7816
+    name: Set_Bonus.Set_Bonus.Accuracy_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8134
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7960
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7872
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_5
+  - id: 8262
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_5
+  - id: 7896
+    name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 5
+  alternate_string: ''
+  entities:
+  - id: 8266
+    name: Set_Bonus.Set_Bonus.Mark_of_Supremacy

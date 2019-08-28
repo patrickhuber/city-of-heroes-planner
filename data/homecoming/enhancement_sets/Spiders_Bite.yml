@@ -1,0 +1,67 @@
+display_name: Spider's Bite
+short_name: SpdBit
+string_id: Spiders_Bite
+description: ''
+set_type: 32
+image: AO_Arachnos2.png
+min_level: 9
+max_level: 49
+enhancements:
+- 1126
+- 1127
+- 1128
+- 1129
+- 1130
+- 1131
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8029
+    name: Set_Bonus.Set_Bonus.Increased_Damage_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8100
+    name: Set_Bonus.Set_Bonus.Increased_Health_5
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 8134
+    name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7968
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_6
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8038
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_6
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 5
+  alternate_string: ''
+  entities:
+  - id: 8301
+    name: Set_Bonus.Set_Bonus.Spiders_Bite

@@ -1,0 +1,19 @@
+index: 769
+name: Defense Debuff
+short_name: DefDeb
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 135
+enhancement_set_name: Shield_Breaker
+image: ShieldBreaker.png
+effect_chance: 1
+level_min: 9
+level_max: 29
+effects:
+- buff_mode: 2
+  i_d: 3
+  sub_i_d: -1
+  multiplier: 1
+unique_identifier: Crafted_Shield_Breaker_A
+recipe: Shield_Breaker_A

@@ -1,0 +1,46 @@
+display_name: Rectified Reticle
+short_name: RctRtc
+string_id: Rectified_Reticle
+description: ''
+set_type: 25
+image: sRectifiedReticle.png
+min_level: 9
+max_level: 19
+enhancements:
+- 667
+- 668
+- 669
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8118
+    name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 7964
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 2
+  alternate_string: ''
+  entities:
+  - id: 8276
+    name: Set_Bonus.Set_Bonus.Rectified_Reticle
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

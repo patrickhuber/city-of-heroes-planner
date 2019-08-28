@@ -1,0 +1,25 @@
+index: 1063
+name: Damage/Endurance/RechargeTime
+short_name: Dmg/EndRdx/Rchg
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 183
+enhancement_set_name: Superior_Scourging_Blast
+image: SAO_Corruptor2.png
+effect_chance: 1
+level_max: -1
+unique: true
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Superior_Attuned_Superior_Scourging_Blast_D
+recipe: Alt
+superior: true

@@ -1,0 +1,19 @@
+index: 48
+name: Disorient Duration
+short_name: Dsrnt
+description: Increases the duration of a disorient power.
+type_id: 2
+class_ids:
+- 22
+enhancement_set_id: -1
+enhancement_set_name: ''
+image: Stun.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 1
+unique_identifier: Crafted_Stun
+recipe: Invention_Stun

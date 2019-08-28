@@ -1,0 +1,65 @@
+display_name: Theft of Essence
+short_name: ThfofEss
+string_id: Theft_of_Essence
+description: ''
+set_type: 29
+image: TheftOfEssence.png
+min_level: 9
+max_level: 29
+enhancements:
+- 781
+- 782
+- 783
+- 784
+- 785
+- 786
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7966
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8035
+    name: Set_Bonus.Set_Bonus.Increased_Endurance_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7938
+    name: Set_Bonus.Set_Bonus.Improved_Heal_4
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8030
+    name: Set_Bonus.Set_Bonus.Increased_Damage_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7872
+    name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_5
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

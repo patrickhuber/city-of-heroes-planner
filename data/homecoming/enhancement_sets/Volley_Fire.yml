@@ -1,0 +1,44 @@
+display_name: Volley Fire
+short_name: VllFir
+string_id: Volley_Fire
+description: ''
+set_type: 2
+image: sVolleyFire.png
+min_level: 14
+max_level: 29
+enhancements:
+- 130
+- 131
+- 132
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7963
+    name: Set_Bonus.Set_Bonus.Improved_Regeneration_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8096
+    name: Set_Bonus.Set_Bonus.Increased_Health_1
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

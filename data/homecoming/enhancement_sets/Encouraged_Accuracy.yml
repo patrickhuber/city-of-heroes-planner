@@ -1,0 +1,44 @@
+display_name: Encouraged Accuracy
+short_name: EncAcc
+string_id: Encouraged_Accuracy
+description: ''
+set_type: 25
+image: sEncouragedAcc.png
+min_level: 9
+max_level: 19
+enhancements:
+- 664
+- 665
+- 666
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 7814
+    name: Set_Bonus.Set_Bonus.Accuracy_2
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8027
+    name: Set_Bonus.Set_Bonus.Increased_Damage_2
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

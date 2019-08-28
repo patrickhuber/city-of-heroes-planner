@@ -1,0 +1,60 @@
+display_name: Impervious Skin
+short_name: ImpSki
+string_id: Impervious_Skin
+description: ''
+set_type: 8
+image: sImperviousSkin.png
+min_level: 9
+max_level: 29
+enhancements:
+- 281
+- 282
+- 283
+- 284
+- 285
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8258
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_1
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8098
+    name: Set_Bonus.Set_Bonus.Increased_Health_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7958
+    name: Set_Bonus.Set_Bonus.Improved_Recovery_3
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 7951
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: 4
+  alternate_string: ''
+  entities:
+  - id: 7933
+    name: Set_Bonus.Set_Bonus.Impervious_Skin
+- special: -1
+  alternate_string: ''
+  entities: []

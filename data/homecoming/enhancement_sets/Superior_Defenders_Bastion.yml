@@ -1,0 +1,65 @@
+display_name: Superior Defender's Bastion
+short_name: SprDfnBst
+string_id: Superior_Defenders_Bastion
+description: ''
+set_type: 37
+image: SAO_Defender1.png
+min_level: 49
+max_level: 49
+enhancements:
+- 946
+- 947
+- 948
+- 949
+- 950
+- 951
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8102
+    name: Set_Bonus.Set_Bonus.Increased_Health_7
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8203
+    name: Set_Bonus.Set_Bonus.Increased_Range_3
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7941
+    name: Set_Bonus.Set_Bonus.Improved_Heal_7
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8200
+    name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_7
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 7955
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

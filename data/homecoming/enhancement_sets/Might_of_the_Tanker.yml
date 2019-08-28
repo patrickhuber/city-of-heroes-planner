@@ -1,0 +1,65 @@
+display_name: Might of the Tanker
+short_name: MghoftheT
+string_id: Might_of_the_Tanker
+description: ''
+set_type: 43
+image: AO_Tanker1.png
+min_level: 9
+max_level: 49
+enhancements:
+- 904
+- 905
+- 906
+- 907
+- 908
+- 909
+bonuses:
+- special: -1
+  alternate_string: ''
+  slotted: 2
+  entities:
+  - id: 8028
+    name: Set_Bonus.Set_Bonus.Increased_Damage_3
+- special: -1
+  alternate_string: ''
+  slotted: 3
+  entities:
+  - id: 8099
+    name: Set_Bonus.Set_Bonus.Increased_Health_4
+- special: -1
+  alternate_string: ''
+  slotted: 4
+  entities:
+  - id: 7953
+    name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_5
+- special: -1
+  alternate_string: ''
+  slotted: 5
+  entities:
+  - id: 8336
+    name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
+- special: -1
+  alternate_string: ''
+  slotted: 6
+  entities:
+  - id: 8263
+    name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_6
+special_bonuses:
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []
+- special: -1
+  alternate_string: ''
+  entities: []

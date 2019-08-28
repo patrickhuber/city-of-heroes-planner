@@ -1,0 +1,23 @@
+index: 590
+name: Endurance/Stun
+short_name: EndRdx/Stun
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 126
+enhancement_set_name: Absolute_Amazement
+image: sAbsoluteAmazement.png
+effect_chance: 1
+level_min: 49
+level_max: 49
+unique: true
+effects:
+- i_d: 4
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 12
+  sub_i_d: 10
+  multiplier: 0.625
+unique_identifier: Crafted_Absolute_Amazement_E
+recipe: Absolute_Amazement_E
+superior: true

@@ -1,0 +1,33 @@
+index: 428
+name: Accuracy/Damage/Slow
+short_name: Acc/Dmg/Slow
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 73
+enhancement_set_name: Tempered_Readiness
+image: sTemperedReadiness.png
+effect_chance: 1
+level_min: 19
+level_max: 52
+effects:
+- i_d: 1
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 19
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 6
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 11
+  sub_i_d: -1
+  multiplier: 0.5
+- i_d: 21
+  sub_i_d: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Tempered_Readiness_F
+recipe: Tempered_Readiness_F

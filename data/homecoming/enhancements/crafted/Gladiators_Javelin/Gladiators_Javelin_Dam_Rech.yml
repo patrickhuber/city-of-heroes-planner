@@ -1,0 +1,21 @@
+index: 810
+name: Damage/Recharge
+short_name: Dam/Rech
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 144
+enhancement_set_name: Gladiators_Javelin
+image: sGladiatorsJavelin.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- i_d: 2
+  sub_i_d: -1
+  multiplier: 0.625
+- i_d: 14
+  sub_i_d: -1
+  multiplier: 0.625
+unique_identifier: Crafted_Gladiators_Javelin_B
+recipe: Gladiators_Javelin_B

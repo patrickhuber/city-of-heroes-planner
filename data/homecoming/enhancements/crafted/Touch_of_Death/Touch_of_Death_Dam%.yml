@@ -1,0 +1,35 @@
+index: 95
+name: Chance of Damage(Negative)
+short_name: Dam%
+description: ''
+type_id: 4
+class_ids: []
+enhancement_set_id: 7
+enhancement_set_name: Touch_of_Death
+image: sTouchOfDeath.png
+effect_chance: 1
+level_min: 24
+level_max: 39
+effects:
+- mode: 1
+  i_d: -1
+  sub_i_d: -1
+  multiplier: 1
+  effect:
+    power_full_name: ''
+    effect_type: 1
+    damage_type: 6
+    summon: ''
+    base_probability: 0.15000000596046448
+    buffable: true
+    resistible: true
+    aspect: 3
+    modifier_table: Melee_Ones
+    u_i_d_class_name: ''
+    i_d_class_name: -1
+    magnitude_expression: ''
+    reward: ''
+    effect_id: Ones
+    override: ''
+unique_identifier: Crafted_Touch_of_Death_F
+recipe: Touch_of_Death_F
