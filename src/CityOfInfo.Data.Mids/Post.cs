@@ -6,5 +6,6 @@ namespace CityOfInfo.Data.Mids
 {
     public class Post
     {
+        public CompressionData CompressionData { get; set; }
     }
 }
