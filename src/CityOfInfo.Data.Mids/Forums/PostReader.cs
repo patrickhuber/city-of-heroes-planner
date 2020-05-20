@@ -1,9 +1,10 @@
-﻿using System;
+﻿using CityOfInfo.Data.Mids.Saves;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace CityOfInfo.Data.Mids
+namespace CityOfInfo.Data.Mids.Forums
 {
     public class PostReader
     {
@@ -49,7 +50,7 @@ namespace CityOfInfo.Data.Mids
                     case 0:
                         streamWriter.Write(line);
                         streamWriter.Write('|');
-                        state = 1;                        
+                        state = 1;
                         break;
                     case 1:
                         streamWriter.Write(line.Trim('|'));

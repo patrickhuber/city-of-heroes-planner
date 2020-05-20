@@ -1,10 +1,11 @@
-﻿using System;
+﻿using CityOfInfo.Data.Mids.Forums;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Xunit;
 
-namespace CityOfInfo.Data.Mids.Tests
+namespace CityOfInfo.Data.Mids.Tests.Forums
 {
     public class PostReaderTests
     {

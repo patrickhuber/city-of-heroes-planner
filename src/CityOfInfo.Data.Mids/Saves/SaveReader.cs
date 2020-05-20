@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace CityOfInfo.Data.Mids
+namespace CityOfInfo.Data.Mids.Saves
 {
     public class SaveReader
     {
@@ -35,7 +35,7 @@ namespace CityOfInfo.Data.Mids
                         builder.Append(ch);
                         continue;
                     }
-                
+
                 switch (state)
                 {
                     case 0:
@@ -77,7 +77,7 @@ namespace CityOfInfo.Data.Mids
                     state++;
                 }
             }
-            if (state == 0)            
+            if (state == 0)
                 throw new Exception("The header is empty");
 
             if (state != 9)
