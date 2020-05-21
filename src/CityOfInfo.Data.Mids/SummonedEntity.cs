@@ -6,7 +6,7 @@ namespace CityOfInfo.Data.Mids
 {
     public class SummonedEntity
     {
-        public string ID { get; set; }
+        public string Id { get; set; }
         public string DisplayName { get; set; }
         public int EntityType { get; set; }
         public string ClassName { get; set; }
@@ -16,7 +16,7 @@ namespace CityOfInfo.Data.Mids
         public override bool Equals(object obj)
         {
             return obj is SummonedEntity entity &&
-                   ID == entity.ID &&
+                   Id == entity.Id &&
                    DisplayName == entity.DisplayName &&
                    EntityType == entity.EntityType &&
                    ClassName == entity.ClassName &&
@@ -27,7 +27,7 @@ namespace CityOfInfo.Data.Mids
         public override int GetHashCode()
         {
             var hashCode = 1022390368;
-            hashCode = hashCode * -1521134295 + ID.GetHashCode();
+            hashCode = hashCode * -1521134295 + Id.GetHashCode();
             hashCode = hashCode * -1521134295 + DisplayName.GetHashCode();
             hashCode = hashCode * -1521134295 + EntityType.GetHashCode();
             hashCode = hashCode * -1521134295 + ClassName.GetHashCode();

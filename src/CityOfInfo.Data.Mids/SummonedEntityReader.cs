@@ -17,7 +17,7 @@ namespace CityOfInfo.Data.Mids
         public SummonedEntity Read()
         {
             var summonedEntity = new SummonedEntity();
-            summonedEntity.ID = _reader.ReadString();
+            summonedEntity.Id = _reader.ReadString();
             summonedEntity.DisplayName = _reader.ReadString();
             summonedEntity.EntityType = _reader.ReadInt32();
             summonedEntity.ClassName = _reader.ReadString();

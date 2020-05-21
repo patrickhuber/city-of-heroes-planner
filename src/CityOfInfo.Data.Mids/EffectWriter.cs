@@ -15,7 +15,7 @@ namespace CityOfInfo.Data.Mids
         public void Write(Effect effect)
         {
             _writer.Write(effect.PowerFullName);
-            _writer.Write(effect.UniqueID);
+            _writer.Write(effect.UniqueId);
             _writer.Write(effect.EffectClass);
             _writer.Write(effect.EffectType);
             _writer.Write(effect.DamageType);
@@ -43,8 +43,8 @@ namespace CityOfInfo.Data.Mids
             _writer.Write(effect.NearGround);
             _writer.Write(effect.CancelOnMiss);
             _writer.Write(effect.RequiresToHitCheck);
-            _writer.Write(effect.UIDClassName);
-            _writer.Write(effect.IDClassName);
+            _writer.Write(effect.UidClassName);
+            _writer.Write(effect.IdClassName);
             _writer.Write(effect.MagnitudeExpression);
             _writer.Write(effect.Reward);
             _writer.Write(effect.EffectId);

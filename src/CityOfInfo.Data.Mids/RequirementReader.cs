@@ -21,19 +21,19 @@ namespace CityOfInfo.Data.Mids
             requirement.ClassNamesNot = new string[_reader.ReadInt32() + 1];
             for (int index = 0; index < requirement.ClassNamesNot.Length; ++index)
                 requirement.ClassNamesNot[index] = _reader.ReadString();
-            requirement.PowerIDs = new string[_reader.ReadInt32() + 1][];
-            for (int index = 0; index < requirement.PowerIDs.Length; ++index)
+            requirement.PowerIds = new string[_reader.ReadInt32() + 1][];
+            for (int index = 0; index < requirement.PowerIds.Length; ++index)
             {
-                requirement.PowerIDs[index] = new string[2];
-                requirement.PowerIDs[index][0] = _reader.ReadString();
-                requirement.PowerIDs[index][1] = _reader.ReadString();
+                requirement.PowerIds[index] = new string[2];
+                requirement.PowerIds[index][0] = _reader.ReadString();
+                requirement.PowerIds[index][1] = _reader.ReadString();
             }
-            requirement.PowerIDsNot = new string[_reader.ReadInt32() + 1][];
-            for (int index = 0; index < requirement.PowerIDsNot.Length; ++index)
+            requirement.PowerIdsNot = new string[_reader.ReadInt32() + 1][];
+            for (int index = 0; index < requirement.PowerIdsNot.Length; ++index)
             {
-                requirement.PowerIDsNot[index] = new string[2];
-                requirement.PowerIDsNot[index][0] = _reader.ReadString();
-                requirement.PowerIDsNot[index][1] = _reader.ReadString();
+                requirement.PowerIdsNot[index] = new string[2];
+                requirement.PowerIdsNot[index][0] = _reader.ReadString();
+                requirement.PowerIdsNot[index][1] = _reader.ReadString();
             }
             return requirement;
         }

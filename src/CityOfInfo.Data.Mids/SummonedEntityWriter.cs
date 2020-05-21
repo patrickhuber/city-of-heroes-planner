@@ -16,7 +16,7 @@ namespace CityOfInfo.Data.Mids
 
         public void Write(SummonedEntity summonedEntity)
         {
-            _writer.Write(summonedEntity.ID);
+            _writer.Write(summonedEntity.Id);
             _writer.Write(summonedEntity.DisplayName);
             _writer.Write(summonedEntity.EntityType);
             _writer.Write(summonedEntity.ClassName);

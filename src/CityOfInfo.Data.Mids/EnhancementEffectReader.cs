@@ -18,8 +18,8 @@ namespace CityOfInfo.Data.Mids
             var enhancementEffect = new EnhancementEffect();
             enhancementEffect.Mode = _reader.ReadInt32();
             enhancementEffect.BuffMode = _reader.ReadInt32();
-            enhancementEffect.ID = _reader.ReadInt32();
-            enhancementEffect.SubID = _reader.ReadInt32();
+            enhancementEffect.Id = _reader.ReadInt32();
+            enhancementEffect.SubId = _reader.ReadInt32();
             enhancementEffect.Schedule = _reader.ReadInt32();
             enhancementEffect.Multiplier = _reader.ReadSingle();
 

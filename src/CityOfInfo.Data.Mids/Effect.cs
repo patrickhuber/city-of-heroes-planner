@@ -5,7 +5,7 @@ namespace CityOfInfo.Data.Mids
     public class Effect
     {
         public string PowerFullName { get; set; }
-        public int UniqueID { get; set; }
+        public int UniqueId { get; set; }
         public int EffectClass { get; set; }
         public int EffectType { get; set; }
         public int DamageType { get; set; }
@@ -33,8 +33,8 @@ namespace CityOfInfo.Data.Mids
         public bool NearGround { get; set; }
         public bool CancelOnMiss { get; set; }
         public bool RequiresToHitCheck { get; set; }
-        public string UIDClassName { get; set; }
-        public int IDClassName { get; set; }
+        public string UidClassName { get; set; }
+        public int IdClassName { get; set; }
         public string MagnitudeExpression { get; set; }
         public string Reward { get; set; }
         public string EffectId { get; set; }
@@ -46,7 +46,7 @@ namespace CityOfInfo.Data.Mids
         {
             return obj is Effect effect &&
                    PowerFullName == effect.PowerFullName &&
-                   UniqueID == effect.UniqueID &&
+                   UniqueId == effect.UniqueId &&
                    EffectClass == effect.EffectClass &&
                    EffectType == effect.EffectType &&
                    DamageType == effect.DamageType &&
@@ -74,8 +74,8 @@ namespace CityOfInfo.Data.Mids
                    NearGround == effect.NearGround &&
                    CancelOnMiss == effect.CancelOnMiss &&
                    RequiresToHitCheck == effect.RequiresToHitCheck &&
-                   UIDClassName == effect.UIDClassName &&
-                   IDClassName == effect.IDClassName &&
+                   UidClassName == effect.UidClassName &&
+                   IdClassName == effect.IdClassName &&
                    MagnitudeExpression == effect.MagnitudeExpression &&
                    Reward == effect.Reward &&
                    EffectId == effect.EffectId &&
@@ -88,7 +88,7 @@ namespace CityOfInfo.Data.Mids
         {
             var hashCode = -2145328967;
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(PowerFullName);
-            hashCode = hashCode * -1521134295 + UniqueID.GetHashCode();
+            hashCode = hashCode * -1521134295 + UniqueId.GetHashCode();
             hashCode = hashCode * -1521134295 + EffectClass.GetHashCode();
             hashCode = hashCode * -1521134295 + EffectType.GetHashCode();
             hashCode = hashCode * -1521134295 + DamageType.GetHashCode();
@@ -116,8 +116,8 @@ namespace CityOfInfo.Data.Mids
             hashCode = hashCode * -1521134295 + NearGround.GetHashCode();
             hashCode = hashCode * -1521134295 + CancelOnMiss.GetHashCode();
             hashCode = hashCode * -1521134295 + RequiresToHitCheck.GetHashCode();
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(UIDClassName);
-            hashCode = hashCode * -1521134295 + IDClassName.GetHashCode();
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(UidClassName);
+            hashCode = hashCode * -1521134295 + IdClassName.GetHashCode();
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(MagnitudeExpression);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Reward);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(EffectId);

@@ -18,7 +18,7 @@ namespace CityOfInfo.Data.Mids
         {
             Effect effect = new Effect();
             effect.PowerFullName = _reader.ReadString();
-            effect.UniqueID = _reader.ReadInt32();
+            effect.UniqueId = _reader.ReadInt32();
             effect.EffectClass = _reader.ReadInt32();
             effect.EffectType = _reader.ReadInt32();
             effect.DamageType = _reader.ReadInt32();
@@ -46,8 +46,8 @@ namespace CityOfInfo.Data.Mids
             effect.NearGround = _reader.ReadBoolean();
             effect.CancelOnMiss = _reader.ReadBoolean();
             effect.RequiresToHitCheck = _reader.ReadBoolean();
-            effect.UIDClassName = _reader.ReadString();
-            effect.IDClassName = _reader.ReadInt32();
+            effect.UidClassName = _reader.ReadString();
+            effect.IdClassName = _reader.ReadInt32();
             effect.MagnitudeExpression = _reader.ReadString();
             effect.Reward = _reader.ReadString();
             effect.EffectId = _reader.ReadString();

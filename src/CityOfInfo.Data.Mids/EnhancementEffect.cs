@@ -8,8 +8,8 @@ namespace CityOfInfo.Data.Mids
     {
         public int Mode { get; set; }
         public int BuffMode { get; set; }
-        public int ID { get; set; }
-        public int SubID { get; set; }
+        public int Id { get; set; }
+        public int SubId { get; set; }
         public int Schedule { get; set; }
         public float Multiplier { get; set; }
         public Effect Effect { get; set; }
@@ -27,8 +27,8 @@ namespace CityOfInfo.Data.Mids
 
             return Mode == enhancementEffect.Mode &&
                    BuffMode == enhancementEffect.BuffMode &&
-                   ID == enhancementEffect.ID &&
-                   SubID == enhancementEffect.SubID &&
+                   Id == enhancementEffect.Id &&
+                   SubId == enhancementEffect.SubId &&
                    Schedule == enhancementEffect.Schedule &&
                    Multiplier == enhancementEffect.Multiplier &&
                    Effect != null ? Effect.Equals(enhancementEffect.Effect) : true;
@@ -39,8 +39,8 @@ namespace CityOfInfo.Data.Mids
             var hashCode = 966821394;
             hashCode = hashCode * -1521134295 + Mode.GetHashCode();
             hashCode = hashCode * -1521134295 + BuffMode.GetHashCode();
-            hashCode = hashCode * -1521134295 + ID.GetHashCode();
-            hashCode = hashCode * -1521134295 + SubID.GetHashCode();
+            hashCode = hashCode * -1521134295 + Id.GetHashCode();
+            hashCode = hashCode * -1521134295 + SubId.GetHashCode();
             hashCode = hashCode * -1521134295 + Schedule.GetHashCode();
             hashCode = hashCode * -1521134295 + Multiplier.GetHashCode();
             if(Effect != null)

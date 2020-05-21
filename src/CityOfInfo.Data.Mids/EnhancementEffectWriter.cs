@@ -20,8 +20,8 @@ namespace CityOfInfo.Data.Mids
         {
             _writer.Write(enhancementEffect.Mode);
             _writer.Write(enhancementEffect.BuffMode);
-            _writer.Write(enhancementEffect.ID);
-            _writer.Write(enhancementEffect.SubID);
+            _writer.Write(enhancementEffect.Id);
+            _writer.Write(enhancementEffect.SubId);
             _writer.Write(enhancementEffect.Schedule);
             _writer.Write(enhancementEffect.Multiplier);
 

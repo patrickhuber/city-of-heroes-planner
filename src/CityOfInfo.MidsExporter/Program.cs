@@ -257,7 +257,7 @@ namespace CityOfInfo.MidsExporter
             {
                 var isAttuned = enhancement.UniqueIdentifier.Contains("attuned", StringComparison.CurrentCultureIgnoreCase);
                 var isCrafted = enhancement.UniqueIdentifier.Contains("crafted", StringComparison.CurrentCultureIgnoreCase);
-                var isSpecial = enhancement.TypeId == EnhancementType.SpecialOrigin.ID;
+                var isSpecial = enhancement.TypeId == EnhancementType.SpecialOrigin.Id;
                 var isNormal = !isAttuned && !isCrafted && !isSpecial;
 
                 // TODO: Move this mapping to a data property
