@@ -7,8 +7,8 @@ display: 'Kheldian Grace: Form Bonus'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -24,6 +24,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: Form Bonus
 description_long: While in human form the Kheldian will gain a minor amount of resistance to all forms of damage, Nova form grants the user additional damage and Dwarf form benefits from additional bonus health.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -34,151 +35,151 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 2
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Resist
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 1
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 5
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 6
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 8
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 7
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.035000000149011612
+  scale: 0.0350000001
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -189,14 +190,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -207,14 +208,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -225,14 +226,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -243,14 +244,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -261,14 +262,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -279,14 +280,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -297,14 +298,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -315,14 +316,14 @@ effects:
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Kheldians_Grace
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 14
   summon: ''
   base_probability: 1
@@ -332,8 +333,8 @@ effects:
   duration: 5.25
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf

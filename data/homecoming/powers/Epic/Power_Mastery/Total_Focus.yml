@@ -7,7 +7,7 @@ display: Total Focus
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Power_Mastery.Conserve_Power
     - Epic.Power_Mastery.Power_Build_Up
   - - Epic.Power_Mastery.Conserve_Power
@@ -18,18 +18,19 @@ requirement:
     - Epic.Power_Mastery.Force_of_Nature
   - - Epic.Power_Mastery.Power_Build_Up
     - Epic.Power_Mastery.Temp_Invulnerability
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 137
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 23.139999389648438
-cast_time: 3.2999999523162842
+endurance_cost: 23.1399994
+cast_time: 3.29999995
 recharge_time: 40
+base_recharge_time: 40
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -41,6 +42,12 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Melee, Extreme DMG(Energy/Smash), Foe Disorient
 description_long: 'Total Focus is complete mastery over Energy Melee. This is a very slow, but incredibly devastating attack that can knock out most opponents, leaving them Disoriented. Due to the exhausting nature of Total Focus, recharge time is very long. You must be level 44 and have two other Power Mastery Powers before selecting this power. Damage: Extreme, Recharge: Long'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 23
 set_types:
 - 1
 - 11
@@ -54,7 +61,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -68,14 +75,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -85,18 +92,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.559999942779541
+  scale: 2.55999994
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -106,18 +113,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.8833299875259399
+  scale: 1.88332999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -127,18 +134,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 4.842860221862793
+  scale: 4.84286022
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -153,14 +160,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_corruptor
-  i_d_class_name: 9
+  uid_class_name: class_corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -171,18 +178,18 @@ effects:
   special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 6.7261900901794434
+  scale: 6.72619009
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_corruptor
-  i_d_class_name: 9
+  uid_class_name: class_corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -198,14 +205,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Power_Mastery.Total_Focus
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -220,8 +227,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize

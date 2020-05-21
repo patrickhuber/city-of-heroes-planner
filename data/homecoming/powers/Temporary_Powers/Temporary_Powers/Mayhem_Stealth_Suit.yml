@@ -7,8 +7,8 @@ display: Stealth Suit
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
 power_type: 2
 accuracy: 1
@@ -18,9 +18,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.16249999403953552
-cast_time: 0.73000001907348633
+endurance_cost: 0.162499994
+cast_time: 0.730000019
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'Toggle: Self Stealth, +DEF'
 description_long: Stealth Suit blends into your environment and can only be seen at very close range. If you attack while using this power, you will be discovered and lose your defense bonus. While Invisible, your movement is Slowed.  You may use this power for a total of 30 minutes usage time. The Stealth Suit will not work with any other form of self-targeted Concealment power.  You can only carry 1 Stealth Suit at a time.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 36
   summon: ''
   base_probability: 1
@@ -51,14 +53,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 37
   summon: ''
   base_probability: 1
@@ -70,14 +72,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -90,14 +92,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -110,50 +112,50 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 32
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 2
-  scale: -0.34999999403953552
+  scale: -0.349999994
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 11
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 2
-  scale: -0.34999999403953552
+  scale: -0.349999994
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Stealth_Suit
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 41
   summon: ''
   base_probability: 1
@@ -164,8 +166,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

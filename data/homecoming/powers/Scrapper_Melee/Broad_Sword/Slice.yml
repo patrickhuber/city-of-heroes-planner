@@ -7,19 +7,20 @@ display: Slice
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 17
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 8.5279998779296875
+endurance_cost: 8.52799988
 cast_time: 2
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 3
 radius: 7
 arc: 130
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee (Cone), Moderate DMG(Lethal), Foe -DEF
 description_long: 'You Slice your sword in a wide arc, attacking all enemies in front of you. Slice does less damage than Hack but can hit multiple foes and reduce their defense. Damage: Moderate, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 4
 - 21
@@ -50,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -60,22 +67,22 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.2300000190734863
+  scale: 1.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.99800002574920654
+  base_probability: 0.998000026
   buffable: true
   resistible: true
   to_who: 1
@@ -85,14 +92,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -102,83 +109,83 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7920900583267212
+  scale: 1.79209006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7920900583267212
+  scale: 1.79209006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PlayerCrit
   override: ''
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 1.2300000190734863
+  scale: 1.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: MLCrit
   override: ''
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.2300000190734863
+  scale: 1.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: BossCrit
   override: ''
 - power_full_name: Scrapper_Melee.Broad_Sword.Slice
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -186,12 +193,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.55349999666213989
+  scale: 0.553499997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

@@ -7,8 +7,8 @@ display: Howling Twilight
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 260
@@ -19,8 +19,9 @@ target: 2048
 target_line_of_sight: true
 range: 80
 endurance_cost: 32.5
-cast_time: 3.1700000762939453
+cast_time: 3.17000008
 recharge_time: 180
+base_recharge_time: 180
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -35,6 +36,13 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Ranged (AoE), Minor DMG(Negative), Target Slow, -Recharge, -Regen, Disorient, Ally Rez
 description_long: 'Activating this power channels the power of the Netherworld to weaken your foes, in an attempt to revive all nearby fallen allies. You must stand near your defeated allies to revive them, then select a foe. The selected foe and all nearby foes will be Slowed, Disoriented, have their Regeneration rate reduced and drained of some life. Revived allies will have full Hit Points and Endurance and will be protected from XP Debt for 90 seconds. Recharge: Very Long'
+enhancements:
+- 4
+- 8
+- 17
+- 18
+- 22
+- 23
 set_types:
 - 3
 - 11
@@ -50,7 +58,7 @@ absorb_summon_effects: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 32
   summon: ''
   stacking: 1
@@ -63,14 +71,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -83,14 +91,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 11
   summon: ''
   stacking: 1
@@ -103,14 +111,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -123,14 +131,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 17
   summon: ''
   stacking: 1
@@ -143,14 +151,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -163,14 +171,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -185,14 +193,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -208,14 +216,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 27
   summon: ''
   stacking: 1
@@ -228,14 +236,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 27
   summon: ''
   stacking: 1
@@ -248,14 +256,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 16
   summon: ''
@@ -269,14 +277,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Dark_Miasma.Howling_Twilight
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 38
   summon: Pets_HowlingVillain
   stacking: 1
@@ -287,8 +295,8 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

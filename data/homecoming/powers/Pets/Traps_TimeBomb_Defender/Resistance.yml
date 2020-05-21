@@ -7,8 +7,8 @@ display: Resistance
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -23,6 +23,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Resistance
 description_long: The Trip Mine is fragile, but cannot be affected by secondary effects like Sleep, Disorient, or Fear.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -33,7 +34,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -43,14 +44,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -60,14 +61,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -77,14 +78,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -94,14 +95,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -111,14 +112,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -128,14 +129,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -145,14 +146,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 28
   effect_modifiers: 13
   summon: ''
@@ -162,14 +163,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -179,14 +180,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 9
   summon: ''
@@ -196,14 +197,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 28
   effect_modifiers: 14
   summon: ''
@@ -213,14 +214,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 20
   mezmorize_type: 10
   summon: ''
@@ -230,14 +231,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 20
   mezmorize_type: 9
   summon: ''
@@ -247,14 +248,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 20
   mezmorize_type: 2
   summon: ''
@@ -264,14 +265,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 20
   mezmorize_type: 1
   summon: ''
@@ -281,14 +282,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -299,14 +300,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -317,14 +318,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -335,14 +336,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -353,14 +354,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 19
   mezmorize_type: 16
   summon: ''
@@ -371,14 +372,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 19
   mezmorize_type: 14
   summon: ''
@@ -390,14 +391,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 28
   effect_modifiers: 25
   summon: ''
@@ -407,14 +408,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 28
   effect_modifiers: 8
   summon: ''
@@ -424,14 +425,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 28
   effect_modifiers: 7
   summon: ''
@@ -441,14 +442,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 28
   effect_modifiers: 40
   summon: ''
@@ -458,14 +459,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 28
   effect_modifiers: 5
   summon: ''
@@ -475,14 +476,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 10
   summon: ''
   base_probability: 1
@@ -492,14 +493,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 28
   effect_modifiers: 10
   summon: ''
@@ -509,14 +510,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 20
   mezmorize_type: 12
   summon: ''
@@ -526,14 +527,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -544,14 +545,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 20
   mezmorize_type: 16
   summon: ''
@@ -561,14 +562,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 19
   mezmorize_type: 16
   summon: ''
@@ -579,14 +580,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 33
+  unique_id: 33
   effect_type: 20
   mezmorize_type: 11
   summon: ''
@@ -596,14 +597,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 34
+  unique_id: 34
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -614,14 +615,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 35
+  unique_id: 35
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -632,14 +633,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Traps_TimeBomb_Defender.Resistance
-  unique_i_d: 36
+  unique_id: 36
   effect_type: 37
   summon: ''
   base_probability: 1
@@ -650,8 +651,8 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,19 +7,20 @@ display: UZI Burst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1000000238418579
+accuracy: 1.10000002
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.1999998092651367
-cast_time: 1.5299999713897705
+endurance_cost: 5.19999981
+cast_time: 1.52999997
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: -Def
 description_long: Your Defense has been reduced by fire from the UZI.
+enhancements:
+- 1
+- 4
+- 6
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +48,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Thug_Lt_2.UZI_Burst
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -52,19 +58,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.33000001311302185
+  scale: 0.330000013
   magnitude: 1
-  duration: 0.69999998807907104
+  duration: 0.699999988
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Lt_2.UZI_Burst
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -77,9 +83,32 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 3
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0829999968
+  magnitude: 1
+  duration: 0.699999988
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

@@ -7,8 +7,8 @@ display: Thunder Strike
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 137
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 10.192000389099121
-cast_time: 3.2999999523162842
+endurance_cost: 10.1920004
+cast_time: 3.29999995
 recharge_time: 18
+base_recharge_time: 18
 effect_area: 2
 radius: 7
 max_targets: 10
@@ -34,6 +35,13 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Melee (AoE), High DMG(Smash, Energy), Foe Disorient, Knockback, -End
 description_long: 'A massive attack. You smash your foes with all the power of a lightning bolt. The pummeled victim takes tremendous damage and may be Disoriented. Any nearby foes may be knocked down and take some damage from the shockwave as well as have some endurance drained. Damage: High, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 18
+- 23
 set_types:
 - 4
 - 11
@@ -50,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -64,14 +72,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -86,14 +94,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -104,19 +112,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 3
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -125,18 +133,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.070000000298023224
+  scale: -0.0700000003
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   stacking: 1
@@ -149,18 +157,18 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 26
   summon: ''
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   buffable: true
   resistible: true
   to_who: 1
@@ -169,14 +177,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -185,18 +193,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.95999997854232788
+  scale: 0.959999979
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -206,18 +214,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2426300048828125
+  scale: 1.24263
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -227,126 +235,126 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2426300048828125
+  scale: 1.24263
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.63999998569488525
+  scale: 0.639999986
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   suppression: 32
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.63999998569488525
+  scale: 0.639999986
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 2.485260009765625
+  scale: 2.48526001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PlayerCrit
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: MLCrit
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: BossCrit
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -354,18 +362,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.44999998807907104
+  scale: 0.449999988
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Scrapper_Melee.Electrical_Melee.Thunder_Strike
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -373,12 +381,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.43200001120567322
+  scale: 0.432000011
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

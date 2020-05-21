@@ -7,19 +7,20 @@ display: Pistols
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1000000238418579
+accuracy: 1.10000002
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 5.1999998092651367
-cast_time: 1.2000000476837158
+endurance_cost: 5.19999981
+cast_time: 1.20000005
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -29,6 +30,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Ranged, Minor DMG(Lethal)
 description_long: 'Quickly fires a round from one of your heavy automatic pistols. Damage is average, but the fire rate is very fast.  Damage: Minor, Recharge: Very Fast'
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +46,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Thug_Minion_2.Pistols
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -54,8 +59,29 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

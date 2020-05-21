@@ -7,8 +7,8 @@ display: Icicles
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 1.0399999618530273
-cast_time: 1.6699999570846558
+endurance_cost: 1.03999996
+cast_time: 1.66999996
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 2
 effect_area: 2
 radius: 8
@@ -33,6 +34,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: PBAoE, Minor DoT(Lethal)'
 description_long: 'While active, you form sharp icicles on your body that continuously cut all foes that attempt to enter melee range. Damage: Minor(DoT), Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 4
 - 41
@@ -46,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Defense.Ice_Armor.Icicles
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -55,18 +61,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Defense.Ice_Armor.Icicles
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -74,12 +80,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.090000003576278687
+  scale: 0.0900000036
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

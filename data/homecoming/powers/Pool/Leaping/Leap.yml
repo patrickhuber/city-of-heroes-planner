@@ -7,14 +7,14 @@ display: Acrobatics
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Leaping.Jump_Kick
     - Pool.Leaping.Combat_Jumping
   - - Pool.Leaping.Jump_Kick
     - Pool.Leaping.Long_Jump
   - - Pool.Leaping.Combat_Jumping
     - Pool.Leaping.Long_Jump
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 power_type: 2
 accuracy: 1
@@ -23,9 +23,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.25999999046325684
-cast_time: 0.67000001668930054
+endurance_cost: 0.25999999
+cast_time: 0.670000017
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 1
 effect_area: 1
 max_boosts: ''
@@ -36,6 +37,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Self +Res(Knockback, Hold)'
 description_long: While this power is active, you are very nimble and Acrobatic. You can avoid most Knockback effects and are resistant to Hold effects. You must be at least level 14 and have two other Leaping Powers before selecting Acrobatics.
+enhancements:
+- 8
+- 16
+- 18
 set_types: []
 level: 14
 variable_name: ''
@@ -46,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -59,14 +64,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -79,14 +84,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -100,14 +105,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -121,14 +126,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -141,14 +146,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 20
   mezmorize_type: 2
   summon: ''
@@ -160,14 +165,14 @@ effects:
   magnitude: 1
   duration: 1.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 20
   mezmorize_type: 2
   summon: ''
@@ -179,14 +184,14 @@ effects:
   magnitude: 1
   duration: 1.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -198,14 +203,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -217,14 +222,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -237,14 +242,14 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Leaping.Leap
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -257,8 +262,8 @@ effects:
   duration: 1.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

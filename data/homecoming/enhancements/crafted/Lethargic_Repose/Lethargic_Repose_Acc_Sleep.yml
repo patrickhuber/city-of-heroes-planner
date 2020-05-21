@@ -11,11 +11,11 @@ effect_chance: 1
 level_min: 19
 level_max: 52
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.625
-- i_d: 12
-  sub_i_d: 9
+- id: 12
+  sub_id: 9
   multiplier: 0.625
 unique_identifier: Crafted_Lethargic_Repose_F
 recipe: Lethargic_Repose_F

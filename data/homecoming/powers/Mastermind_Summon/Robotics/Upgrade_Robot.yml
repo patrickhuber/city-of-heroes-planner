@@ -7,8 +7,8 @@ display: Upgrade Robot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 65536
 target_line_of_sight: true
 range: 30
 endurance_cost: 22.75
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 2
 radius: 30
 max_targets: 16
@@ -32,7 +33,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Upgrade Robot Henchman
 description_long: 'Upgrade Robot will permanently bestow the most powerful and high-tech gear and weaponry to all of your Robot Henchman. The Upgraded Robot will gain new abilities, powers and weapons. The powers gained are unique and dependent upon the type of Robot Henchmen that is Upgraded. This power only works on your Robot Henchmen and you can only Upgrade your Robot Henchman once with this power. Recharge: Medium'
+enhancements:
+- 8
+- 17
+- 18
 set_types: []
+click_buff: true
 level: 32
 variable_name: ''
 sub_powers: []
@@ -40,149 +46,4 @@ ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
 forced_class: ''
-effects:
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 1
-  effect_type: 12
-  summon: Mastermind_Pets.Droid_3.Full_Auto_Laser
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Droid_3.Full_Auto_Laser
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 2
-  effect_type: 12
-  summon: Mastermind_Pets.Droid_3.Upgrade
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Droid_3.Upgrade
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 3
-  effect_type: 12
-  summon: Mastermind_Pets.Protector_3.Photon_Grenade
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Protector_3.Photon_Grenade
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 4
-  effect_type: 12
-  summon: Mastermind_Pets.Protector_3.Seeker_Drones
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Protector_3.Seeker_Drones
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 5
-  effect_type: 12
-  summon: Mastermind_Pets.Protector_3.Upgrade
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Protector_3.Upgrade
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 6
-  effect_type: 12
-  summon: Mastermind_Pets.Assault_3.Swarm_Missiles
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Assault_3.Swarm_Missiles
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 7
-  effect_type: 12
-  summon: Mastermind_Pets.Assault_3.Incendiary_Swarm_Missiles
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Assault_3.Incendiary_Swarm_Missiles
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 8
-  effect_type: 12
-  summon: Mastermind_Pets.Assault_3.Upgrade
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Mastermind_Pets.Assault_3.Upgrade
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Robotics.Upgrade_Robot
-  unique_i_d: 9
-  effect_type: 78
-  summon: ''
-  stacking: 1
-  to_who: 1
-  scale: 100
-  magnitude: 1
-  duration: 11.5
-  aspect: 4
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
+effects: []

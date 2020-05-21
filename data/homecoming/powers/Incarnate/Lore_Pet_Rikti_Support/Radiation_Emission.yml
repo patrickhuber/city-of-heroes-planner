@@ -7,16 +7,17 @@ display: Radiation Emission
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 513
 entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -26,6 +27,7 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Team AoE Ally +Heal
 description_long: The Radiation Emission power utilizes the healing properties of radiation to re-energize your allies. This power radiates out from the Rikti and restores some health to all nearby allies.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -38,7 +40,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Rikti_Support.Radiation_Emission
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   stacking: 1
@@ -50,8 +52,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal

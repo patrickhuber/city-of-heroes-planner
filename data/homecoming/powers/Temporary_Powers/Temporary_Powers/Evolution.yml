@@ -7,8 +7,8 @@ display: Evolution
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -27,6 +27,7 @@ cast_through_hold: true
 ignore_strength: true
 description_short: 'Auto: Self +Res(All but Psi), +Regen'
 description_long: You will gain a stack of Evolution each time you are attacked if you own Heightened Metabolism and each time you hit an enemy if you own Aggressive Reaction.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

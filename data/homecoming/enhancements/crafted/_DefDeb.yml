@@ -14,8 +14,8 @@ level_max: 49
 buff_mode: 2
 effects:
 - buff_mode: 2
-  i_d: 3
-  sub_i_d: -1
+  id: 3
+  sub_id: -1
   multiplier: 1
 unique_identifier: Crafted_Defense_DeBuff
 recipe: Invention_Defense_DeBuff

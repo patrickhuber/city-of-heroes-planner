@@ -7,8 +7,8 @@ display: Infected Explosion
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1.5
 attack_types: 132
@@ -25,6 +25,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Suicide Special
 description_long: The Infected Anti-Serum has a tendency of doing very nasty things to the Infected.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +37,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Infected_Explosion.Infected_Explosion
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -50,14 +51,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Infected_Explosion.Infected_Explosion
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -71,17 +72,17 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Pets.Infected_Explosion.Infected_Explosion
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 43
   summon: ''
-  delayed_time: 1.5499999523162842
+  delayed_time: 1.54999995
   stacking: 1
   base_probability: 1
   buffable: true
@@ -90,8 +91,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

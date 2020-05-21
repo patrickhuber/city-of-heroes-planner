@@ -7,8 +7,8 @@ display: Smash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 9
 group_memberships: []
@@ -17,14 +17,16 @@ target: 2048
 target_line_of_sight: true
 range: 5
 endurance_cost: 7
-cast_time: 1.2000000476837158
+cast_time: 1.20000005
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
 boosts_allowed: []
 description_short: Melee, Moderate DMG(Smash), Knockback
 description_long: The War Walker's fists pack a wallop.  They deal smashing damage, can knockdown and disorient their foes.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

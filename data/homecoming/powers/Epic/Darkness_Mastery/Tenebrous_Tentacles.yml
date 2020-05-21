@@ -7,7 +7,7 @@ display: Tenebrous Tentacles
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Darkness_Mastery.Torrent
     - Epic.Darkness_Mastery.Petrifying_Gaze
   - - Epic.Darkness_Mastery.Torrent
@@ -18,7 +18,7 @@ requirement:
     - Epic.Darkness_Mastery.Dark_Blast
   - - Epic.Darkness_Mastery.Petrifying_Gaze
     - Epic.Darkness_Mastery.Night_Fall
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 268
@@ -27,9 +27,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 12.739999771118164
-cast_time: 1.6699999570846558
+endurance_cost: 12.7399998
+cast_time: 1.66999996
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 3
 radius: 40
 arc: 30
@@ -46,6 +47,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Negative/Smash), Foe Immobilize, -ACC
 description_long: 'You can create a cone shaped rift to the Netherworld that allows its native creatures to slip their oily Tentacles into our reality. These creatures will snare all foes within range, Immobilizing them while the Tentacles drain their life and reduce their Accuracy. You must be level 44 and have two other Darkness Mastery Powers before selecting this power. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 13
+- 17
+- 18
 set_types:
 - 3
 - 12
@@ -61,7 +70,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -73,19 +82,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -95,18 +104,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.13500000536441803
+  scale: 0.135000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -118,19 +127,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.13529999554157257
+  scale: 0.135299996
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -140,18 +149,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.17621000111103058
+  scale: 0.176210001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 40
   summon: ''
   stacking: 1
@@ -164,14 +173,14 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -185,14 +194,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -208,80 +217,80 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 6
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2586300373077393
+  scale: 1.25863004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_scrapper
-  i_d_class_name: 3
+  uid_class_name: class_scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 6
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 0.93500000238418579
+  scale: 0.935000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_scrapper
-  i_d_class_name: 3
+  uid_class_name: class_scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 6
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 1
   to_who: 1
-  scale: 0.93500000238418579
+  scale: 0.935000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -292,40 +301,40 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2586300373077393
+  scale: 1.25863004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 6
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2586300373077393
+  scale: 1.25863004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -335,19 +344,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.93500000238418579
+  scale: 0.935000002
   magnitude: 1
   attrib_type: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -358,18 +367,18 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 0.93500000238418579
+  scale: 0.935000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 48
   summon: ''
   stacking: 1
@@ -377,18 +386,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: class_brute
-  i_d_class_name: 8
+  uid_class_name: class_brute
+  id_class_name: 8
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -405,14 +414,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: class_brute
-  i_d_class_name: 8
+  uid_class_name: class_brute
+  id_class_name: 8
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Epic.Darkness_Mastery.Tenebrous_Tentacles
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -428,8 +437,8 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: class_brute
-  i_d_class_name: 8
+  uid_class_name: class_brute
+  id_class_name: 8
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt

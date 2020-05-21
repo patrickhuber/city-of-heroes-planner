@@ -7,8 +7,8 @@ display: Seishinteki Kyoyo
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 1.8300000429153442
+cast_time: 1.83000004
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -26,6 +27,9 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Self +Endurance
 description_long: 'Seishinteki Kyoyo is the spiritual education in Ninjitsu. Your mastery of these spiritual techniques allow you to recover endurance with a short period of meditation. Recharge: Long'
+enhancements:
+- 18
+- 7
 set_types:
 - 22
 level: 16
@@ -37,19 +41,19 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Defense.Ninjitsu.Seishinteki_Kyoyo
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

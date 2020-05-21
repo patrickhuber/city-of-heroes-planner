@@ -7,8 +7,8 @@ display: Frozen Aura
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 36
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 18.511999130249023
-cast_time: 2.0999999046325684
+endurance_cost: 18.5119991
+cast_time: 2.0999999
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 10
 max_targets: 10
@@ -32,6 +33,12 @@ boosts_allowed:
 - Sleep_Boost
 description_short: PBAoE, Moderate DMG(Cold), Foe Sleep
 description_long: 'Your mastery of cold enables you to dramatically lower the temperature immediately around you. When you perform a Frozen Aura, nearby foes will be frozen within a fragile casing of ice and suffer a moderate amount of cold damage. These frozen foes will break free if attacked. Frozen Aura deals moderate damage. Damage: Moderate Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 21
 set_types:
 - 4
 - 14
@@ -47,11 +54,11 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 9
   summon: ''
-  delayed_time: 0.33000001311302185
+  delayed_time: 0.330000013
   stacking: 1
   base_probability: 1
   buffable: true
@@ -63,14 +70,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Sleep
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -80,18 +87,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4199999570846558
+  scale: 1.41999996
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -101,39 +108,39 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5479999780654907
+  scale: 1.54799998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4199999570846558
+  scale: 1.41999996
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -144,18 +151,18 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4199999570846558
+  scale: 1.41999996
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
   base_probability: 1
@@ -164,14 +171,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Ice_Melee.Frozen_Aura
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -187,8 +194,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

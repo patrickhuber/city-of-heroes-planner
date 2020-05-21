@@ -7,19 +7,20 @@ display: Slug
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 75
-endurance_cost: 8.5279998779296875
-cast_time: 1.8700000047683716
+endurance_cost: 8.52799988
+cast_time: 1.87
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Ranged, High DMG(Lethal), Foe Knockback
 description_long: 'Fires a single Slug at a targeted foe. Firing a single Slug is slower than firing a Burst, but deals more damage, is longer range, and can knock down foes. Damage: High, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Commando.Slug
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -50,18 +56,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.6399999856948853
+  scale: 1.63999999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Commando.Slug
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -75,14 +81,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Commando.Slug
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -97,9 +103,30 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.409999996
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

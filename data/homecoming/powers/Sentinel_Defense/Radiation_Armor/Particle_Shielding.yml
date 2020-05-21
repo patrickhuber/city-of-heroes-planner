@@ -7,8 +7,8 @@ display: Particle Shielding
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 10.399999618530273
-cast_time: 0.73000001907348633
+endurance_cost: 10.3999996
+cast_time: 0.730000019
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -29,6 +30,11 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Self, +Absorb, +Regeneration
 description_long: 'You channel a tremendous amount of radiation into a barrier around you. For a short time you will have a strong absorption shield in addition to a regeneration and recovery buff. Recharge: Very Long'
+enhancements:
+- 8
+- 11
+- 18
+- 7
 set_types:
 - 9
 click_buff: true
@@ -46,18 +52,18 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.029999999329447746
+  scale: 0.0299999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Radiation_Armor.Particle_Shielding
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -68,14 +74,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Radiation_Armor.Particle_Shielding
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -85,8 +91,8 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

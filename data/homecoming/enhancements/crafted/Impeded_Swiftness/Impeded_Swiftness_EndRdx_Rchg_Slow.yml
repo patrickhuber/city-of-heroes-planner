@@ -11,26 +11,26 @@ effect_chance: 1
 level_min: 9
 level_max: 29
 effects:
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.5
-- i_d: 14
-  sub_i_d: -1
-  multiplier: 0.5
-- buff_mode: 2
-  i_d: 19
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.5
 - buff_mode: 2
-  i_d: 6
-  sub_i_d: -1
+  id: 19
+  sub_id: -1
   multiplier: 0.5
 - buff_mode: 2
-  i_d: 11
-  sub_i_d: -1
+  id: 6
+  sub_id: -1
   multiplier: 0.5
-- i_d: 21
-  sub_i_d: -1
+- buff_mode: 2
+  id: 11
+  sub_id: -1
+  multiplier: 0.5
+- id: 21
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Crafted_Impeded_Swiftness_E
 recipe: Impeded_Swiftness_E

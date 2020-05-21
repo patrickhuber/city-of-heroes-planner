@@ -7,8 +7,8 @@ display: Umbral Torrent
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 268
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 14.35200023651123
-cast_time: 1.0299999713897705
+endurance_cost: 14.3520002
+cast_time: 1.02999997
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 3
 radius: 80
 arc: 30
@@ -36,6 +37,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Smashing), Foe -To Hit, Knockback
 description_long: 'You summon a wave of mire that sweeps away foes within its arc. The attack deals Moderate Negative Energy damage and sends foes flying and reduces their chance to hit. Damage: Minor, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -52,7 +61,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -62,18 +71,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.95999997854232788
+  scale: 0.959999979
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -87,14 +96,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -104,18 +113,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.63736999034881592
+  scale: 0.63736999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -130,14 +139,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 40
   summon: ''
   stacking: 1
@@ -150,160 +159,160 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 1
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 2
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 3
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 4
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 5
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 6
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 7
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Dark_Blast.Umbral_Torrent
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 8
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

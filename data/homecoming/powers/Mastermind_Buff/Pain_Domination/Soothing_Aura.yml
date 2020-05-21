@@ -7,8 +7,8 @@ display: Suppress Pain
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 513
 entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.77999997138977051
-cast_time: 1.6699999570846558
+endurance_cost: 0.779999971
+cast_time: 1.66999996
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 4.25
 effect_area: 2
 radius: 15
@@ -32,6 +33,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: PBAoE, Ally +Regeneration'
 description_long: 'While this power is active all nearby allies will have their regeneration rate increased dramatically.  Recharge: Fast.'
+enhancements:
+- 8
+- 11
+- 18
 set_types:
 - 9
 level: 20
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Pain_Domination.Soothing_Aura
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -55,8 +60,8 @@ effects:
   duration: 4.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

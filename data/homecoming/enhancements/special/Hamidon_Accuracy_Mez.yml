@@ -19,29 +19,29 @@ image: HOEndoplasm.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 1
-- i_d: 12
-  sub_i_d: 2
+- id: 12
+  sub_id: 2
   multiplier: 1
-- i_d: 12
-  sub_i_d: 10
+- id: 12
+  sub_id: 10
   multiplier: 1
-- i_d: 12
-  sub_i_d: 1
+- id: 12
+  sub_id: 1
   multiplier: 1
-- i_d: 12
-  sub_i_d: 12
+- id: 12
+  sub_id: 12
   multiplier: 1
-- i_d: 12
-  sub_i_d: 13
+- id: 12
+  sub_id: 13
   multiplier: 1
-- i_d: 12
-  sub_i_d: 3
+- id: 12
+  sub_id: 3
   multiplier: 1
-- i_d: 12
-  sub_i_d: 9
+- id: 12
+  sub_id: 9
   multiplier: 1
 unique_identifier: Hamidon_Accuracy_Mez
 recipe: ''

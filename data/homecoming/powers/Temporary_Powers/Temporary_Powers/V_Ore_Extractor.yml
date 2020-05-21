@@ -7,8 +7,8 @@ display: Ore Extractor
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 group_memberships: []
@@ -19,14 +19,16 @@ target_line_of_sight: true
 range: 25
 endurance_cost: 6.5
 interrupt_time: 4
-cast_time: 6.929999828338623
+cast_time: 6.92999983
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
 boosts_allowed: []
 description_short: Extract Ore
 description_long: This stainless steel tool allows you to safely collect and store fragments of the Shiva meteors. Once collected, you'll need to take the shards to a processing station and transform them into Shiva Samples. These are then taken to the Contact who gave you the extractor. You must be in close proximity to the Meteorite to extract the ore.  Extracting the Ore is interruptible, so if you are hit or more, you will need to try again.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.V_Ore_Extractor
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 9
   summon: ''
@@ -49,8 +51,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

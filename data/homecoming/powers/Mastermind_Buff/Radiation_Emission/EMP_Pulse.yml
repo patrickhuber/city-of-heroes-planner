@@ -1,4 +1,4 @@
-index: 5690
+index: 10792
 full_name: Mastermind_Buff.Radiation_Emission.EMP_Pulse
 group_name: Mastermind_Buff
 set_name: Radiation_Emission
@@ -7,8 +7,8 @@ display: EM Pulse
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 132
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 20.799999237060547
-cast_time: 2.9300000667572021
+endurance_cost: 20.7999992
+cast_time: 2.93000007
 recharge_time: 300
+base_recharge_time: 300
 effect_area: 2
 radius: 60
 max_targets: 16
@@ -32,6 +33,12 @@ boosts_allowed:
 - Recovery_Boost
 description_short: PBAoE, Foe Hold, -END, -Regen, Special vs. Robots; Self -Recovery
 description_long: 'You can unleash a massive pulse of electromagnetic energy. This EMP can affect machines, and is even powerful enough to affect synaptic brain patterns.  It will drain the Endurance and HP Regeneration of all affected targets and leave them incapacitated and Held for a long while. Additionally, most machines and robots will take moderate high damage. However, this power uses a lot of Endurance and leaves you unable to recover Endurance for a while. Recharge: Very Long'
+enhancements:
+- 1
+- 8
+- 12
+- 18
+- 7
 set_types:
 - 10
 - 22
@@ -45,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -61,14 +68,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -84,14 +91,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -108,14 +115,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -124,18 +131,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.40000000596046448
+  scale: -0.400000006
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   stacking: 1
@@ -144,18 +151,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: -16.670000076293945
+  scale: -16.6700001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 27
   summon: ''
   stacking: 1
@@ -168,14 +175,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 27
   summon: ''
   stacking: 1
@@ -188,14 +195,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -205,18 +212,18 @@ effects:
   resistible: true
   special_case: 8
   to_who: 1
-  scale: 1.6399999856948853
+  scale: 1.63999999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Buff.Radiation_Emission.EMP_Pulse
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 26
   summon: ''
   stacking: 1
@@ -227,8 +234,8 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

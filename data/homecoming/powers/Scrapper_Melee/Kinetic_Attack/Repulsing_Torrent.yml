@@ -7,8 +7,8 @@ display: Repulsing Torrent
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 140
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 11.855999946594238
+endurance_cost: 11.8559999
 cast_time: 2
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 3
 radius: 40
 arc: 45
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Energy/Smash), Foe Knockback
 description_long: 'Repulsing Torrent unleashes a cone of powerful energy that can smash foes and possibly send them flying. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -49,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -59,18 +67,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.82499998807907104
+  scale: 0.824999988
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -80,23 +88,23 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.27500000596046448
+  scale: 0.275000006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -105,19 +113,19 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   suppression: 32
   buffable: true
   resistible: true
@@ -127,14 +135,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -144,18 +152,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.94801002740859985
+  scale: 0.948010027
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -165,83 +173,83 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.31600001454353333
+  scale: 0.316000015
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2640199661254883
+  scale: 1.26401997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritPlayer
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritSmall
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritLarge
   override: ''
 - power_full_name: Scrapper_Melee.Kinetic_Attack.Repulsing_Torrent
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -249,12 +257,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.49500000476837158
+  scale: 0.495000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

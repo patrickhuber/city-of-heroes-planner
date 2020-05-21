@@ -12,12 +12,12 @@ level_min: 14
 level_max: 39
 effects:
 - buff_mode: 1
-  i_d: 3
-  sub_i_d: -1
+  id: 3
+  sub_id: -1
   schedule: 1
   multiplier: 0.625
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.625
 unique_identifier: Crafted_Gift_of_the_Ancients_B
 recipe: Gift_of_the_Ancients_B

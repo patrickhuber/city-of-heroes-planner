@@ -7,8 +7,8 @@ display: Placate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -19,6 +19,7 @@ target_line_of_sight: true
 range: 50
 cast_time: 1.5
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: ''
 artifical_intelligence_report: 1
@@ -28,6 +29,9 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Foe Placate, Self Stealth/Hide
 description_long: 'Allows you to trick a foe to no longer attack you.  A Successful Placate will also Hide you.  This Hide is very brief, and offers no Defense bonus, but it will allow you to deliver a Critical Hit or an Assassins Blow. However, if you attack a Placated Foe, he will be able to attack you back. Recharge: Long'
+enhancements:
+- 17
+- 18
 set_types: []
 level: 12
 variable_name: ''
@@ -38,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Brawling.Placate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -53,14 +57,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Stalker_Melee.Brawling.Placate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -75,14 +79,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Stalker_Melee.Brawling.Placate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 36
   summon: ''
   delayed_time: 0.25
@@ -95,14 +99,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Brawling.Placate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 37
   summon: ''
   delayed_time: 0.25
@@ -115,14 +119,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Brawling.Placate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 18
   summon: ''
   delayed_time: 0.25
@@ -134,27 +138,27 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Brawling.Placate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 41
   summon: ''
   delayed_time: 0.25
   base_probability: 1
   suppression: 1344
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

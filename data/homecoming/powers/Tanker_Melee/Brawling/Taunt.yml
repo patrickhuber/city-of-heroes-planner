@@ -7,8 +7,8 @@ display: Taunt
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 2
@@ -18,8 +18,9 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 2
 radius: 15
 max_targets: 5
@@ -32,6 +33,11 @@ boosts_allowed:
 - Taunt_Boost
 description_short: Ranged (Targeted AoE), Foe Taunt
 description_long: 'Taunts a foe, and some nearby foes, to attack you. Useful for pulling villains off an ally who find themselves in over their head. Taunted foes tend to ignore other Heroes and focus on you for quite a while, so use this power cautiously.  A To Hit check is required to Taunt enemy players, but is not needed against critter targets.  Recharge: Slow'
+enhancements:
+- 1
+- 17
+- 18
+- 24
 set_types:
 - 24
 level: 10
@@ -43,7 +49,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Tanker_Melee.Brawling.Taunt
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -58,14 +64,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Tanker_Melee.Brawling.Taunt
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -81,14 +87,14 @@ effects:
   aspect: 2
   modifier_table: Melee_Taunt
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Tanker_Melee.Brawling.Taunt
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 24
   summon: ''
@@ -101,14 +107,14 @@ effects:
   duration: 12
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Tanker_Melee.Brawling.Taunt
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 77
   summon: ''
   stacking: 1
@@ -122,8 +128,8 @@ effects:
   aspect: 4
   modifier_table: Melee_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

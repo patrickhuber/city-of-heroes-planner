@@ -7,19 +7,20 @@ display: Disintegrate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1000000238418579
+accuracy: 1.10000002
 attack_types: 130
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.192000389099121
-cast_time: 1.8999999761581421
+endurance_cost: 10.1920004
+cast_time: 1.89999998
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, High DoT(Energy), Foe -Regen, Special
 description_long: "You fire a stream of energy at your foe which causes them to slowly disintegrate and suffer High Energy damage over time. Even after the damage over time effect wears off the target will have their regeneration rate reduced and suffer from the Disintegration effect for an additional period of time. Using Beam Rifle powers on targets affected by Disintegrate will inflict additional effects. Additionally if Single Shot, Charged Shot, Lancer Shot and Penetrating Ray are used on a target suffering from Disintegrating, they have a chance to cause this effect to spread to up 3 nearby targets that aren't already suffering from Disintegrating. Targets affected by this Disintegrate Spread will also suffer some Minor Energy damage over time. Damage: High, Recharge: Long"
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 33
@@ -45,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -56,19 +63,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.21600000560283661
+  scale: 0.216000006
   magnitude: 1
   duration: 10.5
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -79,19 +86,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.28808999061584473
+  scale: 0.288089991
   magnitude: 1
   duration: 10.5
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -101,17 +108,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -121,17 +128,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -141,17 +148,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -161,17 +168,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -181,17 +188,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -201,17 +208,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -221,17 +228,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -241,17 +248,17 @@ effects:
   to_who: 2
   scale: 0.125
   magnitude: 1
-  duration: 9.3999996185302734
+  duration: 9.39999962
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -263,14 +270,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -282,14 +289,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 77
   summon: ''
   base_probability: 1
@@ -299,14 +306,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Disintegrate
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Beam_Rifle_Debuff
   base_probability: 1
@@ -316,8 +323,8 @@ effects:
   duration: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Beam_Rifle_Debuff
   effect_id: Ones

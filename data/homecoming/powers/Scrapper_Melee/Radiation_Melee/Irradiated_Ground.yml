@@ -7,8 +7,8 @@ display: Irradiated Ground
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -18,9 +18,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 2.5999999046325684
-cast_time: 2.0299999713897705
+endurance_cost: 2.5999999
+cast_time: 2.02999997
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 5
 effect_area: 1
 max_boosts: 6
@@ -33,6 +34,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Toggle, Minor DoT(Toxic) Patch, Foe -Def, Special
 description_long: 'While active you will scorch the earth beneath you leaving toxic clouds of radioactive gas in your wake. Foes that enter these clouds will suffer Minor Toxic damage, have their defense reduced and also have a tiny chance of being Contaminated. Hitting Contaminated foes with single target Radiation Melee powers cause a small burst of damage to foes near the target. Damage: Minor, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 4
 - 21
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Radiation_Melee_Irradiated_Ground_Pet
   stacking: 1
@@ -59,8 +66,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

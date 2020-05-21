@@ -7,18 +7,19 @@ display: Inferno
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.3999999761581421
+accuracy: 1.39999998
 attack_types: 68
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 27.715999603271484
+endurance_cost: 27.7159996
 cast_time: 3
 recharge_time: 145
+base_recharge_time: 145
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -31,6 +32,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Extreme DMG(Fire/Smash), Foe Moderate DoT(Fire)
 description_long: 'Unleashes a massive fiery explosion to devastate all nearby enemies and set them ablaze. Inferno deals Extreme Fire damage to all nearby foes and inflicts Moderate Fire damage over time.  Damage: Extreme, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 4
 - 37
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Ranged.Fire_Blast.Inferno
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -58,14 +64,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Fire_Blast.Inferno
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -79,38 +85,38 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Fire_Blast.Inferno
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 9
   stacking: 1
-  base_probability: 0.99000000953674316
+  base_probability: 0.99000001
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
-  duration: 8.1000003814697266
+  duration: 8.10000038
   aspect: 2
   modifier_table: Ranged_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Fire_Blast.Inferno
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -119,18 +125,18 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.89989000558853149
+  scale: 0.899890006
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Fire_Blast.Inferno
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -140,12 +146,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.8270499706268311
+  scale: 1.82704997
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

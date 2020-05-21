@@ -12,12 +12,12 @@ effect_chance: 1
 level_min: 9
 level_max: 49
 effects:
-- i_d: 12
-  sub_i_d: 4
+- id: 12
+  sub_id: 4
   schedule: 3
   multiplier: 1
-- i_d: 12
-  sub_i_d: 5
+- id: 12
+  sub_id: 5
   schedule: 3
   multiplier: 1
 unique_identifier: Crafted_Knockback

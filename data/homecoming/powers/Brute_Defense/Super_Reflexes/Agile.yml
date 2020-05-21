@@ -7,8 +7,8 @@ display: Agile
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -25,6 +25,8 @@ boosts_allowed:
 - Buff_Defense_Boost
 description_short: 'Auto: Self +DEF(Ranged), Res(DeBuff DEF), Res(All DMG, Special)'
 description_long: You become innately more Agile, and are able to naturally avoid some ranged attacks and resist Defense DeBuffs. Your Agility also grants you minor Damage Resistance to all damage except Toxic and Psionic.  This Damage Resistance is only available as you lose Health but it improves as your HP declines. This power is always on, and will permanently increase your Defense versus ranged attacks.
+enhancements:
+- 5
 set_types:
 - 7
 level: 4
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -48,32 +50,32 @@ effects:
   duration: 2.5
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 28
   effect_modifiers: 5
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 2.5
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -83,14 +85,14 @@ effects:
   duration: 2.5
   attrib_type: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 60 kHitPoints% source> - 0 100 minmax 60 / 0.2 *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -100,14 +102,14 @@ effects:
   duration: 2.5
   attrib_type: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 60 kHitPoints% source> - 0 100 minmax 60 / 0.2 *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -117,14 +119,14 @@ effects:
   duration: 2.5
   attrib_type: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 60 kHitPoints% source> - 0 100 minmax 60 / 0.2 *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -134,14 +136,14 @@ effects:
   duration: 2.5
   attrib_type: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 60 kHitPoints% source> - 0 100 minmax 60 / 0.2 *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -151,14 +153,14 @@ effects:
   duration: 2.5
   attrib_type: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 60 kHitPoints% source> - 0 100 minmax 60 / 0.2 *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Super_Reflexes.Agile
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -168,8 +170,8 @@ effects:
   duration: 2.5
   attrib_type: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 60 kHitPoints% source> - 0 100 minmax 60 / 0.2 *
   reward: ''
   effect_id: Ones

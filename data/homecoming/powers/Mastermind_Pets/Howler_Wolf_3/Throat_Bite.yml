@@ -7,8 +7,8 @@ display: Feral Charge
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 8.5279998779296875
-cast_time: 1.3999999761581421
+endurance_cost: 8.52799988
+cast_time: 1.39999998
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,9 +32,18 @@ boosts_allowed:
 - Slow_Boost
 description_short: Melee, High DMG(Smash), Foe -Def, Knockdown
 description_long: 'The wolf charges its foe in an attempt to knock them off guard.  Feral Charge causes high smashing damage, reduces defense and has a good chance to knock its target down.  Damage: High, Recharge: Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 22
 set_types: []
 level: 1
-variable_name: ''
+variable_enabled: true
+variable_name: Mentality Stacks
+variable_min: 1
+variable_max: 10
 sub_powers: []
 ignore_enhancements:
 - 13
@@ -42,27 +52,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
-  unique_i_d: 1
-  effect_type: 3
-  damage_type: 1
-  summon: ''
-  stacking: 1
-  base_probability: 1
-  buffable: true
-  resistible: true
-  to_who: 1
-  scale: 1.6399999856948853
-  magnitude: 1
-  aspect: 2
-  modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Damage
-  override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -70,77 +60,227 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   delayed_time: 0.5
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   delayed_time: 0.5
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   suppression: 32
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
-  unique_i_d: 5
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 56
+  to_who: 1
+  scale: 1.63999999
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.409999996
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 55
+  to_who: 1
+  scale: 1.63999999
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 55
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.0320000015
+  magnitude: 1.01999998
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 52
+  to_who: 1
+  scale: 0.409999996
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Howler_Wolf_3.Throat_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 52
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.00800000038
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 5
   effect_type: 3
   damage_type: 1
   summon: ''
   stacking: 1
   buffable: true
   resistible: true
+  special_case: 55
   to_who: 1
-  scale: 0.81999999284744263
+  scale: 0.819999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: CritActive
+  override: ''
+- power_full_name: ''
+  unique_id: 5
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  special_case: 52
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.0160000008
+  magnitude: 1.01999998
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritActive

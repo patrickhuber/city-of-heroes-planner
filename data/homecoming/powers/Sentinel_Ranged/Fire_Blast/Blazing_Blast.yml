@@ -7,19 +7,20 @@ display: Blazing Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 66
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 11.859999656677246
-cast_time: 1.6699999570846558
+endurance_cost: 11.8599997
+cast_time: 1.66999996
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: High DMG(Fire)
 description_long: 'An extremely quick long range beam of fire that blasts your foes. Damage: High, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 44
@@ -44,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -58,14 +65,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -75,19 +82,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.097999997437000275
+  scale: 0.0979999974
   magnitude: 1
-  duration: 0.61000001430511475
+  duration: 0.610000014
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 8
   summon: ''
@@ -98,18 +105,18 @@ effects:
   to_who: 1
   scale: 8
   magnitude: 1
-  duration: 0.61000001430511475
+  duration: 0.610000014
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -119,22 +126,22 @@ effects:
   to_who: 1
   scale: 4
   magnitude: 1
-  duration: 0.61000001430511475
+  duration: 0.610000014
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
-  delayed_time: 0.60000002384185791
+  delayed_time: 0.600000024
   stacking: 1
   base_probability: 1
   buffable: true
@@ -146,14 +153,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Knockback
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -164,18 +171,18 @@ effects:
   to_who: 1
   scale: 8
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 8
   summon: ''
@@ -187,22 +194,22 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 4
   summon: ''
-  delayed_time: 0.60000002384185791
+  delayed_time: 0.600000024
   stacking: 1
   base_probability: 1
   suppression: 32
@@ -215,14 +222,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Knockback
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Sentinel_Ranged.Fire_Blast.Blazing_Blast
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -232,12 +239,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7680000066757202
+  scale: 1.76800001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

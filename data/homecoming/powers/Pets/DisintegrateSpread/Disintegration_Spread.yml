@@ -7,11 +7,11 @@ display: Disintegration Spread
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 1
-accuracy: 1.7999999523162842
+accuracy: 1.79999995
 attack_types: 130
 group_memberships: []
 entities_affected: 2048
@@ -32,6 +32,11 @@ boosts_allowed:
 cast_through_hold: true
 description_short: Spreading AoE, Minor DoT(Energy), Foe Disintegrating
 description_long: Attacking a Disintegrating foe with most Single Shot, Charged Shot, Lancer Shot and Penetrating Ray has a chance to cause Disintegration to spread up to 3 nearby foes, that aren't suffering from Disintegration, allowing you to trigger Disintegration effects off of these targets as well.
+enhancements:
+- 1
+- 4
+- 8
+- 17
 set_types: []
 level: 1
 variable_name: ''

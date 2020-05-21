@@ -12,14 +12,14 @@ level_max: -1
 unique: true
 mutually_exclusive_id: 5
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.5
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 0.5
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Superior_Attuned_Superior_Blasters_Wrath_D
 recipe: Alt

@@ -7,8 +7,8 @@ display: Claw Rake
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 5.1999998092651367
-cast_time: 0.82999998331069946
+endurance_cost: 5.19999981
+cast_time: 0.829999983
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -29,6 +30,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Melee, Moderate DMG(Lethal/Toxic)
 description_long: 'Two quick Swipes with your claws. Does minor lethal damage, but has a quick recharge rate. Damage: Minor, Recharge: Very Fast'
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Hellfire_Demonling.Claw_Rake
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -49,18 +54,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Hellfire_Demonling.Claw_Rake
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -69,12 +74,54 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.174999997
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.075000003
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

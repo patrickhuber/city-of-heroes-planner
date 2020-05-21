@@ -7,19 +7,20 @@ display: Flamethrower
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2999999523162842
+accuracy: 1.29999995
 attack_types: 68
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 21.840000152587891
-cast_time: 2.3299999237060547
+endurance_cost: 21.8400002
+cast_time: 2.32999992
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 3
 radius: 40
 arc: 45
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Extreme DoT(Fire)
 description_long: 'Spews forth a cone of flames from underneath the barrel of your assault rifle, setting foes on fire. Very accurate and very deadly at medium range. Damage: Extreme(DoT) Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 37
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Ranged.Assault_Rifle.Flamethrower
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -58,19 +65,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.24199999868869781
+  scale: 0.241999999
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Assault_Rifle.Flamethrower
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -81,13 +88,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.23204000294208527
+  scale: 0.232040003
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

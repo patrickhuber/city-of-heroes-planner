@@ -7,8 +7,8 @@ display: Time Stop
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 8.8400001525878906
-cast_time: 2.1700000762939453
+endurance_cost: 8.84000015
+cast_time: 2.17000008
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Hold, Foe -Regen, -Heal
 description_long: "You trap your target within the flow of time causing them to be held helpless.  Even those resistant to the effects of Time Stop's hold will still have their regeneration rate and healing effects reduced for a brief period.  Targets affected by Time Crawl will suffer from a more powerful hold, however its benefits are brief.  Recharge: Long"
+enhancements:
+- 1
+- 8
+- 12
+- 17
+- 18
 set_types:
 - 10
 level: 12
@@ -42,7 +49,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -57,14 +64,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -80,14 +87,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -103,14 +110,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -127,14 +134,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   effect_modifiers: 13
   summon: ''
@@ -148,14 +155,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -167,14 +174,14 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Defender_Buff.Time_Manipulation.Time_Stop
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -186,8 +193,8 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

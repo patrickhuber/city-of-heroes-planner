@@ -7,8 +7,8 @@ display: Mass Hypnosis
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 512
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 15.600000381469727
-cast_time: 2.0299999713897705
+endurance_cost: 15.6000004
+cast_time: 2.02999997
 recharge_time: 45
+base_recharge_time: 45
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -34,6 +35,12 @@ boosts_allowed:
 - Sleep_Boost
 description_short: Ranged (Targeted AoE), Foe Sleep
 description_long: 'Hypnotizes a group of foes at a distance and puts them to Sleep. The targets will remain asleep for some time, but will awaken if attacked. This power deals no damage, but if done discreetly, the targets will never be aware of your presence. Recharge: Slow'
+enhancements:
+- 1
+- 8
+- 17
+- 18
+- 21
 set_types:
 - 14
 - 38
@@ -46,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Mind_Control.Mass_Hypnosis
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -61,14 +68,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Sleep
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Mass_Hypnosis
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -84,14 +91,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Mass_Hypnosis
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -107,14 +114,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Sleep
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Mass_Hypnosis
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -130,8 +137,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

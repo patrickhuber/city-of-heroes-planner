@@ -7,19 +7,20 @@ display: Antumbral Beam
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 258
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 14.350000381469727
-cast_time: 2.0699999332427979
+endurance_cost: 14.3500004
+cast_time: 2.06999993
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Superior DMG(Negative), Target -To Hit
 description_long: "An extremely focused beam of Negative Energy that deals tremendous damage and reduces the target's chance to hit. Damage: Very High, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 26
@@ -47,7 +55,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Dark_Blast.Antumbral_Beam
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -57,18 +65,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.7599999904632568
+  scale: 2.75999999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Dark_Blast.Antumbral_Beam
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   stacking: 1
@@ -81,14 +89,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Sentinel_Ranged.Dark_Blast.Antumbral_Beam
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -98,12 +106,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.9240000247955322
+  scale: 1.92400002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

@@ -7,8 +7,8 @@ display: DecoyPhantasm
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 2
 group_memberships: []
 entities_affected: 2048
@@ -16,14 +16,16 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
 boosts_allowed: []
 description_short: Summon Phantasm
 description_long: Manifests a Decoy Phantasm to distract foes. The Decoy is not real, and cannot harm or be harmed. However, your foes will believe the Decoy is a threat and attack it.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +37,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.Phantasm.DecoyPhantasm
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_DecoyPhantasm
   stacking: 1
@@ -48,8 +50,8 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Poison Gas Arrow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 4
@@ -18,9 +18,10 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 10.399999618530273
-cast_time: 1.1599999666213989
+endurance_cost: 10.3999996
+cast_time: 1.15999997
 recharge_time: 45
+base_recharge_time: 45
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,12 @@ boosts_allowed:
 - Sleep_Boost
 description_short: Ranged AoE, Foe -DMG, Sleep
 description_long: 'This arrow carries a capsule cloud of poisonous gas, which explodes on impact and weakens all foes in its vicinity. Affected foes damage potential will be severely reduced. Some foes will react badly to the poison and choke for a time, though they will react if attacked.  Recharge: Slow'
+enhancements:
+- 1
+- 8
+- 17
+- 18
+- 21
 set_types:
 - 14
 - 35
@@ -46,7 +53,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Trick_Arrow.Poison_Gas_Arrow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_PoisonGasArrow
   stacking: 1
@@ -59,8 +66,8 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Melee_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

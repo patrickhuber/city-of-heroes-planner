@@ -17,6 +17,9 @@ namespace CityOfInfo.MidsExporter
 
         [Option('f', "format", Required = false, Default = ExportFormat.Yaml, ResourceType =typeof(ExportFormat))]
         public ExportFormat Format {get;set;}
+
+        [Option('s', "silent", Required =false, Default = false, HelpText = "Suppresses output to screen.")]
+        public bool Silent { get; set; }
         
     }
 }

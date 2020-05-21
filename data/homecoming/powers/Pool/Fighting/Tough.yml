@@ -7,12 +7,12 @@ display: Tough
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Fighting.Boxing
     - ''
   - - Pool.Fighting.Kick
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 power_type: 2
 accuracy: 1
@@ -21,9 +21,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.16249999403953552
-cast_time: 3.0999999046325684
+endurance_cost: 0.162499994
+cast_time: 3.0999999
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -35,6 +36,10 @@ boosts_allowed:
 ignore_strength: true
 description_short: 'Toggle: Self +Res(Smash/Lethal)'
 description_long: While active, you are tough and slightly resistant to Smashing and Lethal damage.  Purchasing Tough requires the user to be level 14 and possess Boxing or Kick.
+enhancements:
+- 8
+- 18
+- 19
 set_types:
 - 8
 always_toggle: true
@@ -47,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -60,14 +65,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -80,14 +85,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -99,14 +104,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -118,14 +123,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -137,14 +142,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -156,14 +161,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -175,14 +180,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -194,14 +199,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -213,14 +218,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pool.Fighting.Tough
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -232,8 +237,8 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

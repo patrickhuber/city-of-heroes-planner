@@ -7,8 +7,8 @@ display: Fire Imps
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 2
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 26
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 4
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Summon Imps: Melee Minor DMG(Fire)'
 description_long: 'You can craft 3 small Fire Imps out of pure flame in a targeted location. Fire Imps will viciously attack any nearby foes, but they only possess the most basic instincts. Fire Imps can be healed and buffed like any teammate. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 6
 - 27
@@ -44,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Fire_Control.Fire_Imps
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_FireImp
   base_probability: 1
@@ -56,14 +63,14 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_LevelMinus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: LevelMinus
   override: ''
 - power_full_name: Dominator_Control.Fire_Control.Fire_Imps
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Pets_FireImp
   delayed_time: 1
@@ -76,18 +83,18 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_LevelMinus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: LevelMinus
   override: ''
 - power_full_name: Dominator_Control.Fire_Control.Fire_Imps
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
   summon: Pets_FireImp
   delayed_time: 3
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   to_who: 2
@@ -96,8 +103,8 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_LevelMinus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: LevelMinus

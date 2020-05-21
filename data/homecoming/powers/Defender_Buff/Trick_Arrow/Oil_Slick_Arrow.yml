@@ -7,8 +7,8 @@ display: Oil Slick Arrow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 70
-endurance_cost: 15.600000381469727
-cast_time: 1.1599999666213989
+endurance_cost: 15.6000004
+cast_time: 1.15999997
 recharge_time: 180
+base_recharge_time: 180
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -32,6 +33,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged (Location AoE), Knockdown, -Speed, -DEF, +Special
 description_long: 'On impact, this arrow creates an oil slick that Slows foes in the area and may cause them to slip and fall. The oil slick is very flammable and may burst into flames if fire is used near it. Recharge: Long'
+enhancements:
+- 4
+- 6
+- 8
+- 18
+- 22
 set_types:
 - 3
 - 13
@@ -49,7 +56,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Trick_Arrow.Oil_Slick_Arrow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_OilSlickOil
   stacking: 1
@@ -62,8 +69,8 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

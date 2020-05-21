@@ -17,25 +17,25 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8282
+  - id: 8159
     name: Set_Bonus.Set_Bonus.Sleep_Dur_3
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8096
+  - id: 7973
     name: Set_Bonus.Set_Bonus.Increased_Health_1
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8259
+  - id: 8136
     name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7949
+  - id: 7826
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_1
 special_bonuses:
 - special: -1

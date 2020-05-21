@@ -7,8 +7,8 @@ display: Siphon Life
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 257
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 7.8000001907348633
-cast_time: 1.9299999475479126
+endurance_cost: 7.80000019
+cast_time: 1.92999995
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Heal_Boost
 description_short: -To Hit
 description_long: Your chance to hit has been reduced by the Siphon Life attack.
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 11
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Skeleton_3.Siphon_Life
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -56,14 +63,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Skeleton_3.Siphon_Life
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 13
   summon: ''
   delayed_time: 0.5
@@ -76,14 +83,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Mastermind_Pets.Skeleton_3.Siphon_Life
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 40
   summon: ''
   stacking: 1
@@ -96,14 +103,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Mastermind_Pets.Skeleton_3.Siphon_Life
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -117,9 +124,30 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 6
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

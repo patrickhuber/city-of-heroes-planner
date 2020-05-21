@@ -7,8 +7,8 @@ display: Tenebrous Regeneration
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -25,6 +25,8 @@ boosts_allowed:
 - Heal_Boost
 description_short: 'Auto: Self +Regen'
 description_long: Tenebrous forces from the Netherworld sustain your body, increasing regeneration rate, in addition to protecting you from immobilization effects. This power is always on and cost no endurance.
+enhancements:
+- 11
 set_types:
 - 9
 level: 2
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Defense.Dark_Armor.Tenebrous_Regeneration
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -45,11 +47,11 @@ effects:
   to_who: 2
   scale: 1
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

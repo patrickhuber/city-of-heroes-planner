@@ -7,8 +7,8 @@ display: Dimension Shift
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 attack_types: 4
@@ -30,6 +30,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Targeted AoE), Foe Intangible
 description_long: 'Your mastery of gravity allows you to manipulate dimensions, bringing multiple foes out of sync with reality. Your foes becomes completely intangible, and cannot affect or be affected by those in normal space. Recharge: Slow'
+enhancements:
+- 8
+- 13
+- 17
+- 18
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +46,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 19
   summon: ''
@@ -54,14 +59,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 62
   summon: ''
   base_probability: 1
@@ -73,14 +78,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 62
   summon: ''
   base_probability: 1
@@ -92,14 +97,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 39
   summon: ''
   base_probability: 1
@@ -111,14 +116,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -131,14 +136,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 19
   summon: ''
@@ -153,14 +158,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 62
   summon: ''
   base_probability: 1
@@ -174,14 +179,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 62
   summon: ''
   base_probability: 1
@@ -195,14 +200,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 39
   summon: ''
   base_probability: 1
@@ -216,14 +221,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.DimensionShift.Dimension_Shift
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -238,8 +243,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Blood Thirst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 7.8000001907348633
+endurance_cost: 7.80000019
 cast_time: 2
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -28,8 +29,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: ' Self +DMG, +To Hit, +Special, +5 Blood Frenzy'
 description_long: ' You unleash your frenzy, increasing your damage and chance to hit moderately. Blood Thirst also grants 5 stacks of Frenzy Fury. Recharge: Very Long'
+enhancements:
+- 8
+- 11
+- 18
 set_types:
 - 25
+click_buff: true
 level: 6
 variable_name: ''
 sub_powers: []
@@ -47,146 +53,146 @@ effects:
   buffable: true
   resistible: true
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 2
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 4
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 6
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 3.3329999446868896
+  scale: 3.33299994
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

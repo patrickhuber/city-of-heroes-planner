@@ -7,19 +7,20 @@ display: Greater Fire Sword
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 81
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 12.687999725341797
-cast_time: 2.3299999237060547
+endurance_cost: 12.6879997
+cast_time: 2.32999992
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Superior DMG(Fire/Lethal)
 description_long: 'Your mastery of fire allows you to create an enhanced Sword of Fire that can set foes ablaze. Successful attacks from the Greater Fire Sword will ignite your target, dealing damage over time. Damage: Superior, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 41
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -54,18 +60,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -75,18 +81,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.440000057220459
+  scale: 1.44000006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -96,18 +102,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.1780500411987305
+  scale: 1.17805004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -117,108 +123,108 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.9740300178527832
+  scale: 1.97403002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 5
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 3.1839199066162109
+  scale: 3.18391991
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PlayerCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 2.2799999713897705
+  scale: 2.27999997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: MLCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.2799999713897705
+  scale: 2.27999997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: BossCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -226,35 +232,35 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.0260000228881836
+  scale: 1.02600002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Greater_Fire_Sword
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 5
   stacking: 1
-  base_probability: -0.20000000298023224
+  base_probability: -0.200000003
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.090000003576278687
+  scale: 0.0900000036
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

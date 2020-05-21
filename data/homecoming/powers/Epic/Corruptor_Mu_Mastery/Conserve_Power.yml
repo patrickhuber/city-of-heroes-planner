@@ -7,12 +7,12 @@ display: Conserve Power
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Corruptor_Mu_Mastery.Power_Sink
     - ''
   - - Epic.Corruptor_Mu_Mastery.Charged_Armor
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 group_memberships: []
@@ -21,8 +21,9 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 endurance_cost: 9.75
-cast_time: 1.1699999570846558
+cast_time: 1.16999996
 recharge_time: 600
+base_recharge_time: 600
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,9 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self Endurance Discount
 description_long: 'You can focus for a moment to conserve your Endurance. After activating this power, you expend less Endurance on all other powers for a while. You must have one other Mu Mastery power to select this power. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Recharge: Very Long'
+enhancements:
+- 8
+- 18
 set_types: []
 click_buff: true
 level: 41
@@ -42,7 +46,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Corruptor_Mu_Mastery.Conserve_Power
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 8
   summon: ''
@@ -54,14 +58,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Corruptor_Mu_Mastery.Conserve_Power
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 77
   summon: ''
   stacking: 1
@@ -71,8 +75,8 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

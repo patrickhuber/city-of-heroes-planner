@@ -9,8 +9,8 @@ requirement:
   - Class_Defender
   - Class_Corruptor
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 group_memberships: []
@@ -19,8 +19,9 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 endurance_cost: 13
-cast_time: 1.1699999570846558
+cast_time: 1.16999996
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -30,6 +31,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self +DMG, +ACC, +Special
 description_long: 'Your mastery of power and energy allows you to greatly increase the damage you deal for a few seconds, as well as slightly increasing your Accuracy  Additionally, Power Build Up greatly boosts the secondary effects of your powers. Your powers effects like Heals, Defense Buffs, Endurance Drains, Disorients, Holds, Immobilizes, Knockbacks and more, are all improved. Recharge: Long'
+enhancements:
+- 25
+- 8
+- 18
 set_types:
 - 25
 click_buff: true
@@ -42,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   mezmorize_type: 10
   effect_modifiers: 19
@@ -50,19 +55,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   mezmorize_type: 9
   effect_modifiers: 19
@@ -70,19 +75,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   mezmorize_type: 1
   effect_modifiers: 19
@@ -90,19 +95,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   mezmorize_type: 12
   effect_modifiers: 19
@@ -110,19 +115,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   mezmorize_type: 3
   effect_modifiers: 19
@@ -130,19 +135,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 9
   mezmorize_type: 2
   effect_modifiers: 19
@@ -150,76 +155,76 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   effect_modifiers: 32
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 9
   effect_modifiers: 11
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 5
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 9
   damage_type: 10
   effect_modifiers: 5
@@ -227,19 +232,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 9
   damage_type: 11
   effect_modifiers: 5
@@ -247,19 +252,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 9
   damage_type: 12
   effect_modifiers: 5
@@ -267,19 +272,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 9
   damage_type: 1
   effect_modifiers: 5
@@ -287,19 +292,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 9
   damage_type: 2
   effect_modifiers: 5
@@ -307,19 +312,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 9
   damage_type: 3
   effect_modifiers: 5
@@ -327,19 +332,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 9
   damage_type: 4
   effect_modifiers: 5
@@ -347,19 +352,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 9
   damage_type: 5
   effect_modifiers: 5
@@ -367,19 +372,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 9
   damage_type: 6
   effect_modifiers: 5
@@ -387,19 +392,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 9
   damage_type: 8
   effect_modifiers: 5
@@ -407,95 +412,95 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 9
   effect_modifiers: 13
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 9
   effect_modifiers: 66
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 9
   effect_modifiers: 40
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 9
   effect_modifiers: 7
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -506,14 +511,14 @@ effects:
   duration: 12.5
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -524,14 +529,14 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -542,14 +547,14 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -560,14 +565,14 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -578,14 +583,14 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -596,14 +601,14 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -614,14 +619,14 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Epic.Power_Mastery.Power_Build_Up
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -632,8 +637,8 @@ effects:
   duration: 12.5
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

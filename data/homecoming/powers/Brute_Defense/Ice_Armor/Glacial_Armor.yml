@@ -7,8 +7,8 @@ display: Glacial Armor
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.12999999523162842
-cast_time: 2.0299999713897705
+endurance_cost: 0.129999995
+cast_time: 2.02999997
 recharge_time: 2
+base_recharge_time: 2
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -31,6 +32,10 @@ boosts_allowed:
 ignore_strength: true
 description_short: 'Toggle: Self +DEF(Energy, Negative), Res (Cold, DeBuff DEF), +Perception'
 description_long: 'When you activate this power you cover yourself in Glacial ice. The crystalline matrix of the armor has refracting properties that make Energy and Negative Energy attacks less likely to land, and acts as a lens to increase your Perception to see hidden foes. The bitter cold of Glacial Armor also reduces Cold damage and also you to resist Defense DeBuffs. Recharge: Very Fast'
+enhancements:
+- 5
+- 8
+- 18
 set_types:
 - 7
 always_toggle: true
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -52,19 +57,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 1.7000000476837158
+  scale: 1.70000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -73,19 +78,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 1.7000000476837158
+  scale: 1.70000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -98,14 +103,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -113,19 +118,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 1.7000000476837158
+  scale: 1.70000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -133,19 +138,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 1.7000000476837158
+  scale: 1.70000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -153,19 +158,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 1.7000000476837158
+  scale: 1.70000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -177,118 +182,118 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 44
   damage_type: 8
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 44
   damage_type: 5
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 10
+  unique_id: 10
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 28
   effect_modifiers: 23
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 2
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 23
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
   to_who: 2
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Glacial_Armor
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 28
   effect_modifiers: 5
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

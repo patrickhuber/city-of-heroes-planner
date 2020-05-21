@@ -7,8 +7,8 @@ display: Dark Consumption
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 260
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.51999998092651367
-cast_time: 1.0299999713897705
+endurance_cost: 0.519999981
+cast_time: 1.02999997
 recharge_time: 180
+base_recharge_time: 180
 effect_area: 2
 radius: 8
 max_targets: 10
@@ -31,6 +32,11 @@ boosts_allowed:
 - Recovery_Boost
 description_short: PBAoE Moderate DMG(Negative), Self +End
 description_long: "The dark power of the Netherworld allows you to tap the essence of your foe's soul and transfer it to yourself. This will drain the Hit Points of your enemy and add to your Endurance. Damage: Moderate, Recharge: Very Long"
+enhancements:
+- 1
+- 4
+- 18
+- 7
 set_types:
 - 4
 - 22
@@ -49,7 +55,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -58,18 +64,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   delayed_time: 0.25
@@ -81,14 +87,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -96,19 +102,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -116,19 +122,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -136,19 +142,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -156,19 +162,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -176,19 +182,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -196,19 +202,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -216,19 +222,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Dark_Consumption
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -236,13 +242,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.030999999493360519
+  scale: 0.0309999995
   magnitude: 1
-  duration: 8.5299997329711914
+  duration: 8.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

@@ -7,18 +7,19 @@ display: Glacier
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 0.80000001192092896
+accuracy: 0.800000012
 attack_types: 36
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 15.600000381469727
-cast_time: 2.0299999713897705
+endurance_cost: 15.6000004
+cast_time: 2.02999997
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 30
 max_targets: 16
@@ -33,6 +34,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: PBAoE, Foe Hold, -Recharge, -SPD
 description_long: 'You can freeze all foes around yourself in blocks of Glacial ice. The targets are frozen solid, helpless, and can be attacked. Even after the victims emerge, they remain chilled and their attack and movement speed is Slowed for a while. This power can only be cast near the ground. Recharge: Very Long'
+enhancements:
+- 1
+- 8
+- 12
+- 18
+- 22
 set_types:
 - 10
 - 13
@@ -46,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -62,14 +69,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -86,14 +93,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -110,14 +117,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -134,14 +141,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -153,14 +160,14 @@ effects:
   duration: 8
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -172,14 +179,14 @@ effects:
   duration: 8
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -193,14 +200,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -214,14 +221,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -234,14 +241,14 @@ effects:
   duration: 18
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 17
   summon: ''
   stacking: 1
@@ -254,14 +261,14 @@ effects:
   duration: 18
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 32
   summon: ''
   stacking: 1
@@ -274,14 +281,14 @@ effects:
   duration: 18
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 11
   summon: ''
   stacking: 1
@@ -294,14 +301,14 @@ effects:
   duration: 18
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Dominator_Control.Ice_Control.Glacier
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -314,8 +321,8 @@ effects:
   duration: 18
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

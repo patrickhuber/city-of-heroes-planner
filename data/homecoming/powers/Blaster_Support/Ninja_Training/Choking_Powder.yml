@@ -7,19 +7,20 @@ display: Choking Powder
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 2
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 11.387999534606934
-cast_time: 1.0700000524520874
+endurance_cost: 11.3879995
+cast_time: 1.07000005
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DoT(Toxic), Foe Hold
 description_long: "Toss a fistful of toxic powder at an enemy\0s face. This powder will temporarily close the affected foe\0s throat making them choke and struggle to grasp for air. Damage: Moderate(DoT), Recharge: Moderate"
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 17
+- 18
 set_types:
 - 2
 - 10
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -61,14 +69,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -79,19 +87,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -107,14 +115,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -125,19 +133,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.43994000554084778
+  scale: 0.439940006
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -145,19 +153,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -165,19 +173,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -185,19 +193,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -205,19 +213,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -225,19 +233,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -245,19 +253,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -265,19 +273,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Choking_Powder
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -285,13 +293,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.071000002324581146
+  scale: 0.0710000023
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

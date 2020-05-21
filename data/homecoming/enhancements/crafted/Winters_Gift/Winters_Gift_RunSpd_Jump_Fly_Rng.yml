@@ -10,20 +10,20 @@ image: WintersGift.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 19
-  sub_i_d: -1
+- id: 19
+  sub_id: -1
   multiplier: 1
-- i_d: 10
-  sub_i_d: -1
+- id: 10
+  sub_id: -1
   multiplier: 1
-- i_d: 11
-  sub_i_d: -1
+- id: 11
+  sub_id: -1
   multiplier: 1
-- i_d: 6
-  sub_i_d: -1
+- id: 6
+  sub_id: -1
   multiplier: 1
-- i_d: 13
-  sub_i_d: -1
+- id: 13
+  sub_id: -1
   schedule: 1
   multiplier: 1
 unique_identifier: Crafted_Winters_Gift_A

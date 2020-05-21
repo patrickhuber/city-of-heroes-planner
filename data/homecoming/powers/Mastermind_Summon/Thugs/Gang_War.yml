@@ -7,8 +7,8 @@ display: Gang War
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 60
 endurance_cost: 13
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 600
+base_recharge_time: 600
 effect_area: 1
 max_boosts: ''
 cast_flags: 2
@@ -32,6 +33,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: Summon Posse
 description_long: 'Calls a gang of 10 or so Thug Posse to come to your aid for a brief while. Posse are not like your true Henchman.  They cannot be given direct commands, nor will they appear in your pet window. You must select an enemy target to attack first before calling these Thugs. Posse are many, but they are very weak, and are only equipped with the most basic weapons. Although they will follow you, they are not as loyal as your Henchmen, and they will only stick around for a few minutes before taking off. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 6
 - 27
@@ -43,224 +49,22 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: Pets_Thug_Pose_01
+  summon: Pets_Thug_Posse
   base_probability: 1
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 2
-  effect_type: 38
-  summon: Pets_Thug_Pose_02
-  delayed_time: 0.5
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 3
-  effect_type: 38
-  summon: Pets_Thug_Pose_02
-  delayed_time: 1
-  base_probability: 0.5
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 4
-  effect_type: 38
-  summon: Pets_Thug_Pose_03
-  delayed_time: 1.5
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 5
-  effect_type: 38
-  summon: Pets_Thug_Pose_04
-  delayed_time: 2
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 6
-  effect_type: 38
-  summon: Pets_Thug_Pose_04
-  delayed_time: 2.5
-  base_probability: 0.25
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 7
-  effect_type: 38
-  summon: Pets_Thug_Pose_05
-  delayed_time: 3
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 8
-  effect_type: 38
-  summon: Pets_Thug_Pose_06
-  delayed_time: 3.5
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 9
-  effect_type: 38
-  summon: Pets_Thug_Pose_06
-  delayed_time: 4
-  base_probability: 0.10000000149011612
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 10
-  effect_type: 38
-  summon: Pets_Thug_Pose_07
-  delayed_time: 4.5
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 11
-  effect_type: 38
-  summon: Pets_Thug_Pose_08
-  delayed_time: 5
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 12
-  effect_type: 38
-  summon: Pets_Thug_Pose_09
-  delayed_time: 5.5
-  base_probability: 1
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Levelminus2
-  override: ''
-- power_full_name: Mastermind_Summon.Thugs.Gang_War
-  unique_i_d: 13
-  effect_type: 38
-  summon: Pets_Thug_Pose_09
-  delayed_time: 6
-  base_probability: 0.10000000149011612
-  to_who: 1
-  scale: 1
-  magnitude: 1
-  aspect: 4
-  modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2

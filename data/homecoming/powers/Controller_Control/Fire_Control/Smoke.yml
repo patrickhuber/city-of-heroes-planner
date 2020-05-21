@@ -7,8 +7,8 @@ display: Smoke
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 7.8000001907348633
-cast_time: 1.1699999570846558
+endurance_cost: 7.80000019
+cast_time: 1.16999996
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 2
 radius: 35
 max_targets: 16
@@ -33,6 +34,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Targeted AoE), Foe -Perception, -To Hit
 description_long: 'Covers all foes near your target in clouds of Smoke. The villains are so blinded that they can hardly see a thing. Most villains will not be able to see past normal melee range, although some may have better perception. If the villains are attacked, they will be alerted to your presence, but will suffer a penalty to their chance to hit. Recharge: Slow'
+enhancements:
+- 1
+- 26
+- 8
+- 18
 set_types:
 - 26
 level: 6
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Fire_Control.Smoke
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 23
   summon: ''
   base_probability: 1
@@ -52,19 +58,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.89999997615814209
+  scale: -0.899999976
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Smoke
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -77,14 +83,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Smoke
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -98,14 +104,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Smoke
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 23
   summon: ''
   base_probability: 1
@@ -114,14 +120,14 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: -0.89999997615814209
+  scale: -0.899999976
   magnitude: 1
   duration: 20
   aspect: 4
   modifier_table: Ranged_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

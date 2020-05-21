@@ -7,8 +7,8 @@ display: Serpent's Reach
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 10
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-cast_time: 1.7699999809265137
+cast_time: 1.76999998
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -28,6 +29,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Ranged, High DMG(Smashing), Chance for Knockdown, Critical Hit
 description_long: You fully extend your staff and release a burst of energy to lash out at a distant target. This deals high smashing damage and has a good chance of knocking your target down. This attack also has a chance for a critical hit, which deals increased smashing damage.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +44,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Boss.Serpents_Reach
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -48,32 +53,32 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.3999999761581421
+  scale: 1.39999998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Boss.Serpents_Reach
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

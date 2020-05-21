@@ -11,14 +11,14 @@ effect_chance: 1
 level_min: 19
 level_max: 52
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.5
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 0.5
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Crafted_Multi_Strike_E
 recipe: Multi_strike_E

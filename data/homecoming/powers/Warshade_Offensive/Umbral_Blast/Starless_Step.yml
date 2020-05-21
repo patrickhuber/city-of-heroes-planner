@@ -7,8 +7,8 @@ display: Starless Step
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1572866
 accuracy: 1
 attack_types: 258
@@ -20,8 +20,9 @@ target_secondary: 16384
 range_secondary: 25
 endurance_cost: 15
 interrupt_time: 2
-cast_time: 3.9300000667572021
+cast_time: 3.93000007
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 1
 max_boosts: ''
 artifical_intelligence_report: 1
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Teleport Foe
 description_long: You can Teleport a single foe through a dark matter wormhole directly next to you. A successful hit must be made in order to Teleport the target, and some powerful foes cannot be Teleported. This power can be interrupted.
+enhancements:
+- 1
+- 8
+- 2
+- 17
+- 18
 set_types:
 - 20
 - 28
@@ -46,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 41
   summon: ''
   stacking: 1
@@ -57,35 +64,35 @@ effects:
   duration: 1.5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 14
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 20
   mezmorize_type: 14
   summon: ''
@@ -98,38 +105,38 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 41
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 256
   buffable: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 36
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 256
   buffable: true
@@ -140,18 +147,18 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 19
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 256
   buffable: true
@@ -162,18 +169,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 13
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 256
   buffable: true
@@ -184,17 +191,17 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 39
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 256
   player_versus_mode: 2
@@ -204,18 +211,18 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 6
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 256
   buffable: true
@@ -226,14 +233,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Starless_Step
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 38
   summon: Pets_TPFoeTaunt
   stacking: 1
@@ -244,8 +251,8 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

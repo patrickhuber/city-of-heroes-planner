@@ -1,0 +1,177 @@
+index: 10811
+full_name: Mastermind_Summon.Mercenaries.Medic_H
+group_name: Mastermind_Summon
+set_name: Mercenaries
+name: Medic_H
+display: Medic
+requirement:
+  class_names: []
+  class_names_not: []
+  power_ids:
+  - - Mastermind_Summon.Mercenaries.Soldiers
+    - ''
+  power_ids_not: []
+accuracy: 1
+group_memberships: []
+entities_affected: 35328
+entities_auto_hit: 35328
+target: 35328
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+boosts_allowed: []
+description_short: +Henchmen
+description_long: The Medic is trained in battle triage. But make no mistake, he is still a trained and capable Soldier.
+enhancements: []
+set_types: []
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+display_location: 37
+mutually_exclusive_auto: true
+absorb_summon_effects: true
+absorb_summon_attributes: true
+include_flag: true
+forced_class: Class_Minion_Henchman
+effects:
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic.Resistance
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic.Brawl
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic.Med_Kit
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic.SMG_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic.Super_Leap
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic_2.SMG_Heavy_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic_3.Stimulant
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Mercenaries.Medic_H
+  effect_type: 12
+  summon: Mastermind_Pets.Medic_3.Frag_Grenade
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 40
+  summon: ''
+  base_probability: 1
+  special_case: 51
+  to_who: 2
+  scale: 0.100000001
+  magnitude: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

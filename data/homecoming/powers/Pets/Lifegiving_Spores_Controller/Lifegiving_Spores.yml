@@ -7,8 +7,8 @@ display: Lifegiving Spores
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -16,7 +16,7 @@ entities_affected: 512
 entities_auto_hit: 512
 target: 1
 target_line_of_sight: true
-cast_time: 3.0999999046325684
+cast_time: 3.0999999
 activate_period: 4
 effect_area: 2
 radius: 15
@@ -28,6 +28,9 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Toggle (Location AoE), PBAoE +Minor Heal Over Time, +Endurance
 description_long: 'When activating this power you cause all allies at a selected location to recover a small amount of health and endurance every few seconds as long as they remain within the Lifegiving Spores.  Recharge: Very Fast'
+enhancements:
+- 11
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +42,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Lifegiving_Spores_Controller.Lifegiving_Spores
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   stacking: 1
@@ -47,30 +50,30 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.27500000596046448
+  scale: 0.275000006
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Pets.Lifegiving_Spores_Controller.Lifegiving_Spores
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

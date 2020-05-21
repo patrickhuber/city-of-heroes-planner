@@ -7,8 +7,8 @@ display: Call Hawk
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 18
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 9.619999885559082
-cast_time: 1.6699999570846558
+endurance_cost: 9.61999989
+cast_time: 1.66999996
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -33,6 +34,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, High DMG (Lethal), Foe -To Hit, Knockdown, -Fly
 description_long: 'You call forth a hawk ally to swoop in and viciously peck at your target causing High Lethal damage. The attack often catches foes off their guard and can knock them down as well as reducing their chance to hit. This power has a good chance at granting your pets a stack of Pack Mentality.  Damage: High, Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 2
 - 23
@@ -48,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -60,19 +69,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.32559999823570251
+  scale: 0.325599998
   magnitude: 1
-  duration: 1.2999999523162842
+  duration: 1.29999995
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   stacking: 1
@@ -85,14 +94,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -104,19 +113,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.60056000947952271
+  scale: 0.600560009
   magnitude: 1
-  duration: 1.2999999523162842
+  duration: 1.29999995
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 10
   summon: ''
   stacking: 1
@@ -124,75 +133,75 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: -1.6000000238418579
+  scale: -1.60000002
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   delayed_time: 0.5
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   delayed_time: 0.5
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   suppression: 32
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Call_Hawk
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Pack_Mentality
   stacking: 1
-  base_probability: 0.61360001564025879
+  base_probability: 0.613600016
   to_who: 2
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Pack_Mentality
   effect_id: Ones

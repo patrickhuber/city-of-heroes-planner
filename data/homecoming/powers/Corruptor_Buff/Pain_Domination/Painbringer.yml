@@ -7,8 +7,8 @@ display: Painbringer
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.399999618530273
-cast_time: 2.2699999809265137
+endurance_cost: 10.3999996
+cast_time: 2.26999998
 recharge_time: 300
+base_recharge_time: 300
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ally, +Regeneration, +Recovery, +DMG
 description_long: You transform an ally to pain incarnate turning them into an inexhaustible killing machine. While the character is imbued with this power they will benefit from incredible health regeneration, endurance recovery and improved damage potential for a short time.
+enhancements:
+- 8
+- 11
+- 17
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -43,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -54,14 +61,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -72,14 +79,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -90,14 +97,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -108,14 +115,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -126,14 +133,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -144,14 +151,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -162,14 +169,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -180,14 +187,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -198,14 +205,14 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Corruptor_Buff.Pain_Domination.Painbringer
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -216,8 +223,8 @@ effects:
   duration: 90
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

@@ -7,8 +7,8 @@ display: Smoke Flash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 65536
 target: 65536
 range: 100
 endurance_cost: 30
-cast_time: 1.1699999570846558
+cast_time: 1.16999996
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -28,6 +29,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Hide Ninja
 description_long: 'You can command one of your Ninja Henchmen to throw down a Smoke Bomb. The Smoke Flash will allow the Ninja to Placate his nearby foes, and thus unable to target the Ninja.  The Smoke Flash also makes the Ninja stealthy and Hidden for about 10 seconds, enabling him to perform Critical hits with his next few attacks. You can only use this power on a Ninja Henchmen. Recharge: Slow'
+enhancements:
+- 8
+- 17
+- 18
 set_types: []
 level: 18
 variable_name: ''
@@ -38,10 +43,10 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Ninjas.Smoke_Flash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 36
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 1344
   buffable: true
@@ -51,17 +56,17 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Ninjas.Smoke_Flash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 37
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   suppression: 1344
   buffable: true
@@ -71,17 +76,17 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Ninjas.Smoke_Flash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 18
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   base_probability: 1
   to_who: 1
   scale: 1
@@ -89,32 +94,32 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Ninjas.Smoke_Flash
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 41
   summon: ''
   delayed_time: 1
   base_probability: 1
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Ninjas.Smoke_Flash
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 12
   summon: Villain_Pets.Kuji_Kiri.Smoke_Bomb
   base_probability: 1
@@ -123,8 +128,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Villain_Pets.Kuji_Kiri.Smoke_Bomb
   effect_id: Ones

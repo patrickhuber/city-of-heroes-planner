@@ -1,4 +1,4 @@
-index: 10761
+index: 10771
 full_name: Pets.KineticTransferDebuff_Mastermind.KineticTransfer
 group_name: Pets
 set_name: KineticTransferDebuff_Mastermind
@@ -7,8 +7,8 @@ display: KineticTransfer
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,8 @@ boosts_allowed:
 - Accuracy_Boost
 description_short: -DMG
 description_long: Your Damage has been debuffed by Kinetic Transfer
+enhancements:
+- 1
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -49,14 +51,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -69,14 +71,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -89,14 +91,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -109,14 +111,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -129,14 +131,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -149,14 +151,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -169,14 +171,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.KineticTransferDebuff_Controller.KineticTransfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -189,8 +191,8 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam

@@ -7,8 +7,8 @@ display: Abyssal Gaze
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 258
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 11.020000457763672
-cast_time: 1.6699999570846558
+endurance_cost: 11.0200005
+cast_time: 1.66999996
 recharge_time: 11
+base_recharge_time: 11
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -33,6 +34,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, High DoT(Negative), Foe Hold, -To Hit
 description_long: "You gaze into your foe's eyes giving them a glimpse into the terrifying netherworld rendering them held, reducing their chance to hit and dealing High Negative Energy damage over the next couple of seconds. Damage: High Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 12
+- 17
+- 18
 set_types:
 - 2
 - 10
@@ -49,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Dark_Blast.Abyssal_Gaze
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -59,19 +68,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 4.4000000953674316
+  scale: 4.4000001
   magnitude: 3
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Sentinel_Ranged.Dark_Blast.Abyssal_Gaze
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -87,14 +96,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Sentinel_Ranged.Dark_Blast.Abyssal_Gaze
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 40
   summon: ''
   stacking: 1
@@ -107,14 +116,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Sentinel_Ranged.Dark_Blast.Abyssal_Gaze
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -125,19 +134,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.7070000171661377
+  scale: 0.707000017
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Dark_Blast.Abyssal_Gaze
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -148,13 +157,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.87099999189376831
+  scale: 0.870999992
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

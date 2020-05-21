@@ -7,8 +7,8 @@ display: Double XP Booster (4 hours)
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -27,6 +27,7 @@ cast_through_hold: true
 ignore_strength: true
 description_short: +100% XP Gain
 description_long: Activating this power will give you +100% Experience Point gain for 4 hours of in game time.  This power cannot be activated if XP Booster is currently active.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_Super_XP_Booster_4_hour
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 55
   summon: ''
   base_probability: 1
@@ -47,8 +48,8 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

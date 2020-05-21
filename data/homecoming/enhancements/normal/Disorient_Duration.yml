@@ -11,8 +11,8 @@ image: Stun.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 12
-  sub_i_d: 10
+- id: 12
+  sub_id: 10
   multiplier: 1
 unique_identifier: Magic_Stun
 recipe: Ticket_Magic

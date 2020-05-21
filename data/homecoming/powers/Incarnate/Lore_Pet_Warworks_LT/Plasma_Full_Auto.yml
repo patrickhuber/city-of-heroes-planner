@@ -7,8 +7,8 @@ display: Plasma Full Auto
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 132
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-cast_time: 3.7300000190734863
+cast_time: 3.73000002
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 3
 radius: 60
 arc: 30
@@ -31,6 +32,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Ranged, Light DMG(Energy), Foe -Regen
 description_long: The Warworks' plasma weapons are capable of discharging a barrage of bolts of energy in a large cone which will reduce the regeneration rate of affected targets.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +48,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Warworks_LT.Plasma_Full_Auto
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -53,19 +58,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.11999999731779099
+  scale: 0.119999997
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Warworks_LT.Plasma_Full_Auto
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -76,8 +81,8 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

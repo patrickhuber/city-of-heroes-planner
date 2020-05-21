@@ -12,8 +12,8 @@ level_min: 49
 level_max: 49
 unique: true
 effects:
-- i_d: 12
-  sub_i_d: 2
+- id: 12
+  sub_id: 2
   multiplier: 1
 unique_identifier: Crafted_Unbreakable_Constraint_A
 recipe: Unbreakable_Constraint_A

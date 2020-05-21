@@ -11,12 +11,12 @@ effect_chance: 1
 level_min: 9
 level_max: 29
 effects:
-- i_d: 18
-  sub_i_d: -1
+- id: 18
+  sub_id: -1
   schedule: 1
   multiplier: 0.625
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.625
 unique_identifier: Crafted_Impervious_Skin_B
 recipe: Impervious_Skin_B

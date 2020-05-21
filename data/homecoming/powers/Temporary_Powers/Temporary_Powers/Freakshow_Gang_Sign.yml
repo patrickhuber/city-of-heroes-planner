@@ -7,8 +7,8 @@ display: Freakshow Gang Sign
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 2048
@@ -19,6 +19,7 @@ range: 30
 endurance_cost: 3.25
 cast_time: 1.5
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 2
 radius: 50
 max_targets: 16
@@ -28,6 +29,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Range, Foe Placate
 description_long: You have earned the respect of Drek.  You can call off any hostile Freakshow by showing them the Freakshow gang sign.  You can pull this off 5 times before the Freakshow get tired of you posing as one of them!
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -38,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Freakshow_Gang_Sign
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -52,14 +54,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Freakshow_Gang_Sign
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 77
   summon: ''
   stacking: 1
@@ -69,8 +71,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -11,8 +11,8 @@ effect_chance: 1
 level_min: 9
 level_max: 29
 effects:
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 1
 unique_identifier: Crafted_Eradication_A
 recipe: Eradication_A

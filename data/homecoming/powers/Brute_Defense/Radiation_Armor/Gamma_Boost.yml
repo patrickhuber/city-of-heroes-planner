@@ -7,8 +7,8 @@ display: Gamma Boost
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -26,6 +26,9 @@ boosts_allowed:
 - Recovery_Boost
 description_short: 'Auto: Self +Regen, +Recovery, Special'
 description_long: Gamma Boost grants you a passive boost to both regeneration and recovery. The lower your current health is, the greater the regeneration bonus you'll receive from Gamma Boost. The higher your current health is, the greater the recovery bonus you'll receive from Gamma Boost. This power is always active.
+enhancements:
+- 11
+- 7
 set_types:
 - 9
 - 22
@@ -39,7 +42,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Brute_Defense.Radiation_Armor.Gamma_Boost
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -51,14 +54,14 @@ effects:
   attrib_type: 2
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 75 kHitPoints% source> - 30 + 100 / @StdResult *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Radiation_Armor.Gamma_Boost
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 28
   effect_modifiers: 27
   summon: ''
@@ -68,14 +71,14 @@ effects:
   magnitude: 1
   duration: 1.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Brute_Defense.Radiation_Armor.Gamma_Boost
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -87,14 +90,14 @@ effects:
   attrib_type: 2
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 1.2 kHitPoints% source> * 100 / .3 * @StdResult *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Radiation_Armor.Gamma_Boost
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 28
   effect_modifiers: 26
   summon: ''
@@ -104,14 +107,14 @@ effects:
   magnitude: 1
   duration: 1.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Brute_Defense.Radiation_Armor.Gamma_Boost
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 28
   effect_modifiers: 7
   summon: ''
@@ -121,8 +124,8 @@ effects:
   magnitude: 1
   duration: 1.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

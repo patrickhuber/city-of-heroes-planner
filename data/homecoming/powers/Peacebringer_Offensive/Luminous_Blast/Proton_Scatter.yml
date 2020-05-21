@@ -7,8 +7,8 @@ display: Proton Scatter
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 40962
 accuracy: 1
 attack_types: 132
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 11.855999946594238
-cast_time: 2.1700000762939453
+endurance_cost: 11.8559999
+cast_time: 2.17000008
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 3
 radius: 40
 arc: 45
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Energy), Foe -DEF
 description_long: 'Proton Scatter sends bolts of Kheldian energy to multiple targets at once within a cone area in front of the caster.  Proton Scatter deals moderate Energy damage to each affected target and reduces their Defense.  Damage: Moderate. Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 21
@@ -50,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Proton_Scatter
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -60,18 +68,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.99000000953674316
+  scale: 0.99000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Proton_Scatter
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -84,14 +92,14 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Proton_Scatter
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -101,12 +109,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2095799446105957
+  scale: 1.20957994
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

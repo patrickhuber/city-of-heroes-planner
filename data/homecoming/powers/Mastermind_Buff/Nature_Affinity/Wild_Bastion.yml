@@ -7,8 +7,8 @@ display: Wild Bastion
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
 endurance_cost: 16.25
-cast_time: 2.2699999809265137
+cast_time: 2.26999998
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 25
 max_targets: 255
@@ -30,6 +31,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Team +Absorb, +Heal Over Time, +3 Bloom
 description_long: 'You encase yourself and nearby allies in a protective barrier that will absorb a moderate amount of damage.  Additionally, affected allies will heal for a portion of their health over time.  Wild Bastion places 3 stacks of Bloom on all affected targets.  Recharge: Very Long'
+enhancements:
+- 8
+- 11
+- 18
 set_types:
 - 9
 click_buff: true
@@ -42,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Nature_Affinity.Wild_Bastion
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 66
   summon: ''
   base_probability: 1
@@ -52,14 +57,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Nature_Affinity.Wild_Bastion
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 66
   summon: ''
   base_probability: 1
@@ -71,14 +76,14 @@ effects:
   attrib_type: 2
   aspect: 1
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: Max.kHitPoints source> 0.25 * @Strength *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Nature_Affinity.Wild_Bastion
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 13
   summon: ''
   ticks: 11
@@ -87,19 +92,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 3
-  scale: 0.27272999286651611
+  scale: 0.272729993
   magnitude: 1
-  duration: 10.100000381469727
+  duration: 10.1000004
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Mastermind_Buff.Nature_Affinity.Wild_Bastion
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Bloom
   stacking: 1
@@ -109,8 +114,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Bloom
   effect_id: Ones

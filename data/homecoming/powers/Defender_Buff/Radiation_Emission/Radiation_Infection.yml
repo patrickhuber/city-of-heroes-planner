@@ -7,8 +7,8 @@ display: Radiation Infection
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -19,9 +19,10 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 0.25999999046325684
-cast_time: 3.0999999046325684
+endurance_cost: 0.25999999
+cast_time: 3.0999999
 recharge_time: 8
+base_recharge_time: 8
 activate_period: 0.5
 effect_area: 2
 radius: 15
@@ -36,6 +37,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Ranged (Targeted AoE), Foe -DEF, -To Hit'
 description_long: 'Infects a targeted foe with deadly radiation, severely reducing their chance to hit and Defense. All foes that come near the target will also become infected. The Radiation Infection will last until you deactivate it, or until the original target is defeated. Recharge: Moderate'
+enhancements:
+- 6
+- 26
+- 8
+- 17
+- 18
 set_types:
 - 21
 - 26
@@ -48,7 +55,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Radiation_Emission.Radiation_Infection
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -60,14 +67,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Debuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_ToHit
   override: ''
 - power_full_name: Defender_Buff.Radiation_Emission.Radiation_Infection
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -79,8 +86,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

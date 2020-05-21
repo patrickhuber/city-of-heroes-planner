@@ -7,8 +7,8 @@ display: EMP Blaster
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 132
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 18.979999542236328
-cast_time: 1.0700000524520874
+endurance_cost: 18.9799995
+cast_time: 1.07000005
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 15
 max_targets: 10
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Ranged (Targeted AoE), Foe -Recharge -SPD
 description_long: These gauntlets can fire a spread Electromagnetic Pulse to knock out electronic devices. Foes in the affected area will have their movement and attack speed Slowed. This device will last for  1 hour.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.EMP_Blaster
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -52,14 +54,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.EMP_Blaster
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 32
   summon: ''
   stacking: 1
@@ -73,14 +75,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Slow
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.EMP_Blaster
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 11
   summon: ''
   stacking: 1
@@ -94,8 +96,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Slow
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

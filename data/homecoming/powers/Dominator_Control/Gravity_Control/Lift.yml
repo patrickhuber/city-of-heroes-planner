@@ -7,8 +7,8 @@ display: Lift
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 10
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 6.8639998435974121
-cast_time: 1.0299999713897705
+endurance_cost: 6.86399984
+cast_time: 1.02999997
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DMG(Smash), Foe Knock Up
 description_long: 'Negates the gravity around a single target. Lift violently sends an enemy straight into the air, then slams them to the ground for Smashing damage. This power can bring flying foes to the ground, and can deal bonus damage when used against targets held by Gravity Distortion. Damage: Moderate, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 2
 - 23
@@ -45,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Gravity_Control.Lift
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -59,14 +67,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Dominator_Control.Gravity_Control.Lift
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -82,14 +90,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Dominator_Control.Gravity_Control.Lift
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -99,18 +107,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.9054000377655029
+  scale: 1.90540004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Gravity_Control.Lift
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -121,18 +129,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Gravity_Control.Lift
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 10
   summon: ''
   delayed_time: 2
@@ -140,19 +148,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: -1.6000000238418579
+  scale: -1.60000002
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Gravity_Control.Lift
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -162,12 +170,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.33000001311302185
+  scale: 0.330000013
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

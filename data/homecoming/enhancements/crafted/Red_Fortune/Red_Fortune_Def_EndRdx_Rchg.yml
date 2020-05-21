@@ -12,15 +12,15 @@ level_min: 24
 level_max: 52
 effects:
 - buff_mode: 1
-  i_d: 3
-  sub_i_d: -1
+  id: 3
+  sub_id: -1
   schedule: 1
   multiplier: 0.5
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.5
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Crafted_Red_Fortune_D
 recipe: Red_Fortune_D

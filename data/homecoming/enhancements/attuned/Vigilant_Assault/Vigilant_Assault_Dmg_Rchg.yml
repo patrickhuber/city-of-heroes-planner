@@ -11,11 +11,11 @@ effect_chance: 1
 level_max: -1
 unique: true
 effects:
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 0.625
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.625
 unique_identifier: Attuned_Vigilant_Assault_B
 recipe: Alt

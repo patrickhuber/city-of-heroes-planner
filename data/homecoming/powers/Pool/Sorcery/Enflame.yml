@@ -7,14 +7,14 @@ display: Enflame
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Sorcery.Spirit_Ward
     - Pool.Sorcery.Arcane_Bolt
   - - Pool.Sorcery.Spirit_Ward
     - Pool.Sorcery.Mystic_Flight
   - - Pool.Sorcery.Arcane_Bolt
     - Pool.Sorcery.Mystic_Flight
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 group_memberships: []
@@ -23,9 +23,10 @@ entities_auto_hit: 32768
 target: 32768
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.1999998092651367
-cast_time: 2.0699999332427979
+endurance_cost: 5.19999981
+cast_time: 2.06999993
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 1
 max_boosts: 6
 cast_flags: 2
@@ -38,6 +39,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Friend/Foe, Special
 description_long: 'This ritual allows you to imbue an ally or curse a foe with a fiery spell. If Enflame is cast on an ally or a foe they will leave a fiery trail behind them that will damage foes. Enflame requires you to have 2 other powers from the Sorcery power pool and be at least level 14. Recharge: Long'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 44
@@ -50,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Sorcery.Enflame
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Enflame_Pet
   stacking: 1
@@ -63,14 +70,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Pool.Sorcery.Enflame
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Pets_Enflame_Pet
   delayed_time: 3
@@ -84,14 +91,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Pool.Sorcery.Enflame
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
   summon: Pets_Enflame_Pet
   delayed_time: 6
@@ -105,14 +112,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Pool.Sorcery.Enflame
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 38
   summon: Pets_Enflame_Pet
   delayed_time: 9
@@ -126,14 +133,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Pool.Sorcery.Enflame
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 38
   summon: Pets_Enflame_Pet
   delayed_time: 12
@@ -147,14 +154,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Pool.Sorcery.Enflame
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 38
   summon: Pets_Enflame_Pet
   delayed_time: 15
@@ -168,8 +175,8 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

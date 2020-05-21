@@ -7,8 +7,8 @@ display: Temporal Healing
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,8 +17,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 0.5
 effect_area: 1
 max_boosts: 6
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Self +Absorb, +Recovery, +Res(Slow, Regen Debuff)
 description_long: "You mend your wounds by placing your bodies in a past or future state where they are far less injured.  Temporal Mending will immediately absorb damage as it's inflicted.  Additionally, you will gain some resistance to slow effects and regeneration debuffs.  If you are affected by the Accelerated effect, you absorb even more damage from this power.  Recharge: Low"
+enhancements:
+- 8
+- 11
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -42,44 +48,44 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 66
   summon: ''
   base_probability: 1
   buffable: true
   special_case: 18
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.00200000009
   magnitude: 1
   duration: 3
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 66
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 3
-  scale: 0.5
+  scale: 0.00499999989
   magnitude: 1
   duration: 3
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -90,99 +96,99 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 28
   effect_modifiers: 32
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 28
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 28
   effect_modifiers: 11
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 28
   effect_modifiers: 16
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 28
   effect_modifiers: 17
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Temporal_Manipulation.Temporal_Healing
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 28
   effect_modifiers: 27
   summon: ''
@@ -192,8 +198,8 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

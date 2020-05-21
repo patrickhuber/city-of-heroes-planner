@@ -1,10 +1,14 @@
 display_name: Warshade
 hit_points: 1071
-hit_points_max: 2409.51806640625
+hit_points_max: 2409.51807
 description_long: Warshades are former Nictus who have left that dark path behind and reformed, joining with a willing host. While Warshades take more damage from most attacks, they make up for this weakness with solid hit points, a good variety of dark energy attack powers and strong defensive powers, inherent teleport, and eventually even gain access to two shape-shift forms. Warshades become stronger when teamed with non-Kheldian Heroes, gaining bonuses to their own powers based on the archetypes of their team mates.
-resistence_max: 0.85000002384185791
+resistence_max: 0.850000024
 origins:
+- Magic
+- Mutation
+- Natural
 - Science
+- Technology
 class_type: 2
 column: 6
 class_name: Class_Warshade

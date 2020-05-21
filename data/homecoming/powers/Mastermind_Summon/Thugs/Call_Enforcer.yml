@@ -7,8 +7,8 @@ display: Call Enforcer
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -33,11 +34,20 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Summon Enforcer
 description_long: 'Calls forth one to two Thug Enforcers (depending on your level) to do your bidding. Thug Enforcers carry a Sub-machine Gun, and possess good leadership skills. Their weapon of choice is an UZI, and can be equipped to carry up to 2 at once. You may only have 2 Thug Enforcers under your control at any given time.  If you attempt to call more Enforcers, you can only replace the ones you have lost in battle.  If you already have two, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 5
+- 25
+- 4
+- 6
+- 8
 set_types:
 - 6
+- 7
 - 21
 - 25
 - 27
+- 30
 - 40
 - 44
 level: 12
@@ -46,12 +56,13 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Lt_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Thugs.Call_Enforcer
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Thug_Lt
+  summon: Pets_Thug_Lt
   delayed_time: 2
   base_probability: 1
   to_who: 3
@@ -60,16 +71,16 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus
   override: ''
 - power_full_name: Mastermind_Summon.Thugs.Call_Enforcer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
-  summon: MastermindPets_Thug_Lt
+  summon: Pets_Thug_Lt
   delayed_time: 3
   base_probability: 1
   to_who: 3
@@ -78,9 +89,150 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus
   override: ''
+- &o0
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt.Brawl
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o0
+- &o1
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt.Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o1
+- &o2
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt.Heavy_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o2
+- &o3
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt_2.UZI_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o3
+- &o4
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt_2.UZI_Cone_Blast
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o4
+- &o5
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt_2.UZI_Heavy_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o5
+- &o6
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt_3.Dual_UZIs
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o6
+- &o7
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Thug_Lt_3.Blast_Clip
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o7

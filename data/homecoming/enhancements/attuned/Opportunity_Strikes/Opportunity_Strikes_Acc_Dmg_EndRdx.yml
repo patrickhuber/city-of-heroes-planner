@@ -12,14 +12,14 @@ level_min: 9
 level_max: 52
 unique: true
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.5
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 0.5
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Attuned_Opportunity_Strikes_D
 recipe: Alt

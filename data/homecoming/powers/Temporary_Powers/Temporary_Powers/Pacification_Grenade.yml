@@ -7,8 +7,8 @@ display: Pacification Grenade
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 2048
@@ -16,8 +16,9 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-cast_time: 1.3700000047683716
+cast_time: 1.37
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 1
 max_boosts: ''
 number_of_charges: 1
@@ -26,6 +27,7 @@ number_allowed: 10
 boosts_allowed: []
 description_short: Weaken Marauder
 description_long: This Electromagnetic Pulse Disruption Device, colloquially known as a Pacification Grenade, is part of a batch specially whipped up by Emperor Cole in case Praetor White ever got out of hand and had to be put down. Using this grenade on Praetor White (aka, Marauder) will severely lower his defenses for 45 seconds.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Pacification_Grenade
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -46,14 +48,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pacification_Grenade
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Objects_Marauder_Debuff_Marker
   stacking: 1
@@ -64,8 +66,8 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

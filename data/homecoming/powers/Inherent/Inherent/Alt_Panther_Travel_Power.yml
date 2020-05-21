@@ -7,8 +7,8 @@ display: Panther Stealth Power
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1615872
 power_type: 2
 accuracy: 1
@@ -24,7 +24,7 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.0097500002011656761
+endurance_cost: 0.0097500002
 activate_period: 0.5
 effect_area: 1
 max_boosts: 0
@@ -32,6 +32,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'Toggle: Self +Run Speed, +Jump, +Stealth'
 description_long: You transform into a Panther granting you increased movement speed and a slight boost to your jump height.  However, while this power is active you will be unable to activate most powers.  Additionally this power will deactivate most powers upon activation.  While this power is active you gain access to the Panther Stealth power which you may activate and deactivate.
+enhancements: []
 set_types: []
 level: 4
 variable_name: ''
@@ -42,7 +43,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -50,19 +51,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 0.18000000715255737
+  scale: 0.180000007
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -75,14 +76,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 21
   summon: ''
   base_probability: 1
@@ -95,14 +96,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 22
   summon: ''
   base_probability: 1
@@ -115,14 +116,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -130,19 +131,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 0.93000000715255737
+  scale: 0.930000007
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedRunning
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedRunning
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -150,19 +151,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.18000000715255737
+  scale: 0.180000007
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -170,19 +171,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.43999999761581421
+  scale: 0.439999998
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 21
   summon: ''
   base_probability: 1
@@ -195,14 +196,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 22
   summon: ''
   base_probability: 1
@@ -215,14 +216,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -230,19 +231,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.93000000715255737
+  scale: 0.930000007
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedRunning
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedRunning
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 33
   summon: ''
   ticks: 1
@@ -253,14 +254,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -270,14 +271,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 12
   summon: Temporary_Powers.Replacement_Powers.Panther_Stealth
   base_probability: 1
@@ -286,14 +287,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Replacement_Powers.Panther_Stealth
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Alt_Panther_Travel_Power
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 30
   summon: ''
   base_probability: 1
@@ -302,8 +303,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Replacement_Powers.Panther_Stealth
   effect_id: Ones

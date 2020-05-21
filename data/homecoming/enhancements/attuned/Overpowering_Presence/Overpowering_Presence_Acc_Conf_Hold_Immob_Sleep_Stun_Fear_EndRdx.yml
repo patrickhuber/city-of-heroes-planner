@@ -11,29 +11,29 @@ effect_chance: 1
 level_max: -1
 unique: true
 effects:
-- i_d: 1
-  sub_i_d: -1
-  multiplier: 1
-- i_d: 12
-  sub_i_d: 1
-  multiplier: 1
-- i_d: 12
-  sub_i_d: 2
-  multiplier: 1
-- i_d: 12
-  sub_i_d: 3
-  multiplier: 1
-- i_d: 12
-  sub_i_d: 9
-  multiplier: 1
-- i_d: 12
-  sub_i_d: 10
-  multiplier: 1
-- i_d: 12
-  sub_i_d: 12
-  multiplier: 1
-- i_d: 4
-  sub_i_d: -1
-  multiplier: 1
+- id: 1
+  sub_id: -1
+  multiplier: 0.5
+- id: 12
+  sub_id: 1
+  multiplier: 0.5
+- id: 12
+  sub_id: 2
+  multiplier: 0.5
+- id: 12
+  sub_id: 3
+  multiplier: 0.5
+- id: 12
+  sub_id: 9
+  multiplier: 0.5
+- id: 12
+  sub_id: 10
+  multiplier: 0.5
+- id: 12
+  sub_id: 12
+  multiplier: 0.5
+- id: 4
+  sub_id: -1
+  multiplier: 0.5
 unique_identifier: Attuned_Overpowering_Presence_D
 recipe: Alt

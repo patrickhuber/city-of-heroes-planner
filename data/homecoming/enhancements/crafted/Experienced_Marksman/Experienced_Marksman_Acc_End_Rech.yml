@@ -1,0 +1,25 @@
+index: 1253
+name: Accuracy/Endurance/Recharge
+short_name: Acc/End/Rech
+description: ''
+type_id: 4
+sub_type_id: -1
+class_ids: []
+enhancement_set_id: 215
+enhancement_set_name: Experienced_Marksman
+image: eMarksman.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- id: 1
+  sub_id: -1
+  multiplier: 0.5
+- id: 5
+  sub_id: -1
+  multiplier: 0.5
+- id: 14
+  sub_id: -1
+  multiplier: 0.5
+unique_identifier: Crafted_Experienced_Marksman_B
+recipe: ''

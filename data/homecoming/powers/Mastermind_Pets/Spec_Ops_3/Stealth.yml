@@ -7,8 +7,8 @@ display: Stealth
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -17,8 +17,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 0.73000001907348633
+cast_time: 0.730000019
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -27,6 +28,8 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Self Stealth, +DEF (Special)
 description_long: You blend into your environment and can only be seen at very close range. Even if discovered, you are hard to see and have a bonus to Defense from melee and ranged attacks. If, however, you attack while using this power, you will be discovered and will lose your Stealth and some of your Defense bonus. Stealth will not work with any other form of Concealment power such as Shadow Fall or Steamy Mist.  Very low Endurance cost.
+enhancements:
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 36
   summon: ''
   base_probability: 1
@@ -49,14 +52,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 37
   summon: ''
   base_probability: 1
@@ -68,14 +71,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -83,19 +86,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -103,19 +106,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -123,19 +126,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -143,19 +146,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -163,19 +166,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -183,19 +186,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -203,19 +206,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -223,19 +226,19 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -243,190 +246,190 @@ effects:
   suppression: 64
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 5
   damage_type: 10
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 5
   damage_type: 11
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 5
   damage_type: 12
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 5
   damage_type: 1
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 5
   damage_type: 2
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 5
   damage_type: 3
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 5
   damage_type: 4
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 5
   damage_type: 5
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 5
   damage_type: 6
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 41
   summon: ''
   base_probability: 1
@@ -438,26 +441,26 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Stealth
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 41
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

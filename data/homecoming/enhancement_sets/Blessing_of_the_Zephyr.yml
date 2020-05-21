@@ -15,13 +15,13 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8194
+  - id: 8071
     name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_1
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8006
+  - id: 7883
     name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_2
 special_bonuses:
 - special: -1
@@ -33,7 +33,7 @@ special_bonuses:
 - special: 2
   alternate_string: ''
   entities:
-  - id: 7829
+  - id: 7706
     name: Set_Bonus.Set_Bonus.Blessing_of_the_Zephyr
 - special: -1
   alternate_string: ''

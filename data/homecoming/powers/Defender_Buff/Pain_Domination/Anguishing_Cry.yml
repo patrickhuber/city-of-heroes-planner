@@ -7,8 +7,8 @@ display: Anguishing Cry
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 516
@@ -17,8 +17,9 @@ entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 13
-cast_time: 1.9700000286102295
+cast_time: 1.97000003
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -31,6 +32,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Foe -RES(All), -DEF(All)
 description_long: You let out an Anguishing Cry causing a great deal of pain in your foes reducing their resistance and defense to damage for a short time.
+enhancements:
+- 1
+- 6
+- 8
+- 18
 set_types:
 - 21
 - 30
@@ -43,7 +49,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -55,14 +61,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -73,14 +79,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -91,14 +97,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -109,14 +115,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -127,14 +133,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -145,14 +151,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -163,14 +169,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -181,14 +187,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Defender_Buff.Pain_Domination.Anguishing_Cry
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -199,8 +205,8 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

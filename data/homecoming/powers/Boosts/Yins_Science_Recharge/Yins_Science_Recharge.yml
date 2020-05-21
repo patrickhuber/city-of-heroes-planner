@@ -7,8 +7,8 @@ display: Talisman of the Quickening (Recharge)
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,8 @@ boosts_allowed:
 - Science_Boost
 description_short: Increases Attack Rate
 description_long: This talisman helps science-based characters speed up the rate of their attack.
+enhancements:
+- 18
 set_types: []
 level: 1
 variable_name: ''
@@ -36,19 +38,19 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Boosts.Yins_Science_Recharge.Yins_Science_Recharge
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -11,8 +11,8 @@ image: Damage.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 1
 unique_identifier: Magic_Damage
 recipe: Ticket_Magic

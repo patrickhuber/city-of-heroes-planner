@@ -7,8 +7,8 @@ display: Telekinesis
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -18,9 +18,10 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 1.559999942779541
-cast_time: 1.1299999952316284
+endurance_cost: 1.55999994
+cast_time: 1.13
 recharge_time: 60
+base_recharge_time: 60
 activate_period: 0.5
 effect_area: 2
 radius: 10
@@ -33,6 +34,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Ranged (Targeted AoE), Foe Hold, Repel'
 description_long: 'Lifts a foe, and any nearby foes, off the ground and repels them.  The targets are helpless, unable to take action, and will continue to hover away, picking up any passing targets, as long as you keep this power active. Keeping up this level of concentration costs a lot of Endurance. Recharge: Slow'
+enhancements:
+- 8
+- 17
+- 18
 set_types: []
 level: 12
 variable_name: ''
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Mind_Control.Telekinesis
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -57,14 +62,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Controller_Control.Mind_Control.Telekinesis
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 8
   summon: ''
@@ -78,14 +83,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Mind_Control.Telekinesis
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -100,14 +105,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Mind_Control.Telekinesis
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.KillTk
   base_probability: 1
@@ -117,8 +122,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.KillTk
   effect_id: Ones

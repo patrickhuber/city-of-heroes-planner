@@ -7,8 +7,8 @@ display: Plasma Vortex
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 137
 group_memberships: []
@@ -17,6 +17,7 @@ target: 1
 target_line_of_sight: true
 cast_time: 2.5
 recharge_time: 9
+base_recharge_time: 9
 effect_area: 2
 radius: 8
 max_targets: 16
@@ -29,6 +30,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Melee AoE Smash/Energy
 description_long: The IDF soldier's plasma gauntlet is capable of delivering punishing blows as well as disorienting its foes.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Lore_Pet_IDF_Boss.Plasma_Vortex
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -49,18 +54,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_IDF_Boss.Plasma_Vortex
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -69,23 +74,23 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_IDF_Boss.Plasma_Vortex
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -95,19 +100,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Incarnate.Lore_Pet_IDF_Boss.Plasma_Vortex
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   suppression: 31
   buffable: true
   resistible: true
@@ -118,8 +123,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

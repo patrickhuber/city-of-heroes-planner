@@ -7,19 +7,20 @@ display: Assassins Strike Quick
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 137
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 14.35200023651123
+endurance_cost: 14.3520002
 cast_time: 1
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Special DMG(Smashing, Energy)
 description_long: "A signature Stalker attack.  This attack does superior energy and smashing damage on its own as a frontal attack and cannot be interrupted.  However, if it is executed while you are Hidden, this attack will do tremendous damage, as you waylay your unsuspecting foe. This attack may be interrupted if you move or are attacked while executing this power and are hidden.  Using this power while not hidden has a chance to critically hit equal to 33.3% times the number of stacks of Assassin's Focus. Using Assassin's Strike when not hidden will remove all stacks of Assassin's Focus regardless if you critically hit or not.  Assassin's Corruption also has a very high chance to inflict Contaminated while hidden and a high chance while unhidden.  Hitting Contaminated foes with single target Radiation Melee powers cause a small burst of damage to foes near the target.  Damage: Special, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 42
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -54,18 +60,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.68999999761581421
+  scale: 0.689999998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -75,18 +81,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.0699999332427979
+  scale: 2.06999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -95,18 +101,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.7599999904632568
+  scale: 2.75999999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ASCrit
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -116,18 +122,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.43112000823020935
+  scale: 0.431120008
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -137,18 +143,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2933499813079834
+  scale: 1.29334998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -157,34 +163,34 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7244600057601929
+  scale: 1.72446001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ASCrit
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
-  base_probability: 0.43999999761581421
+  base_probability: 0.439999998
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Contaminated
   override: ''
 - power_full_name: Villain_Pets.Radiation_Melee_Assassins_Corruption.Assassins_Strike_Quick
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 30
   summon: ''
   stacking: 1
@@ -194,8 +200,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones

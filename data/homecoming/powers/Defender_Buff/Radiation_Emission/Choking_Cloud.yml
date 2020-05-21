@@ -7,8 +7,8 @@ display: Choking Cloud
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 4.1599998474121094
-cast_time: 3.4700000286102295
+endurance_cost: 4.15999985
+cast_time: 3.47000003
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 5
 effect_area: 2
 radius: 15
@@ -32,6 +33,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: PBAoE, Foe Hold'
 description_long: 'While active, you generate toxic radioactive gas around yourself. Any nearby foes may be overcome by the gas, leaving them choking and helpless. Recharge: Long'
+enhancements:
+- 8
+- 12
+- 18
 set_types:
 - 10
 level: 18
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Radiation_Emission.Choking_Cloud
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -57,18 +62,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Defender_Buff.Radiation_Emission.Choking_Cloud
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -78,18 +83,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Defender_Buff.Radiation_Emission.Choking_Cloud
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   suppression: 31
   buffable: true
   resistible: true
@@ -100,8 +105,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

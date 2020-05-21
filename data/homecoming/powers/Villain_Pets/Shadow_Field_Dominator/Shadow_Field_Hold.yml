@@ -7,8 +7,8 @@ display: Shadow Field Hold
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 attack_types: 4
@@ -27,6 +27,9 @@ boosts_allowed:
 - Hold_Boost
 description_short: Ranged (Location AoE), Foe Hold, -To Hit
 description_long: 'You blanket a targeted area in darkness immediately holding foes within the field. Any foe who enters this area will have their chance to hit reduced and has a chance to be held for a short period of time. Recharge: Very Slow'
+enhancements:
+- 1
+- 12
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Shadow_Field_Dominator.Shadow_Field_Hold
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -51,14 +54,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Villain_Pets.Shadow_Field_Dominator.Shadow_Field_Hold
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -73,8 +76,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

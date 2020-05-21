@@ -7,8 +7,8 @@ display: Energize
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 10.399999618530273
-cast_time: 1.1699999570846558
+endurance_cost: 10.3999996
+cast_time: 1.16999996
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -28,6 +29,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self Endurance Discount, Heal, +Regen
 description_long: You can channel a tremendous amount of electricity through your body for a short period of time.  Doing so will heal some hit points, reduce the endurance cost of your powers and boost your regeneration for a short time.
+enhancements:
+- 8
+- 11
+- 18
 set_types:
 - 9
 level: 10
@@ -40,7 +45,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Sentinel_Defense.Electric_Armor.Energize
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 8
   summon: ''
@@ -51,14 +56,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Sentinel_Defense.Electric_Armor.Energize
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -69,14 +74,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Electric_Armor.Energize
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 13
   summon: ''
   stacking: 1
@@ -87,8 +92,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf

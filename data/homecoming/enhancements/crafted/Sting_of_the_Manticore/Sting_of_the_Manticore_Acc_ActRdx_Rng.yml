@@ -11,15 +11,15 @@ effect_chance: 1
 level_min: 34
 level_max: 52
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.5
-- i_d: 9
-  sub_i_d: -1
+- id: 9
+  sub_id: -1
   schedule: 2
   multiplier: 0.5
-- i_d: 13
-  sub_i_d: -1
+- id: 13
+  sub_id: -1
   schedule: 1
   multiplier: 0.5
 unique_identifier: Crafted_Sting_of_the_Manticore_C

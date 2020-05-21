@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7957
+  - id: 7834
     name: Set_Bonus.Set_Bonus.Improved_Recovery_2
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8062
+  - id: 7939
     name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_2
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 7893
+  - id: 7770
     name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_2
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 8009
+  - id: 7886
     name: Set_Bonus.Set_Bonus.Increased_AoE_Fire_Cold_Def_5
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8198
+  - id: 8075
     name: Set_Bonus.Set_Bonus.Increased_Ranged_Energy_Neg_Def_5
 special_bonuses:
 - special: -1

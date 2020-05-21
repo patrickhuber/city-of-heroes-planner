@@ -11,8 +11,8 @@ effect_chance: 1
 level_min: 14
 level_max: 52
 effects:
-- i_d: 6
-  sub_i_d: -1
+- id: 6
+  sub_id: -1
   multiplier: 1
 unique_identifier: Crafted_Freebird_B
 recipe: Freebird_B

@@ -7,7 +7,7 @@ display: Blood Frenzy
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Brute_Melee.Savage_Melee.Maiming_Slash
     - ''
   - - Brute_Melee.Savage_Melee.Savage_Strike
@@ -22,7 +22,9 @@ requirement:
     - ''
   - - Tanker_Melee.Savage_Melee.Savage_Strike
     - ''
-  power_i_ds_not: []
+  - - Dominator_Assault.Savage_Assault.Call_Swarm
+    - ''
+  power_ids_not: []
 power_type: 1
 group_memberships: []
 entities_affected: 1
@@ -34,6 +36,7 @@ max_boosts: ''
 boosts_allowed: []
 description_short: Self, +DMG, +End Discount, +Special
 description_long: Each stack of Blood Frenzy grants you a small damage and endurance discount buff. It is also consumed by certain powers to empower them. Blood Frenzy stacks up to 5 times. Shred deals additional damage and has a chance to immediately recharge itself per stack of Blood Frenzy. Rending Flurry's damage is increased by each stack of Blood Frenzy, additionally if you have 5 stacks of Blood Frenzy this power's radius is increased. Blood Thirst's heal over time effect is increased with each stack of Blood Frenzy. Additionally, using Blood Thirst with 5 stacks of Blood Frenzy will cause the heal over time effect to heal for a longer duration. Hemorrhage's bleed effect is greatly increased by each stack of Blood Frenzy and executing this power with 5 stacks of Blood Frenzy will increase the duration of the damage over time effect. Using Shred, Rending Flurry, Blood Thirst or Hemorrhage with 5 stacks of Blood Frenzy will cause you to be Exhausted for 8 seconds. While Exhausted you cannot build stacks of Blood Frenzy.
+enhancements: []
 set_types: []
 click_buff: true
 level: 1
@@ -43,7 +46,7 @@ variable_max: 5
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 6
+display_location: 16
 mutually_exclusive_auto: true
 absorb_summon_effects: true
 absorb_summon_attributes: true
@@ -60,13 +63,14 @@ effects:
   base_probability: 1
   buffable: true
   resistible: true
-  scale: 0.059999998658895493
+  to_who: 2
+  scale: 0.0599999987
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -77,13 +81,14 @@ effects:
   base_probability: 1
   buffable: true
   resistible: true
-  scale: 0.039999999105930328
+  to_who: 2
+  scale: 0.0399999991
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

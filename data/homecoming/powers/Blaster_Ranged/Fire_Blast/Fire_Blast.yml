@@ -7,8 +7,8 @@ display: Fire Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 66
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.1999998092651367
-cast_time: 1.6699999570846558
+endurance_cost: 5.19999981
+cast_time: 1.66999996
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,12 @@ boosts_allowed:
 cast_through_hold: true
 description_short: Ranged, Moderate DMG(Fire)
 description_long: 'Sends a Blast of Fire at a targeted foe and sets the target on fire for a short period of time. Slower recharge rate than Flares, but more damage. Damage: Moderate, Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 33
@@ -45,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -59,38 +66,38 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 4
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -100,18 +107,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.1259200572967529
+  scale: 2.12592006
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -119,19 +126,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -139,19 +146,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -159,19 +166,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -179,19 +186,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -199,19 +206,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -219,19 +226,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -239,19 +246,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Fire_Blast.Fire_Blast
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -259,13 +266,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

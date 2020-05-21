@@ -7,19 +7,20 @@ display: Mercurial Blow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 9
-endurance_cost: 4.3680000305175781
+endurance_cost: 4.36800003
 cast_time: 1
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Light DMG(Smash), Foe -Def
 description_long: "You strike your foe with a lightning fast blow from  your staff dealing Light Smashing damage.  The attack is so unexpected  that the target's defenses are reduced slightly for a short time.  This power grants one stack of Perfection of Body. Damage: Light, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 1
 - 21
@@ -49,7 +56,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -59,18 +66,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -80,18 +87,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2375600337982178
+  scale: 1.23756003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   summon: ''
   stacking: 1
@@ -105,14 +112,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -123,61 +130,61 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2375600337982178
+  scale: 1.23756003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 1
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 1.2375600337982178
+  scale: 1.23756003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 1
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -188,18 +195,18 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   base_probability: 1
@@ -209,14 +216,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   base_probability: 1
@@ -226,14 +233,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 30
   summon: ''
   base_probability: 1
@@ -243,14 +250,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   base_probability: 1
@@ -260,14 +267,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 30
   summon: ''
   base_probability: 1
@@ -277,24 +284,24 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Staff_Fighting.Mercurial_Blow
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
-  base_probability: 0.64999997615814209
+  base_probability: 0.649999976
   to_who: 2
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones

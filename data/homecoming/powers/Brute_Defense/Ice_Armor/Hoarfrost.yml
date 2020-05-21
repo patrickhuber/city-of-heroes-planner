@@ -7,8 +7,8 @@ display: Hoarfrost
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 14.560000419616699
-cast_time: 0.73000001907348633
+endurance_cost: 14.5600004
+cast_time: 0.730000019
 recharge_time: 360
+base_recharge_time: 360
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: Self Heal, +Max HP, Res(Toxic)
 description_long: 'Activating this power covers you in a thick layer of Hoarfrost. The frost can absorb the impact from enemy attacks, effectively increasing your maximum Hit Points for a short time. Hoarfrost also grants you resistance to Toxic Damage. Recharge: Very Long'
+enhancements:
+- 8
+- 11
+- 18
+- 19
 set_types:
 - 8
 - 9
@@ -43,7 +49,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Defense.Ice_Armor.Hoarfrost
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 14
   summon: ''
   stacking: 1
@@ -54,14 +60,14 @@ effects:
   duration: 120
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Hoarfrost
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 14
   summon: ''
   stacking: 1
@@ -73,14 +79,14 @@ effects:
   duration: 120
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Hoarfrost
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -91,14 +97,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Defense.Ice_Armor.Hoarfrost
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 13
   summon: ''
   stacking: 1
@@ -109,8 +115,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf

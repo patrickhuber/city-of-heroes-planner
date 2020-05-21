@@ -7,8 +7,8 @@ display: Master Brawler
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not:
+  power_ids: []
+  power_ids_not:
   - - '!sentinel_defense.super_reflexes.practiced_brawler'
     - ''
 modes_disallowed: 2
@@ -18,9 +18,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 5.1999998092651367
-cast_time: 1.5299999713897705
+endurance_cost: 5.19999981
+cast_time: 1.52999997
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self +Absorb +Special
 description_long: 'Your are a master brawler, as such you have learned when its best to block an attack and absorb damage the most effectively. Using this power when you have the highest amount of endurance but the lowest amount of health will result in the most powerful effect possible. Owning this power will also improve your Focused Fighting and Focused Senses abilities. This power can not be taken if you take Practiced Brawler. Recharge: Long'
+enhancements:
+- 8
+- 11
+- 18
 set_types:
 - 9
 click_buff: true
@@ -43,7 +48,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Sentinel_Defense.Super_Reflexes.Master_Brawler
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 66
   summon: ''
   base_probability: 1
@@ -56,14 +61,14 @@ effects:
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 100 kHitPoints% source> - kEndurance% source> + 200 / @StdResult *
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Sentinel_Defense.Super_Reflexes.Master_Brawler
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 66
   summon: ''
   base_probability: 1
@@ -76,8 +81,8 @@ effects:
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 100 kHitPoints% source> - kEndurance% source> + 200 / @StdResult *
   reward: ''
   effect_id: HealSelf

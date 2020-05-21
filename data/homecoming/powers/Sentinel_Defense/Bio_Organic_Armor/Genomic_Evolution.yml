@@ -7,8 +7,8 @@ display: Genomic Evolution
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -25,6 +25,8 @@ boosts_allowed:
 - Res_Damage_Boost
 description_short: 'Auto: +Res(All), +Special'
 description_long: Your body has evolved to protect you from all damage types. As a result you receive a moderate bonus to damage resistance against all types. While Efficient Adaptation is active you gain a power bonus to your max endurance. While Defensive Adaptation is active you gain a bonus to damage resistance. While Offensive Adaptation is active you gain increased range buff. These special bonuses are unenhanceable.  This power is always active and cost no endurance.
+enhancements:
+- 19
 set_types:
 - 8
 always_toggle: true
@@ -38,7 +40,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -49,14 +51,14 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -67,14 +69,14 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -85,14 +87,14 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -103,14 +105,14 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -121,14 +123,14 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -139,32 +141,32 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 8
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -175,14 +177,14 @@ effects:
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 24
   summon: ''
@@ -192,176 +194,176 @@ effects:
   special_case: 46
   player_versus_mode: 1
   to_who: 3
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 5.25
   aspect: 3
   modifier_table: Melee_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 7
   summon: ''
   base_probability: 1
   special_case: 45
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 5.25
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 1
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.22499999403953552
+  scale: 0.224999994
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 2
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.22499999403953552
+  scale: 0.224999994
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 29
   damage_type: 3
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 4
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 29
   damage_type: 5
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 29
   damage_type: 6
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 29
   damage_type: 8
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.18000000715255737
+  scale: 0.180000007
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Genomic_Evolution
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 29
   damage_type: 7
   summon: ''
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 5.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation

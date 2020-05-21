@@ -15,13 +15,13 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7957
+  - id: 7834
     name: Set_Bonus.Set_Bonus.Improved_Recovery_2
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8098
+  - id: 7975
     name: Set_Bonus.Set_Bonus.Increased_Health_3
 special_bonuses:
 - special: -1
@@ -30,12 +30,12 @@ special_bonuses:
 - special: 1
   alternate_string: ''
   entities:
-  - id: 8303
+  - id: 8180
     name: Set_Bonus.Set_Bonus.Steadfast_Protection_Def
 - special: 2
   alternate_string: ''
   entities:
-  - id: 8304
+  - id: 8181
     name: Set_Bonus.Set_Bonus.Steadfast_Protection_KB
 - special: -1
   alternate_string: ''

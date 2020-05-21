@@ -12,8 +12,8 @@ level_min: 49
 level_max: 49
 unique: true
 effects:
-- i_d: 12
-  sub_i_d: 10
+- id: 12
+  sub_id: 10
   multiplier: 1
 unique_identifier: Crafted_Absolute_Amazement_A
 recipe: Absolute_Amazement_A

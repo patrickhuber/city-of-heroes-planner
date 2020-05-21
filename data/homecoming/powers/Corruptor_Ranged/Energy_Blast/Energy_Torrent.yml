@@ -7,8 +7,8 @@ display: Energy Torrent
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 140
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 11.855999946594238
-cast_time: 1.0700000524520874
+endurance_cost: 11.8559999
+cast_time: 1.07000005
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 3
 radius: 40
 arc: 45
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Energy/Smash), Foe Knockback
 description_long: 'Energy Torrent unleashes a cone of powerful energy that can smash foes and possibly send them flying. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -49,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -59,18 +67,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -80,18 +88,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -101,18 +109,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.28698000311851501
+  scale: 0.286980003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -122,23 +130,23 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.63875997066497803
+  scale: 0.638759971
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -147,19 +155,19 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   suppression: 32
   buffable: true
   resistible: true
@@ -169,53 +177,49 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 0.95999997854232788
+  scale: 0.959999979
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Energy_Blast.Energy_Torrent
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 0.92574000358581543
+  scale: 0.925740004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''

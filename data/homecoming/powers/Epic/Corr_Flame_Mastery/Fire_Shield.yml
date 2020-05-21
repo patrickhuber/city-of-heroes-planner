@@ -8,12 +8,12 @@ requirement:
   class_names:
   - Class_Corruptor
   class_names_not: []
-  power_i_ds:
-  - - Epic.Fire_Mastery.Fire_Blast
+  power_ids:
+  - - Epic.Corr_Flame_Mastery.Consume
     - ''
-  - - Epic.Fire_Mastery.Fire_Ball
+  - - Epic.Corr_Flame_Mastery.Char
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 power_type: 2
 accuracy: 1
@@ -22,9 +22,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.16249999403953552
-cast_time: 1.6699999570846558
+endurance_cost: 0.162499994
+cast_time: 1.66999996
 recharge_time: 2
+base_recharge_time: 2
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -35,7 +36,11 @@ boosts_allowed:
 - Res_Damage_Boost
 ignore_strength: true
 description_short: 'Toggle: Self +Res(Fire, Lethal, Smash, Cold)'
-description_long: 'While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Fire Blast or Fire Ball before selecting this power. Recharge: Very Fast'
+description_long: 'While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Consume or Char before selecting this power. Recharge: Very Fast'
+enhancements:
+- 8
+- 18
+- 19
 set_types:
 - 8
 always_toggle: true
@@ -48,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -61,14 +66,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -81,14 +86,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -101,14 +106,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -121,14 +126,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -140,14 +145,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -159,14 +164,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -178,14 +183,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -197,14 +202,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -216,14 +221,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -235,14 +240,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -254,14 +259,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -273,8 +278,8 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

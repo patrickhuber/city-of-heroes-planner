@@ -7,8 +7,8 @@ display: Power Analyzer mk II
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 100
 interrupt_time: 1
-cast_time: 3.9300000667572021
+cast_time: 3.93000007
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: ''
 artifical_intelligence_report: 1
@@ -28,6 +29,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Special
 description_long: The Power Analyzer mk II enables you to gain significant insight into the abilities, strengths and weakness of your foes.  It has 20 charges.  It will not function on foes over combat level 35 or on PVP targets.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -38,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Power_Analyzer_mk_II
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 2
   summon: ''
   stacking: 1
@@ -51,8 +53,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

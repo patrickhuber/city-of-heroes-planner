@@ -7,7 +7,7 @@ display: Summon Blaster
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Brute_Mace_Mastery.Mace_Blast
     - Epic.Brute_Mace_Mastery.Web_Envelope
   - - Epic.Brute_Mace_Mastery.Mace_Blast
@@ -18,7 +18,7 @@ requirement:
     - Epic.Brute_Mace_Mastery.Disruptor_Blast
   - - Epic.Brute_Mace_Mastery.Web_Envelope
     - Epic.Brute_Mace_Mastery.Focused_Accuracy
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 group_memberships: []
@@ -28,8 +28,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 26
-cast_time: 3.0299999713897705
+cast_time: 3.02999997
 recharge_time: 900
+base_recharge_time: 900
 effect_area: 4
 max_boosts: ''
 number_allowed: 1
@@ -43,6 +44,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Summon Arachnobot: Ranged Moderate DMG(Energy)'
 description_long: 'Black Scorpion has granted you an Arachnobot Blaster for you to command. Arachnobot Blasters were created by Arachnos Orb Weavers to take down particularly powerful super-powered threats. Your access to this Arachnobot is very limited. You can only summon it once every 15 minutes and it will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mace Mastery Powers before selecting this power. Recharge: Extremely Long'
+enhancements:
+- 1
+- 4
+- 8
+- 13
+- 16
+- 17
+- 18
 set_types:
 - 6
 - 23
@@ -57,7 +66,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Brute_Mace_Mastery.Summon_Blaster
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Patron_Powers_Arachnobot_Blaster
   base_probability: 1
@@ -67,8 +76,8 @@ effects:
   duration: 240
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

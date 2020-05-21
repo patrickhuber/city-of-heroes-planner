@@ -8,19 +8,20 @@ requirement:
   class_names:
   - Class_Dominator
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 137
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 19.110000610351562
-cast_time: 2.6700000762939453
+endurance_cost: 19.1100006
+cast_time: 2.67000008
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -33,6 +34,13 @@ boosts_allowed:
 - Taunt_Boost
 description_short: Melee, Extreme DMG(Energy/Smash), Foe Disorient, Self -HP
 description_long: 'Mastery of Energy Melee begins with the ability to transfer your own Hit Points into a punch that deals extreme damage. Energy Transfer has a good chance of Disorienting the target. Damage: Extreme, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 23
+- 24
 set_types:
 - 1
 - 11
@@ -48,7 +56,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -58,18 +66,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.559999942779541
+  scale: 1.55999994
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -83,14 +91,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -100,18 +108,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.70187997817993164
+  scale: 0.701879978
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -121,22 +129,22 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.8933000564575195
+  scale: 1.89330006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 9
   summon: ''
-  delayed_time: 0.10000000149011612
+  delayed_time: 0.100000001
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -144,19 +152,19 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -166,19 +174,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Primal_Forces_Mastery_Dominator.Energy_Transfer
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   suppression: 31
   buffable: true
   resistible: true
@@ -189,8 +197,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

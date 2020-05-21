@@ -7,8 +7,8 @@ display: Arm Lash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 10
-endurance_cost: 10.192000389099121
-cast_time: 1.6699999570846558
+endurance_cost: 10.1920004
+cast_time: 1.66999996
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 10
 arc: 30
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee Cone, Heavy DMG(Lethal), Foe -DEF
 description_long: "The Crab Spider's backpack is capable of making rapid attacks with its many arms dealing heavy damage to foes within a short cone in front of the user.  Damage: Heavy Recharge: Medium"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 4
 - 21
@@ -50,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Arm_Lash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -60,18 +67,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.7000000476837158
+  scale: 1.70000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Arm_Lash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -85,14 +92,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Arm_Lash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -102,12 +109,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7520500421524048
+  scale: 1.75205004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

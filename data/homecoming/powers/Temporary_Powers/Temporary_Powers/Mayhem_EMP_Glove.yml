@@ -7,8 +7,8 @@ display: EMP Glove
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.659999847412109
+endurance_cost: 10.6599998
 cast_time: 2
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: ''
 number_of_charges: 10
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Ranged, Moderate DMG(Energy), Foe -END
 description_long: This glove can deliver a high power, focused Electromagnetic Pulse to a target. Deals good damage and can drain Endurance from the target. Very effective against machines of all types. The EMP Glove has 10 charges.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_EMP_Glove
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -46,18 +48,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.6399999856948853
+  scale: 1.63999999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_EMP_Glove
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   stacking: 1
@@ -66,18 +68,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.10000000149011612
+  scale: -0.100000001
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_EMP_Glove
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 7
   summon: ''
   stacking: 1
@@ -86,22 +88,22 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: -2.6700000762939453
+  scale: -2.67000008
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_EMP_Glove
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 26
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   to_who: 1
@@ -110,14 +112,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_EMP_Glove
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -131,8 +133,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

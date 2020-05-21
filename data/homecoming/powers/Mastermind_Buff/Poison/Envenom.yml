@@ -7,8 +7,8 @@ display: Envenom
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 4
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 70
 endurance_cost: 13
-cast_time: 1.3300000429153442
+cast_time: 1.33000004
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 2
 radius: 8
 max_targets: 16
@@ -33,6 +34,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Targeted AoE), Foe -RES, -DEF, -Regen, -Heal
 description_long: "You Envenom your foe with a nasty poison, the poison then spreads to nearby foes.  The toxin directly attacks the immune system, reducing the affected target's Defense, Damage Resistance and Hit Point Regeneration Rate.  The poison is so potent, that the target actually responds less to Healing while affected by the poison.   Secondary foes struck by this power will have a lesser effect placed on them while the primary target receives the full effectiveness of the power.  Recharge: Slow"
+enhancements:
+- 1
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 21
 - 30
@@ -45,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -57,14 +64,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -75,14 +82,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -93,14 +100,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -111,14 +118,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -129,14 +136,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -147,14 +154,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -165,14 +172,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -183,14 +190,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -201,14 +208,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 28
   effect_modifiers: 13
   summon: ''
@@ -220,14 +227,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 27
   summon: ''
   stacking: 1
@@ -241,14 +248,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 27
   summon: ''
   stacking: 1
@@ -261,14 +268,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -280,14 +287,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -298,14 +305,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -316,14 +323,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -334,14 +341,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -352,14 +359,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -370,14 +377,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -388,14 +395,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -406,14 +413,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -424,14 +431,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 28
   effect_modifiers: 13
   summon: ''
@@ -443,14 +450,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 27
   summon: ''
   stacking: 1
@@ -464,14 +471,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Poison.Envenom
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 27
   summon: ''
   stacking: 1
@@ -484,8 +491,8 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

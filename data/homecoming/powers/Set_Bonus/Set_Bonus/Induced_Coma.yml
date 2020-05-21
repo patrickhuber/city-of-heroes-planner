@@ -7,8 +7,8 @@ display: 'Induced Coma: Chance for Recharge Slow'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: Slow
 description_long: Your attack rate has been reduced.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

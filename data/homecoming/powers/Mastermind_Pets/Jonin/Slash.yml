@@ -7,19 +7,20 @@ display: Gambler's Cut
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 17
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 4.3680000305175781
-cast_time: 1.3300000429153442
+endurance_cost: 4.36800003
+cast_time: 1.33000004
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: -DEF
 description_long: The Ninja Blade has reduced your Defenses.
+enhancements:
+- 1
+- 4
+- 6
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Jonin.Slash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -51,22 +57,22 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Jonin.Slash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.99800002574920654
+  base_probability: 0.998000026
   buffable: true
   resistible: true
   to_who: 1
@@ -76,14 +82,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Mastermind_Pets.Jonin.Slash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -93,12 +99,33 @@ effects:
   resistible: true
   special_case: 9
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.209999993
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

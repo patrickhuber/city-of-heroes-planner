@@ -7,8 +7,8 @@ display: Arachnos Mace
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
 accuracy: 1
 attack_types: 9
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 7.5399999618530273
+endurance_cost: 7.53999996
 cast_time: 2.5
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 0
 life_time_in_game: 1800
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Melee, High DMG(Smash/Toxic)
 description_long: The Arachnos Mace can cause heavy damage to targets, in addition to poisoning them.  You have this power for 30 minutes after purchase.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -38,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.SC_Store_Arachnos_Mace
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -47,18 +49,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.81999999284744263
+  scale: 0.819999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.SC_Store_Arachnos_Mace
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -67,12 +69,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.81999999284744263
+  scale: 0.819999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

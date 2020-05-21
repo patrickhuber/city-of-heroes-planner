@@ -7,8 +7,8 @@ display: Scramble Thoughts
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 514
@@ -20,6 +20,7 @@ range: 100
 endurance_cost: 13
 cast_time: 3
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Disorient
 description_long: You have been Disoriented.
+enhancements:
+- 1
+- 4
+- 8
+- 23
 set_types: []
 level: 35
 variable_name: ''
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Corolax_Red_Hybrid.Scramble_Thoughts
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -54,14 +60,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Corolax_Red_Hybrid.Scramble_Thoughts
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -77,14 +83,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Stun
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Villain_Pets.Corolax_Red_Hybrid.Scramble_Thoughts
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -101,8 +107,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

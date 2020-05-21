@@ -7,8 +7,8 @@ display: Recovery
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 5
 accuracy: 1
@@ -30,6 +30,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: Enhances Endurance Modification
 description_long: Increases the endurance modification ability of a power by {Boost.Attrib.endurance.Scale}%%.
+enhancements:
+- 7
 set_types: []
 level: 1
 variable_name: ''

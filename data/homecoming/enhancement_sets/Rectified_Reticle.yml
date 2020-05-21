@@ -15,13 +15,13 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8118
+  - id: 7995
     name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_2
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 7964
+  - id: 7841
     name: Set_Bonus.Set_Bonus.Improved_Regeneration_2
 special_bonuses:
 - special: -1
@@ -33,7 +33,7 @@ special_bonuses:
 - special: 2
   alternate_string: ''
   entities:
-  - id: 8276
+  - id: 8153
     name: Set_Bonus.Set_Bonus.Rectified_Reticle
 - special: -1
   alternate_string: ''

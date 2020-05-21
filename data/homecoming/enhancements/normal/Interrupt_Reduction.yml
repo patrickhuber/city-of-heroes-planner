@@ -11,8 +11,8 @@ image: Interrupt.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 9
-  sub_i_d: -1
+- id: 9
+  sub_id: -1
   schedule: 2
   multiplier: 1
 unique_identifier: Magic_Interrupt

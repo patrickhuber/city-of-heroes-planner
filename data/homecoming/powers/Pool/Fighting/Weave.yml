@@ -7,14 +7,14 @@ display: Weave
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Fighting.Boxing
     - Pool.Fighting.Kick
   - - Pool.Fighting.Boxing
     - Pool.Fighting.Tough
   - - Pool.Fighting.Kick
     - Pool.Fighting.Tough
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 power_type: 2
 accuracy: 1
@@ -23,9 +23,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.16249999403953552
-cast_time: 0.67000001668930054
+endurance_cost: 0.162499994
+cast_time: 0.670000017
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -36,6 +37,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Self +DEF(All), Res(Immobilize)'
 description_long: While active, you bob and weave, increasing your Defense to all attacks, as well as your resistance to Immobilize. You must be at least level 14 and have two other Fighting Powers before selecting Weave.
+enhancements:
+- 5
+- 8
+- 18
 set_types:
 - 7
 always_toggle: true
@@ -48,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -62,14 +67,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -83,14 +88,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -104,14 +109,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -125,14 +130,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -146,14 +151,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -167,14 +172,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -188,14 +193,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -209,14 +214,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -230,14 +235,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -251,14 +256,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -271,14 +276,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -291,14 +296,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -311,14 +316,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -331,14 +336,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -351,14 +356,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -371,14 +376,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -391,14 +396,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -411,14 +416,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -431,14 +436,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -451,14 +456,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Pool.Fighting.Weave
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 20
   mezmorize_type: 3
   summon: ''
@@ -470,8 +475,8 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

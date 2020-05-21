@@ -7,19 +7,20 @@ display: Knockout Blow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
-range: 13.199999809265137
-endurance_cost: 18.511999130249023
-cast_time: 2.2300000190734863
+range: 13.1999998
+endurance_cost: 18.5119991
+cast_time: 2.23000002
 recharge_time: 25
+base_recharge_time: 25
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,9 +32,18 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Melee, Extreme DMG(Smash), Foe Hold
 description_long: 'You can perform a Knockout Blow on your opponent. This punch does Superior damage, and has a great chance of Holding your target. Damage: Extreme, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 16
 set_types: []
 level: 8
-variable_name: ''
+variable_enabled: true
+variable_name: Fury
+variable_min: 1
+variable_max: 100
 sub_powers: []
 ignore_enhancements:
 - 13
@@ -44,7 +54,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Knockout_Blow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -53,18 +63,39 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 3.559999942779541
+  scale: 3.55999994
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Knockout_Blow
-  unique_i_d: 2
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.0710000023
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Boss_3.Knockout_Blow
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -79,14 +110,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Knockout_Blow
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -102,14 +133,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Knockout_Blow
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -123,14 +154,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Knockout_Blow
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -145,9 +176,30 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.889999986
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

@@ -7,8 +7,8 @@ display: Acid Arrow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 4
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 80
 endurance_cost: 9.75
-cast_time: 1.8300000429153442
+cast_time: 1.83000004
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 8
 max_targets: 16
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (AoE) Minor DoT(Toxic), Foe -Res(All), -DEF
 description_long: "This arrow explodes in a small shower of acid on impact. This acid eats through armor, causing damage over time. It reduces the target's Defense as well as their Damage Resistance.  Damage: Minor, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 21
@@ -48,7 +56,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -58,19 +66,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   duration: 20
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -81,14 +89,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -99,14 +107,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -117,14 +125,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -135,14 +143,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -153,14 +161,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -171,14 +179,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -189,14 +197,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -207,14 +215,14 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Buff.Trick_Arrow.Acid_Arrow
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -226,8 +234,8 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

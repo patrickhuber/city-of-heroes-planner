@@ -7,8 +7,8 @@ display: Wormhole
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 4
@@ -18,9 +18,10 @@ target: 2048
 range: 80
 target_secondary: 16384
 range_secondary: 200
-endurance_cost: 15.600000381469727
+endurance_cost: 15.6000004
 cast_time: 3
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 20
 max_targets: 16
@@ -36,6 +37,13 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Ranged (Targeted AoE), Foe Teleport, Disorient, Knockback
 description_long: "You can open a gravitational Wormhole behind a targeted foe and violently push them, and all nearby foes, through it. The victims are sent flying out the other end of the Wormhole and are left Disoriented. You determine the location of the Wormhole's end, and can place it high in the air if desired. More powerful foes may be resistant to the Wormhole effects. Recharge: Slow"
+enhancements:
+- 1
+- 8
+- 16
+- 17
+- 18
+- 23
 set_types:
 - 11
 - 20
@@ -51,10 +59,10 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 41
   summon: ''
-  delayed_time: 1.3999999761581421
+  delayed_time: 1.39999998
   stacking: 1
   base_probability: 1
   buffable: true
@@ -63,39 +71,39 @@ effects:
   duration: 1.5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 14
   summon: ''
-  delayed_time: 2.5999999046325684
+  delayed_time: 2.5999999
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 4.0999999046325684
+  scale: 4.0999999
   magnitude: 3
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 20
   mezmorize_type: 14
   summon: ''
-  delayed_time: 2.7999999523162842
+  delayed_time: 2.79999995
   stacking: 1
   base_probability: 1
   to_who: 1
@@ -103,18 +111,18 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 10
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   stacking: 1
   base_probability: 1
   buffable: true
@@ -126,19 +134,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -149,18 +157,18 @@ effects:
   aspect: 4
   modifier_table: Ranged_Stun
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 10
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   stacking: 1
   base_probability: 1
   suppression: 31
@@ -173,38 +181,38 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 41
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   base_probability: 1
   suppression: 256
   buffable: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 36
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   base_probability: 1
   suppression: 256
   buffable: true
@@ -215,18 +223,18 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 19
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   base_probability: 1
   suppression: 256
   buffable: true
@@ -237,18 +245,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 13
   summon: ''
-  delayed_time: 2.7999999523162842
+  delayed_time: 2.79999995
   base_probability: 1
   suppression: 256
   buffable: true
@@ -259,17 +267,17 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 39
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   base_probability: 1
   suppression: 256
   player_versus_mode: 2
@@ -279,18 +287,18 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 19
   mezmorize_type: 6
   summon: ''
-  delayed_time: 2.7999999523162842
+  delayed_time: 2.79999995
   base_probability: 1
   suppression: 256
   buffable: true
@@ -301,18 +309,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Gravity_Control.Wormhole
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 19
   mezmorize_type: 4
   summon: ''
-  delayed_time: 2.7000000476837158
+  delayed_time: 2.70000005
   stacking: 1
   base_probability: 1
   buffable: true
@@ -322,8 +330,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

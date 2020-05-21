@@ -7,19 +7,20 @@ display: Overcharge
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.3999999761581421
+accuracy: 1.39999998
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 20.799999237060547
-cast_time: 2.9000000953674316
+endurance_cost: 20.7999992
+cast_time: 2.9000001
 recharge_time: 125
+base_recharge_time: 125
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -35,6 +36,14 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Ranged (Targeted AoE), Extreme DMG(Energy), Foe Minor DoT (Energy), -Def(All), Disorient, Special
 description_long: 'You overcharge your Beam Rifle and release a massive blast of energy at a group of distant foes causing Extreme Energy damage, causing Minor Energy damage over time, reducing the defense of all affected foes and potentially stunning affected foes. If Overcharge strikes a target suffering from the Disintegrating effect they will be affected by a longer stun. Damage: Extreme, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
+- 23
 set_types:
 - 3
 - 11
@@ -51,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -65,14 +74,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -82,18 +91,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.522070050239563
+  scale: 1.52207005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -104,176 +113,176 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 1
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 2
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 3
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 4
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 5
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 6
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 7
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 8
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.039999999105930328
+  scale: 0.0399999991
   magnitude: 1
-  duration: 10.399999618530273
+  duration: 10.3999996
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   special_case: 15
@@ -284,19 +293,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   suppression: 31
   buffable: true
   resistible: true
@@ -308,14 +317,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -331,14 +340,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -355,14 +364,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Beam_Rifle.Overcharge
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 5
   summon: ''
   stacking: 1
@@ -375,8 +384,8 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

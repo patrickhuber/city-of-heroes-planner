@@ -7,18 +7,19 @@ display: Incinerator
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1499999761581421
+accuracy: 1.14999998
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 11.859999656677246
+endurance_cost: 11.8599997
 cast_time: 2
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Extreme DoT(Fire)
 description_long: 'Sprays a target with accelerant from your flamethrower, igniting it and causing extreme damage over time. Damage: Extreme(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 44
@@ -45,7 +52,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Assault_Rifle.Incinerator
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -56,19 +63,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2070000022649765
+  scale: 0.207000002
   magnitude: 1
   duration: 2.5
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Assault_Rifle.Incinerator
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -79,13 +86,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.11299999803304672
+  scale: 0.112999998
   magnitude: 1
   duration: 2.5
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

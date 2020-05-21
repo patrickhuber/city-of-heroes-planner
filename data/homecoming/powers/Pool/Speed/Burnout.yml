@@ -7,14 +7,14 @@ display: Burnout
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Speed.Flurry
     - Pool.Speed.Hasten
   - - Pool.Speed.Flurry
     - Pool.Speed.Super_Speed
   - - Pool.Speed.Hasten
     - Pool.Speed.Super_Speed
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ target_line_of_sight: true
 endurance_cost: 48.75
 cast_time: 1
 recharge_time: 1800
+base_recharge_time: 1800
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,8 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self +Recharge
 description_long: 'Burnout allows you to instantly recharge all of your Primary and Secondary powers.  Burnout is very expensive in terms of endurance, and reduces your maximum endurance slightly for 60 seconds after use.   You must be at least level 14 and have two other Speed Powers before selecting Burnout   Recharge: Extremely Long'
+enhancements:
+- 18
 set_types: []
 click_buff: true
 level: 14
@@ -43,7 +46,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 59
   summon: ''
   stacking: 1
@@ -53,14 +56,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Tanker_Defense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 59
   summon: ''
   stacking: 1
@@ -70,14 +73,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Tanker_Melee
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 59
   summon: ''
   stacking: 1
@@ -87,14 +90,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Scrapper_Melee
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 59
   summon: ''
   stacking: 1
@@ -104,14 +107,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Scrapper_Defense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 59
   summon: ''
   stacking: 1
@@ -121,14 +124,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Blaster_Ranged
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 59
   summon: ''
   stacking: 1
@@ -138,14 +141,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Blaster_Support
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 59
   summon: ''
   stacking: 1
@@ -155,14 +158,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Defender_Buff
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 59
   summon: ''
   stacking: 1
@@ -172,14 +175,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Defender_Ranged
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 59
   summon: ''
   stacking: 1
@@ -189,14 +192,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Controller_Control
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 59
   summon: ''
   stacking: 1
@@ -206,14 +209,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Controller_Buff
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 59
   summon: ''
   stacking: 1
@@ -223,14 +226,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Brute_Melee
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 59
   summon: ''
   stacking: 1
@@ -240,14 +243,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Brute_Defense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 59
   summon: ''
   stacking: 1
@@ -257,14 +260,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Stalker_Defense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 59
   summon: ''
   stacking: 1
@@ -274,14 +277,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Stalker_Melee
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 59
   summon: ''
   stacking: 1
@@ -291,14 +294,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Corruptor_Ranged
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 59
   summon: ''
   stacking: 1
@@ -308,14 +311,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Corruptor_Buff
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 59
   summon: ''
   stacking: 1
@@ -325,14 +328,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Dominator_Control
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 59
   summon: ''
   stacking: 1
@@ -342,14 +345,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Dominator_Assault
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 59
   summon: ''
   stacking: 1
@@ -359,14 +362,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Mastermind_Summon
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 59
   summon: ''
   stacking: 1
@@ -376,14 +379,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Mastermind_Buff
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 59
   summon: ''
   stacking: 1
@@ -393,14 +396,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Sentinel_Ranged
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 59
   summon: ''
   stacking: 1
@@ -410,14 +413,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Sentinel_Defense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 59
   summon: ''
   stacking: 1
@@ -427,14 +430,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Peacebringer_Offensive
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 59
   summon: ''
   stacking: 1
@@ -444,14 +447,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Peacebringer_Defensive
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 59
   summon: ''
   stacking: 1
@@ -461,14 +464,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Warshade_Offensive
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 59
   summon: ''
   stacking: 1
@@ -478,14 +481,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Warshade_Defensive
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 59
   summon: ''
   stacking: 1
@@ -495,14 +498,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Widow_Training
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 59
   summon: ''
   stacking: 1
@@ -512,14 +515,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Teamwork
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 59
   summon: ''
   stacking: 1
@@ -529,14 +532,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Arachnos_Soldiers
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 59
   summon: ''
   stacking: 1
@@ -546,14 +549,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Training_Gadgets
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 59
   summon: ''
   stacking: 1
@@ -563,14 +566,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Devoured_Offensive
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 59
   summon: ''
   stacking: 1
@@ -580,14 +583,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Devoured_Defensive
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 33
+  unique_id: 33
   effect_type: 59
   summon: ''
   stacking: 1
@@ -597,14 +600,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: HAC_Offense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 34
+  unique_id: 34
   effect_type: 59
   summon: ''
   stacking: 1
@@ -614,14 +617,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: HAC_Defense
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 35
+  unique_id: 35
   effect_type: 59
   summon: ''
   stacking: 1
@@ -631,14 +634,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Titan_Weapons
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 36
+  unique_id: 36
   effect_type: 59
   summon: ''
   stacking: 1
@@ -648,14 +651,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Titan_Weapons_Tanker
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 37
+  unique_id: 37
   effect_type: 59
   summon: ''
   stacking: 1
@@ -665,14 +668,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Titan_Weapons_Brute
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 38
+  unique_id: 38
   effect_type: 59
   summon: ''
   stacking: 1
@@ -682,14 +685,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Water_Blast_Defender
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 39
+  unique_id: 39
   effect_type: 59
   summon: ''
   stacking: 1
@@ -699,14 +702,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Water_Blast_Blaster
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 40
+  unique_id: 40
   effect_type: 59
   summon: ''
   stacking: 1
@@ -716,14 +719,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Water_Blast_Corruptor
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 41
+  unique_id: 41
   effect_type: 59
   summon: ''
   stacking: 1
@@ -733,14 +736,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Nature_Affinity_Defender
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 42
+  unique_id: 42
   effect_type: 59
   summon: ''
   stacking: 1
@@ -750,14 +753,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Nature_Affinity_Mastermind
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 43
+  unique_id: 43
   effect_type: 59
   summon: ''
   stacking: 1
@@ -767,14 +770,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Nature_Affinity_Corruptor
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 44
+  unique_id: 44
   effect_type: 59
   summon: ''
   stacking: 1
@@ -784,14 +787,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Nature_Affinity_Controller
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Speed.Burnout
-  unique_i_d: 45
+  unique_id: 45
   effect_type: 7
   summon: ''
   stacking: 1
@@ -802,8 +805,8 @@ effects:
   duration: 60
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

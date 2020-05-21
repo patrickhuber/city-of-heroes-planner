@@ -7,8 +7,8 @@ display: Charge
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -18,6 +18,7 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 40
 effect_area: 2
 radius: 15
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Charged
 description_long: You still carry a charge leftover from the Synaptic Overload.  You may accidentally release this charge and zap a nearby ally.
+enhancements:
+- 1
+- 3
+- 4
+- 8
+- 17
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -45,7 +53,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Chain_Confuse_Controller_Jump3.Charge
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -60,14 +68,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pets.Chain_Confuse_Controller_Jump3.Charge
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -83,19 +91,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pets.Chain_Confuse_Controller_Jump3.Charge
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 1
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -105,14 +113,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Pets.Chain_Confuse_Controller_Jump3.Charge
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 34
   summon: ''
   ticks: 3
@@ -123,14 +131,14 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Chain_Confuse_Controller_Jump3.Charge
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 77
   summon: ''
   stacking: 1
@@ -141,8 +149,8 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

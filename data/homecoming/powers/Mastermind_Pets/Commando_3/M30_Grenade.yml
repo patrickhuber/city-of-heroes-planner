@@ -7,19 +7,20 @@ display: M30 Grenade
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 28
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 15.184000015258789
-cast_time: 1.8700000047683716
+endurance_cost: 15.184
+cast_time: 1.87
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -32,6 +33,11 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Ranged (Targeted AoE), Moderate DMG(Lethal/Smash), Knockback
 description_long: 'Launches a Grenade at long range from beneath the barrel of your Assault Rifle. This explosion affects all within the blast radius, and can knock them back. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
 set_types: []
 level: 1
 variable_name: ''
@@ -44,7 +50,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Commando_3.M30_Grenade
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -53,18 +59,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Commando_3.M30_Grenade
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -73,18 +79,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Commando_3.M30_Grenade
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -98,14 +104,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Commando_3.M30_Grenade
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -120,9 +126,51 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.075000003
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 2
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.150000006
+  magnitude: 1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

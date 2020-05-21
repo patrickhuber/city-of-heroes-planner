@@ -7,8 +7,8 @@ display: Frenzy
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 145
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 18.511999130249023
+endurance_cost: 18.5119991
 cast_time: 2.5
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 8
 max_targets: 10
@@ -32,6 +33,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee PBAoE, Heavy DMG (Lethal/Energy), Foe -DEF
 description_long: 'You can energize and lash out with your arms, causing both lethal and energy damage to all foes surrounding you.  This attack also weakens the Defense of those struck.  Damage: Heavy Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 4
 - 21
@@ -48,7 +55,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Frenzy
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -58,18 +65,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.79000002145767212
+  scale: 0.790000021
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Frenzy
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -79,18 +86,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.79000002145767212
+  scale: 0.790000021
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Frenzy
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -100,18 +107,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.85499000549316406
+  scale: 0.854990005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Frenzy
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -121,18 +128,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.85499000549316406
+  scale: 0.854990005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Frenzy
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   summon: ''
   stacking: 1
@@ -146,8 +153,8 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

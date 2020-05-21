@@ -7,8 +7,8 @@ display: 'Superior Might of the Tanker: Recharge/Chance for +Res(All)'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -29,6 +29,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: Increases Attack Rate, Chance for +Res(All)
 description_long: UNIQUE -- No more than 1 enhancement of this type may be slotted by a character.  Gives the Tanker a chance of increasing their resistance by a moderate amount for 20 seconds, this effect stacks up to 3 times, and reduces recharge time by {Boost.Attrib.Recharge.Scale}%.  This effect will trigger roughly 6 times per minute.  This enhancement can only be slotted by Tankers and may be slotted into any Tanker damage power.
+enhancements:
+- 4
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +43,7 @@ sort_override: true
 boost_use_player_level: true
 effects:
 - power_full_name: Boosts.Superior_Attuned_Superior_Might_of_the_Tanker_F.Superior_Attuned_Superior_Might_of_the_Tanker_F
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Set_Bonus.Set_Bonus.Superior_Might_of_the_Tanker_Proc
   ticks: 1
@@ -53,27 +55,27 @@ effects:
   aspect: 2
   modifier_table: Melee_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Set_Bonus.Set_Bonus.Superior_Might_of_the_Tanker_Proc
   effect_id: Boost
   override: ''
   procs_per_minute: 6
 - power_full_name: Boosts.Superior_Attuned_Superior_Might_of_the_Tanker_F.Superior_Attuned_Superior_Might_of_the_Tanker_F
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.54689997434616089
+  scale: 0.546899974
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Recharge

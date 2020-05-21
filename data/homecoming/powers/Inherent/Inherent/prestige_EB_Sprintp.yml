@@ -7,8 +7,8 @@ display: Prestige Power Quick
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1613826
 power_type: 2
 accuracy: 1
@@ -19,7 +19,7 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.14624999463558197
+endurance_cost: 0.146249995
 activate_period: 0.5
 effect_area: 1
 max_boosts: 6
@@ -30,6 +30,10 @@ boosts_allowed:
 - SpeedRunning_Boost
 description_short: Boost Run SPD
 description_long: Sprint allows you to travel, or run away, slightly faster than normal, while slightly draining your Endurance.
+enhancements:
+- 8
+- 15
+- 20
 set_types:
 - 18
 - 19
@@ -38,13 +42,13 @@ variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 23
+display_location: 10
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.prestige_EB_Sprintp
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -53,17 +57,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 0.80000001192092896
+  duration: 0.800000012
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.prestige_EB_Sprintp
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -74,27 +78,27 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.prestige_EB_Sprintp
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 16
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

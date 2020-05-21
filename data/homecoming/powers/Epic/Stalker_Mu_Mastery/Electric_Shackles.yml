@@ -7,12 +7,12 @@ display: Electric Shackles
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Stalker_Mu_Mastery.Mu_Bolts
     - ''
   - - Epic.Stalker_Mu_Mastery.Zapp
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 130
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 8.5799999237060547
-cast_time: 2.1700000762939453
+endurance_cost: 8.57999992
+cast_time: 2.17000008
 recharge_time: 32
+base_recharge_time: 32
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -37,6 +38,14 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged, Minor DMG(Energy), Foe Hold, -End
 description_long: 'Electric Shackles binds a foes limbs, leaving the target held and helpless. The target is drained of some Endurance and some of that Endurance may be transferred back to you. You must be level 41 and have Mu Bolts or Zapp before selecting this power.  Note that you cannot get Critical strikes using this power, though it still enables your other attacks to Critical. Damage: Minor, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 17
+- 18
+- 7
 set_types:
 - 2
 - 10
@@ -51,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -66,14 +75,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -89,14 +98,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -107,19 +116,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.46358001232147217
+  scale: 0.463580012
   magnitude: 1
-  duration: 6.3000001907348633
+  duration: 6.30000019
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -130,19 +139,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
-  duration: 6.3000001907348633
+  duration: 6.30000019
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   stacking: 1
@@ -151,18 +160,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.070000000298023224
+  scale: -0.0700000003
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   stacking: 1
@@ -175,14 +184,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 26
   summon: ''
   stacking: 1
@@ -195,26 +204,26 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Stalker_Mu_Mastery.Electric_Shackles
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 7
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   to_who: 2
-  scale: 4.2899999618530273
+  scale: 4.28999996
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

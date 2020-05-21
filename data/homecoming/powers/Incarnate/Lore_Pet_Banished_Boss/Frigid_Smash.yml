@@ -7,8 +7,8 @@ display: Frigid Slam
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 289
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 5
-cast_time: 4.8299999237060547
+cast_time: 4.82999992
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -28,6 +29,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: PBAoE, Moderate DMG (Cold), Minor DoT(Negative Energy), -RES(Foe, Cold & Negative Energy), Chance for +EndCost(Foe), Knockback(Foe), Chance for +EndCost(Foe)
 description_long: You slam the ground with both of your fists, unleashing a small shockwave of death energy around you. This causes cold damage and negative energy damage over time on all opponents around you. Additionally, the affected targets will suffer reduced resistance to cold and negative energy attacks. Finally, the longer you remain in combat, the more likely you will sap the target's soul, causing them to suffer increased endurance cost for all powers.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +45,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Banished_Boss.Frigid_Smash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -53,14 +58,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Boss.Frigid_Smash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -73,22 +78,22 @@ effects:
   to_who: 1
   scale: 0.5
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Boss.Frigid_Smash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
@@ -96,14 +101,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Boss.Frigid_Smash
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -115,14 +120,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Boss.Frigid_Smash
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -134,8 +139,8 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

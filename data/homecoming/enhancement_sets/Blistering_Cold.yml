@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7788
+  - id: 7665
     name: Set_Bonus.PVP_Set_Bonus.Slow_Resist_3
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 7463
+  - id: 7340
     name: Set_Bonus.PVP_Set_Bonus.Improved_Recovery_3
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 7409
+  - id: 7286
     name: Set_Bonus.PVP_Set_Bonus.Fire_Cold_Mez_Res_5
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7623
+  - id: 7500
     name: Set_Bonus.PVP_Set_Bonus.Increased_Lethal_Smash_Melee_Def_2
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 7570
+  - id: 7447
     name: Set_Bonus.PVP_Set_Bonus.Increased_Fire_Cold_AoE_Def_5
 special_bonuses:
 - special: -1

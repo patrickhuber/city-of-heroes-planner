@@ -7,8 +7,8 @@ display: Power Push
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 138
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 8.5299997329711914
-cast_time: 1.1000000238418579
+endurance_cost: 8.52999973
+cast_time: 1.10000002
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Minor DMG(Energy/Smash), Foe High Knockback
 description_long: 'This ranged attack deals little damage, but sends the target flying for a great distance. Damage: Minor, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 2
 - 23
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Energy_Blast.Power_Push
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -56,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.32800000905990601
+  scale: 0.328000009
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Energy_Blast.Power_Push
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -77,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.312000036239624
+  scale: 1.31200004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Energy_Blast.Power_Push
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -98,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.38699999451637268
+  scale: 0.386999995
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Energy_Blast.Power_Push
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -119,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5499999523162842
+  scale: 1.54999995
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Energy_Blast.Power_Push
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -145,14 +153,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Sentinel_Ranged.Energy_Blast.Power_Push
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -167,8 +175,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

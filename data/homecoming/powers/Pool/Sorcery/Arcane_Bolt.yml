@@ -7,8 +7,8 @@ display: Arcane Bolt
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 7.6960000991821289
-cast_time: 2.0699999332427979
+endurance_cost: 7.6960001
+cast_time: 2.06999993
 recharge_time: 7
+base_recharge_time: 7
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DMG(Energy), Foe Knockdown
 description_long: 'You channel arcane energies into a concentrated blast and release them upon your target dealing Moderate energy damage and possibly knocking them down. Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 2
 - 23
@@ -45,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -55,18 +63,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4800000190734863
+  scale: 1.48000002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -76,18 +84,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -98,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -119,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.6995499134063721
+  scale: 2.69954991
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -140,18 +148,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.4432299137115479
+  scale: 2.44322991
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -161,17 +169,17 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.6177399158477783
+  scale: 2.61773992
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Blaster
+  uid_class_name: Class_Blaster
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -181,18 +189,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.3225200176239014
+  scale: 3.32252002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Defender
-  i_d_class_name: 2
+  uid_class_name: Class_Defender
+  id_class_name: 2
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -202,18 +210,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.5696499347686768
+  scale: 3.56964993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -223,18 +231,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.8795199394226074
+  scale: 2.87951994
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Brute
-  i_d_class_name: 8
+  uid_class_name: Class_Brute
+  id_class_name: 8
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -244,18 +252,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.1596400737762451
+  scale: 2.15964007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -265,18 +273,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.8795199394226074
+  scale: 2.87951994
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Corruptor
-  i_d_class_name: 9
+  uid_class_name: Class_Corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -286,18 +294,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.980600118637085
+  scale: 2.98060012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -307,18 +315,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.2126801013946533
+  scale: 3.2126801
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Mastermind
-  i_d_class_name: 11
+  uid_class_name: Class_Mastermind
+  id_class_name: 11
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -328,18 +336,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.5548000335693359
+  scale: 2.55480003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Peacebringer
-  i_d_class_name: 5
+  uid_class_name: Class_Peacebringer
+  id_class_name: 5
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -349,62 +357,62 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.1596400737762451
+  scale: 2.15964007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Arachnos_Soldier
-  i_d_class_name: 13
+  uid_class_name: Class_Arachnos_Soldier
+  id_class_name: 13
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4800000190734863
+  scale: 1.48000002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4800000190734863
+  scale: 1.48000002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -415,18 +423,18 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4800000190734863
+  scale: 1.48000002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -437,18 +445,18 @@ effects:
   special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4800000190734863
+  scale: 1.48000002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Corruptor
-  i_d_class_name: 9
+  uid_class_name: Class_Corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -459,40 +467,40 @@ effects:
   special_case: 10
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4800000190734863
+  scale: 1.48000002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 2.4432299137115479
+  scale: 2.44322991
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -503,40 +511,40 @@ effects:
   special_case: 10
   player_versus_mode: 2
   to_who: 1
-  scale: 3.5696499347686768
+  scale: 3.56964993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 2.1596400737762451
+  scale: 2.15964007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -547,18 +555,18 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 2.1596400737762451
+  scale: 2.15964007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -569,18 +577,18 @@ effects:
   special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 2.8795199394226074
+  scale: 2.87951994
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: Class_Corruptor
-  i_d_class_name: 9
+  uid_class_name: Class_Corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -596,14 +604,14 @@ effects:
   aspect: 2
   modifier_table: Ranged_InherentTaunt
   requires_to_hit_check: true
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Pool.Sorcery.Arcane_Bolt
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -618,8 +626,8 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Ranged_InherentTaunt
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt

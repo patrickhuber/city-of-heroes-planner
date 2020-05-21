@@ -7,8 +7,8 @@ display: Maiming Slash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 6.0320000648498535
-cast_time: 1.1699999570846558
+endurance_cost: 6.03200006
+cast_time: 1.16999996
 recharge_time: 5
+base_recharge_time: 5
 effect_area: 2
 radius: 5
 max_targets: 5
@@ -34,6 +35,13 @@ boosts_allowed:
 - Taunt_Boost
 description_short: Melee, Moderate DMG(Lethal), Minor DoT(Lethal), Foe -Speed, +1 Blood Frenzy
 description_long: "You execute a savage slash at your foe's lower body causing moderate lethal damage and minor damage over time. The foe will also have their movement speed reduced moderately. Maiming Slash grants 1 stack of Blood Frenzy. Damage: Moderate, Minor DoT, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 22
+- 24
 set_types:
 - 1
 - 13
@@ -51,7 +59,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -61,43 +69,43 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.1599999666213989
+  scale: 1.15999997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
   delayed_time: 1
   ticks: 4
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.20900000631809235
+  scale: 0.209000006
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -107,43 +115,43 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.799280047416687
+  scale: 1.79928005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
   delayed_time: 1
   ticks: 4
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.14394000172615051
+  scale: 0.143940002
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
   stacking: 1
@@ -153,71 +161,71 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
   effect_id: Ones
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 32
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   effect_modifiers: 16
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 17
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -234,14 +242,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -257,19 +265,19 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 11
   summon: ''
   stacking: 1
-  base_probability: 0.11599999666213989
+  base_probability: 0.115999997
   buffable: true
   resistible: true
   player_versus_mode: 2
@@ -279,14 +287,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -294,18 +302,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.5220000147819519
+  scale: 0.522000015
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Tanker_Melee.Savage_Melee.Maiming_Slash
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -315,13 +323,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.041760001331567764
+  scale: 0.0417600013
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

@@ -7,8 +7,8 @@ display: Ice Bolt
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 42
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.1999998092651367
+endurance_cost: 5.19999981
 cast_time: 1
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged, Minor DMG(Cold/Smash), Foe -Recharge, -SPD
 description_long: "Ice Bolt quickly pelts an enemy with small icy daggers; their chill Slows a foe's attacks and movement for a time. Fast, but little damage. Damage: Minor, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 2
 - 13
@@ -47,7 +55,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -57,18 +65,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -78,18 +86,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -99,18 +107,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.34084001183509827
+  scale: 0.340840012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -120,62 +128,58 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.3633400201797485
+  scale: 1.36334002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 4
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 4
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7041800022125244
+  scale: 1.70418
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 32
   summon: ''
   stacking: 1
@@ -183,19 +187,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 11
   summon: ''
   stacking: 1
@@ -203,19 +207,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -223,19 +227,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 17
   summon: ''
   stacking: 1
@@ -243,19 +247,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Ice_Blast.Ice_Bolt
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -263,13 +267,13 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

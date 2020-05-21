@@ -7,18 +7,19 @@ display: Mighty Judgement
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
-accuracy: 1.2999999523162842
+accuracy: 1.29999995
 attack_types: 12
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 20
-cast_time: 2.9300000667572021
+cast_time: 2.93000007
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 30
 max_targets: 16
@@ -34,6 +35,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: PBAoE Extreme DMG(Smashing)
 description_long: 'PBAoE Extreme DMG(Smashing). Recharge: Very Long.'
+enhancements:
+- 1
+- 4
+- 8
+- 17
 set_types: []
 variable_name: ''
 sub_powers: []
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Judgement.Mighty_Judgement
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -57,8 +63,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

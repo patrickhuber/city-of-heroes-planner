@@ -7,8 +7,8 @@ display: Placate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-cast_time: 1.4299999475479126
+cast_time: 1.42999995
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: ''
 artifical_intelligence_report: 1
@@ -28,6 +29,9 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Foe Placate, Self Stealth/Hide
 description_long: 'Allows you to trick a foe to no longer attack you.  A successful Placate will also Hide you.  This Hide is very brief, and offers no Defense bonus, but it will allow you to deliver a Critical Hit or Assassination. However, if you attack a Placated Foe, he will be able to attack you back. This power is the finishing move in the Empower combination attack. Recharge: Long'
+enhancements:
+- 17
+- 18
 set_types: []
 level: 12
 variable_name: ''
@@ -38,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -53,14 +57,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -75,14 +79,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 36
   summon: ''
   delayed_time: 0.25
@@ -95,14 +99,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 37
   summon: ''
   delayed_time: 0.25
@@ -115,14 +119,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 18
   summon: ''
   delayed_time: 0.25
@@ -134,36 +138,36 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 41
   summon: ''
   delayed_time: 0.25
   base_probability: 1
   suppression: 1344
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 40
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   buffable: true
@@ -174,18 +178,18 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 1
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -195,18 +199,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 2
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -216,18 +220,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 3
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -237,18 +241,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 4
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -258,18 +262,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 5
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -279,18 +283,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 6
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -300,18 +304,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 7
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -321,18 +325,18 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 8
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   special_case: 13
@@ -342,14 +346,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 47
   summon: ''
   stacking: 1
@@ -359,14 +363,14 @@ effects:
   magnitude: 42
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 47
   summon: ''
   delayed_time: 0.25
@@ -377,14 +381,14 @@ effects:
   magnitude: 43
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 47
   summon: ''
   stacking: 1
@@ -394,14 +398,14 @@ effects:
   magnitude: 44
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 47
   summon: ''
   stacking: 1
@@ -411,14 +415,14 @@ effects:
   magnitude: 45
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 47
   summon: ''
   stacking: 1
@@ -428,14 +432,14 @@ effects:
   magnitude: 46
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 47
   summon: ''
   stacking: 1
@@ -445,14 +449,14 @@ effects:
   magnitude: 47
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 47
   summon: ''
   stacking: 1
@@ -462,14 +466,14 @@ effects:
   magnitude: 48
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Dual_Blades.Placate
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 47
   summon: ''
   stacking: 1
@@ -479,8 +483,8 @@ effects:
   magnitude: 49
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

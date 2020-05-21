@@ -7,19 +7,20 @@ display: Zapping Bolt
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 130
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 10.189999580383301
+endurance_cost: 10.1899996
 cast_time: 1
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Very High DMG(Energy), Foe -End
 description_long: 'A focused electrical blast that can be fired off at a quick speed with high Accuracy. Zapping Bolt drains Endurance. Damage: Very High, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 7
 set_types:
 - 2
 - 22
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Zapping_Bolt
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -56,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Zapping_Bolt
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   stacking: 1
@@ -76,18 +84,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.15000000596046448
+  scale: -0.150000006
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Zapping_Bolt
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -97,18 +105,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.6640000343322754
+  scale: 1.66400003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Zapping_Bolt
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -121,14 +129,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Zapping_Bolt
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 26
   summon: ''
   stacking: 1
@@ -141,26 +149,26 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Zapping_Bolt
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   to_who: 2
-  scale: 7.1999998092651367
+  scale: 7.19999981
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

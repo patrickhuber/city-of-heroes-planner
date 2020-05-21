@@ -7,20 +7,21 @@ display: Assassins Blade Stealth
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 17
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 14.35200023651123
+endurance_cost: 14.3520002
 interrupt_time: 2
-cast_time: 3.6700000762939453
+cast_time: 3.67000008
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: 6
 artifical_intelligence_report: 3
@@ -32,6 +33,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Special DMG(Lethal)
 description_long: "A signature Stalker attack.  This attack does superior lethal damage on its own as a frontal attack and cannot be interrupted.  However, if it is executed while you are Hidden, this attack will do tremendous damage, as you impale your unsuspecting foe. This attack may be interrupted if you move or are attacked while executing this power and are hidden.  Using this power while not hidden has a chance to critically hit equal to 33.3% times the number of stacks of Assassin's Focus. Using Assassin's Strike when not hidden will remove all stacks of Assassin's Focus regardless if you critically hit or not.  Damage: Special, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 42
@@ -47,7 +53,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -60,14 +66,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -82,14 +88,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -104,14 +110,14 @@ effects:
   attrib_type: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -125,14 +131,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Demoralized
   base_probability: 1
@@ -143,14 +149,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Demoralized
   effect_id: Ones
   override: ''
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 9
   effect_modifiers: 36
   summon: ''
@@ -161,14 +167,14 @@ effects:
   duration: 8
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Villain_Pets.Ninja_Blade_Assassins_Strike.Assassins_Blade_Stealth
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   effect_modifiers: 37
   summon: ''
@@ -179,8 +185,8 @@ effects:
   duration: 8
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

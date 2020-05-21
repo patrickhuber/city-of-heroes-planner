@@ -7,8 +7,8 @@ display: Focused Shot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 18
 group_memberships: []
@@ -18,6 +18,7 @@ target_line_of_sight: true
 range: 80
 cast_time: 1
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -28,6 +29,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Ranged, Minor DMG(Lethal), Minor DoT (Toxic)
 description_long: You quickly fire a round from one of your pistols. The ammunition used contains a special toxin which causes additional toxic damage to the target, but the levels are insufficient to weaken their body.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +45,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Knives_Boss.Focused_Shot
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -53,14 +58,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Boss.Focused_Shot
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -71,13 +76,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

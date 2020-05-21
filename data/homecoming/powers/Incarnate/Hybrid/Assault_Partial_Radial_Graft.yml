@@ -7,8 +7,8 @@ display: Assault Partial Radial Graft
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 2
 accuracy: 1
@@ -18,6 +18,7 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 recharge_time: 120
+base_recharge_time: 120
 activate_period: 10
 effect_area: 1
 max_boosts: 0
@@ -28,6 +29,8 @@ cast_through_hold: true
 ignore_strength: true
 description_short: 'Toggle: Chance for +DMG(All), Chance for Doublehit'
 description_long: While active, this power gives all of your damaging powers a 30% chance to boost your damage for a short period of time.  This boost can stack up to 3 times.  This power gives also gives all of your damaging powers a moderate chance to strike again for a moderate portion of their damage in Smashing damage.  Equipping this Hybrid power grants a passive boost to Damage at all times.
+enhancements:
+- 8
 set_types: []
 level: 1
 variable_enabled: true
@@ -41,7 +44,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Assault_Partial_Radial_Graft
   delayed_time: 0.5
@@ -52,14 +55,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Assault_Partial_Radial_Graft
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 30
   summon: ''
   stacking: 1
@@ -69,14 +72,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Assault_Partial_Radial_Graft
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Doublehit_Partial_Radial
   delayed_time: 0.5
@@ -87,14 +90,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Doublehit_Partial_Radial
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 30
   summon: ''
   stacking: 1
@@ -104,14 +107,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Doublehit_Partial_Radial
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Lockout
   base_probability: 1
@@ -120,14 +123,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Lockout
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Assault_Boost_Rare
   delayed_time: 0.5
@@ -138,14 +141,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Assault_Boost_Rare
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Assault_Partial_Radial_Graft
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 30
   summon: ''
   stacking: 1
@@ -155,8 +158,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Assault_Boost_Rare
   effect_id: Ones

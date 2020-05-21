@@ -11,8 +11,8 @@ effect_chance: 1
 level_min: 20
 level_max: 52
 effects:
-- i_d: 12
-  sub_i_d: 11
+- id: 12
+  sub_id: 11
   multiplier: 1
 unique_identifier: Crafted_Perfect_Zinger_A
 recipe: Perfect_Zinger_A

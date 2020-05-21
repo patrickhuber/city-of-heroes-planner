@@ -7,8 +7,8 @@ display: Clarion Core Epiphany
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
 endurance_cost: 20
-cast_time: 1.9700000286102295
+cast_time: 1.97000003
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 2
 radius: 60
 max_targets: 255
@@ -30,6 +31,7 @@ cast_through_hold: true
 ignore_strength: true
 description_short: Wide PBAoE Ally Status Effect Protection
 description_long: "Wide PBAoE Ally Status Effect Protection. Recharge: Very Long. The continuing buffs from this power will gradually lose effectiveness over time before they expire completely after 120 seconds, but more of the power's strength will last the full duration.<br><br>This power also applies an Incarnate Shift. (An Incarnate Shift is a Level Shift which only activates while participating in an Incarnate Trial.)"
+enhancements: []
 set_types: []
 click_buff: true
 level: 1
@@ -42,7 +44,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -55,14 +57,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -75,14 +77,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -95,14 +97,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -115,14 +117,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -134,14 +136,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -153,32 +155,32 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 20
   mezmorize_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -191,14 +193,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -211,158 +213,158 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 20
   mezmorize_type: 11
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.34999999403953552
+  scale: 0.349999994
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 20
   mezmorize_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.34999999403953552
+  scale: 0.349999994
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 20
   mezmorize_type: 9
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 20
   mezmorize_type: 2
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 20
   mezmorize_type: 10
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 20
   mezmorize_type: 3
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 20
   mezmorize_type: 12
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 20
   mezmorize_type: 1
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   duration: 30
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -375,14 +377,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -395,14 +397,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -415,14 +417,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -435,14 +437,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -454,14 +456,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -473,32 +475,32 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 20
   mezmorize_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -511,14 +513,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -531,158 +533,158 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 20
   mezmorize_type: 11
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 20
   mezmorize_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 20
   mezmorize_type: 9
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 20
   mezmorize_type: 2
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 20
   mezmorize_type: 10
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 20
   mezmorize_type: 3
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 33
+  unique_id: 33
   effect_type: 20
   mezmorize_type: 12
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 34
+  unique_id: 34
   effect_type: 20
   mezmorize_type: 1
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 35
+  unique_id: 35
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -695,14 +697,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 36
+  unique_id: 36
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -715,14 +717,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 37
+  unique_id: 37
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -735,14 +737,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 38
+  unique_id: 38
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -755,14 +757,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 39
+  unique_id: 39
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -774,14 +776,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 40
+  unique_id: 40
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -793,32 +795,32 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 41
+  unique_id: 41
   effect_type: 20
   mezmorize_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 42
+  unique_id: 42
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -831,14 +833,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 43
+  unique_id: 43
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -851,158 +853,158 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 44
+  unique_id: 44
   effect_type: 20
   mezmorize_type: 11
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 45
+  unique_id: 45
   effect_type: 20
   mezmorize_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 46
+  unique_id: 46
   effect_type: 20
   mezmorize_type: 9
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 47
+  unique_id: 47
   effect_type: 20
   mezmorize_type: 2
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 48
+  unique_id: 48
   effect_type: 20
   mezmorize_type: 10
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 49
+  unique_id: 49
   effect_type: 20
   mezmorize_type: 3
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 50
+  unique_id: 50
   effect_type: 20
   mezmorize_type: 12
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 51
+  unique_id: 51
   effect_type: 20
   mezmorize_type: 1
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 120
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 52
+  unique_id: 52
   effect_type: 12
   summon: Incarnate.Destiny_Silent.Level_Shift
   stacking: 1
@@ -1012,14 +1014,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Destiny_Silent.Level_Shift
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Clarion_Core_Epiphany
-  unique_i_d: 53
+  unique_id: 53
   effect_type: 30
   summon: ''
   stacking: 1
@@ -1029,8 +1031,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Destiny_Silent.Level_Shift
   effect_id: Ones

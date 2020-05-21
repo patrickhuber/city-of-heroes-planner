@@ -7,8 +7,8 @@ display: Small Improved Flight Speed Bonus (PVP)
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -24,6 +24,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: +SpeedFlying
 description_long: Improves your Flight Speed by 3%. (PVP)
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -34,18 +35,18 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Set_Bonus.PVP_Set_Bonus.Improved_SpeedFlying_2
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 11
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.029999999329447746
+  scale: 0.0299999993
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

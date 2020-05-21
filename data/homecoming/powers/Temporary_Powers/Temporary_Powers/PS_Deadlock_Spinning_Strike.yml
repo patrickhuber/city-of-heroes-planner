@@ -7,8 +7,8 @@ display: Spinning Strike
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 9
 group_memberships: []
@@ -17,8 +17,9 @@ target: 2048
 target_line_of_sight: true
 range: 7
 endurance_cost: 5
-cast_time: 1.7999999523162842
+cast_time: 1.79999995
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 6
 max_targets: 10
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Melee (Targeted AoE), Heavy DMG (Smash), Foe Knockdown, Finisher
 description_long: 'You execute a spinning attack that first strikes with your fist and finally your heel hitting your foe and all enemies immediately nearby.  Spinning Strike deals Heavy Smashing damage and has a high chance to knockdown foes. Spinning Strike is a Finisher and sets your Combo Level to 0.  It will deal additional damage and will have a greater chance to knockdown dependent upon the current Combo Level.  At Combo Level 3, Spinning Strike also has a moderate chance to briefly inflict Terrorize in nearby foes.  Damage: High, Recharge: Slow'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Spinning_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -48,89 +50,89 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.899999976
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Spinning_Strike
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 1
   summon: ''
-  delayed_time: 0.40000000596046448
+  delayed_time: 0.400000006
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.899999976
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Spinning_Strike
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
-  delayed_time: 0.40000000596046448
+  delayed_time: 0.400000006
   stacking: 1
   base_probability: 0.5
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Spinning_Strike
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
-  delayed_time: 0.40000000596046448
+  delayed_time: 0.400000006
   stacking: 1
   base_probability: 0.5
   suppression: 32
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Spinning_Strike
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 12
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -140,19 +142,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Spinning_Strike
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 12
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   suppression: 16
   resistible: true
   player_versus_mode: 2
@@ -162,8 +164,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

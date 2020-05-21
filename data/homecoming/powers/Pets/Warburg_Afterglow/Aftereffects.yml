@@ -7,8 +7,8 @@ display: Aftereffects
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 attack_types: 68
@@ -16,7 +16,7 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-activate_period: 0.20000000298023224
+activate_period: 0.200000003
 effect_area: 2
 radius: 25
 max_targets: 255
@@ -25,6 +25,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Minor Energy DMG
 description_long: Residual radiation is bombarding you.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +37,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Warburg_Afterglow.Aftereffects
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -46,12 +47,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

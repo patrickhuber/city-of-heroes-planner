@@ -7,8 +7,8 @@ display: Regrowth
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
 range: 45
-endurance_cost: 13.520000457763672
+endurance_cost: 13.5200005
 cast_time: 2
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 45
 arc: 90
@@ -33,6 +34,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Facing Cone, Minor Ally Heal, Ally Moderate Healing Over Time, +1 Bloom
 description_long: 'By channeling the energies present in nature you are able to immediately heal yourself and allies in front of you for a small amount of health and cause them to recover a small amount of health over time. Regrowth places a stack of Bloom on its target.  NOTE: When used in a PvP zone Regrowth will apply a moderate regeneration effect instead of a heal over time.  Recharge: Moderate'
+enhancements:
+- 8
+- 11
+- 17
+- 18
 set_types:
 - 9
 level: 1
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Nature_Affinity.Regrowth
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   stacking: 1
@@ -56,14 +62,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Defender_Buff.Nature_Affinity.Regrowth
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 13
   summon: ''
   ticks: 5
@@ -73,19 +79,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 3
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Defender_Buff.Nature_Affinity.Regrowth
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -97,14 +103,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Defender_Buff.Nature_Affinity.Regrowth
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Bloom
   stacking: 1
@@ -114,8 +120,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Bloom
   effect_id: Ones

@@ -7,20 +7,21 @@ display: Proton Volley
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 130
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 150
-endurance_cost: 18.511999130249023
+endurance_cost: 18.5119991
 interrupt_time: 3
-cast_time: 4.3299999237060547
+cast_time: 4.32999992
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 8
 max_targets: 5
@@ -36,6 +37,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Sniper, Superior DMG(Energy), Foe -DEF
 description_long: "Hurls a volley of alpha particles over an extremely long range. Proton Volley can bypass some of a target's defenses and reduce the target's Defense. This is a sniper attack, and is best fired from a distance as it can be interrupted. If you have more than 97% To-Hit, this attack becomes instant-cast. Affected enemies have a small chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: Superior, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 2
+- 17
+- 18
 set_types:
 - 2
 - 5
@@ -51,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -60,21 +69,22 @@ effects:
   base_probability: 1
   buffable: true
   resistible: true
+  special_case: 57
   player_versus_mode: 1
   to_who: 1
-  scale: 0.88999998569488525
+  scale: 0.666999996
   magnitude: 1
-  duration: 1.6000000238418579
+  duration: 1.60000002
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -88,14 +98,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 53
   summon: ''
   stacking: 1
@@ -106,14 +116,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Quick
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 53
   summon: ''
   stacking: 1
@@ -123,14 +133,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Villain_Pets.Dominator_RadioactiveAssault_Snipe.Proton_Volley_Normal
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -141,35 +151,35 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
-  duration: 1.6000000238418579
+  duration: 1.60000002
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Contaminated
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 7
+  unique_id: 7
   summon: ''
   stacking: 1
   base_probability: 1
@@ -178,14 +188,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Radiation_Melee_Contamination_Hit
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -196,18 +206,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.18000000715255737
+  scale: 0.180000007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -218,13 +228,37 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.25999999046325684
+  scale: 0.25999999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination
+  override: ''
+- power_full_name: Dominator_Assault.Radioactive_Assault.Proton_Volley
+  unique_id: 1
+  effect_type: 3
+  damage_type: 5
+  summon: ''
+  ticks: 4
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 58
+  player_versus_mode: 1
+  to_who: 1
+  scale: 1.125
+  magnitude: 1
+  duration: 1.60000002
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

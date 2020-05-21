@@ -7,8 +7,8 @@ display: Coral Spray
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 20
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 60
 endurance_cost: 6.5
-cast_time: 1.7000000476837158
+cast_time: 1.70000005
 recharge_time: 32
+base_recharge_time: 32
 effect_area: 3
 radius: 60
 arc: 30
@@ -32,6 +33,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Ranged (Cone), Moderate DMG(Lethal)
 description_long: Pumicites can spray a cone of jagged gravel at foes, shredding them.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Coral_Guardian_Sentinel.Coral_Spray
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -52,12 +57,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.9100000262260437
+  scale: 0.910000026
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

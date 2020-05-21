@@ -7,8 +7,8 @@ display: Nictus Fragment
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 257
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 7
 endurance_cost: 19.5
-cast_time: 1.9299999475479126
+cast_time: 1.92999995
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: 0
 number_of_charges: 75
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Melee, Moderate DMG(Negative), Foe -Recharge, -SPD; Self +HP
 description_long: 'This Nictus Fragment allows you tap the primal forces of your Nictus power to create an Essence Draining conduit between a foe and yourself. This will transfer Hit Points from your enemy to yourself. Foes drained in this manner have their attack and movement speed reduced. The fragment will allow you to perform this attack about 75 times before becoming useless. Damage: Moderate, Recharge: Slow'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -38,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Nictus_Fragment
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -51,14 +53,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Nictus_Fragment
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 13
   summon: ''
   delayed_time: 0.5
@@ -71,14 +73,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Nictus_Fragment
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 32
   summon: ''
@@ -86,19 +88,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Nictus_Fragment
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 11
   summon: ''
@@ -106,19 +108,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Nictus_Fragment
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -126,13 +128,13 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

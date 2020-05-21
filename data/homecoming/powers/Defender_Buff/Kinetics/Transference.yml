@@ -7,19 +7,20 @@ display: Transference
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1000000238418579
+accuracy: 1.10000002
 attack_types: 2
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 2.5999999046325684
-cast_time: 2.2699999809265137
+endurance_cost: 2.5999999
+cast_time: 2.26999998
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged (Targeted AoE), Target -End, Team +Recovery, Special
 description_long: 'Transference drains an enemy of some of their Endurance and transfers that Endurance to all allies near the affected foe. You can use Transference to recover Endurance for yourself as well as your allies. Recharge: Slow'
+enhancements:
+- 1
+- 8
+- 17
+- 18
+- 7
 set_types:
 - 22
 level: 26
@@ -44,7 +51,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Kinetics.Transference
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Transference
   stacking: 1
@@ -55,14 +62,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Defender_Buff.Kinetics.Transference
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   stacking: 1
@@ -71,18 +78,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.55000001192092896
+  scale: -0.550000012
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Defender_Buff.Kinetics.Transference
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 7
   summon: ''
   stacking: 1
@@ -91,12 +98,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: -16.670000076293945
+  scale: -16.6700001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain

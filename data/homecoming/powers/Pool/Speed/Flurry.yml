@@ -7,8 +7,8 @@ display: Flurry
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 attack_types: 9
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 5.4600000381469727
-cast_time: 3.0699999332427979
+endurance_cost: 5.46000004
+cast_time: 3.06999993
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Melee, Moderate DMG(Smash), Foe Disorient
 description_long: Unleashes a super fast Flurry of punches to pummel your foe. Flurry is so dizzying that it has a chance to Disorient the target.
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 23
 set_types:
 - 1
 - 11
@@ -46,7 +53,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -57,24 +64,24 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.14300000667572021
+  scale: 0.143000007
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -84,14 +91,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -102,19 +109,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.42302998900413513
+  scale: 0.423029989
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -125,19 +132,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.42302998900413513
+  scale: 0.423029989
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -148,18 +155,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.4102100133895874
+  scale: 0.410210013
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Blaster
+  uid_class_name: Class_Blaster
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -170,19 +177,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.52065998315811157
+  scale: 0.520659983
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Defender
-  i_d_class_name: 2
+  uid_class_name: Class_Defender
+  id_class_name: 2
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -193,19 +200,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.55937999486923218
+  scale: 0.559379995
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -216,19 +223,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.45122998952865601
+  scale: 0.45122999
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Brute
-  i_d_class_name: 8
+  uid_class_name: Class_Brute
+  id_class_name: 8
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -239,19 +246,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.33842998743057251
+  scale: 0.338429987
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -262,19 +269,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.45122998952865601
+  scale: 0.45122999
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Corruptor
-  i_d_class_name: 9
+  uid_class_name: Class_Corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -285,19 +292,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.46707001328468323
+  scale: 0.467070013
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -308,19 +315,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.50344002246856689
+  scale: 0.503440022
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Mastermind
-  i_d_class_name: 11
+  uid_class_name: Class_Mastermind
+  id_class_name: 11
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -331,19 +338,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.40035000443458557
+  scale: 0.400350004
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Peacebringer
-  i_d_class_name: 5
+  uid_class_name: Class_Peacebringer
+  id_class_name: 5
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -354,24 +361,24 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.33842998743057251
+  scale: 0.338429987
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Arachnos_Soldier
-  i_d_class_name: 13
+  uid_class_name: Class_Arachnos_Soldier
+  id_class_name: 13
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   suppression: 31
   buffable: true
   resistible: true
@@ -382,19 +389,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   suppression: 31
   buffable: true
   resistible: true
@@ -405,19 +412,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 2
@@ -428,19 +435,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   suppression: 31
   buffable: true
   special_case: 2
@@ -451,64 +458,64 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 3
   damage_type: 1
   summon: ''
-  delayed_time: 1.7999999523162842
+  delayed_time: 1.79999995
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 1
   to_who: 1
-  scale: 1.1440000534057617
+  scale: 1.14400005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 3
   damage_type: 1
   summon: ''
-  delayed_time: 1.7999999523162842
+  delayed_time: 1.79999995
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 1
   to_who: 1
-  scale: 1.1440000534057617
+  scale: 1.14400005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 3
   damage_type: 1
   summon: ''
-  delayed_time: 1.7999999523162842
+  delayed_time: 1.79999995
   stacking: 1
   base_probability: 1
   buffable: true
@@ -516,22 +523,22 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 1.1440000534057617
+  scale: 1.14400005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 3
   damage_type: 1
   summon: ''
-  delayed_time: 1.7999999523162842
+  delayed_time: 1.79999995
   stacking: 1
   base_probability: 1
   buffable: true
@@ -539,18 +546,18 @@ effects:
   special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 1.1440000534057617
+  scale: 1.14400005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Corruptor
-  i_d_class_name: 9
+  uid_class_name: Class_Corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -562,41 +569,41 @@ effects:
   special_case: 10
   player_versus_mode: 1
   to_who: 1
-  scale: 0.14300000667572021
+  scale: 0.143000007
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 3
   damage_type: 1
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 3.3842599391937256
+  scale: 3.38425994
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -608,41 +615,41 @@ effects:
   special_case: 10
   player_versus_mode: 2
   to_who: 1
-  scale: 0.27968999743461609
+  scale: 0.279689997
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 3
   damage_type: 1
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 2.7074100971221924
+  scale: 2.7074101
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -653,18 +660,18 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 2.7074100971221924
+  scale: 2.7074101
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Stalker
-  i_d_class_name: 12
+  uid_class_name: Class_Stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -675,18 +682,18 @@ effects:
   special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 3.6098799705505371
+  scale: 3.60987997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Corruptor
-  i_d_class_name: 9
+  uid_class_name: Class_Corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -702,14 +709,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   requires_to_hit_check: true
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Pool.Speed.Flurry
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -724,8 +731,8 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt

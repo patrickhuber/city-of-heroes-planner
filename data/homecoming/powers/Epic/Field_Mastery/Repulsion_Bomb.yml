@@ -7,12 +7,12 @@ display: Explosive Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Field_Mastery.Power_Blast
     - ''
   - - Epic.Field_Mastery.Personal_Force_Field
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 140
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 18.979999542236328
-cast_time: 1.6699999570846558
+endurance_cost: 18.9799995
+cast_time: 1.66999996
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -38,6 +39,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Targeted AoE), Moderate DMG(Smash/Energy), Foe Knockback
 description_long: 'You hurl a blast of charged energy that violently explodes on impact, damaging all foes near the target. Explosive Blast may knock targets backwards. You must be level 41 and have Power Blast or Temp Invulnerability before selecting this power.  Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -51,7 +59,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Field_Mastery.Repulsion_Bomb
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -65,14 +73,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Field_Mastery.Repulsion_Bomb
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -82,18 +90,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Field_Mastery.Repulsion_Bomb
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -107,14 +115,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Epic.Field_Mastery.Repulsion_Bomb
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -129,14 +137,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Epic.Field_Mastery.Repulsion_Bomb
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -146,24 +154,24 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.44815999269485474
+  scale: 0.448159993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Field_Mastery.Repulsion_Bomb
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   delayed_time: 0.125
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   suppression: 31
   buffable: true
   resistible: true
@@ -175,8 +183,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

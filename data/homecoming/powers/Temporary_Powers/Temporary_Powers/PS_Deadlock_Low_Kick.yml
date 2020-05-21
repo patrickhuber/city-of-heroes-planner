@@ -7,8 +7,8 @@ display: Shin Breaker
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 9
 group_memberships: []
@@ -17,14 +17,16 @@ target: 2048
 target_line_of_sight: true
 range: 7
 endurance_cost: 5
-cast_time: 1.3300000429153442
+cast_time: 1.33000004
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 0
 number_allowed: 1
 boosts_allowed: []
 description_short: Melee, Superior DMG (Smashing), Foe -Speed, -Defense, Combo Builder
 description_long: "You execute a quick but powerful kick targeting your foe's leg in an attempt to cripple their movement. Shin Breaker deals Superior Smashing damage and moderately reduces your target's movement speed and defense for a short time. Shin Breaker is a Combo Builder and adds 1 Combo Level.  Damage: Superior, Recharge: Slow"
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Low_Kick
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -50,14 +52,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Low_Kick
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 32
   summon: ''
   stacking: 1
@@ -70,14 +72,14 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Low_Kick
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 10
   summon: ''
   stacking: 1
@@ -85,19 +87,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: -1.6000000238418579
+  scale: -1.60000002
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Low_Kick
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -110,14 +112,14 @@ effects:
   duration: 8
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Low_Kick
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 17
   summon: ''
   stacking: 1
@@ -130,14 +132,14 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Deadlock_Low_Kick
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   summon: ''
   stacking: 1
@@ -151,8 +153,8 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

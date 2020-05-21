@@ -7,8 +7,8 @@ display: Mental Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 514
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 5.1999998092651367
-cast_time: 1.6699999570846558
+endurance_cost: 5.19999981
+cast_time: 1.66999996
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DMG(Psionic), Target -Recharge
 description_long: "This basic attack does moderate Psionic damage, and can slightly reduce a target's attack speed. Damage: Moderate, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 44
@@ -45,7 +52,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -59,14 +66,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -74,19 +81,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -96,162 +103,162 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.247999906539917
+  scale: 2.24799991
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 1
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 2
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 3
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 4
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 5
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 6
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 7
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 8
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: -0.20000000298023224
+  scale: -0.200000003
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Vulnerability
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Vulnerability
   base_probability: 1
@@ -260,14 +267,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Vulnerability
   effect_id: Opportunity
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 52
   summon: ''
   base_probability: 1
@@ -277,14 +284,14 @@ effects:
   duration: 15
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Opportunity
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 47
   summon: ''
   base_probability: 1
@@ -294,14 +301,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Opportunity
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -311,14 +318,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Opportunity
   override: ''
 - power_full_name: Sentinel_Ranged.Psychic_Blast.Mental_Blast
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Opportunity_Lock
   base_probability: 1
@@ -327,8 +334,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Opportunity_Lock
   effect_id: Opportunity

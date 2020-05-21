@@ -7,8 +7,8 @@ display: Crushing Blow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not:
+  power_ids: []
+  power_ids_not:
   - - '!tanker_defense.shield_defense'
     - ''
 modes_disallowed: 2
@@ -19,9 +19,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 9
-endurance_cost: 8.7838401794433594
+endurance_cost: 8.78384018
 cast_time: 2
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 2
 radius: 9
 max_targets: 5
@@ -36,6 +37,13 @@ boosts_allowed:
 - Taunt_Boost
 description_short: Melee, High DMG(Smashing), -DEF
 description_long: 'You swing a mighty crushing blow at your opponent dealing High Smashing damage and reducing their defense.  Damage: High, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
+- 24
 set_types:
 - 1
 - 21
@@ -53,7 +61,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 53
   summon: ''
   stacking: 1
@@ -64,14 +72,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Titan_Weapons_Tanker.Crushing_Blow_Fast
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 53
   summon: ''
   stacking: 1
@@ -81,14 +89,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Titan_Weapons_Tanker.Crushing_Blow_Slow
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -98,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.8040000200271606
+  scale: 1.80400002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -119,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.6881299018859863
+  scale: 2.6881299
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   summon: ''
   stacking: 1
@@ -143,14 +151,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -158,18 +166,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.81180000305175781
+  scale: 0.811800003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -186,14 +194,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -209,19 +217,19 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 11
   summon: ''
   stacking: 1
-  base_probability: 0.18000000715255737
+  base_probability: 0.180000007
   buffable: true
   resistible: true
   player_versus_mode: 2
@@ -231,14 +239,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -248,14 +256,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Tanker_Melee.Titan_Weapons.Crushing_Blow
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 52
   summon: ''
   base_probability: 1
@@ -265,8 +273,8 @@ effects:
   duration: 5
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

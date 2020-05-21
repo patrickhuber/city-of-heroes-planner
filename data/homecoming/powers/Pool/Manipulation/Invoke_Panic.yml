@@ -7,24 +7,25 @@ display: Invoke Panic
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Manipulation.Challenge
     - Pool.Manipulation.Provoke
   - - Pool.Manipulation.Challenge
     - Pool.Manipulation.Intimidate
   - - Pool.Manipulation.Provoke
     - Pool.Manipulation.Intimidate
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
-accuracy: 0.89999997615814209
+accuracy: 0.899999976
 attack_types: 513
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 18
-cast_time: 1.9700000286102295
+cast_time: 1.97000003
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 2
 radius: 20
 max_targets: 10
@@ -37,6 +38,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Fear (Foe)
 description_long: When fully engaged in battle, you are a frightening presence and can use this to your advantage. This power causes sheer terror in all foes around you, causing them to tremble uncontrollably in fear. In order to acquire this ability, you must be level 14 and possess any two other powers from the Presence pool.
+enhancements:
+- 1
+- 8
+- 9
+- 18
 set_types:
 - 15
 level: 14
@@ -48,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Manipulation.Invoke_Panic
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -63,14 +69,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Pool.Manipulation.Invoke_Panic
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -86,14 +92,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Invoke_Panic
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -109,14 +115,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Invoke_Panic
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -132,14 +138,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Pool.Manipulation.Invoke_Panic
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -155,8 +161,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Fear

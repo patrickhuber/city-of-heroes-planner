@@ -7,21 +7,22 @@ display: Fortify Pack
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
-group_memberships: []
+group_memberships:
+- Pack_Mentality
 entities_affected: 65536
 entities_auto_hit: 65536
 target: 1
 target_line_of_sight: true
 endurance_cost: 16.25
-cast_time: 2.2699999809265137
+cast_time: 2.26999998
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 30
-max_targets: 16
 max_boosts: ''
 number_allowed: 1
 boosts_allowed:
@@ -31,11 +32,20 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Pets +Defense, +Regeneration, consumes all charges of Pack Mentality
 description_long: 'You command your beasts to fight more defensively.  Using Fortify Pack will prevent your pets from benefiting from Pack Mentality for 60 seconds.  The number of charges of Pack Mentality you own when activating this power will determine the potency of the Defense and Regeneration buff that will be granted to your pack.  Additionally, simply owning this power grants your beast pets attacks a chance to critically hit that scales with the amount of Pack Mentality owned by the Mastermind.  Recharge: Very Long'
+enhancements:
+- 5
+- 8
+- 11
+- 18
 set_types:
 - 7
 - 9
+click_buff: true
 level: 18
-variable_name: ''
+variable_enabled: true
+variable_name: Pack Mentality
+variable_min: 1
+variable_max: 5
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
@@ -43,215 +53,27 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 1
-  effect_type: 5
-  damage_type: 10
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 2
-  effect_type: 5
-  damage_type: 11
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 3
-  effect_type: 5
-  damage_type: 12
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 4
+  unique_id: 10
   effect_type: 5
   damage_type: 1
   summon: ''
   base_probability: 1
   buffable: true
+  variable_modified_override: true
   to_who: 1
+  scale: 0.400000006
   magnitude: 1
   duration: 60
-  attrib_type: 2
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 5
-  effect_type: 5
-  damage_type: 2
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 6
-  effect_type: 5
-  damage_type: 3
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 7
-  effect_type: 5
-  damage_type: 4
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 8
-  effect_type: 5
-  damage_type: 5
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 9
-  effect_type: 5
-  damage_type: 6
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 10
-  effect_type: 5
-  damage_type: 8
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
-  reward: ''
-  effect_id: Buff_Def
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 11
-  effect_type: 27
-  summon: ''
-  base_probability: 1
-  buffable: true
-  to_who: 1
-  magnitude: 1
-  duration: 60
-  attrib_type: 2
-  aspect: 4
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: Cur.kMeter source> 2 * 1 + @Strength *
-  reward: ''
-  effect_id: Ones
-  override: ''
-- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 30
   summon: ''
   base_probability: 1
@@ -260,14 +82,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Pack_Mentality
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 30
   summon: ''
   base_probability: 1
@@ -276,14 +98,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Pack_Mentality
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Pack_Mentality_Lock
   base_probability: 1
@@ -292,9 +114,227 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Pack_Mentality_Lock
   effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 27
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.00100000005
+  magnitude: 0.5
+  duration: 60
+  aspect: 1
+  modifier_table: Melee_Heal
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 2
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 3
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 4
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 5
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 6
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 7
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 8
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 10
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 11
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
+  override: ''
+- power_full_name: Mastermind_Summon.Beast_Mastery.Fortify_Pack
+  unique_id: 10
+  effect_type: 5
+  damage_type: 12
+  summon: ''
+  base_probability: 1
+  buffable: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.400000006
+  magnitude: 1
+  duration: 60
+  aspect: 4
+  modifier_table: Ranged_Buff_Def
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: Cur.kMeter source> .1 * .05 + @Strength *
+  reward: ''
+  effect_id: Buff_Def
   override: ''

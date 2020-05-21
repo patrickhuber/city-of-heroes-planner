@@ -7,8 +7,8 @@ display: Slash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 5.4911999702453613
-cast_time: 1.3300000429153442
-recharge_time: 4.8000001907348633
+endurance_cost: 5.49119997
+cast_time: 1.33000004
+recharge_time: 4.80000019
+base_recharge_time: 4.80000019
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Moderate DMG(Lethal), Foe -DEF
 description_long: "You Slash at your foe with your claws, dealing a good amount of lethal damage, but with a longer recharge rate than Swipe or Strike . This attack can reduce a target's Defense, making them easier to hit. Damage: Moderate, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 1
 - 21
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -57,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -79,18 +86,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -100,18 +107,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.77245998382568359
+  scale: 0.772459984
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -122,18 +129,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.77245998382568359
+  scale: 0.772459984
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -144,18 +151,18 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5449199676513672
+  scale: 1.54491997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   summon: ''
   stacking: 1
@@ -168,57 +175,57 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5449199676513672
+  scale: 1.54491997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -229,28 +236,28 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Slash
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
-  base_probability: 0.74000000953674316
+  base_probability: 0.74000001
   to_who: 2
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones

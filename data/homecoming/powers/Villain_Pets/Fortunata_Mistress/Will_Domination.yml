@@ -7,8 +7,8 @@ display: Will Domination
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 514
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 100
-endurance_cost: 12.739999771118164
-cast_time: 1.1000000238418579
+endurance_cost: 12.7399998
+cast_time: 1.10000002
 recharge_time: 14
+base_recharge_time: 14
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Sleep_Boost
 description_short: Sleep
 description_long: Your will has been Dominated.
+enhancements:
+- 1
+- 4
+- 8
+- 21
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Fortunata_Mistress.Will_Domination
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -50,24 +56,24 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Fortunata_Mistress.Will_Domination
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 9
   summon: ''
   delayed_time: 0.25
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -78,20 +84,20 @@ effects:
   aspect: 4
   modifier_table: Ranged_Sleep
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Villain_Pets.Fortunata_Mistress.Will_Domination
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 9
   summon: ''
   delayed_time: 0.25
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   suppression: 31
   buffable: true
   resistible: true
@@ -103,8 +109,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Zombie Horde
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 3.0999999046325684
+cast_time: 3.0999999
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -32,6 +33,12 @@ boosts_allowed:
 - Heal_Boost
 description_short: Summon Zombies
 description_long: 'Summons one to three Zombies (depending on your level) to do your bidding. Zombies are very tough but can be slow and stupid.  They start out with only rudimentary melee attacks, but can be empowered with range and even life draining powers. You may only have 3 Zombies under your control at any given time.  If you attempt to summon more Zombies, you can only replace the ones you have lost in battle.  If you already have three, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 11
 set_types:
 - 6
 - 26
@@ -44,12 +51,13 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Necromancy.Zombie_Horde
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Zombie
+  summon: Pets_Zombie
   delayed_time: 1
   base_probability: 1
   to_who: 3
@@ -58,16 +66,16 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
   override: ''
 - power_full_name: Mastermind_Summon.Necromancy.Zombie_Horde
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
-  summon: MastermindPets_Zombie
+  summon: Pets_Zombie
   delayed_time: 2
   base_probability: 1
   to_who: 3
@@ -76,16 +84,16 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
   override: ''
 - power_full_name: Mastermind_Summon.Necromancy.Zombie_Horde
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
-  summon: MastermindPets_Zombie
+  summon: Pets_Zombie
   delayed_time: 3
   base_probability: 1
   to_who: 3
@@ -94,9 +102,84 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus2
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
   override: ''
+- &o0
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Zombie.Zombie_Brawl
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o0
+- *o0
+- &o1
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Zombie_2.Projectile_Vomit
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o1
+- *o1
+- &o2
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Zombie_2.Zombie_Vomit
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o2
+- *o2
+- &o3
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Zombie_3.Siphon_Life
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o3
+- *o3

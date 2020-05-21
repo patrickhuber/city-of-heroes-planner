@@ -7,8 +7,8 @@ display: Kinetic Shield
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.12999999523162842
-cast_time: 0.73000001907348633
+endurance_cost: 0.129999995
+cast_time: 0.730000019
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -30,6 +31,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Self +DEF(Smashing, Lethal, Energy), Res(DeBuff DEF)'
 description_long: 'Kinetic Shield creates a harmonic Energy Aura that can deflect physical attacks.  Your Defense to Smashing and Lethal attacks is increased as weapons and powers like bullets, blades and punches tend to deflect off the shield. Kinetic Shield also grants you good resistance to Defense Debuffs. The Energy based nature of Kinetic Shield also offers some minimal Defense to Energy attacks.  Kinetic Shield also adds an Elusivity defense bonus to Smashing, Lethal, and Energy Attacks in PVP zones.  Recharge: Fast'
+enhancements:
+- 5
+- 8
+- 18
 set_types:
 - 7
 always_toggle: true
@@ -42,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -51,19 +56,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 2.2000000476837158
+  scale: 2.20000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -72,19 +77,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 2.2000000476837158
+  scale: 2.20000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -93,19 +98,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 0.34999999403953552
+  scale: 0.349999994
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -113,19 +118,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 2.2000000476837158
+  scale: 2.20000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -133,19 +138,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 2.2000000476837158
+  scale: 2.20000005
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -158,14 +163,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 44
   damage_type: 1
   summon: ''
@@ -173,19 +178,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 44
   damage_type: 2
   summon: ''
@@ -193,19 +198,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 44
   damage_type: 5
   summon: ''
@@ -213,19 +218,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 28
   effect_modifiers: 5
   summon: ''
@@ -236,8 +241,8 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

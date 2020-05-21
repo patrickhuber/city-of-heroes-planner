@@ -7,12 +7,12 @@ display: Shocking Bolt
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Electricity_Mastery.Electric_Fence
     - ''
   - - Epic.Electricity_Mastery.Thunder_Strike
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 130
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.659999847412109
+endurance_cost: 10.6599998
 cast_time: 2
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -37,6 +38,14 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged, Minor DoT(Energy), Foe Hold, -END
 description_long: 'Holds a distant foe by shocking him with electricity. The seized target is left writhing in agony and is unable to defend himself. Shocking Bolt also drains some Endurance from the target over time. A portion of drained Endurance may be returned to you.  You must be level 41 and have one other Electricity Mastery power to select this power.  Damage: Minor(DoT), Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 17
+- 18
+- 7
 set_types:
 - 2
 - 4
@@ -52,7 +61,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -67,14 +76,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -85,19 +94,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -108,19 +117,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.76156997680664062
+  scale: 0.761569977
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -132,19 +141,19 @@ effects:
   special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: class_corruptor
-  i_d_class_name: 9
+  uid_class_name: class_corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -156,19 +165,19 @@ effects:
   special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 0.76156997680664062
+  scale: 0.761569977
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: class_corruptor
-  i_d_class_name: 9
+  uid_class_name: class_corruptor
+  id_class_name: 9
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -184,14 +193,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 7
   summon: ''
   ticks: 5
@@ -203,17 +212,17 @@ effects:
   to_who: 1
   scale: -2
   magnitude: 1
-  duration: 8.1000003814697266
+  duration: 8.10000038
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 7
   summon: ''
   ticks: 5
@@ -225,29 +234,29 @@ effects:
   to_who: 1
   scale: -1
   magnitude: 1
-  duration: 8.1000003814697266
+  duration: 8.10000038
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Epic.Electricity_Mastery.Shocking_Bolt
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 7
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   to_who: 2
-  scale: 5.3299999237060547
+  scale: 5.32999992
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

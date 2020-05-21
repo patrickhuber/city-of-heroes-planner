@@ -7,18 +7,19 @@ display: The Lotus Drops
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 17
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 13
-cast_time: 1.8300000429153442
+cast_time: 1.83000004
 recharge_time: 28
+base_recharge_time: 28
 effect_area: 2
 radius: 8
 max_targets: 10
@@ -32,6 +33,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE Melee, Moderate DMG(Lethal), Foe -Def
 description_long: 'You perform The Lotus Drops maneuver, attacking all foes in melee range. This attack wounds your opponents, causing them to take moderate damage over time and reduces their Defense. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 4
 - 30
@@ -48,7 +55,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -62,14 +69,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -80,19 +87,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.11999999731779099
+  scale: 0.119999997
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   summon: ''
   stacking: 1
@@ -106,14 +113,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -123,164 +130,164 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.4440100193023682
+  scale: 3.44401002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 1
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 2
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 3
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 4
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 5
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 6
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 7
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.The_Lotus_Drops
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 8
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.054999999701976776
+  scale: 0.0549999997
   magnitude: 1
-  duration: 9.3299999237060547
+  duration: 9.32999992
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

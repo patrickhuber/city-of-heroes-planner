@@ -7,8 +7,8 @@ display: Shockwave Slice
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 18
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 30
-cast_time: 2.3299999237060547
+cast_time: 2.32999992
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 30
 arc: 45
@@ -31,6 +32,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Ranged (Cone), High DMG(Lethal), Moderate DoT (Lethal), Chance for -Speed(All), -Recharge on Foes
 description_long: You slice your blades through the air with such power that a shockwave is generated. This shockwave travels quite some distance, cutting down those in its path. Enemies struck by the shockwave suffer lethal damage and bleeding wounds. Additionally, there is a chance they will be knocked back and winded, which reduces their recharge time and speed briefly.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +48,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -52,18 +57,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.0499999523162842
+  scale: 1.04999995
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -74,19 +79,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   delayed_time: 0.5
@@ -94,19 +99,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: -0.05000000074505806
+  scale: -0.0500000007
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 32
   summon: ''
   delayed_time: 0.5
@@ -114,19 +119,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 11
   summon: ''
   delayed_time: 0.5
@@ -134,19 +139,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 17
   summon: ''
   delayed_time: 0.5
@@ -154,38 +159,38 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 16
   summon: ''
   delayed_time: 0.5
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -193,13 +198,13 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

@@ -7,10 +7,10 @@ display: Shadowy Presence
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Inherent.Inherent.Shadowy_Presence
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,10 +18,11 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 15.600000381469727
+endurance_cost: 15.6000004
 interrupt_time: 5
 cast_time: 5
 recharge_time: 600
+base_recharge_time: 600
 effect_area: 1
 max_boosts: 0
 number_allowed: 1
@@ -29,6 +30,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: 'Self: +Stealth'
 description_long: Activating this power shifts you into a semi-real shadow-state.  So long as you are not attacked and remain motionless, you will have extremely good stealth rating and be nearly invisible.  This power has a long, interruptible cast time and always takes 10 minutes to recharge.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Shadowy_Presence
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 36
   summon: ''
   base_probability: 1
@@ -51,14 +53,14 @@ effects:
   duration: 300
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Shadowy_Presence
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 37
   summon: ''
   base_probability: 1
@@ -69,26 +71,26 @@ effects:
   duration: 300
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Shadowy_Presence
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 41
   summon: ''
   base_probability: 1
   suppression: 448
   to_who: 3
-  scale: 0.94999998807907104
+  scale: 0.949999988
   magnitude: 1
   duration: 300
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

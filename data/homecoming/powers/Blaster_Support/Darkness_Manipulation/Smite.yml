@@ -7,8 +7,8 @@ display: Smite
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 265
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 10.192000389099121
-cast_time: 0.97000002861022949
+endurance_cost: 10.1920004
+cast_time: 0.970000029
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, High DMG (Smash/Negative), Foe -To Hit
 description_long: "You wrap your fists with Negative Energy channeled from the Netherworlds, then perform a Smite that deals High negative energy damage. Smite clouds the target's vision, lowering its chance to hit for a short time. Damage: High, Recharge: Moderate"
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 18
 set_types:
 - 1
 - 26
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -57,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.49000000953674316
+  scale: 0.49000001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -78,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4700000286102295
+  scale: 1.47000003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -99,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.45462998747825623
+  scale: 0.454629987
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -120,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.3638900518417358
+  scale: 1.36389005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 40
   summon: ''
   stacking: 1
@@ -144,14 +151,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -159,19 +166,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -179,19 +186,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -199,19 +206,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -219,19 +226,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -239,19 +246,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -259,19 +266,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -279,19 +286,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Darkness_Manipulation.Smite
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -299,13 +306,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.064000003039836884
+  scale: 0.064000003
   magnitude: 1
-  duration: 8.4700002670288086
+  duration: 8.47000027
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

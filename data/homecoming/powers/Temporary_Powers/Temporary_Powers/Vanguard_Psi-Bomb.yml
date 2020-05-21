@@ -7,8 +7,8 @@ display: Vanguard Psi-Bomb
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1.5
 attack_types: 516
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 80
 endurance_cost: 26
-cast_time: 1.3700000047683716
+cast_time: 1.37
 recharge_time: 360
+base_recharge_time: 360
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Ranged Extreme AoE (Psionic), Stun, Special
 description_long: The Vanguard Psi-Bomb cause an extreme amount of psionic damage in a 25' radius from it's point of impact.  The Psi-Bomb will disorient most targets.  It is particularly effective against Rikti, however, as the psionic shriek overloads their psi receptors, which can cause a great deal of confusion in their ranks.  You initially are given three Bombs.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psi-Bomb
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -48,18 +50,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psi-Bomb
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -68,38 +70,38 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.63999998569488525
+  scale: 0.639999986
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psi-Bomb
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 8
   summon: ''
   stacking: 1
-  base_probability: 0.33000001311302185
+  base_probability: 0.330000013
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.63999998569488525
+  scale: 0.639999986
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psi-Bomb
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -114,14 +116,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psi-Bomb
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -132,24 +134,24 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.33000001311302185
+  scale: 0.330000013
   magnitude: 3
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Vanguard_Psi-Bomb
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 1
   summon: ''
   stacking: 1
-  base_probability: 0.33000001311302185
+  base_probability: 0.330000013
   resistible: true
   to_who: 1
   scale: 15
@@ -157,8 +159,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize

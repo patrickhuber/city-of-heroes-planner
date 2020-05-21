@@ -7,8 +7,8 @@ display: Tornado
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,12 +18,14 @@ target: 2048
 target_line_of_sight: true
 range: 1
 recharge_time: 2
+base_recharge_time: 2
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
 boosts_allowed: []
 description_short: DoT(Smashin), -DEF, Disorient
 description_long: The Water Spout winds buffet you, dealing smashing Damage over Time, reducing your defense, and Disorients you.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +37,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Water_Spout_Stalker.Water_Spout_Attack
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   stacking: 1
@@ -45,8 +47,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,17 +7,18 @@ display: Smoke Flash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.3999999761581421
+accuracy: 1.39999998
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 2.5999999046325684
-cast_time: 1.8300000429153442
+endurance_cost: 2.5999999
+cast_time: 1.83000004
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 2
 radius: 20
 max_targets: 10
@@ -28,6 +29,9 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Foe Placate
 description_long: 'You throw a smoke bomb at your feet.  The resulting flash of light and smoke can briefly distract your foes and Placate them so they can no longer find or target you. Combined with Hide, Smoke Flash is the perfect distraction to get out of a bad situation. Recharge: Very Long'
+enhancements:
+- 1
+- 18
 set_types: []
 level: 28
 variable_name: ''
@@ -38,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Defense.Ninjitsu.Smoke_Flash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -53,14 +57,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Stalker_Defense.Ninjitsu.Smoke_Flash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -75,8 +79,8 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt

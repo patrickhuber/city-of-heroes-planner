@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Controller
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 12
@@ -18,9 +18,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 20
-endurance_cost: 12.739999771118164
-cast_time: 2.0999999046325684
+endurance_cost: 12.7399998
+cast_time: 2.0999999
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -37,6 +38,14 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Close (Targeted AoE), Moderate DMG(Lethal/Smash), Foe Knockback, Disorient
 description_long: 'This powerful stomp can cause a seismic disturbance. This will crack the Earth itself and send a Fault towards a targeted foe.  Affected targets take moderate damage and may be thrown in the air and possibly Disoriented. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
+- 23
 set_types:
 - 3
 - 11
@@ -51,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -61,18 +70,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.899999976
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -82,19 +91,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -104,18 +113,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.3774600028991699
+  scale: 1.37746
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -126,19 +135,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -149,18 +158,18 @@ effects:
   special_case: 10
   player_versus_mode: 1
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.899999976
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_controller
-  i_d_class_name: 1
+  uid_class_name: class_controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -171,18 +180,18 @@ effects:
   special_case: 10
   player_versus_mode: 2
   to_who: 1
-  scale: 0.68873000144958496
+  scale: 0.688730001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_controller
-  i_d_class_name: 1
+  uid_class_name: class_controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -198,14 +207,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Stun
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -222,14 +231,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Stun
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Epic.Stone_Mastery.Fissure
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -244,8 +253,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun

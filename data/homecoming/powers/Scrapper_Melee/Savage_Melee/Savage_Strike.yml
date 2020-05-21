@@ -7,8 +7,8 @@ display: Savage Strike
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 3.9500000476837158
-cast_time: 0.80000001192092896
+endurance_cost: 3.95000005
+cast_time: 0.800000012
 recharge_time: 2.5
+base_recharge_time: 2.5
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Minor DMG(Lethal), Foe Minor DoT(Lethal), Self +1 Blood Frenzy
 description_long: 'You quickly tear at your foe dealing minor lethal damage and causing minor lethal damage over time. Savage Strikes grants you 1 stack of Blood Frenzy. Damage: Minor, Minor DoT, Recharge: Very Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 41
@@ -45,7 +51,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Scrapper_Melee.Savage_Melee.Savage_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -55,40 +61,40 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.37999999523162842
+  scale: 0.379999995
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Savage_Melee.Savage_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
-  delayed_time: 0.40000000596046448
+  delayed_time: 0.400000006
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.37999999523162842
+  scale: 0.379999995
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Savage_Melee.Savage_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -100,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.13699999451637268
+  scale: 0.136999995
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: ''
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
   stacking: 1
@@ -121,8 +127,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
   effect_id: Ones

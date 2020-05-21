@@ -7,8 +7,8 @@ display: Gun Drone
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -19,6 +19,7 @@ target_line_of_sight: true
 endurance_cost: 39
 cast_time: 1
 recharge_time: 180
+base_recharge_time: 180
 effect_area: 4
 max_boosts: ''
 artifical_intelligence_report: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Build Turret: Ranged, Moderate DMG(Lethal)'
 description_long: 'You can summon a Gun Drone. The Drone has an extremely fast fire rate and is equipped with a customized tracking system. Once locked on, the Drone will continue to unload a volley of lead into the target until it is destroyed. The Drone is armored, but can be destroyed. Damage: Moderate, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 2
 - 27
@@ -46,7 +52,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Turret
   stacking: 1
@@ -59,14 +65,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -74,19 +80,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -94,19 +100,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -114,19 +120,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -134,19 +140,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -154,19 +160,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -174,19 +180,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -194,19 +200,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -214,13 +220,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 7.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

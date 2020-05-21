@@ -7,18 +7,19 @@ display: Eye of the Storm
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 16.016000747680664
-cast_time: 2.5699999332427979
+endurance_cost: 16.0160007
+cast_time: 2.56999993
 recharge_time: 17
+base_recharge_time: 17
 effect_area: 2
 radius: 10
 max_targets: 10
@@ -33,6 +34,13 @@ boosts_allowed:
 - Taunt_Boost
 description_short: PBAoE Melee, Moderate DMG(Smash), Foe Knockdown, Consumes Perfection
 description_long: 'With a lightning fast series of spins of your staff you strike at all nearby foes dealing moderate damage with a chance of knocking foes down.  While a form is active, this power will build one level of Perfection if the user has two or less levels, if the user has three levels of Perfection it will consume them and gain some benefit.  3 Levels of Perfection of Body will cause additional smashing damage and reduce damage resistance slightly for a short time.  3 Levels of Perfection of Mind will cause additional psionic damage and reduce attack and movement speed for a short time.  3 Levels of Perfection of Soul will cause additional energy damage and reduce defense for a short time.  Damage: Moderate, Recharge: Long'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 18
+- 24
 set_types:
 - 4
 - 23
@@ -50,7 +58,7 @@ never_auto_update: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -61,19 +69,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.20499999821186066
+  scale: 0.204999998
   magnitude: 1
-  duration: 2.2999999523162842
+  duration: 2.29999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -84,19 +92,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.29499000310897827
+  scale: 0.294990003
   magnitude: 1
-  duration: 2.2999999523162842
+  duration: 2.29999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -108,18 +116,18 @@ effects:
   special_case: 30
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2460000067949295
+  scale: 0.246000007
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -131,18 +139,18 @@ effects:
   special_case: 30
   player_versus_mode: 2
   to_who: 1
-  scale: 0.35398998856544495
+  scale: 0.353989989
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 77
   summon: ''
   delayed_time: 1
@@ -155,14 +163,14 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 77
   summon: ''
   stacking: 1
@@ -174,14 +182,14 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -193,18 +201,18 @@ effects:
   special_case: 34
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2460000067949295
+  scale: 0.246000007
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -216,18 +224,18 @@ effects:
   special_case: 34
   player_versus_mode: 2
   to_who: 1
-  scale: 0.35398998856544495
+  scale: 0.353989989
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 77
   summon: ''
   delayed_time: 1
@@ -240,14 +248,14 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 77
   summon: ''
   stacking: 1
@@ -259,14 +267,14 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -278,18 +286,18 @@ effects:
   special_case: 38
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2460000067949295
+  scale: 0.246000007
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -301,18 +309,18 @@ effects:
   special_case: 38
   player_versus_mode: 2
   to_who: 1
-  scale: 0.35398998856544495
+  scale: 0.353989989
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 77
   summon: ''
   delayed_time: 1
@@ -325,14 +333,14 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 77
   summon: ''
   stacking: 1
@@ -344,59 +352,59 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   delayed_time: 1
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   delayed_time: 1
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   suppression: 32
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -405,19 +413,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.092249996960163116
+  scale: 0.092249997
   magnitude: 1
-  duration: 2.2999999523162842
+  duration: 2.29999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -430,14 +438,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -450,14 +458,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -470,14 +478,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -490,14 +498,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -510,14 +518,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -530,14 +538,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -550,14 +558,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -570,14 +578,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -590,14 +598,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -610,14 +618,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -630,14 +638,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -650,14 +658,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -670,14 +678,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -690,14 +698,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -710,14 +718,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 33
+  unique_id: 33
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -730,14 +738,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 34
+  unique_id: 34
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -750,14 +758,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 35
+  unique_id: 35
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -765,57 +773,57 @@ effects:
   resistible: true
   special_case: 34
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 36
+  unique_id: 36
   effect_type: 32
   summon: ''
   base_probability: 1
   resistible: true
   special_case: 34
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 37
+  unique_id: 37
   effect_type: 11
   summon: ''
   base_probability: 1
   resistible: true
   special_case: 34
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 38
+  unique_id: 38
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -823,38 +831,38 @@ effects:
   resistible: true
   special_case: 34
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 39
+  unique_id: 39
   effect_type: 17
   summon: ''
   base_probability: 1
   resistible: true
   special_case: 34
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 40
+  unique_id: 40
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -871,14 +879,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 41
+  unique_id: 41
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -894,14 +902,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 42
+  unique_id: 42
   effect_type: 48
   summon: ''
   stacking: 1
@@ -909,18 +917,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 43
+  unique_id: 43
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   special_case: 27
@@ -929,14 +937,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 44
+  unique_id: 44
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   special_case: 28
@@ -945,14 +953,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 45
+  unique_id: 45
   effect_type: 30
   summon: ''
   special_case: 28
@@ -961,14 +969,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 46
+  unique_id: 46
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   special_case: 29
@@ -977,14 +985,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 47
+  unique_id: 47
   effect_type: 30
   summon: ''
   special_case: 29
@@ -993,14 +1001,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 48
+  unique_id: 48
   effect_type: 30
   summon: ''
   special_case: 30
@@ -1009,14 +1017,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 49
+  unique_id: 49
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   special_case: 31
@@ -1025,14 +1033,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 50
+  unique_id: 50
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   special_case: 32
@@ -1041,14 +1049,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 51
+  unique_id: 51
   effect_type: 30
   summon: ''
   special_case: 32
@@ -1057,14 +1065,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 52
+  unique_id: 52
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   special_case: 33
@@ -1073,14 +1081,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 53
+  unique_id: 53
   effect_type: 30
   summon: ''
   special_case: 33
@@ -1089,14 +1097,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 54
+  unique_id: 54
   effect_type: 30
   summon: ''
   special_case: 34
@@ -1105,14 +1113,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 55
+  unique_id: 55
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   special_case: 35
@@ -1121,14 +1129,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 56
+  unique_id: 56
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   special_case: 36
@@ -1137,14 +1145,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 57
+  unique_id: 57
   effect_type: 30
   summon: ''
   special_case: 36
@@ -1153,14 +1161,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 58
+  unique_id: 58
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   special_case: 37
@@ -1169,14 +1177,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 59
+  unique_id: 59
   effect_type: 30
   summon: ''
   special_case: 37
@@ -1185,14 +1193,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Eye_of_the_Storm
-  unique_i_d: 60
+  unique_id: 60
   effect_type: 30
   summon: ''
   special_case: 38
@@ -1201,8 +1209,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   effect_id: PerfectionofSoul

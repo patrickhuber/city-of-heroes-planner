@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7880
+  - id: 7757
     name: Set_Bonus.Set_Bonus.Fear_Dur_3
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 7870
+  - id: 7747
     name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_3
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 7958
+  - id: 7835
     name: Set_Bonus.Set_Bonus.Improved_Recovery_3
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7951
+  - id: 7828
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8336
+  - id: 8214
     name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_5
 special_bonuses:
 - special: -1

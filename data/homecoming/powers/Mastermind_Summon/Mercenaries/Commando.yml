@@ -7,8 +7,8 @@ display: Commando
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -32,11 +33,18 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Summon Commando
 description_long: 'Enlists one highly trained Commando. The Commando is a seasoned professional who favors heavy assault weapons.  He is simply a one man army that can leave a wake of destruction in his path. In addition to standard Soldier resistance, the Commandos experience also makes him resistant to Fear and his rugged advanced training makes him slightly resistant to Fire, Cold and Toxic Damage. You may only have 1 Commando under your control at any given time.  If you attempt to summon another Commando, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 16
 set_types:
 - 6
 - 21
 - 23
 - 27
+- 30
 - 40
 - 44
 level: 26
@@ -45,12 +53,13 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Boss_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Mercenaries.Commando
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Commando
+  summon: Pets_Commando
   delayed_time: 2
   base_probability: 1
   to_who: 3
@@ -59,8 +68,149 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando.Brawl
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando.Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando.Slug
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando_2.Buckshot
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando_2.Full_Auto
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando_3.M30_Grenade
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando_3.Auto_Turret
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando_3.Flamethrower
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Commando_3.LRM_Rocket
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

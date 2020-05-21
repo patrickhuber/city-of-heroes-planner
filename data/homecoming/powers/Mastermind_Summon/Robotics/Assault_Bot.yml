@@ -7,8 +7,8 @@ display: Assault Bot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -32,6 +33,12 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Summon Assault Bot
 description_long: 'Builds one massive Assault Bot.  Simply put, the Assault Bot is a killing machine.  There is nothing subtle about its weaponry. You may only have 1 Assault Bot under your control at any given time.  If you attempt to summon another Assault Bot, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 23
 set_types:
 - 6
 - 23
@@ -44,12 +51,13 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Boss_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Robotics.Assault_Bot
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Assault_Bot
+  summon: Pets_Assault_Bot
   delayed_time: 2
   base_probability: 1
   to_who: 3
@@ -58,8 +66,102 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Assault.Plasma_Blast
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Assault.Smash
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Assault_2.Dual_Plasma_Blast
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Assault_2.Flamethrower
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Assault_3.Swarm_Missiles
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Assault_3.Incendiary_Swarm_Missiles
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

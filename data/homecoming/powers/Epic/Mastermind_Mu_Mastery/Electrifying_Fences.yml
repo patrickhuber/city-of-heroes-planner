@@ -7,12 +7,12 @@ display: Electrifying Fences
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Mastermind_Mu_Mastery.Static_Discharge
     - ''
   - - Epic.Mastermind_Mu_Mastery.Charged_Armor
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 132
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 12.739999771118164
-cast_time: 1.1699999570846558
+endurance_cost: 12.7399998
+cast_time: 1.16999996
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 10
 max_targets: 10
@@ -39,6 +40,14 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged (Targeted AoE), Minor DoT(Energy), Foe Immobilize, -END
 description_long: 'The Electrifying Fences attempts to Immobilize a group of foes in an area. This power deals some energy damage over time as it slowly drains some Endurance. You must be level 41 and have Thunder Strike or Charged Armor before selecting this power. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 13
+- 17
+- 18
+- 7
 set_types:
 - 3
 - 12
@@ -53,7 +62,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -64,19 +73,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -91,14 +100,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -109,19 +118,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.380840003490448
+  scale: 0.380840003
   magnitude: 1
-  duration: 7.2100000381469727
+  duration: 7.21000004
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -137,14 +146,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   ticks: 4
@@ -154,19 +163,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.039999999105930328
+  scale: -0.0399999991
   magnitude: 1
-  duration: 6.1999998092651367
+  duration: 6.19999981
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   ticks: 4
@@ -178,17 +187,17 @@ effects:
   to_who: 1
   scale: -1
   magnitude: 1
-  duration: 6.1999998092651367
+  duration: 6.19999981
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -199,14 +208,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -217,14 +226,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -237,14 +246,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -257,18 +266,18 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Mastermind_Mu_Mastery.Electrifying_Fences
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 26
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   to_who: 1
@@ -277,8 +286,8 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

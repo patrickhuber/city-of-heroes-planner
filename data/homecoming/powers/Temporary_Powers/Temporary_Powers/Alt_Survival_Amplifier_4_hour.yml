@@ -7,8 +7,8 @@ display: Survival Amplifier (4 hours)
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -27,6 +27,7 @@ cast_through_hold: true
 ignore_strength: true
 description_short: Self, +Max HP, +Regeneration, +Recovery
 description_long: This potent Survival Amplifier has increased your regeneration rate, recovery rate and maximum hit points.  Survival Amplifier lasts for 4 in-game hours.  While this power is active you cannot claim another Survival Amplifier.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,44 +38,44 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_Survival_Amplifier_4_hour
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_Survival_Amplifier_4_hour
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 26
   summon: ''
   base_probability: 1
   player_versus_mode: 1
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_Survival_Amplifier_4_hour
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 14
   summon: ''
   base_probability: 1
@@ -85,8 +86,8 @@ effects:
   duration: 10.75
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf

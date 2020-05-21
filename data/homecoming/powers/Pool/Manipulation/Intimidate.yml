@@ -7,12 +7,12 @@ display: Intimidate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Manipulation.Challenge
     - ''
   - - Pool.Manipulation.Provoke
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 attack_types: 514
@@ -22,8 +22,9 @@ target: 2048
 target_line_of_sight: true
 range: 60
 endurance_cost: 10
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -35,6 +36,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Fear (Foe)
 description_long: When fully engaged in battle, you are a frightening presence and can use this to your advantage. You threaten a single foe and cause that foe to tremble helplessly in fear for a short time. In order to acquire this ability, you must be level 14 and possess either Pacify or Provoke.
+enhancements:
+- 1
+- 8
+- 9
+- 17
+- 18
 set_types:
 - 15
 level: 14
@@ -46,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Manipulation.Intimidate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -61,19 +68,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Pool.Manipulation.Intimidate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 12
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -83,14 +90,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Pool.Manipulation.Intimidate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -106,14 +113,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Intimidate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -129,14 +136,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: Class_Controller
-  i_d_class_name: 1
+  uid_class_name: Class_Controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Intimidate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -152,14 +159,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Pool.Manipulation.Intimidate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -175,8 +182,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: Class_Dominator
-  i_d_class_name: 10
+  uid_class_name: Class_Dominator
+  id_class_name: 10
   magnitude_expression: ''
   reward: ''
   effect_id: Fear

@@ -7,8 +7,8 @@ display: Nerve Boost
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 1
 accuracy: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Increases Accuracy
 description_long: 'For all powers: Increases Accuracy by 33% <br><br> One sixth of these bonuses ignore the effects of enhancement diminishing returns.'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,10 +36,10 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Alpha.Nerve_Boost
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Incarnate.Alpha_Silent.Accuracy_Common
-  delayed_time: 0.10000000149011612
+  delayed_time: 0.100000001
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -46,14 +47,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Alpha_Silent.Accuracy_Common
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Alpha.Nerve_Boost
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 30
   summon: ''
   stacking: 1
@@ -63,25 +64,25 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Alpha_Silent.Accuracy_Common
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Alpha.Nerve_Boost
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 34
   summon: ''
   base_probability: 1
   to_who: 2
   scale: 1
   magnitude: 110
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

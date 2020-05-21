@@ -7,19 +7,20 @@ display: Perfect Shot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.3860000371932983
+accuracy: 1.38600004
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 11.859999656677246
-cast_time: 1.6699999570846558
+endurance_cost: 11.8599997
+cast_time: 1.66999996
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Very High DMG(Lethal)
 description_long: 'A perfectly aimed and fast shot that blasts your foes. Damage: Very High, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 44
@@ -44,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Archery.Ranged_Shot
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -54,18 +61,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.2799999713897705
+  scale: 2.27999997
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Archery.Ranged_Shot
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -75,12 +82,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7680000066757202
+  scale: 1.76800001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

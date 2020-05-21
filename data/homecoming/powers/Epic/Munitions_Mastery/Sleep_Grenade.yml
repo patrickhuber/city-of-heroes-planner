@@ -7,14 +7,14 @@ display: Sleep Grenade
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Munitions_Mastery.Body_Armor
     - ''
   - - Epic.Munitions_Mastery.Cryo_Freeze_Ray
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 12
 group_memberships: []
 entities_affected: 2048
@@ -22,8 +22,9 @@ target: 2048
 target_line_of_sight: true
 range: 80
 endurance_cost: 19.5
-cast_time: 1.8700000047683716
+cast_time: 1.87
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 15
 max_targets: 10
@@ -38,6 +39,13 @@ boosts_allowed:
 - Sleep_Boost
 description_short: Ranged (Targeted AoE), Minor DMG(Smash), Foe Sleep
 description_long: 'Launches a Sleep Grenade at long range from beneath the barrel of your Assault Rifle. This small blast does minor smashing damage but affects all foes within the blast radius, and can knock them back. You must be level 41 and have Body Armor or Cryo Freeze Ray before selecting this power. Damage: Minor, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 21
 set_types:
 - 3
 - 14
@@ -51,7 +59,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Munitions_Mastery.Sleep_Grenade
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -60,22 +68,22 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Munitions_Mastery.Sleep_Grenade
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 9
   summon: ''
-  delayed_time: 0.25999999046325684
+  delayed_time: 0.25999999
   stacking: 1
   base_probability: 1
   buffable: true
@@ -87,18 +95,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Sleep
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Epic.Munitions_Mastery.Sleep_Grenade
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 9
   summon: ''
-  delayed_time: 0.25999999046325684
+  delayed_time: 0.25999999
   stacking: 1
   base_probability: 1
   suppression: 31
@@ -111,8 +119,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Sleep
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep

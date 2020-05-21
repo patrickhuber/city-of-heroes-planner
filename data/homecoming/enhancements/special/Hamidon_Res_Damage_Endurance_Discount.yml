@@ -13,11 +13,11 @@ image: HORibosome.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 1
-- i_d: 18
-  sub_i_d: -1
+- id: 18
+  sub_id: -1
   schedule: 1
   multiplier: 1
 unique_identifier: Hamidon_Res_Damage_Endurance_Discount

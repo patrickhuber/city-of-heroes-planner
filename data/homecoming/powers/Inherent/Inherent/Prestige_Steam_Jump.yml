@@ -7,8 +7,8 @@ display: Steam Jump
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1615874
 power_type: 2
 accuracy: 1
@@ -17,8 +17,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.019500000402331352
+endurance_cost: 0.0195000004
 recharge_time: 30
+base_recharge_time: 30
 activate_period: 0.5
 effect_area: 1
 max_boosts: 0
@@ -26,6 +27,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Self Toggle +Jump, +Fly, Special
 description_long: Your steam powered jump pack grants you the ability to not only jump great distances, but also jump and gain altitude in mid air! The steam powered jump pack will automatically shut down after 30 seconds of continuous use.
+enhancements: []
 set_types: []
 level: 4
 variable_name: ''
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Prestige_Steam_Jump
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 74
   summon: ''
   base_probability: 1
@@ -48,14 +50,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Steam_Jump
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 80
   summon: ''
   base_probability: 1
@@ -66,14 +68,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Steam_Jump
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 34
   summon: ''
   delayed_time: 30
@@ -85,14 +87,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Steam_Jump
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 11
   summon: ''
@@ -105,14 +107,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_SpeedFlying
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedFlying
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Steam_Jump
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -124,8 +126,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap

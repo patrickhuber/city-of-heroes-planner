@@ -7,8 +7,8 @@ display: Burn
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 68
@@ -17,9 +17,10 @@ entities_affected: 2049
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 5.1999998092651367
-cast_time: 2.0299999713897705
+endurance_cost: 5.19999981
+cast_time: 2.02999997
 recharge_time: 25
+base_recharge_time: 25
 effect_area: 2
 radius: 8
 max_targets: 5
@@ -33,6 +34,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Location (PBAoE), Moderate DoT(Fire), Self Res(Immobilize)
 description_long: 'You can ignite the ground beneath you, freeing yourself from Immobilization effects. Foes that enter the flames you leave behind will take damage. You must be near the ground to activate this power. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 4
 - 33
@@ -50,7 +56,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Burn
   stacking: 1
@@ -63,14 +69,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -81,14 +87,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -97,18 +103,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 3
-  scale: 1.6000000238418579
+  scale: 1.60000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -116,19 +122,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -136,19 +142,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -156,19 +162,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -176,19 +182,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -196,19 +202,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -216,19 +222,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -236,19 +242,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -256,19 +262,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.061000000685453415
+  scale: 0.0610000007
   magnitude: 1
-  duration: 9.5299997329711914
+  duration: 9.52999973
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Fire_Manipulation.Burn
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 20
   mezmorize_type: 3
   summon: ''
@@ -278,8 +284,8 @@ effects:
   magnitude: -15
   attrib_type: 1
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

@@ -7,8 +7,8 @@ display: Hot Feet
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -18,9 +18,10 @@ entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 2.0799999237060547
-cast_time: 1.4700000286102295
+endurance_cost: 2.07999992
+cast_time: 1.47000003
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 2
 effect_area: 2
 radius: 20
@@ -36,6 +37,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: 'Toggle: PBAoE, Minor DoT(Fire), Foe -SPD'
 description_long: 'While active, you heat the earth in a large area around yourself. Enemy movement is Slowed as they attempt to flee the immediate area. All foes in the affected area may also suffer some damage over time.  You cannot fly and must be near the ground to use this power. Damage: Minor(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 22
 set_types:
 - 4
 - 13
@@ -49,7 +56,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -64,14 +71,14 @@ effects:
   modifier_table: Ranged_Damage
   near_ground: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -87,14 +94,14 @@ effects:
   aspect: 2
   modifier_table: Ranged_Damage
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -110,14 +117,14 @@ effects:
   aspect: 2
   modifier_table: Ranged_Damage
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 16
   summon: ''
@@ -129,14 +136,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 10
   summon: ''
   stacking: 1
@@ -148,66 +155,66 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 9
   effect_modifiers: 16
   summon: ''
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 2.25
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 17
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Controller_Control.Fire_Control.Hot_Feet
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 32
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Slow
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

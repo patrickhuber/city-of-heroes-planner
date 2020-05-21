@@ -7,10 +7,10 @@ display: Wu Yin
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
@@ -23,6 +23,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Special
 description_long: You are experiencing the personal story of Wu Yin.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -33,7 +34,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Wu_Yin_Costume
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 33
   summon: ''
   base_probability: 1
@@ -43,14 +44,14 @@ effects:
   duration: 11
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Wu_Yin_Costume
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -60,14 +61,14 @@ effects:
   duration: 11
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.PS_Wu_Yin_Costume
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 13
   summon: ''
@@ -78,8 +79,8 @@ effects:
   duration: 11
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

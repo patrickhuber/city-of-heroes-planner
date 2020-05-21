@@ -7,8 +7,8 @@ display: Eviscerate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 8.8749399185180664
-cast_time: 2.3299999237060547
-recharge_time: 8.866999626159668
+endurance_cost: 8.87493992
+cast_time: 2.32999992
+recharge_time: 8.86699963
+base_recharge_time: 8.86699963
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Superior DMG(Lethal), +Special
 description_long: 'You spin and slash violently at the foe in front of you. This attack deals exceptional damage, and has a high chance of landing a critical hit even while not hidden. Damage: Superior, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 42
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -54,18 +60,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.2300000190734863
+  scale: 2.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -76,39 +82,39 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 2.2300000190734863
+  scale: 2.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.2300000190734863
+  scale: 2.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -118,18 +124,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.4200100898742676
+  scale: 2.42001009
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -140,18 +146,18 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 2.4200100898742676
+  scale: 2.42001009
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -159,28 +165,28 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 2.2300000190734863
+  scale: 2.23000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Claws.Eviscerate
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
-  base_probability: 0.94335001707077026
+  base_probability: 0.943350017
   to_who: 2
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones

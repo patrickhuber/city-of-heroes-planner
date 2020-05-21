@@ -7,8 +7,8 @@ display: Deflection Shield
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 512
 target_line_of_sight: true
 range: 80
 endurance_cost: 9.75
-cast_time: 2.0699999332427979
+cast_time: 2.06999993
 recharge_time: 2
+base_recharge_time: 2
 effect_area: 2
 radius: 30
 max_targets: 255
@@ -33,6 +34,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Ally +DEF(Smash, Lethal, Melee), Res(Toxic)
 description_long: 'Dramatically protects an ally from Smashing, Lethal and all Melee attacks for a limited time.  Also reduces Toxic damage. You cannot stack multiple Deflection Shields on the same target; however, the shield can be improved by another ally using the same power. Can also be used in conjunction with your Insulation Shield. You cannot use this power on yourself. Recharge: Very Fast'
+enhancements:
+- 5
+- 8
+- 17
+- 18
 set_types:
 - 7
 level: 2
@@ -44,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Force_Field.Deflection_Shield
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -56,14 +62,14 @@ effects:
   duration: 240
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Deflection_Shield
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -75,14 +81,14 @@ effects:
   duration: 240
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Deflection_Shield
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -94,14 +100,14 @@ effects:
   duration: 240
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Deflection_Shield
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -111,8 +117,8 @@ effects:
   magnitude: 1
   duration: 240
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

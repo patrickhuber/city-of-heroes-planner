@@ -12,11 +12,11 @@ level_min: 49
 level_max: 49
 unique: true
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.625
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.625
 unique_identifier: Crafted_Soulbound_Allegiance_D
 recipe: Soulbound_Allegiance_D

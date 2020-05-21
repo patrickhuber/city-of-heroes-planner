@@ -7,8 +7,8 @@ display: Adaptation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Gain Efficient, Defensive and Offensive Adaptations
 description_long: 'By purchasing this power you gain access to three mutually exclusive toggle powers: Efficient Adaptation, Defensive Adaptation and Offensive Adaptation. If Defensive Adaptation is active you gain improved damage resistance from Hardened Carapace and Evolving Armor, additional defense from Environmental Modification and Evolving Armor, and increased Maximum HP from Environmental Modification and Inexhaustible. If Offensive Adaptation is active you gain bonus damage from Hardened Carapace, additional To Hit from Environmental Modification, empowered -resistance debuff from Evolving Armor, and your debuff effects from DNA Siphon, Genetic Contamination and Parasitic Aura are increased.  While Efficient Adaptation is active Hardened Carapace will provide a moderate endurance discount, Inexhaustible has increased Regeneration and Recovery, Evolving Armor grants additional regeneration and recovery per nearby target, DNA Siphon grants additional regeneration and recovery for each defeated target and Parasitic Aura grants additional regeneration and recovery for each nearby target.'
+enhancements: []
 set_types: []
 level: 6
 variable_name: ''
@@ -34,7 +35,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Evolution
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   stacking: 1
@@ -45,8 +46,8 @@ effects:
   duration: 999999
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

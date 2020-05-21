@@ -7,8 +7,8 @@ display: Empowering Burst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 512
@@ -16,8 +16,9 @@ entities_auto_hit: 512
 target: 134217728
 target_line_of_sight: true
 range: 60
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 2
 radius: 30
 max_targets: 16
@@ -30,6 +31,10 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Targeted AoE, +Regen, +Rec, +End, +Recharge
 description_long: You fire a mass of coalesced life energy at a single target. This mass explodes on reaching its destination, causing the target and those nearby to be infused with its power. All affected targets have enhanced Regeneration, Recovery, Recharge and steadily gain Endurance over Time.
+enhancements:
+- 8
+- 11
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +46,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Lore_Pet_Banished_Support.Frigid_Burst
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -52,14 +57,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Support.Frigid_Burst
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -70,14 +75,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Support.Frigid_Burst
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 7
   summon: ''
   delayed_time: 0.5
@@ -85,19 +90,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Banished_Support.Frigid_Burst
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -110,8 +115,8 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

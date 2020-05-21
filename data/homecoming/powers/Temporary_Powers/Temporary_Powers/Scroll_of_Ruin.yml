@@ -7,8 +7,8 @@ display: Scroll of Ruin
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1.5
 attack_types: 260
@@ -18,8 +18,9 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 1000
+base_recharge_time: 1000
 effect_area: 2
 radius: 20
 max_targets: 16
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Ranged (Targeted AoE), Foe -DEF
 description_long: This incantation will drastically reduce the Defense of all foes in the affected area. The affected foes become vulnerable and incredibly easy to hit. This scroll possesses powerful dark magics, and its effects are almost impossible to resist or avoid. The Scroll of Ruin can only be used once.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Scroll_of_Ruin
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -50,8 +52,8 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

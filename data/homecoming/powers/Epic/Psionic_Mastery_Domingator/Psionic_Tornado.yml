@@ -7,7 +7,7 @@ display: Psionic Tornado
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Psionic_Mastery_Domingator.Link_Minds
     - Epic.Psionic_Mastery_Domingator.Indomitable_Will
   - - Epic.Psionic_Mastery_Domingator.Link_Minds
@@ -18,7 +18,7 @@ requirement:
     - Epic.Psionic_Mastery_Domingator.Mind_Over_Body
   - - Epic.Psionic_Mastery_Domingator.Indomitable_Will
     - Epic.Psionic_Mastery_Domingator.World_of_Confusion
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 516
@@ -27,9 +27,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 100
-endurance_cost: 23.139999389648438
-cast_time: 2.369999885559082
+endurance_cost: 23.1399994
+cast_time: 2.36999989
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 20
 max_targets: 16
@@ -44,6 +45,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Targeted AoE), Moderate DoT(Psionic), Foe Knockback
 description_long: 'Unleashes a whirlwind of Psionic energy on a target, tossing nearby foes into the air. The Psionic Tornado damages foes and Slows their attack speed. You must be level 44 and have two other Psionic Mastery Powers before selecting this power. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -56,7 +64,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Psionic_Mastery_Domingator.Psionic_Tornado
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -67,19 +75,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.17499999701976776
+  scale: 0.174999997
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Psionic_Mastery_Domingator.Psionic_Tornado
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -87,19 +95,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Epic.Psionic_Mastery_Domingator.Psionic_Tornado
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -110,19 +118,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.23968000710010529
+  scale: 0.239680007
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Psionic_Mastery_Domingator.Psionic_Tornado
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -134,19 +142,19 @@ effects:
   special_case: 10
   player_versus_mode: 1
   to_who: 1
-  scale: 0.17499999701976776
+  scale: 0.174999997
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: class_controller
-  i_d_class_name: 1
+  uid_class_name: class_controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Psionic_Mastery_Domingator.Psionic_Tornado
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -158,19 +166,19 @@ effects:
   special_case: 10
   player_versus_mode: 2
   to_who: 1
-  scale: 0.11984000355005264
+  scale: 0.119840004
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: class_controller
-  i_d_class_name: 1
+  uid_class_name: class_controller
+  id_class_name: 1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Psionic_Mastery_Domingator.Psionic_Tornado
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -179,12 +187,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.3999999761581421
+  scale: 1.39999998
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

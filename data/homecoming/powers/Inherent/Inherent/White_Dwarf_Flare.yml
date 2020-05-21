@@ -8,10 +8,10 @@ requirement:
   class_names:
   - Class_Peacebringer
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Peacebringer_Defensive.Luminous_Aura.White_Dwarf
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_required: 32768
 modes_disallowed: 1581058
 accuracy: 1
@@ -20,9 +20,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 15.184000015258789
-cast_time: 2.0999999046325684
+endurance_cost: 15.184
+cast_time: 2.0999999
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 15
 max_targets: 10
@@ -37,6 +38,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE Melee, High DMG(Energy), Foe -DEF, Knockback
 description_long: 'You channel the might of your Kheldian energy into the very Earth itself.  The ground erupts and cracks with luminous energy, blasting all nearby foes, knocking them back and reducing their defense. This power is only available while in White Dwarf Form. Damage: High, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 16
+- 18
 set_types:
 - 4
 - 21
@@ -50,13 +58,13 @@ sub_powers: []
 ignore_enhancements:
 - 13
 ignore_buffs: []
-display_location: 12
+display_location: 37
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.White_Dwarf_Flare
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -66,38 +74,38 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.899999976
   magnitude: 1
   aspect: 2
   modifier_table: Melee_SSDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SSDamage
   override: ''
 - power_full_name: Inherent.Inherent.White_Dwarf_Flare
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.White_Dwarf_Flare
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -107,18 +115,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.92676997184753418
+  scale: 0.926769972
   magnitude: 1
   aspect: 2
   modifier_table: Melee_SSDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SSDamage
   override: ''
 - power_full_name: Inherent.Inherent.White_Dwarf_Flare
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   summon: ''
   stacking: 1
@@ -131,14 +139,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Inherent.Inherent.White_Dwarf_Flare
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -155,14 +163,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Inherent.Inherent.White_Dwarf_Flare
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -178,8 +186,8 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt

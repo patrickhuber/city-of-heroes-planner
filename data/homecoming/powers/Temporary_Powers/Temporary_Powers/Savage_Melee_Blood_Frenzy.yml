@@ -7,8 +7,8 @@ display: Blood Frenzy
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: Self, +DMG, +End Discount, +Special
 description_long: Each stack of Blood Frenzy grants you a small damage and endurance discount buff. It is also consumed by certain powers to empower them. Blood Frenzy stacks up to 5 times. Shred deals additional damage and has a chance to immediately recharge itself per stack of Blood Frenzy. Rending Flurry's damage is increased by each stack of Blood Frenzy, additionally if you have 5 stacks of Blood Frenzy this power's radius is increased. Blood Thirst's heal over time effect is increased with each stack of Blood Frenzy.  Additionally, using Blood Thirst with 5 stacks of Blood Frenzy will cause the heal over time effect to heal for a longer duration. Hemorrhage's bleed effect is greatly increased by each stack of Blood Frenzy and executing this power with 5 stacks of Blood Frenzy will increase the duration of the damage over time effect. Using Shred, Rending Flurry, Blood Thirst or Hemorrhage with 5 stacks of Blood Frenzy will cause you to be Exhausted for 8 seconds. While Exhausted you cannot build stacks of Blood Frenzy.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,190 +36,190 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.059999998658895493
+  scale: 0.0599999987
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 45
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ShredRecharge
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Superior Ascendency of the Dominator
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: +DMG(All)
 description_long: Superior Ascendency of the Dominator increases your damage moderately for a short time and stacks up to 3 times.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +36,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -46,14 +47,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -64,14 +65,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -82,14 +83,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -100,14 +101,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -118,14 +119,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -136,14 +137,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -154,14 +155,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Ascendency_of_the_Dominator
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -172,8 +173,8 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

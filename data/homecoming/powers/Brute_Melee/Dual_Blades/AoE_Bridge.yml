@@ -7,8 +7,8 @@ display: Typhoon's Edge
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 11.855999946594238
-cast_time: 2.2699999809265137
+endurance_cost: 11.8559999
+cast_time: 2.26999998
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 2
 radius: 8
 max_targets: 10
@@ -32,6 +33,12 @@ boosts_allowed:
 - Taunt_Boost
 description_short: PBAoE Melee, Moderate DMG(Lethal)
 description_long: 'You spin around in a circle, attacking everyone within melee range with a striking attack. This attack is the finishing move in both the Weaken and Sweep combination attacks. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 24
 set_types:
 - 4
 - 24
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -58,19 +65,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.56999999284744263
+  scale: 0.569999993
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 48
   summon: ''
   stacking: 1
@@ -78,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -100,19 +107,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.95411002635955811
+  scale: 0.954110026
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -129,14 +136,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -152,14 +159,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   summon: ''
   stacking: 1
@@ -174,14 +181,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 40
   summon: ''
   stacking: 1
@@ -195,14 +202,14 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -212,19 +219,19 @@ effects:
   resistible: true
   special_case: 13
   to_who: 1
-  scale: 0.56999999284744263
+  scale: 0.569999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -235,18 +242,18 @@ effects:
   special_case: 13
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -258,18 +265,18 @@ effects:
   special_case: 13
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 47
   summon: ''
   stacking: 1
@@ -279,14 +286,14 @@ effects:
   magnitude: 42
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 47
   summon: ''
   stacking: 1
@@ -296,14 +303,14 @@ effects:
   magnitude: 43
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 47
   summon: ''
   stacking: 1
@@ -313,14 +320,14 @@ effects:
   magnitude: 44
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 47
   summon: ''
   delayed_time: 0.25
@@ -331,14 +338,14 @@ effects:
   magnitude: 45
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 47
   summon: ''
   stacking: 1
@@ -348,14 +355,14 @@ effects:
   magnitude: 46
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 47
   summon: ''
   delayed_time: 0.25
@@ -366,14 +373,14 @@ effects:
   magnitude: 47
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 47
   summon: ''
   stacking: 1
@@ -383,14 +390,14 @@ effects:
   magnitude: 48
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 47
   summon: ''
   stacking: 1
@@ -400,14 +407,14 @@ effects:
   magnitude: 49
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -416,18 +423,18 @@ effects:
   resistible: true
   special_case: 13
   to_who: 1
-  scale: 0.2565000057220459
+  scale: 0.256500006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Brute_Melee.Dual_Blades.AoE_Bridge
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -436,13 +443,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.2565000057220459
+  scale: 0.256500006
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

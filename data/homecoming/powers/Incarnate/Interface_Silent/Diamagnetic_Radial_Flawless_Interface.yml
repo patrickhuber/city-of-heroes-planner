@@ -7,8 +7,8 @@ display: Diamagnetic Radial Flawless Interface
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 5
 accuracy: 1
@@ -30,6 +30,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: 'Adds: -To Hit, -Regeneration'
 description_long: Adds a to hit debuff and superior regeneration debuff to most damaging attacks.
+enhancements:
+- 4
 set_types: []
 level: 1
 variable_name: ''

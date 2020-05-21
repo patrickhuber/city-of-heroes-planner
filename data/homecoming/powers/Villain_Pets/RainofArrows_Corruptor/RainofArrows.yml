@@ -7,8 +7,8 @@ display: RainofArrows
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 attack_types: 20
@@ -16,7 +16,7 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-activate_period: 0.40000000596046448
+activate_period: 0.400000006
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -27,6 +27,9 @@ boosts_allowed:
 - Damage_Boost
 description_short: DoT(Lethal)
 description_long: All foes that pass through this storm of arrows will be impaled.
+enhancements:
+- 1
+- 4
 set_types: []
 level: 1
 variable_name: ''
@@ -38,7 +41,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Villain_Pets.RainofArrows_Corruptor.RainofArrows
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -48,18 +51,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.90450000762939453
+  scale: 0.904500008
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.RainofArrows_Corruptor.RainofArrows
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -69,18 +72,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.42857000231742859
+  scale: 0.428570002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.RainofArrows_Corruptor.RainofArrows
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -91,18 +94,18 @@ effects:
   special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 0.90450000762939453
+  scale: 0.904500008
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.RainofArrows_Corruptor.RainofArrows
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -113,12 +116,12 @@ effects:
   special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 0.42857000231742859
+  scale: 0.428570002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

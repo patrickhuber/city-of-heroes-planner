@@ -1,4 +1,4 @@
-index: 10359
+index: 10358
 full_name: Pool.Force_of_Will.Unleash_Potential
 group_name: Pool
 set_name: Force_of_Will
@@ -7,41 +7,41 @@ display: Unleash Potential
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Force_of_Will.Weaken_Resolve
     - Pool.Force_of_Will.Project_Will
   - - Pool.Force_of_Will.Weaken_Resolve
     - Pool.Force_of_Will.Mighty_Leap
-  - - Pool.Force_of_Will.Project_Will
-    - Pool.Force_of_Will.Mighty_Leap
-  power_i_ds_not: []
-modes_disallowed: 66
+  - - Pool.Force_of_Will.Mighty_Leap
+    - Pool.Force_of_Will.Project_Will
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 2.5999999046325684
-cast_time: 0.73000001907348633
+endurance_cost: 2.5999999
+cast_time: 0.730000019
 recharge_time: 600
+base_recharge_time: 600
 effect_area: 1
-max_boosts: 6
-number_allowed: 1
-boosts_allowed:
-- Buff_Defense_Boost
-- EnduranceDiscount_Boost
-- Heal_Boost
-- Recharge_Boost
-- Recovery_Boost
+max_boosts: ''
+boosts_allowed: []
 description_short: Self, +Regen, +Recovery, +Recharge, +Defense
 description_long: 'Unleashing your potential, you grant yourself a moderate boost to defense, regeneration rate, recovery and recharge for a short time. Unleash Potential requires you to have two other powers in the Force of Will power pool. Unleash Potential will drain a portion of your endurance and prevent you from recovering endurance after its benefits expire. This crash can be mitigated by using the Presence power Unrelenting before using Unleash Potential. Recharge: Very Long'
+enhancements:
+- 5
+- 7
+- 8
+- 11
+- 18
 set_types:
 - 7
 - 9
 - 22
 click_buff: true
-level: 14
+level: 20
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
@@ -49,26 +49,8 @@ ignore_buffs: []
 mutually_exclusive_auto: true
 forced_class: ''
 effects:
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 1
-  effect_type: 9
-  effect_modifiers: 25
-  summon: ''
-  base_probability: 1
-  to_who: 2
-  scale: 0.5
-  magnitude: 1
-  duration: 60
-  aspect: 3
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Ones
-  override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 2
+- power_full_name: ''
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -79,14 +61,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 3
+- power_full_name: ''
+  unique_id: 3
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -97,270 +79,199 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 4
+- power_full_name: ''
+  unique_id: 4
   effect_type: 5
   damage_type: 10
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 5
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 11
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 6
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 12
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 7
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 1
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 8
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 2
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 9
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 3
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 10
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 4
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 11
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 5
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 12
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 6
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 13
+- power_full_name: ''
+  unique_id: 5
   effect_type: 5
   damage_type: 8
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 1.5
+  scale: 1.79999995
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
-  override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 14
-  effect_type: 26
-  summon: ''
-  delayed_time: 60
-  stacking: 1
-  base_probability: 1
-  to_who: 2
-  scale: -1
-  magnitude: 1
-  duration: 15
-  aspect: 4
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: GlobalCrash
-  override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 15
-  effect_type: 7
-  summon: ''
-  delayed_time: 60
-  stacking: 1
-  base_probability: 1
-  to_who: 2
-  scale: -0.25
-  magnitude: 1
-  aspect: 4
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: GlobalCrash
-  override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 16
-  effect_type: 45
-  summon: ''
-  base_probability: 1
-  to_who: 2
-  scale: -1
-  magnitude: 1
-  duration: 60
-  aspect: 4
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: PresenceHealHigh
-  effect_id: Ones
-  override: ''
-- power_full_name: Pool.Force_of_Will.Unleash_Potential
-  unique_i_d: 17
-  effect_type: 45
-  summon: ''
-  base_probability: 1
-  to_who: 2
-  scale: 1
-  magnitude: 1
-  duration: 60
-  aspect: 4
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: PresenceHealLow
-  effect_id: Ones
   override: ''

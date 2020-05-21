@@ -1,0 +1,52 @@
+index: 10795
+full_name: Set_Bonus.Set_Bonus.Sudden_Acceleration
+group_name: Set_Bonus
+set_name: Set_Bonus
+name: Sudden_Acceleration
+display: Sudden Acceleration
+requirement:
+  class_names: []
+  class_names_not: []
+  power_ids: []
+  power_ids_not: []
+power_type: 3
+accuracy: 1
+group_memberships: []
+entities_affected: 1
+entities_auto_hit: 1
+target: 1
+target_line_of_sight: true
+activate_period: 10
+effect_area: 1
+max_boosts: ''
+boosts_allowed: []
+description_short: -Knockback
+description_long: Changes this powers Knockback to Knockdown
+enhancements: []
+set_types: []
+level: 1
+variable_name: ''
+sub_powers: []
+ignore_enhancements: []
+ignore_buffs: []
+mutually_exclusive_auto: true
+forced_class: ''
+effects:
+- power_full_name: ''
+  effect_type: 9
+  mezmorize_type: 4
+  effect_modifiers: 19
+  summon: ''
+  base_probability: 1
+  buffable: true
+  resistible: true
+  scale: -0.850000024
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''

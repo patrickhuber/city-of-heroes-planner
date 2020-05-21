@@ -7,8 +7,8 @@ display: Neutrino Bolt
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 3.119999885559082
+endurance_cost: 3.11999989
 cast_time: 1
 recharge_time: 1.5
+base_recharge_time: 1.5
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Minor DMG(Energy), Foe -DEF
 description_long: "A very quick, but low damage attack. Neutrino Bolt can reduce the target's Defense. Damage: Minor, Recharge: Very Fast"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 21
@@ -48,7 +56,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Defender_Ranged.Radiation_Blast.Neutrino_Bolt
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -58,18 +66,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Radiation_Blast.Neutrino_Bolt
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -83,14 +91,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Defender_Ranged.Radiation_Blast.Neutrino_Bolt
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -100,12 +108,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.8102999925613403
+  scale: 1.81029999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

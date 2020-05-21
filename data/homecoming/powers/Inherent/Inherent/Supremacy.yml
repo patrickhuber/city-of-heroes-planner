@@ -8,18 +8,17 @@ requirement:
   class_names:
   - Class_Mastermind
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
-power_type: 2
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 65536
-entities_auto_hit: 65536
-target: 1
+entities_auto_hit: 4096
+target: 61440
 target_line_of_sight: true
-cast_time: 1.715999960899353
+cast_time: 1.71599996
 activate_period: 0.5
-effect_area: 2
+effect_area: 1
 radius: 60
 max_boosts: ''
 number_allowed: 1
@@ -27,20 +26,21 @@ boosts_allowed: []
 ignore_strength: true
 description_short: PBAoE, Henchman +ACC, +DMG
 description_long: A good Mastermind knows how to manage his Henchmen. The Mastermind imparts a bonus to his Henchmen's Accuracy and Damage only if he is nearby and not Phased or otherwise can only use Self Only powers.  Additionally, your Henchmen within range in Defensive mode will share damage with the Mastermind, with damage being divided evenly between the Mastermind and each one of his Henchmen in range.
+enhancements: []
 set_types: []
+click_buff: true
 level: 1
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 3
 mutually_exclusive_auto: true
 never_auto_update: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -51,14 +51,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -69,14 +69,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -87,14 +87,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -105,14 +105,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -123,14 +123,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -141,14 +141,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -159,14 +159,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -177,31 +177,31 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 40
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 46
   summon: ''
   base_probability: 1
@@ -211,14 +211,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Supremacy
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 46
   summon: ''
   base_probability: 1
@@ -228,8 +228,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

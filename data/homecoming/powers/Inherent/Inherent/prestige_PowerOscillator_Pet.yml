@@ -7,8 +7,8 @@ display: Power Oscillator Pet
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 512
 power_type: 2
 accuracy: 1
@@ -19,8 +19,9 @@ entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
-cast_time: 2.3299999237060547
+cast_time: 2.32999992
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 10
 effect_area: 4
 max_boosts: 0
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'Summon Oscillator Pet: +Dmg, +Res'
 description_long: You can use this power to summon a Clockwork Oscillator.  It will follow you around and help you by increasing your damaging abilities and your resilience to damage.  It's fragile, though, and will flee if attacked.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.prestige_PowerOscillator_Pet
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Power_Oscillator_Pet
   delayed_time: 1.5
@@ -51,8 +53,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

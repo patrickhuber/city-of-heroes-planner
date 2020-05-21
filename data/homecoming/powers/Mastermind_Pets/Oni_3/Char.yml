@@ -7,8 +7,8 @@ display: Char
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 66
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 8.5279998779296875
-cast_time: 1.0700000524520874
+endurance_cost: 8.52799988
+cast_time: 1.07000005
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Hold_Boost
 description_short: Ranged, Moderate DoT(Fire), Foe Hold
 description_long: 'Incapacitates a distant foe by Charring him with smoldering soot and cinders. The target is left helpless, choking on the soot. Damage: Moderate(DoT), Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 12
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +48,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Oni_3.Char
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -57,14 +63,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Mastermind_Pets.Oni_3.Char
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -80,14 +86,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Oni_3.Char
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -97,19 +103,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Oni_3.Char
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -120,13 +126,36 @@ effects:
   resistible: true
   special_case: 9
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 3
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0549999997
+  magnitude: 1
+  duration: 4.19999981
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

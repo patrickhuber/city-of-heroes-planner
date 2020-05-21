@@ -11,11 +11,11 @@ image: Intan.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 12
-  sub_i_d: 6
+- id: 12
+  sub_id: 6
   multiplier: 1
-- i_d: 12
-  sub_i_d: 13
+- id: 12
+  sub_id: 13
   multiplier: 1
 unique_identifier: Magic_Intangible
 recipe: Ticket_Magic

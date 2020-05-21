@@ -7,8 +7,8 @@ display: Ice Patch
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 2
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 10.399999618530273
-cast_time: 3.4700000286102295
+endurance_cost: 10.3999996
+cast_time: 3.47000003
 recharge_time: 35
+base_recharge_time: 35
 effect_area: 1
 max_boosts: 6
 cast_flags: 3
@@ -28,6 +29,9 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Location (PBAoE), Foe Knockdown
 description_long: 'You emanate a Patch of Ice around you. Foes that step onto the Ice Patch will slip and fall down. This effect lasts until the ice melts. You must be near the ground to activate this power. Recharge: Slow'
+enhancements:
+- 8
+- 18
 set_types: []
 level: 8
 variable_name: ''
@@ -41,7 +45,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Melee.Ice_Melee.Ice_Patch
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_IcePatch
   stacking: 1
@@ -53,8 +57,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Level
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

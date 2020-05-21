@@ -7,8 +7,8 @@ display: Grant Cover
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 9
 entities_auto_hit: 9
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.31200000643730164
+endurance_cost: 0.312000006
 cast_time: 2.5
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 2
 effect_area: 2
 radius: 15
@@ -33,6 +34,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Team (but not self) +DEF(All but Psionic), Team +RES(Defense Debuff, Recharge Debuff)
 description_long: 'You are able to use your shield to defend nearby allies.  Any teammates who remain nearby gain a bonus to their defense.  (NOTE: The defense bonus from this power is only applied to nearby team mates, but not yourself.)  Additionally, while this power is active, the user and his team mates  will gain some resistance to defense and recharge rate debuffs. Recharge: Slow'
+enhancements:
+- 5
+- 8
+- 18
 set_types:
 - 7
 always_toggle: true
@@ -45,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -58,14 +63,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -78,14 +83,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -98,14 +103,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -118,14 +123,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -138,14 +143,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -158,14 +163,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -178,14 +183,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -198,14 +203,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -218,44 +223,44 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 28
   effect_modifiers: 5
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 2.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 28
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 2.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Phase Shift
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,15 +16,17 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 3.6400001049041748
+endurance_cost: 3.6400001
 cast_time: 3
 recharge_time: 500
+base_recharge_time: 500
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
 boosts_allowed: []
 description_short: Self Intangible
 description_long: Ghosts can Phase Shift into the negative plane and becomes out of sync with normal space. While Phase Shifted, they are in touch with their native plane and can regenerate quickly.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,24 +38,24 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 41
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 20
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 19
   summon: ''
@@ -64,14 +66,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 13
   summon: ''
@@ -82,14 +84,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -100,14 +102,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 6
   summon: ''
@@ -118,14 +120,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 13
   summon: ''
   ticks: 7
@@ -139,14 +141,14 @@ effects:
   duration: 6
   aspect: 2
   modifier_table: Ranged_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Mastermind_Pets.Ghosts.Phase_Shift
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 16
   summon: ''
@@ -157,8 +159,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

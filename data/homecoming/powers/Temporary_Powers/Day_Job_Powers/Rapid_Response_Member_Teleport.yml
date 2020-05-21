@@ -7,8 +7,8 @@ display: Base Teleporter
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 770
 accuracy: 1
 group_memberships: []
@@ -20,6 +20,7 @@ endurance_cost: 13
 interrupt_time: 15
 cast_time: 17
 recharge_time: 900
+base_recharge_time: 900
 effect_area: 1
 max_boosts: ''
 number_of_charges: 10
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Teleport to Base
 description_long: 'You have earned the ability to teleport back to your supergroup base from your diligent duty on patrol and guarding your base.  Using this power will teleport you back to your supergroup and it can be used once every 15 minutes.  Additional uses of this power can be gained by logging out on Patrol or back at your Supergroup base.  Recharge: Very Long.'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Day_Job_Powers.Rapid_Response_Member_Teleport
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 41
   summon: ''
   stacking: 1
@@ -48,18 +50,18 @@ effects:
   duration: 1.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Day_Job_Powers.Rapid_Response_Member_Teleport
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 14
   summon: ''
-  delayed_time: 1.1699999570846558
+  delayed_time: 1.16999996
   stacking: 1
   base_probability: 1
   buffable: true
@@ -68,8 +70,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

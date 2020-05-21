@@ -7,8 +7,8 @@ display: Against All Odds
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.20800000429153442
+endurance_cost: 0.208000004
 cast_time: 2.5
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 1
 effect_area: 2
 radius: 8
@@ -33,6 +34,10 @@ boosts_allowed:
 ignore_strength: true
 description_short: 'Toggle: Self +DMG, Foe -DMG'
 description_long: 'The harder pressed you are in combat the greater your offensive abilities become.  Each enemy that stands toe-to-toe with you in combat will grant you a damage bonus.  The first foe you engage in melee grants the highest damage bonus, and up to 10 foes can contribute to this effect. Each foe in melee range also suffers from reduced damage as your shield deflects a portion of their damage. Recharge: Slow'
+enhancements:
+- 8
+- 18
+- 24
 set_types: []
 always_toggle: true
 level: 16
@@ -47,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -64,14 +69,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -87,14 +92,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -105,14 +110,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -123,14 +128,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -141,14 +146,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -159,14 +164,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -177,14 +182,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -195,14 +200,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -213,14 +218,14 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -231,166 +236,166 @@ effects:
   duration: 1.25
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 1
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 2
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 3
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 4
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 5
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 4
   damage_type: 6
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 4
   damage_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 4
   damage_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 1
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -402,14 +407,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -421,14 +426,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -440,14 +445,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -459,14 +464,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -478,14 +483,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -497,14 +502,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -516,14 +521,14 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Scrapper_Defense.Shield_Defense.Against_all_Odds
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -535,8 +540,8 @@ effects:
   duration: 1
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam

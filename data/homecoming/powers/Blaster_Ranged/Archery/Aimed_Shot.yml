@@ -7,19 +7,20 @@ display: Aimed Shot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1549999713897705
+accuracy: 1.15499997
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.1999998092651367
-cast_time: 1.6699999570846558
+endurance_cost: 5.19999981
+cast_time: 1.66999996
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,12 @@ boosts_allowed:
 cast_through_hold: true
 description_short: Ranged, High DMG(Lethal)
 description_long: 'Though it takes longer to execute, your Aimed Shot deals greater damage than Snap Shot. Damage: High, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 33
@@ -45,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -55,18 +62,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -76,18 +83,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.2242801189422607
+  scale: 2.22428012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -95,19 +102,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -115,19 +122,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -135,19 +142,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -155,19 +162,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -175,19 +182,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -195,19 +202,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -215,19 +222,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Ranged.Archery.Aimed_Shot
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -235,13 +242,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 9.1700000762939453
+  duration: 9.17000008
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

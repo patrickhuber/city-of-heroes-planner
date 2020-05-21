@@ -7,8 +7,8 @@ display: Follow Up
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not:
+  power_ids: []
+  power_ids_not:
   - - Widow_Training.Night_Widow_Training.Build_Up
     - ''
 modes_disallowed: 2
@@ -19,9 +19,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 7.8000001907348633
-cast_time: 0.82999998331069946
+endurance_cost: 7.80000019
+cast_time: 0.829999983
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -33,6 +34,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Moderate DMG(Lethal), Self +DMG
 description_long: 'You perform a feint attack that deals moderate damage. After this attack hits, it gives you a large bonus to your chance to hit and damage for a brief time. NOTE: This power will deal critical damage if used after a successful Placate or while the user is hidden with the Night Widow or Fortunata Mask Presence power, additionally if you select this power, you may not also select Build Up.  Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 25
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 25
@@ -50,7 +57,7 @@ never_auto_update_requirements: true
 forced_class: ''
 effects:
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -60,18 +67,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.91200000047683716
+  scale: 0.912
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -82,18 +89,18 @@ effects:
   special_case: 1
   player_versus_mode: 1
   to_who: 1
-  scale: 0.60799998044967651
+  scale: 0.60799998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -103,18 +110,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.4820200204849243
+  scale: 1.48202002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -125,21 +132,21 @@ effects:
   special_case: 1
   player_versus_mode: 2
   to_who: 1
-  scale: 0.98851001262664795
+  scale: 0.988510013
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 40
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   buffable: true
@@ -149,18 +156,18 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 1
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -169,18 +176,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 2
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -189,18 +196,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 3
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -209,18 +216,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 4
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -229,18 +236,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 5
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -249,18 +256,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 6
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -269,18 +276,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 7
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -289,18 +296,18 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Follow_Up
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 8
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   to_who: 2
@@ -309,8 +316,8 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

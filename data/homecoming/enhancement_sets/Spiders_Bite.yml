@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8029
+  - id: 7906
     name: Set_Bonus.Set_Bonus.Increased_Damage_4
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8100
+  - id: 7977
     name: Set_Bonus.Set_Bonus.Increased_Health_5
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8134
+  - id: 8011
     name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7968
+  - id: 7845
     name: Set_Bonus.Set_Bonus.Improved_Regeneration_6
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8038
+  - id: 7915
     name: Set_Bonus.Set_Bonus.Increased_Endurance_6
 special_bonuses:
 - special: -1
@@ -63,5 +63,5 @@ special_bonuses:
 - special: 5
   alternate_string: ''
   entities:
-  - id: 8301
+  - id: 8178
     name: Set_Bonus.Set_Bonus.Spiders_Bite

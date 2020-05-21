@@ -11,8 +11,8 @@ image: Hold.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 12
-  sub_i_d: 2
+- id: 12
+  sub_id: 2
   multiplier: 1
 unique_identifier: Magic_Hold
 recipe: Ticket_Magic

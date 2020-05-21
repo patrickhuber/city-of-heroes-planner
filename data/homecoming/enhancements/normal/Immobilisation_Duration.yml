@@ -11,8 +11,8 @@ image: Immob.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 12
-  sub_i_d: 3
+- id: 12
+  sub_id: 3
   multiplier: 1
 unique_identifier: Magic_Immobilize
 recipe: Ticket_Magic

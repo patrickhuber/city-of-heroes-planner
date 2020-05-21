@@ -7,19 +7,20 @@ display: Immobilizing Dart
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 5.1999998092651367
+endurance_cost: 5.19999981
 cast_time: 1.5
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -33,6 +34,13 @@ boosts_allowed:
 cast_through_hold: true
 description_short: Ranged, Minor DoT(Toxic), Foe Immob
 description_long: "Immobilizing Darts do minor toxic damage over time and weakens your foe's legs. They will either be entirely unable to move, or severely slowed down. Damage: Minor(DoT) Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 8
+- 13
+- 17
+- 18
 set_types:
 - 2
 - 12
@@ -48,7 +56,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -63,14 +71,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -81,20 +89,20 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -102,19 +110,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 18
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 17
   summon: ''
   stacking: 1
@@ -122,19 +130,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 18
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 32
   summon: ''
   stacking: 1
@@ -142,19 +150,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 18
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 11
   summon: ''
   stacking: 1
@@ -162,19 +170,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 18
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -182,20 +190,20 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 18
   aspect: 3
   modifier_table: Ranged_Slow
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -211,14 +219,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -229,19 +237,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 3
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -251,18 +259,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5836800336837769
+  scale: 1.58368003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -270,19 +278,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -290,19 +298,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -310,19 +318,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -330,19 +338,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -350,19 +358,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -370,19 +378,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -390,19 +398,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Immobilizing_Dart
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -410,13 +418,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.098999999463558197
+  scale: 0.0989999995
   magnitude: 1
   duration: 9
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

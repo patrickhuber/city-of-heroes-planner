@@ -7,8 +7,8 @@ display: Summon Demon Prince
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -20,6 +20,7 @@ range: 60
 endurance_cost: 19.5
 cast_time: 4
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -33,6 +34,13 @@ boosts_allowed:
 - Slow_Boost
 description_short: Summon Demon Prince
 description_long: "Summons forth a foul Demon Prince from the deepest reaches of the Abyss. The Demon Prince is mighty among its kind and is a master of cold powers. It serves the conjuror only so that it may wreak havoc upon the material plane.\0The Demon has some defense versus lethal, smashing, fire and cold attacks.\0You may only have 1 Demon Prince under your control at any given time. If you attempt to summon another Demon Prince the power will fail. Recharge: Very Long"
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 21
+- 22
 set_types:
 - 6
 - 10
@@ -47,13 +55,13 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+forced_class: Class_Boss_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Demon_Summoning.Summon_Demon_Prince
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Demon_Prince
-  delayed_time: 3.3299999237060547
+  summon: Pets_Demon_Prince
+  delayed_time: 3.32999992
   base_probability: 1
   to_who: 3
   scale: -1
@@ -61,8 +69,118 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince.Ice_Blast
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince.Shiver
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince_2.Block_of_Ice
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince_2.Chilling_Embrace
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince_2.Ice_Sword
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince_3.Ice_Slash
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Demon_Prince_3.Frozen_Aura
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

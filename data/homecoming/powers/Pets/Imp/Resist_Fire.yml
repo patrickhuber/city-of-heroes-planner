@@ -7,8 +7,8 @@ display: Resist Fire
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Resist Fire
 description_long: Fire Imps take less damage from Fire attacks, can jump quite high, and can travel quickly.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -34,7 +35,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.Imp.Resist_Fire
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -44,14 +45,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Imp.Resist_Fire
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -61,31 +62,31 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Imp.Resist_Fire
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 17
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Imp.Resist_Fire
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 21
   summon: ''
   base_probability: 1
@@ -95,14 +96,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Control
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Control
   override: ''
 - power_full_name: Pets.Imp.Resist_Fire
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 22
   summon: ''
   base_probability: 1
@@ -112,25 +113,25 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Friction
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Friction
   override: ''
 - power_full_name: Pets.Imp.Resist_Fire
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 32
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

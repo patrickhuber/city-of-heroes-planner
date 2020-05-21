@@ -7,8 +7,8 @@ display: Tar Patch
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 90
-endurance_cost: 7.8000001907348633
-cast_time: 3.0999999046325684
+endurance_cost: 7.80000019
+cast_time: 3.0999999
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -31,6 +32,11 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged (Location AoE), Target -Speed, -Res, -Fly
 description_long: 'Drops a large patch of viscous Negative Energy which dramatically slows down enemies that run through it and reduces their damage resistance. Affected targets stuck in the Tar Patch cannot jump or fly. Recharge: Slow'
+enhancements:
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 13
 level: 2
@@ -44,7 +50,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Buff.Dark_Miasma.Tar_Patch
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_TarPatch
   stacking: 1
@@ -57,8 +63,8 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

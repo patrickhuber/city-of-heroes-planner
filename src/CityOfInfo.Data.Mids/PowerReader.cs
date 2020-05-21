@@ -13,7 +13,7 @@ namespace CityOfInfo.Data.Mids
         {
             _reader = reader;
         }
-
+        
         public Power Read()
         {
             var power = new Power();            
@@ -44,6 +44,7 @@ namespace CityOfInfo.Data.Mids
             power.InterruptTime = _reader.ReadSingle();
             power.CastTime = _reader.ReadSingle();
             power.RechargeTime = _reader.ReadSingle();
+            power.BaseRechargeTime = _reader.ReadSingle();
             power.ActivatePeriod = _reader.ReadSingle();
             power.EffectArea =_reader.ReadInt32();
             power.Radius = _reader.ReadSingle();
@@ -65,6 +66,9 @@ namespace CityOfInfo.Data.Mids
             power.IgnoreStrength = _reader.ReadBoolean();
             power.DescriptionShort = _reader.ReadString();
             power.DescriptionLong = _reader.ReadString();
+            power.Enhancements = new int[_reader.ReadInt32() + 1];
+            for (int index = 0; index < power.Enhancements.Length; ++index)
+                power.Enhancements[index] = _reader.ReadInt32();
             power.SetTypes = new int[_reader.ReadInt32() + 1];
             for (int index = 0; index < power.SetTypes.Length; ++index)
                 power.SetTypes[index] = _reader.ReadInt32();

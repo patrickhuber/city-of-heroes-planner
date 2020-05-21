@@ -7,8 +7,8 @@ display: Aid Other
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 group_memberships: []
@@ -19,8 +19,9 @@ target_line_of_sight: true
 range: 25
 endurance_cost: 6.5
 interrupt_time: 1
-cast_time: 3.9300000667572021
+cast_time: 3.93000007
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Close, Heal(Ally)
 description_long: You heal a single targeted ally. This power is interruptible unless you have also trained Field Medic, in which case it is not interruptible.
+enhancements:
+- 8
+- 11
+- 2
+- 18
 set_types:
 - 9
 level: 4
@@ -43,7 +49,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Pool.Medicine.Aid_Other
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 53
   summon: ''
   stacking: 1
@@ -53,14 +59,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Pool_Medicine_AidOther.AidOther_NoInterrupt
 - power_full_name: Pool.Medicine.Aid_Other
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 53
   summon: ''
   stacking: 1
@@ -70,14 +76,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Pool_Medicine_AidOther.AidOther_Interrupt
 - power_full_name: Pool.Medicine.Aid_Other
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 13
   summon: ''
   stacking: 1
@@ -85,12 +91,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal

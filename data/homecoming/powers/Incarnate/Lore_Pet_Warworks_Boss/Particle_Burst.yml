@@ -7,8 +7,8 @@ display: Particle Burst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 130
 group_memberships: []
@@ -16,15 +16,17 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.5999999046325684
+endurance_cost: 5.5999999
 cast_time: 4
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
 boosts_allowed: []
 description_short: Ranged, Moderate DMG(Energy), Foe -Regen, -Res(All)
 description_long: The War Walker's attacks deal energy damage and reduce their target's damage resistance and regeneration rate for a short time.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

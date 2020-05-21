@@ -7,8 +7,8 @@ display: Clear Mind
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 70
-endurance_cost: 5.1999998092651367
+endurance_cost: 5.19999981
 cast_time: 1
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -29,6 +30,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ally +Res(Disorient, Hold, Sleep, Immobilize, Fear, Confuse), +Perception
 description_long: 'Frees an ally from any Disorient, Hold, Sleep, Fear, Confuse and Immobilize effects and leaves them resistant to such effects for a good while. Also, grants target clearer Perception to see hidden foes. Protection will improve with Multiple applications and as you advance in level. Recharge: Fast'
+enhancements:
+- 8
+- 17
+- 18
 set_types: []
 level: 16
 variable_name: ''
@@ -39,7 +44,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -53,14 +58,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 20
   mezmorize_type: 9
   summon: ''
@@ -73,14 +78,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -94,14 +99,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -115,14 +120,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -136,14 +141,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -157,14 +162,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -178,14 +183,14 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 20
   mezmorize_type: 10
   summon: ''
@@ -197,14 +202,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 20
   mezmorize_type: 9
   summon: ''
@@ -216,14 +221,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 20
   mezmorize_type: 3
   summon: ''
@@ -235,14 +240,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 20
   mezmorize_type: 2
   summon: ''
@@ -254,14 +259,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 20
   mezmorize_type: 1
   summon: ''
@@ -273,14 +278,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 20
   mezmorize_type: 12
   summon: ''
@@ -292,14 +297,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 28
   effect_modifiers: 23
   summon: ''
@@ -311,14 +316,14 @@ effects:
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Empathy.Clear_Mind
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 23
   summon: ''
   stacking: 1
@@ -330,8 +335,8 @@ effects:
   duration: 90
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

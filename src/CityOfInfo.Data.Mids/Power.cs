@@ -32,6 +32,7 @@ namespace CityOfInfo.Data.Mids
         public float InterruptTime { get; set; }
         public float CastTime { get; set; }
         public float RechargeTime { get; set; }
+        public float BaseRechargeTime { get; set; }
         public float ActivatePeriod { get; set; }
         public int EffectArea { get; set; }
         public float Radius { get; set; }
@@ -51,6 +52,7 @@ namespace CityOfInfo.Data.Mids
         public bool IgnoreStrength { get; set; }
         public string DescriptionShort { get; set; }
         public string DescriptionLong { get; set; }
+        public int[] Enhancements { get; set; }
         public int[] SetTypes { get; set; }
         public bool ClickBuff { get; set; }
         public bool AlwaysToggle { get; set; }
@@ -79,7 +81,7 @@ namespace CityOfInfo.Data.Mids
         public bool BoostUsePlayerLevel { get; set; }
         public Effect[] Effects { get; set; }
         public bool HiddenPower { get; set; }
-
+        
         public override bool Equals(object obj)
         {
             return obj is Power power &&
@@ -106,6 +108,7 @@ namespace CityOfInfo.Data.Mids
                    InterruptTime == power.InterruptTime &&
                    CastTime == power.CastTime &&
                    RechargeTime == power.RechargeTime &&
+                   BaseRechargeTime == power.BaseRechargeTime &&
                    ActivatePeriod == power.ActivatePeriod &&
                    EffectArea == power.EffectArea &&
                    Radius == power.Radius &&
@@ -203,6 +206,7 @@ namespace CityOfInfo.Data.Mids
             hashCode = hashCode * -1521134295 + InterruptTime.GetHashCode();
             hashCode = hashCode * -1521134295 + CastTime.GetHashCode();
             hashCode = hashCode * -1521134295 + RechargeTime.GetHashCode();
+            hashCode = hashCode * -1521134295 + BaseRechargeTime.GetHashCode();
             hashCode = hashCode * -1521134295 + ActivatePeriod.GetHashCode();
             hashCode = hashCode * -1521134295 + EffectArea.GetHashCode();
             hashCode = hashCode * -1521134295 + Radius.GetHashCode();

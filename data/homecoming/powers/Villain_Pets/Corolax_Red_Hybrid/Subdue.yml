@@ -7,8 +7,8 @@ display: Subdue
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 514
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 100
-endurance_cost: 8.5799999237060547
-cast_time: 1.6699999570846558
+endurance_cost: 8.57999992
+cast_time: 1.66999996
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Immobilized_Boost
 description_short: Immobilize
 description_long: You have been Subdued and are being held immobile.
+enhancements:
+- 1
+- 4
+- 8
+- 13
 set_types: []
 level: 2
 variable_name: ''
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Corolax_Red_Hybrid.Subdue
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -50,23 +56,23 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Corolax_Red_Hybrid.Subdue
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -77,19 +83,19 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Villain_Pets.Corolax_Red_Hybrid.Subdue
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   suppression: 31
   buffable: true
   resistible: true
@@ -101,8 +107,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

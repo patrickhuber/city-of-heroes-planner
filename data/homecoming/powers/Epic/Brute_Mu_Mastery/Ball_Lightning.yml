@@ -7,12 +7,12 @@ display: Ball Lightning
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Brute_Mu_Mastery.Mu_Lightning
     - ''
   - - Epic.Brute_Mu_Mastery.Electrifying_Fences
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 132
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 18.979999542236328
-cast_time: 1.0700000524520874
+endurance_cost: 18.9799995
+cast_time: 1.07000005
 recharge_time: 32
+base_recharge_time: 32
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -38,6 +39,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged (Targeted AoE), Moderate DoT(Energy), Foe -End
 description_long: 'Hurls a highly charged ball of Mu lightning that explodes on contact. Ball Lightning deals good damage in an area of effect, and drains some Endurance from each target it hits. You must be level 41 and have Mu Lightning or Electrifying Fences before selecting this power. Damage: Moderate(DoT), Recharge: Long'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 7
 set_types:
 - 3
 - 22
@@ -51,7 +59,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -61,18 +69,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -83,19 +91,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.18000000715255737
+  scale: 0.180000007
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -105,18 +113,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30325999855995178
+  scale: 0.303259999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -127,41 +135,41 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.17689999938011169
+  scale: 0.176899999
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 0.50542998313903809
+  scale: 0.505429983
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_scrapper
-  i_d_class_name: 3
+  uid_class_name: class_scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   stacking: 1
@@ -170,18 +178,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.070000000298023224
+  scale: -0.0700000003
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 7
   summon: ''
   stacking: 1
@@ -194,18 +202,18 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 26
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   to_who: 1
@@ -214,14 +222,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 48
   summon: ''
   stacking: 1
@@ -229,18 +237,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: class_brute
-  i_d_class_name: 8
+  uid_class_name: class_brute
+  id_class_name: 8
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -257,14 +265,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -280,14 +288,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -295,18 +303,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.13500000536441803
+  scale: 0.135000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Epic.Brute_Mu_Mastery.Ball_Lightning
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -315,13 +323,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.081000000238418579
+  scale: 0.0810000002
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

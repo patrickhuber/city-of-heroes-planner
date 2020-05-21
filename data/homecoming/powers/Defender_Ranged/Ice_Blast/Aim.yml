@@ -7,8 +7,8 @@ display: Aim
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 5.1999998092651367
-cast_time: 1.1699999570846558
+endurance_cost: 5.19999981
+cast_time: 1.16999996
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -28,6 +29,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self +To Hit, +DMG
 description_long: 'Greatly increases the chance to hit of your attacks for a few seconds. Slightly increases damage. Recharge: Long'
+enhancements:
+- 25
+- 8
+- 18
 set_types:
 - 25
 click_buff: true
@@ -40,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 40
   summon: ''
   stacking: 1
@@ -52,14 +57,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -71,14 +76,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -90,14 +95,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -109,14 +114,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -128,14 +133,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -147,14 +152,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -166,14 +171,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -185,14 +190,14 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Defender_Ranged.Ice_Blast.Aim
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -204,8 +209,8 @@ effects:
   duration: 10
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

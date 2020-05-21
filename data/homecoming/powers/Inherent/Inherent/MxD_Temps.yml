@@ -7,16 +7,17 @@ display: Temp Powers
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 2
 group_memberships: []
 target_line_of_sight: true
-cast_time: 1.715999960899353
+cast_time: 1.71599996
 max_boosts: ''
 boosts_allowed: []
 description_short: Ctrl+Shift+Click to Select Powers
 description_long: ''
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

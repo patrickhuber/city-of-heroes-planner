@@ -7,8 +7,8 @@ display: 'Kismet: Defense/Endurance'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -29,6 +29,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: +DEF (all), Reduces End cost
 description_long: Enhances the defense of a power by {Boost.Attrib.Defense.Scale}% and reduces endurance cost by {Boost.Attrib.Endurance.Scale}%
+enhancements:
+- 5
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +43,7 @@ sort_override: true
 boost_boostable: true
 effects:
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 5
   summon: ''
@@ -52,14 +54,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defense
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   damage_type: 10
   effect_modifiers: 5
@@ -71,14 +73,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   damage_type: 11
   effect_modifiers: 5
@@ -90,14 +92,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   damage_type: 12
   effect_modifiers: 5
@@ -109,14 +111,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   damage_type: 1
   effect_modifiers: 5
@@ -128,14 +130,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 9
   damage_type: 2
   effect_modifiers: 5
@@ -147,14 +149,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   damage_type: 3
   effect_modifiers: 5
@@ -166,14 +168,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 9
   damage_type: 4
   effect_modifiers: 5
@@ -185,14 +187,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   damage_type: 5
   effect_modifiers: 5
@@ -204,14 +206,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 9
   damage_type: 6
   effect_modifiers: 5
@@ -223,14 +225,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 9
   damage_type: 8
   effect_modifiers: 5
@@ -242,14 +244,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_20
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_20
   override: ''
 - power_full_name: Boosts.Crafted_Kismet_A.Crafted_Kismet_A
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 9
   effect_modifiers: 8
   summon: ''
@@ -260,8 +262,8 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Endurance

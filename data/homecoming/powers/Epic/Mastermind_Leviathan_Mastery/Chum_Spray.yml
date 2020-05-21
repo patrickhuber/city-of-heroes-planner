@@ -9,8 +9,8 @@ requirement:
   - Class_Blaster
   - Class_Mastermind
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 4
@@ -19,9 +19,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 18.979999542236328
-cast_time: 2.6700000762939453
+endurance_cost: 18.9799995
+cast_time: 2.67000008
 recharge_time: 32
+base_recharge_time: 32
 effect_area: 3
 radius: 60
 arc: 30
@@ -36,6 +37,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DoT(Toxic)
 description_long: 'Sharks will eat anything, so their stomach acid must be powerful indeed. You can regurgitate this acid and spew a corrosive spray of bile at a foe. Affected foes in the cone area will take toxic damage over time. Damage: Moderate(DoT), Recharge: Long'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 44
@@ -48,7 +55,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Mastermind_Leviathan_Mastery.Chum_Spray
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -58,18 +65,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Leviathan_Mastery.Chum_Spray
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -80,19 +87,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 4.25
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Leviathan_Mastery.Chum_Spray
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -102,18 +109,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.97728002071380615
+  scale: 0.977280021
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Leviathan_Mastery.Chum_Spray
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -124,13 +131,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.1954600065946579
+  scale: 0.195460007
   magnitude: 1
   duration: 4.25
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

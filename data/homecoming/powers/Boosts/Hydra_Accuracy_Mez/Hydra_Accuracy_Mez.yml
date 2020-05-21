@@ -7,8 +7,8 @@ display: Graviton Exposure (Acc/Mez)
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -36,6 +36,14 @@ boosts_allowed:
 - Technology_Boost
 description_short: Enhances Accuracy and Mez
 description_long: Exposure to Graviton Particles can enabled you to significantly augment the accuracy of your attack powers and can increase the duration of Sleep, Disorient, Immobilization, Hold, Confuse, and Fear powers.
+enhancements:
+- 1
+- 3
+- 9
+- 12
+- 13
+- 21
+- 23
 set_types: []
 level: 1
 variable_name: ''
@@ -47,7 +55,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 1
   summon: ''
@@ -58,14 +66,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   mezmorize_type: 10
   effect_modifiers: 19
@@ -77,14 +85,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   mezmorize_type: 9
   effect_modifiers: 19
@@ -96,14 +104,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   mezmorize_type: 3
   effect_modifiers: 19
@@ -115,14 +123,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   mezmorize_type: 2
   effect_modifiers: 19
@@ -134,14 +142,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 9
   mezmorize_type: 1
   effect_modifiers: 19
@@ -153,14 +161,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   mezmorize_type: 16
   effect_modifiers: 19
@@ -172,14 +180,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hydra_Accuracy_Mez.Hydra_Accuracy_Mez
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 9
   mezmorize_type: 12
   effect_modifiers: 19
@@ -191,8 +199,8 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

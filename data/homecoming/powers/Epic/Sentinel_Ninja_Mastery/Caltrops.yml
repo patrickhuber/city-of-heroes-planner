@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Sentinel
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 group_memberships: []
@@ -19,8 +19,9 @@ target: 8192
 target_line_of_sight: true
 range: 25
 endurance_cost: 9.75
-cast_time: 1.0700000524520874
+cast_time: 1.07000005
 recharge_time: 45
+base_recharge_time: 45
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -33,6 +34,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged (Location AoE), Minor DoT(Lethal), Foe -Speed
 description_long: 'You toss a handful of Caltrops at a targeted location and spread the tiny metal spikes over a large area. Any villains that pass over the Caltrops will be forced to move at a slower rate. They will also take some trivial Lethal damage over time. Damage: Minor(DoT), Recharge: Slow'
+enhancements:
+- 4
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 0
 - 3
@@ -50,7 +57,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Caltrops
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Caltrops
   stacking: 1
@@ -63,8 +70,8 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

@@ -7,8 +7,8 @@ display: Walk
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 2
 accuracy: 1
 group_memberships:
@@ -25,6 +25,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Reduce Run Speed
 description_long: You are taking a leisurely stroll.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,39 +36,39 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Walk
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 32
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
   to_who: 2
-  scale: 1.3999999761581421
+  scale: 1.39999998
   magnitude: 1
-  duration: 0.80000001192092896
+  duration: 0.800000012
   aspect: 1
   modifier_table: Melee_SuppressRunSpeed
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SuppressRunSpeed
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Walk
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 16
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
   to_who: 2
-  scale: 1.3999999761581421
+  scale: 1.39999998
   magnitude: 1
   duration: 0.75
   aspect: 1
   modifier_table: Melee_SuppressJump
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SuppressJump

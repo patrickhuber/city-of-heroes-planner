@@ -7,8 +7,8 @@ display: Dark Extraction
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1572866
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 131072
 target_line_of_sight: true
 range: 40
 endurance_cost: 26
-cast_time: 3.2000000476837158
+cast_time: 3.20000005
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Slow_Boost
 description_short: 'Summon Essence: Ranged Moderate DMG (Negative)'
 description_long: "Defeated foes are ripe for the picking.  A Warshade can extract the essence from a defeated villain and infuse it with Nictus energy.  The extracted energy is an echo of the target's life force, and although it is not sentient, the infused Nictus energy does give it a rudimentary spark of life. Eventually, the extracted entity will fade away into nothingness. Recharge: Very Long"
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 6
 - 27
@@ -48,7 +56,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Warshade_Offensive.Umbral_Blast.Dark_Extraction
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Warshade_Extraction
   delayed_time: 4
@@ -59,14 +67,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Warshade_Offensive.Umbral_Blast.Dark_Extraction
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 13
   summon: ''
   ticks: 1
@@ -77,8 +85,8 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

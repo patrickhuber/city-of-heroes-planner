@@ -11,8 +11,8 @@ image: Sleep.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 12
-  sub_i_d: 9
+- id: 12
+  sub_id: 9
   multiplier: 1
 unique_identifier: Magic_Sleep
 recipe: Ticket_Magic

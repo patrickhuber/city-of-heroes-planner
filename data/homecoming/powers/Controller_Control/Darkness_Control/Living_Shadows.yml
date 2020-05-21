@@ -7,8 +7,8 @@ display: Living Shadows
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 268
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 60
 endurance_cost: 13
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 3
 radius: 60
 arc: 60
@@ -36,6 +37,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Minor DoT(Negative), Foe Immobilize, -To Hit, -Fly
 description_long: 'You extend and animate your own shadow causing it to entangle all foes within a long cone pattern in front of you, rendering all affected foes immobilized. Damage: Minor(DoT), Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 13
+- 17
+- 18
 set_types:
 - 3
 - 12
@@ -52,7 +61,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -64,19 +73,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.12999999523162842
+  scale: 0.129999995
   magnitude: 1
-  duration: 5.1999998092651367
+  duration: 5.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -88,19 +97,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.35690999031066895
+  scale: 0.35690999
   magnitude: 1
-  duration: 5.1999998092651367
+  duration: 5.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -113,19 +122,19 @@ effects:
   special_case: 10
   player_versus_mode: 1
   to_who: 1
-  scale: 0.12999999523162842
+  scale: 0.129999995
   magnitude: 1
-  duration: 5.1999998092651367
+  duration: 5.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -138,19 +147,19 @@ effects:
   special_case: 10
   player_versus_mode: 2
   to_who: 1
-  scale: 0.17846000194549561
+  scale: 0.178460002
   magnitude: 1
-  duration: 5.1999998092651367
+  duration: 5.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 40
   summon: ''
   stacking: 1
@@ -163,14 +172,14 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -184,14 +193,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -206,14 +215,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -228,14 +237,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -246,14 +255,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -264,14 +273,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -284,14 +293,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -304,27 +313,27 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Control.Darkness_Control.Living_Shadows
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 10
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: -1.6000000238418579
+  scale: -1.60000002
   magnitude: 1
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

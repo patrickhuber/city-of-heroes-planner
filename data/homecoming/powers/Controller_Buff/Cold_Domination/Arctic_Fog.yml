@@ -7,8 +7,8 @@ display: Arctic Fog
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -18,9 +18,10 @@ entities_affected: 513
 entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
-endurance_cost: 1.0399999618530273
-cast_time: 1.8700000047683716
+endurance_cost: 1.03999996
+cast_time: 1.87
 recharge_time: 15
+base_recharge_time: 15
 activate_period: 2
 effect_area: 2
 radius: 40
@@ -36,6 +37,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: 'Toggle: PBAoE, Team Stealth, +DEF,  +Res(Fire, Cold, Energy, Slow)'
 description_long: 'Your mastery of Cold allows you to hide yourself and all nearby allies within thick Arctic Fog. Arctic Fog makes you and your allies harder to see and increases your Defense to area effect, melee and ranged attacks, as well as your resistance to Slow, Fire, Cold, and Energy damage. You cannot use any other Concealment type powers while using Arctic Fog.  Recharge: Slow'
+enhancements:
+- 5
+- 8
+- 18
+- 19
 set_types:
 - 7
 - 8
@@ -48,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 36
   summon: ''
   base_probability: 1
@@ -60,14 +66,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 37
   summon: ''
   base_probability: 1
@@ -79,14 +85,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -99,14 +105,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -119,14 +125,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -139,14 +145,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -159,14 +165,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -179,14 +185,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -199,14 +205,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -219,14 +225,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -239,14 +245,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -259,14 +265,14 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -279,32 +285,32 @@ effects:
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 41
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.69999998807907104
+  scale: 0.699999988
   magnitude: 1
   duration: 2.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -316,14 +322,14 @@ effects:
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -335,14 +341,14 @@ effects:
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -354,98 +360,98 @@ effects:
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 28
   effect_modifiers: 32
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 28
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 28
   effect_modifiers: 11
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 28
   effect_modifiers: 16
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Arctic_Fog
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 28
   effect_modifiers: 17
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 2.25
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

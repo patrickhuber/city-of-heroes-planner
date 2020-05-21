@@ -7,8 +7,8 @@ display: Sawed-off Shotgun
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 20
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 13.119999885559082
-cast_time: 1.8700000047683716
+endurance_cost: 13.1199999
+cast_time: 1.87
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 3
 radius: 40
 arc: 19
@@ -30,6 +31,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Cone Lethal, Knockback
 description_long: A Freakshow lieutenant dropped this battle-scarred shotgun during the chaos at the Zig.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Sawed-off_Shotgun
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -49,23 +51,23 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.81999999284744263
+  scale: 0.819999993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Tempdamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Tempdamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Sawed-off_Shotgun
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   to_who: 1
@@ -73,8 +75,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

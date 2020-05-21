@@ -7,8 +7,8 @@ display: Fashion Designer
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 power_type: 1
 accuracy: 1
@@ -25,6 +25,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'Auto: Tailor Fee Discount'
 description_long: Due to your connections with the Tailor you will receive tailor discount coupons that will reduce the cost of a single tailor transaction by 25%.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

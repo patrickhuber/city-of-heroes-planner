@@ -7,10 +7,10 @@ display: Offensive Adaptation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Scrapper_Defense.Bio_Organic_Armor.Evolution
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -20,8 +20,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 0.67000001668930054
+cast_time: 0.670000017
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 1
 effect_area: 1
 max_boosts: 0
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'Toggle: Bio Armor Offensive Mode'
 description_long: By activating this power you cause your Bio Armor to spontaneously mutate, causing it to sprout spines and become much lighter. While active Hardened Carapace increases your damage slightly, Environmental Modification grants you a moderate to hit buff, Evolving Armor has an improved Damage Resistance debuff, and debuff effects from DNA Siphon, Genetic Contamination and Parasitic Aura are increased moderately.  Additionally, many of your damaging powers will inflict a minor amount of additional Toxic damage.  While Offensive Adaptation is active your Defense and Damage Resistance is reduced slightly.  Offensive Adaptation costs no endurance.
+enhancements: []
 set_types: []
 variable_name: ''
 sub_powers: []
@@ -40,40 +42,24 @@ include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Defense.Bio_Organic_Armor.Offensive_Adaptation
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 34
   summon: ''
   base_probability: 1
   to_who: 2
   scale: 1
   magnitude: 122
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Scrapper_Defense.Bio_Organic_Armor.Offensive_Adaptation
-  unique_i_d: 2
-  effect_type: 12
-  summon: Temporary_Powers.Temporary_Powers.Offensive_Adaptation_Proc
-  base_probability: 1
-  to_who: 2
-  scale: 1
-  magnitude: 1
-  aspect: 2
-  modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: Temporary_Powers.Temporary_Powers.Offensive_Adaptation_Proc
-  effect_id: Ones
-  override: ''
-- power_full_name: Scrapper_Defense.Bio_Organic_Armor.Offensive_Adaptation
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 30
   summon: ''
   base_probability: 1
@@ -82,8 +68,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Offensive_Adaptation_Proc
   effect_id: Ones
@@ -100,8 +86,8 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: OffensiveAdaptation
   effect_id: Ones
@@ -114,12 +100,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -132,12 +118,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -150,12 +136,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -168,12 +154,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -186,12 +172,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -204,12 +190,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -222,12 +208,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -240,12 +226,12 @@ effects:
   buffable: true
   resistible: true
   scale: 1
-  magnitude: -0.075000002980232239
+  magnitude: -0.075000003
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

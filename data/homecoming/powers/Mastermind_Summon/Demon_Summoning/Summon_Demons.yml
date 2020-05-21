@@ -7,8 +7,8 @@ display: Summon Demons
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -20,6 +20,7 @@ range: 60
 endurance_cost: 19.5
 cast_time: 4
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -33,6 +34,13 @@ boosts_allowed:
 - Res_Damage_Boost
 description_short: Summon Demons
 description_long: 'Summons forth one to two Demons (depending on your level) to do your bidding.  One is cloaked in hellfire and has skin as hard as stone while the other manipulates flame. You may only have 2 Demons under your control at any given time. If you attempt to call more Demons, you can only replace the ones you have lost in battle. If you already have your maximum allowed number, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 11
+- 16
+- 19
 set_types:
 - 6
 - 8
@@ -41,47 +49,235 @@ set_types:
 - 27
 - 40
 - 44
+click_buff: true
 level: 12
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+forced_class: Class_Lt_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Demon_Summoning.Summon_Demons
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Ember_Demon
+  summon: Pets_Ember_Demon
   delayed_time: 3.5
   base_probability: 1
+  buffable: true
   to_who: 3
   scale: 1
   magnitude: 1
-  duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Summon_Demons
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
-  summon: MastermindPets_Hellfire_Gargoyle
+  summon: Pets_Hellfire_Gargoyle
   delayed_time: 6
   base_probability: 1
+  buffable: true
   to_who: 3
   scale: 1
   magnitude: 1
-  duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Ember_Demon.Ember_Shield_Owner
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Ember_Demon.Fire_Blast
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Ember_Demon_2.Fire_Breath
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Ember_Demon_2.Abyssal_Mending
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Ember_Demon_3.Fire_Ball
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle.Claw_Rake
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle.Claw_Slash
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle.Corruption
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle_2.Breath_of_Hellfire
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle_2.Hellfire_Aura
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
   override: ''

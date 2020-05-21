@@ -7,19 +7,20 @@ display: Shockwave
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 0.89999997615814209
+accuracy: 0.899999976
 attack_types: 140
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 11.855999946594238
-cast_time: 2.1700000762939453
+endurance_cost: 11.8559999
+cast_time: 2.17000008
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 3
 radius: 50
 arc: 30
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Minor DMG(Smashing/Energy), Foe Knockback
 description_long: 'You can call forth a tremendous Shockwave that can knock down foes and deal some Smashing damage in a wide cone area. Damage: Minor, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -49,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -58,18 +66,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.31999999284744263
-  magnitude: 1
+  scale: 0.43599999
+  magnitude: 1.00100005
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -78,62 +86,37 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.31999999284744263
-  magnitude: 1
+  scale: 0.43599999
+  magnitude: 1.00100005
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
-  player_versus_mode: 1
   to_who: 1
-  scale: 0.63999998569488525
-  magnitude: 1
+  scale: 0.871999979
+  magnitude: 1.00090003
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 4
-  effect_type: 3
-  damage_type: 5
-  summon: ''
-  stacking: 1
-  base_probability: 1
-  buffable: true
-  resistible: true
-  special_case: 3
-  player_versus_mode: 2
-  to_who: 1
-  scale: 0.63999998569488525
-  magnitude: 1
-  aspect: 2
-  modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Damage
-  override: ''
-- power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -147,14 +130,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -169,14 +152,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -191,14 +174,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Corruptor_Ranged.Sonic_Attack.Shockwave
-  unique_i_d: 8
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -214,8 +197,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

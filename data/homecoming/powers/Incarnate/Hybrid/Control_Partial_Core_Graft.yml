@@ -7,8 +7,8 @@ display: Control Partial Core Graft
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 2
 accuracy: 1
@@ -18,6 +18,7 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 recharge_time: 120
+base_recharge_time: 120
 activate_period: 10
 effect_area: 1
 max_boosts: 0
@@ -28,6 +29,8 @@ cast_through_hold: true
 ignore_strength: true
 description_short: 'Toggle: Chance for Psionic Damage (Special), Chance for +1 Magnitude'
 description_long: 'Toggle: Chance for +1 Mag to Controls, Chance for Psionic damage to Controlled enemies.  This ability gives a 35% chance for its effects to occur when their conditions are met.  Equipping this Hybrid power grants a passive boost to Status Resistance at all times.'
+enhancements:
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_1
   delayed_time: 0.5
@@ -50,14 +53,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_1
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 30
   summon: ''
   stacking: 1
@@ -67,14 +70,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_1
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_2
   delayed_time: 0.5
@@ -85,14 +88,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_2
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 30
   summon: ''
   stacking: 1
@@ -102,14 +105,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_2
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_3
   delayed_time: 0.5
@@ -120,14 +123,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_3
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 30
   summon: ''
   stacking: 1
@@ -137,14 +140,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_3
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_4
   delayed_time: 0.5
@@ -155,14 +158,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_4
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 30
   summon: ''
   stacking: 1
@@ -172,14 +175,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_4
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_5
   delayed_time: 0.5
@@ -190,14 +193,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_5
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 30
   summon: ''
   stacking: 1
@@ -207,14 +210,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_5
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_6
   delayed_time: 0.5
@@ -225,14 +228,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_6
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 30
   summon: ''
   stacking: 1
@@ -242,14 +245,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_6
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Containment_5
   delayed_time: 0.5
@@ -260,14 +263,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Containment_5
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 30
   summon: ''
   stacking: 1
@@ -277,32 +280,32 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Containment_5
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 45
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.34999999403953552
+  scale: 0.349999994
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ControlProc
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Lockout
   base_probability: 1
@@ -311,14 +314,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Lockout
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 12
   summon: Incarnate.Hybrid_Silent.Control_Boost_Rare
   delayed_time: 0.5
@@ -329,14 +332,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_Rare
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Hybrid.Control_Partial_Core_Graft
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 30
   summon: ''
   stacking: 1
@@ -346,8 +349,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Hybrid_Silent.Control_Boost_Rare
   effect_id: Ones

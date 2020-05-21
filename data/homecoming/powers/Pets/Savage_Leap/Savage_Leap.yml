@@ -7,8 +7,8 @@ display: Savage Leap
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -30,6 +30,11 @@ boosts_allowed:
 - Taunt_Boost
 description_short: PBAoE, Superior DMG(Lethal), Foe Minor DoT(Lethal), +4 Blood Frenzy, Self Teleport
 description_long: 'You throw yourself at your distant foes while slashing and tearing wildly causing superior lethal damage and cause your foes you suffer from additional minor lethal damage over time. Savage Leap build 4 stacks of Blood Frenzy. Damage: Superior, Minor DoT, Recharge: Long'
+enhancements:
+- 1
+- 4
+- 16
+- 24
 set_types: []
 level: 1
 variable_name: ''

@@ -7,12 +7,12 @@ display: Targeting Drone
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Weapon_Mastery_Stalker.Web_Grenade
     - ''
   - - Epic.Weapon_Mastery_Stalker.Caltrops
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 power_type: 2
 accuracy: 1
@@ -21,9 +21,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.38999998569488525
-cast_time: 1.1699999570846558
+endurance_cost: 0.389999986
+cast_time: 1.16999996
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -34,6 +35,10 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Self +To Hit, +ACC, +Perception, Res(DeBuff To Hit)'
 description_long: 'When this device is activated, the small Targeting Drone hovers around your head and emits targeting laser sights. The lasers can dramatically improve your chance to hit and increase your perception, allowing you to better see stealthy foes. Targeting Drone also grants you resistance to powers that debuff your chance to hit. This is a toggle power and must be activated and deactivated manually. Like all toggle powers, Targeting Drone costs endurance while active. You must be level 41 and have Web Grenade or Physical Perfection before selecting this power. Recharge: Slow'
+enhancements:
+- 25
+- 8
+- 18
 set_types:
 - 25
 level: 41
@@ -45,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Weapon_Mastery_Stalker.Targeting_Drone
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -58,14 +63,14 @@ effects:
   aspect: 4
   modifier_table: Melee_Buff_ToHit
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Targeting_Drone
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 28
   effect_modifiers: 40
   summon: ''
@@ -76,65 +81,65 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Targeting_Drone
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 1
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Targeting_Drone
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 28
   effect_modifiers: 23
   summon: ''
   base_probability: 1
   suppression: 7
   to_who: 2
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Targeting_Drone
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 23
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
   to_who: 2
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

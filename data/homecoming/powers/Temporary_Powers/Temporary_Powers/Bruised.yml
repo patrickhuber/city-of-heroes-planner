@@ -7,8 +7,8 @@ display: Bruised
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -25,6 +25,7 @@ number_allowed: 2
 boosts_allowed: []
 description_short: -Res (all)
 description_long: You have been bruised and your resistance to damage has been lowered.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

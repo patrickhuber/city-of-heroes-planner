@@ -7,8 +7,8 @@ display: Particle Cannon
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 6
@@ -18,9 +18,10 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 12.739999771118164
-cast_time: 15.670000076293945
+endurance_cost: 12.7399998
+cast_time: 15.6700001
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_of_charges: 20
@@ -29,6 +30,7 @@ number_allowed: 10
 boosts_allowed: []
 description_short: Ranged, Special
 description_long: The Particle Cannon is a heavy Rikti weapon that can reverse the polarity of an entity brought through a dimensional rift, sending it back to its own universe.  Against other targets, it has no effect. The Particle Cannon can send the Hydra Head back to its dimension. The particle beam is slow, and must be held on the target for a long time. The Particle Cannon has limited charges, so use it wisely.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Particle_Cannon
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 14
   summon: ''
@@ -50,13 +52,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: -0.0041700000874698162
+  scale: -0.00417000009
   magnitude: 1
-  duration: 9.1000003814697266
+  duration: 9.10000038
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

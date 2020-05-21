@@ -7,8 +7,8 @@ display: Self Destruct
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -22,6 +22,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Self Destruct
 description_long: Self Destruct
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

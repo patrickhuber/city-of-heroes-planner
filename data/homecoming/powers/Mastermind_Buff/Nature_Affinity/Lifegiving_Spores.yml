@@ -7,8 +7,8 @@ display: Lifegiving Spores
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -18,9 +18,10 @@ entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
-endurance_cost: 0.32499998807907104
-cast_time: 2.3299999237060547
+endurance_cost: 0.324999988
+cast_time: 2.32999992
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 1
 effect_area: 4
 max_boosts: 6
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Toggle (Location AoE), PBAoE +Minor Heal Over Time, +Endurance
 description_long: 'When activating this power you cause all allies at a selected location to recover a small amount of health and endurance every few seconds as long as they remain within the Lifegiving Spores.  Recharge: Very Fast'
+enhancements:
+- 8
+- 11
+- 17
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -48,7 +55,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Nature_Affinity.Lifegiving_Spores
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Lifegiving_Spores_Mastermind
   delayed_time: 1.5
@@ -59,8 +66,8 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,15 +7,16 @@ display: Lethargic
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
-accuracy: 1.2999999523162842
+  power_ids: []
+  power_ids_not: []
+accuracy: 1.29999995
 attack_types: 4
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 recharge_time: 1000
+base_recharge_time: 1000
 effect_area: 2
 radius: 30
 max_targets: 16
@@ -25,6 +26,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: -Recovery
 description_long: The exploding Lab Equipment has exposed you to something strange.  You feel lethargic and you can no longer recover Endurance.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Tech_Lab_DeBuff_Recovery.Lethargic
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -48,8 +50,8 @@ effects:
   duration: 180
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

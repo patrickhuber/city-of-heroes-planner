@@ -7,8 +7,8 @@ display: Flame Thrower
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 attack_types: 68
@@ -16,7 +16,7 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-activate_period: 0.20000000298023224
+activate_period: 0.200000003
 effect_area: 2
 radius: 4
 max_targets: 5
@@ -26,6 +26,8 @@ boosts_allowed:
 - Damage_Boost
 description_short: Fire DoT
 description_long: All foes that pass through these flames will be burned.
+enhancements:
+- 4
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.FlameThrower.Flame_Thrower
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -46,17 +48,17 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Blaster
+  uid_class_name: Class_Blaster
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.FlameThrower.Flame_Thrower
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -65,18 +67,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.057999998331069946
+  scale: 0.0579999983
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Defender
-  i_d_class_name: 2
+  uid_class_name: Class_Defender
+  id_class_name: 2
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.FlameThrower.Flame_Thrower
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -85,12 +87,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.080310001969337463
+  scale: 0.080310002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Sentinel
-  i_d_class_name: 7
+  uid_class_name: Class_Sentinel
+  id_class_name: 7
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

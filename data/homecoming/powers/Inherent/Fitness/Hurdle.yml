@@ -7,8 +7,8 @@ display: Hurdle
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not:
+  power_ids: []
+  power_ids_not:
   - - Pool.Fitness.Quick
     - ''
   - - Pool.Fitness.Hurdle
@@ -33,38 +33,40 @@ boosts_allowed:
 - Jump_Boost
 description_short: 'Auto: Self +Leap'
 description_long: You can naturally jump higher than normal. This ability is always on and does not cost any Endurance.
+enhancements:
+- 15
 set_types: []
 level: 2
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 18
+display_location: 5
 mutually_exclusive_auto: true
 mutually_exclusive_ignore: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Fitness.Hurdle
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 16
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.059999998658895493
+  scale: 0.0599999987
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
 - power_full_name: Inherent.Fitness.Hurdle
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -75,8 +77,8 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping

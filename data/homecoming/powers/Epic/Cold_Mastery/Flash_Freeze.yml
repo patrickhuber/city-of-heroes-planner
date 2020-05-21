@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Blaster
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 36
@@ -19,8 +19,9 @@ target: 2048
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 2.369999885559082
+cast_time: 2.36999989
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 25
 max_targets: 10
@@ -36,6 +37,13 @@ boosts_allowed:
 - Sleep_Boost
 description_short: Ranged (Targeted AoE), Minor DMG(Cold/Lethal), Foe Sleep
 description_long: 'You can Flash Freeze a large patch of ground beneath a targeted foe, instantly forming dozens of deadly ice shards that do Cold damage to all enemies in the area. The victims are left trapped within the icicles, but can break free if disturbed. Only targets near the ground can be affected. Damage: Minor, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 21
 set_types:
 - 3
 - 14
@@ -49,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Cold_Mastery.Flash_Freeze
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -58,19 +66,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Cold_Mastery.Flash_Freeze
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -79,19 +87,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Cold_Mastery.Flash_Freeze
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -108,14 +116,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Sleep
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Epic.Cold_Mastery.Flash_Freeze
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -133,8 +141,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Sleep
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep

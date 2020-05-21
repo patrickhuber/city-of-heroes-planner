@@ -7,7 +7,7 @@ display: Unrelenting
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Manipulation.Challenge
     - Pool.Manipulation.Provoke
   - - Pool.Manipulation.Challenge
@@ -20,7 +20,7 @@ requirement:
     - Pool.Manipulation.Invoke_Panic
   - - Pool.Manipulation.Intimidate
     - Pool.Manipulation.Invoke_Panic
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 2
 group_memberships: []
@@ -28,8 +28,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 1.9700000286102295
+cast_time: 1.97000003
 recharge_time: 600
+base_recharge_time: 600
 effect_area: 1
 max_boosts: 6
 cast_flags: 4
@@ -40,6 +41,10 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Self, Heal over Time, +DMG(All), +Rech, +Rec, Self Resurrect (Special)
 description_long: You channel your inner confidence to become a relentless opponent, gaining significant boosts to your damage, recovery and attack speed for a short while. Additionally, you will be able to fight though the pain caused by opponents, healing continuously over time.  You can also use this power to fight your way back to the living after defeat - if you are defeated when you use this power, you will be revived with 50% health.  You must be level 14 and have trained any two other Presence pool powers before you can train Unrelenting.
+enhancements:
+- 11
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -52,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   ticks: 31
@@ -60,57 +65,57 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -123,14 +128,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -143,14 +148,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -163,14 +168,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -183,14 +188,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -203,14 +208,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -223,14 +228,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -243,14 +248,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -263,14 +268,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Pool.Manipulation.Unrelenting
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 13
   summon: ''
   ticks: 1
@@ -283,8 +288,8 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

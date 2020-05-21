@@ -7,8 +7,8 @@ display: Cage of Lightning
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 130
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 8.5799999237060547
+endurance_cost: 8.57999992
 cast_time: 2
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,12 @@ boosts_allowed:
 - Sleep_Boost
 description_short: Sleep
 description_long: You are trapped in a cage of lightning.  You could get free if you were hit or healed.
+enhancements:
+- 1
+- 4
+- 8
+- 7
+- 21
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Mu_Adept.Cage_of_Lightning
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -54,18 +61,18 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Mu_Adept.Cage_of_Lightning
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 9
   summon: ''
-  delayed_time: 0.10000000149011612
+  delayed_time: 0.100000001
   stacking: 1
   base_probability: 1
   buffable: true
@@ -77,18 +84,18 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Villain_Pets.Mu_Adept.Cage_of_Lightning
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 9
   summon: ''
-  delayed_time: 0.10000000149011612
+  delayed_time: 0.100000001
   stacking: 1
   base_probability: 1
   suppression: 31
@@ -101,14 +108,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Villain_Pets.Mu_Adept.Cage_of_Lightning
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -121,14 +128,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Villain_Pets.Mu_Adept.Cage_of_Lightning
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   stacking: 1
@@ -141,14 +148,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Villain_Pets.Mu_Adept.Cage_of_Lightning
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 26
   summon: ''
   stacking: 1
@@ -161,8 +168,8 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

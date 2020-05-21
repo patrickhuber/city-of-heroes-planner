@@ -7,19 +7,20 @@ display: Disembowel
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1000000238418579
+accuracy: 1.10000002
 attack_types: 17
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 5.1999998092651367
-cast_time: 2.869999885559082
+endurance_cost: 5.19999981
+cast_time: 2.86999989
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Knockback_Boost
 description_short: -DEF
 description_long: Your Defense has been reduced by the broadsword.
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 16
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Skeleton_3.Disembowel
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -52,23 +59,23 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Skeleton_3.Disembowel
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -77,19 +84,19 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Skeleton_3.Disembowel
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   suppression: 32
   buffable: true
   resistible: true
@@ -99,18 +106,18 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Skeleton_3.Disembowel
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   summon: ''
   stacking: 1
-  base_probability: 0.99800002574920654
+  base_probability: 0.998000026
   buffable: true
   resistible: true
   to_who: 1
@@ -120,9 +127,30 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.49000001
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

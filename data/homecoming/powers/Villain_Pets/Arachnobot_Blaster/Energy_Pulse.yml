@@ -7,8 +7,8 @@ display: Energy Pulse
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 80
 endurance_cost: 6.5
-cast_time: 1.7000000476837158
+cast_time: 1.70000005
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Ranged, Moderate DoT(Energy)
 description_long: 'Multiple pulses of energy shoot forth damaging you. Damage: Moderate DoT(Energy), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +48,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Villain_Pets.Arachnobot_Blaster.Energy_Pulse
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -52,24 +58,24 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.49000000953674316
+  scale: 0.49000001
   magnitude: 1
-  duration: 1.0499999523162842
+  duration: 1.04999995
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Arachnobot_Blaster.Energy_Pulse
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -78,19 +84,19 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Villain_Pets.Arachnobot_Blaster.Energy_Pulse
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   suppression: 32
   buffable: true
   resistible: true
@@ -100,8 +106,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

@@ -7,8 +7,8 @@ display: Force Bubble
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.21449999511241913
-cast_time: 1.0700000524520874
+endurance_cost: 0.214499995
+cast_time: 1.07000005
 recharge_time: 15
+base_recharge_time: 15
 activate_period: 0.25
 effect_area: 2
 radius: 50
@@ -31,6 +32,9 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: PBAoE Foe Repel, Knockdown'
 description_long: 'Creates a large bubble which protects all allies inside. While active, this power keeps all foes at bay, protecting all allies inside from melee or short ranged attacks. More powerful foes may be able to penetrate the Force Bubble, buy may slip and get knocked down and forced back if they try. Recharge: Slow'
+enhancements:
+- 8
+- 18
 set_types: []
 level: 38
 variable_name: ''
@@ -41,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Force_Field.Force_Bubble
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 8
   summon: ''
@@ -57,14 +61,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Force_Bubble
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 8
   summon: ''
@@ -79,55 +83,55 @@ effects:
   duration: 0.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Force_Bubble
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.0099999997764825821
+  base_probability: 0.00999999978
   suppression: 32
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Force_Bubble
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.0099999997764825821
+  base_probability: 0.00999999978
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Force_Field.Force_Bubble
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 77
   summon: ''
   stacking: 1
@@ -139,8 +143,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Rest
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1613826
 power_type: 2
 accuracy: 1
@@ -20,8 +20,9 @@ target: 1
 target_line_of_sight: true
 interrupt_time: 6
 cast_time: 6
-recharge_time: 180
-activate_period: 0.20000000298023224
+recharge_time: 30
+base_recharge_time: 30
+activate_period: 0.200000003
 effect_area: 1
 max_boosts: ''
 cast_flags: 1
@@ -33,19 +34,24 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Self Heal Recover, -DEF
 description_long: Activate Rest to heal Hit Points and recover Endurance. While Resting you cannot attack, and you are extremely vulnerable to attack and damage. Activation of Rest can be interrupted, and the power must be active for a few seconds before you start to recuperate.
+enhancements:
+- 11
+- 2
+- 18
+- 7
 set_types: []
 level: 2
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 2
+display_location: 12
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -54,17 +60,17 @@ effects:
   to_who: 3
   scale: 19
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 26
   summon: ''
   ticks: 1
@@ -76,68 +82,68 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 3
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 100
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 6
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 100
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 13
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: -100
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -145,16 +151,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -162,16 +168,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -179,16 +185,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -196,16 +202,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -213,16 +219,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -230,16 +236,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -247,16 +253,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -264,16 +270,16 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 9
   summon: ''
@@ -281,33 +287,33 @@ effects:
   to_who: 3
   scale: -10
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 5
   summon: ''
   base_probability: 1
   to_who: 3
   scale: -1000
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 19
   mezmorize_type: 14
   summon: ''
@@ -316,35 +322,35 @@ effects:
   to_who: 2
   scale: -100
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 20
   mezmorize_type: 10
   summon: ''
@@ -352,34 +358,34 @@ effects:
   to_who: 3
   scale: -1
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 19
   mezmorize_type: 9
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 20
   mezmorize_type: 9
   summon: ''
@@ -387,27 +393,27 @@ effects:
   to_who: 3
   scale: -1
   magnitude: 1
-  duration: 0.55000001192092896
+  duration: 0.550000012
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Rest
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 10
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: -100
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

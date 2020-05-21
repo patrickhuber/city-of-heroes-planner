@@ -7,8 +7,8 @@ display: Energy Torrent
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 140
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-cast_time: 1.0700000524520874
+cast_time: 1.07000005
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 3
 radius: 40
 arc: 45
@@ -30,6 +31,10 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Cone Energy/Smash, Knockback
 description_long: Unleashes a cone of energy that knocks foes back.
+enhancements:
+- 1
+- 4
+- 16
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +46,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.Phantasm.Energy_Torrent
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -50,18 +55,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.38999998569488525
+  scale: 0.389999986
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Phantasm.Energy_Torrent
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -74,19 +79,19 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Phantasm.Energy_Torrent
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   to_who: 1
@@ -94,8 +99,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

@@ -7,8 +7,8 @@ display: Team Transporter
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2562
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 interrupt_time: 4
-cast_time: 6.0300002098083496
+cast_time: 6.03000021
 recharge_time: 1800
+base_recharge_time: 1800
 effect_area: 4
 max_boosts: 0
 cast_flags: 3
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Summon Team Transport Vehicle
 description_long: Activating this power will summon a vehicle that will allow your party to teleport to the active mission.  This power cannot be activated while on a PvP or mission map.
+enhancements: []
 set_types: []
 level: 4
 variable_name: ''
@@ -38,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Team_Transporter
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Team_Transporter_Hero
   base_probability: 1
@@ -48,14 +50,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Team_Transporter
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Pets_Team_Transporter_Villain
   base_probability: 1
@@ -65,14 +67,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Team_Transporter
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
   summon: Pets_Team_Transporter_Praetorian
   base_probability: 1
@@ -82,8 +84,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

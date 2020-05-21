@@ -11,23 +11,23 @@ effect_chance: 1
 level_min: 19
 level_max: 52
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.5
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 0.5
-- i_d: 19
-  sub_i_d: -1
+- id: 19
+  sub_id: -1
   multiplier: 0.5
-- i_d: 6
-  sub_i_d: -1
+- id: 6
+  sub_id: -1
   multiplier: 0.5
-- i_d: 11
-  sub_i_d: -1
+- id: 11
+  sub_id: -1
   multiplier: 0.5
-- i_d: 21
-  sub_i_d: -1
+- id: 21
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Crafted_Tempered_Readiness_F
 recipe: Tempered_Readiness_F

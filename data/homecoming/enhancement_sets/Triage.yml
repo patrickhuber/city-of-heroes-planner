@@ -16,19 +16,19 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7963
+  - id: 7840
     name: Set_Bonus.Set_Bonus.Improved_Regeneration_1
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8096
+  - id: 7973
     name: Set_Bonus.Set_Bonus.Increased_Health_1
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 7935
+  - id: 7812
     name: Set_Bonus.Set_Bonus.Improved_Heal_1
 special_bonuses:
 - special: -1

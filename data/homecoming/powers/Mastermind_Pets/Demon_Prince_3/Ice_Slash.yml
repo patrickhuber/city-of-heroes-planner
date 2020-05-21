@@ -7,19 +7,20 @@ display: Ice Slash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 49
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 10.192000389099121
-cast_time: 1.8300000429153442
+endurance_cost: 10.1920004
+cast_time: 1.83000004
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: Melee, High DMG(Cold/Lethal), Foe -Recharge, -SPD
 description_long: "Ice Slash allows the user to create a blade of solid ice and strike a foe for high damage.  Being hit by Ice Slash will Slow a foes' attack and movement speed, due to the intense chill. Damage: High, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 22
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +50,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -52,18 +59,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.95999997854232788
+  scale: 0.959999979
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -76,14 +83,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -91,19 +98,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 32
   summon: ''
   stacking: 1
@@ -111,19 +118,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 11
   summon: ''
   stacking: 1
@@ -131,19 +138,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -151,19 +158,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Mastermind_Pets.Demon_Prince_3.Ice_Slash
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 17
   summon: ''
   stacking: 1
@@ -171,14 +178,56 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0489999987
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 2
+  effect_type: 3
+  damage_type: 4
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.25
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

@@ -7,8 +7,8 @@ display: Bone Smasher
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 137
@@ -17,15 +17,17 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 5
-endurance_cost: 8.4499998092651367
+endurance_cost: 8.44999981
 cast_time: 1.5
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
 boosts_allowed: []
 description_short: Disorient
 description_long: You have been Disoriented.
+enhancements: []
 set_types: []
 level: 25
 variable_name: ''
@@ -38,7 +40,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.PPD_Hard_Suit.Bone_Smasher
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -47,18 +49,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.PPD_Hard_Suit.Bone_Smasher
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -67,23 +69,23 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.34000000357627869
+  scale: 0.340000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.PPD_Hard_Suit.Bone_Smasher
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -93,19 +95,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pets.PPD_Hard_Suit.Bone_Smasher
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   suppression: 31
   buffable: true
   resistible: true
@@ -116,8 +118,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun

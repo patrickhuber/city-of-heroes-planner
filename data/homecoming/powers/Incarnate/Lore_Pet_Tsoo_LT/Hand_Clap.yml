@@ -7,16 +7,17 @@ display: Hand Clap
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 4
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-cast_time: 1.2300000190734863
+cast_time: 1.23000002
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -30,6 +31,11 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Disorient
 description_long: You have been Disoriented.
+enhancements:
+- 1
+- 4
+- 8
+- 23
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +48,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Tsoo_LT.Hand_Clap
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -56,14 +62,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_LT.Hand_Clap
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -72,18 +78,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_LT.Hand_Clap
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -92,12 +98,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.1000000238418579
+  scale: 1.10000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

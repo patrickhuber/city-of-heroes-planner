@@ -7,8 +7,8 @@ display: Centriole Exposure (Dam/Range)
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -31,6 +31,9 @@ boosts_allowed:
 - Technology_Boost
 description_short: Enhances Damage and Range
 description_long: Exposure to the Hamidon Centriole has enabled you to significantly augment the damage and range of one of your attack powers.  Increases damage by {Boost.Attrib.Damage.Scale}% and range by {Boost.Attrib.Range.Scale}%
+enhancements:
+- 4
+- 17
 set_types: []
 level: 1
 variable_name: ''
@@ -42,163 +45,163 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 7
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 8
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.33329999446868896
+  scale: 0.333299994
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Hamidon_Damage_Range.Hamidon_Damage_Range
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 24
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Range

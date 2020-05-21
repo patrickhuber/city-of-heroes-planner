@@ -7,8 +7,8 @@ display: Shinobi
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2050
 power_type: 2
 accuracy: 1
@@ -18,8 +18,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.12999999523162842
+endurance_cost: 0.129999995
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 0.5
 effect_area: 1
 max_boosts: 6
@@ -31,6 +32,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: Self Self +DEF(Melee, Ranged, AoE), +Run Speed, +Jump'
 description_long: A shinobi is a master of stealth and assassination. While this power is active you will be very hard to detect, and your first strike out of the shadows will deal extra damage. Even If you manage to regain cover, you can only inflict this surprise attack once every 30 seconds. Even while detected, a shinobi is a deadly foe and able to deal slightly higher damage . This power cant be used at the same time as other stealth powers.
+enhancements:
+- 5
+- 25
+- 8
+- 18
 set_types:
 - 7
 - 25
@@ -44,7 +50,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -57,14 +63,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -77,14 +83,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -97,14 +103,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -117,14 +123,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -137,14 +143,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -157,14 +163,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -177,14 +183,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -197,14 +203,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -217,14 +223,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -237,14 +243,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -257,14 +263,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 5
   damage_type: 11
   summon: ''
@@ -277,14 +283,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 5
   damage_type: 12
   summon: ''
@@ -297,14 +303,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -317,14 +323,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -337,14 +343,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -357,14 +363,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -377,14 +383,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -397,14 +403,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -417,14 +423,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -437,14 +443,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 36
   summon: ''
   base_probability: 1
@@ -456,14 +462,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 37
   summon: ''
   base_probability: 1
@@ -475,32 +481,32 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 41
   summon: ''
   base_probability: 1
   suppression: 320
   to_who: 2
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -512,14 +518,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -531,14 +537,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -550,14 +556,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -569,14 +575,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -588,14 +594,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -607,14 +613,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -626,14 +632,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -645,14 +651,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -664,14 +670,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 33
+  unique_id: 33
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -683,14 +689,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 34
+  unique_id: 34
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -703,14 +709,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 35
+  unique_id: 35
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -723,14 +729,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 36
+  unique_id: 36
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -743,14 +749,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 37
+  unique_id: 37
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -763,14 +769,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 38
+  unique_id: 38
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -783,14 +789,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 39
+  unique_id: 39
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -803,14 +809,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 40
+  unique_id: 40
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -823,14 +829,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Kyokan
-  unique_i_d: 41
+  unique_id: 41
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -843,8 +849,8 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

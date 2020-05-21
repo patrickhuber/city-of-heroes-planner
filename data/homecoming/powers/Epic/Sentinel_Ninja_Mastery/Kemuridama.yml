@@ -7,7 +7,7 @@ display: Kemuridama
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Sentinel_Ninja_Mastery.Caltrops
     - Epic.Sentinel_Ninja_Mastery.Sting_of_the_Wasp
   - - Epic.Sentinel_Ninja_Mastery.Caltrops
@@ -18,16 +18,17 @@ requirement:
     - Epic.Sentinel_Ninja_Mastery.Paralizing_Dart
   - - Epic.Sentinel_Ninja_Mastery.Sting_of_the_Wasp
     - Epic.Sentinel_Ninja_Mastery.The_Lotus_Drops
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
-accuracy: 1.3999999761581421
+accuracy: 1.39999998
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 19.5
-cast_time: 1.8300000429153442
+cast_time: 1.83000004
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 2
 radius: 20
 max_targets: 10
@@ -41,6 +42,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Foe Placate -DMG -To Hit
 description_long: 'You activate a kemuridama smoke bomb at your feet.  The resulting flash of light and smoke can briefly distract your foes and Placate them so they can no longer find or target you. A mixture of toxins in the smoke also weaken your foes, reducing how much damage they inflict in addition to lowering their chance to hit. Recharge: Very Long'
+enhancements:
+- 1
+- 26
+- 8
+- 17
+- 18
 set_types:
 - 26
 - 31
@@ -53,11 +60,11 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   buffable: true
@@ -69,14 +76,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Ranged_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -88,14 +95,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -108,14 +115,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -128,14 +135,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -148,14 +155,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -168,14 +175,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -188,14 +195,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -208,14 +215,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -228,14 +235,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -248,18 +255,18 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 7
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   buffable: true
@@ -271,14 +278,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Ranged_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -291,14 +298,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -311,14 +318,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -331,14 +338,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -351,14 +358,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -371,14 +378,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -391,14 +398,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -411,14 +418,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Epic.Sentinel_Ninja_Mastery.Kemuridama
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -431,8 +438,8 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam

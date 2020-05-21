@@ -7,8 +7,8 @@ display: Incandescence Total Core Invocation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 accuracy: 1
 group_memberships: []
@@ -19,8 +19,9 @@ range: 10000
 target_secondary: 16384
 range_secondary: 200
 endurance_cost: 20
-cast_time: 2.4000000953674316
+cast_time: 2.4000001
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 6
 max_targets: 255
 max_boosts: 0
@@ -31,6 +32,8 @@ boosts_allowed:
 ignore_strength: true
 description_short: Targeted Wide AoE League Teleport, +Healing Received.  Foe Knockback, Stun.
 description_long: 'Targeted Wide AoE League Teleport, +Healing Received. Foe Knockback, Stun.  This power will prompt teammates to accept it if they have enabled Prompt Team Teleport. Recharge: Very Long.  The safe zone created by this power at the targeted location persists for longer than other versions of this power.<br><br>This power also applies an Incarnate Shift. (An Incarnate Shift is a Level Shift which only activates while participating in an Incarnate Trial.)'
+enhancements:
+- 11
 set_types: []
 click_buff: true
 level: 1
@@ -44,7 +47,7 @@ absorb_summon_effects: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Destiny.Incandescence_Total_Core_Invocation
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 14
   summon: ''
@@ -52,36 +55,36 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 3
-  scale: 3.0999999046325684
+  scale: 3.0999999
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Total_Core_Invocation
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 28
   effect_modifiers: 13
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: -0.69999998807907104
+  scale: -0.699999988
   magnitude: 1
   duration: 90
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Total_Core_Invocation
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
   summon: IncarnatePets_Incandescent_Destiny_Shield
   delayed_time: 1
@@ -92,14 +95,14 @@ effects:
   duration: 7
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Total_Core_Invocation
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 12
   summon: Incarnate.Destiny_Silent.Level_Shift
   stacking: 1
@@ -109,14 +112,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Destiny_Silent.Level_Shift
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Total_Core_Invocation
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 30
   summon: ''
   stacking: 1
@@ -126,8 +129,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Destiny_Silent.Level_Shift
   effect_id: Ones

@@ -7,8 +7,8 @@ display: 'Kinetic Crash: Knockback/Accuracy'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -29,6 +29,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: +Knockback, +ACC
 description_long: Enhances the Knockback potential of a power by {Boost.Attrib.Knockback.Scale}% and the accuracy by {Boost.Attrib.Accuracy.Scale}%.
+enhancements:
+- 16
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +43,7 @@ sort_override: true
 boost_boostable: true
 effects:
 - power_full_name: Boosts.Crafted_Kinetic_Crash_B.Crafted_Kinetic_Crash_B
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   effect_modifiers: 1
   summon: ''
@@ -52,14 +54,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Accuracy
   override: ''
 - power_full_name: Boosts.Crafted_Kinetic_Crash_B.Crafted_Kinetic_Crash_B
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   mezmorize_type: 4
   effect_modifiers: 19
@@ -71,14 +73,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_60
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Boosts.Crafted_Kinetic_Crash_B.Crafted_Kinetic_Crash_B
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   mezmorize_type: 5
   effect_modifiers: 19
@@ -90,8 +92,8 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_60
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_60

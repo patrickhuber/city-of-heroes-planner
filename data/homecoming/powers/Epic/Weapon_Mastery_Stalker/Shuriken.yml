@@ -7,12 +7,12 @@ display: Shuriken
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Weapon_Mastery_Stalker.Web_Grenade
     - ''
   - - Epic.Weapon_Mastery_Stalker.Caltrops
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 18
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 5.4600000381469727
-cast_time: 1.0700000524520874
+endurance_cost: 5.46000004
+cast_time: 1.07000005
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -35,6 +36,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Minor DMG(Lethal)
 description_long: 'A classic small throwing weapon, you can throw Shurikens at a pretty fast rate of fire. You must be level 41 and have Web Grenade or Physical Perfection before selecting this power. Damage: Minor, Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 44
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Weapon_Mastery_Stalker.Shuriken
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -57,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Shuriken
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -78,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.1650400161743164
+  scale: 1.16504002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Shuriken
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -100,40 +107,40 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 1.1650400161743164
+  scale: 1.16504002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Shuriken
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 1.1650400161743164
+  scale: 1.16504002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Shuriken
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -143,19 +150,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   attrib_type: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Weapon_Mastery_Stalker.Shuriken
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -166,12 +173,12 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: class_stalker
-  i_d_class_name: 12
+  uid_class_name: class_stalker
+  id_class_name: 12
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

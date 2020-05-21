@@ -7,8 +7,8 @@ display: Scorch
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 65
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 4.3680000305175781
+endurance_cost: 4.36800003
 cast_time: 1
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, Minor DMG(Fire)
 description_long: 'This power engulfs your hands in flames, and can ignite the target of your Scorching attack. Once on fire, the target will suffer damage over time. Damage: Minor, Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 1
 - 41
@@ -45,7 +51,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -55,18 +61,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -76,108 +82,108 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5469499826431274
+  scale: 1.54694998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 3
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5469499826431274
+  scale: 1.54694998
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PlayerCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: MLCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8399999737739563
+  scale: 0.839999974
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: BossCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -185,35 +191,35 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.37799999117851257
+  scale: 0.377999991
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Scorch
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 3
   stacking: 1
-  base_probability: -0.20000000298023224
+  base_probability: -0.200000003
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.045000001788139343
+  scale: 0.0450000018
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

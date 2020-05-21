@@ -7,8 +7,8 @@ display: Staff Mastery
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Change Stances/Special
 description_long: 'By Purchasing this power, you will gain access to the following powers: Form of the Body, Form of the Mind and Form of the Soul.  Each of these toggle powers will allow the user to build up levels of Perfection, which grant the user a stacking short duration buff.  Each buff is unique to the active form, and only one form can be active at a time.  Perfection can be released by executing Eye of the Storm or Sky Splitter.  When either of these attacks are empowered with Perfection they will have additional effects that are unique to each form.  See Forms for additional details.'
+enhancements: []
 set_types: []
 level: 8
 variable_name: ''
@@ -34,7 +35,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Staff_Fighting.Staff_Mastery
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   base_probability: 1
@@ -44,8 +45,8 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

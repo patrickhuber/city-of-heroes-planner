@@ -1,10 +1,14 @@
 display_name: Arachnos Widow
 hit_points: 1071
-hit_points_max: 2409.51806640625
+hit_points_max: 2409.51807
 description_long: Characters with Widow Training begin their careers as Blood Widows. Blood Widow characters begin with modest melee, ranged and buff skills.  Beginning at level 24, they may chose to switch to the ""Fortunata"" path or remain on the ""Widow"" path and become ""Night Widows.""  Night Widows gain considerably stronger melee capabilities, and only have modest ranged abilities, while those who go with the Fortunata path learn stronger ranged attack abilities and control abilities.
-resistence_max: 0.85000002384185791
+resistence_max: 0.850000024
 origins:
+- Magic
+- Mutation
 - Natural
+- Science
+- Technology
 class_type: 4
 column: 13
 class_name: Class_Arachnos_Widow
@@ -16,7 +20,7 @@ recharge_max: 5
 damage_max: 4
 recovery_max: 5
 regeneration_max: 20
-recovery_base: 1.0499999523162842
-regeneration_base: 0.30000001192092896
+recovery_base: 1.04999995
+regeneration_base: 0.300000012
 threat_base: 2
-perception_base: 1268.300048828125
+perception_base: 1268.30005

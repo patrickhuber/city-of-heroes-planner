@@ -7,10 +7,10 @@ display: Hail of Debris
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 28
 group_memberships: []
 entities_affected: 2048
@@ -26,6 +26,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: PBAoE, Moderate DoT (Smashing/Lethal), -Speed(Foe, All), -DMG(Foe, All), -Fly(Foe)
 description_long: You are a hail of debris created by a nearby Vortex. Enemies caught within your field of effect suffer smashing and lethal damage over time, as well as reduced movement speeds, damage resistance and an inability to fly.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +38,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -47,18 +48,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.058639999479055405
+  scale: 0.0586399995
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -68,18 +69,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.058639999479055405
+  scale: 0.0586399995
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -89,18 +90,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.10554999858140945
+  scale: 0.105549999
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -110,18 +111,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.011730000376701355
+  scale: 0.0117300004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -131,16 +132,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -150,16 +151,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -169,16 +170,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -188,16 +189,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -207,16 +208,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -226,16 +227,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -245,16 +246,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -264,16 +265,16 @@ effects:
   to_who: 1
   scale: 2
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 10
   summon: ''
   base_probability: 1
@@ -282,17 +283,17 @@ effects:
   to_who: 1
   scale: -5
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -301,36 +302,36 @@ effects:
   to_who: 1
   scale: 0.5
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 11
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.60000002384185791
+  scale: 0.600000024
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -338,17 +339,17 @@ effects:
   to_who: 1
   scale: 1
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Pets.Wind_Control_HailOfDebris.Hail_of_Debris
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -357,11 +358,11 @@ effects:
   to_who: 1
   scale: 0.5
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8333
+  - id: 8211
     name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_2
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 7966
+  - id: 7843
     name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 7951
+  - id: 7828
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_3
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 8029
+  - id: 7906
     name: Set_Bonus.Set_Bonus.Increased_Damage_4
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8120
+  - id: 7997
     name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_4
 special_bonuses:
 - special: -1

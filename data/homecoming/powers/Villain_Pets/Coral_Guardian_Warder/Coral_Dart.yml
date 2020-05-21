@@ -7,8 +7,8 @@ display: Coral Dart
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 18
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 7.5399999618530273
-cast_time: 1.0700000524520874
+endurance_cost: 7.53999996
+cast_time: 1.07000005
 recharge_time: 5
+base_recharge_time: 5
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -29,6 +30,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Ranged Lethal, Med Dam
 description_long: Shoots spiny burs at your foe.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Coral_Guardian_Warder.Coral_Dart
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -49,12 +54,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.1599999666213989
+  scale: 1.15999997
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

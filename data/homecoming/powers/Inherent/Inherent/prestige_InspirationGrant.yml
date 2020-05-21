@@ -7,8 +7,8 @@ display: Inner Inspiration
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 group_memberships: []
@@ -16,14 +16,16 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 1.1699999570846558
+cast_time: 1.16999996
 recharge_time: 1800
+base_recharge_time: 1800
 effect_area: 1
 max_boosts: 0
 number_allowed: 1
 boosts_allowed: []
 description_short: Self, Grant Random Inspirations
 description_long: You can look deep within yourself to find the inspiration necessary to overcome any obstacle.  Using this power will award the player with 3 inspirations.  Once used, you will be prevented from using this power again for 30 minutes.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +37,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.prestige_InspirationGrant
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 31
   summon: ''
   base_probability: 1
@@ -44,14 +46,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InnerInspirationReward
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.prestige_InspirationGrant
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 12
   summon: Temporary_Powers.SilentPowers.Inner_Inspiration_Lock
   base_probability: 1
@@ -60,8 +62,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.SilentPowers.Inner_Inspiration_Lock
   effect_id: Ones

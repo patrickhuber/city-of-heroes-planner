@@ -7,8 +7,8 @@ display: Trick Shot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 18
@@ -17,10 +17,12 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 10.192000389099121
-cast_time: 1.0700000524520874
+endurance_cost: 10.1920004
+cast_time: 1.07000005
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
+max_targets: 5
 max_boosts: 6
 number_allowed: 1
 boosts_allowed:
@@ -31,6 +33,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Chain Moderate DMG (Lethal)
 description_long: 'You take careful aim and bounce a thrown shuriken between multiple targets.  Damage: Moderate, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 44
@@ -44,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Martial_Assault.Trick_Shot
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -54,18 +62,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3999999761581421
+  scale: 0.92900002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Martial_Assault.Trick_Shot
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -75,18 +83,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.9641100168228149
+  scale: 1.65499997
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Martial_Assault.Trick_Shot
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 77
   summon: ''
   stacking: 1
@@ -97,14 +105,14 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Martial_Assault.Trick_Shot
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 38
   summon: Pets_Trick_Shot_Jump1
   stacking: 1
@@ -117,14 +125,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Martial_Assault.Trick_Shot
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 34
   summon: ''
   ticks: 1
@@ -135,14 +143,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Martial_Assault.Trick_Shot
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 48
   summon: ''
   base_probability: 1
@@ -152,8 +160,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

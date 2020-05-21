@@ -7,8 +7,8 @@ display: Translocation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1615938
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Click, Self Teleport
 description_long: 'Clicking on this power and then selecting a location will cause the caster to vanish and reappear at their target location. Recharge: Very Fast'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

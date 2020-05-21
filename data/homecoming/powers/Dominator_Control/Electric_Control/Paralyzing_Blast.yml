@@ -7,19 +7,20 @@ display: Paralyzing Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 0.80000001192092896
+accuracy: 0.800000012
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 15.600000381469727
-cast_time: 1.6699999570846558
+endurance_cost: 15.6000004
+cast_time: 1.66999996
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 20
 max_targets: 16
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged AoE, Foe Hold, -End
 description_long: 'Summoning a large amount of energy, you can completely paralyze a group of foes in cages of electricity for a short time.  These foes may be drained of some endurance as well.  Recharge: Very Long'
+enhancements:
+- 1
+- 8
+- 12
+- 17
+- 18
+- 7
 set_types:
 - 10
 - 38
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Electric_Control.Paralyzing_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -62,14 +70,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Immobilize
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Paralyzing_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -85,14 +93,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Paralyzing_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -109,14 +117,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Paralyzing_Blast
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -125,18 +133,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.070000000298023224
+  scale: -0.0700000003
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Paralyzing_Blast
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   stacking: 1
@@ -149,14 +157,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Paralyzing_Blast
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 26
   summon: ''
   stacking: 1
@@ -169,8 +177,8 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

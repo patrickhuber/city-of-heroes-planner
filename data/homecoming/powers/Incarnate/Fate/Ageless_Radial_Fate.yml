@@ -7,8 +7,8 @@ display: Ageless Radial Fate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 accuracy: 1
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 513
 entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 30
 max_targets: 255
@@ -28,6 +29,8 @@ boosts_allowed:
 ignore_strength: true
 description_short: PBAoE Ally +End, +Recharge Rate, +Debuff Resistance
 description_long: 'PBAoE Ally +End, +Recharge Rate, +Debuff Resistance. Recharge: Very Long. The continuing buffs from this power will gradually lose effectiveness over time before they expire completely after 60 seconds.'
+enhancements:
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 7
   summon: ''
   stacking: 1
@@ -50,86 +53,86 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 28
   effect_modifiers: 32
   summon: ''
@@ -139,14 +142,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 28
   effect_modifiers: 11
   summon: ''
@@ -156,14 +159,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 28
   effect_modifiers: 25
   summon: ''
@@ -173,14 +176,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 28
   effect_modifiers: 1
   summon: ''
@@ -190,14 +193,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 28
   effect_modifiers: 7
   summon: ''
@@ -207,14 +210,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 28
   effect_modifiers: 40
   summon: ''
@@ -224,14 +227,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 28
   effect_modifiers: 5
   summon: ''
@@ -241,14 +244,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 13
+  unique_id: 13
   damage_type: 10
   summon: ''
   base_probability: 1
@@ -257,14 +260,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 14
+  unique_id: 14
   damage_type: 11
   summon: ''
   base_probability: 1
@@ -273,14 +276,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 15
+  unique_id: 15
   damage_type: 12
   summon: ''
   base_probability: 1
@@ -289,14 +292,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 16
+  unique_id: 16
   damage_type: 1
   summon: ''
   base_probability: 1
@@ -305,14 +308,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 17
+  unique_id: 17
   damage_type: 2
   summon: ''
   base_probability: 1
@@ -321,14 +324,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 18
+  unique_id: 18
   damage_type: 3
   summon: ''
   base_probability: 1
@@ -337,14 +340,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 19
+  unique_id: 19
   damage_type: 4
   summon: ''
   base_probability: 1
@@ -353,14 +356,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 20
+  unique_id: 20
   damage_type: 5
   summon: ''
   base_probability: 1
@@ -369,14 +372,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 21
+  unique_id: 21
   damage_type: 6
   summon: ''
   base_probability: 1
@@ -385,14 +388,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 22
+  unique_id: 22
   damage_type: 8
   summon: ''
   base_probability: 1
@@ -401,14 +404,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 28
   effect_modifiers: 23
   summon: ''
@@ -418,14 +421,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 28
   effect_modifiers: 27
   summon: ''
@@ -435,14 +438,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 28
   effect_modifiers: 26
   summon: ''
@@ -452,14 +455,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 28
   effect_modifiers: 32
   summon: ''
@@ -469,14 +472,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 28
   effect_modifiers: 11
   summon: ''
@@ -486,14 +489,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 28
   effect_modifiers: 25
   summon: ''
@@ -503,14 +506,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 28
   effect_modifiers: 1
   summon: ''
@@ -520,14 +523,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 28
   effect_modifiers: 7
   summon: ''
@@ -537,14 +540,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 28
   effect_modifiers: 40
   summon: ''
@@ -554,14 +557,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 28
   effect_modifiers: 5
   summon: ''
@@ -571,14 +574,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 33
+  unique_id: 33
   damage_type: 10
   summon: ''
   base_probability: 1
@@ -587,14 +590,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 34
+  unique_id: 34
   damage_type: 11
   summon: ''
   base_probability: 1
@@ -603,14 +606,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 35
+  unique_id: 35
   damage_type: 12
   summon: ''
   base_probability: 1
@@ -619,14 +622,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 36
+  unique_id: 36
   damage_type: 1
   summon: ''
   base_probability: 1
@@ -635,14 +638,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 37
+  unique_id: 37
   damage_type: 2
   summon: ''
   base_probability: 1
@@ -651,14 +654,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 38
+  unique_id: 38
   damage_type: 3
   summon: ''
   base_probability: 1
@@ -667,14 +670,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 39
+  unique_id: 39
   damage_type: 4
   summon: ''
   base_probability: 1
@@ -683,14 +686,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 40
+  unique_id: 40
   damage_type: 5
   summon: ''
   base_probability: 1
@@ -699,14 +702,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 41
+  unique_id: 41
   damage_type: 6
   summon: ''
   base_probability: 1
@@ -715,14 +718,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 42
+  unique_id: 42
   damage_type: 8
   summon: ''
   base_probability: 1
@@ -731,14 +734,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 43
+  unique_id: 43
   effect_type: 28
   effect_modifiers: 23
   summon: ''
@@ -748,14 +751,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 44
+  unique_id: 44
   effect_type: 28
   effect_modifiers: 27
   summon: ''
@@ -765,14 +768,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 45
+  unique_id: 45
   effect_type: 28
   effect_modifiers: 26
   summon: ''
@@ -782,14 +785,14 @@ effects:
   magnitude: 1
   duration: 30
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 46
+  unique_id: 46
   effect_type: 28
   effect_modifiers: 32
   summon: ''
@@ -799,14 +802,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 47
+  unique_id: 47
   effect_type: 28
   effect_modifiers: 11
   summon: ''
@@ -816,14 +819,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 48
+  unique_id: 48
   effect_type: 28
   effect_modifiers: 25
   summon: ''
@@ -833,14 +836,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 49
+  unique_id: 49
   effect_type: 28
   effect_modifiers: 1
   summon: ''
@@ -850,14 +853,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 50
+  unique_id: 50
   effect_type: 28
   effect_modifiers: 7
   summon: ''
@@ -867,14 +870,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 51
+  unique_id: 51
   effect_type: 28
   effect_modifiers: 40
   summon: ''
@@ -884,14 +887,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 52
+  unique_id: 52
   effect_type: 28
   effect_modifiers: 5
   summon: ''
@@ -901,14 +904,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 53
+  unique_id: 53
   damage_type: 10
   summon: ''
   base_probability: 1
@@ -917,14 +920,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 54
+  unique_id: 54
   damage_type: 11
   summon: ''
   base_probability: 1
@@ -933,14 +936,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 55
+  unique_id: 55
   damage_type: 12
   summon: ''
   base_probability: 1
@@ -949,14 +952,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 56
+  unique_id: 56
   damage_type: 1
   summon: ''
   base_probability: 1
@@ -965,14 +968,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 57
+  unique_id: 57
   damage_type: 2
   summon: ''
   base_probability: 1
@@ -981,14 +984,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 58
+  unique_id: 58
   damage_type: 3
   summon: ''
   base_probability: 1
@@ -997,14 +1000,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 59
+  unique_id: 59
   damage_type: 4
   summon: ''
   base_probability: 1
@@ -1013,14 +1016,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 60
+  unique_id: 60
   damage_type: 5
   summon: ''
   base_probability: 1
@@ -1029,14 +1032,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 61
+  unique_id: 61
   damage_type: 6
   summon: ''
   base_probability: 1
@@ -1045,14 +1048,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 62
+  unique_id: 62
   damage_type: 8
   summon: ''
   base_probability: 1
@@ -1061,14 +1064,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 63
+  unique_id: 63
   effect_type: 28
   effect_modifiers: 23
   summon: ''
@@ -1078,14 +1081,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 64
+  unique_id: 64
   effect_type: 28
   effect_modifiers: 27
   summon: ''
@@ -1095,14 +1098,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Radial_Fate
-  unique_i_d: 65
+  unique_id: 65
   effect_type: 28
   effect_modifiers: 26
   summon: ''
@@ -1112,8 +1115,8 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_ArchVillain_Res
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: ArchVillain_Res

@@ -7,8 +7,8 @@ display: Luminous Detonation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 40962
 accuracy: 1
 attack_types: 132
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 15.184000015258789
-cast_time: 1.6699999570846558
+endurance_cost: 15.184
+cast_time: 1.66999996
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -35,6 +36,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Targeted AoE), Moderate DMG(Energy), Foe -DEF, Knockback
 description_long: 'You hurl a large blast of Kheldian energy that violently explodes on impact, damaging all foes near the target, and reducing their Defense. Some affected targets may get knocked back. Damage: Moderate, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 21
@@ -51,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Luminous_Detonation
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -61,18 +70,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.899999976
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Luminous_Detonation
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -85,14 +94,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Luminous_Detonation
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -102,18 +111,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.81563001871109009
+  scale: 0.815630019
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Luminous_Detonation
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -127,14 +136,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Luminous_Detonation
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -149,8 +158,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback

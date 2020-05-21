@@ -7,19 +7,20 @@ display: Resistance HE Grenade
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
-accuracy: 1.1000000238418579
+accuracy: 1.10000002
 attack_types: 28
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 17.940000534057617
-cast_time: 1.3700000047683716
+endurance_cost: 17.9400005
+cast_time: 1.37
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -30,6 +31,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Targeted AoE, Moderate DMG(Lethal/Smashing), Minor DoT(Fire)
 description_long: This grenade is built from stolen Resistance munitions. It should send an effective message.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Resistance_HE_Grenade
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -49,18 +51,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.43000000715255737
+  scale: 0.430000007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Tempdamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Tempdamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Resistance_HE_Grenade
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -69,18 +71,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.41999998688697815
+  scale: 0.419999987
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Tempdamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Tempdamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Resistance_HE_Grenade
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -90,13 +92,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
-  duration: 0.9100000262260437
+  duration: 0.910000026
   aspect: 2
   modifier_table: Ranged_Tempdamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Tempdamage

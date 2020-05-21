@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Stalker
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 2
 accuracy: 1
 group_memberships: []
@@ -17,7 +17,7 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 1.715999960899353
+cast_time: 1.71599996
 activate_period: 100
 effect_area: 1
 max_boosts: ''
@@ -26,20 +26,20 @@ boosts_allowed: []
 ignore_strength: true
 description_short: Critical Damage
 description_long: A Stalker does his best work when attacking from ambush. When properly 'Hidden', a Stalker can pull off Critical hits with his attacks, and even land a massive 'Assassins Strike' with an Assassins power. Additionally, a Stalker has a chance to land a Critical hit with most of his attack powers when attacking Held or Slept foes.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 3
 mutually_exclusive_auto: true
 never_auto_update: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Assassination
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   base_probability: 1
@@ -49,9 +49,26 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 45
+  summon: Arachnos_Soldiers.Arachnos_Soldier.Single_Shot
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: CritActive
   effect_id: Ones
   override: ''

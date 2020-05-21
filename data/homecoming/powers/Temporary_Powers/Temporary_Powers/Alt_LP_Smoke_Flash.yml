@@ -7,17 +7,18 @@ display: Smoke Flash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
-accuracy: 1.3999999761581421
+accuracy: 1.39999998
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 3.25
-cast_time: 1.8300000429153442
+cast_time: 1.83000004
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 20
 max_targets: 10
@@ -26,6 +27,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: PBAoE, Foe Placate
 description_long: 'You throw a smoke bomb at your feet.  The resulting flash of light and smoke can briefly distract your foes and Placate them so they can no longer find or target you. Recharge: Very Long'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_LP_Smoke_Flash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -51,14 +53,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_LP_Smoke_Flash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -73,8 +75,8 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Taunt
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Taunt

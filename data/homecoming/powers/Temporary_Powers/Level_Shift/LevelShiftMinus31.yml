@@ -7,8 +7,8 @@ display: Level Shift -31
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Level Difference -31
 description_long: This power shifts your Combat Level when compared to the Combat Level of the enemies you are fighting.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

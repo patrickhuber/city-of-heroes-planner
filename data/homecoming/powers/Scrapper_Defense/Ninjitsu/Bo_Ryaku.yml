@@ -7,8 +7,8 @@ display: Bo Ryaku
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -25,7 +25,9 @@ boosts_allowed:
 - Res_Damage_Boost
 ignore_strength: true
 description_short: 'Auto: Self +Res(Knockback, Knockup, All DMG)'
-description_long: "B\0 Ryaku is one of the 18 fundamental skills of the Togakure-ry\0 school of ninjutsu. Alongside more orthodox and mainstream measures, B\0 Ryaku includes use of unorthodox strategies and tactics that help you minimize the amount of damage taken in combat. This power is always on and costs no endurance."
+description_long: Bo Ryaku is one of the 18 fundamental skills of the Togakure-ryu school of ninjitsu. Alongside more orthodox and mainstream measures, Bo Ryaku includes use of unorthodox strategies and tactics that help you minimize the amount of damage taken in combat. This power is always on and costs no endurance.
+enhancements:
+- 19
 set_types:
 - 8
 level: 28
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -48,14 +50,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -66,14 +68,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -86,14 +88,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -106,14 +108,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -124,14 +126,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -142,14 +144,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -160,14 +162,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -178,14 +180,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -196,14 +198,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -214,14 +216,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -232,14 +234,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -250,14 +252,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -268,14 +270,14 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Scrapper_Defense.Ninjitsu.Bo_Ryaku
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -286,8 +288,8 @@ effects:
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

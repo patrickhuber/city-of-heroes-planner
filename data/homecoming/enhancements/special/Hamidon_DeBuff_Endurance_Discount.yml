@@ -15,16 +15,16 @@ effect_chance: 1
 level_max: 52
 buff_mode: 2
 effects:
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 1
 - buff_mode: 2
-  i_d: 3
-  sub_i_d: -1
+  id: 3
+  sub_id: -1
   multiplier: 1
 - buff_mode: 2
-  i_d: 20
-  sub_i_d: -1
+  id: 20
+  sub_id: -1
   schedule: 1
   multiplier: 1
 unique_identifier: Hamidon_DeBuff_Endurance_Discount

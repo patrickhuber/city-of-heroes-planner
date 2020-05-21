@@ -7,8 +7,8 @@ display: Savage Leap
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 1
 target: 16384
 target_line_of_sight: true
 range: 70
-endurance_cost: 17.579999923706055
-cast_time: 1.1699999570846558
+endurance_cost: 17.5799999
+cast_time: 1.16999996
 recharge_time: 40
+base_recharge_time: 40
 effect_area: 4
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Superior DMG(Lethal), Foe Minor DoT(Lethal), +3 Blood Frenzy, Self Teleport
 description_long: 'You throw yourself at your distant foes while slashing and tearing wildly dealing superior lethal damage and causing your foes to suffer from additional minor lethal damage over time. Savage Leap build 3 stacks of Blood Frenzy. Damage: Superior, Minor DoT, Recharge: Long'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 4
 - 42
@@ -46,11 +53,11 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Savage_Melee.Savage_Leap
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 14
   summon: ''
-  delayed_time: 0.69999998807907104
+  delayed_time: 0.699999988
   stacking: 1
   base_probability: 1
   buffable: true
@@ -59,14 +66,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Savage_Melee.Savage_Leap
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Pets_Savage_Melee_Savage_Leap
   delayed_time: 0.625
@@ -77,14 +84,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Savage_Melee.Savage_Leap
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy_Stalker
   base_probability: 1
@@ -93,14 +100,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy_Stalker
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Melee.Savage_Melee.Savage_Leap
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
   base_probability: 1
@@ -109,8 +116,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones

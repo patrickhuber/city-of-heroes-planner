@@ -7,18 +7,19 @@ display: Pulsar
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 40962
-accuracy: 0.80000001192092896
+accuracy: 0.800000012
 attack_types: 4
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 15.600000381469727
+endurance_cost: 15.6000004
 cast_time: 3
 recharge_time: 45
+base_recharge_time: 45
 effect_area: 2
 radius: 20
 max_targets: 10
@@ -31,6 +32,11 @@ boosts_allowed:
 - Stunned_Boost
 description_short: PBAoE, Foe Disorient
 description_long: 'Generates a brilliant pulse of Kheldian light around you that stuns nearby foes. Affected foes are Disoriented and unable to defend themselves. Recharge: Very Long'
+enhancements:
+- 1
+- 8
+- 18
+- 23
 set_types:
 - 11
 level: 18
@@ -42,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Pulsar
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -57,14 +63,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Pulsar
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -79,14 +85,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Peacebringer_Offensive.Luminous_Blast.Pulsar
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -102,8 +108,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

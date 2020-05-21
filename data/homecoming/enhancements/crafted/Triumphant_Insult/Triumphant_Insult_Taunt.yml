@@ -11,8 +11,8 @@ effect_chance: 1
 level_min: 9
 level_max: 19
 effects:
-- i_d: 12
-  sub_i_d: 11
+- id: 12
+  sub_id: 11
   multiplier: 1
 unique_identifier: Crafted_Triumphant_Insult_A
 recipe: Triumphant_Insult_A

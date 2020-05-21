@@ -12,8 +12,8 @@ effect_chance: 1
 level_min: 9
 level_max: 49
 effects:
-- i_d: 12
-  sub_i_d: 3
+- id: 12
+  sub_id: 3
   multiplier: 1
 unique_identifier: Crafted_Immobilize
 recipe: Invention_Immobilize

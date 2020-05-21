@@ -7,7 +7,7 @@ display: Ice Storm
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Ice_Mastery.Ice_Blast
     - Epic.Ice_Mastery.Hibernate
   - - Epic.Ice_Mastery.Ice_Blast
@@ -18,7 +18,7 @@ requirement:
     - Epic.Ice_Mastery.Frost_Breath
   - - Epic.Ice_Mastery.Frozen_Armor
     - Epic.Ice_Mastery.Hibernate
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 2
 group_memberships: []
@@ -28,8 +28,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 4
 max_boosts: ''
 number_allowed: 1
@@ -41,6 +42,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged (Location AoE), Minor DoT(Cold), Foe -Recharge, -SPD
 description_long: 'Shred your foes with this Ice Storm. This power deals a lot of damage in a large area and can Slow all affected targets movement and attack speed. You must be level 44 and have two other Ice Mastery Powers before selecting this power. Damage: Minor(DoT), Recharge: Long'
+enhancements:
+- 4
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 3
 - 13
@@ -56,7 +63,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Ice_Mastery.Ice_Storm
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Epic_IceStorm
   stacking: 1
@@ -69,8 +76,8 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

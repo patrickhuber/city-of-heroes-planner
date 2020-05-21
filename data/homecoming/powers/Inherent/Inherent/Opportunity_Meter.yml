@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Sentinel
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: -Def, -Resist (+DMG)
 description_long: Sentinels are always on the lookout for vulnerabilities in their foes' defenses. By sharing this strategic information with their teammates, any enemy that a Sentinel focuses attacks on will be easier to hit and will suffer an additional 5% damage from incoming attacks. Multiple Sentinels can work together to make this effect stronger. Occasionally, the Sentinel may find an extreme vulnerability in a target that can be exploited to deliver up to 25% additional damage against it for a limited time. Only one such extreme vulnerability may be exploited at a time.
+enhancements: []
 set_types: []
 level: 1
 variable_enabled: true
@@ -34,13 +35,12 @@ variable_max: 25
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 3
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Opportunity_Meter
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 18
   summon: ''
   base_probability: 1
@@ -50,14 +50,14 @@ effects:
   attrib_type: 2
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: kRage source> .01 *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Opportunity_Meter
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 18
   summon: ''
   base_probability: 1
@@ -67,14 +67,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Opportunity_Meter
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 34
   summon: ''
   ticks: 1
@@ -85,14 +85,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Opportunity_Meter
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 78
   summon: ''
   base_probability: 1
@@ -102,14 +102,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Opportunity_Meter
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -117,18 +117,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -136,18 +136,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -155,18 +155,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -174,18 +174,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -193,18 +193,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -212,18 +212,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -231,18 +231,18 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: ''
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -250,12 +250,12 @@ effects:
   base_probability: 1
   variable_modified_override: true
   to_who: 2
-  scale: 0.0099999997764825821
+  scale: 0.00999999978
   magnitude: 1
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Dark Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 258
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 5.1999998092651367
+endurance_cost: 5.19999981
 cast_time: 1
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DMG(Negative), Foe -To Hit
 description_long: "A long range blast of dark energy. Deals moderate Negative Energy damage and reduces the target's chance to hit. Damage: Moderate, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 26
@@ -48,7 +56,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Defender_Ranged.Dark_Blast.Dark_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -62,14 +70,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Ranged.Dark_Blast.Dark_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   stacking: 1
@@ -82,14 +90,14 @@ effects:
   duration: 6
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Defender_Ranged.Dark_Blast.Dark_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -99,12 +107,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.9663599729537964
+  scale: 1.96635997
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

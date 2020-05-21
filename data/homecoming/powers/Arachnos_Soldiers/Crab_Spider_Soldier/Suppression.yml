@@ -7,8 +7,8 @@ display: Suppression
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 132
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 17.315999984741211
+endurance_cost: 17.316
 cast_time: 3
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 3
 radius: 50
 arc: 60
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Cone, Moderate DoT (Energy), Foe -DEF
 description_long: 'Your Longfang Channelgun may also fire long bursts of energy, causing moderate damage in an large cone in front of you.  Damage: Moderate Recharge: Medium'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 21
@@ -50,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Suppression
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -61,19 +69,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.18539999425411224
+  scale: 0.185399994
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Suppression
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -86,14 +94,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Arachnos_Soldiers.Crab_Spider_Soldier.Suppression
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -104,13 +112,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.17694999277591705
+  scale: 0.176949993
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

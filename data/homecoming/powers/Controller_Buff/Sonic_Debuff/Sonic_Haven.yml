@@ -7,8 +7,8 @@ display: Sonic Haven
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 80
-endurance_cost: 7.8000001907348633
-cast_time: 1.3300000429153442
+endurance_cost: 7.80000019
+cast_time: 1.33000004
 recharge_time: 2
+base_recharge_time: 2
 effect_area: 2
 radius: 30
 max_targets: 255
@@ -34,6 +35,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: Ranged, Ally +Res(Fire, Cold, Energy, Negative Energy)
 description_long: 'This shield dramatically reduces the damage an ally takes from Fire, Cold, Energy, and Negative Energy attacks for a limited time. You cannot stack multiple Sonic Havens on the same target; however, the shield can be improved by another ally using the same power. Can also be used in conjunction with your Sonic Barrier. You cannot use this power on yourself. Recharge: Very Fast'
+enhancements:
+- 8
+- 17
+- 18
+- 19
 set_types:
 - 8
 level: 4
@@ -45,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Sonic_Debuff.Sonic_Haven
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -56,14 +62,14 @@ effects:
   magnitude: 1
   duration: 240
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Controller_Buff.Sonic_Debuff.Sonic_Haven
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -74,14 +80,14 @@ effects:
   magnitude: 1
   duration: 240
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Controller_Buff.Sonic_Debuff.Sonic_Haven
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -92,14 +98,14 @@ effects:
   magnitude: 1
   duration: 240
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Controller_Buff.Sonic_Debuff.Sonic_Haven
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -110,8 +116,8 @@ effects:
   magnitude: 1
   duration: 240
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

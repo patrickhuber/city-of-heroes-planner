@@ -7,19 +7,20 @@ display: Innocuous Strikes
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 9
-endurance_cost: 8.5279998779296875
-cast_time: 2.1700000762939453
+endurance_cost: 8.52799988
+cast_time: 2.17000008
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 9
 arc: 90
@@ -36,6 +37,14 @@ boosts_allowed:
 - Taunt_Boost
 description_short: Melee Cone, High DMG(Smash), Foe Immobilize, -Speed
 description_long: "You repeatedly batter your foes' feet and legs with a flurry of sweeps of your staff.  This attack deals Moderate Smashing damage to all foes within its cone.  All affected targets will have their movement speed reduced, with a chance of being immobilized briefly.  While a form is active, this power will build one level of Perfection. Damage: High, Recharge: Long"
+enhancements:
+- 1
+- 4
+- 8
+- 13
+- 18
+- 22
+- 24
 set_types:
 - 4
 - 12
@@ -54,7 +63,7 @@ never_auto_update: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -65,19 +74,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.33199998736381531
+  scale: 0.331999987
   magnitude: 1
-  duration: 1.7000000476837158
+  duration: 1.70000005
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -88,19 +97,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.42994999885559082
+  scale: 0.429949999
   magnitude: 1
-  duration: 1.7000000476837158
+  duration: 1.70000005
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -109,24 +118,24 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.14939999580383301
+  scale: 0.149399996
   magnitude: 1
-  duration: 1.7000000476837158
+  duration: 1.70000005
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -136,14 +145,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -159,14 +168,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 32
   summon: ''
   stacking: 1
@@ -174,19 +183,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 11
   summon: ''
   stacking: 1
@@ -194,19 +203,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -214,19 +223,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 17
   summon: ''
   stacking: 1
@@ -234,19 +243,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -263,14 +272,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -286,14 +295,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 48
   summon: ''
   stacking: 1
@@ -301,18 +310,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   special_case: 27
@@ -321,14 +330,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   special_case: 28
@@ -337,14 +346,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 30
   summon: ''
   special_case: 28
@@ -353,14 +362,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   special_case: 29
@@ -369,14 +378,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 30
   summon: ''
   special_case: 29
@@ -385,14 +394,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: PerfectionofBody
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   special_case: 31
@@ -401,14 +410,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   special_case: 32
@@ -417,14 +426,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 30
   summon: ''
   special_case: 32
@@ -433,14 +442,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   special_case: 33
@@ -449,14 +458,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 30
   summon: ''
   special_case: 33
@@ -465,14 +474,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   effect_id: PerfectionofMind
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   special_case: 35
@@ -481,14 +490,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   special_case: 36
@@ -497,14 +506,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 30
   summon: ''
   special_case: 36
@@ -513,14 +522,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   special_case: 37
@@ -529,14 +538,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   effect_id: PerfectionofSoul
   override: ''
 - power_full_name: Brute_Melee.Staff_Fighting.Innocuous_Strikes
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 30
   summon: ''
   special_case: 37
@@ -545,8 +554,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   effect_id: PerfectionofSoul

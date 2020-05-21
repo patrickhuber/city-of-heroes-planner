@@ -7,19 +7,20 @@ display: Breath of Fire
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 68
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 15
-endurance_cost: 10.192000389099121
-cast_time: 2.6700000762939453
+endurance_cost: 10.1920004
+cast_time: 2.67000008
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 15
 arc: 30
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Close (Cone) Moderate DoT(Fire)
 description_long: 'This allows you to spew forth fire from your mouth, burning all foes within its narrow cone. This is a very accurate attack that can deal good damage at a close range. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 41
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -58,43 +65,43 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.68000000715255737
+  scale: 0.680000007
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 1
   ticks: 4
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -104,83 +111,83 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.175089955329895
+  scale: 1.17508996
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 5
   player_versus_mode: 2
   to_who: 1
-  scale: 2.35017991065979
+  scale: 2.35017991
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PlayerCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.05000000074505806
+  base_probability: 0.0500000007
   buffable: true
   resistible: true
   special_case: 7
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3600000143051147
+  scale: 1.36000001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: MLCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3600000143051147
+  scale: 1.36000001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: BossCrit
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -189,36 +196,36 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.3059999942779541
+  scale: 0.305999994
   magnitude: 1
-  duration: 0.60000002384185791
+  duration: 0.600000024
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
   override: ''
 - power_full_name: Scrapper_Melee.Fiery_Melee.Breath_of_Fire
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 1
   ticks: 4
   stacking: 1
-  base_probability: -0.20000000298023224
+  base_probability: -0.200000003
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.045000001788139343
+  scale: 0.0450000018
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

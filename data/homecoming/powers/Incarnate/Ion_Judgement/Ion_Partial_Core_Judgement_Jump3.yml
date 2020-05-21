@@ -7,11 +7,11 @@ display: Ion Partial Core Judgement
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 1
-accuracy: 1.2999999523162842
+accuracy: 1.29999995
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
@@ -19,6 +19,7 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 20
 effect_area: 2
 radius: 40
@@ -36,6 +37,12 @@ cast_through_hold: true
 ignore_strength: true
 description_short: Chain Ranged AoE, Extreme DMG(Energy), Foe -End, -Recovery
 description_long: 'Chain Ranged AoE, Extreme DMG(Energy). Recharge: Very Long. Has a chance to do additional damage to Pet, Minion, and Lieutenant class foes. Drains endurance and debuffs the recovery of affected targets. This ability can hit up to 11 targets.'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -61,19 +68,19 @@ effects:
   aspect: 2
   modifier_table: Ranged_TempDamage
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
-  delayed_time: 1.2000000476837158
-  base_probability: 0.20000000298023224
+  delayed_time: 1.20000005
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   to_who: 1
@@ -82,14 +89,14 @@ effects:
   aspect: 2
   modifier_table: Ranged_TempDamage
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -99,14 +106,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 77
   summon: ''
   stacking: 1
@@ -117,14 +124,14 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   base_probability: 1
@@ -132,19 +139,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.34999999403953552
+  scale: -0.349999994
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   base_probability: 1
@@ -157,14 +164,14 @@ effects:
   aspect: 2
   modifier_table: Ranged_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Partial_Core_Judgement_Jump3
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -177,8 +184,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

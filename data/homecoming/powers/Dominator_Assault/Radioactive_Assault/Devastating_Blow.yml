@@ -7,19 +7,20 @@ display: Devastating Blow
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 137
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 16.847999572753906
-cast_time: 2.6700000762939453
-recharge_time: 18
+endurance_cost: 16.8479996
+cast_time: 2.67000008
+recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 8
 max_targets: 5
@@ -34,11 +35,19 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Melee, Extreme DMG(Energy/Smash), Foe -Def, Disorient, Special
 description_long: 'You hammer your foe with a brutal smashing attack charged with a lethal dose of radiation. Your target will suffer Extreme Energy and Smashing damage, will have its defense reduced and will be disoriented for a short time. Devastating Blow has an increased change to critically hit.  Affected enemies will be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: Extreme, Recharge: Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
+- 23
 set_types:
 - 1
 - 11
 - 21
 - 30
+- 38
 - 44
 level: 38
 variable_name: ''
@@ -50,7 +59,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -60,18 +69,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.81000000238418579
-  magnitude: 1
+  scale: 1.02699995
+  magnitude: 0.910000026
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -81,18 +90,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.4300000667572021
+  scale: 2.80299997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -102,18 +111,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.0499999523162842
+  scale: 1.13199997
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -123,18 +132,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.1400001049041748
+  scale: 3.38400006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   summon: ''
   stacking: 1
@@ -142,47 +151,47 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 2.85700011
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 10
+  scale: 12.5
   magnitude: 3
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.60000002384185791
+  base_probability: 0.600000024
   suppression: 31
   buffable: true
   resistible: true
@@ -193,14 +202,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   base_probability: 1
@@ -209,14 +218,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Contaminated
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 9
+  unique_id: 9
   summon: ''
   stacking: 1
   base_probability: 1
@@ -225,52 +234,50 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Radiation_Melee_Contamination_Hit
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 7
   summon: ''
-  delayed_time: 0.5
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.64999997615814209
-  magnitude: 1
+  scale: 0.680999994
+  magnitude: 0.999100029
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Devastating_Blow
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 3
   damage_type: 7
   summon: ''
-  delayed_time: 0.5
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.8399999737739563
-  magnitude: 1
+  scale: 0.879999995
+  magnitude: 0.999800026
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination

@@ -7,8 +7,8 @@ display: Water Jet
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 42
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.189999580383301
-cast_time: 1.4299999475479126
+endurance_cost: 10.1899996
+cast_time: 1.42999995
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged, High DMG(Cold/Smash), Foe -Speed, Self +/-Tidal Power
 description_long: "You spray a concentrated torrent of water toward your target that causes High Cold and Smashing damage as well as reducing your target's movement speed.  If you have 2 or less Tidal Power, you will gain a stack of Tidal Power. If you have 3 Tidal Power and you activate this power, it will have an enhanced effect causing Water Jet to cast slightly faster and immediately reset the recharge of Water Jet.  Water Jet's enhanced effect can be used once every 8 seconds.  Damage: High, Recharge: Moderate"
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 2
 - 13
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 53
   summon: ''
   stacking: 1
@@ -57,14 +65,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Water_Blast_Corruptor.Water_Jet_Fast
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 53
   summon: ''
   stacking: 1
@@ -74,14 +82,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Water_Blast_Corruptor.Water_Jet_Normal
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -91,18 +99,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.49000000953674316
+  scale: 0.49000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -112,18 +120,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.4700000286102295
+  scale: 1.47000003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -133,18 +141,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.60896998643875122
+  scale: 0.608969986
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 4
   summon: ''
@@ -154,62 +162,58 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.8269200325012207
+  scale: 1.82692003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 4
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 4
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 2.4358899593353271
+  scale: 2.43588996
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -217,19 +221,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 8
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 17
   summon: ''
   stacking: 1
@@ -237,19 +241,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 32
   summon: ''
   stacking: 1
@@ -257,19 +261,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 11
   summon: ''
   stacking: 1
@@ -277,19 +281,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Corruptor_Ranged.Water_Blast.Water_Jet
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Tidal_Power
   base_probability: 1
@@ -298,8 +302,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Tidal_Power
   effect_id: Ones

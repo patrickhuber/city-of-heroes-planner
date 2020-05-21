@@ -7,11 +7,11 @@ display: Ion Judgement
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 1
-accuracy: 1.2999999523162842
+accuracy: 1.29999995
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
@@ -19,6 +19,7 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 20
 effect_area: 2
 radius: 40
@@ -35,6 +36,11 @@ cast_through_hold: true
 ignore_strength: true
 description_short: Chain Ranged AoE, Extreme DMG(Energy)
 description_long: 'Chain Ranged AoE, Extreme DMG(Energy). Recharge: Very Long. This ability can hit up to 11 targets.'
+enhancements:
+- 1
+- 4
+- 8
+- 17
 set_types: []
 level: 1
 variable_name: ''
@@ -46,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Ion_Judgement.Ion_Judgement_Jump3
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -60,14 +66,14 @@ effects:
   aspect: 2
   modifier_table: Ranged_TempDamage
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Judgement_Jump3
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -77,14 +83,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Ion_Judgement.Ion_Judgement_Jump3
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 77
   summon: ''
   stacking: 1
@@ -95,8 +101,8 @@ effects:
   duration: 2
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

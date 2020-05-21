@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8035
+  - id: 7912
     name: Set_Bonus.Set_Bonus.Increased_Endurance_3
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8259
+  - id: 8136
     name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_2
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8119
+  - id: 7996
     name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_3
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 8064
+  - id: 7941
     name: Set_Bonus.Set_Bonus.Increased_Fire_Cold_AoE_Def_4
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 7953
+  - id: 7830
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_5
 special_bonuses:
 - special: -1

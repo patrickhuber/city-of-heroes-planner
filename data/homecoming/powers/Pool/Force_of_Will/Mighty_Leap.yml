@@ -1,4 +1,4 @@
-index: 10357
+index: 10356
 full_name: Pool.Force_of_Will.Mighty_Leap
 group_name: Pool
 set_name: Force_of_Will
@@ -7,28 +7,25 @@ display: Mighty Leap
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
-modes_disallowed: 2114
+  power_ids: []
+  power_ids_not: []
 power_type: 2
 accuracy: 1
-group_memberships:
-- Leap_Group
-- LeapRoot_Group
+group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.18199999630451202
+endurance_cost: 0.230000004
 activate_period: 0.5
 effect_area: 1
-max_boosts: 6
-number_allowed: 1
-boosts_allowed:
-- EnduranceDiscount_Boost
-- Jump_Boost
+max_boosts: ''
+boosts_allowed: []
 description_short: 'Toggle: Self Long Jump, (Special)'
 description_long: "While this power is active you're able to leap great distances and jump incredibly high. In addition, while this power is active you're able to use Stomp, which will knockdown nearby foes. Recharge: Moderate"
+enhancements:
+- 8
+- 15
 set_types:
 - 18
 - 28
@@ -40,168 +37,160 @@ ignore_buffs: []
 mutually_exclusive_auto: true
 forced_class: ''
 effects:
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 1
+- power_full_name: ''
+  unique_id: 1
   effect_type: 16
   summon: ''
   base_probability: 1
   suppression: 512
   buffable: true
-  player_versus_mode: 1
   to_who: 2
   scale: 1
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 2
+- power_full_name: ''
+  unique_id: 2
   effect_type: 17
   summon: ''
   base_probability: 1
   suppression: 512
   buffable: true
-  player_versus_mode: 1
   to_who: 2
   scale: 1
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 3
+- power_full_name: ''
+  unique_id: 3
   effect_type: 21
   summon: ''
   base_probability: 1
   suppression: 512
   buffable: true
-  player_versus_mode: 1
   to_who: 2
   scale: 10
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 4
+- power_full_name: ''
+  unique_id: 4
   effect_type: 22
   summon: ''
   base_probability: 1
   suppression: 512
   buffable: true
-  player_versus_mode: 1
   to_who: 2
   scale: 2
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 5
+- power_full_name: ''
+  unique_id: 5
   effect_type: 16
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
-  player_versus_mode: 2
   to_who: 2
   scale: 1
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 6
+- power_full_name: ''
+  unique_id: 6
   effect_type: 17
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
-  player_versus_mode: 2
   to_who: 2
   scale: 1
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 7
+- power_full_name: ''
+  unique_id: 7
   effect_type: 21
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
-  player_versus_mode: 2
   to_who: 2
   scale: 10
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 8
+- power_full_name: ''
+  unique_id: 8
   effect_type: 22
   summon: ''
   base_probability: 1
   suppression: 7
   buffable: true
-  player_versus_mode: 2
   to_who: 2
   scale: 2
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
-- power_full_name: Pool.Force_of_Will.Mighty_Leap
-  unique_i_d: 9
+- power_full_name: ''
+  unique_id: 9
   effect_type: 34
   summon: ''
   base_probability: 1
@@ -211,8 +200,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

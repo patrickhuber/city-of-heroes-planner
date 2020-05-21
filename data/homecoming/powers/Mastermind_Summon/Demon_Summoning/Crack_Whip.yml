@@ -7,8 +7,8 @@ display: Crack Whip
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 65
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 30
-endurance_cost: 17.940000534057617
-cast_time: 2.3299999237060547
+endurance_cost: 17.9400005
+cast_time: 2.32999992
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 3
 radius: 30
 arc: 30
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Short Ranged (Cone), High DMG(Fire), Foe -Res, Knockdown, DoT(Toxic)
 description_long: 'You channel hellfire into your whip and make an impressive sweep causing high fire damage to enemies within a wide cone and also cause some toxic damage over time. Whip Crack has a larger range than most melee cones. Targets that are struck will also have their resistance to damage reduced for a short time, may suffer toxic damage over time and may be knocked down. Damage: High, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 18
 set_types:
 - 3
 - 23
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -57,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.1299999952316284
+  scale: 1.13
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -78,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.1231100559234619
+  scale: 2.12311006
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -99,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.63999998569488525
+  scale: 0.639999986
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -121,18 +128,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.63999998569488525
+  scale: 0.639999986
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -144,14 +151,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -163,14 +170,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -182,14 +189,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -201,14 +208,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -220,14 +227,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -239,14 +246,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -258,14 +265,14 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -277,31 +284,31 @@ effects:
   magnitude: 1
   duration: 6
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Demon_Summoning.Crack_Whip
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 3
   damage_type: 7
   summon: ''
   delayed_time: 0.5
   ticks: 3
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.22200000286102295
+  scale: 0.222000003
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

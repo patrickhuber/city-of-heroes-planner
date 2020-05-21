@@ -7,8 +7,8 @@ display: Ninja Run
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2562
 power_type: 2
 accuracy: 1
@@ -21,8 +21,8 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.22750000655651093
-cast_time: 1.715999960899353
+endurance_cost: 0.227500007
+cast_time: 1.71599996
 activate_period: 0.5
 effect_area: 1
 max_boosts: ''
@@ -30,13 +30,14 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'Toggle: Self +Run Speed, +Jump'
 description_long: A combination of quickness and acrobatic grace, Ninja Run allows you to move at high speed, whether on the ground or leaping from rooftop to rooftop.  This power is not as fast as Super Speed, nor will it allow you to jump as well as Super Leap, however it is considerably better than the Fitness powers Swift and Hurdle.
+enhancements: []
 set_types: []
 level: 4
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 16
+display_location: 22
 mutually_exclusive_auto: true
 never_auto_update: true
 never_auto_update_requirements: true
@@ -44,7 +45,7 @@ include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -57,14 +58,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -72,19 +73,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 21
   summon: ''
   base_probability: 1
@@ -97,14 +98,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 22
   summon: ''
   base_probability: 1
@@ -117,14 +118,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -132,19 +133,19 @@ effects:
   buffable: true
   player_versus_mode: 1
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedRunning
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedRunning
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 16
   summon: ''
   base_probability: 1
@@ -157,14 +158,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Leap
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -172,19 +173,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.55000001192092896
+  scale: 0.550000012
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedJumping
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 21
   summon: ''
   base_probability: 1
@@ -197,14 +198,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 22
   summon: ''
   base_probability: 1
@@ -217,14 +218,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -232,19 +233,19 @@ effects:
   buffable: true
   player_versus_mode: 2
   to_who: 2
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   duration: 0.75
   aspect: 4
   modifier_table: Melee_SpeedRunning
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedRunning
   override: ''
 - power_full_name: Inherent.Inherent.Prestige_Ninja_Run
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 76
   summon: ''
   base_probability: 1
@@ -255,8 +256,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

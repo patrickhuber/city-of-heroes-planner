@@ -7,7 +7,7 @@ display: Momentum
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Brute_Melee.Titan_Weapons.Defensive_Sweep
     - ''
   - - Brute_Melee.Titan_Weapons.Crushing_Blow
@@ -18,13 +18,14 @@ requirement:
     - ''
   - - Tanker_Melee.Titan_Weapons.Defensive_Sweep
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 group_memberships: []
 target_line_of_sight: true
 max_boosts: ''
 boosts_allowed: []
 description_short: +Momentum
 description_long: This power puts your character in the Fast Mode provided by Momentum.
+enhancements: []
 set_types: []
 click_buff: true
 level: 1

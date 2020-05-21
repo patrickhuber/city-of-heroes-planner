@@ -42,6 +42,7 @@ namespace CityOfInfo.Data.Mids.Tests
             _writer.Write(power.InterruptTime);
             _writer.Write(power.CastTime);
             _writer.Write(power.RechargeTime);
+            _writer.Write(power.BaseRechargeTime);
             _writer.Write(power.ActivatePeriod);
             _writer.Write(power.EffectArea);
             _writer.Write(power.Radius);

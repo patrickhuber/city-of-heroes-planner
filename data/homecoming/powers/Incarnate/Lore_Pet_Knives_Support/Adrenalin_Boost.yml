@@ -7,8 +7,8 @@ display: Guardianship
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 134217728
@@ -16,8 +16,9 @@ entities_auto_hit: 134217728
 target: 134217728
 target_line_of_sight: true
 range: 80
-cast_time: 2.2699999809265137
+cast_time: 2.26999998
 recharge_time: 260
+base_recharge_time: 260
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,12 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged, Ally +End, +Regeneration, +Recharge, Res (Slow)
 description_long: "Dramatically increases an ally's Endurance Recovery, Hit Point Regeneration and attack rate for 90 seconds. Also grants the target high resistance to slow effects. Recharge: Very Long"
+enhancements:
+- 8
+- 11
+- 17
+- 18
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +49,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -53,14 +60,14 @@ effects:
   duration: 75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -71,14 +78,14 @@ effects:
   duration: 75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -89,14 +96,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -107,14 +114,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -125,14 +132,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -143,14 +150,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -161,14 +168,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -179,14 +186,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -197,14 +204,14 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -215,8 +222,8 @@ effects:
   duration: 75
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg

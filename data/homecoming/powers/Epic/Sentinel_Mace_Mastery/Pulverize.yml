@@ -8,19 +8,20 @@ requirement:
   class_names:
   - Class_Sentinel
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 8.5279998779296875
+endurance_cost: 8.52799988
 cast_time: 1.5
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,12 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Melee, High DMG(Smash), Minor DoT(Toxic), Foe Disorient
 description_long: 'You are capable of Pulverizing a foe with your Nullifier Mace dealing high damage, causing toxic damage over time.  Pulverize will occasionally disorient foes as well.  NOTE: This power will deal critical damage if used after a successful Placate or while the user is hidden with the Bane Spider Cloaking Device.  Damage: High Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 23
 set_types:
 - 1
 - 11
@@ -46,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Pulverize
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -60,19 +67,19 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Pulverize
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -82,14 +89,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Pulverize
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -99,23 +106,23 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7954699993133545
+  scale: 1.79547
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Pulverize
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   suppression: 31
   buffable: true
   resistible: true
@@ -126,14 +133,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Arachnos_Soldiers.Bane_Spider_Soldier.Pulverize
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -143,13 +150,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 4.0999999046325684
+  duration: 4.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

@@ -12,8 +12,8 @@ effect_chance: 1
 level_min: 9
 level_max: 49
 effects:
-- i_d: 12
-  sub_i_d: 9
+- id: 12
+  sub_id: 9
   multiplier: 1
 unique_identifier: Crafted_Sleep
 recipe: Invention_Sleep

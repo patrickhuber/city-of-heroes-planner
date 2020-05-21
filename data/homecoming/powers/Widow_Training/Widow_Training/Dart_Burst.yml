@@ -7,19 +7,20 @@ display: Dart Burst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.0499999523162842
+accuracy: 1.04999995
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 8.5279998779296875
+endurance_cost: 8.52799988
 cast_time: 2
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 3
 radius: 50
 arc: 30
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Light Cone DMG (Lethal), DoT(Toxic), -Regeneration
 description_long: 'Dart Burst does light lethal damage to foes in a 30 degree arc cone, then poisons them.  The poison does toxic damage over time and reduces their regeneration rate.  Damage: Light Recharge: Medium'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 32
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Widow_Training.Widow_Training.Dart_Burst
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -58,19 +65,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.25499999523162842
+  scale: 0.254999995
   magnitude: 1
-  duration: 0.80000001192092896
+  duration: 0.800000012
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Dart_Burst
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   stacking: 1
@@ -83,14 +90,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Dart_Burst
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -100,35 +107,35 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.87775999307632446
+  scale: 0.877759993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Dart_Burst
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 7
   summon: ''
   ticks: 6
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
   duration: 5
   aspect: 2
   modifier_table: Ranged_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

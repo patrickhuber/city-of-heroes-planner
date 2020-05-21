@@ -7,18 +7,19 @@ display: Hand Clap
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 0.80000001192092896
+accuracy: 0.800000012
 attack_types: 4
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 13
-cast_time: 1.2300000190734863
+cast_time: 1.23000002
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 2
 radius: 15
 max_targets: 10
@@ -31,6 +32,11 @@ boosts_allowed:
 - Stunned_Boost
 description_short: PBAoE, Foe Disorient, Knockback
 description_long: 'You can clap your hands together with such force that you create a deafening shockwave. This shockwave can knock back nearby foes, and they have a chance to become Disoriented due to the shock to the inner ear. Hand Clap deals no damage. Recharge: Slow'
+enhancements:
+- 1
+- 8
+- 16
+- 23
 set_types: []
 level: 6
 variable_name: ''
@@ -43,7 +49,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Thug_Boss_2.Hand_Clap
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -58,14 +64,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_2.Hand_Clap
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -80,14 +86,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_2.Hand_Clap
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -103,14 +109,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_2.Hand_Clap
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -120,18 +126,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_2.Hand_Clap
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -142,12 +148,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Wave Scrambler
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 516
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 14.819999694824219
-cast_time: 2.6700000762939453
+endurance_cost: 14.8199997
+cast_time: 2.67000008
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 3
 radius: 60
 arc: 30
@@ -30,6 +31,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Cone, Special DMG(Psionic), Foe -Recharge
 description_long: This device was built to interfere with Clockwork's energy signals within its conical area of effect. The Wave Scrambler has 30 charges.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Wave_Scrambler
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -53,14 +55,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Wave_Scrambler
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -68,19 +70,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Wave_Scrambler
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -93,8 +95,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

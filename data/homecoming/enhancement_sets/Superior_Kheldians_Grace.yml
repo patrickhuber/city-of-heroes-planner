@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7819
+  - id: 7696
     name: Set_Bonus.Set_Bonus.Accuracy_7
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8264
+  - id: 8141
     name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_7
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8032
+  - id: 7909
     name: Set_Bonus.Set_Bonus.Increased_Damage_7
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7955
+  - id: 7832
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_7
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8338
+  - id: 8216
     name: Set_Bonus.Set_Bonus.Toxic_Psi_Mez_Res_7
 special_bonuses:
 - special: -1
@@ -63,5 +63,5 @@ special_bonuses:
 - special: 5
   alternate_string: ''
   entities:
-  - id: 8327
+  - id: 8205
     name: Set_Bonus.Set_Bonus.Superior_Kheldians_Grace

@@ -2,7 +2,7 @@ display_name: Tanker
 hit_points: 1874
 hit_points_max: 3534
 description_long: The Tanker can take it and dish it out all at once. The Tanker primarily can absorb vast amounts of damage, and hold his own in a fist fight. But the Tanker lacks any long range punch. The Tanker would prefer just to charge straight ahead anyway.
-resistence_max: 0.89999997615814209
+resistence_max: 0.899999976
 origins:
 - Magic
 - Mutation

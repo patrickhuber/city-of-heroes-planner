@@ -7,8 +7,8 @@ display: Socket Total Core Genesis
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 1
 accuracy: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Socket Genesis text
 description_long: Socket Genesis text
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -34,7 +35,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Incarnate.Genesis_Silent.Interface_Boost_3
   delayed_time: 0.5
@@ -45,14 +46,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Genesis_Silent.Interface_Boost_3
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 30
   summon: ''
   stacking: 1
@@ -62,218 +63,218 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Genesis_Silent.Interface_Boost_3
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.029999999329447746
+  scale: 0.0299999993
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceStatus
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceDoT
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceToHit
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceRegen
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceMaxHP
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceMovement
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceRecharge
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceSpecial
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceRecovery
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceDefense
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceDamage
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 45
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.075000002980232239
+  scale: 0.075000003
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: InterfaceResistance
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 12
   summon: Incarnate.Socket.Endurance_Drain
   delayed_time: 0.5
@@ -284,14 +285,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Socket.Endurance_Drain
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 30
   summon: ''
   stacking: 1
@@ -301,24 +302,24 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Incarnate.Socket.Endurance_Drain
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Genesis.Socket_Total_Core_Genesis
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 45
   summon: ''
   base_probability: 1
   scale: 0.75
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: GenesisStatus
   effect_id: Ones

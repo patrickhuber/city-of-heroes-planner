@@ -7,8 +7,8 @@ display: Jolting Chain
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.399999618530273
-cast_time: 2.0699999332427979
+endurance_cost: 10.3999996
+cast_time: 2.06999993
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -33,6 +34,14 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged Chain AoE, Minor DMG(Energy), Foe Knockdown, -End
 description_long: 'You can send a bolt of electricity through multiple opponents, causing a muscle spasm and dealing minor damage.  Each foe is knocked down, and the electric charge can fork several times, jumping to several opponents rapidly.  Damage: Minor, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
+- 7
 set_types:
 - 2
 - 22
@@ -47,7 +56,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -56,18 +65,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   stacking: 1
@@ -76,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.10000000149011612
+  scale: -0.100000001
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -97,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -118,19 +127,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.0366001129150391
+  scale: 3.03660011
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   stacking: 1
@@ -143,14 +152,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 38
   summon: Pets_Chain_Jolt_Dominator_Jump1
   delayed_time: 0.25
@@ -164,14 +173,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 38
   summon: Pets_Chain_Jolt_Dominator_Jump1
   delayed_time: 0.5
@@ -185,14 +194,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 34
   summon: ''
   ticks: 1
@@ -203,14 +212,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Electric_Control.Jolting_Chain
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 26
   summon: ''
   stacking: 1
@@ -223,8 +232,8 @@ effects:
   duration: 8
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

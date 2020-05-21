@@ -7,8 +7,8 @@ display: Serum
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 65536
 target: 65536
 range: 100
 endurance_cost: 13
-cast_time: 1.2999999523162842
+cast_time: 1.29999995
 recharge_time: 1000
+base_recharge_time: 1000
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 ignore_strength: true
 description_short: Buff Mercenary +DMG, +RES(All except Psionic), +To Hit, +Recovery
 description_long: 'You can use a special Serum to turn one Mercenary into a virtually Unstoppable killing machine for a short time.  Once the Mercenary is injected with this Serum, his Damage, chance to hit, Endurance Recovery, and Damage Resistance to all damage except Psionics, will be greatly increased.  The target Mercenary will also be virtually immune to controlling effects including Disorient, Sleep, Hold, Immobilize and Knockback.  After the Serum wears off, the Mercenary will be exhausted and drained of all Endurance and be unable to recover endurance for a short while. Recharge: Very Long'
+enhancements:
+- 25
+- 8
+- 17
+- 18
+- 7
+- 19
 set_types:
 - 8
 - 22
@@ -45,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -56,14 +64,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -74,14 +82,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -92,14 +100,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -110,14 +118,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -128,14 +136,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -146,14 +154,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -164,14 +172,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -181,14 +189,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -199,14 +207,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -216,14 +224,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -234,14 +242,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -251,14 +259,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 19
   mezmorize_type: 8
   summon: ''
@@ -269,14 +277,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 20
   mezmorize_type: 8
   summon: ''
@@ -286,14 +294,14 @@ effects:
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -305,14 +313,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -324,14 +332,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -343,14 +351,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -362,14 +370,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -380,14 +388,14 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -399,14 +407,14 @@ effects:
   duration: 60
   aspect: 3
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -418,14 +426,14 @@ effects:
   duration: 60
   aspect: 3
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -437,14 +445,14 @@ effects:
   duration: 60
   aspect: 3
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 26
   summon: ''
   delayed_time: 60
@@ -455,14 +463,14 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Summon.Mercenaries.Serum
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 7
   summon: ''
   delayed_time: 60
@@ -472,8 +480,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

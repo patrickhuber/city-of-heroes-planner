@@ -7,7 +7,7 @@ display: Summon Tarantula
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Dominator_Mace_Mastery.Poisonous_Ray
     - Epic.Dominator_Mace_Mastery.Scorpion_Shield
   - - Epic.Dominator_Mace_Mastery.Poisonous_Ray
@@ -18,7 +18,7 @@ requirement:
     - Epic.Dominator_Mace_Mastery.Disruptor_Blast
   - - Epic.Dominator_Mace_Mastery.Scorpion_Shield
     - Epic.Dominator_Mace_Mastery.Personal_Force_Field
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 group_memberships: []
@@ -28,8 +28,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 26
-cast_time: 3.0299999713897705
+cast_time: 3.02999997
 recharge_time: 900
+base_recharge_time: 900
 effect_area: 4
 max_boosts: ''
 number_allowed: 1
@@ -43,6 +44,14 @@ boosts_allowed:
 - Slow_Boost
 description_short: 'Summon Tarantula: Ranged Moderate DMG(Toxic)'
 description_long: 'Black Scorpion has granted you an Toxic Tarantula for you to command. Weaver One developed the Tarantula Exoskeleton Armor, which so radically transforms an Arachnos troop that hardly anything human is recognizable. Your access to this Tarantula is very limited. You can only summon it once every 15 minutes and it will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Mace Mastery Powers before selecting this power. Recharge: Extremely Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
+- 22
 set_types:
 - 6
 - 21
@@ -57,7 +66,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Dominator_Mace_Mastery.Summon_Tarantula
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Patron_Powers_Toxic_Tarantula
   base_probability: 1
@@ -67,8 +76,8 @@ effects:
   duration: 240
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

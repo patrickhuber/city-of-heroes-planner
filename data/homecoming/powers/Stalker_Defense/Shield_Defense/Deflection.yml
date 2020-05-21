@@ -7,7 +7,7 @@ display: Deflection
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - stalker_melee.claws
     - ''
   - - stalker_melee.ninja_sword
@@ -18,7 +18,7 @@ requirement:
     - ''
   - - stalker_melee.staff_fighting
     - ''
-  power_i_ds_not:
+  power_ids_not:
   - - '!true'
     - ''
 modes_disallowed: 2
@@ -29,9 +29,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.10400000214576721
+endurance_cost: 0.104000002
 cast_time: 1.5
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 0.5
 effect_area: 1
 max_boosts: 6
@@ -44,6 +45,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: 'Toggle: Self +DEF(Melee), +Res(Lethal, Smashing)'
 description_long: 'Your mastery of the shield allows you to easily deflect melee attacks, and attacks that do get through your ironclad defenses tend to do less damage.  While Deflection is active the user will gain defense to melee attacks and some minor resistance to lethal and smashing damage. Recharge: Fast'
+enhancements:
+- 5
+- 8
+- 18
+- 19
 set_types:
 - 7
 - 8
@@ -57,7 +63,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -71,14 +77,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -91,14 +97,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -111,14 +117,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 10
   summon: ''
@@ -131,14 +137,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -150,14 +156,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -169,14 +175,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -189,46 +195,46 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 44
   damage_type: 10
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Stalker_Defense.Shield_Defense.Deflection
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 44
   damage_type: 8
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 2
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

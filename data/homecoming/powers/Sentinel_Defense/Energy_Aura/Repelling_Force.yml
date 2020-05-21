@@ -7,8 +7,8 @@ display: Repelling Force
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -26,6 +26,8 @@ boosts_allowed:
 - Buff_Defense_Boost
 description_short: 'Auto: +DEF'
 description_long: Your innate power over energies manifest itself naturally as a repelling force, increasing your defense against all types.
+enhancements:
+- 5
 set_types:
 - 7
 level: 28
@@ -38,7 +40,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -48,17 +50,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -68,17 +70,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -88,17 +90,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -108,17 +110,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -128,17 +130,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -148,17 +150,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -168,17 +170,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 5
   damage_type: 1
   summon: ''
@@ -188,17 +190,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 5
   damage_type: 2
   summon: ''
@@ -208,17 +210,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 5
   damage_type: 3
   summon: ''
@@ -228,17 +230,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 5
   damage_type: 4
   summon: ''
@@ -248,17 +250,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 5
   damage_type: 5
   summon: ''
@@ -268,17 +270,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 5
   damage_type: 6
   summon: ''
@@ -288,17 +290,17 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
   override: ''
 - power_full_name: Sentinel_Defense.Energy_Aura.Repelling_Force
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 5
   damage_type: 8
   summon: ''
@@ -308,11 +310,11 @@ effects:
   to_who: 2
   scale: 0.5
   magnitude: 1
-  duration: 10.300000190734863
+  duration: 10.3000002
   aspect: 4
   modifier_table: Melee_Buff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def

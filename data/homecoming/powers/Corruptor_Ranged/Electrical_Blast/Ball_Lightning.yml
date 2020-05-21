@@ -7,8 +7,8 @@ display: Ball Lightning
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 132
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 15.184000015258789
-cast_time: 1.0700000524520874
+endurance_cost: 15.184
+cast_time: 1.07000005
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged (Targeted AoE), Moderate DoT(Energy), Foe -End
 description_long: 'Hurls a highly charged ball of lightning that explodes on contact. Ball Lightning deals good damage in an area of effect, and drains some Endurance from each target it hits. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 7
 set_types:
 - 3
 - 22
@@ -48,7 +56,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -57,18 +65,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -79,43 +87,41 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.18000000715255737
+  scale: 0.180000007
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
   ticks: 4
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2800000011920929
+  scale: 0.280000001
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -126,43 +132,41 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.44451001286506653
+  scale: 0.444510013
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
   ticks: 4
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 0.44451001286506653
+  scale: 0.444510013
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   stacking: 1
@@ -171,18 +175,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.070000000298023224
+  scale: -0.0700000003
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 7
   summon: ''
   stacking: 1
@@ -195,18 +199,18 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Corruptor_Ranged.Electrical_Blast.Ball_Lightning
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 26
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   to_who: 1
@@ -215,8 +219,8 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

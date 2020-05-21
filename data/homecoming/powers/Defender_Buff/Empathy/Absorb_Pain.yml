@@ -7,8 +7,8 @@ display: Absorb Pain
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 80
-endurance_cost: 0.51999998092651367
-cast_time: 2.2699999809265137
+endurance_cost: 0.519999981
+cast_time: 2.26999998
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ally Strong Heal, Self Moderate DMG(Special)
 description_long: "Dramatically heals an ally's wounds. This power has only a tiny Endurance cost, but it requires you to sacrifice some of your Hit Points. Absorbing someone's pain can be quite dramatic, and afterwards you will be briefly unable to heal your own wounds by any means. Recharge: Slow"
+enhancements:
+- 8
+- 11
+- 17
+- 18
 set_types:
 - 9
 level: 2
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Defender_Buff.Empathy.Absorb_Pain
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   delayed_time: 0.5
@@ -54,14 +60,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Defender_Buff.Empathy.Absorb_Pain
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 9
   summon: ''
@@ -72,14 +78,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Defender_Buff.Empathy.Absorb_Pain
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 27
   summon: ''
   stacking: 1
@@ -90,14 +96,14 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Defender_Buff.Empathy.Absorb_Pain
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 28
   effect_modifiers: 13
   summon: ''
@@ -108,8 +114,8 @@ effects:
   magnitude: 1
   duration: 20
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

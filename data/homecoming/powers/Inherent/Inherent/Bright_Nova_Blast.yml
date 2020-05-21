@@ -8,10 +8,10 @@ requirement:
   class_names:
   - Class_Peacebringer
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Peacebringer_Offensive.Luminous_Blast.Bright_Nova
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_required: 8192
 modes_disallowed: 1605634
 accuracy: 1
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 100
-endurance_cost: 5.1999998092651367
+endurance_cost: 5.19999981
 cast_time: 1.5
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -37,6 +38,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, High DMG(Energy), Foe -DEF, Knockback
 description_long: 'A much more powerful, yet slower version of Bright Nova Bolt. Bright Nova Blast sends a focused blast of Kheldian energy at a foe that can knock him back and reduce his defense. This power is only available while in Bright Nova Form. Damage: High, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 2
 - 21
@@ -49,13 +58,13 @@ variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 7
+display_location: 30
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Bright_Nova_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -69,19 +78,19 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_SSDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SSDamage
   override: ''
 - power_full_name: Inherent.Inherent.Bright_Nova_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -90,14 +99,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Inherent.Inherent.Bright_Nova_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -107,23 +116,23 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.9320000410079956
+  scale: 1.93200004
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_SSDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SSDamage
   override: ''
 - power_full_name: Inherent.Inherent.Bright_Nova_Blast
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   suppression: 32
   buffable: true
   resistible: true
@@ -133,14 +142,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Inherent.Inherent.Bright_Nova_Blast
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   summon: ''
   stacking: 1
@@ -153,8 +162,8 @@ effects:
   duration: 6
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

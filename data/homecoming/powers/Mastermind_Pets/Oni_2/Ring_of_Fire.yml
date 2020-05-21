@@ -7,8 +7,8 @@ display: Ring of Fire
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 66
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 7.8000001907348633
-cast_time: 1.1699999570846558
+endurance_cost: 7.80000019
+cast_time: 1.16999996
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Immobilized_Boost
 description_short: Immobilize, DoT(Fire)
 description_long: The Ring of Fire is burning you and preventing you from moving.
+enhancements:
+- 1
+- 4
+- 8
+- 13
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -51,19 +57,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 9.1999998092651367
+  duration: 9.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -74,19 +80,19 @@ effects:
   resistible: true
   special_case: 9
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 9.1999998092651367
+  duration: 9.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -101,14 +107,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -124,14 +130,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 20
   mezmorize_type: 4
   summon: ''
@@ -142,14 +148,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 20
   mezmorize_type: 5
   summon: ''
@@ -160,14 +166,14 @@ effects:
   magnitude: 1
   duration: 15
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -180,14 +186,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 19
   mezmorize_type: 5
   summon: ''
@@ -200,28 +206,51 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Oni_2.Ring_of_Fire
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 10
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: -1.6000000238418579
+  scale: -1.60000002
   magnitude: 1
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 5
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0549999997
+  magnitude: 1
+  duration: 9.19999981
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

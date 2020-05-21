@@ -7,8 +7,8 @@ display: Nothing
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ target: 2048
 target_line_of_sight: true
 range: 65
 endurance_cost: 20
-cast_time: 2.1700000762939453
+cast_time: 2.17000008
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 3
 radius: 65
 arc: 79
@@ -28,6 +29,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Nothing
 description_long: Nothing
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

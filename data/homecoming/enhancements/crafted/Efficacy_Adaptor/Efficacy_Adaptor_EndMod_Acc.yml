@@ -11,14 +11,14 @@ effect_chance: 1
 level_min: 20
 level_max: 52
 effects:
-- i_d: 5
-  sub_i_d: -1
+- id: 5
+  sub_id: -1
   multiplier: 0.625
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 0.625
-- i_d: 16
-  sub_i_d: -1
+- id: 16
+  sub_id: -1
   multiplier: 0.625
 unique_identifier: Crafted_Efficacy_Adaptor_E
 recipe: Efficacy_Adaptor_E

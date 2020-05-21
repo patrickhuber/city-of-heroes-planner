@@ -7,8 +7,8 @@ display: X-Ray Beam
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.192000389099121
-cast_time: 1.6699999570846558
-recharge_time: 10
+endurance_cost: 10.1920004
+cast_time: 1.66999996
+recharge_time: 11
+base_recharge_time: 11
 effect_area: 2
 radius: 8
 max_targets: 5
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DMG(Energy), Foe -DEF
 description_long: "You can emit a beam of X-Ray energy from your eyes, dealing moderate Energy damage. This attack can bypass some defenses and can reduce the target's Defense. Affected enemies have a small chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: Moderate, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 21
@@ -48,7 +56,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -58,18 +66,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.9600000381469727
+  scale: 1.78999996
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -77,19 +85,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 2.14299989
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -99,34 +107,34 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.7599999904632568
+  scale: 2.37800002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
-  base_probability: 0.31000000238418579
+  base_probability: 0.310000002
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Contaminated
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 5
+  unique_id: 5
   summon: ''
   stacking: 1
   base_probability: 1
@@ -135,36 +143,35 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Radiation_Melee_Contamination_Hit
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 7
   summon: ''
-  delayed_time: 0.5
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.38999998569488525
+  scale: 0.331
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.X-Ray_Beam
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -175,12 +182,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.55000001192092896
+  scale: 0.465999991
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination

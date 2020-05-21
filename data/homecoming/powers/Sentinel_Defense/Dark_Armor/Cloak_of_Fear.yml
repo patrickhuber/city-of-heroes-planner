@@ -7,19 +7,20 @@ display: Cloak of Fear
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
-accuracy: 0.67000001668930054
+accuracy: 0.670000017
 attack_types: 260
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 2.5999999046325684
-cast_time: 1.1699999570846558
+endurance_cost: 2.5999999
+cast_time: 1.16999996
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 5
 effect_area: 2
 radius: 8
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: PBAoE Foe Fear, -To Hit'
 description_long: 'You can wrap yourself in a nightmarish Cloak of Fear. Foes close to you are treated to visions most horrific, forcing them to tremble in terror, only attacking if attacked, and even then, with a reduced chance to hit. Recharge: Fast'
+enhancements:
+- 1
+- 26
+- 8
+- 9
+- 18
 set_types:
 - 15
 - 26
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Defense.Dark_Armor.Cloak_of_Fear
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -61,33 +68,33 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Sentinel_Defense.Dark_Armor.Cloak_of_Fear
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: -0.05000000074505806
+  scale: -0.0500000007
   magnitude: 1
   duration: 5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Dark_Armor.Cloak_of_Fear
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -97,13 +104,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.2999999523162842
+  scale: 3.29999995
   magnitude: 2
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear

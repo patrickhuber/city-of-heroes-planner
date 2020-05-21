@@ -15,13 +15,13 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7813
+  - id: 7690
     name: Set_Bonus.Set_Bonus.Accuracy_1
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8027
+  - id: 7904
     name: Set_Bonus.Set_Bonus.Increased_Damage_2
 special_bonuses:
 - special: -1

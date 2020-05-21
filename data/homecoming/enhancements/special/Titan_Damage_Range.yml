@@ -13,11 +13,11 @@ image: TNQuartz.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 2
-  sub_i_d: -1
+- id: 2
+  sub_id: -1
   multiplier: 0.75
-- i_d: 13
-  sub_i_d: -1
+- id: 13
+  sub_id: -1
   schedule: 1
   multiplier: 0.75
 unique_identifier: Titan_Damage_Range

@@ -7,8 +7,8 @@ display: Hellfire Aura
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -18,6 +18,7 @@ entities_affected: 2048
 target: 1
 target_line_of_sight: true
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 2
 effect_area: 2
 radius: 8
@@ -30,6 +31,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: 'Auto: PBAoE, Minor DoT(Toxic)'
 description_long: 'While active, you are surrounded by unholy flames that burn all foes that attempt to enter melee range. Damage: Minor(DoT), Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +46,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Hellfire_Gargoyle_2.Hellfire_Aura
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -50,12 +55,33 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0379999988
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

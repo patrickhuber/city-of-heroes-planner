@@ -7,19 +7,20 @@ display: Flashfire
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 0.80000001192092896
+accuracy: 0.800000012
 attack_types: 68
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 15.600000381469727
-cast_time: 2.369999885559082
+endurance_cost: 15.6000004
+cast_time: 2.36999989
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -35,6 +36,13 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Ranged (Targeted AoE), Minor DoT(Fire), Foe Disorient
 description_long: 'You can bring forth a Flashfire to Disorient a group of foes and deal some damage over time. Target must be on the ground to activate Flashfire. Damage: Minor(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 23
 set_types:
 - 3
 - 11
@@ -49,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Fire_Control.Flashfire
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -59,20 +67,20 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.059999998658895493
+  scale: 0.0599999987
   magnitude: 1
   duration: 4
   aspect: 2
   modifier_table: Ranged_Damage
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Fire_Control.Flashfire
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -88,14 +96,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Stun
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Dominator_Control.Fire_Control.Flashfire
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -112,14 +120,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Fire_Control.Flashfire
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -136,14 +144,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Stun
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Dominator_Control.Fire_Control.Flashfire
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -160,8 +168,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

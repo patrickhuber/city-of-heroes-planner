@@ -7,8 +7,8 @@ display: Incandescence Radial Invocation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 accuracy: 1
 group_memberships: []
@@ -19,8 +19,9 @@ range: 10000
 target_secondary: 16384
 range_secondary: 100
 endurance_cost: 20
-cast_time: 2.4000000953674316
+cast_time: 2.4000001
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 6
 max_targets: 255
 max_boosts: 0
@@ -31,6 +32,8 @@ boosts_allowed:
 ignore_strength: true
 description_short: Targeted AoE League Teleport, +Healing Received, +Stealth Radius.  Foe Knockback, Stun.
 description_long: 'Targeted AoE League Teleport, +Healing Received, +Stealth Radius. Foe Knockback, Stun.  This power will prompt teammates to accept it if they have enabled Prompt Team Teleport. Recharge: Very Long.'
+enhancements:
+- 11
 set_types: []
 click_buff: true
 level: 1
@@ -44,7 +47,7 @@ absorb_summon_effects: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Destiny.Incandescence_Radial_Invocation
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 14
   summon: ''
@@ -52,36 +55,36 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 3
-  scale: 3.0999999046325684
+  scale: 3.0999999
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Radial_Invocation
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 28
   effect_modifiers: 13
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: -0.40000000596046448
+  scale: -0.400000006
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Radial_Invocation
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
   summon: IncarnatePets_Incandescent_Destiny_Shield_Wide
   delayed_time: 1
@@ -92,32 +95,32 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Radial_Invocation
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 41
   summon: ''
   base_probability: 1
   buffable: true
   to_who: 3
-  scale: 0.85000002384185791
+  scale: 0.850000024
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Radial_Invocation
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 36
   summon: ''
   base_probability: 1
@@ -129,27 +132,27 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Destiny.Incandescence_Radial_Invocation
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 37
   summon: ''
   base_probability: 1
   suppression: 448
   buffable: true
   to_who: 3
-  scale: 311.20001220703125
+  scale: 311.200012
   magnitude: 1
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

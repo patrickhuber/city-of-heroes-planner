@@ -7,8 +7,8 @@ display: Synaptic Strike
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 attack_types: 137
 group_memberships: []
@@ -16,9 +16,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 5
-endurance_cost: 5.880000114440918
-cast_time: 3.0699999332427979
+endurance_cost: 5.88000011
+cast_time: 3.06999993
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: ''
 number_of_charges: 1150681088
@@ -26,6 +27,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Melee Smash/Energy
 description_long: Unleashes a super fast Flurry of fists and electricity to smash your foe.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Synaptic_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -46,19 +48,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Synaptic_Strike
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -68,13 +70,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
-  duration: 1.7999999523162842
+  duration: 1.79999995
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

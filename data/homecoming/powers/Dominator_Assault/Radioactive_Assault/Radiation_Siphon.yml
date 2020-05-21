@@ -7,8 +7,8 @@ display: Radiation Siphon
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 137
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 10.192000389099121
-cast_time: 2.2300000190734863
+endurance_cost: 10.1920004
+cast_time: 2.23000002
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 2
 radius: 8
 max_targets: 5
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee, High DMG(Energy/Smash), Foe, -Def, -Contaminated, Special
 description_long: 'You pummel your foe with a deadly smashing attack dealing High Energy and Smashing damage and reducing their defense. Hitting Contaminated targets will also heal you for a large amount of health over 3 seconds and remove the Contaminated effect from the target. However, uncontaminated targets have a moderate chance to be affected by the Contaminated effect. Hitting Contaminated foes with single target Radioactive Assault powers cause a small burst of damage to foes near the target. Damage: High Moderate, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 11
+- 18
 set_types:
 - 1
 - 9
@@ -52,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -62,18 +70,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.56999999284744263
+  scale: 0.569999993
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -83,18 +91,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.7100000381469727
+  scale: 1.71000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -104,18 +112,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.85000002384185791
+  scale: 0.850000024
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -125,18 +133,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.559999942779541
+  scale: 2.55999994
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 5
   summon: ''
   stacking: 1
@@ -150,75 +158,75 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 7
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.31000000238418579
+  scale: 0.310000002
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 7
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   stacking: 1
   base_probability: 1
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.50999999046325684
+  scale: 0.50999999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Contamination
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
-  delayed_time: 0.30000001192092896
-  base_probability: 0.37000000476837158
+  delayed_time: 0.300000012
+  base_probability: 0.370000005
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Contaminated
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 9
+  unique_id: 9
   summon: ''
   stacking: 1
   base_probability: 1
@@ -227,48 +235,48 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Radiation_Melee_Contamination_Hit
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 30
   summon: ''
-  delayed_time: 0.10000000149011612
+  delayed_time: 0.100000001
   base_probability: 1
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated_Imunity
-  delayed_time: 0.10000000149011612
+  delayed_time: 0.100000001
   base_probability: 1
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated_Imunity
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Radioactive_Assault.Radiation_Siphon
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 13
   summon: ''
   ticks: 3
@@ -276,13 +284,13 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf

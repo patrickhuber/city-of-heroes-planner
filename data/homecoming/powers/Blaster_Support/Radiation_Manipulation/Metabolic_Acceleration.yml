@@ -7,8 +7,8 @@ display: Metabolic Acceleration
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 2
 accuracy: 1
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 0.73000001907348633
+cast_time: 0.730000019
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 0.5
 effect_area: 1
 max_boosts: 6
@@ -29,6 +30,11 @@ boosts_allowed:
 - Recovery_Boost
 description_short: 'Toggle: Self +Recharge, +Special, +Regeneration, +Recovery, +Res(Hold, Stun, Sleep, Immob, End)'
 description_long: 'You cloak yourself in a field of radiation that increases the running speed, attack speed, Endurance recovery and Regeneration rate. However, only half of this regeneration bonus is enhanceable. Your metabolisms is increased so much that they become resistant to effects such as Sleep, Hold, Disorient, Immobilization and Endurance Drain. Recharge: Moderate'
+enhancements:
+- 8
+- 11
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -41,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -52,14 +58,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -69,14 +75,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -87,32 +93,32 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 0.75
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 20
   mezmorize_type: 2
   summon: ''
@@ -122,14 +128,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 20
   mezmorize_type: 10
   summon: ''
@@ -139,14 +145,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 20
   mezmorize_type: 9
   summon: ''
@@ -156,14 +162,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 20
   mezmorize_type: 3
   summon: ''
@@ -173,14 +179,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 28
   effect_modifiers: 26
   summon: ''
@@ -190,14 +196,14 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Blaster_Support.Radiation_Manipulation.Metabolic_Acceleration
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 28
   effect_modifiers: 7
   summon: ''
@@ -207,8 +213,8 @@ effects:
   magnitude: 1
   duration: 0.75
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

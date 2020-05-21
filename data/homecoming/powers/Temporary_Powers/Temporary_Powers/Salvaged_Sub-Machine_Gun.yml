@@ -7,8 +7,8 @@ display: Salvaged Sub-Machine Gun
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 18
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 6.7199997901916504
-cast_time: 2.2000000476837158
+endurance_cost: 6.71999979
+cast_time: 2.20000005
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: 0
 life_time: 72000
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: -Def
 description_long: This sub-machine gun was dropped by a prisoner during a breakout at the Zig.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Salvaged_Sub-Machine_Gun
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -47,19 +49,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.28999999165534973
+  scale: 0.289999992
   magnitude: 1
-  duration: 0.69999998807907104
+  duration: 0.699999988
   aspect: 2
   modifier_table: Ranged_Tempdamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Tempdamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Salvaged_Sub-Machine_Gun
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -72,8 +74,8 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

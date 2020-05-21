@@ -7,19 +7,21 @@ display: Maiming Bite
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
 group_memberships: []
-entities_affected: 2048
-target: 2048
+entities_affected: 6144
+entities_auto_hit: 4096
+target: 6144
 target_line_of_sight: true
 range: 7
-endurance_cost: 6.8639998435974121
-cast_time: 2.4700000286102295
+endurance_cost: 6.86399984
+cast_time: 2.47000003
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,9 +33,18 @@ boosts_allowed:
 - Slow_Boost
 description_short: Melee, Moderate DMG(Lethal), Foe -Speed, -Def
 description_long: "The beast lunges and sinks their teeth into the victim before tearing viciously. Maiming Bite causes Moderate Lethal damage and reduces the target's movement speed moderately for a short time. Damage: Moderate, Recharge: Fast"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 22
 set_types: []
 level: 1
-variable_name: ''
+variable_enabled: true
+variable_name: Mentality Stacks
+variable_min: 1
+variable_max: 10
 sub_powers: []
 ignore_enhancements:
 - 13
@@ -42,28 +53,8 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 1
-  effect_type: 3
-  damage_type: 2
-  summon: ''
-  stacking: 1
-  base_probability: 1
-  buffable: true
-  resistible: true
-  to_who: 1
-  scale: 1.3200000524520874
-  magnitude: 1
-  aspect: 2
-  modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Damage
-  override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 2
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 2
   effect_type: 32
   summon: ''
   stacking: 1
@@ -71,19 +62,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 3
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 3
   effect_type: 11
   summon: ''
   stacking: 1
@@ -91,19 +82,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 4
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -111,19 +102,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 5
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 5
   effect_type: 17
   summon: ''
   stacking: 1
@@ -131,19 +122,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 6
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 6
   effect_type: 5
   summon: ''
   stacking: 1
@@ -151,33 +142,159 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.80000001192092896
+  scale: 0.800000012
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
-- power_full_name: Mastermind_Pets.Howler_Wolf_2.Maiming_Bite
-  unique_i_d: 7
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 56
+  to_who: 1
+  scale: 1.32000005
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.330000013
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 55
+  to_who: 1
+  scale: 1.32000005
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 55
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.0260000005
+  magnitude: 1.00999999
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 7
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
   buffable: true
   resistible: true
+  special_case: 55
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritActive
+  override: ''
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 7
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  buffable: true
+  resistible: true
+  special_case: 55
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.0130000003
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: CritActive
+  override: ''
+- power_full_name: Mastermind_Pets.Alpha_Wolf_2.Maiming_Bite
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  resistible: true
+  special_case: 52
+  to_who: 1
+  scale: 0.165000007
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

@@ -7,10 +7,10 @@ display: Ground Zero
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 132
 group_memberships: []
 entities_affected: 2560
@@ -20,6 +20,7 @@ target_line_of_sight: true
 endurance_cost: 13
 cast_time: 3
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 15
 max_targets: 30
@@ -35,6 +36,14 @@ boosts_allowed:
 - Taunt_Boost
 description_short: PBAoE, Foe Moderate DMG(Energy), Moderate DoT(Toxic), -DEF(All), Ally +HP, +Heal over time
 description_long: 'You release a mixture of radiation into the area.  Nearby foes will be barraged with harmful radiation and will suffer Moderate Energy damage immediately, followed by moderate toxic damage over time.  Affected foes will also have their defense reduced.  Nearby allies will be healed for a moderate amount and will recover health over time.  This power can affect a total of 30 targets.  This includes both friends and foes.  Ground Zero has no effect on the caster, only nearby allies and enemies.  Damage: Moderate, Moderate DoT, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 11
+- 18
+- 24
 set_types:
 - 4
 - 9
@@ -56,7 +65,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -69,14 +78,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -87,19 +96,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 9.1000003814697266
+  duration: 9.10000038
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   summon: ''
   stacking: 1
@@ -112,14 +121,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 13
   summon: ''
   stacking: 1
@@ -130,14 +139,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 13
   summon: ''
   delayed_time: 1
@@ -146,19 +155,19 @@ effects:
   base_probability: 1
   buffable: true
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
-  duration: 9.1000003814697266
+  duration: 9.10000038
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -175,14 +184,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Defense.Radiation_Armor.Ground_Zero
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -198,8 +207,8 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt

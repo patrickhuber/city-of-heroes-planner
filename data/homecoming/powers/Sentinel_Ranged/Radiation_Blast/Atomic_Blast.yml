@@ -7,18 +7,19 @@ display: Atomic Blast
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.3999999761581421
+accuracy: 1.39999998
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 15.600000381469727
-cast_time: 2.9300000667572021
+endurance_cost: 15.6000004
+cast_time: 2.93000007
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 2
 radius: 20
 max_targets: 10
@@ -32,6 +33,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE, Extreme DMG(Energy/Smash), Foe Hold, -DEF
 description_long: 'This attack taps most of your stored energy to deal a devastating Atomic Blast which deals Extreme Energy and Smashing damage.  Any foes left standing will have their Defense greatly reduced and may be left helplessly choking on toxic vapors. Damage: Extreme, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 18
 set_types:
 - 4
 - 21
@@ -47,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -57,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.92799997329711914
+  scale: 0.927999973
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -78,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.253000020980835
+  scale: 2.25300002
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -99,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.4050000011920929
+  scale: 0.405000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -120,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.82099997997283936
+  scale: 0.82099998
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -146,14 +153,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -169,14 +176,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Ranged.Radiation_Blast.Atomic_Blast
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   summon: ''
   stacking: 1
@@ -189,8 +196,8 @@ effects:
   duration: 20
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

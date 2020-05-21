@@ -7,12 +7,12 @@ display: Soul Tentacles
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Mastermind_Soul_Mastery.Night_Fall
     - ''
   - - Epic.Mastermind_Soul_Mastery.Dark_Embrace
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 268
@@ -21,9 +21,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 12.739999771118164
-cast_time: 1.6699999570846558
+endurance_cost: 12.7399998
+cast_time: 1.66999996
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 3
 radius: 40
 arc: 25
@@ -39,6 +40,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Negative), Foe Immobilize
 description_long: 'You can create a cone shaped rift to the Netherworld that allows the souls of the damned to slip into our reality. These Soul Tentacles will snare all foes within range, Immobilizing them while they drain their life. You must be level 41 and have Night Fall or Dark Embrace before selecting this power. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 13
+- 17
+- 18
 set_types:
 - 3
 - 12
@@ -52,7 +60,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Tentacles
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -64,19 +72,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Tentacles
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -86,18 +94,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.13500000536441803
+  scale: 0.135000005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Tentacles
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -109,19 +117,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.17791000008583069
+  scale: 0.17791
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Tentacles
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -131,18 +139,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.23170000314712524
+  scale: 0.231700003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Tentacles
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -157,14 +165,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Soul_Tentacles
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -180,8 +188,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

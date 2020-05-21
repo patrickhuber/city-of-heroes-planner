@@ -7,8 +7,8 @@ display: Orbiting Death
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1572866
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 1.559999942779541
-cast_time: 2.0299999713897705
+endurance_cost: 1.55999994
+cast_time: 2.02999997
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 2
 effect_area: 2
 radius: 20
@@ -33,6 +34,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Toggle: PBAoE Minor DoT(Negative)'
 description_long: 'You surround yourself with orbiting particles and dark matter that will continually cause Negative Energy damage to any nearby foes. Damage: Minor(DoT), Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 4
 - 39
@@ -46,7 +52,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Warshade_Defensive.Umbral_Aura.Orbiting_Death
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -56,19 +62,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.17000000178813934
+  scale: 0.170000002
   magnitude: 1
   duration: 2.5
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Warshade_Defensive.Umbral_Aura.Orbiting_Death
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 77
   summon: ''
   ticks: 2
@@ -82,8 +88,8 @@ effects:
   duration: 2.5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

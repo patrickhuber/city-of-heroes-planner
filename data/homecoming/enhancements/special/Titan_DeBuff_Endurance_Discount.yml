@@ -14,17 +14,17 @@ image: TNZeolite.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.75
 - buff_mode: 2
-  i_d: 20
-  sub_i_d: -1
+  id: 20
+  sub_id: -1
   schedule: 1
   multiplier: 0.75
 - buff_mode: 2
-  i_d: 3
-  sub_i_d: -1
+  id: 3
+  sub_id: -1
   multiplier: 0.75
 unique_identifier: Titan_DeBuff_Endurance_Discount
 recipe: ''

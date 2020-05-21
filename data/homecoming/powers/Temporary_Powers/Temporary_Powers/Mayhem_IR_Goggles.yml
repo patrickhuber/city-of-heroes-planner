@@ -7,8 +7,8 @@ display: IR Goggles
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.38999998569488525
+endurance_cost: 0.389999986
 cast_time: 1
 recharge_time: 2
+base_recharge_time: 2
 activate_period: 10
 effect_area: 1
 max_boosts: ''
@@ -29,6 +30,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: 'Toggle: Self +Perception'
 description_long: IR Goggles greatly improve your chances to spot stealthed or invisible players. You may use this power for a total of 30 minutes usage time.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,52 +41,52 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_IR_Goggles
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 28
   effect_modifiers: 23
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   duration: 10.25
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_IR_Goggles
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 23
   summon: ''
   base_probability: 0.5
   to_who: 2
   scale: 10.25
-  magnitude: 0.40000000596046448
+  magnitude: 0.400000006
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_IR_Goggles
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 40
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.66699999570846558
+  scale: 0.666999996
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Buff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit

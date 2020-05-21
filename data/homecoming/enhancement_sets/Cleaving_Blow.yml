@@ -16,19 +16,19 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7956
+  - id: 7833
     name: Set_Bonus.Set_Bonus.Improved_Recovery_1
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8047
+  - id: 7924
     name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_1
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8026
+  - id: 7903
     name: Set_Bonus.Set_Bonus.Increased_Damage_1
 special_bonuses:
 - special: -1

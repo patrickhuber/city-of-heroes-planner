@@ -9,8 +9,8 @@ requirement:
   - Class_Blaster
   - Class_Mastermind
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 260
@@ -19,9 +19,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 16.379999160766602
+endurance_cost: 16.3799992
 cast_time: 2
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 3
 radius: 60
 arc: 20
@@ -37,6 +38,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Negative), Foe -ACC
 description_long: 'Unleashes a cone shaped burst of particles from the Netherworld. All targets within the modest range of this power take Negative Energy damage and have a reduced Accuracy. Damage: Moderate(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 26
@@ -52,7 +60,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -63,19 +71,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.10999999940395355
+  scale: 0.109999999
   magnitude: 1
-  duration: 2.7999999523162842
+  duration: 2.79999995
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   stacking: 1
@@ -88,14 +96,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Epic.Mastermind_Soul_Mastery.Night_Fall
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -106,13 +114,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.15568999946117401
+  scale: 0.155689999
   magnitude: 1
-  duration: 2.7999999523162842
+  duration: 2.79999995
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

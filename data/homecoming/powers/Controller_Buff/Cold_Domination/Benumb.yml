@@ -7,8 +7,8 @@ display: Benumb
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 34
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 70
 endurance_cost: 13
-cast_time: 2.0699999332427979
+cast_time: 2.06999993
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Foe -DMG, -END, -Regeneration, -Special
 description_long: "Numbs a single target to its very core.  Benumb reduces the target's core body temperature, dramatically weakening them.  A Benumbed target's Damage and Regeneration Rate are greatly reduced.  Additionally, the affected target's secondary power effects are all weakened. The target's powers' effects like Heals, Defense Buffs, Endurance Drains, Disorients, Holds, Immobilizes, Knockbacks and more, are all weakened.  Recharge: Long"
+enhancements:
+- 1
+- 8
+- 17
+- 18
 set_types: []
 level: 28
 variable_name: ''
@@ -40,7 +46,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -53,14 +59,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -73,14 +79,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -93,14 +99,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -113,14 +119,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -133,14 +139,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -153,14 +159,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -173,14 +179,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -193,14 +199,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -212,14 +218,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 9
   mezmorize_type: 10
   effect_modifiers: 19
@@ -234,14 +240,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 9
   mezmorize_type: 9
   effect_modifiers: 19
@@ -256,14 +262,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 9
   mezmorize_type: 1
   effect_modifiers: 19
@@ -278,14 +284,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 9
   mezmorize_type: 12
   effect_modifiers: 19
@@ -300,14 +306,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 9
   mezmorize_type: 3
   effect_modifiers: 19
@@ -322,14 +328,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 9
   mezmorize_type: 2
   effect_modifiers: 19
@@ -344,14 +350,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 9
   mezmorize_type: 4
   effect_modifiers: 19
@@ -366,14 +372,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 9
   mezmorize_type: 5
   effect_modifiers: 19
@@ -388,14 +394,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 9
   mezmorize_type: 8
   effect_modifiers: 19
@@ -410,14 +416,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 9
   effect_modifiers: 32
   summon: ''
@@ -431,14 +437,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 20
+  unique_id: 20
   effect_type: 9
   effect_modifiers: 11
   summon: ''
@@ -452,14 +458,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 21
+  unique_id: 21
   effect_type: 9
   effect_modifiers: 5
   summon: ''
@@ -473,14 +479,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 22
+  unique_id: 22
   effect_type: 9
   damage_type: 10
   effect_modifiers: 5
@@ -495,14 +501,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 23
+  unique_id: 23
   effect_type: 9
   damage_type: 11
   effect_modifiers: 5
@@ -517,14 +523,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 24
+  unique_id: 24
   effect_type: 9
   damage_type: 12
   effect_modifiers: 5
@@ -539,14 +545,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 25
+  unique_id: 25
   effect_type: 9
   damage_type: 1
   effect_modifiers: 5
@@ -561,14 +567,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 26
+  unique_id: 26
   effect_type: 9
   damage_type: 2
   effect_modifiers: 5
@@ -583,14 +589,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 27
+  unique_id: 27
   effect_type: 9
   damage_type: 3
   effect_modifiers: 5
@@ -605,14 +611,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 28
+  unique_id: 28
   effect_type: 9
   damage_type: 4
   effect_modifiers: 5
@@ -627,14 +633,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 29
+  unique_id: 29
   effect_type: 9
   damage_type: 5
   effect_modifiers: 5
@@ -649,14 +655,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 30
+  unique_id: 30
   effect_type: 9
   damage_type: 6
   effect_modifiers: 5
@@ -671,14 +677,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 31
+  unique_id: 31
   effect_type: 9
   damage_type: 8
   effect_modifiers: 5
@@ -693,14 +699,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 32
+  unique_id: 32
   effect_type: 9
   effect_modifiers: 13
   summon: ''
@@ -714,14 +720,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 33
+  unique_id: 33
   effect_type: 9
   effect_modifiers: 40
   summon: ''
@@ -735,14 +741,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 34
+  unique_id: 34
   effect_type: 7
   summon: ''
   stacking: 1
@@ -751,18 +757,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.05000000074505806
+  scale: -0.0500000007
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 35
+  unique_id: 35
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -775,14 +781,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 36
+  unique_id: 36
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -795,14 +801,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 37
+  unique_id: 37
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -815,14 +821,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 38
+  unique_id: 38
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -835,14 +841,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 39
+  unique_id: 39
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -855,14 +861,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 40
+  unique_id: 40
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -875,14 +881,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 41
+  unique_id: 41
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -895,14 +901,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 42
+  unique_id: 42
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -915,14 +921,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 43
+  unique_id: 43
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -934,14 +940,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 44
+  unique_id: 44
   effect_type: 9
   mezmorize_type: 10
   effect_modifiers: 19
@@ -956,14 +962,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 45
+  unique_id: 45
   effect_type: 9
   mezmorize_type: 9
   effect_modifiers: 19
@@ -978,14 +984,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 46
+  unique_id: 46
   effect_type: 9
   mezmorize_type: 1
   effect_modifiers: 19
@@ -1000,14 +1006,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 47
+  unique_id: 47
   effect_type: 9
   mezmorize_type: 12
   effect_modifiers: 19
@@ -1022,14 +1028,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 48
+  unique_id: 48
   effect_type: 9
   mezmorize_type: 3
   effect_modifiers: 19
@@ -1044,14 +1050,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 49
+  unique_id: 49
   effect_type: 9
   mezmorize_type: 2
   effect_modifiers: 19
@@ -1066,14 +1072,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 50
+  unique_id: 50
   effect_type: 9
   mezmorize_type: 4
   effect_modifiers: 19
@@ -1088,14 +1094,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 51
+  unique_id: 51
   effect_type: 9
   mezmorize_type: 5
   effect_modifiers: 19
@@ -1110,14 +1116,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 52
+  unique_id: 52
   effect_type: 9
   mezmorize_type: 8
   effect_modifiers: 19
@@ -1132,14 +1138,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 53
+  unique_id: 53
   effect_type: 9
   effect_modifiers: 32
   summon: ''
@@ -1153,14 +1159,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 54
+  unique_id: 54
   effect_type: 9
   effect_modifiers: 11
   summon: ''
@@ -1174,14 +1180,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 55
+  unique_id: 55
   effect_type: 9
   effect_modifiers: 5
   summon: ''
@@ -1195,14 +1201,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 56
+  unique_id: 56
   effect_type: 9
   damage_type: 10
   effect_modifiers: 5
@@ -1217,14 +1223,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 57
+  unique_id: 57
   effect_type: 9
   damage_type: 11
   effect_modifiers: 5
@@ -1239,14 +1245,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 58
+  unique_id: 58
   effect_type: 9
   damage_type: 12
   effect_modifiers: 5
@@ -1261,14 +1267,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 59
+  unique_id: 59
   effect_type: 9
   damage_type: 1
   effect_modifiers: 5
@@ -1283,14 +1289,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 60
+  unique_id: 60
   effect_type: 9
   damage_type: 2
   effect_modifiers: 5
@@ -1305,14 +1311,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 61
+  unique_id: 61
   effect_type: 9
   damage_type: 3
   effect_modifiers: 5
@@ -1327,14 +1333,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 62
+  unique_id: 62
   effect_type: 9
   damage_type: 4
   effect_modifiers: 5
@@ -1349,14 +1355,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 63
+  unique_id: 63
   effect_type: 9
   damage_type: 5
   effect_modifiers: 5
@@ -1371,14 +1377,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 64
+  unique_id: 64
   effect_type: 9
   damage_type: 6
   effect_modifiers: 5
@@ -1393,14 +1399,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 65
+  unique_id: 65
   effect_type: 9
   damage_type: 8
   effect_modifiers: 5
@@ -1415,14 +1421,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 66
+  unique_id: 66
   effect_type: 9
   effect_modifiers: 13
   summon: ''
@@ -1436,14 +1442,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 67
+  unique_id: 67
   effect_type: 9
   effect_modifiers: 40
   summon: ''
@@ -1457,14 +1463,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Controller_Buff.Cold_Domination.Benumb
-  unique_i_d: 68
+  unique_id: 68
   effect_type: 7
   summon: ''
   stacking: 1
@@ -1477,8 +1483,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain

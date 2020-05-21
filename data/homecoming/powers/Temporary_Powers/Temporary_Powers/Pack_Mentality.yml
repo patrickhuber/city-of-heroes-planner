@@ -7,8 +7,8 @@ display: Pack Mentality
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -29,6 +29,7 @@ cast_through_hold: true
 ignore_strength: true
 description_short: PBAoE, Henchman +DMG
 description_long: As your Beast Mastery pets attack you will gain stacks of Pack Mentality.  Each stack increases pet damage by 2% as long as they are near you.  Pack Mentality stacks up to 10 times.  Fortify Pack will consume all charges of Pack Mentality and prevent the user's pets from gaining additional stacks, however it will greatly boost the Defense and Regeneration of all nearby beast pets.  The potency of Fortify Pack will depend on the number of stacks of Pack Mentality owned when it is used.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,189 +40,189 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 7
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 8
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 18
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Pack_Mentality
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 45
   summon: ''
   stacking: 1
   base_probability: 1
   to_who: 3
-  scale: 0.019999999552965164
+  scale: 0.0199999996
   magnitude: 1
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: CritActive
   effect_id: Ones

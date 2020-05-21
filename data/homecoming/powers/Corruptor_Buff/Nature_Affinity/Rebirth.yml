@@ -7,8 +7,8 @@ display: Rebirth
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -20,6 +20,7 @@ range: 45
 endurance_cost: 26
 cast_time: 3
 recharge_time: 180
+base_recharge_time: 180
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Ranged, Ally Rez, +Heal Over Time, Special, +3 Bloom
 description_long: 'Rebirth can either greatly heal a conscious ally for a large amount of health over time or it can revive a fallen ally with a large amount of health and endurance and cause them to recover health over time.  This power also grants 3 stacks of Bloom.  Recharge: Very Long'
+enhancements:
+- 8
+- 11
+- 17
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -43,7 +50,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Buff.Nature_Affinity.Rebirth
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 53
   summon: ''
   stacking: 1
@@ -53,14 +60,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Nature_Affinity_Corruptor.Rebirth_Corruptor_Heal
 - power_full_name: Corruptor_Buff.Nature_Affinity.Rebirth
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 53
   summon: ''
   stacking: 1
@@ -70,14 +77,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: Pets.Nature_Affinity_Corruptor.Rebirth_Corruptor_Rez
 - power_full_name: Corruptor_Buff.Nature_Affinity.Rebirth
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 13
   summon: ''
   ticks: 1
@@ -90,14 +97,14 @@ effects:
   duration: 0.5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Buff.Nature_Affinity.Rebirth
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -108,14 +115,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Buff.Nature_Affinity.Rebirth
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 13
   summon: ''
   delayed_time: 1
@@ -125,19 +132,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.45454999804496765
+  scale: 0.454549998
   magnitude: 1
-  duration: 10.100000381469727
+  duration: 10.1000004
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Corruptor_Buff.Nature_Affinity.Rebirth
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Bloom
   stacking: 1
@@ -147,8 +154,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Bloom
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Spin
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 15.444000244140625
+endurance_cost: 15.4440002
 cast_time: 2.5
 recharge_time: 14
+base_recharge_time: 14
 effect_area: 2
 radius: 8
 max_targets: 10
@@ -31,6 +32,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: PBAoE Melee, Moderate DMG(Lethal), DoT(Toxic), -Recharge, -SPD
 description_long: "Spin does moderate lethal damage to all foes within an 8' radius of you, then poisons them.  The poison does toxic damage over time and slows their recovery rate and movement speed.  NOTE: This power may deal critical damage if used after a successful Placate or while the user is hidden with the Night Widow or Fortunata Mask Presence power.  Damage: Moderate Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 8
+- 18
 set_types:
 - 4
 - 32
@@ -45,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -55,18 +61,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.3206299543380737
+  scale: 1.32062995
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -77,18 +83,18 @@ effects:
   special_case: 1
   player_versus_mode: 1
   to_who: 1
-  scale: 0.8804200291633606
+  scale: 0.880420029
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -98,18 +104,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5708600282669067
+  scale: 1.57086003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -120,18 +126,18 @@ effects:
   special_case: 1
   player_versus_mode: 2
   to_who: 1
-  scale: 1.047760009765625
+  scale: 1.04776001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 32
   summon: ''
   stacking: 1
@@ -139,19 +145,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 11
   summon: ''
   stacking: 1
@@ -159,19 +165,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -179,19 +185,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -199,19 +205,19 @@ effects:
   base_probability: 1
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 17
   summon: ''
   stacking: 1
@@ -219,19 +225,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 6
   aspect: 4
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Widow_Training.Widow_Training.Spin
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -242,14 +248,14 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

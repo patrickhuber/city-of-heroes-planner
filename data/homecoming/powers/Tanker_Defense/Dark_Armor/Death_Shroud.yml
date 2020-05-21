@@ -7,8 +7,8 @@ display: Death Shroud
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 1.0399999618530273
-cast_time: 3.4700000286102295
+endurance_cost: 1.03999996
+cast_time: 3.47000003
 recharge_time: 4
+base_recharge_time: 4
 activate_period: 2
 effect_area: 2
 radius: 8
@@ -34,6 +35,12 @@ boosts_allowed:
 - Taunt_Boost
 description_short: 'Toggle: PBAoE Minor DoT(Negative)'
 description_long: 'You become a focus point for the Netherworld, allowing its Negative Energy to seep from your body. This will continuously damage all foes in melee range. Damage: Minor(DoT), Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 24
 set_types:
 - 4
 - 43
@@ -48,7 +55,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Tanker_Defense.Dark_Armor.Death_Shroud
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -57,18 +64,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Tanker_Defense.Dark_Armor.Death_Shroud
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -85,14 +92,14 @@ effects:
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Defense.Dark_Armor.Death_Shroud
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -108,14 +115,14 @@ effects:
   aspect: 2
   modifier_table: Melee_InherentTaunt
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
   override: ''
 - power_full_name: Tanker_Defense.Dark_Armor.Death_Shroud
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -123,12 +130,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.090000003576278687
+  scale: 0.0900000036
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace

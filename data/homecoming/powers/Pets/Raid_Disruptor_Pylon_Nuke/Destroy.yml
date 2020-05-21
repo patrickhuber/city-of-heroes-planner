@@ -7,8 +7,8 @@ display: Destroy
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -17,6 +17,7 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 recharge_time: 999
+base_recharge_time: 999
 activate_period: 999
 effect_area: 1
 max_boosts: ''
@@ -24,6 +25,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Summon
 description_long: This power is simply the visual fx for a summoned entity.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +37,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Raid_Disruptor_Pylon_Nuke.Destroy
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Pets.Raid_Disruptor_Pylon_Kill.Destroy
   delayed_time: 0.5
@@ -45,14 +47,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Raid_Disruptor_Pylon_Kill.Destroy
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Raid_Disruptor_Pylon_Nuke.Destroy
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 12
   summon: Pets.Raid_Disruptor_Pylon_Create.Create
   delayed_time: 0.5
@@ -62,8 +64,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Pets.Raid_Disruptor_Pylon_Create.Create
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Fling Thorns
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 20
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 30
 endurance_cost: 13
-cast_time: 1.6299999952316284
-recharge_time: 12
+cast_time: 1.63
+recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 30
 arc: 90
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Moderate DMG(Lethal), DoT(Toxic) -DEF
 description_long: "You can throw dozens of Thorns in a wide cone in front of you, impaling foes caught within the area. These Thorns deals moderate damage, and poisons any targets it hits. Thorn poison deals additional Toxic damage and can reduce your foes' Defense.  Damage: Moderate, Recharge: Slow"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 21
@@ -49,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Thorny_Assault.Fling_Thorns
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -59,42 +67,42 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.89999997615814209
+  scale: 0.653999984
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Thorny_Assault.Fling_Thorns
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
   delayed_time: 0.5
   ticks: 5
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
-  magnitude: 1
-  duration: 4.0999999046325684
+  scale: 0.0729999989
+  magnitude: 0.995000005
+  duration: 4.0999999
   aspect: 2
   modifier_table: Ranged_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Thorny_Assault.Fling_Thorns
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -104,18 +112,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.8294000625610352
+  scale: 2.29399991
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Thorny_Assault.Fling_Thorns
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 5
   summon: ''
   stacking: 1
@@ -123,19 +131,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 2
+  scale: 2.14299989
   magnitude: 1
   duration: 8
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Dominator_Assault.Thorny_Assault.Fling_Thorns
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 48
   summon: ''
   base_probability: 1
@@ -145,8 +153,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -15,13 +15,13 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 8138
+  - id: 8015
     name: Set_Bonus.Set_Bonus.Increased_Move_1
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8096
+  - id: 7973
     name: Set_Bonus.Set_Bonus.Increased_Health_1
 special_bonuses:
 - special: -1

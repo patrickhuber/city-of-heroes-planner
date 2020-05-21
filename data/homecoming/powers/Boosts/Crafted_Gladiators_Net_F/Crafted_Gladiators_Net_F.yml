@@ -7,8 +7,8 @@ display: "Gladiator's Net: Chance for Lethal Damage"
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -29,6 +29,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: Adds Minor DMG (Lethal)
 description_long: Provides a small chance to cause minor lethal damage to your targets.  This effect will trigger roughly 3.5 times per minute.
+enhancements:
+- 12
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +42,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Boosts.Crafted_Gladiators_Net_F.Crafted_Gladiators_Net_F
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -48,20 +50,20 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 3
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 2
   modifier_table: Melee_TempDamage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
   procs_per_minute: 3.5
 - power_full_name: Boosts.Crafted_Gladiators_Net_F.Crafted_Gladiators_Net_F
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -73,8 +75,8 @@ effects:
   aspect: 2
   modifier_table: Melee_TempDamage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

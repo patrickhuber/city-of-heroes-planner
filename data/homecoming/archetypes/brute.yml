@@ -1,8 +1,8 @@
 display_name: Brute
 hit_points: 1499
-hit_points_max: 3212.68994140625
+hit_points_max: 3212.68994
 description_long: Brutes live to fight, and as a Brute you revel in hand-to-hand combat. With strong offensive power sets to inflict pain and impressive defenses to take it, you're the best there is in a straight fight. Protracted battles only makes you mad, and the madder you get, the more damaging your attacks become. You do lack ranged attacks, which could leave you vulnerable to hit and run tactics without some allies to cover you.
-resistence_max: 0.89999997615814209
+resistence_max: 0.899999976
 origins:
 - Magic
 - Mutation

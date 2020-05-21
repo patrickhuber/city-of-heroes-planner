@@ -7,8 +7,8 @@ display: Zombie Vomit
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 4
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 8
-endurance_cost: 6.8639998435974121
-cast_time: 2.6700000762939453
+endurance_cost: 6.86399984
+cast_time: 2.67000008
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 2
 radius: 5
 max_targets: 5
@@ -31,6 +32,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: DoT(Toxic)
 description_long: The Zombie's toxic vomits is burning your flesh.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Zombie_2.Zombie_Vomit
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -52,36 +57,82 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Zombie_2.Zombie_Vomit
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
   delayed_time: 1
   ticks: 6
   stacking: 1
-  base_probability: 0.89999997615814209
+  base_probability: 0.899999976
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
-  duration: 5.0999999046325684
+  duration: 5.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.330000013
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 2
+  effect_type: 3
+  damage_type: 7
+  summon: ''
+  delayed_time: 1
+  ticks: 6
+  stacking: 1
+  base_probability: 0.899999976
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0130000003
+  magnitude: 1
+  duration: 5.0999999
+  aspect: 2
+  modifier_table: Melee_Damage
+  cancel_on_miss: true
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

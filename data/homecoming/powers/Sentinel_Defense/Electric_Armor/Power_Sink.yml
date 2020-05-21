@@ -7,8 +7,8 @@ display: Power Sink
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 132
@@ -18,8 +18,9 @@ entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
 endurance_cost: 13
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 2
 radius: 10
 max_targets: 10
@@ -31,6 +32,10 @@ boosts_allowed:
 - Recovery_Boost
 description_short: PBAoE, Self +End, Foe -End
 description_long: 'Power Sink leeches energy directly from the bodies of all nearby foes, draining their Endurance. Each foe you draw energy from increases your Endurance. If there are no foes within range, you will not gain any Endurance. Recharge: Long'
+enhancements:
+- 8
+- 18
+- 7
 set_types:
 - 22
 click_buff: true
@@ -46,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Defense.Electric_Armor.Power_Sink
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 7
   summon: ''
   stacking: 1
@@ -55,18 +60,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.40000000596046448
+  scale: -0.400000006
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Electric_Armor.Power_Sink
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   stacking: 1
@@ -79,18 +84,18 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Sentinel_Defense.Electric_Armor.Power_Sink
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 26
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   resistible: true
   to_who: 1
@@ -99,14 +104,14 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Electric_Armor.Power_Sink
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   delayed_time: 0.25
@@ -118,8 +123,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

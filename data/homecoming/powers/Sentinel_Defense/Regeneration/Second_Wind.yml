@@ -7,8 +7,8 @@ display: Second Wind
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,6 +18,7 @@ target: 1
 target_line_of_sight: true
 cast_time: 1.5
 recharge_time: 250
+base_recharge_time: 250
 effect_area: 1
 max_boosts: 6
 cast_flags: 4
@@ -28,6 +29,10 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Self  +Max HP, Rez(Special)
 description_long: When you use this power you will recover a percentage of your missing health, in addition to increasing your maximum hit points in a similar way. The less hit points you have left, the more powerful this effect will be. Should you fall in battle, you can use this power at its maximum strength to stand up and fight again. If used while defeated, you will be protected from XP Debt for 90 seconds and immune to most damage for 15 seconds. Although this power cost no endurance, it will take drain 10 endurance if used while still standing.
+enhancements:
+- 11
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -40,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 14
   summon: ''
   stacking: 1
@@ -52,14 +57,14 @@ effects:
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 100 kHitPoints% target> - 100 / @StdResult * .45 *
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 14
   summon: ''
   stacking: 1
@@ -72,14 +77,14 @@ effects:
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 100 kHitPoints% target> - 100 / @StdResult * .45 *
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 13
   summon: ''
   stacking: 1
@@ -91,14 +96,14 @@ effects:
   attrib_type: 2
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 100 kHitPoints% target> - 100 / @StdResult * .45 *
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 7
   summon: ''
   stacking: 1
@@ -108,14 +113,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   delayed_time: 0.125
@@ -127,14 +132,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 13
   summon: ''
@@ -145,14 +150,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -164,14 +169,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 42
   summon: ''
   base_probability: 1
@@ -181,14 +186,14 @@ effects:
   duration: 90
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 77
   summon: ''
   stacking: 1
@@ -200,14 +205,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Regeneration.Second_Wind
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 77
   summon: ''
   stacking: 1
@@ -219,8 +224,8 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

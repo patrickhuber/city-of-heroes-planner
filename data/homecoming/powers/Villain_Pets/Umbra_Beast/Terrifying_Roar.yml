@@ -7,8 +7,8 @@ display: Terrifying Roar
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 140
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 10.192000389099121
-cast_time: 2.8299999237060547
+endurance_cost: 10.1920004
+cast_time: 2.82999992
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 50
 arc: 30
@@ -35,6 +36,13 @@ boosts_allowed:
 - Range_Boost
 description_short: Ranged Cone, Moderate DMG(Smashing/Negative Energy), Foe Terrorize, -To Hit
 description_long: 'The Umbra Beast lets out a terrible roar that rattles the very soul of the targets within its cone.  Affected targets will have their chance to hit reduced and may suffer from terrorize and  Damage: Moderate, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 9
+- 17
 set_types: []
 level: 4
 variable_name: ''
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -56,18 +64,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.4050000011920929
+  scale: 0.405000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -77,18 +85,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.4050000011920929
+  scale: 0.405000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -98,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7714400291442871
+  scale: 1.77144003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -119,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.7714400291442871
+  scale: 1.77144003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 40
   summon: ''
   stacking: 1
@@ -143,14 +151,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -165,14 +173,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Villain_Pets.Umbra_Beast.Terrifying_Roar
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -188,8 +196,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

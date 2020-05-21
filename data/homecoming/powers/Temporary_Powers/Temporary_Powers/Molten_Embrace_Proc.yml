@@ -7,8 +7,8 @@ display: Molten Embrace
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 5
 accuracy: 1
@@ -32,6 +32,8 @@ cast_through_hold: true
 ignore_strength: true
 description_short: +Fire Damage
 description_long: While Molten Embrace is active, most of your damaging powers will have a chance to cause a small amount of additional fire damage over time.
+enhancements:
+- 4
 set_types: []
 variable_name: ''
 sub_powers: []
@@ -41,49 +43,49 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Molten_Embrace_Proc
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 3
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   resistible: true
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   attrib_type: 2
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: .8 rechargetime power.base> 0 20 minmax * 1.8 + .2 * @StdResult * areafactor power.base> /
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Molten_Embrace_Proc
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
   delayed_time: 0.5
   ticks: 3
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   resistible: true
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
-  duration: 2.0999999046325684
+  duration: 2.0999999
   attrib_type: 2
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: .22 activateperiod power.base> 0 30 minmax * @StdResult * areafactor power.base> /
   reward: ''
   effect_id: Damage

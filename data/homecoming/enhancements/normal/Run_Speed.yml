@@ -11,8 +11,8 @@ image: Run.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 19
-  sub_i_d: -1
+- id: 19
+  sub_id: -1
   multiplier: 1
 unique_identifier: Magic_Run
 recipe: Ticket_Magic

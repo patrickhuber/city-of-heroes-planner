@@ -9,8 +9,8 @@ requirement:
   - Class_Arachnos_Soldier
   - Class_Arachnos_Widow
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 attack_types: 258
@@ -19,9 +19,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.659999847412109
-cast_time: 1.1000000238418579
+endurance_cost: 10.6599998
+cast_time: 1.10000002
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -34,6 +35,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, High DoT(Negative), Foe -ACC
 description_long: 'Gloom slowly drains a target of life, while reducing his Accuracy. Slower than Dark Blast, but deals more damage over time. Damage: High(DoT), Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 26
@@ -49,7 +57,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Epic.VEAT_Soul_Mastery.Gloom
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -60,19 +68,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 3.5999999046325684
+  duration: 3.5999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.VEAT_Soul_Mastery.Gloom
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   stacking: 1
@@ -85,14 +93,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Epic.VEAT_Soul_Mastery.Gloom
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -103,13 +111,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.20922000706195831
+  scale: 0.209220007
   magnitude: 1
-  duration: 3.5999999046325684
+  duration: 3.5999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

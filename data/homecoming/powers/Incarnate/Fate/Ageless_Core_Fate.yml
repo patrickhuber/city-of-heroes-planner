@@ -7,8 +7,8 @@ display: Ageless Core Fate
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 accuracy: 1
 group_memberships: []
@@ -16,8 +16,9 @@ entities_affected: 513
 entities_auto_hit: 513
 target: 1
 target_line_of_sight: true
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 240
+base_recharge_time: 240
 effect_area: 2
 radius: 30
 max_targets: 255
@@ -28,6 +29,8 @@ boosts_allowed:
 ignore_strength: true
 description_short: PBAoE Ally +End, +Recharge Rate, +Recovery
 description_long: 'PBAoE Ally +End, +Recharge Rate, +Recovery. Recharge: Very Long. The continuing buffs from this power will gradually lose effectiveness over time before they expire completely after 60 seconds.'
+enhancements:
+- 7
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +42,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 7
   summon: ''
   stacking: 1
@@ -50,86 +53,86 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   duration: 5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 15
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 9
   effect_modifiers: 25
   summon: ''
   base_probability: 1
   to_who: 3
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -140,14 +143,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -158,14 +161,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -176,14 +179,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Fate.Ageless_Core_Fate
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -194,8 +197,8 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

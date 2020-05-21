@@ -7,8 +7,8 @@ display: 'Touch of Death:  Accuracy/Damage/Endurance'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -29,6 +29,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: Enhances Damage, Reduces Endurance Cost and Increases Accuracy
 description_long: Enhances the accuracy of a power by {Boost.Attrib.Accuracy.Scale}% and damage by {Boost.Attrib.Damage.Scale}% and reduces endurance cost by {Boost.Attrib.Endurance.Scale}%.
+enhancements:
+- 4
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +43,7 @@ sort_override: true
 boost_use_player_level: true
 effects:
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -52,14 +54,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -70,14 +72,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -88,14 +90,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -106,14 +108,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -124,14 +126,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -142,14 +144,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -160,14 +162,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -178,14 +180,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 9
   effect_modifiers: 8
   summon: ''
@@ -196,14 +198,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Endurance
   override: ''
 - power_full_name: Boosts.Attuned_Touch_of_Death_D.Attuned_Touch_of_Death_D
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 9
   effect_modifiers: 1
   summon: ''
@@ -214,8 +216,8 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Accuracy

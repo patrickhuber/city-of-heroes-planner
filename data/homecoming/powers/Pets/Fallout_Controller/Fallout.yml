@@ -7,8 +7,8 @@ display: Fallout
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 2
 attack_types: 132
@@ -17,6 +17,7 @@ entities_affected: 2048
 target: 1
 target_line_of_sight: true
 recharge_time: 300
+base_recharge_time: 300
 activate_period: 300
 effect_area: 2
 radius: 30
@@ -30,6 +31,11 @@ boosts_allowed:
 - Debuff_ToHit_Boost
 description_short: 'Post-Defeat: PBAoE, Extreme DMG(Energy), Debuff'
 description_long: 'After an ally falls in battle, you can activate this power to extract the energy from their body to deal a massive amount of Energy damage to any nearby foes. All affected foes are extremely weakened by the Fallout, and their chance to hit, Defense, Damage and Damage Resistance is severely reduced.  Damage: Extreme, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 26
 set_types: []
 level: 1
 variable_name: ''
@@ -41,7 +47,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -54,14 +60,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -73,14 +79,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Debuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_ToHit
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -92,14 +98,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -111,14 +117,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -130,14 +136,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -149,14 +155,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -168,14 +174,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -187,14 +193,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -206,14 +212,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -225,14 +231,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -244,14 +250,14 @@ effects:
   duration: 30
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -262,14 +268,14 @@ effects:
   magnitude: 1
   duration: 31
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -280,14 +286,14 @@ effects:
   magnitude: 1
   duration: 32
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -298,14 +304,14 @@ effects:
   magnitude: 1
   duration: 33
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -316,14 +322,14 @@ effects:
   magnitude: 1
   duration: 34
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -334,14 +340,14 @@ effects:
   magnitude: 1
   duration: 35
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -352,14 +358,14 @@ effects:
   magnitude: 1
   duration: 36
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -370,14 +376,14 @@ effects:
   magnitude: 1
   duration: 37
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Pets.Fallout_Controller.Fallout
-  unique_i_d: 19
+  unique_id: 19
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -388,8 +394,8 @@ effects:
   magnitude: 1
   duration: 38
   modifier_table: Ranged_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg

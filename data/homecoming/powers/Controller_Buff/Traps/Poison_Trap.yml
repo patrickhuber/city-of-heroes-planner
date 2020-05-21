@@ -7,8 +7,8 @@ display: Poison Trap
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 endurance_cost: 13
-cast_time: 2.7699999809265137
+cast_time: 2.76999998
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 1
 max_boosts: ''
 cast_flags: 2
@@ -30,6 +31,11 @@ boosts_allowed:
 - Slow_Boost
 description_short: 'Place Trap: PBAoE Foe Choke, Vomit, -Regen, -Recharge'
 description_long: "You can build a Poison Gas Trap on the ground. Any foes that pass near the Poison Trap will cause it to detonate and release its toxic vapors. The poison is a very noxious gas, and any foes in the affected area may start to choke or even vomit.  Affected Foes Regeneration rate and attack rate will be reduced as well. The trap is almost impossible to detect, but it is fragile and may be set off by an enemy's explosion. Even if destroyed, the Trap will detonate. Recharge: Long"
+enhancements:
+- 8
+- 12
+- 18
+- 22
 set_types:
 - 10
 level: 20
@@ -43,7 +49,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Controller_Buff.Traps.Poison_Trap
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Traps_Poison_Trap
   stacking: 1
@@ -56,8 +62,8 @@ effects:
   duration: 260
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

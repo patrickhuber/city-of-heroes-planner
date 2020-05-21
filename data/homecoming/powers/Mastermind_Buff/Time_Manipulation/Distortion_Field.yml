@@ -7,8 +7,8 @@ display: Distortion Field
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 70
-endurance_cost: 14.560000419616699
-cast_time: 2.0299999713897705
+endurance_cost: 14.5600004
+cast_time: 2.02999997
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 4
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Slow_Boost
 description_short: Ranged (Location AoE), Foe(-Recharge, -Speed), Chance for Hold
 description_long: 'You can choose an area to slow the flow of time down to a crawl. Enemies who enter the field will have their attack rate and speed slowed dramatically. In addition, affected enemies might become held as they are frozen in time. Targets affected by Time Crawl will have the chance to be held increased. Recharge: Very Long'
+enhancements:
+- 8
+- 12
+- 17
+- 18
+- 22
 set_types:
 - 10
 - 13
@@ -45,7 +52,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Time_Manipulation.Distortion_Field
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_DistortionField_Mastermind
   stacking: 1
@@ -58,8 +65,8 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

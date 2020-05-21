@@ -12,17 +12,17 @@ effect_chance: 1
 level_max: 52
 buff_mode: 2
 effects:
-- i_d: 6
-  sub_i_d: -1
+- id: 6
+  sub_id: -1
   multiplier: 1
-- i_d: 11
-  sub_i_d: -1
+- id: 11
+  sub_id: -1
   multiplier: 1
-- i_d: 19
-  sub_i_d: -1
+- id: 19
+  sub_id: -1
   multiplier: 1
-- i_d: 21
-  sub_i_d: -1
+- id: 21
+  sub_id: -1
   multiplier: 1
 unique_identifier: Magic_Snare
 recipe: Ticket_Magic

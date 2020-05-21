@@ -11,23 +11,23 @@ effect_chance: 1
 level_min: 19
 level_max: 52
 effects:
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.5
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 0.5
-- i_d: 19
-  sub_i_d: -1
+- id: 19
+  sub_id: -1
   multiplier: 0.5
-- i_d: 6
-  sub_i_d: -1
+- id: 6
+  sub_id: -1
   multiplier: 0.5
-- i_d: 11
-  sub_i_d: -1
+- id: 11
+  sub_id: -1
   multiplier: 0.5
-- i_d: 21
-  sub_i_d: -1
+- id: 21
+  sub_id: -1
   multiplier: 0.5
 unique_identifier: Crafted_Pacing_of_the_Turtle_E
 recipe: Pacing_of_the_Turtle_E

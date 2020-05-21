@@ -7,8 +7,8 @@ display: Rise to the Challenge
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
@@ -17,9 +17,10 @@ entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 0.20800000429153442
+endurance_cost: 0.208000004
 cast_time: 3
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 1
 effect_area: 2
 radius: 8
@@ -34,6 +35,12 @@ boosts_allowed:
 - Taunt_Boost
 description_short: 'Toggle: Self +Regen, Foe -To Hit'
 description_long: 'The more the odds are against you, the more determined you become. When surrounded by foes, your ability to regenerate health increases greatly. Additionally, your resolve and the look in your eye is enough to leave most foes shaken, so their attacks are less accurate. The first foe you engage in melee grants the highest regeneration bonus, and up to 10 foes can contribute to this effect. Recharge: Slow'
+enhancements:
+- 26
+- 8
+- 11
+- 18
+- 24
 set_types:
 - 9
 - 26
@@ -50,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -67,14 +74,14 @@ effects:
   modifier_table: Melee_Ones
   cancel_on_miss: true
   requires_to_hit_check: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 11
   summon: ''
@@ -90,14 +97,14 @@ effects:
   aspect: 2
   modifier_table: Melee_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -109,14 +116,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 27
   summon: ''
   stacking: 1
@@ -129,14 +136,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -148,14 +155,14 @@ effects:
   duration: 1.125
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 27
   summon: ''
   stacking: 1
@@ -168,14 +175,14 @@ effects:
   duration: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Defense.Willpower.Rise_to_the_Challenge
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -187,8 +194,8 @@ effects:
   duration: 1.125
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

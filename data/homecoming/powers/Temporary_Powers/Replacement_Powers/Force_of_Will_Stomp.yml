@@ -7,8 +7,8 @@ display: Stomp
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1615938
 accuracy: 1
 attack_types: 4
@@ -16,9 +16,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 11.699999809265137
-cast_time: 2.0999999046325684
+endurance_cost: 11.6999998
+cast_time: 2.0999999
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 2
 radius: 10
 max_targets: 10
@@ -28,6 +29,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: PBAoE Melee, Foe Knockdown
 description_long: 'You stomp your foot on the ground with tremendous force, shattering the earth beneath and knocking nearby foes off of their feet. Recharge: Long'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

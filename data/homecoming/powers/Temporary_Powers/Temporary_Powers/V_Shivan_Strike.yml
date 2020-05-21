@@ -7,8 +7,8 @@ display: Shivan Strike
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_required: 131072
 accuracy: 1
 attack_types: 145
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 5.4600000381469727
-cast_time: 1.2000000476837158
+endurance_cost: 5.46000004
+cast_time: 1.20000005
 recharge_time: 3
+base_recharge_time: 3
 effect_area: 1
 max_boosts: ''
 life_time_in_game: 3600
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Melee, Moderate DMG(Lehtal/Energy), Foe -DEF, Knockback
 description_long: The Shivan Contaminated Strike is a moderate melee attack that releases radioactive energy on impact, which can Knock Down foes, and reduce a target's Defense. This temp power is only accessible while in Shivan form.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Strike
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -49,14 +51,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Strike
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -68,14 +70,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Strike
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 5
   summon: ''
   stacking: 1
@@ -88,14 +90,14 @@ effects:
   duration: 6
   aspect: 4
   modifier_table: Melee_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Strike
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 6
   summon: ''
   stacking: 1
@@ -105,28 +107,28 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.V_Shivan_Strike
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

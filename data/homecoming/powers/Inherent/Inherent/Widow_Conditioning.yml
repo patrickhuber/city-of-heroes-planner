@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Arachnos_Widow
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,19 +25,19 @@ boosts_allowed: []
 ignore_strength: true
 description_short: Self +Regen, +Recovery
 description_long: Soldiers of Arachnos undergo intense physical training before leaving ""boot camp.""  Those that survive have greater than average healing rates and tire less quickly than others.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 3
 mutually_exclusive_auto: true
 include_flag: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.Widow_Conditioning
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   base_probability: 1
@@ -47,8 +47,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
@@ -58,12 +58,12 @@ effects:
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.0070000002160668373
-  magnitude: 0.0010999999940395355
+  scale: 0.00700000022
+  magnitude: 0.00109999999
   aspect: 3
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Regeneration
@@ -75,12 +75,12 @@ effects:
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: 0.016000000759959221
-  magnitude: 0.0010000000474974513
+  scale: 0.0160000008
+  magnitude: 0.00100000005
   aspect: 3
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Recovery

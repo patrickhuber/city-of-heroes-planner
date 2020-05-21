@@ -7,8 +7,8 @@ display: Pandora Buff Granter
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 1
@@ -21,6 +21,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: +1 Stack of Pandora Buff
 description_long: This developer power grants 1 stack of the Pandora Buff.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -31,7 +32,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Pandora_Buff_Granter
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Pandora_Buff
   base_probability: 1
@@ -41,8 +42,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Pandora_Buff
   effect_id: Ones

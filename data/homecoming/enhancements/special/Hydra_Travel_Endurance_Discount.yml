@@ -15,20 +15,20 @@ image: HYTheta.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 4
-  sub_i_d: -1
+- id: 4
+  sub_id: -1
   multiplier: 0.75
-- i_d: 11
-  sub_i_d: -1
+- id: 11
+  sub_id: -1
   multiplier: 0.75
-- i_d: 6
-  sub_i_d: -1
+- id: 6
+  sub_id: -1
   multiplier: 0.75
-- i_d: 19
-  sub_i_d: -1
+- id: 19
+  sub_id: -1
   multiplier: 0.75
-- i_d: 10
-  sub_i_d: -1
+- id: 10
+  sub_id: -1
   multiplier: 0.75
 unique_identifier: Hydra_Travel_Endurance_Discount
 recipe: ''

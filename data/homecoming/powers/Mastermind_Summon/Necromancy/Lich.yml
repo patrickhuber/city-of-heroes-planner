@@ -7,8 +7,8 @@ display: Lich
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 3.1700000762939453
+cast_time: 3.17000008
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -37,6 +38,17 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Summon Lich
 description_long: 'Summons a dark and powerful Lich.  The lich is an undead entity that, when alive, possessed many dark powers of his own.  Perhaps it was a dark wizard, or powerful arch villain.  Perhaps it was even a Necromancer.  Now it only hungers for the souls of the living, and is quite good at feeding itself. The Lich specializes in dark control and draining powers. You may only have 1 Lich under your control at any given time.  If you attempt to summon another Lich, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 26
+- 8
+- 9
+- 11
+- 12
+- 13
+- 16
 set_types:
 - 6
 - 23
@@ -52,12 +64,12 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+forced_class: Class_Boss_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Necromancy.Lich
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Lich
+  summon: Pets_Lich
   delayed_time: 0.5
   base_probability: 1
   to_who: 3
@@ -66,8 +78,102 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Lich.Dark_Blast
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Lich.Torrent
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Lich_2.Tenebrous_Tentacles
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Lich_2.Life_Drain
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Lich_3.Fearsome_Stare
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Lich_3.Petrifying_Gaze
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

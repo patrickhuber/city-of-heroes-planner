@@ -12,8 +12,8 @@ level_min: 9
 level_max: 29
 unique: true
 effects:
-- i_d: 18
-  sub_i_d: -1
+- id: 18
+  sub_id: -1
   schedule: 1
   multiplier: 0.625
 unique_identifier: Crafted_Steadfast_Protection_B

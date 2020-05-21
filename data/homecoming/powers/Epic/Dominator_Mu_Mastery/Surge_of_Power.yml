@@ -7,12 +7,12 @@ display: Surge of Power
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Dominator_Mu_Mastery.Power_Sink
     - ''
   - - Epic.Dominator_Mu_Mastery.Charged_Armor
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 74
 accuracy: 1
 group_memberships: []
@@ -21,8 +21,9 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 endurance_cost: 3.25
-cast_time: 1.9600000381469727
+cast_time: 1.96000004
 recharge_time: 1000
+base_recharge_time: 1000
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -34,6 +35,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: Self, +Res(Special)
 description_long: 'When you activate this power, you transform your body into living Electricity and become extremely resistant to all damage but Psionics, and your endurance recovery is also increased.  Expending all this energy will leave you exhausted, drained of all your endurance and unable to recover endurance for a short time. You must be level 41 and have Power Sink or Charged Armor before selecting this power. Recharge: Very Long'
+enhancements:
+- 8
+- 18
+- 7
+- 19
 set_types:
 - 8
 - 22
@@ -47,7 +53,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -58,14 +64,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -76,14 +82,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -94,14 +100,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -112,14 +118,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -130,14 +136,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -148,14 +154,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -166,14 +172,14 @@ effects:
   magnitude: 1
   duration: 120
   modifier_table: Melee_Res_Dmg
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 26
   summon: ''
   base_probability: 1
@@ -183,14 +189,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 41
   summon: ''
   base_probability: 1
@@ -199,14 +205,14 @@ effects:
   duration: 120
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 7
   summon: ''
   delayed_time: 120
@@ -216,14 +222,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: GlobalCrash
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 77
   summon: ''
   delayed_time: 120
@@ -234,14 +240,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 26
   summon: ''
   delayed_time: 120
@@ -252,14 +258,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: GlobalCrash
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 45
   summon: ''
   base_probability: 1
@@ -269,14 +275,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: PresenceHealHigh
   effect_id: Ones
   override: ''
 - power_full_name: Epic.Dominator_Mu_Mastery.Surge_of_Power
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 45
   summon: ''
   base_probability: 1
@@ -286,8 +292,8 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: PresenceHealLow
   effect_id: Ones

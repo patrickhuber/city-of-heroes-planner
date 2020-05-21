@@ -7,8 +7,8 @@ display: Drop of Resistance
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 group_memberships: []
@@ -17,8 +17,9 @@ entities_auto_hit: 524288
 target: 524288
 target_line_of_sight: true
 range: 40
-cast_time: 2.1700000762939453
+cast_time: 2.17000008
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: 0
 number_of_charges: 4
@@ -26,6 +27,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Teammate +Res(All) (Special)
 description_long: "Dimension Drop of Resistance is a special concoction created by DJ Zero to celebrate the opening of the new Pocket D. This dimensional energy can increase one's potential. In keeping with his club's theme it must be given to someone else to be effective and giving it to a Hero, Vigilante or member of the Resistance increases their potential to near god-like proportions! This version of Dimension Drop buffs Damage Resistance to all damage. Dimension Drop can only be used on teammates. You have 4 charges. Recharge: Long"
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,143 +38,143 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 29
   damage_type: 1
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 29
   damage_type: 2
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 29
   damage_type: 3
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 29
   damage_type: 4
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 29
   damage_type: 5
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 29
   damage_type: 6
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 29
   damage_type: 7
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 29
   damage_type: 8
   summon: ''
   base_probability: 1
   to_who: 1
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
   duration: 60
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 77
   summon: ''
   ticks: 1
@@ -183,14 +185,14 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 29
   damage_type: 1
   summon: ''
@@ -200,14 +202,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 29
   damage_type: 2
   summon: ''
@@ -217,14 +219,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 29
   damage_type: 3
   summon: ''
@@ -234,14 +236,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 29
   damage_type: 4
   summon: ''
@@ -251,14 +253,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 29
   damage_type: 5
   summon: ''
@@ -268,14 +270,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 29
   damage_type: 6
   summon: ''
@@ -285,14 +287,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 29
   damage_type: 7
   summon: ''
@@ -302,14 +304,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 29
   damage_type: 8
   summon: ''
@@ -319,14 +321,14 @@ effects:
   magnitude: 1
   duration: 180
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Villain_Drop_of_Resistance
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 77
   summon: ''
   ticks: 1
@@ -337,8 +339,8 @@ effects:
   duration: 5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

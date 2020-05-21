@@ -7,16 +7,16 @@ display: The I Win Button
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - ACCESSLEVEL
     - SOURCE>
-  power_i_ds_not: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
-cast_time: 1.1699999570846558
+cast_time: 1.16999996
 max_targets: 9999
 max_boosts: ''
 artifical_intelligence_report: 1
@@ -25,6 +25,7 @@ boosts_allowed: []
 cast_through_hold: true
 description_short: Kill All Entities
 description_long: 'Kill All Entities -- DEV USE ONLY.  Note: You must cause all spawns on the map to spawn before using this power to properly clear a mission. DO NOT USE ON A LIVE SERVER.'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +36,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.The_I_Win_Button
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 9
   summon: ''
@@ -49,8 +50,8 @@ effects:
   duration: 10.5
   aspect: 4
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

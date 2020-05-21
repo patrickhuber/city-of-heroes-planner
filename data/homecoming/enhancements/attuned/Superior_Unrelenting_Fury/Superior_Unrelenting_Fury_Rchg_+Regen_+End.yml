@@ -10,13 +10,14 @@ image: SAO_Brute2.png
 effect_chance: 1
 level_max: 49
 unique: true
+mutually_exclusive_id: 7
 effects:
-- i_d: 14
-  sub_i_d: -1
+- id: 14
+  sub_id: -1
   multiplier: 1
 - mode: 1
-  i_d: -1
-  sub_i_d: -1
+  id: -1
+  sub_id: -1
   multiplier: 1
   effect:
     power_full_name: ''
@@ -25,20 +26,20 @@ effects:
     base_probability: 1
     buffable: true
     resistible: true
-    scale: 0.085000000894069672
+    scale: 0.0850000009
     magnitude: 1
     duration: 30
     aspect: 3
     modifier_table: Melee_Ones
-    u_i_d_class_name: ''
-    i_d_class_name: -1
+    uid_class_name: ''
+    id_class_name: -1
     magnitude_expression: ''
     reward: ''
     effect_id: Ones
     override: ''
 - mode: 1
-  i_d: -1
-  sub_i_d: -1
+  id: -1
+  sub_id: -1
   multiplier: 1
   effect:
     power_full_name: ''
@@ -47,13 +48,13 @@ effects:
     base_probability: 1
     buffable: true
     resistible: true
-    scale: 0.019999999552965164
+    scale: 0.0199999996
     magnitude: 1
     duration: 30
     aspect: 3
     modifier_table: Melee_Ones
-    u_i_d_class_name: ''
-    i_d_class_name: -1
+    uid_class_name: ''
+    id_class_name: -1
     magnitude_expression: ''
     reward: ''
     effect_id: Ones

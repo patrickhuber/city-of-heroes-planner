@@ -34,7 +34,8 @@ namespace CityOfInfo.MidsExporter
                 using (var binaryReader = new BinaryReader(file, Encoding.Default, true))
                 {
                     var enhancementDatabaseReader = new EnhancementDatabaseReader(binaryReader);
-                    RegisterConsoleEvents(enhancementDatabaseReader);
+                    if(!options.Silent)
+                        RegisterConsoleEvents(enhancementDatabaseReader);
                     switch (options.Format)
                     {
                         case ExportFormat.Yaml:
@@ -47,13 +48,14 @@ namespace CityOfInfo.MidsExporter
         }
 
         private static void ExportIssue12Database(ExportOptions options)
-        {
+        {            
             using (var file = File.OpenRead(options.Issue12DatabasePath))
             {
                 using (var binaryReader = new BinaryReader(file, Encoding.Default, true))
                 {
                     var databaseReader = new DatabaseReader(binaryReader);
-                    RegisterConsoleEvents(databaseReader);
+                    if (!options.Silent)
+                        RegisterConsoleEvents(databaseReader);
                     switch (options.Format)
                     {
                         case ExportFormat.Yaml:

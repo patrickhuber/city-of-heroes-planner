@@ -7,8 +7,8 @@ display: Voltaic Sentinel
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 2
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 40
 endurance_cost: 26
-cast_time: 3.0999999046325684
+cast_time: 3.0999999
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 4
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: 'Summon Sentinel: Ranged, Moderate DMG(Energy), Foe -End'
 description_long: 'You can manifest a polarized electricity field that hovers above the ground and hurls bolts of electricity at nearby foes. Any enemy that passes near this Sentinel risks serious injury. The Sentinel is not alive and cannot be targeted or attacked by enemies. The Sentinel can fly and will follow you. Damage: Moderate, Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 7
 set_types:
 - 6
 - 22
@@ -49,7 +57,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Ranged.Electrical_Blast.Voltaic_Sentinel
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_VoltaicSentinel_Defender
   base_probability: 1
@@ -61,8 +69,8 @@ effects:
   duration: 60
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level

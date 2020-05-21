@@ -7,8 +7,8 @@ display: Shadow Maul
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 265
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 8.5279998779296875
-cast_time: 3.0699999332427979
+endurance_cost: 8.52799988
+cast_time: 3.06999993
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 3
 radius: 7
 arc: 45
@@ -34,6 +35,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Melee (Cone), High DoT(Smash/Negative), Foe -To Hit
 description_long: "You wrap your entire arms with Negative Energy channeled from the Netherworlds, then perform a series of blows that deal a lot of damage over a short period of time to multiple targets in front of you. These blows cloud your target's vision, lowering their chance to hit for a short time. Damage: High(DoT), Recharge: Moderate"
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 18
 set_types:
 - 4
 - 26
@@ -50,7 +57,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -61,19 +68,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.26949998736381531
+  scale: 0.269499987
   magnitude: 1
   duration: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -84,19 +91,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.26949998736381531
+  scale: 0.269499987
   magnitude: 1
   duration: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -107,19 +114,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.36379000544548035
+  scale: 0.363790005
   magnitude: 1
   duration: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -130,19 +137,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.34922999143600464
+  scale: 0.349229991
   magnitude: 1
   duration: 2
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -153,18 +160,18 @@ effects:
   special_case: 9
   player_versus_mode: 2
   to_who: 1
-  scale: 2.910290002822876
+  scale: 2.91029
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 40
   summon: ''
   stacking: 1
@@ -177,59 +184,59 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 3
   damage_type: 6
   summon: ''
   delayed_time: 2
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   special_case: 4
   player_versus_mode: 2
   to_who: 1
-  scale: 2.910290002822876
+  scale: 2.91029
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 3
   damage_type: 6
   summon: ''
   delayed_time: 2
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.1559998989105225
+  scale: 2.1559999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 30 source.TeamSize> 0.03 * 0.07 + rand >= @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -241,28 +248,28 @@ effects:
   special_case: 9
   player_versus_mode: 1
   to_who: 1
-  scale: 2.1559998989105225
+  scale: 2.1559999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Stalker_Melee.Dark_Melee.Shadow_Maul
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Assassins_Focus
-  base_probability: 0.89999997615814209
+  base_probability: 0.899999976
   to_who: 2
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Assassins_Focus
   effect_id: Ones

@@ -7,19 +7,20 @@ display: Snap Shot
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 1.1549999713897705
+accuracy: 1.15499997
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 3.5360000133514404
+endurance_cost: 3.53600001
 cast_time: 1
 recharge_time: 2
+base_recharge_time: 2
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -31,6 +32,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Minor DMG(Lethal)
 description_long: 'A quick attack that fires an arrow at your foe after only minimal aiming. Fast, but little damage. Damage: Minor, Recharge: Fast'
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
 set_types:
 - 2
 - 36
@@ -45,7 +52,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Corruptor_Ranged.Archery.Snap_Shot
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -55,18 +62,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.68000000715255737
+  scale: 0.680000007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Archery.Snap_Shot
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -76,57 +83,53 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5959700345993042
+  scale: 1.59597003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Archery.Snap_Shot
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 0.68000000715255737
+  scale: 0.680000007
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Archery.Snap_Shot
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 1.5959700345993042
+  scale: 1.59597003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''

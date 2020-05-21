@@ -7,8 +7,8 @@ display: Blinding Powder
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 4
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 25
-endurance_cost: 7.8000001907348633
-cast_time: 1.0700000524520874
+endurance_cost: 7.80000019
+cast_time: 1.07000005
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 3
 radius: 25
 arc: 45
@@ -35,6 +36,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Foe -To Hit, Sleep, Confuse, -Perception
 description_long: 'You throw a handful of Blinding powder in a wide arc at your foes. Most foes will be blinded, and unable to see. Some affected targets may be overcome by the powder that they may start attacking their own allies. If you attack the blinded foes, they will be alerted to your presence, but will continue to suffer a penalty to their chance to hit.  Recharge: Very Long'
+enhancements:
+- 1
+- 3
+- 26
+- 8
+- 18
 set_types:
 - 16
 - 26
@@ -48,7 +55,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -64,14 +71,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Sleep
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Sleep
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   base_probability: 1
@@ -83,14 +90,14 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Melee_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -104,14 +111,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 23
   summon: ''
   base_probability: 1
@@ -119,19 +126,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.89999997615814209
+  scale: -0.899999976
   magnitude: 1
   duration: 20
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -143,19 +150,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 2
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -165,19 +172,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 2
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 23
   summon: ''
   base_probability: 1
@@ -186,165 +193,165 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: -0.89999997615814209
+  scale: -0.899999976
   magnitude: 1
   duration: 20
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: PvP
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 1
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 2
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 3
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 4
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 5
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 6
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 7
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Ninja_Training.Blinding_Powder
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 8
   summon: ''
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.037999998778104782
+  scale: 0.0379999988
   magnitude: 1
-  duration: 8.5699996948242188
+  duration: 8.56999969
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

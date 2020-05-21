@@ -7,8 +7,8 @@ display: Stimulant
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 25
-endurance_cost: 10.399999618530273
-cast_time: 3.1700000762939453
+endurance_cost: 10.3999996
+cast_time: 3.17000008
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -27,6 +28,8 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Close, Ally Res(Disorient, Hold, Immobilize, Sleep, Fear, Confuse)
 description_long: Frees an ally from any Immobilization, Sleep, Disorient, Hold, Fear or Confuse effects and leaves them resistant to such effects for a brief time. Protection will improve with Multiple applications and as you advance in level. This power is interruptible and shouldn't be used in the heat of combat.
+enhancements:
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +42,7 @@ forced_class: Class_Minion_Henchman
 sort_override: true
 effects:
 - power_full_name: Mastermind_Pets.Medic_3.Stimulant
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -52,14 +55,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Pets.Medic_3.Stimulant
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -72,14 +75,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Pets.Medic_3.Stimulant
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -92,14 +95,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Pets.Medic_3.Stimulant
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -112,14 +115,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Pets.Medic_3.Stimulant
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -132,14 +135,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Mastermind_Pets.Medic_3.Stimulant
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -152,8 +155,8 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

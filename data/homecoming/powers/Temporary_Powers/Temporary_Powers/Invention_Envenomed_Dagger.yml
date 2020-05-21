@@ -7,8 +7,8 @@ display: Envenomed Dagger
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 1614338
 accuracy: 1
 attack_types: 18
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 8.5799999237060547
+endurance_cost: 8.57999992
 cast_time: 1
 recharge_time: 6
+base_recharge_time: 6
 effect_area: 1
 max_boosts: ''
 number_of_charges: 30
@@ -27,6 +28,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Ranged Minor DMG(Lethal), Foe Minor DoT(Toxic), -Regen
 description_long: 'Foes struck by these envenomed daggers will suffer minor lethal damage and suffer from additional toxic damage over time as well as have their regeneration rate reduced slightly for a short time.  Damage: Minor, Recharge: Fast'
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -37,7 +39,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Invention_Envenomed_Dagger
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -46,18 +48,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.6600000262260437
+  scale: 0.660000026
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Invention_Envenomed_Dagger
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -68,19 +70,19 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.14000000059604645
+  scale: 0.140000001
   magnitude: 1
   duration: 5
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Invention_Envenomed_Dagger
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 27
   summon: ''
   stacking: 1
@@ -93,14 +95,14 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Invention_Envenomed_Dagger
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 27
   summon: ''
   stacking: 1
@@ -113,8 +115,8 @@ effects:
   duration: 10
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

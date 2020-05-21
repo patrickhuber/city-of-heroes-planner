@@ -7,8 +7,8 @@ display: Hurl
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 10
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 9.3599996566772461
-cast_time: 3.8299999237060547
+endurance_cost: 9.35999966
+cast_time: 3.82999992
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: 6
 cast_flags: 1
@@ -31,9 +32,17 @@ boosts_allowed:
 - Knockback_Boost
 description_short: Ranged, High DMG(Smash), Knockback, -Fly
 description_long: 'You are able to tear up a chunk of ground beneath your feet and Hurl it at an enemy. This attack deals moderate damage, and can knock foes back and even drop them out of the air if they are flying. Damage: High, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
 set_types: []
 level: 26
-variable_name: ''
+variable_enabled: true
+variable_name: Fury
+variable_min: 1
+variable_max: 100
 sub_powers: []
 ignore_enhancements:
 - 14
@@ -42,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Hurl
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -51,18 +60,39 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.6399999856948853
+  scale: 1.63999999
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Hurl
-  unique_i_d: 2
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  variable_modified_override: true
+  to_who: 1
+  scale: 0.0320000015
+  magnitude: 1.01999998
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Mastermind_Pets.Thug_Boss_3.Hurl
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -76,14 +106,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Hurl
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 4
   summon: ''
@@ -98,14 +128,14 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Knockback
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockback
   override: ''
 - power_full_name: Mastermind_Pets.Thug_Boss_3.Hurl
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 10
   summon: ''
   stacking: 1
@@ -118,9 +148,30 @@ effects:
   duration: 15
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 1
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.409999996
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

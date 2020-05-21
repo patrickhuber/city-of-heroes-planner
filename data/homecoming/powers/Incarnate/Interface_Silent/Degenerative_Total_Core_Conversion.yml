@@ -7,8 +7,8 @@ display: Degenerative Total Core Conversion
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 10
 power_type: 5
 accuracy: 1
@@ -30,6 +30,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: 'Adds: -Res'
 description_long: Adds a damage resistance debuff to most damaging attacks. This debuff will stack to higher levels than earlier versions of the ability.
+enhancements:
+- 4
 set_types: []
 level: 1
 variable_name: ''

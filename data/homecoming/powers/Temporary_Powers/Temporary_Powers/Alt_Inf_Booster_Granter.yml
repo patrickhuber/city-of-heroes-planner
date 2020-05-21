@@ -7,8 +7,8 @@ display: Inf Booster
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -16,7 +16,7 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
-cast_time: 1.1699999570846558
+cast_time: 1.16999996
 effect_area: 1
 max_boosts: 0
 number_of_charges: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: +25% Inf Gain
 description_long: Activating this power will give you +25% Inf gain for 1 hours.  This power cannot be activated if Inf Booster is currently active.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +36,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Alt_Inf_Booster_Granter
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Alt_Inf_Booster_Auto
   base_probability: 1
@@ -44,8 +45,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Alt_Inf_Booster_Auto
   effect_id: Ones

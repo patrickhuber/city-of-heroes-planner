@@ -7,8 +7,8 @@ display: Protector Bots
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -35,8 +36,18 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Summon Protector Bot
 description_long: 'You can summon one to two powerful Protector Bots (depending on your level).  Protector Bots can defend your army by placing Force Fields on you and your allies. They can even be equipped to repair your other Robot Henchmen.  Make no mistake though, the best defense is a good offense, and Protector Bots are well equipped with energy weapons. You may only have 2 Protector Bots under your control at any given time.  If you attempt to summon more Protector Bots, you can only replace the ones you have lost in battle.  If you already have two, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 5
+- 4
+- 26
+- 8
+- 11
+- 16
+- 23
 set_types:
 - 6
+- 7
 - 23
 - 26
 - 27
@@ -49,41 +60,146 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Lt_Henchman
 effects:
-- power_full_name: Mastermind_Summon.Robotics.Protector_Bots
-  unique_i_d: 1
+- power_full_name: ''
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Protector_Bot
+  summon: Pets_Protector_Bot
   delayed_time: 2
   base_probability: 1
-  to_who: 3
+  buffable: true
+  to_who: 1
   scale: 1
   magnitude: 1
   duration: 99999
   aspect: 4
-  modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  modifier_table: Ranged_Levelminus2
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Levelminus
+  effect_id: Levelminus2
   override: ''
-- power_full_name: Mastermind_Summon.Robotics.Protector_Bots
-  unique_i_d: 2
+- power_full_name: ''
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Protector_Bot
+  summon: Pets_Protector_Bot
   delayed_time: 4
   base_probability: 1
-  to_who: 3
+  buffable: true
+  to_who: 1
   scale: 1
   magnitude: 1
   duration: 99999
   aspect: 4
-  modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  modifier_table: Ranged_Levelminus2
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Levelminus
+  effect_id: Levelminus2
   override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Protector.Force_Shield
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 2
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- &o0
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Protector.Laser_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o0
+- &o1
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Protector_2.Heavy_Laser_Burst
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o1
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Protector_2.Repair
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- &o2
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Protector_3.Photon_Grenade
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o2
+- &o3
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Protector_3.Seeker Drones
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o3

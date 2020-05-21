@@ -7,8 +7,8 @@ display: Detonator
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 65536
 target_line_of_sight: true
 range: 100
 endurance_cost: 32.5
-cast_time: 2.0299999713897705
+cast_time: 2.02999997
 recharge_time: 600
+base_recharge_time: 600
 effect_area: 1
 max_boosts: ''
 cast_flags: 2
@@ -33,6 +34,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Sacrifice Henchman, PBAoE, Extreme DMG(Lethal/Fire), Foe Knockback
 description_long: 'A good Mastermind  always plans ahead, but a great one knows when to make a strategic sacrifice.  You have equipped all your Henchmen with explosives.  When the time is right, select a Henchman and set off the Detonator. Undead and Robots are easily rigged and will blow up instantly, devastating nearby enemies.  Ninjas, Soldiers and other free thinking Henchmen will try to place the explosive on the ground and get away.  But you know... the fuse is short.  Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 23
@@ -48,7 +56,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Mastermind_Buff.Traps.Detonator
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 12
   summon: Villain_Pets.Traps_Bomb.Bomb
   base_probability: 1
@@ -57,14 +65,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Villain_Pets.Traps_Bomb.Bomb
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Buff.Traps.Detonator
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 12
   summon: Villain_Pets.Traps_Set_TimeBomb.Time_Bomb
   base_probability: 1
@@ -73,8 +81,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Villain_Pets.Traps_Set_TimeBomb.Time_Bomb
   effect_id: Ones

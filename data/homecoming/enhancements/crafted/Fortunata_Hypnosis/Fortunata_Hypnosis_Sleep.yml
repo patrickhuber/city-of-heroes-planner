@@ -12,8 +12,8 @@ level_min: 49
 level_max: 49
 unique: true
 effects:
-- i_d: 12
-  sub_i_d: 9
+- id: 12
+  sub_id: 9
   multiplier: 1
 unique_identifier: Crafted_Fortunata_Hypnosis_A
 recipe: Fortunata_Hypnosis_A

@@ -7,8 +7,8 @@ display: Reach for the Limit
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
@@ -24,6 +24,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: 'All Attacks: Chance for +ToHit, +DMG(All)'
 description_long: You are constantly looking for vulnerabilities in your foes' stances and positioning.  Whenever you attack, you have a chance to gain a moderate +ToHit and +Damage bonus for a short duration.
+enhancements: []
 set_types: []
 level: 4
 variable_name: ''
@@ -34,7 +35,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Martial_Manipulation.Reach_for_the_Limit
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   base_probability: 1
@@ -44,8 +45,8 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Test Death Grip
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 group_memberships: []
@@ -23,6 +23,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Ranged, Teleport Foe
 description_long: You can Teleport a single foe directly next to yourself. A successful hit must be made in order to Teleport the target, and some powerful foes cannot be Teleported. Enemy players that are teleported will be temporarily out of phase, and cannot be targeted or damaged. This power can be interrupted.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -33,7 +34,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Test_Death_Grip
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 83
   summon: ''
   stacking: 1
@@ -41,12 +42,12 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 2.0999999046325684
+  scale: 2.0999999
   magnitude: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

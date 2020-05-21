@@ -8,12 +8,12 @@ requirement:
   class_names:
   - Class_Sentinel
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Epic.Sentinel_Psi_Mastery.Mass_Hypnosis
     - ''
   - - Epic.Sentinel_Psi_Mastery.Mind_Probe
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 516
@@ -21,9 +21,10 @@ group_memberships: []
 entities_affected: 2048
 target: 1
 target_line_of_sight: true
-endurance_cost: 18.511999130249023
-cast_time: 1.9700000286102295
+endurance_cost: 18.5119991
+cast_time: 1.97000003
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -37,6 +38,12 @@ boosts_allowed:
 - Stunned_Boost
 description_short: PBAoE, Moderate DMG(Psionic), Foe Disorient -Recharge
 description_long: 'Psychic Shockwave is a devastating Psionic attack that wracks the minds of all nearby foes. Affected foes may have a reduced attack rate and may be left Disoriented. Damage: Moderate Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 18
+- 23
 set_types:
 - 4
 - 11
@@ -51,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Assault.Psionic_Assault.Psychic_Shockwave
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -61,18 +68,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.2100000381469727
+  scale: 1.21000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Psionic_Assault.Psychic_Shockwave
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -87,14 +94,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Dominator_Assault.Psionic_Assault.Psychic_Shockwave
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -104,18 +111,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.0631999969482422
+  scale: 2.0632
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Assault.Psionic_Assault.Psychic_Shockwave
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -131,14 +138,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Assault.Psionic_Assault.Psychic_Shockwave
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -151,8 +158,8 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Melee_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow

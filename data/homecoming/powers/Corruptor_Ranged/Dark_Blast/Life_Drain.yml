@@ -7,8 +7,8 @@ display: Life Drain
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 258
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 8.5279998779296875
-cast_time: 1.9299999475479126
+endurance_cost: 8.52799988
+cast_time: 1.92999995
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -33,6 +34,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, High DMG(Negative), Target -To Hit, Self +HP
 description_long: 'You can tap the power of the Netherworld to steal some life from a target foe and reduce their chance to hit.  Some of that stolen life is transferred to you in the form of Hit Points. Damage: High Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 11
+- 17
+- 18
 set_types:
 - 2
 - 9
@@ -50,7 +59,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Ranged.Dark_Blast.Life_Drain
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -60,40 +69,38 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.6399999856948853
-  magnitude: 1
+  scale: 2.23600006
+  magnitude: 1.00010002
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Dark_Blast.Life_Drain
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 6
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 1.6399999856948853
-  magnitude: 1
+  scale: 2.23600006
+  magnitude: 1.00010002
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Dark_Blast.Life_Drain
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 6
   summon: ''
@@ -103,40 +110,38 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.801069974899292
+  scale: 3.81999993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Dark_Blast.Life_Drain
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 6
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 2.801069974899292
+  scale: 3.81999993
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Dark_Blast.Life_Drain
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 13
   summon: ''
   delayed_time: 0.5
@@ -145,18 +150,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 2
-  scale: 1
+  scale: 1.33299994
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Corruptor_Ranged.Dark_Blast.Life_Drain
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 40
   summon: ''
   stacking: 1
@@ -164,13 +169,13 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.75
+  scale: 1
   magnitude: 1
   duration: 10
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit

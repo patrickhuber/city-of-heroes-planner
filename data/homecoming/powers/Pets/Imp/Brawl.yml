@@ -7,17 +7,18 @@ display: Brawl
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
-accuracy: 1.2000000476837158
+  power_ids: []
+  power_ids_not: []
+accuracy: 1.20000005
 attack_types: 73
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-cast_time: 0.67000001668930054
+cast_time: 0.670000017
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -26,6 +27,9 @@ boosts_allowed:
 - Damage_Boost
 description_short: Melee Smash/Fire
 description_long: Imps Brawl with fiery fists.
+enhancements:
+- 1
+- 4
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +43,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Imp.Brawl
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -53,18 +57,18 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Imp.Brawl
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   ticks: 3
   stacking: 1
   base_probability: 1
@@ -72,19 +76,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Imp.Brawl
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -94,22 +98,22 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.46900001168251038
+  scale: 0.469000012
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Imp.Brawl
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 3
   summon: ''
-  delayed_time: 0.20000000298023224
+  delayed_time: 0.200000003
   ticks: 3
   stacking: 1
   base_probability: 1
@@ -117,13 +121,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.20100000500679016
+  scale: 0.201000005
   magnitude: 1
-  duration: 1.1000000238418579
+  duration: 1.10000002
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

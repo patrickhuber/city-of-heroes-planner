@@ -7,18 +7,19 @@ display: Crash of Thunder
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
-accuracy: 1.2000000476837158
+  power_ids: []
+  power_ids_not: []
+accuracy: 1.20000005
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.199999809265137
-cast_time: 2.369999885559082
+endurance_cost: 10.1999998
+cast_time: 2.36999989
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 2
 radius: 25
 max_targets: 16
@@ -33,6 +34,13 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Ranged (Foe Targeted AoE), Moderate DMG (Energy), Chance for Stun (Foe)
 description_long: You create a massive crash of thunder around a targeted foe. This sonic assault causes energy damage to affected targets and has a chance to stun all affected targets.
+enhancements:
+- 1
+- 4
+- 8
+- 17
+- 18
+- 23
 set_types: []
 level: 1
 variable_name: ''
@@ -43,12 +51,12 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.Wind_Control_Vortex.Crash_of_Thunder
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 1
@@ -58,19 +66,19 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Pets.Wind_Control_Vortex.Crash_of_Thunder
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
   stacking: 1
-  base_probability: 0.40000000596046448
+  base_probability: 0.400000006
   suppression: 31
   buffable: true
   resistible: true
@@ -81,14 +89,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Wind_Control_Vortex.Crash_of_Thunder
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -98,18 +106,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.40999999642372131
+  scale: 0.409999996
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Wind_Control_Vortex.Crash_of_Thunder
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -119,18 +127,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.86799001693725586
+  scale: 0.867990017
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Wind_Control_Vortex.Crash_of_Thunder
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -139,18 +147,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.40999999642372131
+  scale: 0.409999996
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: VortexCritical
   override: ''
 - power_full_name: Pets.Wind_Control_Vortex.Crash_of_Thunder
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -159,12 +167,12 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.86799001693725586
+  scale: 0.867990017
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: VortexCritical

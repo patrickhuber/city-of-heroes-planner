@@ -1,0 +1,20 @@
+index: 1254
+name: Range/Fast Snipe
+short_name: Rng/FSnp
+description: ''
+type_id: 4
+sub_type_id: -1
+class_ids: []
+enhancement_set_id: 215
+enhancement_set_name: Experienced_Marksman
+image: eMarksman.png
+effect_chance: 1
+level_min: 9
+level_max: 49
+effects:
+- id: 13
+  sub_id: -1
+  schedule: 1
+  multiplier: 0.625
+unique_identifier: Crafted_Experienced_Marksman_C
+recipe: ''

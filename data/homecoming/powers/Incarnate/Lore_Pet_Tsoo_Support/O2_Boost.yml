@@ -7,8 +7,8 @@ display: O2 Boost
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 accuracy: 1
 group_memberships: []
 entities_affected: 512
@@ -16,8 +16,9 @@ entities_auto_hit: 512
 target: 512
 target_line_of_sight: true
 range: 20
-cast_time: 2.2699999809265137
+cast_time: 2.26999998
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -27,6 +28,9 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Ally Heal +Res(Effects)
 description_long: Saturates the air around a targeted ally with rich oxygen, to heal his wounds.  The O2 boost can also protect a targeted ally from Sleep, Immobilize, Confuse and Stun effects.
+enhancements:
+- 8
+- 11
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +43,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Support.O2_Boost
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   stacking: 1
@@ -47,18 +51,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 1.3200000524520874
+  scale: 1.32000005
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Heal
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Support.O2_Boost
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -71,14 +75,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Support.O2_Boost
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -91,14 +95,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Support.O2_Boost
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 1
   summon: ''
@@ -111,14 +115,14 @@ effects:
   duration: 45
   aspect: 4
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Tsoo_Support.O2_Boost
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 20
   mezmorize_type: 9
   summon: ''
@@ -130,8 +134,8 @@ effects:
   magnitude: 1
   duration: 45
   modifier_table: Ranged_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

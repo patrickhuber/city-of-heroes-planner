@@ -7,8 +7,8 @@ display: Call Jounin
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 1.7000000476837158
+cast_time: 1.70000005
 recharge_time: 90
+base_recharge_time: 90
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -38,12 +39,25 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Summon Jounin
 description_long: 'You can summon one to two highly skilled Jounin Ninja (depending on your level).  Jounin Ninja are master assassins and expert swordsmen. They possess superior reflexes and jumping skill. Like all Henchmen, Jounin can be trained in even deadlier Ninjitsu techniques and weapons. You may only have 2 Jounin under your control at any given time.  If you attempt to summon more Jounin, you can only replace the ones you have lost in battle.  If you already have two, the power will fail. Recharge: Very Long'
+enhancements:
+- 1
+- 3
+- 4
+- 6
+- 26
+- 8
+- 16
+- 21
+- 22
+- 20
+- 23
 set_types:
 - 6
 - 21
 - 23
 - 26
 - 27
+- 30
 - 40
 - 44
 level: 12
@@ -52,12 +66,13 @@ sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Lt_Henchman
 effects:
 - power_full_name: Mastermind_Summon.Ninjas.Call_Jounin
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Jonin
+  summon: Pets_Jounin
   delayed_time: 1
   base_probability: 1
   to_who: 3
@@ -66,16 +81,16 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus
   override: ''
 - power_full_name: Mastermind_Summon.Ninjas.Call_Jounin
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
-  summon: MastermindPets_Jonin
+  summon: Pets_Jounin
   delayed_time: 2
   base_probability: 1
   to_who: 3
@@ -84,9 +99,132 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Levelminus
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus
   override: ''
+- &o0
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin.Caltrops
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o0
+- &o1
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin.Hack
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o1
+- &o2
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin.Slash
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o2
+- &o3
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_2.Disembowel
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o3
+- &o4
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_2.Poison_Dart
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Ranged_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o4
+- &o5
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_3.Head_Splitter
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o5
+- &o6
+  power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Jonin_3.Blinding_Powder
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- *o6

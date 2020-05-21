@@ -7,8 +7,8 @@ display: Ghostslayer Bomb
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 28
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 80
 endurance_cost: 19.5
-cast_time: 1.3700000047683716
+cast_time: 1.37
 recharge_time: 8
+base_recharge_time: 8
 effect_area: 2
 radius: 10
 max_targets: 16
@@ -29,6 +30,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Targeted AoE Lethal/Smash, Special vs. Ghosts
 description_long: This is a special anti-spirit bomb used to destroy ethereal entities like ghosts and spirits. You have enough for 6 charges.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -39,7 +41,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Ghostslayer_Bomb
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 1
   summon: ''
@@ -48,18 +50,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.40000000596046448
+  scale: 0.400000006
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Ghostslayer_Bomb
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -72,14 +74,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Ghostslayer_Bomb
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 9
   summon: ''
@@ -92,8 +94,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_TempDamage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: TempDamage

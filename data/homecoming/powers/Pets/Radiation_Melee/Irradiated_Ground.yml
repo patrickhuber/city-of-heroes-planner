@@ -7,8 +7,8 @@ display: Irradiated Ground
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 attack_types: 4
@@ -28,6 +28,10 @@ boosts_allowed:
 - Debuff_Defense_Boost
 description_short: Minor DoT(Toxic) Patch, Foe -Def, Special
 description_long: 'While active you will scorch the earth beneath you leaving toxic clouds of radioactive gas in your wake. Foes that enter these clouds will suffer Minor Toxic damage, have their defense reduced and also have a tiny chance of being Contaminated. Hitting Contaminated foes with single target Radiation Melee powers cause a small burst of damage to foes near the target. Damage: Minor, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 6
 set_types: []
 variable_name: ''
 sub_powers: []
@@ -38,7 +42,7 @@ forced_class: Class_Minion_Pets
 sort_override: true
 effects:
 - power_full_name: Pets.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -47,58 +51,38 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.1237500011920929
+  scale: 0.123750001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
   stacking: 1
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.1237500011920929
+  scale: 0.123750001
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Scrapper
-  i_d_class_name: 3
+  uid_class_name: Class_Scrapper
+  id_class_name: 3
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 3
-  effect_type: 3
-  damage_type: 3
-  summon: ''
-  stacking: 1
-  base_probability: 1
-  buffable: true
-  resistible: true
-  to_who: 1
-  scale: 0.087999999523162842
-  magnitude: 1
-  aspect: 2
-  modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Tanker
-  i_d_class_name: 4
-  magnitude_expression: ''
-  reward: ''
-  effect_id: Damage
-  override: ''
-- power_full_name: Pets.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 4
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -107,18 +91,38 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.082500003278255463
+  scale: 0.0879999995
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: Class_Brute
-  i_d_class_name: 8
+  uid_class_name: Class_Tanker
+  id_class_name: 4
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Pets.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 5
+  unique_id: 4
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  scale: 0.0825000033
+  magnitude: 1
+  aspect: 2
+  modifier_table: Melee_Damage
+  uid_class_name: Class_Brute
+  id_class_name: 8
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: Pets.Radiation_Melee.Irradiated_Ground
+  unique_id: 5
   effect_type: 5
   summon: ''
   base_probability: 1
@@ -131,24 +135,24 @@ effects:
   aspect: 4
   modifier_table: Melee_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Pets.Radiation_Melee.Irradiated_Ground
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
-  base_probability: 0.10000000149011612
+  base_probability: 0.100000001
   to_who: 1
   scale: 1
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Parasitic Leech
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1.5
 attack_types: 20
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 18.200000762939453
-cast_time: 1.8700000047683716
+endurance_cost: 18.2000008
+cast_time: 1.87
 recharge_time: 270
+base_recharge_time: 270
 effect_area: 3
 radius: 90
 arc: 90
@@ -34,6 +35,11 @@ boosts_allowed:
 ignore_strength: true
 description_short: PBAoE, Self +Absorb, +Regeneration, +Recovery, Foe -DMG
 description_long: "You release a wave of parasites around you that draw out your enemies' genetic material. These parasites dramatically increase your survivability by gaining damage absorption while boosting your regeneration and recovery rate for a short time. Affected foes will be infected and deal reduced regeneration for a short while.  While Offensive Adaptation is active, this power will apply a stronger regeneration debuff. While Efficient Adaptation is active, this power will grant additional regeneration and recovery per target hit.  While Defensive Adaptation is active, this power will grant a small amount of additional damage absorption and increase the effectiveness of this power's damage debuff. Recharge: Very Longfor a short while.  While Efficient Adaptation is active, this power will grant additional regeneration and recovery per target hit.  While Defensive Adaptation is active, this power will grant a small amount of additional damage absorption and increase the effectiveness of this power's damage debuff. Recharge: Very Long"
+enhancements:
+- 1
+- 11
+- 18
+- 7
 set_types:
 - 9
 - 22
@@ -50,65 +56,65 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 26
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.42899999022483826
+  scale: 0.42899999
   magnitude: 1
   duration: 45
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 27
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.71399998664855957
+  scale: 0.713999987
   magnitude: 1
   duration: 45
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 66
   summon: ''
   stacking: 1
   base_probability: 1
   buffable: true
   to_who: 2
-  scale: 0.14300000667572021
+  scale: 0.143000007
   magnitude: 1
   duration: 45
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: Max.kHitPoints source> @StdResult *
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -121,14 +127,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -141,14 +147,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -156,19 +162,19 @@ effects:
   special_case: 46
   player_versus_mode: 1
   to_who: 1
-  scale: -1.2999999523162842
+  scale: -1.29999995
   magnitude: 1
   duration: 30
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 27
   summon: ''
   base_probability: 1
@@ -176,77 +182,77 @@ effects:
   special_case: 46
   player_versus_mode: 2
   to_who: 1
-  scale: -2.5999999046325684
+  scale: -2.5999999
   magnitude: 1
   duration: 30
   aspect: 4
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 26
   summon: ''
   stacking: 1
   base_probability: 1
   special_case: 45
   to_who: 2
-  scale: 0.1289999932050705
+  scale: 0.128999993
   magnitude: 1
   duration: 45
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 27
   summon: ''
   stacking: 1
   base_probability: 1
   special_case: 45
   to_who: 2
-  scale: 0.21400000154972076
+  scale: 0.214000002
   magnitude: 1
   duration: 45
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 66
   summon: ''
   stacking: 1
   base_probability: 1
   special_case: 44
   to_who: 2
-  scale: 0.043000001460313797
+  scale: 0.0430000015
   magnitude: 1
   duration: 45
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: Max.kHitPoints source> @StdResult *
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -254,19 +260,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -274,19 +280,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -294,19 +300,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -314,19 +320,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -334,19 +340,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -354,19 +360,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 17
+  unique_id: 17
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -374,19 +380,19 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
   override: ''
 - power_full_name: Sentinel_Defense.Bio_Organic_Armor.Parasitic_Leech
-  unique_i_d: 18
+  unique_id: 18
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -394,13 +400,13 @@ effects:
   resistible: true
   special_case: 44
   to_who: 1
-  scale: 2.6600000858306885
+  scale: 2.66000009
   magnitude: 1
   duration: 30
   aspect: 3
   modifier_table: Melee_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation

@@ -7,8 +7,8 @@ display: Superior Gauntleted Fist
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,7 @@ boosts_allowed: []
 ignore_strength: true
 description_short: +Absorb
 description_long: Superior Gauntleted Fist grants you a moderate amount of damage absorption for 20 seconds.  This effect triggers approximately 3 times per minute.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -35,24 +36,24 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Gauntleted_Fist_Proc
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 66
   summon: ''
   base_probability: 1
   player_versus_mode: 2
   to_who: 2
-  scale: 0.15000000596046448
+  scale: 0.150000006
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Set_Bonus.Set_Bonus.Superior_Gauntleted_Fist_Proc
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 66
   summon: ''
   base_probability: 1
@@ -64,8 +65,8 @@ effects:
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: Max.kHitPoints source> 0.15 *
   reward: ''
   effect_id: Ones

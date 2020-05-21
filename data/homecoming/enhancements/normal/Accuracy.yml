@@ -10,8 +10,8 @@ image: Acc.png
 effect_chance: 1
 level_max: 52
 effects:
-- i_d: 1
-  sub_i_d: -1
+- id: 1
+  sub_id: -1
   multiplier: 1
 unique_identifier: Magic_Accuracy
 recipe: Ticket_Magic

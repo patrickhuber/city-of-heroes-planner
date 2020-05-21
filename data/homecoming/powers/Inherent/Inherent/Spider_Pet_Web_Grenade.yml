@@ -7,10 +7,10 @@ display: Web Grenade
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Inherent.Inherent.prestige_Spider_Pet
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 attack_types: 2
@@ -20,14 +20,16 @@ target: 2048
 target_line_of_sight: true
 range: 50
 endurance_cost: 9.75
-cast_time: 1.3700000047683716
+cast_time: 1.37
 recharge_time: 30
+base_recharge_time: 30
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
 boosts_allowed: []
 description_short: Ranged, Target Immobilize, -Recharge, -Fly
 description_long: Upon impact, the Web Grenade expels a strong, tenuous, and very sticky substance that can Immobilize most targets. This non-lethal device deals no damage and does not prevent targets from attacking, although their attack rate is Slowed. The Web can bring down flying entities and halts jumping.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''

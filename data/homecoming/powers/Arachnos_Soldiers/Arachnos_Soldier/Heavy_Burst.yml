@@ -7,8 +7,8 @@ display: Heavy Burst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 18
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 50
-endurance_cost: 11.855999946594238
-cast_time: 2.6700000762939453
+endurance_cost: 11.8559999
+cast_time: 2.67000008
 recharge_time: 12
+base_recharge_time: 12
 effect_area: 3
 radius: 50
 arc: 30
@@ -35,6 +36,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged Cone, Moderate DMG(Lethal), Foe -DEF
 description_long: "Fires a Heavy Burst of rounds at foes in a long cone in front of the user. Can also reduce the targets' defense. Damage: Moderate(DoT) Recharge: Medium"
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
 set_types:
 - 3
 - 21
@@ -50,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Arachnos_Soldiers.Arachnos_Soldier.Heavy_Burst
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -61,19 +69,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.15570999681949615
+  scale: 0.155709997
   magnitude: 1
   duration: 2
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Arachnos_Soldiers.Arachnos_Soldier.Heavy_Burst
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 5
   summon: ''
   stacking: 1
@@ -86,14 +94,14 @@ effects:
   duration: 12
   aspect: 4
   modifier_table: Ranged_Debuff_Def
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def
   override: ''
 - power_full_name: Arachnos_Soldiers.Arachnos_Soldier.Heavy_Burst
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -104,13 +112,13 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.16259999573230743
+  scale: 0.162599996
   magnitude: 1
   duration: 2
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

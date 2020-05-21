@@ -7,12 +7,12 @@ display: Aid Self
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds:
+  power_ids:
   - - Pool.Medicine.Aid_Other
     - ''
   - - Pool.Medicine.Stimulant
     - ''
-  power_i_ds_not: []
+  power_ids_not: []
 modes_disallowed: 66
 accuracy: 1
 group_memberships: []
@@ -22,8 +22,9 @@ target: 1
 target_line_of_sight: true
 endurance_cost: 13
 interrupt_time: 1
-cast_time: 4.3299999237060547
+cast_time: 4.32999992
 recharge_time: 20
+base_recharge_time: 20
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -34,6 +35,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Self, Heal, +Res(Stun), +EndGain(Synergy)
 description_long: You are able to heal yourself. This hypo also leaves you wide awake and resistant to stun effects. If you have also trained Field Medic, this power will also grant you an unenhanceable, long duration endurance over time effect. Purchasing Aid Self requires the user to be level 14 and possess either Aid Other or Injection.
+enhancements:
+- 8
+- 11
+- 2
+- 18
 set_types:
 - 9
 level: 14
@@ -45,7 +51,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Pool.Medicine.Aid_Self
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   stacking: 1
@@ -53,37 +59,37 @@ effects:
   buffable: true
   resistible: true
   to_who: 2
-  scale: 1.9600000381469727
+  scale: 1.96000004
   magnitude: 1
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Pool.Medicine.Aid_Self
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 7
   summon: ''
   ticks: 5
   stacking: 1
   base_probability: 1
   to_who: 2
-  scale: 0.05000000074505806
+  scale: 0.0500000007
   magnitude: 1
-  duration: 8.1000003814697266
+  duration: 8.10000038
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Medicine.Aid_Self
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 20
   mezmorize_type: 10
   summon: ''
@@ -94,8 +100,8 @@ effects:
   magnitude: 1
   duration: 45
   modifier_table: Melee_Res_Boolean
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean

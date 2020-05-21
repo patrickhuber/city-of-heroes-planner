@@ -7,10 +7,10 @@ display: Pacify
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 66
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 2
 group_memberships: []
 entities_affected: 2048
@@ -18,8 +18,9 @@ target: 2048
 target_line_of_sight: true
 range: 60
 endurance_cost: 6.5
-cast_time: 1.6699999570846558
+cast_time: 1.66999996
 recharge_time: 60
+base_recharge_time: 60
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -30,6 +31,11 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Placate (Foe)
 description_long: Through persuasion or subtle intimidation, you attempt to placate a single target for a short time. If successful, the affected target will no longer attack you. This persists until the effect expires or you attack the target. Unlike other placation effects, this power will not hide you or give any concealment bonuses.
+enhancements:
+- 1
+- 8
+- 17
+- 18
 set_types: []
 level: 4
 variable_name: ''
@@ -41,7 +47,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Pool.Manipulation.Challenge
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -56,14 +62,14 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pool.Manipulation.Challenge
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 7
   summon: ''
@@ -78,8 +84,8 @@ effects:
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

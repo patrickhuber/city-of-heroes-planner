@@ -7,8 +7,8 @@ display: Flamethrower
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 68
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 40
-endurance_cost: 8.5279998779296875
-cast_time: 6.3299999237060547
+endurance_cost: 8.52799988
+cast_time: 6.32999992
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 3
 radius: 40
 arc: 30
@@ -32,6 +33,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: DoT(Fire)
 description_long: The Assault Bot's Flamethrower is doing Fire damage over time to you.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -43,7 +48,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Assault_2.Flamethrower
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -54,13 +59,37 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20499999821186066
+  scale: 0.204999998
   magnitude: 1
-  duration: 7.0999999046325684
+  duration: 7.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  delayed_time: 1
+  ticks: 8
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.050999999
+  magnitude: 1
+  duration: 7.0999999
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage

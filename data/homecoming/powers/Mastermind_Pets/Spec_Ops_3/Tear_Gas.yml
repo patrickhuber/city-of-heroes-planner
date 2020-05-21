@@ -7,8 +7,8 @@ display: Tear Gas
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 2
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 70
-endurance_cost: 7.8000001907348633
-cast_time: 1.8700000047683716
+endurance_cost: 7.80000019
+cast_time: 1.87
 recharge_time: 180
+base_recharge_time: 180
 effect_area: 2
 radius: 15
 max_targets: 16
@@ -31,6 +32,10 @@ boosts_allowed:
 - Hold_Boost
 description_short: Choke, -DMG
 description_long: The Tear Gas is making you choke.  Your Damage is Debuffed.
+enhancements:
+- 1
+- 8
+- 12
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -57,14 +62,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -80,14 +85,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -99,14 +104,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -118,14 +123,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -137,14 +142,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -156,14 +161,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -175,14 +180,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -194,14 +199,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -213,14 +218,14 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
   override: ''
 - power_full_name: Mastermind_Pets.Spec_Ops_3.Tear_Gas
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -232,8 +237,8 @@ effects:
   duration: 20
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam

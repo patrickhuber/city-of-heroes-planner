@@ -7,17 +7,18 @@ display: Willie Pete Round
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
-accuracy: 1.2000000476837158
+  power_ids: []
+  power_ids_not: []
+accuracy: 1.20000005
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-cast_time: 1.8700000047683716
+cast_time: 1.87
 recharge_time: 10
+base_recharge_time: 10
 activate_period: 8
 effect_area: 1
 max_boosts: 6
@@ -29,6 +30,10 @@ boosts_allowed:
 - Incarnate_Lore_Boost
 description_short: Targeted AoE Lethal/Smashing, Knockback
 description_long: This explosion from this Fragmentation Grenade affects all within the blast and can knock them back.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -40,7 +45,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Incarnate.Lore_Pet_Vanguard_LT.Willie_Pete_Round
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -53,14 +58,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Vanguard_LT.Willie_Pete_Round
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Vanguard_Shield_Willie
   ticks: 1
@@ -74,14 +79,14 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Incarnate.Lore_Pet_Vanguard_LT.Willie_Pete_Round
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 38
   summon: Pets_Burn
   ticks: 1
@@ -95,8 +100,8 @@ effects:
   aspect: 4
   modifier_table: Ranged_Ones
   near_ground: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Shocking Grasp
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 18.200000762939453
+endurance_cost: 18.2000008
 cast_time: 1
 recharge_time: 15
+base_recharge_time: 15
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Recovery_Boost
 description_short: Melee, High DoT(Energy), Target Hold, -End
 description_long: 'Shocking Grasp causes the target to be overcome with a violent electrical charge. The seized target is left writhing in agony and is unable to defend themselves. Shocking Grasp also drains a significant amount of Endurance from the target and may return a portion of it to you. Damage: High(DoT), Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 18
+- 7
 set_types:
 - 1
 - 10
@@ -48,7 +56,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -59,19 +67,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.30000001192092896
+  scale: 0.300000012
   magnitude: 1
-  duration: 5.0999999046325684
+  duration: 5.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -86,14 +94,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -104,19 +112,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.34837999939918518
+  scale: 0.348379999
   magnitude: 1
-  duration: 5.0999999046325684
+  duration: 5.0999999
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -132,14 +140,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 7
   summon: ''
   ticks: 5
@@ -149,19 +157,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: -0.070000000298023224
+  scale: -0.0700000003
   magnitude: 1
-  duration: 8.1000003814697266
+  duration: 8.10000038
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 7
   summon: ''
   ticks: 5
@@ -173,17 +181,17 @@ effects:
   to_who: 1
   scale: -2.5
   magnitude: 1
-  duration: 8.1000003814697266
+  duration: 8.10000038
   aspect: 2
   modifier_table: Melee_EndDrain
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EndDrain
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 26
   summon: ''
   stacking: 1
@@ -196,32 +204,32 @@ effects:
   duration: 4
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 7
   summon: ''
   stacking: 1
-  base_probability: 0.30000001192092896
+  base_probability: 0.300000012
   buffable: true
   to_who: 2
-  scale: 9.1000003814697266
+  scale: 9.10000038
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -229,19 +237,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -249,19 +257,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -269,19 +277,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -289,19 +297,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -309,19 +317,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 14
+  unique_id: 14
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -329,19 +337,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 15
+  unique_id: 15
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -349,19 +357,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Electricity_Manipulation.Shocking_Grasp
-  unique_i_d: 16
+  unique_id: 16
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -369,13 +377,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.065999999642372131
+  scale: 0.0659999996
   magnitude: 1
   duration: 8.5
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

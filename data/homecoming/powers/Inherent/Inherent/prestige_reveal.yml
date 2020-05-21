@@ -7,8 +7,8 @@ display: Reveal
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
 accuracy: 1
 group_memberships: []
@@ -18,12 +18,14 @@ target: 1
 target_line_of_sight: true
 cast_time: 1.5
 recharge_time: 300
+base_recharge_time: 300
 effect_area: 1
 max_boosts: 0
 number_allowed: 1
 boosts_allowed: []
 description_short: Clear Fog of War
 description_long: Your extensive knowledge of your surroundings will allow you to clear the ""Fog of War"" from any map once every 5 minutes.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -34,7 +36,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Inherent.Inherent.prestige_reveal
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 63
   summon: ''
   stacking: 1
@@ -44,8 +46,8 @@ effects:
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

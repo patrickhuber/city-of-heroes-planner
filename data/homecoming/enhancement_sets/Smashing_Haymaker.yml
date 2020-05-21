@@ -16,19 +16,19 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7892
+  - id: 7769
     name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_1
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8097
+  - id: 7974
     name: Set_Bonus.Set_Bonus.Increased_Health_2
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8118
+  - id: 7995
     name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_2
 special_bonuses:
 - special: -1

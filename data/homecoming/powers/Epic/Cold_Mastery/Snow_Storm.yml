@@ -8,8 +8,8 @@ requirement:
   class_names:
   - Class_Blaster
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
 power_type: 2
 accuracy: 1
@@ -20,9 +20,10 @@ entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 0.32499998807907104
-cast_time: 2.0299999713897705
+endurance_cost: 0.324999988
+cast_time: 2.02999997
 recharge_time: 20
+base_recharge_time: 20
 activate_period: 0.5
 effect_area: 2
 radius: 25
@@ -35,6 +36,10 @@ boosts_allowed:
 - Slow_Boost
 description_short: 'Toggle: Ranged (Targeted AoE), Foe -Speed, -Recharge'
 description_long: 'While active, the chill from this Snow Storm can dramatically Slow the attack and movement speed of the target and all nearby foes. Recharge: Slow'
+enhancements:
+- 8
+- 18
+- 22
 set_types:
 - 13
 level: 35
@@ -47,7 +52,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -59,14 +64,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 9
   effect_modifiers: 25
   summon: ''
@@ -78,14 +83,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 32
   summon: ''
   base_probability: 1
@@ -97,14 +102,14 @@ effects:
   duration: 0.75
   aspect: 1
   modifier_table: Ranged_SpeedRunning
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedRunning
   override: ''
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 9
   effect_modifiers: 16
   summon: ''
@@ -116,14 +121,14 @@ effects:
   duration: 0.75
   aspect: 3
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 17
   summon: ''
   base_probability: 1
@@ -135,14 +140,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 11
   summon: ''
   base_probability: 1
@@ -154,14 +159,14 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Slow
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Slow
   override: ''
 - power_full_name: Epic.Cold_Mastery.Snow_Storm
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 10
   summon: ''
   base_probability: 1
@@ -173,8 +178,8 @@ effects:
   duration: 0.75
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

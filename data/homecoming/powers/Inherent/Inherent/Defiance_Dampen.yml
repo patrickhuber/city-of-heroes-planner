@@ -66,10 +66,10 @@ requirement:
   - Class_Boss_PraetorianElite
   - Class_Boss_PraetorianArchvillain
   - Class_Boss_RularuuCoP
-  power_i_ds:
+  power_ids:
   - - $ARCHETYPE
     - '@CLASS_BLASTEROLD'
-  power_i_ds_not: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -85,19 +85,19 @@ boosts_allowed: []
 ignore_strength: true
 description_short: Self +DMG, Special
 description_long: As a Brute engages in combat, it unleashes his Fury.  The longer he remains in combat, attacking and being attacked, the more damage he deals.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
-display_location: 3
 mutually_exclusive_auto: true
 forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Inherent.Inherent.Defiance_Dampen
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 48
   summon: ''
   stacking: 1
@@ -107,8 +107,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

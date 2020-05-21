@@ -7,25 +7,27 @@ display: Tranq Dart
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 514
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 18
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 45
-endurance_cost: 2.0799999237060547
+endurance_cost: 2.07999992
 cast_time: 1
 recharge_time: 4
+base_recharge_time: 4
 effect_area: 1
 max_boosts: 0
 number_allowed: 1
 boosts_allowed: []
 description_short: Ranged Minor DMG(Lethal/Toxic), Foe Sleep
 description_long: "As a person of scientific origin you have access to many chemicals and agents. This Tranq Dart is the result of experiments you have conducted, and can be used at short range to deal minor Lethal and Toxic damage to a target. In addition there is a small chance you can put the target to Sleep with this dart, but they will wake up the next time they are damaged or healed. This power receives a damage bonus that decreases as you level up.  At around level 15 you stop benefiting from this power's damage bonus altogether.  Damage: Minor, Recharge: Fast"
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Tranq
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -45,18 +47,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.10000000149011612
+  scale: 0.100000001
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Tranq
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -66,18 +68,18 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 0.20000000298023224
+  scale: 0.200000003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Tranq
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -91,14 +93,14 @@ effects:
   attrib_type: 2
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 15 level source> - .07 * .3 + .33 * @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Tranq
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 7
   summon: ''
@@ -113,14 +115,14 @@ effects:
   attrib_type: 2
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: 15 level source> - .07 * .3 + .67 * @StdResult *
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Tranq
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -135,14 +137,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Brawl_Tranq
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 9
   summon: ''
@@ -158,8 +160,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -7,8 +7,8 @@ display: Incendiary Swarm Missiles
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 20
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.399999618530273
-cast_time: 2.6700000762939453
+endurance_cost: 10.3999996
+cast_time: 2.67000008
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 2
 radius: 20
 max_targets: 16
@@ -31,6 +32,10 @@ boosts_allowed:
 - EnduranceDiscount_Boost
 description_short: Ranged AoE Lethal, +Burn
 description_long: Assault Bot can launch a pack of 8 Incendiary Swarm missiles.
+enhancements:
+- 1
+- 4
+- 8
 set_types: []
 level: 1
 variable_name: ''
@@ -42,7 +47,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Henchman
 effects:
 - power_full_name: Mastermind_Pets.Assault_3.Incendiary_Swarm_Missiles
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -54,31 +59,80 @@ effects:
   to_who: 1
   scale: 0.125
   magnitude: 1
-  duration: 3.0999999046325684
+  duration: 3.0999999
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
-- power_full_name: Mastermind_Pets.Assault_3.Incendiary_Swarm_Missiles
-  unique_i_d: 2
-  effect_type: 38
-  summon: Pets_Burn
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 26
   stacking: 1
   base_probability: 1
   buffable: true
+  resistible: true
   to_who: 1
-  scale: -1
-  magnitude: 1
+  scale: 0.171000004
+  magnitude: 1.00300002
   duration: 20
-  aspect: 4
-  modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Ones
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 2
+  summon: ''
+  ticks: 8
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0309999995
+  magnitude: 1
+  duration: 3.0999999
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
+  override: ''
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 3
+  damage_type: 3
+  summon: ''
+  ticks: 26
+  stacking: 1
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 51
+  to_who: 1
+  scale: 0.0430000015
+  magnitude: 1.00300002
+  duration: 20
+  aspect: 2
+  modifier_table: Ranged_Damage
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Damage
   override: ''

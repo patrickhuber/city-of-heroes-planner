@@ -7,8 +7,8 @@ display: Vicious Slash
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 17
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 7
-endurance_cost: 9.3599996566772461
-cast_time: 1.6699999570846558
-recharge_time: 9
+endurance_cost: 9.35999966
+cast_time: 1.66999996
+recharge_time: 11
+base_recharge_time: 11
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -32,6 +33,13 @@ boosts_allowed:
 - Taunt_Boost
 description_short: Melee, High DMG(Lethal), Foe Minor DoT(Lethal), Knockdown, Self +2 Blood Frenzy
 description_long: 'You tear at your foe with both hands dealing high lethal damage and causing minor lethal damage over time. Foes struck by this attack have a high chance to be knocked down. Vicious Slash grants 2 stacks of Blood Frenzy.  Damage: High, Minor DoT, Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 18
+- 24
 set_types:
 - 1
 - 23
@@ -47,7 +55,7 @@ forced_class: ''
 sort_override: true
 effects:
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -57,18 +65,18 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 1.7999999523162842
-  magnitude: 1
+  scale: 2.22399998
+  magnitude: 1.00100005
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -80,20 +88,20 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.32400000095367432
-  magnitude: 1
-  duration: 3.0999999046325684
+  scale: 0.400999993
+  magnitude: 0.999000013
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 2
   summon: ''
@@ -103,86 +111,86 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 2.6090099811553955
-  magnitude: 1
+  scale: 2.95000005
+  magnitude: 1.00100005
   aspect: 2
   modifier_table: Melee_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 2
   summon: ''
   delayed_time: 1
   ticks: 4
   stacking: 1
-  base_probability: 0.80000001192092896
+  base_probability: 0.800000012
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.20871999859809875
-  magnitude: 1
-  duration: 3.0999999046325684
+  scale: 0.236000001
+  magnitude: 1.00100005
+  duration: 3.0999999
   aspect: 2
   modifier_table: Melee_Damage
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.67000001668930054
+  base_probability: 0.670000017
   buffable: true
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.67000001668930054
+  base_probability: 0.670000017
   suppression: 32
   buffable: true
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Brute_Melee.Savage_Melee.Vicious_Slash
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 12
   summon: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
   base_probability: 1
@@ -191,8 +199,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Savage_Melee_Blood_Frenzy
   effect_id: Ones

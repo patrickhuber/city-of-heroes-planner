@@ -7,8 +7,8 @@ display: Summon Dire Wolf
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,8 +18,9 @@ target: 8192
 target_line_of_sight: true
 range: 60
 endurance_cost: 19.5
-cast_time: 4.6700000762939453
+cast_time: 4.67000008
 recharge_time: 120
+base_recharge_time: 120
 effect_area: 4
 max_boosts: 6
 cast_flags: 2
@@ -36,6 +37,16 @@ boosts_allowed:
 - SpeedRunning_Boost
 description_short: Summon Dire Wolf
 description_long: 'You call upon the aid of the fabled Dire Wolf. It has powerful bite and breath attacks.  Unlike wolves and lions, the Dire Wolf has some limited ranged attacks. The Dire Wolf has good defense to Melee, Ranged and AoE attacks and good resistance to Cold damage. You may only have 1 Dire Wolf under your control at any given time. If you attempt to summon another Dire Wolf the power will fail.  Dire Wolf attacks have a chance to build a charge of Pack Mentality.  Pack Mentality is a Damage buff aura that radiates from the Mastermind and can stack up to 10 times.  Recharge: Very Long'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 9
+- 11
+- 19
+- 22
+- 20
 set_types:
 - 6
 - 8
@@ -49,18 +60,39 @@ set_types:
 - 40
 - 44
 level: 26
-variable_name: ''
+variable_enabled: true
+variable_name: Pack Mentality
+variable_min: 1
+variable_max: 10
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
 mutually_exclusive_auto: true
-absorb_summon_effects: true
-forced_class: ''
+absorb_summon_attributes: true
+forced_class: Class_Boss_Henchman
 effects:
+- power_full_name: ''
+  unique_id: 1
+  effect_type: 77
+  summon: ''
+  stacking: 1
+  base_probability: 1
+  to_who: 2
+  scale: 1
+  magnitude: 1
+  duration: 999999
+  aspect: 4
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
 - power_full_name: Mastermind_Summon.Beast_Mastery.Summon_Dire_Wolf
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
-  summon: MastermindPets_Dire_Wolf
+  summon: Pets_Dire_Wolf
   delayed_time: 2
   base_probability: 1
   to_who: 3
@@ -69,8 +101,86 @@ effects:
   duration: 99999
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Dire_Wolf.Chilling_Howl
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Dire_Wolf.Vicious_Bite
+  base_probability: 1
+  buffable: true
+  resistible: true
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Dire_Wolf_2.Freezing_Roar
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Dire_Wolf_2.Maiming_Bite
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 53
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
+  magnitude_expression: ''
+  reward: ''
+  effect_id: Ones
+  override: ''
+- power_full_name: ''
+  effect_type: 12
+  summon: Mastermind_Pets.Dire_Wolf_3.Terrible_Howl
+  base_probability: 1
+  buffable: true
+  resistible: true
+  special_case: 54
+  to_who: 1
+  aspect: 3
+  modifier_table: Melee_Ones
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

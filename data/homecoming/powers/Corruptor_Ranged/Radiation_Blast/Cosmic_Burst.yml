@@ -7,8 +7,8 @@ display: Cosmic Burst
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 attack_types: 130
@@ -17,9 +17,10 @@ entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.399999618530273
-cast_time: 2.0699999332427979
+endurance_cost: 10.3999996
+cast_time: 2.06999993
 recharge_time: 10
+base_recharge_time: 10
 effect_area: 1
 max_boosts: 6
 number_allowed: 1
@@ -33,6 +34,14 @@ boosts_allowed:
 - Stunned_Boost
 description_short: Extreme DMG(Energy), Foe Disorient, -DEF
 description_long: 'Cosmic Burst smashes the target with cosmic particles. The attack is devastating and can leave most targets Disoriented and with reduced Defense. Damage: Extreme, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 6
+- 8
+- 17
+- 18
+- 23
 set_types:
 - 2
 - 11
@@ -49,7 +58,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -59,40 +68,38 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 2.119999885559082
+  scale: 2.89100003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 1
   to_who: 1
-  scale: 2.119999885559082
+  scale: 2.89100003
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 5
   summon: ''
@@ -102,40 +109,38 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 3.0418200492858887
+  scale: 4.14699984
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 3
   damage_type: 5
   summon: ''
   stacking: 1
-  base_probability: 1
   buffable: true
   resistible: true
-  special_case: 3
   player_versus_mode: 2
   to_who: 1
-  scale: 3.0418200492858887
+  scale: 4.14699984
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
-  effect_id: Damage
+  effect_id: ScourgeProc
   override: ''
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -145,19 +150,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 8
+  scale: 6
   magnitude: 3
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Stun
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
   override: ''
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 10
   summon: ''
@@ -173,14 +178,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Ranged.Radiation_Blast.Cosmic_Burst
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 5
   summon: ''
   stacking: 1
@@ -188,14 +193,14 @@ effects:
   buffable: true
   resistible: true
   to_who: 1
-  scale: 3
+  scale: 4
   magnitude: 1
   duration: 12
   aspect: 4
   modifier_table: Ranged_Debuff_Def
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Def

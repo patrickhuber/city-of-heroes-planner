@@ -7,8 +7,8 @@ display: 'Overwhelming Force: Damage/Chance for Knockdown/Knockback to Knockdown
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 3
 accuracy: 1
 group_memberships: []
@@ -29,6 +29,8 @@ boosts_allowed:
 - Technology_Boost
 description_short: +DMG, Chance for Knockdown, Converts Knockback to Knockdown
 description_long: UNIQUE -- No more than 1 enhancement of this type may be slotted by a character.  Provides a 20% chance to cause knockdown to your targets, enhances the damage of a power by {Boost.Attrib.Damage.Scale}%, and converts any Knockback this power deals into Knockdown.  Some powers may have their chance to Knockdown reduced when this enhancement is slotted.  This enhancement also has a penchant for the dramatic...
+enhancements:
+- 4
 set_types: []
 level: 1
 variable_name: ''
@@ -41,80 +43,80 @@ sort_override: true
 boost_use_player_level: true
 effects:
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 9
   mezmorize_type: 4
   effect_modifiers: 19
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: -0.99000000953674316
+  scale: -0.99000001
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: KnockConvert
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 4
   summon: ''
   stacking: 1
-  base_probability: 0.20000000298023224
+  base_probability: 0.200000003
   to_who: 3
-  scale: 0.67000001668930054
+  scale: 0.670000017
   magnitude: 1
   aspect: 4
   modifier_table: Melee_Ones
   cancel_on_miss: true
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Knockdown
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 9
   mezmorize_type: 5
   effect_modifiers: 19
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: -0.99000000953674316
+  scale: -0.99000001
   magnitude: 1
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: KnockConvert
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 4
+  unique_id: 4
   summon: ''
   base_probability: 1
   to_who: 2
-  scale: -0.60000002384185791
+  scale: -0.600000024
   magnitude: 1
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: SummerIO
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 5
+  unique_id: 5
   summon: ''
   base_probability: 1
   to_who: 2
@@ -123,14 +125,14 @@ effects:
   duration: 10.25
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: SummerIOTornado
   effect_id: Ones
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -141,14 +143,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -159,14 +161,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -177,14 +179,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -195,14 +197,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 10
+  unique_id: 10
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -213,14 +215,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 11
+  unique_id: 11
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -231,14 +233,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 12
+  unique_id: 12
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -249,14 +251,14 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33
   override: ''
 - power_full_name: Boosts.Attuned_Overwhelming_Force_F.Attuned_Overwhelming_Force_F
-  unique_i_d: 13
+  unique_id: 13
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -267,8 +269,8 @@ effects:
   duration: 10.25
   aspect: 3
   modifier_table: Melee_Boosts_33
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Boosts_33

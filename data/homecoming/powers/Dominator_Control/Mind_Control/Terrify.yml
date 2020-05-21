@@ -7,19 +7,20 @@ display: Terrify
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
-accuracy: 0.89999997615814209
+accuracy: 0.899999976
 attack_types: 512
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 60
-endurance_cost: 20.799999237060547
-cast_time: 2.0299999713897705
+endurance_cost: 20.7999992
+cast_time: 2.02999997
 recharge_time: 40
+base_recharge_time: 40
 effect_area: 3
 radius: 60
 arc: 90
@@ -36,6 +37,14 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Cone), Minor DMG(Psionic), Foe Fear(Special)
 description_long: 'This power Terrifies foes within a cone area in front of you, causing them to tremble in Fear uncontrollably. The effect is so frightening and overwhelming, that the target takes real damage from the physiological response to this Psionic attack. Damage: Minor, Recharge: Slow'
+enhancements:
+- 1
+- 4
+- 26
+- 8
+- 9
+- 17
+- 18
 set_types:
 - 3
 - 15
@@ -52,7 +61,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Dominator_Control.Mind_Control.Terrify
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -68,14 +77,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Terrify
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -89,14 +98,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Terrify
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 8
   summon: ''
@@ -106,18 +115,18 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 1.1796599626541138
+  scale: 1.17965996
   magnitude: 1
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Terrify
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -134,14 +143,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Terrify
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -158,14 +167,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Dominator_Control.Mind_Control.Terrify
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -182,8 +191,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

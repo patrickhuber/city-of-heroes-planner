@@ -18,31 +18,31 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7920
+  - id: 7797
     name: Set_Bonus.Set_Bonus.Immob_Dur_2
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 7869
+  - id: 7746
     name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_2
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8119
+  - id: 7996
     name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_3
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7950
+  - id: 7827
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_2
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8134
+  - id: 8011
     name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_4
 special_bonuses:
 - special: -1

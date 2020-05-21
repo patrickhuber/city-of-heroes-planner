@@ -7,8 +7,8 @@ display: Cloak of Fear
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -25,6 +25,8 @@ boosts_allowed:
 - Fear_Boost
 description_short: Fear
 description_long: The Spectral Terror has terrorized you!
+enhancements:
+- 9
 set_types: []
 level: 1
 variable_name: ''
@@ -35,7 +37,7 @@ mutually_exclusive_auto: true
 forced_class: Class_Minion_Pets
 effects:
 - power_full_name: Pets.Terror.Cloak_of_Fear
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -49,33 +51,33 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Fear
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Fear
   override: ''
 - power_full_name: Pets.Terror.Cloak_of_Fear
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 40
   summon: ''
   base_probability: 1
   buffable: true
   resistible: true
   to_who: 1
-  scale: -0.15000000596046448
+  scale: -0.150000006
   magnitude: 1
   duration: 5
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Pets.Terror.Cloak_of_Fear
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 19
   mezmorize_type: 12
   summon: ''
@@ -90,8 +92,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

@@ -8,19 +8,20 @@ requirement:
   class_names:
   - Class_Blaster
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 74
-accuracy: 1.2000000476837158
+accuracy: 1.20000005
 attack_types: 66
 group_memberships: []
 entities_affected: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
-endurance_cost: 10.659999847412109
-cast_time: 1.0700000524520874
+endurance_cost: 10.6599998
+cast_time: 1.07000005
 recharge_time: 16
+base_recharge_time: 16
 effect_area: 1
 max_boosts: ''
 number_allowed: 1
@@ -33,6 +34,13 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged, Moderate DoT(Fire), Foe Hold
 description_long: 'Incapacitates a distant foe by Charring him with smoldering soot and cinders. The target is left helpless, choking on the soot. Damage: Moderate(DoT), Recharge: Moderate'
+enhancements:
+- 1
+- 4
+- 8
+- 12
+- 17
+- 18
 set_types:
 - 2
 - 10
@@ -46,7 +54,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Epic.Flame_Mastery.Char
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -61,14 +69,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
   override: ''
 - power_full_name: Epic.Flame_Mastery.Char
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -79,19 +87,19 @@ effects:
   resistible: true
   player_versus_mode: 1
   to_who: 1
-  scale: 0.2199999988079071
+  scale: 0.219999999
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Flame_Mastery.Char
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 3
   damage_type: 3
   summon: ''
@@ -102,19 +110,19 @@ effects:
   resistible: true
   player_versus_mode: 2
   to_who: 1
-  scale: 0.43994000554084778
+  scale: 0.439940006
   magnitude: 1
-  duration: 4.1999998092651367
+  duration: 4.19999981
   aspect: 2
   modifier_table: Ranged_Damage
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
   override: ''
 - power_full_name: Epic.Flame_Mastery.Char
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 2
   summon: ''
@@ -130,8 +138,8 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Ranged_Immobilize
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize

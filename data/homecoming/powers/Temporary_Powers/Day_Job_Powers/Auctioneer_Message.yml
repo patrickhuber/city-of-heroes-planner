@@ -7,8 +7,8 @@ display: 'Day Job: Day Trader/Marketeer'
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 power_type: 1
 accuracy: 1
 group_memberships: []
@@ -24,6 +24,7 @@ number_allowed: 2
 boosts_allowed: []
 description_short: Special Teleport to Auction House
 description_long: Logging out in Wentworth's or near the Black Market will grant you a power that will allow you to teleport back to the auction house.  By logging out near Wentworth's or the Black Market you earn charges toward this power.  After 100 hours of logged out time you will earn the Day Trader (Hero) or Marketeer (Villain) Day Job badge, that will increase the rate at which you receive additional time for your Auction House teleporter.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -34,7 +35,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Day_Job_Powers.Auctioneer_Message
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 77
   summon: ''
   base_probability: 1
@@ -43,8 +44,8 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

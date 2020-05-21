@@ -7,8 +7,8 @@ display: Resuscitation
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -18,6 +18,7 @@ target: 1
 target_line_of_sight: true
 cast_time: 1.5
 recharge_time: 3600
+base_recharge_time: 3600
 effect_area: 4
 max_boosts: ''
 cast_flags: 4
@@ -26,6 +27,7 @@ number_allowed: 1
 boosts_allowed: []
 description_short: Self Rez, Debt Protection
 description_long: If you are defeated, you may resuscitate yourself where you have fallen, rather than transport to the hospital or your base.  After each use, you may not use this effect again for another hour.  This effect lasts for 2 days of gameplay.
+enhancements: []
 set_types: []
 level: 1
 variable_name: ''
@@ -36,7 +38,7 @@ mutually_exclusive_auto: true
 forced_class: ''
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Resuscitate
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 13
   summon: ''
   ticks: 1
@@ -49,14 +51,14 @@ effects:
   duration: 0.5
   aspect: 2
   modifier_table: Melee_HealSelf
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: HealSelf
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Resuscitate
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 19
   mezmorize_type: 13
   summon: ''
@@ -68,14 +70,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Resuscitate
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 7
   summon: ''
   delayed_time: 0.125
@@ -87,14 +89,14 @@ effects:
   magnitude: 1
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Resuscitate
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 19
   mezmorize_type: 3
   summon: ''
@@ -106,14 +108,14 @@ effects:
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Temporary_Powers.Temporary_Powers.Mayhem_Resuscitate
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 42
   summon: ''
   base_probability: 1
@@ -123,8 +125,8 @@ effects:
   duration: 20
   aspect: 2
   modifier_table: Melee_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

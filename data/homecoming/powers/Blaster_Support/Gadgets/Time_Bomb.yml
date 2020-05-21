@@ -7,8 +7,8 @@ display: Time Bomb
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,9 @@ entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
 endurance_cost: 26
-interrupt_time: 8
-cast_time: 9
+cast_time: 2.76999998
 recharge_time: 360
+base_recharge_time: 360
 effect_area: 1
 max_boosts: ''
 cast_flags: 2
@@ -33,6 +33,12 @@ boosts_allowed:
 - Recharge_Boost
 description_short: 'Place Bomb: PBAoE, Extreme DMG(Lethal/Fire), Foe Knockback'
 description_long: "You can place a Time Bomb on the ground. The Time Bomb will detonate 15 seconds after being placed, resulting in a massive explosion that can devastate all nearby foes and send them flying. The Time Bomb is small, and almost impossible to detect. However, it is fragile and may be set off by an enemy's explosion. Even if destroyed, the Bomb will still detonate. Damage: Extreme, Recharge: Very Long"
+enhancements:
+- 1
+- 4
+- 8
+- 16
+- 18
 set_types:
 - 4
 - 23
@@ -49,7 +55,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Bomb
   stacking: 1
@@ -59,17 +65,17 @@ effects:
   to_who: 3
   scale: 1
   magnitude: 1
-  duration: 21
+  duration: 11
   aspect: 4
   modifier_table: Ranged_Level
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 4
   damage_type: 1
   summon: ''
@@ -77,19 +83,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 3
+  unique_id: 3
   effect_type: 4
   damage_type: 2
   summon: ''
@@ -97,19 +103,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 4
+  unique_id: 4
   effect_type: 4
   damage_type: 3
   summon: ''
@@ -117,19 +123,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 5
+  unique_id: 5
   effect_type: 4
   damage_type: 4
   summon: ''
@@ -137,19 +143,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 6
+  unique_id: 6
   effect_type: 4
   damage_type: 5
   summon: ''
@@ -157,19 +163,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 7
+  unique_id: 7
   effect_type: 4
   damage_type: 6
   summon: ''
@@ -177,19 +183,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 8
+  unique_id: 8
   effect_type: 4
   damage_type: 7
   summon: ''
@@ -197,19 +203,19 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
   override: ''
 - power_full_name: Blaster_Support.Gadgets.Time_Bomb
-  unique_i_d: 9
+  unique_id: 9
   effect_type: 4
   damage_type: 8
   summon: ''
@@ -217,13 +223,13 @@ effects:
   base_probability: 1
   special_case: 11
   to_who: 2
-  scale: 0.52799999713897705
+  scale: 0.527999997
   magnitude: 1
   duration: 15.5
   aspect: 3
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance

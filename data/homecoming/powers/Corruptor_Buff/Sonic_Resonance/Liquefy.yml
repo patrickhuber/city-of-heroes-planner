@@ -7,8 +7,8 @@ display: Liquefy
 requirement:
   class_names: []
   class_names_not: []
-  power_i_ds: []
-  power_i_ds_not: []
+  power_ids: []
+  power_ids_not: []
 modes_disallowed: 2
 accuracy: 1
 group_memberships: []
@@ -17,9 +17,10 @@ entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
-endurance_cost: 23.399999618530273
-cast_time: 2.6700000762939453
+endurance_cost: 23.3999996
+cast_time: 2.67000008
 recharge_time: 300
+base_recharge_time: 300
 effect_area: 4
 max_boosts: ''
 cast_flags: 2
@@ -35,6 +36,15 @@ boosts_allowed:
 - Recharge_Boost
 description_short: Ranged (Location AoE), Foe Knockback, Hold, -To Hit, -DEF
 description_long: 'You unleash a barrage of sonic waves on the Earth itself, generating a powerful, localized earthquake. Most foes that pass through the location will fall down. The violent shaking also reduces their chance to hit and Defense. Recharge: Slow'
+enhancements:
+- 4
+- 6
+- 26
+- 8
+- 12
+- 16
+- 17
+- 18
 set_types:
 - 3
 - 10
@@ -56,7 +66,7 @@ absorb_summon_attributes: true
 forced_class: ''
 effects:
 - power_full_name: Corruptor_Buff.Sonic_Resonance.Liquefy
-  unique_i_d: 1
+  unique_id: 1
   effect_type: 38
   summon: Pets_Liquefy
   stacking: 1
@@ -67,14 +77,14 @@ effects:
   duration: 30
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
   override: ''
 - power_full_name: Corruptor_Buff.Sonic_Resonance.Liquefy
-  unique_i_d: 2
+  unique_id: 2
   effect_type: 38
   summon: Pets_ShockCont
   stacking: 1
@@ -85,8 +95,8 @@ effects:
   duration: 3
   aspect: 4
   modifier_table: Ranged_Ones
-  u_i_d_class_name: ''
-  i_d_class_name: -1
+  uid_class_name: ''
+  id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones

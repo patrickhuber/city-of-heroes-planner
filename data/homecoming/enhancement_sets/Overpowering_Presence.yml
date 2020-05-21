@@ -18,41 +18,41 @@ bonuses:
   alternate_string: ''
   slotted: 2
   entities:
-  - id: 7921
+  - id: 7798
     name: Set_Bonus.Set_Bonus.Immob_Dur_3
-  - id: 8282
+  - id: 8159
     name: Set_Bonus.Set_Bonus.Sleep_Dur_3
-  - id: 7880
+  - id: 7757
     name: Set_Bonus.Set_Bonus.Fear_Dur_3
-  - id: 7836
+  - id: 7713
     name: Set_Bonus.Set_Bonus.Confuse_Dur_3
-  - id: 7907
+  - id: 7784
     name: Set_Bonus.Set_Bonus.Hold_Dur_3
-  - id: 8307
+  - id: 8184
     name: Set_Bonus.Set_Bonus.Stun_Dur_3
 - special: -1
   alternate_string: ''
   slotted: 3
   entities:
-  - id: 8099
+  - id: 7976
     name: Set_Bonus.Set_Bonus.Increased_Health_4
 - special: -1
   alternate_string: ''
   slotted: 4
   entities:
-  - id: 8262
+  - id: 8139
     name: Set_Bonus.Set_Bonus.Lethal_Smash_Mez_Res_5
 - special: -1
   alternate_string: ''
   slotted: 5
   entities:
-  - id: 7960
+  - id: 7837
     name: Set_Bonus.Set_Bonus.Improved_Recovery_5
 - special: -1
   alternate_string: ''
   slotted: 6
   entities:
-  - id: 8051
+  - id: 7928
     name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_5
 special_bonuses:
 - special: -1
