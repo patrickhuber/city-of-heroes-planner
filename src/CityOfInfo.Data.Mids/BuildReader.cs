@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace CityOfInfo.Data.Mids
@@ -40,6 +41,10 @@ namespace CityOfInfo.Data.Mids
             // archetype
             build.Archetype = new Archetype();
             build.Archetype.ClassName = _reader.ReadString();
+            var architectClassNameSplit = build.Archetype.ClassName
+                            .Substring("Class_".Length)
+                            .Split('_');             
+            build.Archetype.DisplayName = string.Join(" ", architectClassNameSplit);
             build.Archetype.Origins = new string[]
             {
                 _reader.ReadString()

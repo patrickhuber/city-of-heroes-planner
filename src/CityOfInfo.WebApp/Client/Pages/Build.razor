@@ -7,19 +7,21 @@
 
 @if (CompressionData != null)
 {
-    <dl class="dl-horizontal">
-        <dt>Uncompressed Byte Count</dt>
-        <dd>@CompressionData.UncompressedByteCount</dd>
+    <dl class="row">
+        <dt class="col-sm-3">Uncompressed Byte Count</dt>
+        <dd class="col-sm-9">@CompressionData.UncompressedByteCount</dd>
     </dl>        
 }
 
 @if (BuildData != null)
 {
-    <dl class="dl-horizontal">
-        <dt>Character Name</dt>
-        <dd>@BuildData.CharacterName</dd>
-        <dd>@BuildData.Archetype.ClassName</dd>
-    </dl>
+<dl class="row">
+    <dt class="col-sm-3">Character Name</dt>
+    <dd class="col-sm-9">@BuildData.CharacterName</dd>
+
+    <dt class="col-sm-3">Archetype</dt>
+    <dd class="col-sm-9">@BuildData.Archetype.ClassName</dd>
+</dl>
 }
 
 @code {

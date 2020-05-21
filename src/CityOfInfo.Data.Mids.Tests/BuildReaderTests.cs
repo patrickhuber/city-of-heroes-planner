@@ -28,6 +28,8 @@ namespace CityOfInfo.Data.Mids.Tests
                     var build = buildReader.Read();
                     Assert.NotNull(build);
                     Assert.NotNull(build.Archetype);
+                    Assert.Equal("Class_Brute", build.Archetype.ClassName);
+                    Assert.Equal("Brute", build.Archetype.DisplayName);
 
                     Assert.NotNull(build.EnhancedPowers);
                     Assert.Equal(38, build.EnhancedPowers.Count);
