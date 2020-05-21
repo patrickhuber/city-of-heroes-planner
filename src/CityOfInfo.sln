@@ -27,11 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{1318FE0D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{05EE7061-6766-41C8-8663-F6A628B237E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfInfo.WebApp.Server", "CityOfInfo.WebApp\Server\CityOfInfo.WebApp.Server.csproj", "{FC126A7E-8B96-446D-B256-8B1C8D45CF4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityOfInfo.WebApp.Server", "CityOfInfo.WebApp\Server\CityOfInfo.WebApp.Server.csproj", "{FC126A7E-8B96-446D-B256-8B1C8D45CF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfInfo.WebApp.Client", "CityOfInfo.WebApp\Client\CityOfInfo.WebApp.Client.csproj", "{82B8E382-F468-48A5-94B2-CCB73CFCF85F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityOfInfo.WebApp.Client", "CityOfInfo.WebApp\Client\CityOfInfo.WebApp.Client.csproj", "{82B8E382-F468-48A5-94B2-CCB73CFCF85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfInfo.WebApp.Shared", "CityOfInfo.WebApp\Shared\CityOfInfo.WebApp.Shared.csproj", "{996C0F17-2E01-439E-B560-C8D0A8DDF779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityOfInfo.WebApp.Shared", "CityOfInfo.WebApp\Shared\CityOfInfo.WebApp.Shared.csproj", "{996C0F17-2E01-439E-B560-C8D0A8DDF779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

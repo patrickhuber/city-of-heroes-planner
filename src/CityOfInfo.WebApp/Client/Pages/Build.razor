@@ -1,0 +1,27 @@
+﻿@page "/build"
+@using CityOfInfo.Data.Mids;
+@using CityOfInfo.WebApp.Shared;
+@using System.IO;
+
+<h1>Build</h1>
+
+@if (CompressionData != null)
+{
+    <dl class="dl-horizontal">
+        <dt>Uncompressed Byte Count</dt>
+        <dd>@CompressionData.UncompressedByteCount</dd>
+    </dl>        
+}
+
+@if (BuildData != null)
+{
+    <dl class="dl-horizontal">
+        <dt>Character Name</dt>
+        <dd>@BuildData.CharacterName</dd>
+        <dd>@BuildData.Archetype.ClassName</dd>
+    </dl>
+}
+
+@code {
+
+}

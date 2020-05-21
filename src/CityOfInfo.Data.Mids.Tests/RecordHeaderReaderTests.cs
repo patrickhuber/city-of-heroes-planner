@@ -20,7 +20,7 @@ namespace CityOfInfo.Data.Mids.Tests
             CanReadRecordHeader(RecordHeaderGroupPrefixes.Powersets);
         }
                 
-        public void CanReadRecordHeader(string prefix)
+        private void CanReadRecordHeader(string prefix)
         {
             var recordHeader = Fake.Create<RecordHeader>();
             new ReaderTest(
