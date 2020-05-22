@@ -110,6 +110,21 @@ namespace CityOfInfo.MidsExporter
             var serializer = new SerializerBuilder()
                 .WithNamingConvention(new UnderscoredNamingConvention())
                 .Build();
+            databaseReader.OnIssue12HeaderRead += (header) =>
+            {
+                // metadata contains database header information
+                var metadataPath = Path.Combine(outputPath, "metadata.yml");
+                if(File.Exists(metadataPath))
+                    File.Delete(metadataPath);
+
+                using (var file = File.Create(metadataPath))
+                {
+                    using (var writer = new StreamWriter(file))
+                    {
+                        serializer.Serialize(writer, header);
+                    }
+                }
+            };
 
             databaseReader.OnArchetypeHeaderRead += (header) => 
             {                
