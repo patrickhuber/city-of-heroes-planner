@@ -1,6 +1,4 @@
 ﻿using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
@@ -11,7 +9,7 @@ namespace CityOfInfo.Data.Mids
     /// </summary>
     public class CompressionDataStream : Stream
     {
-        private Stream _internalStream;
+        private readonly Stream _internalStream;
 
         public CompressionDataStream(CompressionData data)
         {

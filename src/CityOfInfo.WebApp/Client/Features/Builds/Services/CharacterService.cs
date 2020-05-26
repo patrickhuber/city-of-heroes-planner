@@ -10,11 +10,9 @@ namespace CityOfInfo.WebApp.Client.Features.Builds.Services
     {
         public ViewModels.Character Read(CharacterReadRequest request)
         {
-            using (var reader = new BinaryReader(new CompressionDataStream(request.CompressionData)))
-            {
-                var characterReader = new CharacterReader(reader);
-                return Map(characterReader.Read());
-            }
+            using var reader = new BinaryReader(new CompressionDataStream(request.CompressionData));
+            var characterReader = new CharacterReader(reader);
+            return Map(characterReader.Read());
         }
 
         private static readonly int SelectedPowerCount = 24;

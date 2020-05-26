@@ -6,7 +6,7 @@ namespace CityOfInfo.Data.Mids.Saves
 {
     public class SaveReader
     {
-        private TextReader _reader;
+        private readonly TextReader _reader;
 
         public SaveReader(TextReader reader)
         {

@@ -7,7 +7,7 @@ namespace CityOfInfo.Data.Mids.Builds
 {
     public class CharacterReader
     {
-        private BinaryReader _reader;
+        private readonly BinaryReader _reader;
         private static readonly byte[] MagicNumber = new byte[4]
         {
             // M (ascii)

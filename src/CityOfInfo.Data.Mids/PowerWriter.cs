@@ -5,7 +5,7 @@ namespace CityOfInfo.Data.Mids.Tests
 {
     public class PowerWriter
     {
-        private BinaryWriter _writer;
+        private readonly BinaryWriter _writer;
 
         public PowerWriter(BinaryWriter writer)
         {

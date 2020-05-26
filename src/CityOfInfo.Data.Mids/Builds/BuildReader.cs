@@ -7,7 +7,7 @@ namespace CityOfInfo.Data.Mids.Builds
     public class BuildReader
     {
         private readonly BinaryReader _reader;
-        private Character _character;
+        private readonly Character _character;
 
         public BuildReader(Character character, BinaryReader reader)
         {
@@ -24,7 +24,7 @@ namespace CityOfInfo.Data.Mids.Builds
 
             // powers
             build.LastPower = _reader.ReadInt32() - 1;
-            build.PowerSlots = ReadPowerSlots(build);
+            build.PowerSlots = ReadPowerSlots();
 
             return build;
         }
@@ -49,24 +49,20 @@ namespace CityOfInfo.Data.Mids.Builds
             return powerSet;
         }
 
-        private List<PowerSlot> ReadPowerSlots(Build build)
+        private List<PowerSlot> ReadPowerSlots()
         {
             var powerSlots = new List<PowerSlot>();
             var powerCount = _reader.ReadInt32() + 1;
             for (var i = 0; i < powerCount; i++)
             {
-                var powerSlot = ReadPowerSlot(build);
-
-                if (powerSlot == null)
-                    continue;
-
+                var powerSlot = ReadPowerSlot();
                 powerSlots.Add(powerSlot);
             }
 
             return powerSlots;
         }
 
-        private PowerSlot ReadPowerSlot(Build build)
+        private PowerSlot ReadPowerSlot()
         {            
             string fullName = "";
             int index = -1;
@@ -77,9 +73,11 @@ namespace CityOfInfo.Data.Mids.Builds
                 index = _reader.ReadInt32();
 
             if (index == -1 && string.IsNullOrEmpty(fullName))
-                return null;
+                return new PowerSlot();
 
             var power = new Power();
+            power.Index = index;
+            power.FullName = fullName;
 
             // enhanced power, references power and has enhancements in it
             var powerSlot = new PowerSlot();
@@ -89,15 +87,15 @@ namespace CityOfInfo.Data.Mids.Builds
             powerSlot.VariableValue = _reader.ReadInt32();
 
             // sub powers
-            powerSlot.SubPowers = ReadSubPowers(build);
+            powerSlot.SubPowers = ReadSubPowers();
 
             // enhancement slots
-            powerSlot.EnhancementSlots = ReadEnhancementSlots(build);
+            powerSlot.EnhancementSlots = ReadEnhancementSlots();
 
             return powerSlot;
         }
 
-        private List<SubPower> ReadSubPowers(Build build)
+        private List<SubPower> ReadSubPowers()
         {
             var subPowers = new List<SubPower>();
             if (!_character.UseSubpowerFields)
@@ -106,14 +104,14 @@ namespace CityOfInfo.Data.Mids.Builds
             var subPowerCount = _reader.ReadSByte() + 1;
             for (var i = 0; i < subPowerCount; i++)
             {
-                var subPower = ReadSubPower(build);
+                var subPower = ReadSubPower();
                 subPowers.Add(subPower);
             }
 
             return subPowers;
         }
 
-        private SubPower ReadSubPower(Build build)
+        private SubPower ReadSubPower()
         {
             var subPower = new SubPower();
             if (_character.UseSubpowerFields)
@@ -124,32 +122,32 @@ namespace CityOfInfo.Data.Mids.Builds
             return subPower;
         }
 
-        private List<EnhancementSlot> ReadEnhancementSlots(Build build)
+        private List<EnhancementSlot> ReadEnhancementSlots()
         {
             var enhancementSlots = new List<EnhancementSlot>();
             var slotCount = _reader.ReadSByte() + 1;
             for (var slotIndex = 0; slotIndex < slotCount; slotIndex++)
             {
-                var enhancementSlot = ReadEnhancementSlot(build);
+                var enhancementSlot = ReadEnhancementSlot();
                 enhancementSlots.Add(enhancementSlot);
             }
 
             return enhancementSlots;
         }
 
-        private EnhancementSlot ReadEnhancementSlot(Build build)
+        private EnhancementSlot ReadEnhancementSlot()
         {
             var enhancementSlot = new EnhancementSlot();
             enhancementSlot.Level = _reader.ReadSByte();
-            enhancementSlot.Enhancement = ReadEnhancementSlotEntry(build);
+            enhancementSlot.Enhancement = ReadEnhancementSlotEntry();
 
             var readFlippedEntry = _reader.ReadBoolean();
             if (readFlippedEntry)
-                enhancementSlot.Flipped = ReadEnhancementSlotEntry(build);
+                enhancementSlot.Flipped = ReadEnhancementSlotEntry();
             return enhancementSlot;
         }
 
-        private EnhancementSlotEntry ReadEnhancementSlotEntry(Build build)
+        private EnhancementSlotEntry ReadEnhancementSlotEntry()
         {
             var enhancement = new Enhancement();
             if (_character.UseQualifiedNames)
@@ -164,14 +162,14 @@ namespace CityOfInfo.Data.Mids.Builds
             if (enhancement.Index == -1 && string.IsNullOrWhiteSpace(enhancement.Name))
                 slotData = new List<sbyte>();
             else
-                slotData = ReadSlotData(build);
+                slotData = ReadSlotData();
 
             enhancementSlotEntry.SlotData = slotData;
 
             return enhancementSlotEntry;
         }
 
-        private List<sbyte> ReadSlotData(Build build)
+        private List<sbyte> ReadSlotData()
         {
             var slotData = new List<sbyte>();
             slotData.Add(_reader.ReadSByte());

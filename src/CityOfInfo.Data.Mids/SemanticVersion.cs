@@ -12,7 +12,7 @@ namespace CityOfInfo.Data.Mids
         {
             // https://docs.microsoft.com/en-us/dotnet/api/system.icomparable-1.compareto#notes-to-implementers
             // an instance is greater than 1
-            if (ReferenceEquals(other, null))
+            if (other is null)
                 return 1;
 
             var majorResult = Major.CompareTo(other.Major);
@@ -58,29 +58,29 @@ namespace CityOfInfo.Data.Mids
 
         public static bool operator <=(SemanticVersion left, SemanticVersion right)
         {
-            return ReferenceEquals(left, null) || left.CompareTo(right) <= 0;
+            return left is null || left.CompareTo(right) <= 0;
         }
 
         public static bool operator >=(SemanticVersion left, SemanticVersion right)
         {
-            return ReferenceEquals(left, null) ? ReferenceEquals(right, null) : left.CompareTo(right) >= 0;
+            return left is null ? right is null : left.CompareTo(right) >= 0;
         }
 
         public static bool operator <(SemanticVersion left, SemanticVersion right)
         {
-            return ReferenceEquals(left, null) ? !ReferenceEquals(right, null) : left.CompareTo(right) < 0;
+            return left is null ? right is object : left.CompareTo(right) < 0;
         }
 
         public static bool operator >(SemanticVersion left, SemanticVersion right)
         {
-            return !ReferenceEquals(left, null) && left.CompareTo(right) > 0;
+            return left is object && left.CompareTo(right) > 0;
         }
 
         public static bool operator ==(SemanticVersion left, SemanticVersion right)
         {
-            if (ReferenceEquals(left, null))
+            if (left is null)
             {
-                return ReferenceEquals(right, null);
+                return right is null;
             }
 
             return left.Equals(right);

@@ -19,39 +19,34 @@ namespace CityOfInfo.Data.Mids.Tests.Builds
             Assert.NotNull(save);
             Assert.NotNull(save.CompressionData);
 
-            using (var stream = new CompressionDataStream(save.CompressionData))
+            using var stream = new CompressionDataStream(save.CompressionData);
+            using var binaryReader = new BinaryReader(stream);
+            var characterReader = new CharacterReader(binaryReader);
+            var character = characterReader.Read();
+            Assert.NotNull(character);
+            Assert.NotNull(character.Archetype);
+            Assert.NotNull(character.Name);
+            Assert.Equal("smashicles", character.Name);
+
+            Assert.Equal("Class_Brute", character.Archetype.ClassName);
+            Assert.Equal("Brute", character.Archetype.DisplayName);
+            Assert.Equal<object>(SchemaVersion.v1_1_0, character.Version);
+            Assert.True(character.UseSubpowerFields);
+            Assert.False(character.UseQualifiedNames);
+
+            Assert.NotNull(character.Builds);
+            Assert.Single(character.Builds);
+
+            foreach (var build in character.Builds)
             {
-                using (var binaryReader = new BinaryReader(stream))
-                {
-                    var characterReader = new CharacterReader(binaryReader);
-                    var character = characterReader.Read();
-                    Assert.NotNull(character);
-                    Assert.NotNull(character.Archetype);
-                    Assert.NotNull(character.Name);
-                    Assert.Equal("smashicles", character.Name);
+                Assert.NotNull(build.PowerSlots);
+                Assert.Equal(39, build.PowerSlots.Count);
 
-                    Assert.Equal("Class_Brute", character.Archetype.ClassName);
-                    Assert.Equal("Brute", character.Archetype.DisplayName);
-                    Assert.Equal<object>(SchemaVersion.v1_1_0, character.Version);
-                    Assert.True(character.UseSubpowerFields);
-                    Assert.False(character.UseQualifiedNames);
-
-                    Assert.NotNull(character.Builds);
-                    Assert.Single(character.Builds);
-
-                    foreach (var build in character.Builds)
-                    {
-                        Assert.NotNull(build.PowerSlots);
-                        Assert.Equal(39, build.PowerSlots.Count);
-
-                        Assert.NotNull(build.PowerSets);
-                        Assert.Equal(8, build.PowerSets.Count);
-                        Assert.Equal(23, build.LastPower);
-                    }                    
-                }
+                Assert.NotNull(build.PowerSets);
+                Assert.Equal(8, build.PowerSets.Count);
+                Assert.Equal(23, build.LastPower);
             }
         }
-
 
         [Fact]
         public void CanReadEmptyBuild()
@@ -61,27 +56,23 @@ namespace CityOfInfo.Data.Mids.Tests.Builds
             Assert.NotNull(link);
             Assert.NotNull(link.CompressionData);
 
-            using (var stream = new CompressionDataStream(link.CompressionData))
+            using var stream = new CompressionDataStream(link.CompressionData);
+            using var binaryReader = new BinaryReader(stream);
+            var characterReader = new CharacterReader(binaryReader);
+            var character = characterReader.Read();
+            Assert.NotNull(character);
+            Assert.NotNull(character.Archetype);
+            Assert.Equal("Blaster", character.Archetype.DisplayName);
+            Assert.NotNull(character.Name);
+            Assert.Equal("incomplete", character.Name);
+
+            foreach (var build in character.Builds)
             {
-                using (var binaryReader = new BinaryReader(stream))
-                {
-                    var characterReader = new CharacterReader(binaryReader);
-                    var character = characterReader.Read();
-                    Assert.NotNull(character);
-                    Assert.NotNull(character.Archetype);
-                    Assert.Equal("Blaster", character.Archetype.DisplayName);
-                    Assert.NotNull(character.Name);
-                    Assert.Equal("incomplete", character.Name);                    
+                Assert.NotNull(build.PowerSets);
+                Assert.Equal(8, build.PowerSets.Count);
 
-                    foreach (var build in character.Builds)
-                    {
-                        Assert.NotNull(build.PowerSets);
-                        Assert.Equal(8, build.PowerSets.Count);
-
-                        Assert.NotNull(build.PowerSlots);
-                        Assert.Equal(12, build.PowerSlots.Count);
-                    }
-                }
+                Assert.NotNull(build.PowerSlots);
+                Assert.Equal(39, build.PowerSlots.Count);
             }
         }
     }

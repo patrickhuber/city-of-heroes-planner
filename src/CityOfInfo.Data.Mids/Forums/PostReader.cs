@@ -5,7 +5,7 @@ namespace CityOfInfo.Data.Mids.Forums
 {
     public class PostReader
     {
-        private StringReader _reader;
+        private readonly StringReader _reader;
 
         public PostReader(StringReader reader)
         {
