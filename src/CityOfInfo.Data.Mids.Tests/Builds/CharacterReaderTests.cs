@@ -69,7 +69,18 @@ namespace CityOfInfo.Data.Mids.Tests.Builds
                     var character = characterReader.Read();
                     Assert.NotNull(character);
                     Assert.NotNull(character.Archetype);
+                    Assert.Equal("Blaster", character.Archetype.DisplayName);
                     Assert.NotNull(character.Name);
+                    Assert.Equal("incomplete", character.Name);                    
+
+                    foreach (var build in character.Builds)
+                    {
+                        Assert.NotNull(build.PowerSets);
+                        Assert.Equal(8, build.PowerSets.Count);
+
+                        Assert.NotNull(build.PowerSlots);
+                        Assert.Equal(12, build.PowerSlots.Count);
+                    }
                 }
             }
         }
