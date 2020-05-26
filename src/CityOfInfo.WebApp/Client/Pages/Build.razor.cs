@@ -14,16 +14,17 @@ namespace CityOfInfo.WebApp.Client.Pages
         protected Data.Mids.Builds.Character CharacterData { get; set; }
         protected string CharacterYaml { get; set; }
 
+        private static readonly int SelectedPowerColumnHeight = 8;
+        private static readonly int SelectedPowerColumnCount = 3;
+        private static readonly int InherentPowerStartIndex = SelectedPowerColumnCount * SelectedPowerColumnHeight;
+        private static readonly int InherentPowerColumnCount = 3;
+
         [Inject]
         NavigationManager NavigationManager { get; set; }
 
         protected override void OnInitialized()
         {
             if (TryBindMidsCompressionData(out var compressionData))
-            {
-                CompressionData = compressionData;
-            }
-            else if (TryBindBase64CompressionData(out compressionData))
             {
                 CompressionData = compressionData;
             }
@@ -68,24 +69,6 @@ namespace CityOfInfo.WebApp.Client.Pages
             return true;
         }
 
-        private bool TryBindBase64CompressionData(out CompressionData compressionData)
-        {
-            compressionData = null;
-            return false;
-        }
-
-
-        private PowerSlot GetPowerAtIndex(int powerIndex)
-        {
-            if (this.CharacterData.Builds.Count < 1)
-                return null;
-            var build = this.CharacterData.Builds[0];
-            if (build.PowerSlots.Count < powerIndex)
-                return null;
-            return build.PowerSlots[powerIndex];
-        }
-
-
         private string GetPowerName(PowerSlot power)
         {
             if (power == null)
@@ -103,17 +86,6 @@ namespace CityOfInfo.WebApp.Client.Pages
                 name.Append(power.Power.Display);
 
             return name.ToString();
-        }
-
-        private EnhancementSlot GetEnhancementSlotAtIndex(PowerSlot power, int index)
-        {
-            if (power == null)
-                return null;
-
-            if (power.EnhancementSlots.Count < index)
-                return null;
-
-            return power.EnhancementSlots[index];
         }
     }
 }

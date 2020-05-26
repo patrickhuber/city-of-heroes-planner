@@ -1,0 +1,38 @@
+﻿@using CityOfInfo.Data.Mids;
+
+<div class="col-lg-12 @(Item.Power != null ? "enhanced-power" : "empty-enhanced-power" )">
+    @{var powerName = GetPowerName(Item); }
+    <div class="row">
+        <div class="col-12">@powerName</div>
+    </div>
+    <div class="row">
+        @if (Item.EnhancementSlots != null)
+        {
+            if (Item.EnhancementSlots == null || Item.EnhancementSlots.Count == 0)
+            {
+                <div class="col-2 empty-enhanced-power-slot">&nbsp;</div>
+            }
+            else
+            {
+                foreach (var slotEntry in Item.EnhancementSlots)
+                {
+                    <div class="col-2 enhanced-power-slot">&nbsp;</div>
+                }
+            }
+        }
+        else
+        {
+            @if (Item.Power != null)
+            {
+                <div class="col-2 enhanced-power-slot">&nbsp;</div>
+            }
+            else
+            {
+                <div class="col-2 empty-enhanced-power-slot">&nbsp;</div>
+            }
+        }
+    </div>
+</div>
+
+@code {
+}

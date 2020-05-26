@@ -17,7 +17,7 @@ namespace CityOfInfo.WebApp.Client.Features.Builds.Services
 
         private static readonly int SelectedPowerCount = 24;
 
-        private ViewModels.Character Map(Data.Mids.Builds.Character character)
+        private ViewModels.Character Map(Character character)
         {
             var result = new ViewModels.Character 
             {
@@ -33,9 +33,21 @@ namespace CityOfInfo.WebApp.Client.Features.Builds.Services
 
             for (var p = 0; p < build.PowerSlots.Count; p++)
             {
+                var powerSlotViewModel = Map(build.PowerSlots[p]);
+
+                if (p <= SelectedPowerCount)
+                    result.Build.SelectedPowers.Add(powerSlotViewModel);
+                else
+                    result.Build.InherentPowers.Add(powerSlotViewModel);
             }
 
             return result;
+        }
+
+        private ViewModels.PowerSlot Map(PowerSlot powerSlot)
+        {
+            var powerSlotViewModel = new ViewModels.PowerSlot();
+            return powerSlotViewModel;
         }
     }
 }
