@@ -34,7 +34,7 @@ namespace CityOfInfo.Data.Mids.Tests.Saves
             {
                 var buildHeader = buildHeaderReader.Read();
             });
-            Assert.Equal("The header is empty", exception.Message);
+            Assert.Equal("The header is missing", exception.Message);
         }
 
         [Fact]
@@ -46,7 +46,7 @@ namespace CityOfInfo.Data.Mids.Tests.Saves
             {
                 var buildHeader = buildHeaderReader.Read();
             });
-            Assert.Equal("Expected character '|', found 'M'", exception.Message);
+            Assert.Equal("The header is missing", exception.Message);
         }
 
         [Fact]
@@ -58,7 +58,7 @@ namespace CityOfInfo.Data.Mids.Tests.Saves
             {
                 var buildHeader = buildHeaderReader.Read();
             });
-            Assert.Equal("The header was truncated, expected 8 elements, found 2", exception.Message);
+            Assert.Equal("The header was truncated", exception.Message);
         }
     }
 }

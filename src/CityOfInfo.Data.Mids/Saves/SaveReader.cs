@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
@@ -18,71 +17,117 @@ namespace CityOfInfo.Data.Mids.Saves
         {
             var state = 0;
             var save = new Save();
-
             var builder = new StringBuilder();
+
             while (_reader.Peek() != -1)
             {
                 var ch = (char)_reader.Read();
-                if (1 <= state && state <= 5)
-                    if (ch != ';')
-                    {
-                        builder.Append(ch);
-                        continue;
-                    }
-                if (state == 8)
-                    if (ch != '|')
-                    {
-                        builder.Append(ch);
-                        continue;
-                    }
-
                 switch (state)
                 {
                     case 0:
                         if (ch == '|')
                             state = 1;
-                        else
-                            throw new Exception($"Expected character '|', found '{ch}'");
-                        continue;
+                        break;
                     case 1:
-                        save.Format = builder.ToString();
+                        if (ch == 'M')
+                            state = 2;
+                        else
+                            state = 0;
                         break;
                     case 2:
-                        save.CompressionData.UncompressedByteCount = int.Parse(builder.ToString());
+                        if (ch == 'x')
+                            state = 3;
+                        else
+                            state = 0;
                         break;
                     case 3:
-                        save.CompressionData.CompressedByteCount = int.Parse(builder.ToString());
+                        if (ch == 'D')
+                            state = 4;
+                        else
+                            state = 0;
                         break;
                     case 4:
-                        save.CompressionData.EncodedByteCount = int.Parse(builder.ToString());
+                        if (ch == 'z' || ch == 'u')
+                        {
+                            save.Format = $"MxD{ch}";
+                            state = 5;
+                        }
+                        else
+                            state = 0;
                         break;
                     case 5:
-                        save.CompressionData.Encoding = builder.ToString();
+                        if (ch == ';')
+                        {
+                            state = 6;
+                            save.CompressionData = new CompressionData();
+                        }
                         break;
                     case 6:
-                    case 7:
-                        if (ch == '|')
-                            state++;
+                        if (ch == ';')
+                        {
+                            if (int.TryParse(builder.ToString(), out var uncompressedByteCount))
+                                save.CompressionData.UncompressedByteCount = uncompressedByteCount;
+                            state = 7;
+                            builder.Clear();
+                        }
                         else
-                            throw new Exception($"Expected character '|', found {ch}");
-                        continue;
+                            builder.Append(ch);
+                        break;
+                    case 7:
+                        if (ch == ';')
+                        {
+                            if (int.TryParse(builder.ToString(), out var compressedByteCount))
+                                save.CompressionData.CompressedByteCount = compressedByteCount;
+                            state = 8;
+                            builder.Clear();
+                        }
+                        else
+                            builder.Append(ch);                        
+                        break;
                     case 8:
-                        save.CompressionData.EncodedString = builder.ToString();
+                        if (ch == ';')
+                        {
+                            if (int.TryParse(builder.ToString(), out var encodedByteCount))
+                                save.CompressionData.EncodedByteCount = encodedByteCount;
+                            state = 9;
+                            builder.Clear();
+                        }
+                        else
+                            builder.Append(ch);
+                        break;
+                    case 9:
+                        if (ch == ';')
+                        {
+                            save.CompressionData.Encoding = builder.ToString();
+                            state = 10;
+                            builder.Clear();
+                        }
+                        else
+                            builder.Append(ch);
+                        break;
+                    case 10:
+                        if (('0' <= ch && ch <= '9') || ('A' <= ch && ch <= 'F'))                        
+                            builder.Append(ch);                        
+                        if ('a' <= ch && ch <= 'f')
+                            builder.Append(char.ToUpper(ch));
+                        if (ch == '-')                        
+                            state = 11;
+                        
+                        break;
+
+                    case 11:
                         break;
                 }
-
-                if (1 <= state && state <= 5 || state == 8)
-                {
-                    builder.Clear();
-                    state++;
-                }
             }
-            if (state == 0)
-                throw new Exception("The header is empty");
 
-            if (state != 9)
-                throw new Exception($"The header was truncated, expected 8 elements, found {state}");
+            if (state >= 10)
+                save.CompressionData.EncodedString = builder.ToString();
+            else if (state == 0)
+                throw new Exception("The header is missing");
+            else if (state < 10)
+                throw new Exception("The header was truncated");
 
+            // scan for magic offset
             return save;
         }
     }
