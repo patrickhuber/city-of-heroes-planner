@@ -17,7 +17,7 @@ namespace CityOfInfo.Data.Mids.Saves
         public Save Read()
         {
             var state = 0;
-            var buildHeader = new Save();
+            var save = new Save();
 
             var builder = new StringBuilder();
             while (_reader.Peek() != -1)
@@ -45,19 +45,19 @@ namespace CityOfInfo.Data.Mids.Saves
                             throw new Exception($"Expected character '|', found '{ch}'");
                         continue;
                     case 1:
-                        buildHeader.Format = builder.ToString();
+                        save.Format = builder.ToString();
                         break;
                     case 2:
-                        buildHeader.CompressionData.UncompressedByteCount = int.Parse(builder.ToString());
+                        save.CompressionData.UncompressedByteCount = int.Parse(builder.ToString());
                         break;
                     case 3:
-                        buildHeader.CompressionData.CompressedByteCount = int.Parse(builder.ToString());
+                        save.CompressionData.CompressedByteCount = int.Parse(builder.ToString());
                         break;
                     case 4:
-                        buildHeader.CompressionData.EncodedByteCount = int.Parse(builder.ToString());
+                        save.CompressionData.EncodedByteCount = int.Parse(builder.ToString());
                         break;
                     case 5:
-                        buildHeader.CompressionData.Encoding = builder.ToString();
+                        save.CompressionData.Encoding = builder.ToString();
                         break;
                     case 6:
                     case 7:
@@ -67,7 +67,7 @@ namespace CityOfInfo.Data.Mids.Saves
                             throw new Exception($"Expected character '|', found {ch}");
                         continue;
                     case 8:
-                        buildHeader.CompressionData.EncodedString = builder.ToString();
+                        save.CompressionData.EncodedString = builder.ToString();
                         break;
                 }
 
@@ -83,7 +83,7 @@ namespace CityOfInfo.Data.Mids.Saves
             if (state != 9)
                 throw new Exception($"The header was truncated, expected 8 elements, found {state}");
 
-            return buildHeader;
+            return save;
         }
     }
 }

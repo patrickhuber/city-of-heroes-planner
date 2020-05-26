@@ -64,6 +64,9 @@ namespace CityOfInfo.Data.Mids.Tests
             _writer.Write(power.IgnoreStrength);
             _writer.Write(power.DescriptionShort);
             _writer.Write(power.DescriptionLong);
+            _writer.Write(power.Enhancements.Length - 1);
+            for (var index = 0; index < power.Enhancements.Length; index++)
+                _writer.Write(power.Enhancements[index]);
             _writer.Write(power.SetTypes.Length - 1);
             for (int index = 0; index < power.SetTypes.Length; ++index)
                 _writer.Write(power.SetTypes[index]);

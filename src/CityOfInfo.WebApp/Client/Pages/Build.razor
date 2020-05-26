@@ -5,25 +5,81 @@
 
 <h1>Build</h1>
 
-@if (CompressionData != null)
+@if (CharacterData != null)
 {
     <dl class="row">
-        <dt class="col-sm-3">Uncompressed Byte Count</dt>
-        <dd class="col-sm-9">@CompressionData.UncompressedByteCount</dd>
-    </dl>        
-}
+        <dt class="col-sm-3">Character Name</dt>
+        <dd class="col-sm-9">@CharacterData.Name</dd>
 
-@if (BuildData != null)
-{
-<dl class="row">
-    <dt class="col-sm-3">Character Name</dt>
-    <dd class="col-sm-9">@BuildData.CharacterName</dd>
+        <dt class="col-sm-3">Alignment</dt>
+        <dd class="col-sm-9">@CharacterData.Alignment.Name</dd>
 
-    <dt class="col-sm-3">Archetype</dt>
-    <dd class="col-sm-9">@BuildData.Archetype.ClassName</dd>
-</dl>
+        <dt class="col-sm-3">Archetype</dt>
+        <dd class="col-sm-9">@CharacterData.Archetype.DisplayName</dd>
+
+        <dt class="col-sm-3">Origin</dt>
+        <dd class="col-sm-9">@(CharacterData.Archetype.Origins.FirstOrDefault() ?? "unknown")</dd>
+    </dl>
+    <style>
+        .enhanced-power {
+            padding-top: 10px;
+            padding-left: 10px;
+            margin-bottom: 5px;
+            border-radius: 25px;
+            border-style: outset;
+            border-color: #417CF5;
+            background: rgb(16,58,122);
+            background: linear-gradient(0deg, rgba(16,58,122,1) 10%, rgba(131,178,236,1) 50%);
+        }
+
+        .slot {
+            border-radius: 50%;
+            height: 75px;
+            border-style: outset;
+            border-color: #417CF5;
+            background: rgb(0,26,70);
+            background: radial-gradient(circle, rgba(0,26,70,1) 18%, rgba(0,14,37,1) 60%);
+        }
+    </style>
+    <!-- powers are laid out in three columns each 8 powers high-->
+    <div class="row">
+        @for (var c = 0; c < 3; c++)
+        {
+            <div class="col-sm-4">
+                @for (var p = 0; p < 8; p++)
+                {
+                    var powerIndex = p + c * 8;
+                    PowerSlot power = GetPowerAtIndex(powerIndex);
+                    var powerName = GetPowerName(power);
+                    <div class="col-sm-12 enhanced-power ">
+                        <div class="row">
+                            <div class="col-12">@powerName</div>
+                        </div>
+                        <div class="row">
+                            @{ var showEmptySlot = power == null || power.EnhancementSlots == null;}
+                            @if (showEmptySlot)
+                            {
+                                <div class="col-2 slot">&nbsp;</div>
+                            }
+                            else
+                            {
+                                foreach (var slotEntry in power.EnhancementSlots)
+                                {
+                                    <div class="col-2 slot">&nbsp;</div>
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+<pre class="row">
+@CharacterYaml
+</pre>
 }
 
 @code {
-
+    
 }

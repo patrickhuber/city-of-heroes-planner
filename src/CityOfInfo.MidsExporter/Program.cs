@@ -108,7 +108,7 @@ namespace CityOfInfo.MidsExporter
             var playableArchetypes = new Dictionary<string, Archetype>();
 
             var serializer = new SerializerBuilder()
-                .WithNamingConvention(new UnderscoredNamingConvention())
+                .WithNamingConvention(UnderscoredNamingConvention.Instance)
                 .Build();
             databaseReader.OnIssue12HeaderRead += (header) =>
             {
@@ -245,7 +245,7 @@ namespace CityOfInfo.MidsExporter
             var enhancementSetFolder = Path.Combine(outputPath, "enhancement_sets");
 
             var serializer = new SerializerBuilder()
-                .WithNamingConvention(new UnderscoredNamingConvention())
+                .WithNamingConvention(UnderscoredNamingConvention.Instance)
                 .Build();
 
             enhancementDatabaseReader.OnHeaderRead += (header) =>

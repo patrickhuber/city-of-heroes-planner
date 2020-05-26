@@ -1,87 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 
-namespace CityOfInfo.Data.Mids
+namespace CityOfInfo.Data.Mids.Builds
 {
     public class BuildReader
     {
         private readonly BinaryReader _reader;
-        
-        private static readonly byte[] MagicNumber = new byte[4]
-        {
-            // M (ascii)
-            0x4d,
-            // x (ascii)
-            0x78,
-            // D (ascii)
-            0x44,
-            // 12 (decimal)
-            0x0C,
-        };
+        private Character _character;
 
-        public BuildReader(BinaryReader reader)
+        public BuildReader(Character character, BinaryReader reader)
         {
             _reader = reader;
+            _character = character;
         }
 
         public Build Read()
         {
             var build = new Build();
 
-            var magicNumber = ReadMagicNumber();
-            ValidateMagicNumber(magicNumber);
-
-            build.Version = _reader.ReadSingle();
-            build.UseQualifiedNames = _reader.ReadBoolean();
-            build.UseOldSubpowerFields = _reader.ReadBoolean();
-
-            // archetype
-            build.Archetype = new Archetype();
-            build.Archetype.ClassName = _reader.ReadString();
-            var architectClassNameSplit = build.Archetype.ClassName
-                            .Substring("Class_".Length)
-                            .Split('_');             
-            build.Archetype.DisplayName = string.Join(" ", architectClassNameSplit);
-            build.Archetype.Origins = new string[]
-            {
-                _reader.ReadString()
-            };
-
-            // alignment
-            if (build.Version > 1.0f)
-                build.Alignment = _reader.ReadInt32();
-
-            // character name
-            build.CharacterName = _reader.ReadString();
-
             // powersets
             build.PowerSets = ReadPowerSets();
 
             // powers
-            build.LastPower = _reader.ReadInt32() - 1;            
-            build.EnhancedPowers = ReadEnhancedPowers(build);
-            
+            build.LastPower = _reader.ReadInt32() - 1;
+            build.PowerSlots = ReadPowerSlots(build);
+
             return build;
-        }
-
-        private byte[] ReadMagicNumber()
-        {
-            return _reader.ReadBytes(4);
-        }
-
-        private void ValidateMagicNumber(byte[] bytes)
-        {
-            if (bytes == null)
-                throw new Exception("empty magic number");
-            if (bytes.Length != 4)
-                throw new Exception($"invalid magic number size. Expected 4, found {bytes.Length}");
-
-            for (var i = 0; i < bytes.Length; i++)
-                if (bytes[i] != MagicNumber[i])
-                    throw new Exception($"invalid magic number. Error at index {i}. Expected '{MagicNumber[i]} found '{bytes[i]}'");
         }
 
         private List<PowerSet> ReadPowerSets()
@@ -90,62 +35,80 @@ namespace CityOfInfo.Data.Mids
             var powerSets = new List<PowerSet>();
             for (var i = 0; i < powerSetCount; i++)
             {
-                var powerSetName = _reader.ReadString();
-                var powerSet = new PowerSet();
-                powerSet.FullName = powerSetName;
+                var powerSet = ReadPowerSet();
                 powerSets.Add(powerSet);
             }
 
             return powerSets;
         }
 
-        private List<EnhancedPower> ReadEnhancedPowers(Build build)
+        private PowerSet ReadPowerSet()
         {
-            var enhancedPowers = new List<EnhancedPower>();
+            var powerSet = new PowerSet();
+            powerSet.FullName = _reader.ReadString();
+            return powerSet;
+        }
+
+        private List<PowerSlot> ReadPowerSlots(Build build)
+        {
+            var powerSlots = new List<PowerSlot>();
             var powerCount = _reader.ReadInt32() + 1;
             for (var i = 0; i < powerCount; i++)
             {
-                var enhancedPower = ReadEnhancedPower(build);
-                enhancedPowers.Add(enhancedPower);
+                var powerSlot = ReadPowerSlot(build);
+
+                if (powerSlot == null)
+                    continue;
+
+                powerSlots.Add(powerSlot);
             }
 
-            return enhancedPowers;
+            return powerSlots;
         }
 
-        private EnhancedPower ReadEnhancedPower(Build build)
-        {
-            var power = new Power();
-            if (build.UseQualifiedNames)
-                power.FullName = _reader.ReadString();
-            else
-                power.Index = _reader.ReadInt32();
-            
-            // enhanced power, references power and has enhancements in it
-            var enhancedPower = new EnhancedPower();
-            enhancedPower.Power = power;
-            enhancedPower.Level = _reader.ReadSByte();
-            enhancedPower.StatInclude = _reader.ReadBoolean();
-            enhancedPower.VariableValue = _reader.ReadInt32();
-            enhancedPower.SubPowers = ReadSubPowers(build);
-            
-            // enhancement slots
-            enhancedPower.EnhancementSlots = ReadEnhancementSlots(build);
+        private PowerSlot ReadPowerSlot(Build build)
+        {            
+            string fullName = "";
+            int index = -1;
 
-            return enhancedPower;
+            if (_character.UseQualifiedNames)
+                fullName = _reader.ReadString();
+            else
+                index = _reader.ReadInt32();
+
+            if (index == -1 && string.IsNullOrEmpty(fullName))
+                return null;
+
+            var power = new Power();
+
+            // enhanced power, references power and has enhancements in it
+            var powerSlot = new PowerSlot();
+            powerSlot.Power = power;
+            powerSlot.Level = _reader.ReadSByte();
+            powerSlot.StatInclude = _reader.ReadBoolean();
+            powerSlot.VariableValue = _reader.ReadInt32();
+
+            // sub powers
+            powerSlot.SubPowers = ReadSubPowers(build);
+
+            // enhancement slots
+            powerSlot.EnhancementSlots = ReadEnhancementSlots(build);
+
+            return powerSlot;
         }
 
         private List<SubPower> ReadSubPowers(Build build)
         {
             var subPowers = new List<SubPower>();
-            if (!build.UseOldSubpowerFields)            
-                return subPowers;            
+            if (!_character.UseSubpowerFields)
+                return subPowers;
 
             var subPowerCount = _reader.ReadSByte() + 1;
             for (var i = 0; i < subPowerCount; i++)
             {
                 var subPower = ReadSubPower(build);
                 subPowers.Add(subPower);
-            }            
+            }
 
             return subPowers;
         }
@@ -153,7 +116,7 @@ namespace CityOfInfo.Data.Mids
         private SubPower ReadSubPower(Build build)
         {
             var subPower = new SubPower();
-            if (build.UseOldSubpowerFields)
+            if (_character.UseSubpowerFields)
                 subPower.Name = _reader.ReadString();
             else
                 subPower.Index = _reader.ReadInt32();
@@ -173,7 +136,7 @@ namespace CityOfInfo.Data.Mids
 
             return enhancementSlots;
         }
-        
+
         private EnhancementSlot ReadEnhancementSlot(Build build)
         {
             var enhancementSlot = new EnhancementSlot();
@@ -189,9 +152,9 @@ namespace CityOfInfo.Data.Mids
         private EnhancementSlotEntry ReadEnhancementSlotEntry(Build build)
         {
             var enhancement = new Enhancement();
-            if (build.UseQualifiedNames)
+            if (_character.UseQualifiedNames)
                 enhancement.Name = _reader.ReadString();
-            else            
+            else
                 enhancement.Index = _reader.ReadInt32();
 
             var enhancementSlotEntry = new EnhancementSlotEntry();
@@ -212,7 +175,7 @@ namespace CityOfInfo.Data.Mids
         {
             var slotData = new List<sbyte>();
             slotData.Add(_reader.ReadSByte());
-            if (build.Version > 1.0)
+            if (_character.Version > SchemaVersion.v1_0_0)
                 slotData.Add(_reader.ReadSByte());
             return slotData;
         }

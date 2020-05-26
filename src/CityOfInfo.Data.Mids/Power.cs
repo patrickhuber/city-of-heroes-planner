@@ -157,7 +157,16 @@ namespace CityOfInfo.Data.Mids
                    Equal(IgnoreEnhancements, power.IgnoreEnhancements) &&
                    Equal(IgnoreBuffs, power.IgnoreBuffs) &&
                    Equal(Effects, power.Effects) &&
-                   Requirement.Equals(power.Requirement);
+                   Equal(Requirement, power.Requirement);
+        }
+
+        private static bool Equal<T>(T left, T right)
+        {
+            if (left == null && right == null)
+                return true;
+            if (left == null || right == null)
+                return false;
+            return left.Equals(right);
         }
 
         private static bool Equal<T>(T[] first, T[] second)
