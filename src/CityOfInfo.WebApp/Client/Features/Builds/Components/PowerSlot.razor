@@ -1,8 +1,8 @@
 ﻿@using CityOfInfo.Data.Mids;
 
-<div class="col-lg-12 @(Item.Power != null ? "enhanced-power" : "empty-enhanced-power" )">
+<div class="col-lg-12 power">
     @{var powerName = GetPowerName(Item); }
-    <div class="row">
+    <div class="row @(Item.Power != null ? "enhanced-power-name" : "empty-power-name")" >
         <div class="col-12">@powerName</div>
     </div>
     <div class="row">

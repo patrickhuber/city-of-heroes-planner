@@ -6,59 +6,63 @@
 @if (CharacterData != null)
 {
     <dl class="row">
-        <dt class="col-md-3">Character Name</dt>
-        <dd class="col-md-9">@CharacterData.Name</dd>
+        <dt class="col-md-2">Character Name</dt>
+        <dd class="col-md-10">@CharacterData.Name</dd>
 
-        <dt class="col-md-3">Alignment</dt>
-        <dd class="col-md-9">@CharacterData.Alignment.Name</dd>
+        <dt class="col-md-2">Alignment</dt>
+        <dd class="col-md-10">@CharacterData.Alignment.Name</dd>
 
-        <dt class="col-md-3">Archetype</dt>
-        <dd class="col-md-9">@CharacterData.Archetype.DisplayName</dd>
+        <dt class="col-md-2">Archetype</dt>
+        <dd class="col-md-10">@CharacterData.Archetype.DisplayName</dd>
 
-        <dt class="col-md-3">Origin</dt>
-        <dd class="col-md-9">@(CharacterData.Archetype.Origins.FirstOrDefault() ?? "unknown")</dd>
+        <dt class="col-md-2">Origin</dt>
+        <dd class="col-md-10">@(CharacterData.Archetype.Origins.FirstOrDefault() ?? "unknown")</dd>
     </dl>
     <style>
-        .enhanced-power {
-            padding-top: 10px;
-            padding-left: 10px;
+        .power-column {
+            max-width: 360px;
+            min-width: 360px;
+        }
+
+        .power {
             margin-bottom: 5px;
+        }
+
+        .enhanced-power-name, .empty-power-name {
+            z-index: -1;
+            margin-bottom: -20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             border-radius: 25px;
             border-style: outset;
+        }
+
+        .enhanced-power-name {
             border-color: #417CF5;
             background: rgb(16,58,122);
             background: linear-gradient(0deg, rgba(16,58,122,1) 10%, rgba(131,178,236,1) 50%);
         }
 
+        .empty-enhanced-power-slot, .enhanced-power-slot {
+            height: 60px;
+            width: 60px;
+        }
+
         .enhanced-power-slot {
-            border-radius: 50%;
-            height: 75px;
-            width: 75px;
+            border-radius: 50%;            
             border-style: outset;
             border-color: #417CF5;
             background: rgb(0,26,70);
             background: radial-gradient(circle, rgba(0,26,70,1) 18%, rgba(0,14,37,1) 60%);
         }
 
-        .empty-enhanced-power {
-            padding-top: 10px;
-            padding-left: 10px;
-            margin-bottom: 5px;
-            border-radius: 25px;
-            border-style: outset;
+        .empty-power-name {
             border-color: #6D6D6D;
             background: rgb(109,109,109);
             background: linear-gradient(0deg, rgb(109,109,109) 10%, rgba(51,51,51,1) 50%);
         }
 
-        .empty-enhanced-power-slot {
-            height: 75px;
-            width: 75px;
-        }
-
-        .power-column {
-            max-width: 500px;
-            min-width: 500px;
+        .empty-enhanced-power-slot {            
         }
     </style>
     <!-- powers are laid out in three columns each 8 powers high-->
