@@ -4,18 +4,27 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CityOfInfo.Domain.Mids
 {
-    public class MidsDomainContextProvider : IDomainContextFactory
+    public class MidsDomainContextFactory : IDomainContextFactory
     {
-        private readonly DatabaseReader _reader;        
+        private IDomainContextLoader _loader;
 
         /// <summary>
-        /// Creates an instance of the context provider from the given reader
+        /// Creates an instance of the context provider from the given readers
         /// </summary>
         /// <remarks>may want to encapsulate this usage because reader is stateful and Create modifies that state.</remarks>
-        /// <param name="reader">the database reader to use.</param>
-        public MidsDomainContextProvider(DatabaseReader reader)
+        /// <param name="databaseReader">the database reader to use.</param>
+        public MidsDomainContextFactory(DatabaseReader databaseReader, EnhancementDatabaseReader enhancementDatabaseReader)
         {
-            _reader = reader;            
+            _loader = new MidsDomainContextLoader(databaseReader, enhancementDatabaseReader);            
+        }
+
+        /// <summary>
+        /// Creates the context factor with the context loader
+        /// </summary>
+        /// <param name="loader"></param>
+        public MidsDomainContextFactory(IDomainContextLoader loader)
+        {
+            _loader = loader;
         }
 
         public DomainContext Create()
@@ -25,28 +34,7 @@ namespace CityOfInfo.Domain.Mids
                 .Options;
 
             var context = new DomainContext(options);
-
-            _reader.OnArchetypeRead += (archetype) => 
-            {
-                var domainArchetype = new Archetype
-                {
-                    Name = archetype.ClassName,
-                };
-                context.Archetypes.Add(domainArchetype);
-            };
-            _reader.OnPowerSetRead += (powerset) => 
-            {
-
-            };
-            _reader.OnPowerRead += (power) => 
-            {
-
-            };
-
-            while (_reader.Read());
-
-            context.SaveChanges();
-
+            _loader.Load(context);
             return context;
         }
     }

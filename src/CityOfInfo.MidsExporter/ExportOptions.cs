@@ -3,7 +3,7 @@
 namespace CityOfInfo.MidsExporter
 {
     [Verb("export",  HelpText="Exports the mids database")]
-    internal class ExportOptions
+    public class ExportOptions
     {
         [Option('d', "database", Required = true)]
         public string DatabasePath { get; set; }

@@ -70,7 +70,10 @@ namespace CityOfInfo.Data.Mids
                     OnEnhancementRead?.Invoke(enhancement);
                     _enhancementIndex++;
                     if (_enhancementIndex > _enhancementCount)
+                    {
                         _state = State.EnhancementSets;
+                        OnEnhancementsCompleted?.Invoke();
+                    }
                     return true;
 
                 case State.EnhancementSets:
@@ -93,6 +96,7 @@ namespace CityOfInfo.Data.Mids
                     if (_enhancementSetIndex > _enhancementSetCount)
                     {
                         _state = State.End;
+                        OnEnhancementSetsCompleted?.Invoke();
                         return false;
                     }
 
@@ -108,6 +112,8 @@ namespace CityOfInfo.Data.Mids
 
         public event Action<EnhancementDatabaseHeader> OnHeaderRead;
         public event Action<Enhancement> OnEnhancementRead;
+        public event Action OnEnhancementsCompleted;
         public event Action<EnhancementSet> OnEnhancementSetRead;
+        public event Action OnEnhancementSetsCompleted;
     }
 }

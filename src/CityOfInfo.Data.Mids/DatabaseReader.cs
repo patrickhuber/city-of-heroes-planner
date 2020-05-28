@@ -110,14 +110,18 @@ namespace CityOfInfo.Data.Mids
                     if (_powerHeader.Count < _powerIndex)
                         return false;
 
-                    if (_powerReader == null)
-                        _powerReader = new PowerReader(_reader);
+                    if (_powerReader == null)                    
+                        _powerReader = new PowerReader(_reader);                        
+                    
 
                     var power = _powerReader.Read();
                     OnPowerRead?.Invoke(power);
                     _powerIndex++;
                     if (_powerIndex > _powerHeader.Count)
+                    {
                         _state = State.Summons;
+                        OnPowersCompleted?.Invoke();
+                    }
 
                     return true;
 
@@ -138,8 +142,9 @@ namespace CityOfInfo.Data.Mids
         public event Action<RecordHeader> OnPowerSetHeaderRead;
         public event Action<PowerSet> OnPowerSetRead;
 
-        // powers
+        // powers        
         public event Action<PowerHeader> OnPowersHeaderRead;
         public event Action<Power> OnPowerRead;
+        public event Action OnPowersCompleted;
     }
 }

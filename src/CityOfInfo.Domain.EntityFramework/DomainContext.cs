@@ -10,11 +10,8 @@ namespace CityOfInfo.Domain.EntityFramework
         public DomainContext(DbContextOptions<DomainContext> options)
             : base(options) { }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Archetype>()
-                .HasKey(a => a.Key);
-        }
-        public DbSet<Archetype> Archetypes { get; set; }
+        public DbSet<Power> Powers { get; set; }
+
+        public DbSet<Enhancement> Enhancements { get; set; }
     }
 }

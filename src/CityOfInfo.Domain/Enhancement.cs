@@ -2,9 +2,7 @@
 {
     public class Enhancement
     {
-        
-        public EnhancementSet EnhancementSet { get; set; }
-
-        public EnhancementEffectModifier[] Effects { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

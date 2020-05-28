@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
     <PackageReference Include="YamlDotNet" Version="8.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CityOfInfo.Data.Mids\CityOfInfo.Data.Mids.csproj" />
+    <ProjectReference Include="..\CityOfInfo.Domain.EntityFramework.Sqlite\CityOfInfo.Domain.EntityFramework.Sqlite.csproj" />
+    <ProjectReference Include="..\CityOfInfo.Domain.Mids\CityOfInfo.Domain.Mids.csproj" />
   </ItemGroup>
 
 </Project>

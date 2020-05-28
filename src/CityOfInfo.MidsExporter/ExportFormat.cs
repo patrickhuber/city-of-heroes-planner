@@ -5,6 +5,7 @@ namespace CityOfInfo.MidsExporter
     {
         // Json,
         Yaml,
+        Sqlite,
         // Html,
         // Markdown,        
     }
