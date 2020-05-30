@@ -4,34 +4,51 @@ group_name: Controller_Control
 set_name: Fire_Control
 name: Smoke
 display: Smoke
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 2048
 entities_auto_hit: 2048
 target: 2048
 target_line_of_sight: true
 range: 80
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 7.80000019
+interrupt_time: 0
 cast_time: 1.16999996
 recharge_time: 15
 base_recharge_time: 15
+activate_period: 0
 effect_area: 2
 radius: 35
+arc: 0
 max_targets: 16
 max_boosts: ''
+cast_flags: 0
 artifical_intelligence_report: 1
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Debuff_ToHit_Boost
 - EnduranceDiscount_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ranged (Targeted AoE), Foe -Perception, -To Hit
 description_long: 'Covers all foes near your target in clouds of Smoke. The villains are so blinded that they can hardly see a thing. Most villains will not be able to see past normal melee range, although some may have better perception. If the villains are attacked, they will be alerted to your presence, but will suffer a penalty to their chance to hit. Recharge: Slow'
 enhancements:
@@ -41,94 +58,178 @@ enhancements:
 - 18
 set_types:
 - 26
+click_buff: false
+always_toggle: false
 level: 6
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Controller_Control.Fire_Control.Smoke
   unique_id: 1
+  effect_class: 0
   effect_type: 23
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: -0.899999976
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Controller_Control.Fire_Control.Smoke
   unique_id: 2
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Controller_Control.Fire_Control.Smoke
   unique_id: 3
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 20
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_DeBuff_ToHit
+  near_ground: false
+  cancel_on_miss: false
   requires_to_hit_check: true
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DeBuff_ToHit
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Controller_Control.Fire_Control.Smoke
   unique_id: 4
+  effect_class: 0
   effect_type: 23
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 1024
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: -0.899999976
   magnitude: 1
   duration: 20
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
   requires_to_hit_check: true
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

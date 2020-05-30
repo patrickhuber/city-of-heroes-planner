@@ -3,26 +3,47 @@ name: Slow
 short_name: Slow
 description: Increases the effectiveness of powers that slow.
 type_id: 1
+sub_type_id: 0
 class_ids:
 - 21
 enhancement_set_id: -1
 enhancement_set_name: ''
 image: Slow.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
 buff_mode: 2
 effects:
-- id: 6
+- mode: 0
+  buff_mode: 0
+  id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 11
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 11
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 19
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 19
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 21
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 21
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Magic_Snare
 recipe: Ticket_Magic
+superior: false

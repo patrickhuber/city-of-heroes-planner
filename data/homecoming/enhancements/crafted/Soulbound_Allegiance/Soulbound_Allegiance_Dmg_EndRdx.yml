@@ -3,6 +3,7 @@ name: Damage/Endurance
 short_name: Dmg/EndRdx
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 123
 enhancement_set_name: Soulbound_Allegiance
@@ -11,13 +12,23 @@ effect_chance: 1
 level_min: 49
 level_max: 49
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 2
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Soulbound_Allegiance_E
 recipe: Soulbound_Allegiance_E
 superior: true

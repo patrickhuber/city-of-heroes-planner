@@ -16,30 +16,35 @@ enhancements:
 bonuses:
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 2
   entities:
   - id: 7692
     name: Set_Bonus.Set_Bonus.Accuracy_3
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 3
   entities:
   - id: 7996
     name: Set_Bonus.Set_Bonus.Increased_Lethal_Smash_Melee_Def_3
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 4
   entities:
   - id: 7906
     name: Set_Bonus.Set_Bonus.Increased_Damage_4
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 5
   entities:
   - id: 7831
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_6
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 6
   entities:
   - id: 8140

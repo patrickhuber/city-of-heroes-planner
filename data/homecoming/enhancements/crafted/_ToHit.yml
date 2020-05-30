@@ -3,6 +3,7 @@ name: To Hit Buff
 short_name: ToHit
 description: Enhances the effectiveness of accuracy buffs.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 24
 enhancement_set_id: -1
@@ -11,12 +12,17 @@ image: ToHitBuff.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
 buff_mode: 1
 effects:
-- buff_mode: 1
+- mode: 0
+  buff_mode: 1
   id: 20
   sub_id: -1
   schedule: 1
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_ToHit_Buff
 recipe: Invention_ToHit_Buff
+superior: false

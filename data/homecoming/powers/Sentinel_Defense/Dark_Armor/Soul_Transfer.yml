@@ -4,12 +4,15 @@ group_name: Sentinel_Defense
 set_name: Dark_Armor
 name: Soul_Transfer
 display: Soul Transfer
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
 attack_types: 260
 group_memberships: []
@@ -17,21 +20,36 @@ entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
+endurance_cost: 0
+interrupt_time: 0
 cast_time: 1.16999996
 recharge_time: 300
 base_recharge_time: 300
+activate_period: 0
 effect_area: 2
 radius: 25
+arc: 0
 max_targets: 10
 max_boosts: ''
 cast_flags: 4
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Damage_Boost
 - Heal_Boost
 - Recharge_Boost
 - Recovery_Boost
 - Stunned_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Self Rez, Special
 description_long: 'Should you fall in battle, you can perform a Soul Transfer, sucking the life force of all foes around you to bring yourself back from the brink of death. The more foes nearby, the more life is restored to you. Drained foes are left Disoriented. The dark effects of this Soul Transfer will actually leave you invulnerable for a brief time, and protected from XP Debt for 60 seconds. There must be at least one foe nearby to fuel the Transfer and revive yourself. Damage: Moderate, Recharge: Very Long'
 enhancements:
@@ -47,7 +65,10 @@ set_types:
 - 11
 - 22
 - 44
+click_buff: false
+always_toggle: false
 level: 38
+allow_front_loading: false
 variable_enabled: true
 variable_name: Foes
 variable_min: 1
@@ -55,163 +76,315 @@ variable_max: 10
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 2
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 10
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 10
   magnitude: 30
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 3
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 10
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 30
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 4
+  effect_class: 0
   effect_type: 13
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
   ticks: 1
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 0.5
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Heal
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Heal
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 5
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 13
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 10
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 6
+  effect_class: 0
   effect_type: 7
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.25
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 30
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 7
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 3
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 4
   magnitude: 50
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Sentinel_Defense.Dark_Armor.Soul_Transfer
   unique_id: 8
+  effect_class: 0
   effect_type: 42
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

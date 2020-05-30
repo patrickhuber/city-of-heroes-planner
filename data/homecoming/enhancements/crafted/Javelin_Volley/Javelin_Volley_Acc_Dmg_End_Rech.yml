@@ -3,6 +3,7 @@ name: Accuracy/Damage/End/Rech
 short_name: Acc/Dmg/End/Rech
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 141
 enhancement_set_name: Javelin_Volley
@@ -10,18 +11,38 @@ image: sJavelinVolley.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
-- id: 2
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
+  effect: 
 unique_identifier: Crafted_Javelin_Volley_E
 recipe: Javelin_Volley_E
+superior: false

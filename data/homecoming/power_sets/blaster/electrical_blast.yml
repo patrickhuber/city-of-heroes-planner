@@ -1,4 +1,5 @@
 display_name: Electrical Blast
+archetype: 0
 set_type: 1
 image_name: ElecBlast.png
 full_name: Blaster_Ranged.Electrical_Blast

@@ -3,6 +3,7 @@ name: Accuracy/Damage/Endurance
 short_name: Acc/Dmg/EndRdx
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 8
 enhancement_set_name: Crushing_Impact
@@ -10,15 +11,31 @@ image: sCrushingImpact.png
 effect_chance: 1
 level_min: 29
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 2
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Crafted_Crushing_Impact_E
 recipe: Crushing_Impact_E
+superior: false

@@ -4,26 +4,44 @@ group_name: Defender_Ranged
 set_name: Beam_Rifle
 name: Single_Shot
 display: Single Shot
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1.04999995
 attack_types: 130
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 2048
 target_line_of_sight: true
 range: 80
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 5.19999981
+interrupt_time: 0
 cast_time: 1
 recharge_time: 4
 base_recharge_time: 4
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
@@ -31,6 +49,8 @@ boosts_allowed:
 - Knockback_Boost
 - Range_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ranged, Moderate DMG(Energy), Foe Knockdown, Special
 description_long: "You fire a single blast from your Beam Rifle which deals Moderate Energy damage and has a chance to knock the target down.  If the target is suffering from Disintegrate, Single Shot will reduce the target's regeneration rate slightly.  In addition, targets already affected by the Disintegrating effect have a chance to spread to 3 nearby targets.  This Spread Disintegration effect can only hit targets that aren't already affected by the Disintegration effect.  Spread Disintegration causes Minor Energy damage over time.  Damage: Moderate, Recharge: Fast"
 enhancements:
@@ -45,157 +65,289 @@ set_types:
 - 23
 - 37
 - 44
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Ranged_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 1.96635997
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Ranged_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 3
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 4
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 0.200000003
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 0.670000017
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 4
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 4
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 0.200000003
   suppression: 32
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 0.670000017
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 5
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 16
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: -0.75
   magnitude: 1
   duration: 10
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 6
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 16
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: -3
   magnitude: 1
   duration: 10
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Res_Boolean
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Ranged.Beam_Rifle.Single_Shot
   unique_id: 7
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_DisintegrateSpread
+  delayed_time: 0
   ticks: 1
   stacking: 1
   base_probability: 0.200000003
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 16
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 6
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

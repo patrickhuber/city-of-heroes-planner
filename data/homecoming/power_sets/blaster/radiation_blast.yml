@@ -1,4 +1,5 @@
 display_name: Radiation Blast
+archetype: 0
 set_type: 1
 image_name: RadiationBlast.png
 full_name: Blaster_Ranged.Radiation_Blast

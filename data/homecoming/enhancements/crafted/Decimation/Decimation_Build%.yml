@@ -3,6 +3,7 @@ name: Chance of Build Up
 short_name: Build%
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 22
 enhancement_set_name: Decimation
@@ -11,46 +12,97 @@ effect_chance: 1
 level_min: 24
 level_max: 39
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
 - mode: 1
+  buff_mode: 0
   id: -1
   sub_id: -1
+  schedule: 0
   multiplier: 1
   effect:
     power_full_name: ''
+    unique_id: 0
     effect_class: 1
     effect_type: 2
+    damage_type: 0
+    mezmorize_type: 0
+    effect_modifiers: 0
     summon: ''
+    delayed_time: 0
+    ticks: 0
+    stacking: 0
     base_probability: 0.0500000007
+    suppression: 0
     buffable: true
     resistible: true
+    special_case: 0
+    variable_modified_override: false
+    player_versus_mode: 0
+    to_who: 0
+    display_percentage_override: 0
+    scale: 0
+    magnitude: 0
+    duration: 0
+    attrib_type: 0
     aspect: 3
     modifier_table: Melee_Ones
+    near_ground: false
+    cancel_on_miss: false
+    requires_to_hit_check: false
     uid_class_name: ''
     id_class_name: -1
     magnitude_expression: ''
     reward: ''
     effect_id: Ones
+    ignore_enhancement_diversification: false
     override: ''
+    procs_per_minute: 0
 - mode: 1
+  buff_mode: 0
   id: -1
   sub_id: -1
+  schedule: 0
   multiplier: 1
   effect:
     power_full_name: ''
+    unique_id: 0
     effect_class: 1
     effect_type: 27
+    damage_type: 0
+    mezmorize_type: 0
+    effect_modifiers: 0
     summon: ''
+    delayed_time: 0
+    ticks: 0
+    stacking: 0
     base_probability: 0.0500000007
+    suppression: 0
     buffable: true
     resistible: true
+    special_case: 0
+    variable_modified_override: false
+    player_versus_mode: 0
+    to_who: 0
+    display_percentage_override: 0
+    scale: 0
+    magnitude: 0
+    duration: 0
+    attrib_type: 0
     aspect: 3
     modifier_table: Melee_Ones
+    near_ground: false
+    cancel_on_miss: false
+    requires_to_hit_check: false
     uid_class_name: ''
     id_class_name: -1
     magnitude_expression: ''
     reward: ''
     effect_id: Ones
+    ignore_enhancement_diversification: false
     override: ''
+    procs_per_minute: 0
 unique_identifier: Crafted_Decimation_F
 recipe: Decimation_F
+superior: false

@@ -16,28 +16,61 @@ enhancement_set_id: -1
 enhancement_set_name: ''
 image: TNCalcite.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 1
+  schedule: 0
   multiplier: 0.75
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 2
+  schedule: 0
   multiplier: 0.75
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 3
+  schedule: 0
   multiplier: 0.75
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 9
+  schedule: 0
   multiplier: 0.75
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 10
+  schedule: 0
   multiplier: 0.75
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 12
+  schedule: 0
   multiplier: 0.75
+  effect: 
 unique_identifier: Titan_Accuracy_Mez
 recipe: ''
+superior: false

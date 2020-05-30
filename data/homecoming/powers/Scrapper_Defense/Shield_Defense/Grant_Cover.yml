@@ -4,34 +4,50 @@ group_name: Scrapper_Defense
 set_name: Shield_Defense
 name: Grant_Cover
 display: Grant Cover
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 9
 entities_auto_hit: 9
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 0.312000006
+interrupt_time: 0
 cast_time: 2.5
 recharge_time: 10
 base_recharge_time: 10
 activate_period: 2
 effect_area: 2
 radius: 15
+arc: 0
 max_targets: 255
 max_boosts: ''
+cast_flags: 0
 artifical_intelligence_report: 1
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Buff_Defense_Boost
 - EnduranceDiscount_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: PBAoE, Team (but not self) +DEF(All but Psionic), Team +RES(Defense Debuff, Recharge Debuff)
 description_long: 'You are able to use your shield to defend nearby allies.  Any teammates who remain nearby gain a bonus to their defense.  (NOTE: The defense bonus from this power is only applied to nearby team mates, but not yourself.)  Additionally, while this power is active, the user and his team mates  will gain some resistance to defense and recharge rate debuffs. Recharge: Slow'
 enhancements:
@@ -40,228 +56,437 @@ enhancements:
 - 18
 set_types:
 - 7
+click_buff: false
 always_toggle: true
 level: 28
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 1
+  effect_class: 0
   effect_type: 5
   damage_type: 10
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 2
+  effect_class: 0
   effect_type: 5
   damage_type: 11
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 3
+  effect_class: 0
   effect_type: 5
   damage_type: 12
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 4
+  effect_class: 0
   effect_type: 5
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 5
+  effect_class: 0
   effect_type: 5
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 6
+  effect_class: 0
   effect_type: 5
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 7
+  effect_class: 0
   effect_type: 5
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 8
+  effect_class: 0
   effect_type: 5
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 9
+  effect_class: 0
   effect_type: 5
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.125
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 10
+  effect_class: 0
   effect_type: 28
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 0.400000006
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Boolean
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Scrapper_Defense.Shield_Defense.Grant_Cover
   unique_id: 11
+  effect_class: 0
   effect_type: 28
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 25
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 0.300000012
   magnitude: 1
   duration: 2.25
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

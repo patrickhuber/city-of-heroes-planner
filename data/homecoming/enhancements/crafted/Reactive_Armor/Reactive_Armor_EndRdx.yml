@@ -3,6 +3,7 @@ name: Endurance
 short_name: EndRdx
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 47
 enhancement_set_name: Reactive_Armor
@@ -10,9 +11,17 @@ image: sReactiveArmor.png
 effect_chance: 1
 level_min: 14
 level_max: 39
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Reactive_Armor_F
 recipe: Reactive_Armor_F
+superior: false

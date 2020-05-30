@@ -3,6 +3,7 @@ name: Endurance/Range
 short_name: EndRdx/Rng
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 93
 enhancement_set_name: Jaunt
@@ -10,13 +11,24 @@ image: sJaunt.png
 effect_chance: 1
 level_min: 14
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 13
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 13
   sub_id: -1
   schedule: 1
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Jaunt_C
 recipe: Jaunt_C
+superior: false

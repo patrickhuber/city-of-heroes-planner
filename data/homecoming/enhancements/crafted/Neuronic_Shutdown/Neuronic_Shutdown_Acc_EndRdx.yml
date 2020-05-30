@@ -3,6 +3,7 @@ name: Accuracy/Endurance
 short_name: Acc/EndRdx
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 58
 enhancement_set_name: Neuronic_Shutdown
@@ -10,12 +11,24 @@ image: sNeuronicShutdown.png
 effect_chance: 1
 level_min: 9
 level_max: 29
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Neuronic_Shutdown_C
 recipe: Neuronic_Shutdown_C
+superior: false

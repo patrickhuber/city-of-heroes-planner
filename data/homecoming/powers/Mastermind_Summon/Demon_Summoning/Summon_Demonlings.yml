@@ -4,6 +4,7 @@ group_name: Mastermind_Summon
 set_name: Demon_Summoning
 name: Summon_Demonlings
 display: Summon Demonlings
+available: 0
 requirement:
   class_names: []
   class_names_not: []
@@ -13,27 +14,45 @@ requirement:
   - - ISRETAILACCOUNT
     - ''
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 19.5
+interrupt_time: 0
 cast_time: 4
 recharge_time: 60
 base_recharge_time: 60
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
 cast_flags: 2
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
 - EnduranceDiscount_Boost
 - Slow_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Summon Demonlings
 description_long: 'Call forth up to three demonlings (depending on your level) to do your bidding. The first demonling is adept at manipulating fire, the second blasts your foes with cold attacks and the third is able to wield hellfire to deal fire/toxic damage. You may only have three demonlings under your command at any given time. If you attempt to summon more demonlings, you can only replace those that have been lost in battle. If you already have your maximum allowed amount, the power will fail. Recharge: Very Long'
 enhancements:
@@ -47,248 +66,585 @@ set_types:
 - 27
 - 40
 - 44
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: Class_Minion_Henchman
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Mastermind_Summon.Demon_Summoning.Summon_Demonlings
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Fiery_Demonling
   delayed_time: 3.32999992
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Levelminus2
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Summon_Demonlings
   unique_id: 2
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Cold_Demonling
   delayed_time: 3.82999992
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Levelminus2
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Summon_Demonlings
   unique_id: 3
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Hellfire_Demonling
   delayed_time: 4.32999992
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Levelminus2
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Cold_Demonling.Claw_Rake
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Cold_Demonling.Ice_Bolt
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Cold_Demonling_2.Ice_Blast
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Cold_Demonling_3.Frost_Breath
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 54
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Fiery_Demonling.Claw_Rake
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Fiery_Demonling.Flares
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Fiery_Demonling_2.Fire_Blast
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Fiery_Demonling_3.Fire_Breath
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 54
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling.Claw_Rake
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling.Corruption
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling_2.Hellfire
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 54
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

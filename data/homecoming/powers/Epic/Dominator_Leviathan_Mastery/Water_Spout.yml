@@ -4,6 +4,7 @@ group_name: Epic
 set_name: Dominator_Leviathan_Mastery
 name: Water_Spout
 display: Water Spout
+available: 0
 requirement:
   class_names:
   - Class_Controller
@@ -11,22 +12,38 @@ requirement:
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 74
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 26
+interrupt_time: 0
 cast_time: 1.16999996
 recharge_time: 180
 base_recharge_time: 180
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
 cast_flags: 2
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Damage_Boost
 - Debuff_Defense_Boost
@@ -35,6 +52,8 @@ boosts_allowed:
 - Range_Boost
 - Recharge_Boost
 - Stunned_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: 'Summon Water Spout: PBAoE Minor DMG(Smash), Foe Knockback, Fear, Disorient'
 description_long: 'Conjures up a Water Spout at a targeted location. The Water Spout will chase down your foes, tossing them into the air and hurling them great distances. The victims are left Disoriented and with reduced Defense. The Water Spout is a menacing sight, and can even cause panic among your foes. Recharge: Long'
 enhancements:
@@ -51,32 +70,67 @@ set_types:
 - 21
 - 23
 - 44
+click_buff: false
+always_toggle: false
 level: 35
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Epic.Dominator_Leviathan_Mastery.Water_Spout
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Patron_Powers_Water_Spout
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Level
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

@@ -10,6 +10,7 @@ origins:
 - Science
 - Technology
 class_type: 1
+column: 0
 class_name: Class_Blaster
 description_short: Superior ranged attacks and tactical support.
 primary_group: Blaster_Ranged

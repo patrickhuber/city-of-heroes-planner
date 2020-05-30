@@ -4,35 +4,52 @@ group_name: Controller_Buff
 set_name: Nature_Affinity
 name: Lifegiving_Spores
 display: Lifegiving Spores
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 0.25999999
+interrupt_time: 0
 cast_time: 2.32999992
 recharge_time: 4
 base_recharge_time: 4
 activate_period: 1
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
 cast_flags: 2
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Heal_Boost
 - Range_Boost
 - Recharge_Boost
 - Recovery_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Toggle (Location AoE), PBAoE +Minor Heal Over Time, +Endurance
 description_long: 'When activating this power you cause all allies at a selected location to recover a small amount of health and endurance every few seconds as long as they remain within the Lifegiving Spores.  Recharge: Very Fast'
 enhancements:
@@ -44,31 +61,67 @@ enhancements:
 set_types:
 - 9
 - 22
+click_buff: false
+always_toggle: false
 level: 16
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Controller_Buff.Nature_Affinity.Lifegiving_Spores
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Lifegiving_Spores_Controller
   delayed_time: 1.5
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 99999
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

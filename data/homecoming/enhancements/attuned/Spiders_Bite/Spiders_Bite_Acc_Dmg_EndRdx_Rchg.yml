@@ -3,25 +3,46 @@ name: Accuracy/Damage/Endurance/RechargeTime
 short_name: Acc/Dmg/EndRdx/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 194
 enhancement_set_name: Spiders_Bite
 image: AO_Arachnos2.png
 effect_chance: 1
+level_min: 0
 level_max: -1
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
-- id: 2
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.4375
+  effect: 
 unique_identifier: Attuned_Spiders_Bite_E
 recipe: Alt
+superior: false

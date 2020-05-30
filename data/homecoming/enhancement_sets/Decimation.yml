@@ -16,30 +16,35 @@ enhancements:
 bonuses:
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 2
   entities:
   - id: 7745
     name: Set_Bonus.Set_Bonus.Energy_Neg_Mez_Res_1
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 3
   entities:
   - id: 7974
     name: Set_Bonus.Set_Bonus.Increased_Health_2
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 4
   entities:
   - id: 7913
     name: Set_Bonus.Set_Bonus.Increased_Endurance_4
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 5
   entities:
   - id: 7829
     name: Set_Bonus.Set_Bonus.Improved_Recharge_Time_4
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 6
   entities:
   - id: 8214

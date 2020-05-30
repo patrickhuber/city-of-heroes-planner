@@ -4,31 +4,51 @@ group_name: Defender_Buff
 set_name: Pain_Domination
 name: Conduit_of_Pain
 display: Conduit of Pain
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 67108864
 entities_auto_hit: 67108864
 target: 67108864
 target_line_of_sight: true
 range: 15
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 26
+interrupt_time: 0
 cast_time: 3.20000005
 recharge_time: 180
 base_recharge_time: 180
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Range_Boost
 - Recharge_Boost
 - Recovery_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ally Rez, Self +DMG, +Recharge, +Recovery, +To Hit, +Special
 description_long: 'You revive a fallen ally by becoming a Conduit of Pain and transferring the pain that was inflicted upon them back upon your enemies.  This will briefly empower you increasing your damage output, recovery rate, attack rate and chance to hit.  After a minute the effect will wear off leaving you weakened for 30 seconds.  Your damage, attack rate and chance to hit will all be reduced during this period.  Recharge: Very Long.'
 enhancements:
@@ -39,471 +59,917 @@ enhancements:
 set_types:
 - 22
 click_buff: true
+always_toggle: false
 level: 6
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 1
+  effect_class: 0
   effect_type: 13
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
   ticks: 1
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 4
   magnitude: 1
   duration: 0.5
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 2
+  effect_class: 0
   effect_type: 7
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.25
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 4
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 3
+  effect_class: 0
   effect_type: 42
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 2
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 4
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.75
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 5
+  effect_class: 0
   effect_type: 9
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 25
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.75
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 6
+  effect_class: 0
   effect_type: 4
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 7
+  effect_class: 0
   effect_type: 4
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 8
+  effect_class: 0
   effect_type: 4
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 9
+  effect_class: 0
   effect_type: 4
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 10
+  effect_class: 0
   effect_type: 4
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 11
+  effect_class: 0
   effect_type: 4
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 12
+  effect_class: 0
   effect_type: 4
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 13
+  effect_class: 0
   effect_type: 4
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 14
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 60
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Buff_ToHit
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 15
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 16
+  effect_class: 0
   effect_type: 4
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 17
+  effect_class: 0
   effect_type: 4
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 18
+  effect_class: 0
   effect_type: 4
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 19
+  effect_class: 0
   effect_type: 4
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 20
+  effect_class: 0
   effect_type: 4
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 21
+  effect_class: 0
   effect_type: 4
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 22
+  effect_class: 0
   effect_type: 4
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 23
+  effect_class: 0
   effect_type: 4
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_Dam
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Defender_Buff.Pain_Domination.Conduit_of_Pain
   unique_id: 24
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 60
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Debuff_ToHit
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Debuff_ToHit
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

@@ -4,484 +4,1000 @@ group_name: Temporary_Powers
 set_name: Temporary_Powers
 name: Fortune_The_Lovers
 display: The Lovers
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
+endurance_cost: 0
+interrupt_time: 0
+cast_time: 0
+recharge_time: 0
+base_recharge_time: 0
 activate_period: 10
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
 life_time_in_game: 1200
 number_allowed: 1
+do_not_save: false
 boosts_allowed: []
+cast_through_hold: false
 ignore_strength: true
 description_short: +Regen, +Recovery, +Buff Special
 description_long: 'Your fortune: The Lovers.  The Lovers symbolize Love, Beauty, and Harmony.  Your Regeneration and Recovery rate have been boosted.  Also, all your Heals, Hit point boosters, Regeneration powers, and Recovery powers are increased in effectiveness. Additionally, any regeneration debuffs and recovery debuffs are also increased'
 enhancements: []
 set_types: []
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 1
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.25
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 2
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 3
+  effect_class: 0
   effect_type: 9
   damage_type: 10
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 4
+  effect_class: 0
   effect_type: 9
   damage_type: 11
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 5
+  effect_class: 0
   effect_type: 9
   damage_type: 12
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 6
+  effect_class: 0
   effect_type: 9
   damage_type: 1
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 7
+  effect_class: 0
   effect_type: 9
   damage_type: 2
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 8
+  effect_class: 0
   effect_type: 9
   damage_type: 3
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 9
+  effect_class: 0
   effect_type: 9
   damage_type: 4
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 10
+  effect_class: 0
   effect_type: 9
   damage_type: 5
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 11
+  effect_class: 0
   effect_type: 9
   damage_type: 6
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 12
+  effect_class: 0
   effect_type: 9
   damage_type: 8
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 13
+  effect_class: 0
   effect_type: 9
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 13
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 14
+  effect_class: 0
   effect_type: 9
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 27
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 15
+  effect_class: 0
   effect_type: 9
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 26
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 16
+  effect_class: 0
   effect_type: 9
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 14
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 10.25
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 17
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Fool
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 18
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Magician
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 19
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Hermit
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 20
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_Wheel_of_Fortune
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 21
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_Death
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 22
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Tower
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 23
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Tower_Buff
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 24
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Moon
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Temporary_Powers.Temporary_Powers.Fortune_The_Lovers
   unique_id: 25
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Fortune_The_Sun
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

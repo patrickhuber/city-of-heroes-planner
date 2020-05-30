@@ -3,17 +3,26 @@ name: Interrupt Reduction
 short_name: IntRdx
 description: Decreases interrupt time of powers that can be interrupted.
 type_id: 1
+sub_type_id: 0
 class_ids:
 - 1
 enhancement_set_id: -1
 enhancement_set_name: ''
 image: Interrupt.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 9
+- mode: 0
+  buff_mode: 0
+  id: 9
   sub_id: -1
   schedule: 2
   multiplier: 1
+  effect: 
 unique_identifier: Magic_Interrupt
 recipe: Ticket_Magic
+superior: false

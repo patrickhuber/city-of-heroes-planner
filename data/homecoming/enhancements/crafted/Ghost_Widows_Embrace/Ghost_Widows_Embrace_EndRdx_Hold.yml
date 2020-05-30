@@ -3,6 +3,7 @@ name: Endurance/Hold
 short_name: EndRdx/Hold
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 61
 enhancement_set_name: Ghost_Widows_Embrace
@@ -10,12 +11,24 @@ image: sGhostWidowsEmbrace.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 2
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Ghost_Widows_Embrace_B
 recipe: Ghost_Widows_Embrace_B
+superior: false

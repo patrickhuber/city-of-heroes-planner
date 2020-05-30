@@ -3,6 +3,7 @@ name: Accuracy/Endurance/Healing
 short_name: Acc/EndRdx/Heal
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 131
 enhancement_set_name: Theft_of_Essence
@@ -10,24 +11,52 @@ image: TheftOfEssence.png
 effect_chance: 1
 level_min: 9
 level_max: 29
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 7
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 7
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 8
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 8
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 17
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 17
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 22
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 22
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Theft_of_Essence_D
 recipe: Theft_of_Essence_D
+superior: false

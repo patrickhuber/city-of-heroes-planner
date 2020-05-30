@@ -4,31 +4,51 @@ group_name: Pool
 set_name: Manipulation
 name: Challenge
 display: Pacify
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 66
+power_type: 0
 accuracy: 1.20000005
 attack_types: 2
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 2048
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 6.5
+interrupt_time: 0
 cast_time: 1.66999996
 recharge_time: 60
 base_recharge_time: 60
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - EnduranceDiscount_Boost
 - Range_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ranged, Placate (Foe)
 description_long: Through persuasion or subtle intimidation, you attempt to placate a single target for a short time. If successful, the affected target will no longer attack you. This persists until the effect expires or you attack the target. Unlike other placation effects, this power will not hide you or give any concealment bonuses.
 enhancements:
@@ -37,56 +57,104 @@ enhancements:
 - 17
 - 18
 set_types: []
+click_buff: false
+always_toggle: false
 level: 4
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Pool.Manipulation.Challenge
   unique_id: 1
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 7
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 8
   magnitude: 3
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Manipulation.Challenge
   unique_id: 2
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 7
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 4
   magnitude: 3
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

@@ -3,6 +3,7 @@ name: Endurance/Recharge/Slow
 short_name: EndRdx/Rchg/Slow
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 73
 enhancement_set_name: Tempered_Readiness
@@ -10,24 +11,52 @@ image: sTemperedReadiness.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 19
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 19
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 6
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 11
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 11
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 21
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 21
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Crafted_Tempered_Readiness_E
 recipe: Tempered_Readiness_E
+superior: false

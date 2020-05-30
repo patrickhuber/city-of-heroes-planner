@@ -3,6 +3,7 @@ name: Accuracy/Fear/Recharge
 short_name: Acc/Fear/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 82
 enhancement_set_name: Glimpse_of_the_Abyss
@@ -10,15 +11,31 @@ image: sGlimpseOfTheAbyss.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 12
+  schedule: 0
   multiplier: 0.5
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Crafted_Glimpse_of_the_Abyss_E
 recipe: Glimpse_of_the_Abyss_E
+superior: false

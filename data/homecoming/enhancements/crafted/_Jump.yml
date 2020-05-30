@@ -3,6 +3,7 @@ name: Jumping
 short_name: Jump
 description: Increases the distance of a jump power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 14
 enhancement_set_id: -1
@@ -11,12 +12,24 @@ image: Jump.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 10
+- mode: 0
+  buff_mode: 0
+  id: 10
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 11
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 11
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Jump
 recipe: Invention_Jump
+superior: false

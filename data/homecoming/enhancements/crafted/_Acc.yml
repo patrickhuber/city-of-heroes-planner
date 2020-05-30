@@ -3,6 +3,7 @@ name: Accuracy
 short_name: Acc
 description: Increases the accuracy of a power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 0
 enhancement_set_id: -1
@@ -11,9 +12,17 @@ image: Acc.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Accuracy
 recipe: Invention_Accuracy
+superior: false

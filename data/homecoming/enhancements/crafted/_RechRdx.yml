@@ -3,6 +3,7 @@ name: Recharge Reduction
 short_name: RechRdx
 description: Reduces the recharge time of a power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 17
 enhancement_set_id: -1
@@ -11,9 +12,17 @@ image: Recharge.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 14
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Recharge
 recipe: Invention_Recharge
+superior: false

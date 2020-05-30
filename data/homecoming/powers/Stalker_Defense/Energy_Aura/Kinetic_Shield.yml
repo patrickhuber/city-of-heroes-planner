@@ -4,31 +4,50 @@ group_name: Stalker_Defense
 set_name: Energy_Aura
 name: Kinetic_Shield
 display: Kinetic Shield
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 0.129999995
+interrupt_time: 0
 cast_time: 0.730000019
 recharge_time: 4
 base_recharge_time: 4
 activate_period: 0.5
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Buff_Defense_Boost
 - EnduranceDiscount_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: 'Toggle: Self +DEF(Smashing, Lethal, Energy), Res(DeBuff DEF)'
 description_long: 'Kinetic Shield creates a harmonic Energy Aura that can deflect physical attacks.  Your Defense to Smashing and Lethal attacks is increased as weapons and powers like bullets, blades and punches tend to deflect off the shield. Kinetic Shield also grants you good resistance to Defense Debuffs. The Energy based nature of Kinetic Shield also offers some minimal Defense to Energy attacks.  Kinetic Shield also adds an Elusivity defense bonus to Smashing, Lethal, and Energy Attacks in PVP zones.  Recharge: Fast'
 enhancements:
@@ -37,213 +56,400 @@ enhancements:
 - 18
 set_types:
 - 7
+click_buff: false
 always_toggle: true
 level: 2
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 1
+  effect_class: 0
   effect_type: 5
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 2.20000005
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 2
+  effect_class: 0
   effect_type: 5
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 2.20000005
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 3
+  effect_class: 0
   effect_type: 5
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 0.349999994
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 4
+  effect_class: 0
   effect_type: 5
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.20000005
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 5
+  effect_class: 0
   effect_type: 5
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.20000005
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 6
+  effect_class: 0
   effect_type: 5
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 0.25
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Def
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 7
+  effect_class: 0
   effect_type: 44
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 8
+  effect_class: 0
   effect_type: 44
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 9
+  effect_class: 0
   effect_type: 44
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Energy_Aura.Kinetic_Shield
   unique_id: 10
+  effect_class: 0
   effect_type: 28
+  damage_type: 0
+  mezmorize_type: 0
   effect_modifiers: 5
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Boolean
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Boolean
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

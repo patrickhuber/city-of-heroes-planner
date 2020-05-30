@@ -3,6 +3,7 @@ name: Damage Increase
 short_name: Dmg
 description: Increases the Damage done by a power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 3
 enhancement_set_id: -1
@@ -11,9 +12,17 @@ image: Damage.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 2
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Damage
 recipe: Invention_Damage
+superior: false

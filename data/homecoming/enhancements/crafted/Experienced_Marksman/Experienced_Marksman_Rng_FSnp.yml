@@ -11,10 +11,17 @@ image: eMarksman.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 13
+- mode: 0
+  buff_mode: 0
+  id: 13
   sub_id: -1
   schedule: 1
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Experienced_Marksman_C
 recipe: ''
+superior: false

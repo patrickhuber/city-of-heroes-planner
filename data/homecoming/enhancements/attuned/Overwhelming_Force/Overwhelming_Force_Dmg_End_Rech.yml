@@ -3,22 +3,39 @@ name: Damage/Endurance/Recharge
 short_name: Dmg/End/Rech
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 171
 enhancement_set_name: Overwhelming_Force
 image: UD_Overwhelming_Force.png
 effect_chance: 1
+level_min: 0
 level_max: 49
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 2
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Attuned_Overwhelming_Force_D
 recipe: Overwhelming_Force_D
+superior: false

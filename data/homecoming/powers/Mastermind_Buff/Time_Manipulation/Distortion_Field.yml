@@ -4,32 +4,52 @@ group_name: Mastermind_Buff
 set_name: Time_Manipulation
 name: Distortion_Field
 display: Distortion Field
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 70
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 14.5600004
+interrupt_time: 0
 cast_time: 2.02999997
 recharge_time: 60
 base_recharge_time: 60
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Hold_Boost
 - Range_Boost
 - Recharge_Boost
 - Slow_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ranged (Location AoE), Foe(-Recharge, -Speed), Chance for Hold
 description_long: 'You can choose an area to slow the flow of time down to a crawl. Enemies who enter the field will have their attack rate and speed slowed dramatically. In addition, affected enemies might become held as they are frozen in time. Targets affected by Time Crawl will have the chance to be held increased. Recharge: Very Long'
 enhancements:
@@ -41,33 +61,67 @@ enhancements:
 set_types:
 - 10
 - 13
+click_buff: false
+always_toggle: false
 level: 16
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Mastermind_Buff.Time_Manipulation.Distortion_Field
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_DistortionField_Mastermind
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 45
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Level
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

@@ -3,19 +3,33 @@ name: Intangibility Duration
 short_name: Intan
 description: Increases the duration of an intangibiltiy power.
 type_id: 1
+sub_type_id: 0
 class_ids:
 - 13
 enhancement_set_id: -1
 enhancement_set_name: ''
 image: Intan.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 12
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 6
+  schedule: 0
   multiplier: 1
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 13
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Magic_Intangible
 recipe: Ticket_Magic
+superior: false

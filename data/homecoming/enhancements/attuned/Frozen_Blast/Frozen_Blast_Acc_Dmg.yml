@@ -3,19 +3,32 @@ name: Accuracy/Damage
 short_name: Acc/Dmg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 204
 enhancement_set_name: Frozen_Blast
 image: suFrozen_Blast.png
 effect_chance: 1
+level_min: 0
 level_max: 52
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 2
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Attuned_Frozen_Blast_A
 recipe: Alt
+superior: false

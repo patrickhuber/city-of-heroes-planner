@@ -4,31 +4,51 @@ group_name: Blaster_Support
 set_name: Gadgets
 name: Auto_Turret
 display: Gun Drone
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 39
+interrupt_time: 0
 cast_time: 1
 recharge_time: 180
 base_recharge_time: 180
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
 artifical_intelligence_report: 1
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
 - EnduranceDiscount_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: 'Build Turret: Ranged, Moderate DMG(Lethal)'
 description_long: 'You can summon a Gun Drone. The Drone has an extremely fast fire rate and is equipped with a customized tracking system. Once locked on, the Drone will continue to unload a volley of lead into the target until it is destroyed. The Drone is armored, but can be destroyed. Damage: Moderate, Recharge: Very Long'
 enhancements:
@@ -41,193 +61,363 @@ set_types:
 - 27
 - 33
 - 44
+click_buff: false
+always_toggle: false
 level: 38
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Turret
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 90
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Level
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 2
+  effect_class: 0
   effect_type: 4
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 3
+  effect_class: 0
   effect_type: 4
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 4
+  effect_class: 0
   effect_type: 4
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 5
+  effect_class: 0
   effect_type: 4
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 6
+  effect_class: 0
   effect_type: 4
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 7
+  effect_class: 0
   effect_type: 4
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 8
+  effect_class: 0
   effect_type: 4
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Blaster_Support.Gadgets.Auto_Turret
   unique_id: 9
+  effect_class: 0
   effect_type: 4
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 11
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0659999996
   magnitude: 1
   duration: 7.5
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Defiance
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

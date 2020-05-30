@@ -3,6 +3,7 @@ name: Heal/Endurance
 short_name: Heal/EndRdx
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 56
 enhancement_set_name: Numinas_Convalesence
@@ -10,21 +11,45 @@ image: sNuminasConvalesence.png
 effect_chance: 1
 level_min: 29
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 7
+- mode: 0
+  buff_mode: 0
+  id: 7
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 8
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 8
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 17
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 17
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 22
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 22
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Numinas_Convalesence_A
 recipe: Numinas_Convalesence_A
+superior: false

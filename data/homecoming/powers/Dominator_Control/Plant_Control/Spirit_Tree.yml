@@ -4,32 +4,51 @@ group_name: Dominator_Control
 set_name: Plant_Control
 name: Spirit_Tree
 display: Spirit Tree
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 20
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 13
+interrupt_time: 0
 cast_time: 3.20000005
 recharge_time: 200
 base_recharge_time: 200
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
 cast_flags: 2
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Heal_Boost
 - Range_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: 'Place Tree: PBAoE +Regen'
 description_long: 'You can tap into the elusive and powerful energy of the World Tree and extract a Spirit Tree at a targeted location. The Sprit Tree is immobile, but possesses incredible regenerative powers. The Regeneration Rate of you, or your allies, will be greatly increased as long as you are near the Spirit Tree.  Recharge: Very Long'
 enhancements:
@@ -40,31 +59,66 @@ enhancements:
 set_types:
 - 9
 click_buff: true
+always_toggle: false
 level: 12
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Dominator_Control.Plant_Control.Spirit_Tree
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Spirit_Tree
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 90
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

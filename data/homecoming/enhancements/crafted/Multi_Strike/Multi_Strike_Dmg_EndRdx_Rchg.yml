@@ -3,6 +3,7 @@ name: Damage/Endurance/Recharge
 short_name: Dmg/EndRdx/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 12
 enhancement_set_name: Multi_Strike
@@ -10,15 +11,31 @@ image: sMultiStrike.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 2
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Crafted_Multi_Strike_F
 recipe: Multi_strike_F
+superior: false

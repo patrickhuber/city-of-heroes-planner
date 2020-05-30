@@ -4,34 +4,50 @@ group_name: Tanker_Defense
 set_name: Bio_Organic_Armor
 name: Adaptation
 display: Evolving Armor
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 2048
 entities_auto_hit: 2048
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 0.129999995
+interrupt_time: 0
 cast_time: 2.93000007
 recharge_time: 10
 base_recharge_time: 10
 activate_period: 0.5
 effect_area: 2
 radius: 8
+arc: 0
 max_targets: 10
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Recharge_Boost
 - Res_Damage_Boost
 - Taunt_Boost
+cast_through_hold: false
 ignore_strength: true
 description_short: Self Toggle, +Res(All), Foe -Res(All), Taunt, +Special
 description_long: "When faced with danger, your Bio Armor reacts by becoming incredibly durable as well as infecting nearby enemies, lowering their resistance to damage. While active, Evolving Armor will grant you small amount of damage resistance, plus an additional amount for each nearby target. Nearby foes will also be taunted and have their damage resistance reduced. While Efficient Adaptation is active, this power grants a moderate bonus to Regeneration and Recovery plus a tiny amount of both for each nearby foe up to 10 foes. While Defensive Adaptation is active you gain a very minor amount of defense and damage resistance for each nearby foe, however you lose the benefit of this power's resistance debuff. If Offensive Adaptation is active this power's damage resistance debuff is increased. These special bonuses are unenhanceable. Recharge: Slow"
@@ -42,32 +58,59 @@ enhancements:
 - 24
 set_types:
 - 8
+click_buff: false
+always_toggle: false
 level: 12
+allow_front_loading: false
 variable_enabled: true
 variable_name: ''
+variable_min: 0
 variable_max: 10
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 1
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 11
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
   resistible: true
   special_case: 14
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
+  near_ground: false
   cancel_on_miss: true
   requires_to_hit_check: true
   uid_class_name: ''
@@ -75,1336 +118,2486 @@ effects:
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 2
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 11
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 3
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 4
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 5
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 6
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 7
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 8
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 9
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 10
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 48
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 11
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 45
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.300000012
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 12
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 45
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0599999987
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 13
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 45
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 14
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 45
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0299999993
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 15
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 16
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 17
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 18
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 19
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 20
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 21
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 22
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
   resistible: true
   special_case: 46
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.33000004
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 23
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.375
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 24
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.375
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 25
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.375
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 26
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.375
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 27
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.300000012
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 28
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 29
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 30
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 31
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0379999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 32
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0379999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 33
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0379999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 34
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0379999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 35
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0299999993
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 36
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0500000007
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 37
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0500000007
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 38
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0500000007
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 39
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.112499997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 40
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.112499997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 41
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.112499997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 42
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.112499997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 43
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0900000036
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 44
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 45
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 46
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.150000006
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 47
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0114000002
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 48
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0114000002
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 49
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0114000002
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 50
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0114000002
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 51
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.00899999961
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 52
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0149999997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 53
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0149999997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 54
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0149999997
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 55
+  effect_class: 0
   effect_type: 5
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.375
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 56
+  effect_class: 0
   effect_type: 5
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.375
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 57
+  effect_class: 0
   effect_type: 5
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.280000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 58
+  effect_class: 0
   effect_type: 5
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.280000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 59
+  effect_class: 0
   effect_type: 5
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.280000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 60
+  effect_class: 0
   effect_type: 5
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.280000001
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 61
+  effect_class: 0
   effect_type: 5
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.200000003
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 62
+  effect_class: 0
   effect_type: 5
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0450000018
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 63
+  effect_class: 0
   effect_type: 5
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0450000018
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 64
+  effect_class: 0
   effect_type: 5
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0335999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 65
+  effect_class: 0
   effect_type: 5
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0335999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 66
+  effect_class: 0
   effect_type: 5
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0335999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 67
+  effect_class: 0
   effect_type: 5
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0335999988
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Defense.Bio_Organic_Armor.Adaptation
   unique_id: 68
+  effect_class: 0
   effect_type: 5
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 7
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0240000002
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_Def
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

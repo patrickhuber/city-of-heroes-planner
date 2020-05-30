@@ -4,26 +4,44 @@ group_name: Tanker_Melee
 set_name: Electrical_Melee
 name: Lightning_Rod
 display: Lightning Rod
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 16384
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 13.5200005
+interrupt_time: 0
 cast_time: 2.56999993
 recharge_time: 90
 base_recharge_time: 90
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
@@ -32,6 +50,8 @@ boosts_allowed:
 - Range_Boost
 - Recharge_Boost
 - Taunt_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: PBAoE Superior DMG(Energy), Foe Knockback; Self Teleport;
 description_long: 'You can polarize your body and become a living Lightning Rod. This power calls forth a massive lightning bolt from the sky to strike you. You can then ride this bolt and instantly Teleport a short distance. You rematerialize in a massive bolt of electricity, dealing massive damage and knocking down all nearby foes. Damage from the lightning bolt is superior. Damage: Superior, Recharge: Slow'
 enhancements:
@@ -48,68 +68,141 @@ set_types:
 - 24
 - 43
 - 44
+click_buff: false
+always_toggle: false
 level: 38
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Tanker_Melee.Electrical_Melee.Lightning_Rod
   unique_id: 1
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 14
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.5
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Melee.Electrical_Melee.Lightning_Rod
   unique_id: 2
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Lightning_Rod_Tanker
   delayed_time: 0.625
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 4
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Tanker_Melee.Electrical_Melee.Lightning_Rod
   unique_id: 3
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Embraced_Lightning_Rod_Tanker
   delayed_time: 0.625
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 4
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

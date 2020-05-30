@@ -3,17 +3,26 @@ name: Resist Damage
 short_name: ResDam
 description: Enhances the damage resistance of a power.
 type_id: 1
+sub_type_id: 0
 class_ids:
 - 18
 enhancement_set_id: -1
 enhancement_set_name: ''
 image: DamRes.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 18
+- mode: 0
+  buff_mode: 0
+  id: 18
   sub_id: -1
   schedule: 1
   multiplier: 1
+  effect: 
 unique_identifier: Magic_Res_Damage
 recipe: Ticket_Magic_Resist
+superior: false

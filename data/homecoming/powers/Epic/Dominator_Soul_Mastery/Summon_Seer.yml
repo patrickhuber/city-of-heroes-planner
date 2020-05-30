@@ -4,6 +4,7 @@ group_name: Epic
 set_name: Dominator_Soul_Mastery
 name: Summon_Seer
 display: Summon Seer
+available: 0
 requirement:
   class_names: []
   class_names_not: []
@@ -19,21 +20,38 @@ requirement:
   - - Epic.Dominator_Soul_Mastery.Dark_Embrace
     - Epic.Dominator_Soul_Mastery.Soul_Drain
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 74
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 26
+interrupt_time: 0
 cast_time: 3.20000005
 recharge_time: 900
 base_recharge_time: 900
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
@@ -41,6 +59,8 @@ boosts_allowed:
 - Immobilized_Boost
 - Range_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: 'Summon Fortunata Seer: Ranged Moderate DMG(Psionic)'
 description_long: 'Ghost Widow has assigned a Fortunata Seer for you to command.  Fortunata Seers can glimpse moments into the future. They use this ability to increase the Perception of their teammate. Your access to this Fortunata Seer is very limited. You can only summon her once every 15 minutes and she will leave after 4 minutes, or if you exit a zone or mission. You must be level 44 and have two other Soul Mastery Powers before selecting this power. Recharge: Extremely Long'
 enhancements:
@@ -54,28 +74,67 @@ set_types:
 - 6
 - 27
 - 44
+click_buff: false
+always_toggle: false
 level: 44
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Epic.Dominator_Soul_Mastery.Summon_Seer
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Patron_Powers_Fortunata_Seer
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 240
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

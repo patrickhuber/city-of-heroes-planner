@@ -11,16 +11,33 @@ enhancement_set_id: -1
 enhancement_set_name: ''
 image: TNKyanite.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 7
+- mode: 0
+  buff_mode: 0
+  id: 7
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 22
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 22
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Titan_Heal_Endurance_Discount
 recipe: ''
+superior: false

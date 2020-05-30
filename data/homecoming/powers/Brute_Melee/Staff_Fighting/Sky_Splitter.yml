@@ -4,26 +4,44 @@ group_name: Brute_Melee
 set_name: Staff_Fighting
 name: Sky_Splitter
 display: Sky Splitter
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1.04999995
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 2048
 target_line_of_sight: true
 range: 9
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 14.3520002
+interrupt_time: 0
 cast_time: 2.82999992
 recharge_time: 15
 base_recharge_time: 15
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
@@ -32,6 +50,8 @@ boosts_allowed:
 - Recharge_Boost
 - Stunned_Boost
 - Taunt_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Melee, Extreme DMG(Smash), Foe Knock Up, Disorient, -Fly, Consumes Perfection
 description_long: "You leap into the air and hammer your foe with an overhead bash from your staff.  Sky Splitter deals Extreme Smashing damage, will knock the target into the air and will briefly disorient your target.  While a form is active, this power will build one level of Perfection if the user has two or less levels, if the user has three levels of Perfection it will consume them and gain some benefit.  3 Levels of Perfection of Body will cause additional smashing damage and grant the user a bonus to damage resistance a short time.  3 Levels of Perfection of Mind will cause additional psionic damage and boost the user's chance to hit for a short time.  3 Levels of Perfection of Soul will cause additional energy damage and increase the user's regeneration and recovery rate briefly.  Damage: Extreme, Recharge: Slow"
 enhancements:
@@ -50,643 +70,1169 @@ set_types:
 - 34
 - 44
 click_buff: true
+always_toggle: false
 level: 32
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements:
 - 13
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
 never_auto_update: true
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
   ticks: 2
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 1.38
   magnitude: 1
   duration: 1.89999998
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
   ticks: 2
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 2.01592994
   magnitude: 1
   duration: 1.89999998
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 3
+  effect_class: 0
   effect_type: 3
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 30
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 0.828000009
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 4
+  effect_class: 0
   effect_type: 3
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 30
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 1.20956004
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 5
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.5
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 6
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 2
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 7
+  effect_class: 0
   effect_type: 3
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 34
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 0.828000009
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 8
+  effect_class: 0
   effect_type: 3
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 34
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 1.20956004
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 9
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 34
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.5
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 10
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 34
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 2
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 11
+  effect_class: 0
   effect_type: 3
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 38
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 0.828000009
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 12
+  effect_class: 0
   effect_type: 3
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 38
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 1.20956004
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 13
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 38
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.5
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 14
+  effect_class: 0
   effect_type: 77
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 38
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 2
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 15
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 10
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 5
   magnitude: 3
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Stun
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Stun
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 16
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 10
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 31
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 3
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 17
+  effect_class: 0
   effect_type: 3
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 1.79999995
   ticks: 2
   stacking: 1
+  base_probability: 0
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.620999992
   magnitude: 1
   duration: 1.89999998
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 18
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 5
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 0.670000017
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 19
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 4
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 32
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 0.670000017
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 20
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 21
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 22
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 23
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 24
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 25
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 26
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 27
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.33000004
   magnitude: 1
   duration: 15
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 28
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 34
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Buff_ToHit
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 29
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 38
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1.25
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 30
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 38
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.829999983
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 31
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 11
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 14
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
+  near_ground: false
   cancel_on_miss: true
   requires_to_hit_check: true
   uid_class_name: ''
@@ -694,354 +1240,784 @@ effects:
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 32
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 11
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 33
+  effect_class: 0
   effect_type: 48
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0500000007
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 34
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 27
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: PerfectionofBody
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 35
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 28
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: PerfectionofBody
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 36
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 28
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_1
   effect_id: PerfectionofBody
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 37
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 29
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   effect_id: PerfectionofBody
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 38
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 29
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_2
   effect_id: PerfectionofBody
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 39
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 30
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Body_Level_3
   effect_id: PerfectionofBody
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 40
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 31
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   effect_id: PerfectionofMind
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 41
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 32
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   effect_id: PerfectionofMind
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 42
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 32
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_1
   effect_id: PerfectionofMind
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 43
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 33
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   effect_id: PerfectionofMind
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 44
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 33
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_2
   effect_id: PerfectionofMind
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 45
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 34
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Mind_Level_3
   effect_id: PerfectionofMind
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 46
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 35
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   effect_id: PerfectionofSoul
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 47
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 36
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   effect_id: PerfectionofSoul
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 48
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 36
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_1
   effect_id: PerfectionofSoul
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 49
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 37
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   effect_id: PerfectionofSoul
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 50
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 37
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_2
   effect_id: PerfectionofSoul
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 51
+  effect_class: 0
   effect_type: 30
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
+  base_probability: 0
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 38
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: Temporary_Powers.Temporary_Powers.Perfection_of_Soul_Level_3
   effect_id: PerfectionofSoul
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Staff_Fighting.Sky_Splitter
   unique_id: 52
+  effect_class: 0
   effect_type: 10
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: -1.60000002
   magnitude: 1
   duration: 10
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

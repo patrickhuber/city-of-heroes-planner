@@ -4,33 +4,50 @@ group_name: Mastermind_Summon
 set_name: Thugs
 name: Equip_Thugs
 display: Equip Thugs
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 65536
 entities_auto_hit: 65536
 target: 65536
 target_line_of_sight: true
 range: 50
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 22.75
+interrupt_time: 0
 cast_time: 1.29999995
 recharge_time: 6
 base_recharge_time: 6
+activate_period: 0
 effect_area: 2
 radius: 30
+arc: 0
 max_targets: 16
 max_boosts: ''
 cast_flags: 2
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Range_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ranged, Equip Thug Henchman
 description_long: 'Equip your Thug Henchmen with better ammo, weapons and training.  This power permanently bestows new weapons and abilities to all of your Thug Henchman. The powers gained are unique and dependent upon the type of Thug Henchman.  This power only works on your Thug Henchmen and you can only Equip your Thug Henchmen once with this power. Recharge: Fast'
 enhancements:
@@ -39,11 +56,29 @@ enhancements:
 - 18
 set_types: []
 click_buff: true
+always_toggle: false
 level: 6
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects: []
+hidden_power: false

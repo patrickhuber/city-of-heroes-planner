@@ -4,26 +4,44 @@ group_name: Brute_Melee
 set_name: Stone_Melee
 name: Seismic_Smash
 display: Seismic Smash
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1.20000005
 attack_types: 9
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 2048
 target_line_of_sight: true
 range: 7
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 18.5119991
+interrupt_time: 0
 cast_time: 1.5
 recharge_time: 20
 base_recharge_time: 20
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
@@ -31,6 +49,8 @@ boosts_allowed:
 - Hold_Boost
 - Recharge_Boost
 - Taunt_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Melee, Extreme DMG(Smashing), Foe Hold
 description_long: 'This massive attack hits with all the force of the Earth itself. It deals tremendous amounts of damage, and may Hold the target if they are not defeated outright. Damage: Extreme, Recharge: Slow'
 enhancements:
@@ -46,137 +66,245 @@ set_types:
 - 24
 - 34
 - 44
+click_buff: false
+always_toggle: false
 level: 18
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements:
 - 13
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 3.55999994
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 2
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 2
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 8
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Immobilize
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Immobilize
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 3
+  effect_class: 0
   effect_type: 3
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 3.04316998
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 4
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 2
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
   suppression: 31
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 5
+  effect_class: 0
   effect_type: 48
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0500000007
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 6
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 11
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 14
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
+  near_ground: false
   cancel_on_miss: true
   requires_to_hit_check: true
   uid_class_name: ''
@@ -184,46 +312,81 @@ effects:
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 7
+  effect_class: 0
   effect_type: 19
+  damage_type: 0
   mezmorize_type: 11
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 1
+  display_percentage_override: 0
   scale: 1
   magnitude: 4
+  duration: 0
   attrib_type: 1
   aspect: 2
   modifier_table: Melee_InherentTaunt
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: InherentTaunt
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Brute_Melee.Stone_Melee.Seismic_Smash
   unique_id: 8
+  effect_class: 0
   effect_type: 3
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
+  base_probability: 0
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 1.602
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: FieryEmbrace
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

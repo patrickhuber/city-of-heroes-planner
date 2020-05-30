@@ -16,30 +16,35 @@ enhancements:
 bonuses:
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 2
   entities:
   - id: 8161
     name: Set_Bonus.Set_Bonus.Sleep_Dur_5
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 3
   entities:
   - id: 7973
     name: Set_Bonus.Set_Bonus.Increased_Health_1
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 4
   entities:
   - id: 7843
     name: Set_Bonus.Set_Bonus.Improved_Regeneration_4
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 5
   entities:
   - id: 8016
     name: Set_Bonus.Set_Bonus.Increased_Move_2
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 6
   entities:
   - id: 8010

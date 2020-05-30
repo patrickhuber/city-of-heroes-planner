@@ -3,6 +3,7 @@ name: Accuracy/Slow
 short_name: Acc/Slow
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 72
 enhancement_set_name: Impeded_Swiftness
@@ -10,24 +11,45 @@ image: sImpededSwiftness.png
 effect_chance: 1
 level_min: 9
 level_max: 29
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- buff_mode: 2
+  effect: 
+- mode: 0
+  buff_mode: 2
   id: 19
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- buff_mode: 2
+  effect: 
+- mode: 0
+  buff_mode: 2
   id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- buff_mode: 2
+  effect: 
+- mode: 0
+  buff_mode: 2
   id: 11
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 21
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 21
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Impeded_Swiftness_A
 recipe: Impeded_Swiftness_A
+superior: false

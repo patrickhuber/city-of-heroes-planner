@@ -3,6 +3,7 @@ name: Hold/Range
 short_name: Hold/Rng
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 60
 enhancement_set_name: Essence_of_Curare
@@ -10,13 +11,24 @@ image: sEssenceOfCurare.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 12
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 2
+  schedule: 0
   multiplier: 0.625
-- id: 13
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 13
   sub_id: -1
   schedule: 1
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Essence_of_Curare_D
 recipe: Essence_of_Curare_D
+superior: false

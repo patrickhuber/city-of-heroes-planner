@@ -16,30 +16,35 @@ enhancements:
 bonuses:
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 2
   entities:
   - id: 8173
     name: Set_Bonus.Set_Bonus.Slow_Resist_3
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 3
   entities:
   - id: 7771
     name: Set_Bonus.Set_Bonus.Fire_Cold_Mez_Res_3
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 4
   entities:
   - id: 7835
     name: Set_Bonus.Set_Bonus.Improved_Recovery_3
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 5
   entities:
   - id: 8009
     name: Set_Bonus.Set_Bonus.Increased_Melee_Lethal_Smash_Def_2
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 6
   entities:
   - id: 7942

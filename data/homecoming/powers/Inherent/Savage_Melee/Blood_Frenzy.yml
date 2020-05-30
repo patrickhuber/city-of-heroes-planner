@@ -4,6 +4,7 @@ group_name: Inherent
 set_name: Savage_Melee
 name: Blood_Frenzy
 display: Blood Frenzy
+available: 0
 requirement:
   class_names: []
   class_names_not: []
@@ -25,29 +26,60 @@ requirement:
   - - Dominator_Assault.Savage_Assault.Call_Swarm
     - ''
   power_ids_not: []
+modes_required: 0
+modes_disallowed: 0
 power_type: 1
+accuracy: 0
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
+endurance_cost: 0
+interrupt_time: 0
+cast_time: 0
+recharge_time: 0
+base_recharge_time: 0
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
+number_allowed: 0
+do_not_save: false
 boosts_allowed: []
+cast_through_hold: false
+ignore_strength: false
 description_short: Self, +DMG, +End Discount, +Special
 description_long: Each stack of Blood Frenzy grants you a small damage and endurance discount buff. It is also consumed by certain powers to empower them. Blood Frenzy stacks up to 5 times. Shred deals additional damage and has a chance to immediately recharge itself per stack of Blood Frenzy. Rending Flurry's damage is increased by each stack of Blood Frenzy, additionally if you have 5 stacks of Blood Frenzy this power's radius is increased. Blood Thirst's heal over time effect is increased with each stack of Blood Frenzy. Additionally, using Blood Thirst with 5 stacks of Blood Frenzy will cause the heal over time effect to heal for a longer duration. Hemorrhage's bleed effect is greatly increased by each stack of Blood Frenzy and executing this power with 5 stacks of Blood Frenzy will increase the duration of the damage over time effect. Using Shred, Rending Flurry, Blood Thirst or Hemorrhage with 5 stacks of Blood Frenzy will cause you to be Exhausted for 8 seconds. While Exhausted you cannot build stacks of Blood Frenzy.
 enhancements: []
 set_types: []
 click_buff: true
+always_toggle: false
 level: 1
+allow_front_loading: false
 variable_enabled: true
 variable_name: Stacks
+variable_min: 0
 variable_max: 5
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
 display_location: 16
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
 show_summon_anyway: true
@@ -56,40 +88,81 @@ never_auto_update_requirements: true
 include_flag: true
 forced_class: ''
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 8
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0599999987
   magnitude: 1
   duration: 10
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 25
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0399999991
   magnitude: 1
   duration: 10
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

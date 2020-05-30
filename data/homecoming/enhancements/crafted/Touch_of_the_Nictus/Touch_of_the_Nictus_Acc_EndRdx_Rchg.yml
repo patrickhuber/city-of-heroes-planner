@@ -3,6 +3,7 @@ name: Accuracy/Endurance/Recharge
 short_name: Acc/EndRdx/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 132
 enhancement_set_name: Touch_of_the_Nictus
@@ -10,15 +11,31 @@ image: TouchOfNictus.png
 effect_chance: 1
 level_min: 29
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Crafted_Touch_of_the_Nictus_E
 recipe: Touch_of_the_Nictus_E
+superior: false

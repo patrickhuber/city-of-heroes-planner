@@ -4,6 +4,7 @@ group_name: Epic
 set_name: Ice_Mastery_Dominator
 name: Ice_Storm
 display: Ice Storm
+available: 0
 requirement:
   class_names: []
   class_names_not: []
@@ -19,27 +20,46 @@ requirement:
   - - Epic.Ice_Mastery_Dominator.Ice_Blast
     - Epic.Ice_Mastery_Dominator.Frozen_Armor
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 74
+power_type: 0
 accuracy: 2
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 19.5
+interrupt_time: 0
 cast_time: 2.02999997
 recharge_time: 120
 base_recharge_time: 120
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Damage_Boost
 - EnduranceDiscount_Boost
 - Range_Boost
 - Recharge_Boost
 - Slow_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Ranged (Location AoE), Minor DoT(Cold), Foe -Recharge, -SPD
 description_long: 'Shred your foes with this Ice Storm. This power deals a lot of damage in a large area and can Slow all affected targets movement and attack speed. You must be level 44 and have two other Ice Mastery Powers before selecting this power. Damage: Minor(DoT), Recharge: Long'
 enhancements:
@@ -52,32 +72,67 @@ set_types:
 - 3
 - 13
 - 44
+click_buff: false
+always_toggle: false
 level: 44
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Epic.Ice_Mastery_Dominator.Ice_Storm
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Epic_IceStorm
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Level
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Level
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

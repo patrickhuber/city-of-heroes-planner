@@ -3,6 +3,7 @@ name: To Hit Buff/Recharge
 short_name: ToHit/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 112
 enhancement_set_name: Rectified_Reticle
@@ -10,14 +11,24 @@ image: sRectifiedReticle.png
 effect_chance: 1
 level_min: 9
 level_max: 19
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- buff_mode: 1
+- mode: 0
+  buff_mode: 1
   id: 20
   sub_id: -1
   schedule: 1
   multiplier: 0.625
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Rectified_Reticle_B
 recipe: Rectified_Reticle_B
+superior: false

@@ -1,4 +1,5 @@
 display_name: Water Blast
+archetype: 0
 set_type: 1
 image_name: WaterBlast.png
 full_name: Blaster_Ranged.Water_Blast

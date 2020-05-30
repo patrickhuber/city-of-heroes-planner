@@ -4,14 +4,17 @@ group_name: Pool
 set_name: Leaping
 name: Long_Jump
 display: Super Jump
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2114
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships:
 - Leap_Group
 - LeapRoot_Group
@@ -19,14 +22,33 @@ entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 0.228
+interrupt_time: 0
+cast_time: 0
+recharge_time: 0
+base_recharge_time: 0
 activate_period: 0.5
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Jump_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: 'Toggle: Self Long Jump'
 description_long: While this power is active, you can leap great distances and heights, easily jumping over buildings and from rooftop to rooftop!  If you attack a target while this power is on, you will temporarily be reduced to a normal jump height.
 enhancements:
@@ -35,172 +57,326 @@ enhancements:
 set_types:
 - 18
 - 28
+click_buff: false
+always_toggle: false
 level: 4
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 1
+  effect_class: 0
   effect_type: 16
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 512
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Leap
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 2
+  effect_class: 0
   effect_type: 17
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 512
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_SpeedJumping
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 3
+  effect_class: 0
   effect_type: 21
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 512
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 10
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 4
+  effect_class: 0
   effect_type: 22
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 512
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 5
+  effect_class: 0
   effect_type: 16
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Leap
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Leap
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 6
+  effect_class: 0
   effect_type: 17
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_SpeedJumping
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: SpeedJumping
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 7
+  effect_class: 0
   effect_type: 21
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 10
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Pool.Leaping.Long_Jump
   unique_id: 8
+  effect_class: 0
   effect_type: 22
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

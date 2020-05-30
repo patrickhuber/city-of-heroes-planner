@@ -4,33 +4,51 @@ group_name: Controller_Control
 set_name: Gravity_Control
 name: Dimension_Shift
 display: Dimension Shift
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 80
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 15.6000004
+interrupt_time: 0
 cast_time: 1.16999996
 recharge_time: 60
 base_recharge_time: 60
 activate_period: 35
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Immobilized_Boost
 - Range_Boost
 - Recharge_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Toggle, Ranged (Location AoE), Foe Intangible
 description_long: "Location-targeted AoE toggle. This power folds space in an area, immobilizing and phasing all targets within the sphere. Enemies who enter the area become immobilized and phased for the duration of the effect.  Allies who enter the sphere's area of effect will enter the phase as well, allowing them to combat phased enemies.  Detoggling this power ends the effect, bringing the phased creatures back into the physical world. Maintaining this dimensional distortion is taxing on the user, and cannot be done for more than 20 seconds.  Recharge: Slow"
 enhancements:
@@ -41,51 +59,104 @@ enhancements:
 set_types:
 - 12
 - 35
+click_buff: false
+always_toggle: false
 level: 12
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Controller_Control.Gravity_Control.Dimension_Shift
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Dimension_Shift
   delayed_time: 0.5
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 20
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Controller_Control.Gravity_Control.Dimension_Shift
   unique_id: 2
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Dimension_Shift_Phased
   delayed_time: 0.5
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: -1
   magnitude: 1
   duration: 20
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

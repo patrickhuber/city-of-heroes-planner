@@ -3,6 +3,7 @@ name: Flight Speed
 short_name: Flight
 description: Increases the speed of a Flight power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 9
 enhancement_set_id: -1
@@ -11,9 +12,17 @@ image: Fly.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 6
+- mode: 0
+  buff_mode: 0
+  id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Fly
 recipe: Invention_Fly
+superior: false

@@ -13,22 +13,47 @@ enhancement_set_id: -1
 enhancement_set_name: ''
 image: HYTheta.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 11
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 11
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 6
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 19
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 19
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
-- id: 10
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 10
   sub_id: -1
+  schedule: 0
   multiplier: 0.75
+  effect: 
 unique_identifier: Hydra_Travel_Endurance_Discount
 recipe: ''
+superior: false

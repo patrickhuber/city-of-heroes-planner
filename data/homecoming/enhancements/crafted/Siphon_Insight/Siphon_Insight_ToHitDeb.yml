@@ -3,6 +3,7 @@ name: ToHit Debuff
 short_name: ToHitDeb
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 138
 enhancement_set_name: Siphon_Insight
@@ -10,11 +11,17 @@ image: SiphonInsight.png
 effect_chance: 1
 level_min: 29
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- buff_mode: 2
+- mode: 0
+  buff_mode: 2
   id: 20
   sub_id: -1
   schedule: 1
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Siphon_Insight_A
 recipe: Siphon_Insight_A
+superior: false

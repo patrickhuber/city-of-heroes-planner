@@ -3,6 +3,7 @@ name: Defense/Recharge
 short_name: Def/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 44
 enhancement_set_name: Luck_of_the_Gambler
@@ -10,14 +11,24 @@ image: sLuckOfTheGambler.png
 effect_chance: 1
 level_min: 24
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- buff_mode: 1
+- mode: 0
+  buff_mode: 1
   id: 3
   sub_id: -1
   schedule: 1
   multiplier: 0.625
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Luck_of_the_Gambler_B
 recipe: Luck_of_the_Gambler_B
+superior: false

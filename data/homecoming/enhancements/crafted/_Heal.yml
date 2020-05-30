@@ -3,6 +3,7 @@ name: Healing
 short_name: Heal
 description: Enhances the healing ability of a power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 10
 enhancement_set_id: -1
@@ -11,18 +12,38 @@ image: Heal.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 7
+- mode: 0
+  buff_mode: 0
+  id: 7
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 8
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 8
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 17
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 17
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- id: 22
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 22
   sub_id: -1
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Heal
 recipe: Invention_Heal
+superior: false

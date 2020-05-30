@@ -3,6 +3,7 @@ name: Accuracy/Sleep/Recharge
 short_name: Acc/Sleep/Rchg
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 78
 enhancement_set_name: Call_of_the_Sandman
@@ -10,15 +11,31 @@ image: sCallOfTheSandman.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 9
+  schedule: 0
   multiplier: 0.5
-- id: 14
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Crafted_Call_of_the_Sandman_E
 recipe: Call_of_the_Sandman_E
+superior: false

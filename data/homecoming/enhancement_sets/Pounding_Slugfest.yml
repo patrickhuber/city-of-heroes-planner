@@ -14,18 +14,21 @@ enhancements:
 bonuses:
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 2
   entities:
   - id: 7842
     name: Set_Bonus.Set_Bonus.Improved_Regeneration_3
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 3
   entities:
   - id: 7924
     name: Set_Bonus.Set_Bonus.Increased_Energy_Neg_Ranged_Def_1
 - special: -1
   alternate_string: ''
+  player_versus_mode: 0
   slotted: 4
   entities:
   - id: 7905

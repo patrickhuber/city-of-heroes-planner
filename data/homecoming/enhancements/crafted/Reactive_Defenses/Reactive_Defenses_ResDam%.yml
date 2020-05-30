@@ -3,6 +3,7 @@ name: Scaling Resist Damage
 short_name: ResDam%
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 174
 enhancement_set_name: Reactive_Defenses
@@ -12,6 +13,8 @@ level_min: 19
 level_max: 49
 unique: true
 mutually_exclusive_id: 6
+buff_mode: 0
 effects: []
 unique_identifier: Crafted_Reactive_Defenses_F
 recipe: Reactive_Defenses_F
+superior: false

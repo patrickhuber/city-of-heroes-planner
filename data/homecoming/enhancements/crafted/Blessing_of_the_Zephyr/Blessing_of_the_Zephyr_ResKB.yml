@@ -3,6 +3,7 @@ name: Knockback Reduction (4 points)
 short_name: ResKB
 description: Knockback Protection (Mag -4)
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 133
 enhancement_set_name: Blessing_of_the_Zephyr
@@ -10,6 +11,10 @@ image: Zephyr.png
 effect_chance: 1
 level_min: 9
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects: []
 unique_identifier: Crafted_Blessing_of_the_Zephyr_C
 recipe: Blessing_of_the_Zephyr_C
+superior: false

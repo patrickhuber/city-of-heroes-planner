@@ -3,16 +3,26 @@ name: Immobilisation Duration
 short_name: Immob
 description: Increases the duration of an immobilization power.
 type_id: 1
+sub_type_id: 0
 class_ids:
 - 12
 enhancement_set_id: -1
 enhancement_set_name: ''
 image: Immob.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 12
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 3
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Magic_Immobilize
 recipe: Ticket_Magic
+superior: false

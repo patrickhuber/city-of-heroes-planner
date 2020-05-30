@@ -3,6 +3,7 @@ name: Endurance/FlySpeed
 short_name: EndRdx/Fly
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 87
 enhancement_set_name: Soaring
@@ -10,12 +11,24 @@ image: sSoaring.png
 effect_chance: 1
 level_min: 14
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 6
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Soaring_C
 recipe: Soaring_C
+superior: false

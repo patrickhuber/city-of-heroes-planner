@@ -3,37 +3,74 @@ name: Accuracy/Confused/Hold/Immobilized/Sleep/Stunned/Terrorized/Endurance
 short_name: Acc/Conf/Hold/Immob/Sleep/Stun/Fear/EndRdx
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 186
 enhancement_set_name: Dominating_Grasp
 image: AO_Dominator2.png
 effect_chance: 1
+level_min: 0
 level_max: -1
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 1
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 2
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 3
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 9
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 10
+  schedule: 0
   multiplier: 0.5
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 12
+  schedule: 0
   multiplier: 0.5
-- id: 4
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.5
+  effect: 
 unique_identifier: Attuned_Dominating_Grasp_D
 recipe: Alt
+superior: false

@@ -3,6 +3,7 @@ name: Endurance/Fear
 short_name: EndRdx/Fear
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 80
 enhancement_set_name: Unspeakable_Terror
@@ -10,12 +11,24 @@ image: sUnspeakableTerror.png
 effect_chance: 1
 level_min: 9
 level_max: 29
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 4
+- mode: 0
+  buff_mode: 0
+  id: 4
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 12
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Unspeakable_Terror_B
 recipe: Unspeakable_Terror_B
+superior: false

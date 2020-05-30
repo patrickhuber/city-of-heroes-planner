@@ -12,20 +12,33 @@ enhancement_set_id: -1
 enhancement_set_name: ''
 image: HOLysosome.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
 buff_mode: 2
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- buff_mode: 2
+  effect: 
+- mode: 0
+  buff_mode: 2
   id: 3
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- buff_mode: 2
+  effect: 
+- mode: 0
+  buff_mode: 2
   id: 20
   sub_id: -1
   schedule: 1
   multiplier: 1
+  effect: 
 unique_identifier: Hamidon_DeBuff_Accuracy
 recipe: ''
+superior: false

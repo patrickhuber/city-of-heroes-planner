@@ -3,6 +3,7 @@ name: Resistance Bonus
 short_name: PetResDam
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 38
 enhancement_set_name: Sovereign_Right
@@ -11,6 +12,9 @@ effect_chance: 1
 level_min: 24
 level_max: 52
 unique: true
+mutually_exclusive_id: 0
+buff_mode: 0
 effects: []
 unique_identifier: Crafted_Sovereign_Right_F
 recipe: Sovereign_Right_F
+superior: false

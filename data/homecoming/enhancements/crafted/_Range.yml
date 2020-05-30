@@ -3,6 +3,7 @@ name: Range
 short_name: Range
 description: Enhances the range of a power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 16
 enhancement_set_id: -1
@@ -11,10 +12,17 @@ image: Range.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 13
+- mode: 0
+  buff_mode: 0
+  id: 13
   sub_id: -1
   schedule: 1
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Range
 recipe: Invention_Range
+superior: false

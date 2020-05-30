@@ -4,6 +4,7 @@ group_name: Mastermind_Summon
 set_name: Demon_Summoning
 name: Hellfire_Demonling_H
 display: Hellfire Demonling
+available: 0
 requirement:
   class_names: []
   class_names_not: []
@@ -11,136 +12,328 @@ requirement:
   - - Mastermind_Summon.Demon_Summoning.Summon_Demonlings
     - ''
   power_ids_not: []
+modes_required: 0
+modes_disallowed: 0
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 34816
 entities_auto_hit: 34816
 target: 34816
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
+endurance_cost: 0
+interrupt_time: 0
+cast_time: 0
+recharge_time: 0
+base_recharge_time: 0
 activate_period: 10
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
+number_allowed: 0
+do_not_save: false
 boosts_allowed: []
+cast_through_hold: false
+ignore_strength: false
 description_short: +Henchmen
 description_long: These infernal single minded creatures born of the Abyss seek only to cause mayhem, destruction and suffering on the material plane.
 enhancements: []
 set_types: []
+click_buff: false
+always_toggle: false
+level: 0
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
 display_location: 38
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
 absorb_summon_effects: true
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
 include_flag: true
 forced_class: Class_Minion_Henchman
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Mastermind_Summon.Demon_Summoning.Hellfire_Demonling_H
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling.Resistance
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Hellfire_Demonling_H
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling.Claw_Rake
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Hellfire_Demonling_H
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling.Corruption
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Hellfire_Demonling_H
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling.Super_Leap
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Hellfire_Demonling_H
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling_2.Hellfire
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Demon_Summoning.Hellfire_Demonling_H
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 54
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 51
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

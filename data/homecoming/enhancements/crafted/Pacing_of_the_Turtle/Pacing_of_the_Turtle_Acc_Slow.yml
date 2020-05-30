@@ -3,6 +3,7 @@ name: Accuracy/Slow
 short_name: Acc/Slow
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 74
 enhancement_set_name: Pacing_of_the_Turtle
@@ -10,21 +11,45 @@ image: sPacingOfTheTurtle.png
 effect_chance: 1
 level_min: 19
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 1
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 19
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 19
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 6
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 6
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 11
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 11
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 21
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 21
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Pacing_of_the_Turtle_A
 recipe: Pacing_of_the_Turtle_A
+superior: false

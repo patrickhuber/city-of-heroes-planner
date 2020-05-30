@@ -3,6 +3,7 @@ name: EndMod/Accuracy
 short_name: EndMod/Acc
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 101
 enhancement_set_name: Efficacy_Adaptor
@@ -10,15 +11,31 @@ image: sEfficiencyAdaptor.png
 effect_chance: 1
 level_min: 20
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 5
+- mode: 0
+  buff_mode: 0
+  id: 5
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 1
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 1
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 16
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 16
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Efficacy_Adaptor_E
 recipe: Efficacy_Adaptor_E
+superior: false

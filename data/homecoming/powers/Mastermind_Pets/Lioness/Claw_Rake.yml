@@ -4,30 +4,50 @@ group_name: Mastermind_Pets
 set_name: Lioness
 name: Claw_Rake
 display: Claw Rake
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
 attack_types: 17
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 2048
 target_line_of_sight: true
 range: 7
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 4.36800003
+interrupt_time: 0
 cast_time: 1.26999998
 recharge_time: 3
 base_recharge_time: 3
+activate_period: 0
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
 - EnduranceDiscount_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Melee, Light DMG(Lethal), Foe Minor DoT(Lethal)
 description_long: 'The beast swipes their target with their razor sharp claws causing Light Lethal damage and Minor Lethal damage over time. Damage: Light, Recharge: Very Fast'
 enhancements:
@@ -35,7 +55,10 @@ enhancements:
 - 4
 - 8
 set_types: []
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
 variable_enabled: true
 variable_name: Pack Mentality
 variable_min: 1
@@ -44,299 +67,500 @@ sub_powers: []
 ignore_enhancements:
 - 13
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: Class_Minion_Henchman
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 56
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.839999974
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.5
   ticks: 4
   stacking: 1
   base_probability: 0.800000012
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 56
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 3.0999999
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 51
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.209999993
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.5
   ticks: 4
   stacking: 1
   base_probability: 0.800000012
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 51
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.0250000004
   magnitude: 1
   duration: 3.0999999
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 55
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.839999974
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 55
   variable_modified_override: true
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.0160000008
   magnitude: 1.03999996
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.5
   ticks: 4
   stacking: 1
   base_probability: 0.800000012
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 55
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
   duration: 3.0999999
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.5
   ticks: 4
   stacking: 1
   base_probability: 0.800000012
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 55
   variable_modified_override: true
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.00200000009
   magnitude: 1
   duration: 3.0999999
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 3
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
+  base_probability: 0
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 55
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.419999987
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritActive
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 3
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
+  base_probability: 0
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 55
   variable_modified_override: true
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.00800000038
   magnitude: 1.02999997
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritActive
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 3
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
+  base_probability: 0
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 52
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.101999998
   magnitude: 1.02999997
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: CritActive
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 1
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 52
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.209999993
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Lioness.Claw_Rake
   unique_id: 2
+  effect_class: 0
   effect_type: 3
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
   delayed_time: 0.5
   ticks: 4
   stacking: 1
   base_probability: 0.800000012
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 52
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 0.0250000004
   magnitude: 1
   duration: 3.0999999
+  attrib_type: 0
   aspect: 2
   modifier_table: Melee_Damage
+  near_ground: false
   cancel_on_miss: true
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Damage
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

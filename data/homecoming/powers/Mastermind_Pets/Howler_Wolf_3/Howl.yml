@@ -4,205 +4,413 @@ group_name: Mastermind_Pets
 set_name: Howler_Wolf_3
 name: Howl
 display: Howl
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 33280
 entities_auto_hit: 33280
 target: 32768
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 13
+interrupt_time: 0
 cast_time: 3.67000008
 recharge_time: 60
 base_recharge_time: 60
+activate_period: 0
 effect_area: 2
 radius: 15
+arc: 0
 max_targets: 255
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Buff_ToHit_Boost
 - EnduranceDiscount_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: PBAoE, Beast Ally +DMG, +To-Hit
 description_long: 'The Wolf lets out a piercing Howl inspiring nearby beasts to greater acts of ferocity thus increasing their damage output briefly. Recharge: Very Slow'
 enhancements:
 - 25
 - 8
 set_types: []
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements:
 - 14
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: Class_Minion_Henchman
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 1
+  effect_class: 0
   effect_type: 4
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 2
+  effect_class: 0
   effect_type: 4
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 3
+  effect_class: 0
   effect_type: 4
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 4
+  effect_class: 0
   effect_type: 4
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 5
+  effect_class: 0
   effect_type: 4
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 6
+  effect_class: 0
   effect_type: 4
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 7
+  effect_class: 0
   effect_type: 4
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 8
+  effect_class: 0
   effect_type: 4
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 3.29999995
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Buff_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Pets.Howler_Wolf_3.Howl
   unique_id: 9
+  effect_class: 0
   effect_type: 40
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 15
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Buff_ToHit
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Buff_ToHit
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

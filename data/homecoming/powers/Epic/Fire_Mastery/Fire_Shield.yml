@@ -4,6 +4,7 @@ group_name: Epic
 set_name: Fire_Mastery
 name: Fire_Shield
 display: Fire Shield
+available: 0
 requirement:
   class_names: []
   class_names_not: []
@@ -13,26 +14,43 @@ requirement:
   - - Epic.Fire_Mastery.Fire_Ball
     - ''
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 74
 power_type: 2
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 0.162499994
+interrupt_time: 0
 cast_time: 1.66999996
 recharge_time: 2
 base_recharge_time: 2
 activate_period: 0.5
 effect_area: 1
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - EnduranceDiscount_Boost
 - Recharge_Boost
 - Res_Damage_Boost
+cast_through_hold: false
 ignore_strength: true
 description_short: 'Toggle: Self +Res(Fire, Lethal, Smash, Cold)'
 description_long: 'While this power is active, you get a good resistance to Lethal, Smashing and Fire damage. Fire Shield also provides minimal resistance to Cold damage. You must be level 41 and have Fire Blast or Fire Ball before selecting this power. Recharge: Very Fast'
@@ -42,244 +60,474 @@ enhancements:
 - 19
 set_types:
 - 8
+click_buff: false
 always_toggle: true
 level: 41
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 1
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 2
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 3
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 4
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
   suppression: 7
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 1
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 5
+  effect_class: 0
   effect_type: 29
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 6
+  effect_class: 0
   effect_type: 29
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 7
+  effect_class: 0
   effect_type: 29
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 3
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 8
+  effect_class: 0
   effect_type: 29
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 9
+  effect_class: 0
   effect_type: 29
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 10
+  effect_class: 0
   effect_type: 29
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 11
+  effect_class: 0
   effect_type: 29
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Epic.Fire_Mastery.Fire_Shield
   unique_id: 12
+  effect_class: 0
   effect_type: 29
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
   player_versus_mode: 2
   to_who: 2
+  display_percentage_override: 0
   scale: 2.75
   magnitude: 1
   duration: 0.75
+  attrib_type: 0
+  aspect: 0
   modifier_table: Melee_Res_Dmg
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Res_Dmg
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

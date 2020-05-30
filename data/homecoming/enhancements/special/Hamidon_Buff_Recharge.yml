@@ -12,21 +12,33 @@ enhancement_set_id: -1
 enhancement_set_name: ''
 image: HOMembrane.png
 effect_chance: 1
+level_min: 0
 level_max: 52
+unique: false
+mutually_exclusive_id: 0
 buff_mode: 1
 effects:
-- id: 14
+- mode: 0
+  buff_mode: 0
+  id: 14
   sub_id: -1
+  schedule: 0
   multiplier: 1
-- buff_mode: 1
+  effect: 
+- mode: 0
+  buff_mode: 1
   id: 3
   sub_id: -1
   schedule: 1
   multiplier: 1
-- buff_mode: 1
+  effect: 
+- mode: 0
+  buff_mode: 1
   id: 20
   sub_id: -1
   schedule: 1
   multiplier: 1
+  effect: 
 unique_identifier: Hamidon_Buff_Recharge
 recipe: ''
+superior: false

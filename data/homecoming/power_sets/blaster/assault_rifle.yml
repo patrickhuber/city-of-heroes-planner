@@ -1,4 +1,5 @@
 display_name: Assault Rifle
+archetype: 0
 set_type: 1
 image_name: AssaultRifle.png
 full_name: Blaster_Ranged.Assault_Rifle

@@ -3,6 +3,7 @@ name: Damage/Knockback
 short_name: Dmg/KB
 description: ''
 type_id: 4
+sub_type_id: 0
 class_ids: []
 enhancement_set_id: 103
 enhancement_set_name: Volley_of_Velocity
@@ -10,13 +11,24 @@ image: sVolleyOfVelocity.png
 effect_chance: 1
 level_min: 9
 level_max: 19
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 2
+- mode: 0
+  buff_mode: 0
+  id: 2
   sub_id: -1
+  schedule: 0
   multiplier: 0.625
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 4
   schedule: 3
   multiplier: 0.625
+  effect: 
 unique_identifier: Crafted_Volley_of_Velocity_A
 recipe: Volley_of_Velocity_A
+superior: false

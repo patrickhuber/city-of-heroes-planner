@@ -3,6 +3,7 @@ name: Knockback Distance
 short_name: KBDist
 description: Increases the knockback and knockup distance.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 15
 enhancement_set_id: -1
@@ -11,14 +12,24 @@ image: Knock.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 12
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 4
   schedule: 3
   multiplier: 1
-- id: 12
+  effect: 
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 5
   schedule: 3
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Knockback
 recipe: Invention_Knockback
+superior: false

@@ -4,30 +4,51 @@ group_name: Pets
 set_name: Savage_Leap
 name: Savage_Leap
 display: Savage Leap
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
 power_type: 1
 accuracy: 1
 attack_types: 132
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
+endurance_cost: 0
+interrupt_time: 0
+cast_time: 0
+recharge_time: 0
+base_recharge_time: 0
 activate_period: 100
 effect_area: 2
 radius: 15
+arc: 0
 max_targets: 10
 max_boosts: ''
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
 - Knockback_Boost
 - Taunt_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: PBAoE, Superior DMG(Lethal), Foe Minor DoT(Lethal), +4 Blood Frenzy, Self Teleport
 description_long: 'You throw yourself at your distant foes while slashing and tearing wildly causing superior lethal damage and cause your foes you suffer from additional minor lethal damage over time. Savage Leap build 4 stacks of Blood Frenzy. Damage: Superior, Minor DoT, Recharge: Long'
 enhancements:
@@ -36,12 +57,30 @@ enhancements:
 - 16
 - 24
 set_types: []
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: Class_Minion_Pets
 sort_override: true
+boost_boostable: false
+boost_use_player_level: false
 effects: []
+hidden_power: false

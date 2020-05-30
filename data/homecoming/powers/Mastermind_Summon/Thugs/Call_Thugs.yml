@@ -4,32 +4,51 @@ group_name: Mastermind_Summon
 set_name: Thugs
 name: Call_Thugs
 display: Call Thugs
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1
+attack_types: 0
 group_memberships: []
 entities_affected: 1
 entities_auto_hit: 1
 target: 8192
 target_line_of_sight: true
 range: 60
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 19.5
+interrupt_time: 0
 cast_time: 1.66999996
 recharge_time: 60
 base_recharge_time: 60
+activate_period: 0
 effect_area: 4
+radius: 0
+arc: 0
+max_targets: 0
 max_boosts: ''
 cast_flags: 2
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Damage_Boost
 - EnduranceDiscount_Boost
 - Knockback_Boost
+cast_through_hold: false
+ignore_strength: false
 description_short: Summon Punks
 description_long: 'Calls forth one to three Thugs (depending on your level) to do your bidding. The third Thug you gain will be an Arsonist.  Thugs use Dual Pistols and can be taught additional pistol attacks. You may only have 3 Thugs under your control at any given time.  If you attempt to call more Thugs, you can only replace the ones you have lost in battle.  If you already have three, the power will fail. Recharge: Very Long'
 enhancements:
@@ -43,216 +62,484 @@ set_types:
 - 27
 - 40
 - 44
+click_buff: false
+always_toggle: false
 level: 1
+allow_front_loading: false
+variable_enabled: false
 variable_name: ''
+variable_min: 0
+variable_max: 0
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
 absorb_summon_attributes: true
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: Class_Minion_Henchman
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Mastermind_Summon.Thugs.Call_Thugs
   unique_id: 1
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Thug
   delayed_time: 2
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 99999
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Levelminus2
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Thugs.Call_Thugs
   unique_id: 2
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Thug
   delayed_time: 3
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 99999
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Levelminus2
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Mastermind_Summon.Thugs.Call_Thugs
   unique_id: 3
+  effect_class: 0
   effect_type: 38
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Pets_Arsonist
   delayed_time: 4
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 3
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 99999
+  attrib_type: 0
   aspect: 4
   modifier_table: Ranged_Levelminus2
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Levelminus2
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - &o0
   power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Minion.Brawl
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - *o0
 - &o1
   power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Minion.Pistol
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - *o1
 - &o2
   power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Minion_2.Pistols
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - *o2
 - &o3
   power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Minion_2.Dual_Wield
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - *o3
 - &o4
   power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Minion_3.Empty_Clips
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 54
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - *o4
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Arsonist.Brawl
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Arsonist.Molotov_Cocktail
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Arsonist_2.Spit_Fire
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 53
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: ''
+  unique_id: 0
+  effect_class: 0
   effect_type: 12
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: Mastermind_Pets.Thug_Arsonist_3.Fire_Bomb
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
   buffable: true
   resistible: true
   special_case: 54
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
+  scale: 0
+  magnitude: 0
+  duration: 0
+  attrib_type: 0
   aspect: 3
   modifier_table: Ranged_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

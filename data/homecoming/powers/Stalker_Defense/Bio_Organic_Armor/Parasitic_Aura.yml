@@ -4,32 +4,50 @@ group_name: Stalker_Defense
 set_name: Bio_Organic_Armor
 name: Parasitic_Aura
 display: Parasitic Aura
+available: 0
 requirement:
   class_names: []
   class_names_not: []
   power_ids: []
   power_ids_not: []
+modes_required: 0
 modes_disallowed: 2
+power_type: 0
 accuracy: 1.5
 attack_types: 20
 group_memberships: []
 entities_affected: 2048
+entities_auto_hit: 0
 target: 1
 target_line_of_sight: true
+range: 0
+target_secondary: 0
+range_secondary: 0
 endurance_cost: 18.2000008
+interrupt_time: 0
 cast_time: 1.87
 recharge_time: 270
 base_recharge_time: 270
+activate_period: 0
 effect_area: 2
 radius: 15
+arc: 0
 max_targets: 10
 max_boosts: 6
+cast_flags: 0
+artifical_intelligence_report: 0
+number_of_charges: 0
+usage_time: 0
+life_time: 0
+life_time_in_game: 0
 number_allowed: 1
+do_not_save: false
 boosts_allowed:
 - Accuracy_Boost
 - Heal_Boost
 - Recharge_Boost
 - Recovery_Boost
+cast_through_hold: false
 ignore_strength: true
 description_short: PBAoE, Self +Absorb, +Regeneration, +Recovery, Foe -DMG
 description_long: "You release a cloud of parasites around you that draw out your enemies' genetic material. These parasites dramatically increase your survivability by gaining damage absorption while boosting your regeneration and recovery rate for a short time. Affected foes will be infected and deal reduced damage for a short while.  While Efficient Adaptation is active, this power will grant additional regeneration and recovery per target hit.  While Defensive Adaptation is active, this power will grant a small amount of additional damage absorption and increase the effectiveness of this power's damage debuff. Recharge: Very Long"
@@ -43,485 +61,917 @@ set_types:
 - 22
 - 29
 click_buff: true
+always_toggle: false
 level: 38
+allow_front_loading: false
 variable_enabled: true
 variable_name: ''
+variable_min: 0
 variable_max: 10
 sub_powers: []
 ignore_enhancements: []
 ignore_buffs: []
+skip_max: false
+display_location: 0
 mutually_exclusive_auto: true
+mutually_exclusive_ignore: false
+absorb_summon_effects: false
+absorb_summon_attributes: false
+show_summon_anyway: false
+never_auto_update: false
+never_auto_update_requirements: false
+include_flag: false
 forced_class: ''
+sort_override: false
+boost_boostable: false
+boost_use_player_level: false
 effects:
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 1
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.300000012
   magnitude: 1
   duration: 45
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 2
+  effect_class: 0
   effect_type: 26
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 45
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0900000036
   magnitude: 1
   duration: 45
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 3
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.5
   magnitude: 1
   duration: 45
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 4
+  effect_class: 0
   effect_type: 27
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 45
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.200000003
   magnitude: 1
   duration: 45
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: EfficientAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 5
+  effect_class: 0
   effect_type: 66
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.100000001
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 6
+  effect_class: 0
   effect_type: 66
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
   buffable: true
+  resistible: false
+  special_case: 0
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 45
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: Max.kHitPoints source> 0.1 * @Strength *
   reward: ''
   effect_id: Ones
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 7
+  effect_class: 0
   effect_type: 66
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 0.0299999993
   magnitude: 1
+  duration: 0
+  attrib_type: 0
   aspect: 4
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 8
+  effect_class: 0
   effect_type: 66
+  damage_type: 0
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
   stacking: 1
   base_probability: 1
+  suppression: 0
+  buffable: false
+  resistible: false
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 2
+  display_percentage_override: 0
   scale: 1
   magnitude: 1
   duration: 45
   attrib_type: 2
   aspect: 1
   modifier_table: Melee_Ones
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: Max.kHitPoints source> 0.03 * @Strength *
   reward: ''
   effect_id: DefensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 9
+  effect_class: 0
   effect_type: 4
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 10
+  effect_class: 0
   effect_type: 4
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 11
+  effect_class: 0
   effect_type: 4
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 12
+  effect_class: 0
   effect_type: 4
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 13
+  effect_class: 0
   effect_type: 4
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 14
+  effect_class: 0
   effect_type: 4
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 15
+  effect_class: 0
   effect_type: 4
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 16
+  effect_class: 0
   effect_type: 4
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 47
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: NormalDebuff
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 17
+  effect_class: 0
   effect_type: 4
   damage_type: 1
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 18
+  effect_class: 0
   effect_type: 4
   damage_type: 2
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 19
+  effect_class: 0
   effect_type: 4
   damage_type: 3
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 20
+  effect_class: 0
   effect_type: 4
   damage_type: 4
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 21
+  effect_class: 0
   effect_type: 4
   damage_type: 5
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 22
+  effect_class: 0
   effect_type: 4
   damage_type: 6
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 23
+  effect_class: 0
   effect_type: 4
   damage_type: 7
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
 - power_full_name: Stalker_Defense.Bio_Organic_Armor.Parasitic_Aura
   unique_id: 24
+  effect_class: 0
   effect_type: 4
   damage_type: 8
+  mezmorize_type: 0
+  effect_modifiers: 0
   summon: ''
+  delayed_time: 0
+  ticks: 0
+  stacking: 0
   base_probability: 1
+  suppression: 0
+  buffable: false
   resistible: true
   special_case: 44
+  variable_modified_override: false
+  player_versus_mode: 0
   to_who: 1
+  display_percentage_override: 0
   scale: 2.66000009
   magnitude: 1
   duration: 30
+  attrib_type: 0
   aspect: 3
   modifier_table: Melee_Debuff_Dam
+  near_ground: false
+  cancel_on_miss: false
+  requires_to_hit_check: false
   uid_class_name: ''
   id_class_name: -1
   magnitude_expression: ''
   reward: ''
   effect_id: OffensiveAdaptation
+  ignore_enhancement_diversification: false
   override: ''
+  procs_per_minute: 0
+hidden_power: false

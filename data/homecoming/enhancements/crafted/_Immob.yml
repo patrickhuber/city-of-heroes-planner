@@ -3,6 +3,7 @@ name: Immobilisation Duration
 short_name: Immob
 description: Increases the duration of an immobilization power.
 type_id: 2
+sub_type_id: 0
 class_ids:
 - 12
 enhancement_set_id: -1
@@ -11,9 +12,17 @@ image: Immob.png
 effect_chance: 1
 level_min: 9
 level_max: 49
+unique: false
+mutually_exclusive_id: 0
+buff_mode: 0
 effects:
-- id: 12
+- mode: 0
+  buff_mode: 0
+  id: 12
   sub_id: 3
+  schedule: 0
   multiplier: 1
+  effect: 
 unique_identifier: Crafted_Immobilize
 recipe: Invention_Immobilize
+superior: false
