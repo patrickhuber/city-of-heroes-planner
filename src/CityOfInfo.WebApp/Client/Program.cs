@@ -6,6 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Blazorise;
 using Blazorise.Bootstrap;
 using Blazorise.Icons.FontAwesome;
+using TG.Blazor.IndexedDB;
+using System.Collections.Generic;
 
 namespace CityOfInfo.WebApp.Client
 {
@@ -18,12 +20,29 @@ namespace CityOfInfo.WebApp.Client
 
             builder.Services
                 .AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) })
-                .AddBlazorise(options=> 
+                .AddBlazorise(options =>
                 {
                     options.ChangeTextOnKeyPress = true;
                 })
                 .AddBootstrapProviders()
-                .AddFontAwesomeIcons();
+                .AddFontAwesomeIcons()                
+                .AddIndexedDB(dbStore =>
+                {
+                    dbStore.DbName = "Database"; //example name
+                    dbStore.Version = 1;
+
+                    dbStore.Stores.Add(new StoreSchema
+                    {
+                        Name = "Powers",
+                        PrimaryKey = new IndexSpec { Name = "id", KeyPath = "id", Auto = false },
+                        Indexes = new List<IndexSpec>
+                        {
+                            new IndexSpec{Name="name", KeyPath = "name", Auto=false}
+                        }
+                    });
+                })
+                .AddHttpClient(Globals.DatabaseBlobClient, client =>
+                    client.BaseAddress = WebApp.Shared.Globals.DatabaseBlobBaseAddress);
 
             var host = builder.Build();
 

@@ -3,6 +3,10 @@
 
 <h1>Build</h1>
 
+<dl class="row">
+    <dt class="col-md-2">Database Status</dt>
+    <dd class="col-md-10">@DatabaseLoadStatus</dd>
+</dl>
 @if (CharacterData != null)
 {
     <dl class="row">
@@ -49,7 +53,7 @@
         }
 
         .enhanced-power-slot {
-            border-radius: 50%;            
+            border-radius: 50%;
             border-style: outset;
             border-color: #417CF5;
             background: rgb(0,26,70);
@@ -62,7 +66,7 @@
             background: linear-gradient(0deg, rgb(109,109,109) 10%, rgba(51,51,51,1) 50%);
         }
 
-        .empty-enhanced-power-slot {            
+        .empty-enhanced-power-slot {
         }
     </style>
     <!-- powers are laid out in three columns each 8 powers high-->
@@ -79,14 +83,14 @@
                         if (powerIndex >= build.PowerSlots.Count)
                             break;
                         var powerSlot = build.PowerSlots[powerIndex];
-                        <PowerSlot Item="@powerSlot"/>
+                        <PowerSlot Item="@powerSlot" />
                     }
                 </div>
             }
         </div>
         <hr />
-        <div class="row">         
-            @{ 
+        <div class="row">
+            @{
                 var inherentPowerCount = build.PowerSlots.Count - InherentPowerStartIndex;
                 var dynamicInherentPowerColumnHeight = inherentPowerCount / InherentPowerColumnCount;}
             @for (var c = 0; c < InherentPowerColumnCount; c++)
@@ -98,7 +102,7 @@
                         if (powerIndex >= build.PowerSlots.Count)
                             break;
                         var powerSlot = build.PowerSlots[powerIndex];
-                        <PowerSlot Item="@powerSlot"/>
+                        <PowerSlot Item="@powerSlot" />
                     }
                 </div>
             }

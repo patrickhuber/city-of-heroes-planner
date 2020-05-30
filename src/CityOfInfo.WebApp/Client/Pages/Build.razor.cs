@@ -2,7 +2,11 @@
 using CityOfInfo.Data.Mids.Builds;
 using CityOfInfo.WebApp.Shared;
 using Microsoft.AspNetCore.Components;
+using Microsoft.Data.Sqlite;
 using System.IO;
+using System.Net.Http;
+using System.Threading.Tasks;
+using TG.Blazor.IndexedDB;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
@@ -11,8 +15,9 @@ namespace CityOfInfo.WebApp.Client.Pages
     public partial class Build : ComponentBase
     {
         protected CompressionData CompressionData { get; set; }
-        protected Data.Mids.Builds.Character CharacterData { get; set; }
+        protected Character CharacterData { get; set; }
         protected string CharacterYaml { get; set; }
+        protected string DatabaseLoadStatus { get; set; }
 
         private static readonly int SelectedPowerColumnHeight = 8;
         private static readonly int SelectedPowerColumnCount = 3;
@@ -22,22 +27,76 @@ namespace CityOfInfo.WebApp.Client.Pages
         [Inject]
         NavigationManager NavigationManager { get; set; }
 
-        protected override void OnInitialized()
+        [Inject]
+        public IHttpClientFactory ClientFactory { get; set; }
+
+        [Inject]
+        public IndexedDBManager IndexedDBManager { get; set; }
+
+        public class Power 
         {
+            [System.ComponentModel.DataAnnotations.Key]
+            public int Id { get; set; }
+
+            public string Name { get; set; }
+        }
+
+        protected override async Task OnInitializedAsync()
+        {
+            await PopulateDatabaseAsync();
+
             if (TryBindMidsCompressionData(out var compressionData))
-            {
                 CompressionData = compressionData;
-            }
             else { return; }
 
-            var compressionDataStream = new CompressionDataStream(CompressionData);
+            CharacterData = CreateCharacterData(CompressionData);
+            CharacterYaml = CreateCharacterYaml(CharacterData);
+        }
+
+        private async Task PopulateDatabaseAsync() 
+        {
+            // load database from blob uri
+            var key = "homecoming-19-1021004.zip";
+            var client = ClientFactory.CreateClient(Globals.DatabaseBlobClient);
+            var response = await client.GetAsync($"{key}");
+
+            DatabaseLoadStatus = response.IsSuccessStatusCode ? "Success" : "Failure";
+
+            var powers = new Power[] 
+            {
+                new Power { Id = 0, Name = "Single_Shot" },
+                new Power { Id = 1, Name = "Pummel" },
+            };
+
+            foreach (var power in powers)
+            {
+                var p = await IndexedDBManager.GetRecordById<int, Power>("Powers", power.Id);
+                var record = new StoreRecord<Power>
+                {
+                    Storename = "Powers",
+                    Data = power,
+                };
+                if (p == null)
+                    await IndexedDBManager.AddRecord(record);                
+                else 
+                    await IndexedDBManager.UpdateRecord(record);
+            }            
+        }
+
+        private string CreateCharacterYaml(Character characterData)
+        {
+            var serializer = new SerializerBuilder()
+                            .WithNamingConvention(UnderscoredNamingConvention.Instance)
+                            .Build();
+            return serializer.Serialize(characterData);
+        }
+
+        private Character CreateCharacterData(CompressionData compressionData)
+        {
+            var compressionDataStream = new CompressionDataStream(compressionData);
             var characterReader = new CharacterReader(
                 new BinaryReader(compressionDataStream));
-            CharacterData = characterReader.Read();
-            var serializer = new SerializerBuilder()
-                .WithNamingConvention(UnderscoredNamingConvention.Instance)                
-                .Build();
-            CharacterYaml = serializer.Serialize(CharacterData);
+            return characterReader.Read();
         }
 
         private bool TryBindMidsCompressionData(out CompressionData compressionData)
@@ -67,25 +126,6 @@ namespace CityOfInfo.WebApp.Client.Pages
                 Encoding = format,
             };
             return true;
-        }
-
-        private string GetPowerName(PowerSlot power)
-        {
-            if (power == null)
-                return "( )";
-
-            var name = new System.Text.StringBuilder();
-            name.AppendFormat("({0}) ", power.Level + 1);
-
-            if (power.Power is null)
-                return name.ToString();
-
-            if (string.IsNullOrWhiteSpace(power.Power.Display))
-                name.Append(power.Power.Index);
-            else
-                name.Append(power.Power.Display);
-
-            return name.ToString();
         }
     }
 }

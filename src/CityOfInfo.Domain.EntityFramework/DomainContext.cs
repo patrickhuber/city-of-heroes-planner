@@ -7,7 +7,7 @@ namespace CityOfInfo.Domain.EntityFramework
     {
         public DomainContext() { }
 
-        public DomainContext(DbContextOptions<DomainContext> options)
+        public DomainContext(DbContextOptions options)
             : base(options) { }
 
         public DbSet<Power> Powers { get; set; }

@@ -15,7 +15,7 @@ namespace CityOfInfo.Domain.EntityFramework.Sqlite
         {
             optionsBuilder.UseSqlite($"Data Source={Path}");
         }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Power>()
