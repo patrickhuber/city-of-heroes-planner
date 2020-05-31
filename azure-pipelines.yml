@@ -38,8 +38,9 @@ stages:
       displayName: Package
       inputs:
         command: 'publish'
-        publishWebProjects: true
-        arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory) --self-contained --runtime win-x86'        
+        publishWebProjects: false
+        projects: '**/CityOfInfo.WebApp.Server'
+        arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory) --self-contained --runtime win-x86'
 
     - publish: $(Build.ArtifactStagingDirectory)
       artifact: WebApp
