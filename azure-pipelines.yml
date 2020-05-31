@@ -39,7 +39,7 @@ stages:
       inputs:
         command: 'publish'
         publishWebProjects: false
-        projects: '**/CityOfInfo.WebApp.Server'
+        projects: '**/CityOfInfo.WebApp.Server.csproj'
         arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory) --self-contained --runtime win-x86'
 
     - publish: $(Build.ArtifactStagingDirectory)
