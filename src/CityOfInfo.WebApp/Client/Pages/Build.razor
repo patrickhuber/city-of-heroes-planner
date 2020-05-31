@@ -8,19 +8,19 @@
     <dd class="col-md-10">@DatabaseLoadStatus</dd>
 </dl>
 @if (CharacterData != null)
-{
+{    
     <dl class="row">
         <dt class="col-md-2">Character Name</dt>
-        <dd class="col-md-10">@CharacterData.Name</dd>
+        <dd class="col-md-10">@(CharacterData?.Name ?? string.Empty)</dd>
 
         <dt class="col-md-2">Alignment</dt>
-        <dd class="col-md-10">@CharacterData.Alignment.Name</dd>
+        <dd class="col-md-10">@(CharacterData?.Alignment?.Name ?? string.Empty)</dd>
 
         <dt class="col-md-2">Archetype</dt>
-        <dd class="col-md-10">@CharacterData.Archetype.DisplayName</dd>
+        <dd class="col-md-10">@(CharacterData?.Archetype?.DisplayName ?? string.Empty)</dd>
 
         <dt class="col-md-2">Origin</dt>
-        <dd class="col-md-10">@(CharacterData.Archetype.Origins.FirstOrDefault() ?? "unknown")</dd>
+        <dd class="col-md-10">@(CharacterData?.Archetype?.Origins?.FirstOrDefault() ?? "unknown")</dd>
     </dl>
     <style>
         .power-column {
@@ -69,11 +69,10 @@
         .empty-enhanced-power-slot {
         }
     </style>
-    <!-- powers are laid out in three columns each 8 powers high-->
-
+    <!-- powers are laid out in three columns each 8 powers high-->    
     @foreach (var build in CharacterData.Builds)
     {
-        <div class="row">
+        <div class="row">            
             @for (var c = 0; c < SelectedPowerColumnCount; c++)
             {
                 <div class="col-lg-4 power-column">

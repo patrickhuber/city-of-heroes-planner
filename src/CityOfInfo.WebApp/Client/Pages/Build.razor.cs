@@ -3,7 +3,10 @@ using CityOfInfo.Data.Mids.Builds;
 using CityOfInfo.WebApp.Shared;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Data.Sqlite;
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using TG.Blazor.IndexedDB;
@@ -47,21 +50,36 @@ namespace CityOfInfo.WebApp.Client.Pages
 
             if (TryBindMidsCompressionData(out var compressionData))
                 CompressionData = compressionData;
-            else { return; }
+            else 
+            { 
+                CharacterData = CreateEmptyBuild();
+                return;
+            }
 
             CharacterData = CreateCharacterData(CompressionData);
             CharacterYaml = CreateCharacterYaml(CharacterData);
         }
 
+        private Character CreateEmptyBuild()
+        {
+            return new Character
+            {
+                Builds = new List<Data.Mids.Builds.Build>
+                {
+                    new Data.Mids.Builds.Build
+                    {
+                        PowerSlots = Enumerable.Range(0, 23)
+                            .Select(x=>new PowerSlot{
+                                EnhancementSlots = new List<EnhancementSlot>()                               
+                            })
+                            .ToList(),
+                    },
+                }, 
+            };
+        }
+
         private async Task PopulateDatabaseAsync() 
         {
-            // load database from blob uri
-            var key = "homecoming-19-1021004.zip";
-            var client = ClientFactory.CreateClient(Globals.DatabaseBlobClient);
-            var response = await client.GetAsync($"{key}");
-
-            DatabaseLoadStatus = response.IsSuccessStatusCode ? "Success" : "Failure";
-
             var powers = new Power[] 
             {
                 new Power { Id = 0, Name = "Single_Shot" },
