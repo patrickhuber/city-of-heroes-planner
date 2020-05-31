@@ -16,12 +16,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-
-    - task: DotNetCoreInstaller@0
-      displayName: 'Install .net core 3.1'
-      inputs:
-        version: '3.1.4'
-
+   
     - task: DotNetCoreCLI@2
       displayName: Build
       inputs:  
@@ -43,8 +38,9 @@ stages:
       displayName: Package
       inputs:
         command: 'publish'
-        publishWebProjects: true
-        arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory) --self-contained --runtime win-x86'        
+        publishWebProjects: false
+        projects: '**/CityOfInfo.WebApp.Server.csproj'
+        arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory) --self-contained --runtime win-x86'
 
     - publish: $(Build.ArtifactStagingDirectory)
       artifact: WebApp
@@ -70,7 +66,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: '$(Subscription)'
+        ConnectedServiceName: 'CityOfInfo'
         appType: 'webApp'
         WebAppName: 'city-of-heroes'
         packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
