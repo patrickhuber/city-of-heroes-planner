@@ -20,7 +20,7 @@ stages:
     - task: DotNetCoreInstaller@0
       displayName: 'Install .net core 3.1'
       inputs:
-        version: '3.1.x'
+        version: '3.1'
 
     - task: DotNetCoreCLI@2
       displayName: Build
