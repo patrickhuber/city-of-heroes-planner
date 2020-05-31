@@ -66,7 +66,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: '$(Subscription)'
+        ConnectedServiceName: '$(Subscription)'
         appType: 'webApp'
         WebAppName: 'city-of-heroes'
         packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
