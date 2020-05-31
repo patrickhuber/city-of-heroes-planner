@@ -18,9 +18,9 @@ stages:
     steps:
 
     - task: DotNetCoreInstaller@0
-      displayName: 'Install .net core 3.0 (preview)'
+      displayName: 'Install .net core 3.1'
       inputs:
-        version: '3.0.100-preview6-012264'
+        version: '3.1.4'
 
     - task: DotNetCoreCLI@2
       displayName: Build
@@ -70,7 +70,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: '$(AzureSubscription)'
+        azureSubscription: '$(Subscription)'
         appType: 'webApp'
         WebAppName: 'city-of-heroes'
         packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
