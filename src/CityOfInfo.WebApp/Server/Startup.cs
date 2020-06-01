@@ -36,7 +36,7 @@ namespace CityOfInfo.WebApp.Server
                 });
             });
 
-            services.AddDbContext<DomainContext, InMemoryDomainContext>(
+            services.AddDbContext<DomainContext>(
                 options=> 
             {
                 options.UseInMemoryDatabase("database"); 

@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfInfo.Domain.EntityFra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDb.EntityFrameworkCore.IndexedDb", "BlazorDb.EntityFrameworkCore.IndexedDb\BlazorDb.EntityFrameworkCore.IndexedDb.csproj", "{82943002-E00E-485C-9F50-1F30DDF109C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfInfo.Domain.EntityFramework.Tests", "CityOfInfo.Domain.EntityFramework.Tests\CityOfInfo.Domain.EntityFramework.Tests.csproj", "{604E6E78-8935-4AC2-9CED-5E905CD8269F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{82943002-E00E-485C-9F50-1F30DDF109C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82943002-E00E-485C-9F50-1F30DDF109C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82943002-E00E-485C-9F50-1F30DDF109C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604E6E78-8935-4AC2-9CED-5E905CD8269F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604E6E78-8935-4AC2-9CED-5E905CD8269F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604E6E78-8935-4AC2-9CED-5E905CD8269F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604E6E78-8935-4AC2-9CED-5E905CD8269F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +119,7 @@ Global
 		{DB2E57C0-DC97-485E-9BA6-05F27FDEBAD4} = {EC7E1870-B1DC-4928-BDDD-ACE72F730526}
 		{A00C9FA4-E4A2-4C88-865C-723B4341F583} = {EC7E1870-B1DC-4928-BDDD-ACE72F730526}
 		{82943002-E00E-485C-9F50-1F30DDF109C0} = {EC7E1870-B1DC-4928-BDDD-ACE72F730526}
+		{604E6E78-8935-4AC2-9CED-5E905CD8269F} = {EC7E1870-B1DC-4928-BDDD-ACE72F730526}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB3E443D-29D5-4ACC-8AC3-81A3216E12D6}
