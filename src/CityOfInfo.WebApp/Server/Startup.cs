@@ -1,8 +1,15 @@
+using CityOfInfo.Domain;
+using CityOfInfo.Domain.EntityFramework;
+using Microsoft.AspNet.OData.Builder;
+using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OData.Edm;
+using System.Linq;
 
 namespace CityOfInfo.WebApp.Server
 {
@@ -29,7 +36,15 @@ namespace CityOfInfo.WebApp.Server
                 });
             });
 
+            services.AddDbContext<DomainContext, InMemoryDomainContext>(
+                options=> 
+            {
+                options.UseInMemoryDatabase("database"); 
+            }, 
+            ServiceLifetime.Singleton);
+
             services.AddControllersWithViews();
+            services.AddOData();
             services.AddRazorPages();
         }
 
@@ -59,10 +74,20 @@ namespace CityOfInfo.WebApp.Server
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapControllers();
+                endpoints.MapControllers();                
                 endpoints.MapFallbackToFile("index.html");
+                endpoints.Select().Filter().OrderBy().Count().MaxTop(10);
+                endpoints.MapODataRoute("odata", "odata", GetEdmModel());                
             });
 
+            app.PopulateDomainContext();            
+        }
+
+        private IEdmModel GetEdmModel()
+        {
+            var builder = new ODataConventionModelBuilder();
+            builder.EntitySet<Power>("Powers");
+            return builder.GetEdmModel();
         }
     }
 }

@@ -6,9 +6,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\CityOfInfo.Domain.EntityFramework.Sqlite\CityOfInfo.Domain.EntityFramework.Sqlite.csproj" />
+    <ProjectReference Include="..\..\CityOfInfo.Domain.EntityFramework\CityOfInfo.Domain.EntityFramework.csproj" />
     <ProjectReference Include="..\Client\CityOfInfo.WebApp.Client.csproj" />
     <ProjectReference Include="..\Shared\CityOfInfo.WebApp.Shared.csproj" />
   </ItemGroup>

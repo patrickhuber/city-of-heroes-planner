@@ -4,6 +4,14 @@ namespace CityOfInfo.Domain.EntityFramework.Sqlite
 {
     public class SqliteDomainContext : DomainContext
     {
+        public SqliteDomainContext()
+        { 
+        }
+
+        public SqliteDomainContext(DbContextOptions options) 
+            : base(options)
+        { }
+
         public SqliteDomainContext(string path)
         {
             Path = path;
@@ -13,7 +21,10 @@ namespace CityOfInfo.Domain.EntityFramework.Sqlite
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"Data Source={Path}");
+            if (string.IsNullOrWhiteSpace(Path))
+                optionsBuilder.UseSqlite($":memory:");
+            else
+                optionsBuilder.UseSqlite($"Data Source={Path}");
         }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
