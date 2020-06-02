@@ -41,7 +41,7 @@ namespace CityOfInfo.WebApp.Client
                         }
                     });
                 })
-                .AddHttpClient(Globals.DatabaseBlobClient, client =>
+                .AddHttpClient(WebApp.Shared.Globals.DatabaseBlobClient, client =>
                     client.BaseAddress = WebApp.Shared.Globals.DatabaseBlobBaseAddress);
 
             var host = builder.Build();

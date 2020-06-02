@@ -1,5 +1,6 @@
 using CityOfInfo.Domain;
 using CityOfInfo.Domain.EntityFramework;
+using CityOfInfo.WebApp.Client;
 using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -39,13 +40,16 @@ namespace CityOfInfo.WebApp.Server
             services.AddDbContext<DomainContext>(
                 options=> 
             {
-                options.UseInMemoryDatabase("database"); 
+                options.UseInMemoryDatabase("database");
             }, 
             ServiceLifetime.Singleton);
 
             services.AddControllersWithViews();
             services.AddOData();
             services.AddRazorPages();
+
+            services.AddHttpClient(Shared.Globals.DatabaseBlobClient, client =>
+                    client.BaseAddress = Shared.Globals.DatabaseBlobBaseAddress);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -80,7 +84,8 @@ namespace CityOfInfo.WebApp.Server
                 endpoints.MapODataRoute("odata", "odata", GetEdmModel());                
             });
 
-            app.PopulateDomainContext();            
+            var task = app.PopulateDomainContextAsync();
+            task.Wait();
         }
 
         private IEdmModel GetEdmModel()

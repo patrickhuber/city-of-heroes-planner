@@ -78,11 +78,11 @@ namespace CityOfInfo.Domain.EntityFramework.Tests
                 var powers = newDomainContext.Powers;
                 Assert.Equal(1, powers.Count());
                 var actual = powers.FirstOrDefault();
-                Assert.Equal(expected.Id, actual.Id);
-                Assert.Equal(expected.Name, actual.Name);
-                Assert.Equal(expected.Description, actual.Description);
-                Assert.Equal(expected.Display, actual.Display);
-                Assert.Equal(expected.LongDescription, actual.LongDescription);
+                var properties = typeof(Power).GetProperties();
+                foreach (var property in properties)
+                {
+                    Assert.Equal(property.GetValue(expected), property.GetValue(actual));
+                }
             }
         }
 

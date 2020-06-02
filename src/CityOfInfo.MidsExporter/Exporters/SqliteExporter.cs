@@ -19,8 +19,7 @@ namespace CityOfInfo.MidsExporter.Exporters
             if (File.Exists(path))
                 File.Delete(path);
 
-            _domainContext = new SqliteDomainContext(
-                Path.Combine(outputPath, "database.db"));
+            _domainContext = new SqliteDomainContext(path);
             _domainContext.Database.EnsureCreated();
             _domainContext.ChangeTracker.AutoDetectChangesEnabled = false;
             _contextMapper = new MidsDomainContextMapper(_domainContext);

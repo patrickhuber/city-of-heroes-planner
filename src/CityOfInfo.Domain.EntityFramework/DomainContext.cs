@@ -30,7 +30,7 @@ namespace CityOfInfo.Domain.EntityFramework
                 .Property(x => x.Description);
             modelBuilder.Entity<Power>()
                 .Property(x => x.LongDescription);
-
+            
             modelBuilder.Entity<Enhancement>()
                 .HasKey(e => e.Id);
             modelBuilder.Entity<Enhancement>()
