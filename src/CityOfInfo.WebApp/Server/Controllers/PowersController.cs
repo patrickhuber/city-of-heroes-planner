@@ -18,7 +18,7 @@ namespace CityOfInfo.WebApp.Server.Controllers
             this.domainContext = domainContext;
         }
 
-        [EnableQuery]
+        [EnableQuery(PageSize = 10)]
         public IQueryable<Power> Get()
         {
             return domainContext.Powers;

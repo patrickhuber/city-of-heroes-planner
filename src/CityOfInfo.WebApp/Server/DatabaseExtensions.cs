@@ -14,7 +14,7 @@ namespace CityOfInfo.WebApp.Server
     /// <summary>
     /// An extension dedicated to loading the database into memory. 
     /// </summary>
-    public static class AppExtensions
+    public static class DatabaseExtensions
     {
         public static async Task PopulateDomainContextAsync(this IApplicationBuilder app)
         {   
@@ -26,7 +26,8 @@ namespace CityOfInfo.WebApp.Server
 
             using var sqlLiteContext = new SqliteDomainContext(filePath);
 
-            using var context = app.ApplicationServices.GetService<DomainContext>();
+            // do not dispose of this or you will break the odata enpoint
+            var context = app.ApplicationServices.GetService<DomainContext>();
             context.Database.EnsureCreated();
 
             CopyPowers(sqlLiteContext, context);
