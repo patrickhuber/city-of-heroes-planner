@@ -17,17 +17,19 @@ namespace CityOfInfo.Domain.EntityFramework.Tests
         {
             var powers = new Power[]
             {
-                new Power{ Id = 0, Name = "test" },
+                new Power { Id = 0, Name = "test" },
                 new Power { Id = 0, Name = "other" },
             };
 
-            using var domainContext = new DomainContext(Options());
-            Assert.Throws<InvalidOperationException>(() =>
+            using (var domainContext = new DomainContext(Options()))
             {
-                foreach (var power in powers)
-                    domainContext.Powers.Add(power);
-                domainContext.SaveChanges();
-            });
+                Assert.Throws<InvalidOperationException>(() =>
+                {
+                    foreach (var power in powers)
+                        domainContext.Powers.Add(power);
+                    domainContext.SaveChanges();
+                });
+            }
         }
 
         [Fact]
@@ -35,7 +37,7 @@ namespace CityOfInfo.Domain.EntityFramework.Tests
         {
             var powers = new Power[]
             {
-                new Power{ Id = 10, Name = "test" },
+                new Power { Id = 10, Name = "test" },
                 new Power { Id = 20, Name = "other" },
             };
 
