@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using Xunit;
 
 namespace CityOfInfo.Domain.EntityFramework.Tests
@@ -20,7 +21,7 @@ namespace CityOfInfo.Domain.EntityFramework.Tests
                 new Power { Id = 0, Name = "test" },
                 new Power { Id = 0, Name = "other" },
             };
-
+            
             using (var domainContext = new DomainContext(Options()))
             {
                 Assert.Throws<InvalidOperationException>(() =>
@@ -92,7 +93,7 @@ namespace CityOfInfo.Domain.EntityFramework.Tests
         /// Options creates db context options scoped to the caller. Each new instance call to options will create a brand new empty database
         /// </summary>
         /// <returns></returns>
-        private static DbContextOptions Options()
+        private static DbContextOptions Options([CallerMemberName] string name = "database")
         {
             // Create a fresh service provider, and therefore a fresh 
             // InMemory database instance.
@@ -101,7 +102,7 @@ namespace CityOfInfo.Domain.EntityFramework.Tests
                 .BuildServiceProvider();
 
             return new DbContextOptionsBuilder()
-               .UseInMemoryDatabase("database")
+               .UseInMemoryDatabase(name)
                .UseInternalServiceProvider(serviceProvider)
                .Options;            
         }
