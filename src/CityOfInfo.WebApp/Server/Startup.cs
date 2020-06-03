@@ -82,11 +82,11 @@ namespace CityOfInfo.WebApp.Server
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
-                endpoints.Select().Filter().OrderBy().Count().MaxTop(10);
+                endpoints.Select().Filter().OrderBy().Count().MaxTop(100);
                 endpoints.MapODataRoute("odata", "odata", GetEdmModel());
 
-                endpoints.MapFallback("odata/{**slug}", HandleOdataFallbackAsync);
                 endpoints.MapFallbackToFile("{**slug}", "index.html");
+                endpoints.MapFallback("odata/{**slug}", HandleOdataFallbackAsync);                
             });
 
             var task = app.PopulateDomainContextAsync();

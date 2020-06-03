@@ -25,10 +25,10 @@ namespace CityOfInfo.WebApp.Client
                 .AddTransient<IDomainContext>(sp => 
                 {
                     // TODO: Fix DTD parsing exception when running this locally
-                    // var address = baseAddress;
-                    var address = "https://cityof.info/";
+                    var address = baseAddress;
+                    // var address = "https://cityof.info/";
                     var suffix = address.EndsWith('/') ? string.Empty : "/";
-                    suffix += "odata";
+                    suffix += "odata/";
                     return new DomainContext(address + suffix);
                 })                
                 .AddBlazorise(options =>

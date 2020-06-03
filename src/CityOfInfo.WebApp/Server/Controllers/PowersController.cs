@@ -8,7 +8,7 @@ namespace CityOfInfo.WebApp.Server.Controllers
 {
 
     [ApiController]
-    [Route("[controller]")]
+    [Route("odata/[controller]")]
     public class PowersController : ODataController
     {
         private readonly DomainContext domainContext;

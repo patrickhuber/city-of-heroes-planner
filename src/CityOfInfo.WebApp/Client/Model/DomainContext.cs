@@ -1,4 +1,4 @@
-﻿using CityOfInfo.Data.Mids;
+﻿using CityOfInfo.Domain;
 using Simple.OData.Client;
 using System;
 using System.Collections.Generic;

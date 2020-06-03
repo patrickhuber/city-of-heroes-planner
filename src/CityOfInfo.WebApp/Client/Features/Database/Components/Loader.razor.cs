@@ -21,33 +21,33 @@ namespace CityOfInfo.WebApp.Client.Features.Database.Components
 
         protected async override Task OnInitializedAsync()
         {
-            var annotations = new ODataFeedAnnotations();
-
-            var pageSize = 10;
+            var pageSize = 100;
             var pageIndex = 1;
             
             NumberLoaded = 0;
             PercentageLoaded = 0;
-            TotalCount = 0;
+            TotalCount = 1;
 
-            var client = new ODataClient("https://cityof.info/odata/");
-
+            var annotations = new ODataFeedAnnotations();
             do
             {
-                Console.WriteLine($"NumberLoaded: {NumberLoaded}, PercentageLoaded: {PercentageLoaded}, TotalCount: {TotalCount}, pageIndex: {pageIndex}, pageSize: {pageSize}");
-                var powers = await client
-                    .For<Power>("Powers")
+                var powers = await DomainContext
+                    .Powers
                     .Top(pageSize)
                     .Skip((pageIndex - 1) * pageSize)
-                    .FindEntriesAsync();
+                    .Select(x=>x.Id)
+                    .FindEntriesAsync(annotations);
+                                
+                var count = powers.Count();
+                if (count == 0)
+                    break;
 
                 TotalCount = (int)(annotations.Count ?? 0);
 
-                var count = powers.Count();
                 for (var i = 0; i < count; i++)
                 {
                     NumberLoaded++;
-                    PercentageLoaded = (int)(100d * ((double)NumberLoaded / TotalCount));
+                    PercentageLoaded = (int)(100d * ((double)NumberLoaded / (double)TotalCount));
                     StateHasChanged();
                 }                                
                 pageIndex++;

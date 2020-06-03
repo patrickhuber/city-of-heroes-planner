@@ -1,4 +1,5 @@
-﻿using CityOfInfo.Data.Mids;
+﻿using CityOfInfo.Domain;
+
 using Simple.OData.Client;
 
 namespace CityOfInfo.WebApp.Client.Model
