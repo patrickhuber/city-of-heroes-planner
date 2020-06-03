@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.0" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="3.1.4" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.4" />
-    <PackageReference Include="Microsoft.OData.Client" Version="7.6.4" />
+    <PackageReference Include="Simple.OData.Client" Version="5.12.0" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
     <PackageReference Include="System.Net.Http.Json" Version="3.2.0" />
     <PackageReference Include="TG.Blazor.IndexedDB" Version="1.5.0-preview" />
@@ -32,7 +32,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Connected Services\" />
     <Folder Include="Features\Builds\Pages\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>

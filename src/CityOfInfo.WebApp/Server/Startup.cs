@@ -85,6 +85,7 @@ namespace CityOfInfo.WebApp.Server
             });
 
             var task = app.PopulateDomainContextAsync();
+            
             task.Wait();
         }
 

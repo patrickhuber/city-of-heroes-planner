@@ -51,6 +51,8 @@ namespace CityOfInfo.WebApp.Client
                 .UseFontAwesomeIcons();
 
             await host.RunAsync();
+
+            Simple.OData.Client.V4Adapter.Reference();
         }
     }
 }
