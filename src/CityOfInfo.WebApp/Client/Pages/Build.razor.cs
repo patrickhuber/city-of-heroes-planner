@@ -15,7 +15,7 @@ using YamlDotNet.Serialization.NamingConventions;
 
 namespace CityOfInfo.WebApp.Client.Pages
 {
-    public partial class Build : ComponentBase
+    public partial class Build 
     {
         protected CompressionData CompressionData { get; set; }
         protected Character CharacterData { get; set; }

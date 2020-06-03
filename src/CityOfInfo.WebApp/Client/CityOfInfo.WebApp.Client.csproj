@@ -33,7 +33,6 @@
 
   <ItemGroup>
     <Folder Include="Connected Services\" />
-    <Folder Include="Features\Builds\Pages\" />
     <Folder Include="Services\" />
   </ItemGroup>
 

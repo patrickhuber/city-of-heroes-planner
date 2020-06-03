@@ -5,12 +5,15 @@ using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OData.Edm;
+using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CityOfInfo.WebApp.Server
 {
@@ -78,15 +81,23 @@ namespace CityOfInfo.WebApp.Server
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapControllers();                
-                endpoints.MapFallbackToFile("index.html");
+                endpoints.MapControllers();
                 endpoints.Select().Filter().OrderBy().Count().MaxTop(10);
-                endpoints.MapODataRoute("odata", "odata", GetEdmModel());                
+                endpoints.MapODataRoute("odata", "odata", GetEdmModel());
+
+                endpoints.MapFallback("odata/{**slug}", HandleOdataFallbackAsync);
+                endpoints.MapFallbackToFile("{**slug}", "index.html");
             });
 
             var task = app.PopulateDomainContextAsync();
             
             task.Wait();
+        }
+
+        private Task HandleOdataFallbackAsync(HttpContext context)
+        {
+            context.Response.StatusCode = StatusCodes.Status404NotFound;
+            return Task.FromResult(0);
         }
 
         private IEdmModel GetEdmModel()
