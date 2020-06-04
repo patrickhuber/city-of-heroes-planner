@@ -2,7 +2,7 @@
 
 ## Status
 
-[![Build Status](https://patrickhuber.visualstudio.com/Personal%20Projects/_apis/build/status/City%20of%20Heroes%20Planner?branchName=master)](https://patrickhuber.visualstudio.com/Personal%20Projects/_build/latest?definitionId=7&branchName=master)
+[![Build Status](https://patrickhuber.visualstudio.com/Personal%20Projects/_apis/build/status/patrickhuber.city-of-info?branchName=master)](https://patrickhuber.visualstudio.com/Personal%20Projects/_build/latest?definitionId=9&branchName=master)
 
 ## Description
 
