@@ -1,15 +1,21 @@
 ﻿using System;
 
-namespace CityOfInfo.Data.Mids
+namespace CityOfInfo.Domain
 {
-    /// <summary>
-    /// TODO: move this out into the domain model
-    /// </summary>
     public class SemanticVersion : IComparable<SemanticVersion>, IEquatable<SemanticVersion>
     {
         public int Major { get; set; }
         public int Minor { get; set; }
         public int Patch { get; set; }
+
+        public SemanticVersion() { }
+
+        public SemanticVersion(int major, int minor, int patch)         
+        {
+            Major = major;
+            Minor = minor;
+            Patch = patch;
+        }
 
         public int CompareTo(SemanticVersion other)
         {
@@ -34,7 +40,7 @@ namespace CityOfInfo.Data.Mids
         }
 
         public override bool Equals(object obj)
-        { 
+        {
             // null case handled in CompareTo
             return Equals(obj as SemanticVersion);
         }

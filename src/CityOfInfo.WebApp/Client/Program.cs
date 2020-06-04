@@ -8,7 +8,8 @@ using Blazorise.Bootstrap;
 using Blazorise.Icons.FontAwesome;
 using TG.Blazor.IndexedDB;
 using System.Collections.Generic;
-using CityOfInfo.WebApp.Client.Model;
+using CityOfInfo.WebApp.Client.Models;
+using CityOfInfo.WebApp.Client.Services;
 
 namespace CityOfInfo.WebApp.Client
 {
@@ -22,15 +23,9 @@ namespace CityOfInfo.WebApp.Client
             var baseAddress = builder.HostEnvironment.BaseAddress;
 
             builder.Services
-                .AddTransient<IDomainContext>(sp => 
-                {
-                    // TODO: Fix DTD parsing exception when running this locally
-                    var address = baseAddress;
-                    // var address = "https://cityof.info/";
-                    var suffix = address.EndsWith('/') ? string.Empty : "/";
-                    suffix += "odata/";
-                    return new DomainContext(address + suffix);
-                })                
+                .AddSingleton<IDomainContextFactory, DomainContextFactory>()
+                .AddSingleton<IDatabaseQueueService, DatabaseQueueService>()
+                .AddSingleton<IDatabaseServiceLocator>(x=>new DatabaseServiceLocator(baseAddress))
                 .AddBlazorise(options =>
                 {
                     options.ChangeTextOnKeyPress = true;

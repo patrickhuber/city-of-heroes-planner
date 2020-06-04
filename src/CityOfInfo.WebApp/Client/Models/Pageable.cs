@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CityOfInfo.WebApp.Client.Model
+namespace CityOfInfo.WebApp.Client.Models
 {
     public class Pageable<T> : IPageable<T>
         where T : class

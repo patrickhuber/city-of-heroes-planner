@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CityOfInfo.WebApp.Client.Model
+namespace CityOfInfo.WebApp.Client.Models
 {
     public class PageResult<T> : IPageResult<T>
     {

@@ -1,0 +1,7 @@
+﻿@using CityOfInfo.WebApp.Shared
+<DataGrid TItem="Database"
+            Data="@Databases" >
+    <DataGridColumn TItem="Database" Field="@nameof(Database.Id)" Caption="#" Sortable="false" />
+    <DataGridColumn TItem="Database" Field="@nameof(Database.Name)" Caption="Name" Sortable="false" />
+    <DataGridColumn TItem="Database" Field="@nameof(Database.SemanticVersion)" Caption="Version" Sortable="false" />
+</DataGrid>

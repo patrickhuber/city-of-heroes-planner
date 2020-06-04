@@ -2,7 +2,7 @@
 
 using Simple.OData.Client;
 
-namespace CityOfInfo.WebApp.Client.Model
+namespace CityOfInfo.WebApp.Client.Models
 {
     public interface IDomainContext
     {

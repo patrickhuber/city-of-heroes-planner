@@ -1,0 +1,8 @@
+﻿@if (@IsWorking)
+{
+<Progress>
+  <ProgressBar Value="@PercentageLoaded">
+      @ChildContent
+  </ProgressBar>
+</Progress>
+}

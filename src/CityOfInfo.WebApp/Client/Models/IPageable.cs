@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CityOfInfo.WebApp.Client.Model
+namespace CityOfInfo.WebApp.Client.Models
 {
     public interface IPageResult<T> : IEnumerable<T>
-    { 
-        ODataFeedAnnotations Annotations { get; }        
+    {
+        ODataFeedAnnotations Annotations { get; }
     }
 
     public interface IPageable<T>
